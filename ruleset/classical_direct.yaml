@@ -11,12 +11,11 @@ payload:
   - IP-CIDR,127.0.0.0/8
   - IP-CIDR6,::1/128
   - IP-CIDR6,fd00::/8
-    #- GEOIP,CN
+  #- GEOIP,CN
 
-  #不知道啥目标端口访问端口 一通乱设，目的是该端口不走代理（QB 34567 TR端口 45678）
-  #- DST-PORT,80
+  #不知道啥目标端口访问端口 一通乱设，目的是该端口不走代理（QB 21333 TR端口 51413）
   #- DST-PORT,9000
   - SRC-PORT,21333
   #transmission
-  #- DST-PORT,9000
+  - DST-PORT,51413
   - SRC-PORT,51413

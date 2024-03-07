@@ -818,7 +818,7 @@ rules:
   - RULE-SET,gfw,🚀 节点选择
   - RULE-SET,telegramcidr,📲 电报信息
 
-    #- DOMAIN-KEYWORD,limetorrents.,🚀 节点选择
+  #- DOMAIN-KEYWORD,limetorrents.,🚀 节点选择
 
   #- DOMAIN-SUFFIX,,🚀 节点选择
 

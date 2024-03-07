@@ -792,7 +792,7 @@ rule-providers:
     type: http # file
     format: 'yaml' # or 'text'
     url: "https://jiahe.eu.org:15443/clash_verge/ruleset/classical_direct.yaml"
-    path: ./classical_direct.yaml
+    path: ./ruleset/classical_direct.yaml
     interval: 86400
 
   classical_proxy:
@@ -800,7 +800,7 @@ rule-providers:
     type: http # file
     format: 'yaml' # or 'text'
     url: "https://jiahe.eu.org:15443/clash_verge/ruleset/classical_proxy.yaml"
-    path: ./classical_proxy.yaml
+    path: ./ruleset/classical_proxy.yaml
     interval: 86400
 
 rules:
@@ -825,7 +825,7 @@ rules:
   - GEOIP,LAN,🎯 全球直连
   - GEOIP,CN,🎯 全球直连,no-resolve
 
-    #- DOMAIN-KEYWORD,limetorrents.,🚀 节点选择
+  #- DOMAIN-KEYWORD,limetorrents.,🚀 节点选择
 
   #- DOMAIN-SUFFIX,,🚀 节点选择
 
