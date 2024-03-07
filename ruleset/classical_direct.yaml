@@ -1,0 +1,22 @@
+payload:
+  - PROCESS-NAME,Weiyun
+  - DOMAIN,jiahe.eu.org
+  - DOMAIN-SUFFIX,jiahe.eu.org
+  - DOMAIN-KEYWORD,aria2
+  - DOMAIN-KEYWORD,xunlei
+  - DOMAIN-KEYWORD,yunpan
+  - DOMAIN-KEYWORD,XLLiveUD
+
+  - SRC-IP-CIDR,192.168.1.201/32
+  - IP-CIDR,127.0.0.0/8
+  - IP-CIDR6,::1/128
+  - IP-CIDR6,fd00::/8
+    #- GEOIP,CN
+
+  #不知道啥目标端口访问端口 一通乱设，目的是该端口不走代理（QB 34567 TR端口 45678）
+  #- DST-PORT,80
+  #- DST-PORT,9000
+  - SRC-PORT,21333
+  #transmission
+  #- DST-PORT,9000
+  - SRC-PORT,51413

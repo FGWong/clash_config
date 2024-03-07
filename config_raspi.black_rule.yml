@@ -787,32 +787,41 @@ rule-providers:
     path: ./ruleset/manual_proxy.yaml
     interval: 86400
 
+  classical_direct:
+    behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
+    type: http # file
+    format: 'yaml' # or 'text'
+    url: "https://jiahe.eu.org:15443/clash_verge/ruleset/classical_direct.yaml"
+    path: ./classical_direct.yaml
+    interval: 86400
+
+  classical_proxy:
+    behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
+    type: http # file
+    format: 'yaml' # or 'text'
+    url: "https://jiahe.eu.org:15443/clash_verge/ruleset/classical_proxy.yaml"
+    path: ./classical_proxy.yaml
+    interval: 86400
+
 rules:
   - RULE-SET,applications,🎯 全球直连
+  - RULE-SET,classical_direct,🎯 全球直连
+  - RULE-SET,manual_direct,🎯 全球直连
+  - RULE-SET,classical_proxy,🚀 节点选择
+  - RULE-SET,manual_proxy,🚀 节点选择
+
   - DOMAIN,clash.razord.top,🎯 全球直连
   - DOMAIN,yacd.haishan.me,🎯 全球直连
   - RULE-SET,private,🎯 全球直连
   - RULE-SET,reject,🛑 全球拦截
   - RULE-SET,tld-not-cn,🚀 节点选择
   - RULE-SET,gfw,🚀 节点选择
-  - RULE-SET,manual_proxy,🚀 节点选择
-  - RULE-SET,manual_direct,🎯 全球直连
   - RULE-SET,telegramcidr,📲 电报信息
 
-  - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
-  - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
-  - PROCESS-NAME,Weiyun,🎯 全球直连
-  - DOMAIN-KEYWORD,aria2,🎯 全球直连
-  - DOMAIN-KEYWORD,xunlei,🎯 全球直连
-  - DOMAIN-KEYWORD,yunpan,🎯 全球直连
-  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
-  - DOMAIN-KEYWORD,limetorrents.,🚀 节点选择
+    #- DOMAIN-KEYWORD,limetorrents.,🚀 节点选择
 
   #- DOMAIN-SUFFIX,,🚀 节点选择
 
-    #- DOMAIN-KEYWORD,chdbits,🎯 全球直连
-
-  #不知道啥目标端口访问端口 一通乱设，目的是该端口不走代理（QB 34567 TR端口 45678）
   #- DST-PORT,34567,🎯 全球直连
   #- DST-PORT,45678,🎯 全球直连
   #- SRC-PORT,34567,🎯 全球直连
