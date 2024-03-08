@@ -1,4 +1,6 @@
 payload:
+  - '+.gcore.com'
+  - '+.pp.ua'
   - '+.chdbits.xyz'
   - '+.v2rayse.com'
   - '+.zooqle.com'
@@ -9,4 +11,4 @@ payload:
   - '+.svlik.com'
   - '+.qianghub.com'
   - '+.gonglue.us'
-
+  - '+.googleapis.cn'
