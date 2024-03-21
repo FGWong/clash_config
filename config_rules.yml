@@ -532,6 +532,7 @@ proxy-groups:
       - manual
       - William_group
       - xqc-common
+      - cflare
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -570,6 +571,12 @@ proxy-groups:
     type: url-test
     use:
       - xqccommon
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+  - name: cflare
+    type: url-test
+    use:
+      - cldflare
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: ⚡ 负载均衡
@@ -680,7 +687,16 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-
+  cldflare:
+    url: "https://jiahe.eu.org:15443/clash_proxy/cloudflare-proxies.yaml"
+    type: http
+    #type: file
+    interval: 3600
+    path: local_data/xqc-provider.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
 rule-providers:
   reject:
     type: http
