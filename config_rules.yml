@@ -540,14 +540,12 @@ proxy-groups:
     use:
       - common
       - xqccommon
-  - name: William_group
+  - name: cflare
     type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    filter: "WilliamStar|NoMoreWalls" #(?i) (?A) 等语法无效
-    #exclude-filter: "(?i)Flik" #无效
     use:
-      - common
+      - cldflare
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
   - name: 📲 电报信息
     type: select
     proxies:
@@ -561,22 +559,24 @@ proxy-groups:
       - common
       - trojan
       - xqccommon
-  - name: 🔰 trojan_group
+  - name: William_group
     type: url-test
-    use:
-      - trojan
-    url: 'http://www.gstatic.com/generate_204'
+    url: http://www.gstatic.com/generate_204
     interval: 300
+    filter: "WilliamStar|NoMoreWalls" #(?i) (?A) 等语法无效
+    #exclude-filter: "(?i)Flik" #无效
+    use:
+      - common
   - name: xqc-common
     type: url-test
     use:
       - xqccommon
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
-  - name: cflare
+  - name: 🔰 trojan_group
     type: url-test
     use:
-      - cldflare
+      - trojan
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   - name: ⚡ 负载均衡
