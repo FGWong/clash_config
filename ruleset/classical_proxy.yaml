@@ -2,3 +2,4 @@ payload:
   - DOMAIN-KEYWORD,limetorrents.
   - DOMAIN-SUFFIX,youneed.win
   - DOMAIN-SUFFIX,onedrive.live.com
+  - PROCESS-NAME,Thunderbird
