@@ -513,16 +513,6 @@ proxy:
     type: socks5 # 出站代理类型，支持 HTTP、HTTPS、SOCKS4 和 SOCKS5。
 
 proxy-groups:
-  - name: 全局选择
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🛑 全球拦截
-      - 🐟 漏网之鱼
-      - 🎏 失败切换
-      - ⚡ 负载均衡
   - name: 🚀 节点选择
     type: select
     proxies:
@@ -533,6 +523,12 @@ proxy-groups:
       - William_group
       - xqc-common
       - cflare
+  - name: cflare
+    type: url-test
+    use:
+      - cldflare
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -540,12 +536,16 @@ proxy-groups:
     use:
       - common
       - xqccommon
-  - name: cflare
-    type: url-test
-    use:
-      - cldflare
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+  - name: 全局选择
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🛑 全球拦截
+      - 🐟 漏网之鱼
+      - 🎏 失败切换
+      - ⚡ 负载均衡
   - name: 📲 电报信息
     type: select
     proxies:
@@ -691,7 +691,7 @@ proxy-providers:
     url: "https://jiahe.eu.org:15443/clash_proxy/cloudflare-proxies.yaml"
     type: http
     #type: file
-    interval: 3600
+    interval: 180807
     path: local_data/xqc-provider.yaml
     health-check:
       enable: true
@@ -842,9 +842,7 @@ rules:
   - GEOIP,CN,🎯 全球直连,no-resolve
 
   #- DOMAIN-KEYWORD,limetorrents.,🚀 节点选择
-
   #- DOMAIN-SUFFIX,,🚀 节点选择
-
   #- DST-PORT,34567,🎯 全球直连
   #- DST-PORT,45678,🎯 全球直连
   #- SRC-PORT,34567,🎯 全球直连

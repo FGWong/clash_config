@@ -1,5 +1,6 @@
 payload:
   - '+.local'
+  - '10698v939q.goho.co'
   - 'clayton.eu.or'
   - 'jiahe.eu.or'
   - 'unionpay.eu.or'
@@ -11,7 +12,6 @@ payload:
   - '+.jiahe.eu.or'
   - '+.jiahe.eu.org'
   - '+.unionpay.eu.or'
-  - '+.unionpay.eu.org'
   - '+.mycloudnas.com'
   - '+.myqnapcloud.cn'
   - '+.myqnapcloud.com'
@@ -27,6 +27,7 @@ payload:
   - '+.btschool.club'
   - '+.chdbits.co'
   - '+.chdbits.xyz'
+  - '+.chaoxing.com'
   - '+.cinefiles.info'
   - '+.crabpt.vip'
   - '+.dicmusic.club'
