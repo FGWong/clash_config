@@ -519,9 +519,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - ⚡ 负载均衡
-      - manual
+      - 🔰 manual
       - William_group
-      - xqc-common
       - cflare
   - name: cflare
     type: url-test
@@ -535,7 +534,6 @@ proxy-groups:
     interval: 300
     use:
       - common
-      - xqccommon
   - name: 全局选择
     type: select
     proxies:
@@ -553,12 +551,17 @@ proxy-groups:
       - ♻️ 自动选择
       - 🚀 节点选择
       - ⚡ 负载均衡
-  - name: manual
+  - name: 🔰 manual
     type: select
     use:
       - common
-      - trojan
-      - xqccommon
+      - cldflare
+  - name: CFWarp
+    type: url-test
+    use:
+      - cf-warp
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
   - name: William_group
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -567,18 +570,6 @@ proxy-groups:
     #exclude-filter: "(?i)Flik" #无效
     use:
       - common
-  - name: xqc-common
-    type: url-test
-    use:
-      - xqccommon
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 300
-  - name: 🔰 trojan_group
-    type: url-test
-    use:
-      - trojan
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 300
   - name: ⚡ 负载均衡
     type: load-balance
     use:
@@ -662,27 +653,17 @@ proxy-providers:
     type: http
     #type: file
     interval: 3600
-    path: local_data/provider.yaml
+    path: local_data/common-proxies.yaml
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-  trojan:
+  cf-warp:
     type: http
     #type: file
-    url: "https://jiahe.eu.org:15443/clash_proxy/trojan_proxies.yaml"
-    interval: 3600
-    path: local_data/provider.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
-  xqccommon:
-    url: "https://jiahe.eu.org:15443/clash_proxy/xqc-proxies.yaml"
-    type: http
-    #type: file
-    interval: 3600
-    path: local_data/xqc-provider.yaml
+    url: "https://jiahe.eu.org:15443/clash_proxy/warp-proxies.yaml"
+    interval: 86411
+    path: local_data/warp-proxies.yaml
     health-check:
       enable: true
       interval: 600
@@ -692,7 +673,7 @@ proxy-providers:
     type: http
     #type: file
     interval: 180807
-    path: local_data/xqc-provider.yaml
+    path: local_data/cloudflare-proxies.yaml
     health-check:
       enable: true
       interval: 600
