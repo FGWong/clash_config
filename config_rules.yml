@@ -773,14 +773,14 @@ rule-providers:
     path: ./ruleset/applications.yaml
     interval: 86400
 
-  manual_direct:
+  artificial_direct:
     type: http
     behavior: domain
     url: "https://jiahe.eu.org:15443/clash_verge/ruleset/manual_direct.yaml"
     path: ./ruleset/manual_direct.yaml
     interval: 86400
 
-  manual_proxy:
+  artificial_proxy:
     type: http
     behavior: domain
     url: "https://jiahe.eu.org:15443/clash_verge/ruleset/manual_proxy.yaml"
@@ -806,9 +806,9 @@ rule-providers:
 rules:
   - RULE-SET,applications,🎯 全球直连
   - RULE-SET,classical_direct,🎯 全球直连
-  - RULE-SET,manual_direct,🎯 全球直连
+  - RULE-SET,artificial_direct,🎯 全球直连
   - RULE-SET,classical_proxy,🚀 节点选择
-  - RULE-SET,manual_proxy,🚀 节点选择
+  - RULE-SET,artificial_proxy,🚀 节点选择
 
   - DOMAIN,clash.razord.top,🎯 全球直连
   - DOMAIN,yacd.haishan.me,🎯 全球直连
