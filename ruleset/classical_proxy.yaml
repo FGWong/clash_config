@@ -1,5 +1,6 @@
 payload:
   - DOMAIN-KEYWORD,limetorrents.
+  - DOMAIN-KEYWORD,sci-hub.
   - DOMAIN-SUFFIX,youneed.win
   - DOMAIN-SUFFIX,onedrive.live.com
   - PROCESS-NAME,Thunderbird
