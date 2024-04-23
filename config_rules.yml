@@ -532,7 +532,7 @@ proxy-groups:
     interval: 1200
   - name: ♻️ 自动选择
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: 'http://www.gstatic.com/generate_204'
     interval: 1200
     use:
       - common
@@ -660,7 +660,7 @@ proxy-providers:
     health-check:
       enable: true
       interval: 1200
-      url: http://www.gstatic.com/generate_204
+      url: 'http://www.gstatic.com/generate_204'
   cf-warp:
     type: http
     #type: file
@@ -670,7 +670,7 @@ proxy-providers:
     health-check:
       enable: true
       interval: 1200
-      url: http://www.gstatic.com/generate_204
+      url: 'http://www.gstatic.com/generate_204'
   cldflare:
     url: "https://jiahe.eu.org:15443/clash_proxy/cloudflare-proxies.yaml"
     type: http
@@ -680,11 +680,12 @@ proxy-providers:
     health-check:
       enable: true
       interval: 1200
-      url: http://www.gstatic.com/generate_204
+      url: 'http://www.gstatic.com/generate_204'
 rule-providers:
   reject:
     type: http
     behavior: domain
+    #url: from "https://github.com/Loyalsoldier/clash-rules/tree/release"
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
     path: ./ruleset/reject.yaml
     interval: 86400
@@ -773,17 +774,56 @@ rule-providers:
     path: ./ruleset/applications.yaml
     interval: 86400
 
+  UnBan:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/UnBan.yaml"
+    path: ./ruleset/UnBan.yaml
+    interval: 86400
+  BanAD:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml"
+    path: ./ruleset/BanAD.yaml
+    interval: 86400
+  BanEasyList:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyList.yaml"
+    path: ./ruleset/BanEasyList.yaml
+    interval: 86400
+  BanEasyListChina:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyListChina.yaml"
+    path: ./ruleset/BanEasyListChina.yaml
+    interval: 86400
+  BanEasyPrivacy:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanEasyPrivacy.yaml"
+    path: ./ruleset/BanEasyPrivacy.yaml
+    interval: 86400
+  BanProgramAD:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml"
+    path: ./ruleset/BanProgramAD.yaml
+    interval: 86400
+
   artificial_direct:
     type: http
     behavior: domain
-    url: "https://jiahe.eu.org:15443/clash_verge/ruleset/manual_direct.yaml"
+    #url: "https://jiahe.eu.org:15443/clash_verge/ruleset/manual_direct.yaml"
+    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/manual_direct.yaml"
     path: ./ruleset/manual_direct.yaml
     interval: 86400
 
   artificial_proxy:
     type: http
     behavior: domain
-    url: "https://jiahe.eu.org:15443/clash_verge/ruleset/manual_proxy.yaml"
+    #url: "https://jiahe.eu.org:15443/clash_verge/ruleset/manual_proxy.yaml"
+    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/manual_proxy.yaml"
     path: ./ruleset/manual_proxy.yaml
     interval: 86400
 
@@ -791,7 +831,8 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    url: "https://jiahe.eu.org:15443/clash_verge/ruleset/classical_direct.yaml"
+    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/classical_direct.yaml"
+    #url: "https://jiahe.eu.org:15443/clash_verge/ruleset/classical_direct.yaml"
     path: ./ruleset/classical_direct.yaml
     interval: 86400
 
@@ -799,7 +840,8 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    url: "https://jiahe.eu.org:15443/clash_verge/ruleset/classical_proxy.yaml"
+    #url: "https://jiahe.eu.org:15443/clash_verge/ruleset/classical_proxy.yaml"
+    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/classical_proxy.yaml"
     path: ./ruleset/classical_proxy.yaml
     interval: 86400
 
@@ -807,13 +849,19 @@ rules:
   - RULE-SET,applications,🎯 全球直连
   - RULE-SET,classical_direct,🎯 全球直连
   - RULE-SET,artificial_direct,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
   - RULE-SET,classical_proxy,🚀 节点选择
   - RULE-SET,artificial_proxy,🚀 节点选择
 
   - DOMAIN,clash.razord.top,🎯 全球直连
   - DOMAIN,yacd.haishan.me,🎯 全球直连
+
   - RULE-SET,private,🎯 全球直连
   - RULE-SET,reject,🛑 全球拦截
+  - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,BanEasyList,🛑 全球拦截
+  - RULE-SET,BanEasyPrivacy,🛑 全球拦截
+  - RULE-SET,BanProgramAD,🛑 全球拦截
   - RULE-SET,icloud,🎯 全球直连
   - RULE-SET,apple,🍎 苹果服务
   - RULE-SET,google,🚀 节点选择
