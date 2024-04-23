@@ -529,11 +529,11 @@ proxy-groups:
     use:
       - cldflare
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 1200
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 300
+    interval: 1200
     use:
       - common
   - name: 全局选择
@@ -563,11 +563,11 @@ proxy-groups:
     use:
       - cf-warp
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 1200
   - name: William_group
     type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1200
     filter: "WilliamStar|NoMoreWalls" #(?i) (?A) 等语法无效
     #exclude-filter: "(?i)Flik" #无效
     use:
@@ -577,7 +577,7 @@ proxy-groups:
     use:
       - common
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 1200
     strategy: consistent-hashing # or round-robin
   - name: 🎯 全球直连
     type: select
@@ -599,7 +599,7 @@ proxy-groups:
     use:
       - common
     url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+    interval: 1200
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -659,7 +659,7 @@ proxy-providers:
     path: local_data/common-proxies.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 1200
       url: http://www.gstatic.com/generate_204
   cf-warp:
     type: http
@@ -669,7 +669,7 @@ proxy-providers:
     path: local_data/warp-proxies.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 1200
       url: http://www.gstatic.com/generate_204
   cldflare:
     url: "https://jiahe.eu.org:15443/clash_proxy/cloudflare-proxies.yaml"
@@ -679,7 +679,7 @@ proxy-providers:
     path: local_data/cloudflare-proxies.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 1200
       url: http://www.gstatic.com/generate_204
 rule-providers:
   reject:
