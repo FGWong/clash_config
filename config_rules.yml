@@ -810,6 +810,25 @@ rule-providers:
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml"
     path: ./ruleset/BanProgramAD.yaml
     interval: 86400
+  GoogleCN:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleCN.yaml"
+    path: ./ruleset/GoogleCN.yaml
+    interval: 86400
+  Download:
+    type: http
+    behavior: classical
+    #url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Download.yaml"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Download.yaml"
+    path: ./ruleset/Download.yaml
+    interval: 86400
+  OneDrive:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
+    path: ./ruleset/OneDrive.yaml
+    interval: 86400
 
   artificial_direct:
     type: http
@@ -846,30 +865,33 @@ rule-providers:
     interval: 86400
 
 rules:
-  - RULE-SET,applications,🎯 全球直连
   - RULE-SET,classical_direct,🎯 全球直连
   - RULE-SET,artificial_direct,🎯 全球直连
-  - RULE-SET,UnBan,🎯 全球直连
   - RULE-SET,classical_proxy,🚀 节点选择
   - RULE-SET,artificial_proxy,🚀 节点选择
 
   - DOMAIN,clash.razord.top,🎯 全球直连
   - DOMAIN,yacd.haishan.me,🎯 全球直连
 
-  - RULE-SET,private,🎯 全球直连
   - RULE-SET,reject,🛑 全球拦截
   - RULE-SET,BanAD,🛑 全球拦截
-  - RULE-SET,BanEasyList,🛑 全球拦截
-  - RULE-SET,BanEasyPrivacy,🛑 全球拦截
   - RULE-SET,BanProgramAD,🛑 全球拦截
+
+  - RULE-SET,applications,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,private,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,telegramcidr,📲 电报信息
+  - RULE-SET,google,🚀 节点选择
+  - RULE-SET,OneDrive,🚀 节点选择
   - RULE-SET,icloud,🎯 全球直连
   - RULE-SET,apple,🍎 苹果服务
-  - RULE-SET,google,🚀 节点选择
+
   - RULE-SET,proxy,🚀 节点选择
   - RULE-SET,direct,🎯 全球直连
   - RULE-SET,lancidr,🎯 全球直连
   - RULE-SET,cncidr,🎯 全球直连
-  - RULE-SET,telegramcidr,📲 电报信息
   - GEOIP,LAN,🎯 全球直连
   - GEOIP,CN,🎯 全球直连,no-resolve
 
