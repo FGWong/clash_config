@@ -984,20 +984,13 @@ proxies:
   server: 103.172.116.103
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: openRunner|🇯🇵 日本
-  password: BZjkHMao
-  port: 51001
-  server: 183.249.207.245
-  skip-cert-verify: true
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: openRunner|🇺🇸 美国3
+  name: openRunner|🇸🇬 新加坡2
   network: ws
-  port: 2095
-  server: cfcdn1.sanfencdn9.com
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -1005,15 +998,62 @@ proxies:
   uuid: a1285794-a9fd-4423-83f5-aeecc84dd76d
   ws-opts:
     headers:
-      Host: us82pRzxDMb.fzbqfrse.xyz
-    path: /video/qYZue4zaWS
+      Host: 7nAi74jJsg1.yofnhkfc.xyz
+    path: /video/c9efxRCi
 - client-fingerprint: chrome
-  name: openRunner|🇺🇸 美国5
+  name: openRunner|🇸🇬 新加坡
+  password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2
+  port: 20230
+  server: sg08.421421.xyz
+  skip-cert-verify: false
+  sni: 421421.xyz
+  type: trojan
+- client-fingerprint: chrome
+  name: openRunner|🇸🇬 新加坡 2
   password: BZjkHMao
-  port: 51003
-  server: 112.29.94.23
+  port: 51002
+  server: 120.226.50.90
   skip-cert-verify: true
   type: trojan
+- client-fingerprint: chrome
+  name: openRunner|🇩🇪 德国
+  password: BZjkHMao
+  port: 40316
+  server: 36.138.99.56
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: openRunner|🇰🇷 韩国
+  password: 7b5f8aa5-16b9-40fa-9696-a6f034b1892e
+  port: 23827
+  server: kor.lzzccc.com
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: openRunner|🇰🇷 韩国特殊
+  password: amazonskr05
+  port: 443
+  server: 34.212.89.209
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: openRunner|🇭🇰 香港
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
 - alterId: 0
   cipher: auto
   name: dayfree|🇺🇸_US_美国_2
@@ -1039,12 +1079,6 @@ proxies:
   udp: true
   ws-opts:
     path: /argox-tr
-- name: mfuu|🇨🇳CN-36.138.99.56-170
-  password: BZjkHMao
-  port: 40316
-  server: 36.138.99.56
-  skip-cert-verify: true
-  type: trojan
 - alterId: 0
   cipher: auto
   name: rokate||13.09Mb
@@ -1183,17 +1217,6 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- grpc-opts:
-    grpc-service-name: 443trojan
-  name: blobFree|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
-  network: grpc
-  password: qj1Dz1CJmFQRhWr1SP80aA
-  port: 443
-  server: 172.67.204.84
-  skip-cert-verify: true
-  sni: cdn-21.gsmxreality.com
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: mahdiblanda|🇸🇬SG-47.128.230.112-3350 | 21.926MB
   password: amazonskr05
