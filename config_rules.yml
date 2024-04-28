@@ -649,7 +649,7 @@ proxy-groups:
 
 proxy-providers:
   common:
-    url: "https://jiahe.eu.org:15443/clash_proxy/common_proxies.yaml"
+    url: "https://jiahe.eu.org:15443/clash_verge/common_proxies.yaml"
     #exclude-type: "Shadowsocks|Http"
     #exclude-filter: "(?i)港|hk|hongkong|hong kong"
     #filter: "(?i)港|hk|hongkong|hong kong"
@@ -664,7 +664,7 @@ proxy-providers:
   cf-warp:
     type: http
     #type: file
-    url: "https://jiahe.eu.org:15443/clash_proxy/warp-proxies.yaml"
+    url: "https://jiahe.eu.org:15443/clash_verge/warp-proxies.yaml"
     interval: 46411
     path: local_data/warp-proxies.yaml
     health-check:
@@ -672,7 +672,7 @@ proxy-providers:
       interval: 1200
       url: 'http://www.gstatic.com/generate_204'
   cldflare:
-    url: "https://jiahe.eu.org:15443/clash_proxy/cloudflare-proxies.yaml"
+    url: "https://jiahe.eu.org:15443/clash_verge/cloudflare-proxies.yaml"
     type: http
     #type: file
     interval: 10807
