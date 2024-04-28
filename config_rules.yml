@@ -665,7 +665,7 @@ proxy-providers:
     type: http
     #type: file
     url: "https://jiahe.eu.org:15443/clash_proxy/warp-proxies.yaml"
-    interval: 86411
+    interval: 46411
     path: local_data/warp-proxies.yaml
     health-check:
       enable: true
@@ -675,12 +675,13 @@ proxy-providers:
     url: "https://jiahe.eu.org:15443/clash_proxy/cloudflare-proxies.yaml"
     type: http
     #type: file
-    interval: 180807
+    interval: 10807
     path: local_data/cloudflare-proxies.yaml
     health-check:
       enable: true
       interval: 1200
       url: 'http://www.gstatic.com/generate_204'
+
 rule-providers:
   reject:
     type: http
@@ -833,7 +834,6 @@ rule-providers:
   artificial_direct:
     type: http
     behavior: domain
-    #url: "https://jiahe.eu.org:15443/clash_verge/ruleset/manual_direct.yaml"
     url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/manual_direct.yaml"
     path: ./ruleset/manual_direct.yaml
     interval: 86400
@@ -841,7 +841,6 @@ rule-providers:
   artificial_proxy:
     type: http
     behavior: domain
-    #url: "https://jiahe.eu.org:15443/clash_verge/ruleset/manual_proxy.yaml"
     url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/manual_proxy.yaml"
     path: ./ruleset/manual_proxy.yaml
     interval: 86400
@@ -859,7 +858,6 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    #url: "https://jiahe.eu.org:15443/clash_verge/ruleset/classical_proxy.yaml"
     url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/classical_proxy.yaml"
     path: ./ruleset/classical_proxy.yaml
     interval: 86400
