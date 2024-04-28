@@ -1,0 +1,785 @@
+proxies:
+- client-fingerprint: random
+  name: 官方优选
+  network: ws
+  port: 2053
+  server: icook.tw
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 官方线路
+  network: ws
+  port: 443
+  server: cloudflare.cfgo.cc
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: HK
+  network: ws
+  port: 443
+  server: 47.242.60.161
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: HK 2
+  network: ws
+  port: 2053
+  server: 47.243.173.187
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: HK 3
+  network: ws
+  port: 2053
+  server: 47.242.174.27
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: HK 4
+  network: ws
+  port: 2096
+  server: 47.242.174.27
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: HK 5
+  network: ws
+  port: 8443
+  server: 47.242.174.27
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: HK 6
+  network: ws
+  port: 2087
+  server: 47.242.174.27
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: HK 7
+  network: ws
+  port: 2083
+  server: 47.242.174.27
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: HK 8
+  network: ws
+  port: 8443
+  server: 47.243.173.187
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: JP
+  network: ws
+  port: 34237
+  server: 107.165.195.71
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: JP 2
+  network: ws
+  port: 443
+  server: 168.138.46.67
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: JP 3
+  network: ws
+  port: 443
+  server: 140.238.52.86
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: JP 4
+  network: ws
+  port: 443
+  server: 141.147.178.154
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: US
+  network: ws
+  port: 2096
+  server: 188.114.99.1
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: US 2
+  network: ws
+  port: 8443
+  server: 162.159.195.182
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: US 3
+  network: ws
+  port: 2053
+  server: 162.159.192.215
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: V64IV
+  network: ws
+  port: 443
+  server: '2606:4700::'
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: USm
+  network: ws
+  port: 2053
+  server: 172.67.192.162
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: USm 2
+  network: ws
+  port: 2083
+  server: 172.67.75.171
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: USm 3
+  network: ws
+  port: 2087
+  server: 172.67.144.121
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: USm 4
+  network: ws
+  port: 2096
+  server: 172.67.73.21
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: USm 5
+  network: ws
+  port: 443
+  server: 172.67.203.168
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: USu
+  network: ws
+  port: 8443
+  server: 172.64.161.172
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: USu 2
+  network: ws
+  port: 2053
+  server: 172.67.87.96
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: CRu
+  network: ws
+  port: 2083
+  server: 190.93.246.194
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: USu 3
+  network: ws
+  port: 2096
+  server: 172.67.37.50
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: USu 4
+  network: ws
+  port: 2096
+  server: 172.67.96.16
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: USu 5
+  network: ws
+  port: 2053
+  server: 172.67.190.25
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: USu 6
+  network: ws
+  port: 2083
+  server: 172.67.21.239
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: USu 7
+  network: ws
+  port: 2087
+  server: 162.159.249.207
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: USu 8
+  network: ws
+  port: 2096
+  server: 172.67.85.169
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: USu 9
+  network: ws
+  port: 443
+  server: 172.64.103.128
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: USu 10
+  network: ws
+  port: 8443
+  server: 172.67.7.92
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: UNu
+  network: ws
+  port: 2053
+  server: 172.64.135.119
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: UNu 2
+  network: ws
+  port: 2083
+  server: 172.67.159.90
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: UNu 3
+  network: ws
+  port: 2087
+  server: 172.67.86.200
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: UNu 4
+  network: ws
+  port: 2096
+  server: 172.67.185.98
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: BR
+  network: ws
+  port: 2083
+  server: 188.114.99.167
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: BR 2
+  network: ws
+  port: 2053
+  server: 188.114.99.90
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: BR 3
+  network: ws
+  port: 2087
+  server: 188.114.99.63
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: BR 4
+  network: ws
+  port: 8443
+  server: 188.114.98.135
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: BR 5
+  network: ws
+  port: 2083
+  server: 188.114.98.189
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: BR 6
+  network: ws
+  port: 443
+  server: 188.114.98.177
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: BR 7
+  network: ws
+  port: 2053
+  server: 188.114.99.24
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: BR 8
+  network: ws
+  port: 2096
+  server: 188.114.98.143
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: BR 9
+  network: ws
+  port: 2087
+  server: 188.114.98.177
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: BR 10
+  network: ws
+  port: 443
+  server: 188.114.99.200
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: BR 11
+  network: ws
+  port: 2053
+  server: 188.114.99.80
+  servername: tunnel.unionpay.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
