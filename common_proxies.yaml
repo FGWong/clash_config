@@ -39,62 +39,67 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 043
-  network: ws
-  port: 443
-  server: 38.91.107.36
-  servername: maggiy.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 042
-  network: ws
-  port: 443
-  server: 69.50.93.90
-  servername: 69.50.93.90
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇦 加拿大 129
-  network: ws
-  port: 2052
-  server: 162.159.50.235
+  name: Flik6|[VMess] 广东省 移动
+  port: 15606
+  server: 183.240.255.91
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 9fdd16d7-dcb7-45d7-fd62-23d702c71ea0
-  ws-opts:
-    headers:
-      Host: ttt.inekokkk.top
-    path: /
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad
+- name: Flik6|[Trojan] 安徽省 移动数据上网公共出口 2
+  password: MyYoZhfX
+  port: 443
+  server: 112.29.94.24
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 044
+  name: Flik6|[VMess] 湖南省 联通
   network: ws
-  port: 2052
-  server: 104.16.142.206
+  port: 16632
+  server: yes.cnmjcn.net
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 9fdd16d7-dcb7-45d7-fd62-23d702c71ea0
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
   ws-opts:
     headers:
-      Host: ttt.inekokkk.top
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
     path: /
+- name: Flik6|[Trojan] 安徽省 移动数据上网公共出口
+  password: MyYoZhfX
+  port: 51003
+  server: 112.29.94.23
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇰🇷 韩国 蘑菇主机BGP数据中心
+  port: 10001
+  server: 103.214.68.57
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 北美地区 V2CROSS.COM 2
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 23.157.40.89
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 北美地区 V2CROSS.COM 4
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 23.157.40.89
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: freenodes_clash|🇸🇬-SG-074
   password: amazonskr05
@@ -950,12 +955,6 @@ proxies:
   server: 103.172.116.103
   type: ss
   udp: true
-- name: NoMoreWalls|5|🇭🇰 香港4|@ripaojiedian
-  password: BZjkHMao
-  port: 443
-  server: 112.29.94.24
-  skip-cert-verify: true
-  type: trojan
 - cipher: aes-256-cfb
   name: NoMoreWalls|0|-https://t.me/MrXbin-44
   password: FAdUvMJUq5vDgKEq
