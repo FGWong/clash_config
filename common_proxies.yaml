@@ -1190,41 +1190,58 @@ proxies:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
 - cipher: aes-256-cfb
-  name: mahdiblanda|🇸🇬SG-47.128.230.112-3350 | 21.926MB
+  name: mahdiblanda|🇰🇷KR-43.201.47.36-3206 | 1.466MB
   password: amazonskr05
   port: 443
-  server: 47.128.230.112
+  server: 43.201.47.36
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: mahdiblanda|🇺🇸US-45.158.171.215-3235 | 17.333MB
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.158.171.215
   type: ss
 - cipher: aes-256-cfb
-  name: mahdiblanda|VN-103.163.218.2-2518 | 18.337MB
+  name: mahdiblanda|VN-103.163.218.2-2016 | 8.16MB
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 103.163.218.2
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: mahdiblanda|🇬🇧GB-51.141.230.84-3222 | 19.133MB
+  password: hS5KwcNlwufMFEScwyjVkz
+  port: 32755
+  server: 51.141.230.84
+  type: ss
 - cipher: aes-256-cfb
-  name: mahdiblanda|ZA-41.203.4.34-0692 | 20.604MB
+  name: mahdiblanda|ZA-41.203.4.34-0637 | 7.684MB
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 41.203.4.34
   type: ss
 - cipher: aes-128-cfb
-  name: mahdiblanda|CH-156.146.62.160-0628 | 29.832MB
+  name: mahdiblanda|CH-156.146.62.160-0618 | 15.952MB
   password: shadowsocks
   port: 443
   server: 156.146.62.160
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: mahdiblanda|🇬🇧GB-51.140.77.109-0607 | 18.192MB
+  password: 2xIUuBlZx2ITuPUTH5SciB
+  port: 61735
+  server: 51.140.77.109
+  type: ss
 - alterId: 0
   cipher: auto
-  name: mahdiblanda|RELAY-172.64.80.1-0695 | 11.533MB
+  name: mahdiblanda|RELAY-172.67.185.64-1053 | 2.688MB
   network: ws
-  port: 2095
-  server: onea.flha.ru
-  servername: RELAY-172.64.80.1-0695 | 11.533MB
+  port: 8080
+  server: 172.67.185.64
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
-      Host: onea.flha.ru
+      Host: oiictw.yydsii.com
     path: /
