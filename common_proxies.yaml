@@ -969,76 +969,27 @@ proxies:
   server: 103.172.116.103
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: openRunner|🇸🇬 新加坡2
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a1285794-a9fd-4423-83f5-aeecc84dd76d
-  ws-opts:
-    headers:
-      Host: 7nAi74jJsg1.yofnhkfc.xyz
-    path: /video/c9efxRCi
 - client-fingerprint: chrome
-  name: openRunner|🇸🇬 新加坡
-  password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2
-  port: 20230
-  server: sg08.421421.xyz
-  skip-cert-verify: false
-  sni: 421421.xyz
+  name: openRunner|🇩🇪 德国
+  password: MyYoZhfX
+  port: 40316
+  server: 36.138.99.56
+  skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
-  name: openRunner|🇸🇬 新加坡 2
-  password: BZjkHMao
+  name: openRunner|🇸🇬 新加坡
+  password: MyYoZhfX
   port: 51002
   server: 120.226.50.90
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
-  name: openRunner|🇩🇪 德国
-  password: BZjkHMao
-  port: 40316
-  server: 36.138.99.56
+  name: openRunner|🇯🇵 日本
+  password: MyYoZhfX
+  port: 51000
+  server: 112.16.228.100
   skip-cert-verify: true
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: openRunner|🇰🇷 韩国
-  password: 7b5f8aa5-16b9-40fa-9696-a6f034b1892e
-  port: 23827
-  server: kor.lzzccc.com
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: openRunner|🇰🇷 韩国特殊
-  password: amazonskr05
-  port: 443
-  server: 34.212.89.209
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: openRunner|🇭🇰 香港
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
 - alterId: 0
   cipher: auto
   name: dayfree|🇺🇸_US_美国_2
