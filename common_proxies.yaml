@@ -1,92 +1,423 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: wangyingbo|🇨🇳 广东省广州市 移动
-  port: 41492
-  server: 120.232.242.117
-  skip-cert-verify: false
-  tls: false
+  customName: disney_netflix_US
+  h2-opts: {}
+  http-opts: {}
+  name: rss_baipiao|github.com/Ruk1ng001_1788757087
+  port: 35601
+  server: 120.238.122.243
   type: vmess
-  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  customName: disney_netflix_TW
+  name: rss_baipiao|github.com/Ruk1ng001_1184967161
+  password: 850c7064-b083-468d-84a1-53d915578dbe
+  port: 47564
+  server: 183.240.220.199
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  customName: disney_netflix_JP
+  name: rss_baipiao|github.com/Ruk1ng001_902969504
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: f1f3227:111548
+    mode: tls
+  port: 2377
+  server: 18.181.146.122
+  type: ss
+  udp: true
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  customName: 🇭🇰香港|【流媒体2x】
+  name: rss_baipiao|github.com/Ruk1ng001_626559234
+  password: 71485d23-91d7-46b1-ac2e-73135325f94d
+  port: 12601
+  server: db.quanstring.top
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  customName: 🇯🇵日本|【油管免广告】
+  name: rss_baipiao|github.com/Ruk1ng001_856261957
+  password: 71485d23-91d7-46b1-ac2e-73135325f94d
+  port: 22553
+  server: db.quanstring.top
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  customName: 🇯🇵日本|【沪日VIP】
+  name: rss_baipiao|github.com/Ruk1ng001_2369171920
+  password: 71485d23-91d7-46b1-ac2e-73135325f94d
+  port: 50317
+  server: db.quanstring.top
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  customName: 🇭🇰香港|【沪港】
+  name: rss_baipiao|github.com/Ruk1ng001_2985772439
+  password: 71485d23-91d7-46b1-ac2e-73135325f94d
+  port: 25873
+  server: db.quanstring.top
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  customName: 🇯🇵日本|【5G】
+  name: rss_baipiao|github.com/Ruk1ng001_2421155418
+  password: 71485d23-91d7-46b1-ac2e-73135325f94d
+  port: 17864
+  server: 5g.quanstring.top
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  customName: 🇨🇳台湾省|【沪港】
+  name: rss_baipiao|github.com/Ruk1ng001_3296524446
+  password: 71485d23-91d7-46b1-ac2e-73135325f94d
+  port: 19055
+  server: db.quanstring.top
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  customName: 🇭🇰香港|【流媒体2x-5G】
+  name: rss_baipiao|github.com/Ruk1ng001_2178163495
+  password: 71485d23-91d7-46b1-ac2e-73135325f94d
+  port: 20858
+  server: 5g.quanstring.top
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  customName: 🇨🇳台湾省|【沪日】
+  name: rss_baipiao|github.com/Ruk1ng001_1453958981
+  password: 71485d23-91d7-46b1-ac2e-73135325f94d
+  port: 10743
+  server: db.quanstring.top
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  customName: 🇸🇬新加坡|【沪港】
+  name: rss_baipiao|github.com/Ruk1ng001_2462725052
+  password: 71485d23-91d7-46b1-ac2e-73135325f94d
+  port: 37268
+  server: db.quanstring.top
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  customName: disney_netflix_JP
+  name: rss_baipiao|github.com/Ruk1ng001_721721170
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 28492a5:57003
+    mode: tls
+  port: 2377
+  server: 13.114.31.41
+  type: ss
+  udp: true
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  customName: 🇸🇬新加坡|【5G】
+  name: rss_baipiao|github.com/Ruk1ng001_3223187559
+  password: 71485d23-91d7-46b1-ac2e-73135325f94d
+  port: 22113
+  server: 5G.quanstring.top
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  customName: 🇸🇬新加坡|【沪新】
+  name: rss_baipiao|github.com/Ruk1ng001_138898346
+  password: 71485d23-91d7-46b1-ac2e-73135325f94d
+  port: 30076
+  server: db.quanstring.top
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  customName: 🇯🇵日本|【沪港】
+  name: rss_baipiao|github.com/Ruk1ng001_3350958842
+  password: 71485d23-91d7-46b1-ac2e-73135325f94d
+  port: 23238
+  server: db.quanstring.top
+  type: ss
 - alterId: 0
   cipher: auto
-  name: wangyingbo|🇺🇸 美国 CloudFlare节点
+  customName: 韩国1
+  name: rss_baipiao|github.com/Ruk1ng001_3427363528
   network: ws
-  port: 8080
-  server: yh5.dtku41.xyz
-  skip-cert-verify: false
+  port: 28852
+  server: kr-seoul-oracle-4fccf5.ip1.shop
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  uuid: 4268a1d7-171c-40ae-9684-e580c67b7354
   ws-opts:
     headers:
-      Host: fantastic-doe-bids-ended.trycloudflare.com
-    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
-- alterId: 0
+      Host: kr-seoul-oracle-4fccf5.ip1.shop
+    path: /namebgdfxhnsh
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  customName: 🇭🇰香港|【沪港VIP】
+  name: rss_baipiao|github.com/Ruk1ng001_1182001113
+  password: 71485d23-91d7-46b1-ac2e-73135325f94d
+  port: 44746
+  server: db.quanstring.top
+  type: ss
+- alterId: 1
   cipher: auto
-  name: Flik6|[VMess] 广东省 移动
-  port: 15606
-  server: 183.240.255.91
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad
-- name: Flik6|[Trojan] 安徽省 移动数据上网公共出口 2
-  password: MyYoZhfX
-  port: 443
-  server: 112.29.94.24
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 湖南省 联通
-  network: ws
-  port: 16632
-  server: yes.cnmjcn.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
-- name: Flik6|[Trojan] 安徽省 移动数据上网公共出口
-  password: MyYoZhfX
-  port: 51003
-  server: 112.29.94.23
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇰🇷 韩国 蘑菇主机BGP数据中心
-  port: 10001
-  server: 103.214.68.57
+  country: 🏁 ZZ
+  customName: ChatGPT 🏁 ZZ_998
+  h2-opts: {}
+  http-opts: {}
+  name: rss_baipiao|github.com/Ruk1ng001_1092121106
+  network: tcp
+  port: 28786
+  server: 7oi23-g04.jp06-7c5a-vm0.entry.fr0307a.art
+  servername: appsvs.shop
   skip-cert-verify: true
   tls: true
   type: vmess
+  uuid: e147ce52-2598-31b0-950d-6b12c306b360
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇦 加拿大 058
+  network: ws
+  port: 2095
+  server: 104.19.45.7
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 北美地区 V2CROSS.COM 2
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 23.157.40.89
-  type: ss
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇦 加拿大 056
+  network: ws
+  port: 2095
+  server: 104.19.45.117
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇦 加拿大 057
+  network: ws
+  port: 2095
+  server: 104.19.45.48
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇦 加拿大 068
+  network: ws
+  port: 2095
+  server: 104.19.45.14
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇦 加拿大 052
+  network: ws
+  port: 2095
+  server: 104.19.45.17
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
 - cipher: aes-256-gcm
-  name: Flik6|[SS] 北美地区 V2CROSS.COM 4
+  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司
   password: kDWvXYZoTBcGkC4
   port: 8882
-  server: 23.157.40.89
+  server: 38.86.135.141
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 北美地区 V2CROSS.COM
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 23.154.136.148
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇦 加拿大 051
+  network: ws
+  port: 2095
+  server: 104.19.45.202
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇦 加拿大 055
+  network: ws
+  port: 2095
+  server: 104.19.45.56
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇦 加拿大 049
+  network: ws
+  port: 2095
+  server: 104.19.45.135
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 9
+  network: ws
+  port: 80
+  server: 104.16.61.8
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: d396-flower-d396.megare7260.workers.dev
+    path: /obdii.cfd/linkws
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇦 加拿大 053
+  network: ws
+  port: 2095
+  server: 104.19.45.88
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇦 加拿大 046
+  network: ws
+  port: 2095
+  server: 104.19.45.235
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇦 加拿大 054
+  network: ws
+  port: 2095
+  server: 104.19.45.222
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇺🇸 美国 032
+  network: ws
+  port: 80
+  server: 66.94.122.70
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    path: /v149-dskds65
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇦 加拿大 048
+  network: ws
+  port: 2095
+  server: 104.19.45.70
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇦 加拿大 047
+  network: ws
+  port: 2095
+  server: 104.19.45.172
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
 - cipher: aes-256-cfb
   name: freenodes_clash|🇸🇬-SG-074
   password: amazonskr05
@@ -449,232 +780,140 @@ proxies:
   port: 9097
   server: 103.172.116.79
   type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-31
-  password: amazonskr05
-  port: 443
-  server: 13.250.63.15
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-11
-  password: amazonskr05
-  port: 443
-  server: 3.112.214.89
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-14
-  password: amazonskr05
-  port: 443
-  server: 54.168.200.34
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-2
-  password: amazonskr05
-  port: 443
-  server: 54.169.189.194
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-20
-  password: amazonskr05
-  port: 443
-  server: 43.201.34.246
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: NoMoreWalls|5|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.210.240
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-35
-  password: amazonskr05
-  port: 443
-  server: 57.181.36.85
-  type: ss
-- cipher: aes-256-cfb
-  country: JP
-  name: NoMoreWalls|0|-https://t.me/MrXbin-183
-  password: amazonskr05
-  port: 443
-  server: 52.195.237.101
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-8
-  password: amazonskr05
-  port: 443
-  server: 13.124.178.1
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-33
-  password: amazonskr05
-  port: 443
-  server: 43.206.237.42
-  type: ss
-- name: NoMoreWalls|5|🇯🇵 日本|@ripaojiedian
-  password: BZjkHMao
-  port: 443
-  server: 112.16.228.100
-  skip-cert-verify: true
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: NoMoreWalls|10|🇺🇸_US_美国_2_由快嘴科技提供;kkzui.com6
-  network: ws
-  port: 2095
-  server: 172.67.214.33
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: fcdn.flha.ru
-    path: /
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-15
-  password: amazonskr05
-  port: 443
-  server: 57.180.65.163
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|5|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.250.125.144
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: NoMoreWalls|0|-https://t.me/MrXbin-194
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.86.135.211
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: NoMoreWalls|0|-https://t.me/MrXbin-195
-  password: lGqs95QkFHo2NV
-  port: 5499
-  server: 38.86.135.223
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: NoMoreWalls|6|韩国|@ripaojiedian
+  name: NoMoreWalls|6|香港6|@ripaojiedian
   network: tcp
-  port: '11045'
-  server: dotu-krv1.03ezhg0qsa.download
+  port: '15601'
+  server: 183.240.179.195
   servername: ''
   tls: false
   type: vmess
-  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
-- cipher: aes-256-gcm
-  country: US
-  name: NoMoreWalls|0|-https://t.me/MrXbin-197
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 38.86.135.223
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-34
-  password: amazonskr05
-  port: 443
-  server: 43.203.201.192
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: NoMoreWalls|0|-https://t.me/MrXbin-193
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 38.86.135.117
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: NoMoreWalls|0|-https://t.me/MrXbin-200
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 38.86.135.117
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-16
-  password: amazonskr05
-  port: 443
-  server: 54.238.23.117
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-64
-  password: wjTugX3ZtHMB9c3Z
-  port: 9057
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: US
-  name: NoMoreWalls|0|-https://t.me/MrXbin-192
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.86.135.141
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: NoMoreWalls|0|-https://t.me/MrXbin-196
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.86.135.117
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: NoMoreWalls|0|-https://t.me/MrXbin-201
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 23.154.136.148
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: NoMoreWalls|0|-https://t.me/MrXbin-198
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 23.154.136.35
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: NoMoreWalls|0|-https://t.me/MrXbin-199
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 23.154.136.187
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-71
-  password: M3t2ZEQcMGRWBjRa
-  port: 9011
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- name: NoMoreWalls|5|🇺🇸 美国4|@ripaojiedian
-  password: BZjkHMao
-  port: 51000
-  server: 112.29.94.24
-  skip-cert-verify: true
-  type: trojan
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: NoMoreWalls|10|🇺🇸_US_美国_由快嘴科技提供;kkzui.com_14
+  name: NoMoreWalls|5,6|韩国2|@ripaojiedian
   network: ws
-  port: 2095
-  server: fcdn.flha.ru
+  port: '80'
+  server: awskr1.072659.xyz
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: c21712a5-24f5-41b5-8700-55f1835d0490
   ws-opts:
     headers:
-      Host: fcdn.flha.ru
+      Host: tms.dingtalk.com
     path: /
 - alterId: 0
   cipher: auto
-  name: NoMoreWalls|10|🇺🇸_US_美国->🇩🇪_DE_德国_2_6
+  name: NoMoreWalls|5,6|香港5|@ripaojiedian
+  network: ws
+  port: '16632'
+  server: yes.cnmjcn.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- cipher: aes-256-cfb
+  country: SG
+  name: NoMoreWalls|0|-https://t.me/MrXbin-165
+  obfs: plain
+  password: c3NtHJ5ujV2tGDfj
+  port: 9084
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-41
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-32
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: NoMoreWalls|0|-https://t.me/MrXbin-5
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 69.50.93.111
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0,3|IHwzMC4wN01i
+  obfs: plain
+  password: wjTugX3ZtHMB9c3Z
+  port: '9057'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-30
+  password: wfLC2y7rzZyCmuyt
+  port: 9093
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- name: NoMoreWalls|5|🇺🇸 美国5|@ripaojiedian
+  password: MyYoZhfX
+  port: 51003
+  server: 112.29.94.23
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-49
+  obfs: plain
+  obfs-param: None
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  protocol: origin
+  protocol-param: None
+  server: 103.172.116.79
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-33
+  password: rNBfNuuANFCAk7KB
+  port: 9056
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: SG
+  name: NoMoreWalls|0|-https://t.me/MrXbin-168
+  obfs: plain
+  password: UkXRsXvR6buDMG2Y
+  port: 9001
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-39
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: NoMoreWalls|10|🇺🇸_US_美国->🇩🇪_DE_德国_3_8
   network: ws
   port: 2052
-  server: 104.19.250.15
+  server: 104.18.19.191
   tls: false
   type: vmess
   uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
@@ -682,121 +921,66 @@ proxies:
     headers:
       Host: helanv6cf.inekokkk.top
     path: /
-- name: NoMoreWalls|5|🇸🇬 新加坡|@ripaojiedian
-  password: BZjkHMao
-  port: 51001
-  server: 112.16.228.100
-  skip-cert-verify: true
-  type: trojan
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-7
-  password: amazonskr05
-  port: 443
-  server: 35.94.117.156
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-66
-  password: daFYagqDdBdA6VTX
-  port: 9073
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- alterId: 0
+- alterId: 64
   cipher: auto
-  country: TW
   h2-opts: {}
   http-opts: {}
-  name: NoMoreWalls|0|-https://t.me/MrXbin-190
+  name: NoMoreWalls|0,9|baipaovpn荷兰
   network: ws
-  port: 443
-  server: 35.201.203.106
-  servername: cfhk.393930.xyz
+  port: '41000'
+  server: 156.225.67.240
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  udp: true
+  uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5
   ws-opts:
     headers:
-      HOST: cfhk.393930.xyz
-    path: /
-- name: NoMoreWalls|5|🇨🇦 加拿大|@ripaojiedian
-  password: BZjkHMao
-  port: 443
-  server: 38.180.127.194
-  skip-cert-verify: true
-  type: trojan
+      Host: ''
+    path: /path/180820033318
 - cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-42
-  password: GeregetR8cvQHzYr
-  port: 9030
-  server: 103.172.116.103
-  type: ss
-  udp: true
+  name: NoMoreWalls|0|-https://t.me/MrXbin-56
+  obfs: plain
+  obfs-param: None
+  password: FG5ddLsMPbV5CutE
+  port: 9050
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
-  http-opts:
+  http-opts: {}
+  name: NoMoreWalls|0|-https://t.me/MrXbin-109
+  network: ws
+  port: 2052
+  server: 172.64.96.151
+  type: vmess
+  udp: true
+  uuid: bbc0f282-36d4-4a10-83e1-19c7efff7f4f
+  ws-opts:
     headers:
-      Host:
-      - internet.life.com.by
-    method: GET
-    path:
-    - /
-  name: NoMoreWalls|0,10|🇱🇺_LU_卢森堡_23
+      Host: sleeve-cialis-ranges-xml.trycloudflare.com
+    path: bbc0f282
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-43
+  password: VP8ZPxQpJtZRCjfZ
+  port: 9080
+  server: 103.172.116.79
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: NoMoreWalls|10|🇱🇺_LU_卢森堡_6
   network: http
   port: 3389
   server: 45.82.31.164
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-69
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  server: 103.172.116.103
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: NoMoreWalls|0|-https://t.me/MrXbin-204
-  network: ws
-  port: 443
-  server: 23.154.136.2
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-55
-  password: QWDDvVE9npNurQfA
-  port: 9026
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: JP
-  name: NoMoreWalls|0|-https://t.me/MrXbin-184
-  password: amazonskr05
-  port: 443
-  server: 52.198.245.28
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-59
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 'NoMoreWalls|10|🇺🇸_US_美国->🇩🇪_DE_德国_3_由快嘴科技提供;k... #1'
+  name: NoMoreWalls|10|🇺🇸_US_美国->🇩🇪_DE_德国_2_3
   network: ws
   port: 2052
   server: 104.18.36.119
@@ -808,93 +992,104 @@ proxies:
       Host: helanv6cf.inekokkk.top
     path: /
 - cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-38
-  password: SBM7R883jBmnqe6C
-  port: 9053
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-61
-  password: y9VURyNzJWNRYEGQ
-  port: 9008
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-12
-  password: amazonskr05
-  port: 443
-  server: 13.215.208.103
-  type: ss
-- cipher: aes-256-cfb
   name: NoMoreWalls|0|-https://t.me/MrXbin-47
-  password: KnJGad3FqTvjqbaX
-  port: 9014
-  server: 103.172.116.103
+  obfs: plain
+  obfs-param: None
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
+  protocol: origin
+  protocol-param: None
+  server: 103.172.116.79
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  country: SG
+  name: NoMoreWalls|0|-https://t.me/MrXbin-174
+  obfs: plain
+  password: TPqX8edgbAURcAMb
+  port: 9079
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  country: SG
+  name: NoMoreWalls|0|-https://t.me/MrXbin-172
+  obfs: plain
+  password: f63gg8EruDnUrmz4
+  port: 9010
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-22
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 103.172.116.79
   type: ss
   udp: true
-- alterId: 0
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-24
+  password: daFYagqDdBdA6VTX
+  port: 9073
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: NoMoreWalls|3|IHwzMC41Nk1i
+  obfs: plain
+  password: KnJGad3FqTvjqbaX
+  port: '9014'
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- cipher: aes-256-cfb
+  country: SG
+  name: NoMoreWalls|0|-https://t.me/MrXbin-170
+  obfs: plain
+  password: ueLXVkvh4hckhErQ
+  port: 9060
+  protocol: origin
+  server: 103.172.116.79
+  type: ssr
+- alterId: 64
   cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: NoMoreWalls|0|-https://t.me/MrXbin-206
-  network: ws
-  port: 443
-  server: 172.67.183.55
-  servername: de3-vmess.sshmax.xyz
-  skip-cert-verify: true
-  tls: true
+  name: NoMoreWalls|10|美国(由快嘴科技提供：kkzui.com) 10_23
+  network: ''
+  port: 41492
+  server: 120.232.242.117
+  tls: false
   type: vmess
-  uuid: 7142b543-45a8-4274-b80d-f401e7892f5c
-  ws-opts:
-    headers:
-      HOST: de3-vmess.sshmax.xyz
-    path: /vmess
-- name: NoMoreWalls|5|🇭🇰 香港3|@ripaojiedian
-  password: ac1f3b35-1d03-3a85-beab-258d8f23edc6
-  port: 11010
-  server: dotu-hkv2.03ezhg0qsa.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  name: NoMoreWalls|0|-https://t.me/MrXbin-2
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 216.39.250.113
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: SG
+  name: NoMoreWalls|0|-https://t.me/MrXbin-171
+  obfs: plain
+  obfs-param: Vmtjd05XUldjRkpLVkU1RlNsUk9SUSUzRCUzRA%3D%3D
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
+  protocol: origin
+  protocol-param: Vmtjd05XUldjRkpLVkU1RlNsUk9SUSUzRCUzRA%3D%3D
+  server: 103.172.116.79
+  type: ssr
+- name: NoMoreWalls|5|🇺🇸 美国4|@ripaojiedian
+  password: MyYoZhfX
+  port: 46011
+  server: 112.29.94.23
+  skip-cert-verify: true
   type: trojan
 - alterId: 0
   cipher: auto
-  name: NoMoreWalls|6|新加坡2|@ripaojiedian
-  network: tcp
-  port: '11038'
-  server: dotu-sgv1.03ezhg0qsa.download
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-43
-  password: BNmAXXxAHYpTRdzu
-  port: 9020
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-40
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-6
-  password: amazonskr05
-  port: 443
-  server: 52.195.189.211
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 'NoMoreWalls|10|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供;kkz... #1'
+  name: NoMoreWalls|10|🇺🇸_US_美国->🇩🇪_DE_德国_4_10
   network: ws
   port: 2052
-  server: 104.18.19.191
+  server: cfcdn1.sanfencdn9.com
   tls: false
   type: vmess
   uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
@@ -902,109 +1097,125 @@ proxies:
     headers:
       Host: helanv6cf.inekokkk.top
     path: /
-- alterId: 0
-  cipher: auto
-  name: NoMoreWalls|10|🇺🇸_US_美国->🇫🇷_FR_法国_2_24
-  network: ws
-  port: 2082
-  server: 104.21.8.157
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: NoMoreWalls|0|-https://t.me/MrXbin-209
-  network: ws
-  port: 80
-  server: upload.ir
-  servername: lv1-vmess.sshmax.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7e85049a-2b44-4621-991f-1e10e2210bc9
-  ws-opts:
-    headers:
-      HOST: lv1-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 64
-  cipher: auto
-  name: NoMoreWalls|5|🇭🇰 香港2|@ripaojiedian
-  port: 40259
-  server: 120.238.122.243
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-30
-  password: amazonskr05
+- name: NoMoreWalls|8|US_speednode_0253
+  network: tcp
+  password: dcf0fcec-3800-4f42-9b78-1323f6a4a004
   port: 443
-  server: 43.202.41.139
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-73
-  password: a3GFYt36Sm82Vys9
-  port: 9000
-  server: 103.172.116.103
+  server: de2-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: NoMoreWalls|0|-https://t.me/MrXbin-3
+  password: cYDTSxfpprFQBNn5
+  port: 11309
+  server: 144.34.172.112
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-44
-  password: FAdUvMJUq5vDgKEq
-  port: 9006
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-51
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: openRunner|🇩🇪 德国
+- name: NoMoreWalls|5|🇩🇪 德国|@ripaojiedian
   password: MyYoZhfX
   port: 40316
   server: 36.138.99.56
   skip-cert-verify: true
   type: trojan
-- client-fingerprint: chrome
-  name: openRunner|🇸🇬 新加坡
-  password: MyYoZhfX
-  port: 51002
-  server: 120.226.50.90
-  skip-cert-verify: true
-  type: trojan
+- cipher: aes-256-gcm
+  name: NoMoreWalls|0|-https://t.me/MrXbin-13
+  password: cYDTSxfpprFQBNn5
+  port: 11309
+  server: 107.182.190.12
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: openRunner|🇯🇵 日本
   password: MyYoZhfX
-  port: 51000
-  server: 112.16.228.100
+  port: 22386
+  server: 183.249.207.244
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: openRunner|🇯🇵 日本特殊
+  password: amazonskr05
+  port: 443
+  server: 13.231.105.129
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: openRunner|🇭🇰 香港8
+  port: 15603
+  server: 183.232.199.61
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- client-fingerprint: chrome
+  name: openRunner|🇭🇰 香港4
+  password: MyYoZhfX
+  port: 11210
+  server: 112.29.94.23
   skip-cert-verify: true
   type: trojan
 - alterId: 0
   cipher: auto
-  name: dayfree|🇺🇸_US_美国_2
+  client-fingerprint: chrome
+  name: openRunner|🇭🇰 香港
   network: ws
-  port: 8080
-  server: yh3.freeh1.xyz
-  skip-cert-verify: true
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
   ws-opts:
     headers:
-      host: larger-marketing-amounts-skin.trycloudflare.com
-    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
-- name: dayfree|🇨🇦_CA_加拿大->🇺🇸_US_美国_1
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: openRunner|🇯🇵 日本2
+  port: 61001
+  server: 183.232.199.61
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: openRunner|🇰🇷 韩国特殊
+  password: amazonskr05
+  port: 443
+  server: 34.222.133.159
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: openRunner|🇮🇳 印度
+  network: ws
+  port: 2052
+  server: hk.wish.ml
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 543f15f1-96a8-4205-b4a2-1a1ae6766c12
+  ws-opts:
+    headers:
+      Host: in3.wish.ml
+    path: /
+- name: mfuu|🇳🇱NL-176.126.113.161-019
+  password: 6e28f704-29a0-4c86-b25b-dd090603c741
+  port: 443
+  server: nl2-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+- name: blobClash|🇨🇦_CA_加拿大->🇺🇸_US_美国
   network: ws
   password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
   port: 443
@@ -1015,6 +1226,46 @@ proxies:
   udp: true
   ws-opts:
     path: /argox-tr
+- alterId: 64
+  cipher: auto
+  customName: CN_speednode_0010
+  name: ruk1ng|github.com/Ruk1ng001_2258369405
+  port: 31778
+  server: 120.232.242.117
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  customName: CN_speednode_0013
+  name: ruk1ng|github.com/Ruk1ng001_1673641397
+  port: 51707
+  server: 183.236.51.59
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: -1
+  cipher: aes-256-cfb
+  country: 🇸🇬SG
+  customName: 🇸🇬SG_592
+  name: ruk1ng|github.com/Ruk1ng001_777700868
+  password: amazonskr05
+  port: 443
+  server: 54.254.225.115
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  customName: disney_netflix_HK
+  name: ruk1ng|github.com/Ruk1ng001_4030139503
+  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
+  port: 40981
+  server: hkt.jjjjjj.icu
+  type: ss
 - alterId: 0
   cipher: auto
   name: rokate||13.09Mb
@@ -1024,23 +1275,12 @@ proxies:
   tls: false
   type: vmess
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- name: ermaozi|🇺🇸_US_美国_2
-  network: tcp
-  password: 27876_t7d7f4e3f
+- cipher: chacha20-ietf-poly1305
+  name: ermaozi|🇺🇸_US_美国_4
+  password: hgLCgfLRgB6d
   port: 443
-  server: 23.142.200.175
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: ermaozi|🇺🇸_US_美国->🇪🇸_ES_西班牙
-  network: tcp
-  password: 2062a5ca-a34e-47bf-9810-db91185f07fc
-  port: 48057
-  server: fuck6.mmmmmmmmmm.cfd
-  skip-cert-verify: true
-  sni: apple.com
-  type: trojan
-  udp: true
+  server: 205.134.180.145
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1157,58 +1397,48 @@ proxies:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
 - cipher: aes-256-cfb
-  name: mahdiblanda|🇰🇷KR-43.201.47.36-3206 | 1.466MB
+  name: mahdiblanda|🇰🇷KR-13.124.178.1-3510 | 6.771MB
   password: amazonskr05
   port: 443
-  server: 43.201.47.36
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: mahdiblanda|🇺🇸US-45.158.171.215-3235 | 17.333MB
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.158.171.215
-  type: ss
-- cipher: aes-256-cfb
-  name: mahdiblanda|VN-103.163.218.2-2016 | 8.16MB
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.163.218.2
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: mahdiblanda|🇬🇧GB-51.141.230.84-3222 | 19.133MB
-  password: hS5KwcNlwufMFEScwyjVkz
-  port: 32755
-  server: 51.141.230.84
-  type: ss
-- cipher: aes-256-cfb
-  name: mahdiblanda|ZA-41.203.4.34-0637 | 7.684MB
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 41.203.4.34
-  type: ss
-- cipher: aes-128-cfb
-  name: mahdiblanda|CH-156.146.62.160-0618 | 15.952MB
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.160
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: mahdiblanda|🇬🇧GB-51.140.77.109-0607 | 18.192MB
-  password: 2xIUuBlZx2ITuPUTH5SciB
-  port: 61735
-  server: 51.140.77.109
+  server: 13.124.178.1
   type: ss
 - alterId: 0
   cipher: auto
-  name: mahdiblanda|RELAY-172.67.185.64-1053 | 2.688MB
+  name: mahdiblanda|RELAY-104.19.45.165-0831 | 2.947MB
   network: ws
-  port: 8080
-  server: 172.67.185.64
+  port: 2095
+  server: 104.19.45.165
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
-      Host: oiictw.yydsii.com
+      Host: onea.flha.ru
+    path: /
+- cipher: aes-256-cfb
+  name: mahdiblanda|🇸🇬SG-47.128.230.112-3512 | 11.301MB
+  password: amazonskr05
+  port: 443
+  server: 47.128.230.112
+  type: ss
+- cipher: aes-256-cfb
+  name: mahdiblanda|🇸🇬SG-13.229.115.125-3509 | 3.678MB
+  password: amazonskr05
+  port: 443
+  server: 13.229.115.125
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: mahdiblanda|RELAY-104.19.45.137-1231 | 4.028MB
+  network: ws
+  port: 2095
+  server: 104.19.45.137
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
     path: /

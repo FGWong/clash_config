@@ -23,11 +23,55 @@ dns:
       #- tls://1.0.0.1:853
       #- 101.6.6.6:5353
   ipv6: true
-  #enhanced-mode: fake-ip #redir-host
-  #fake-ip-range: 198.18.0.1/16
-  #fake-ip-filter:
-  #  - '*.lan'
-  #  - localhost.ptlogin2.qq.com
+  enhanced-mode: fake-ip #redir-host
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.local'
+    - dns.msftncsi.com
+    - www.msftncsi.com
+    - www.msftconnecttest.com
+    - stun.*.*.*
+    - stun.*.*
+    - miwifi.com
+    - music.163.com
+    - '*.music.163.com'
+    - '*.126.net'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - y.qq.com
+    - '*.y.qq.com'
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - '*.xiami.com'
+    - '*.music.migu.cn'
+    - music.migu.cn
+    - netis.cc
+    - router.asus.com
+    - repeater.asus.com
+    - routerlogin.com
+    - routerlogin.net
+    - tendawifi.com
+    - tendawifi.net
+    - tplinklogin.net
+    - tplinkwifi.net
+    - tplinkrepeater.net
+    - '*.ntp.org.cn'
+    - '*.openwrt.pool.ntp.org'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - localhost.ptlogin2.qq.com
+    - '*.*.*.srv.nintendo.net'
+    - '*.*.stun.playstation.net'
+    - xbox.*.*.microsoft.com
+    - '*.ipv6.microsoft.com'
+    - '*.*.xboxlive.com'
+    - speedtest.cros.wr.pvp.net
   use-hosts: true
 
   fallback-filter:
@@ -42,6 +86,19 @@ dns:
       - '+.facebook.com'
       - '+.youtube.com'
       - '+.cloudflare.com'
+      - +.twitter.com
+      - +.xn--ngstr-lra8j.com
+      - +.google.cn
+      - +.googleapis.cn
+      - +.googleapis.com
+      - +.gvt1.com
+      - +.paoluz.com
+      - +.paoluz.link
+      - +.paoluz.xyz
+      - +.sodacity-funk.xyz
+      - +.nloli.xyz
+      - +.jsdelivr.net
+      - +.proton.me
 
 hosts:
   '*.clash.dev': 127.0.0.1
@@ -659,7 +716,7 @@ proxy-providers:
     path: local_data/common-proxies.yaml
     health-check:
       enable: true
-      interval: 1200
+      interval: 12000
       url: 'http://www.gstatic.com/generate_204'
   cf-warp:
     type: http
@@ -669,7 +726,7 @@ proxy-providers:
     path: local_data/warp-proxies.yaml
     health-check:
       enable: true
-      interval: 1200
+      interval: 12000
       url: 'http://www.gstatic.com/generate_204'
   cldflare:
     url: "https://jiahe.eu.org:15443/clash_verge/cloudflare-proxies.yaml"
@@ -679,7 +736,7 @@ proxy-providers:
     path: local_data/cloudflare-proxies.yaml
     health-check:
       enable: true
-      interval: 1200
+      interval: 12000
       url: 'http://www.gstatic.com/generate_204'
 
 rule-providers:
