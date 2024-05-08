@@ -180,36 +180,6 @@ proxies:
   type: vmess
   uuid: e147ce52-2598-31b0-950d-6b12c306b360
   ws-path: /
-- cipher: aes-256-gcm
-  name: WilliamStar|SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:8118_6@5
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  name: WilliamStar|SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:6379_6@19
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  name: WilliamStar|SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:5004_6@3
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: WilliamStar|SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:8091_6@2
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: WilliamStar|SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:7001_6@18
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 51.77.53.200
-  type: ss
 - alterId: 64
   cipher: auto
   name: wangyingbo|🇨🇳 广东省广州市 移动
@@ -222,50 +192,101 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: wangyingbo|广东省佛山市 移动
-  port: 15603
-  server: 183.232.199.61
+  name: wangyingbo|🇺🇸 美国 CloudFlare节点 7
+  network: ws
+  port: 2052
+  server: 104.19.138.73
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- cipher: aes-256-gcm
-  name: wangyingbo|🇺🇸 美国+华盛顿Cogent通信公司 2
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.110.1.3
-  type: ss
+  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
+  name: wangyingbo|🇺🇸 美国 CloudFlare节点 6
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
+  name: wangyingbo|🇺🇸 美国 CloudFlare节点 15
+  network: ws
+  port: 2052
+  server: 104.17.229.133
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
+  ws-opts:
+    headers:
+      Host: usxm.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: wangyingbo|🇺🇸 美国 CloudFlare节点 17
+  network: ws
+  port: 8080
+  server: 172.67.199.185
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- name: wangyingbo|🇷🇺 俄罗斯
+  password: 01278779-3f58-4477-8ae7-7b82033a5d2e
+  port: 443
+  server: 194.246.114.54
+  skip-cert-verify: false
+  sni: hk-full.privateip.net
+  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: wangyingbo|🇺🇸 美国 CloudFlare节点 5
+  name: wangyingbo|🇺🇸 美国 CloudFlare节点 4
   network: ws
   port: 80
-  server: 172.67.164.78
+  server: 104.19.43.205
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 42507d7c-bc67-4534-8ffc-6b9234b74018
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
   ws-opts:
     headers:
-      Host: mai.nekoneko.buzz
-    path: /cctv13/hd.m3u8
+      Host: osaka.xlb8.eu.org
+    path: /
 - alterId: 0
   cipher: auto
-  name: wangyingbo|🇺🇸 美国 CloudFlare节点 9
+  name: wangyingbo|🇺🇸 美国 CloudFlare节点 14
   network: ws
-  port: 2095
-  server: 104.19.45.17
+  port: 80
+  server: 104.19.43.213
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
   ws-opts:
     headers:
-      Host: onea.flha.ru
+      Host: osaka.xlb8.eu.org
     path: /
 - alterId: 0
   cipher: auto
@@ -296,6 +317,16 @@ proxies:
   name: Flik6|[VMess] 广东省佛山市 移动 3
   port: 21006
   server: 183.232.199.28
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 广东省佛山市 移动 2
+  port: 15603
+  server: 183.232.199.61
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -346,27 +377,19 @@ proxies:
     headers:
       Host: onea.flha.ru
     path: /
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 2
-  network: ws
-  port: 2052
-  server: 104.17.229.133
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
-  ws-opts:
-    headers:
-      Host: usxm.inekokkk.top
-    path: /
 - name: Flik6|[Trojan] 安徽省 移动数据上网公共出口
   password: MyYoZhfX
   port: 46011
   server: 112.29.94.23
   skip-cert-verify: true
   type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 38.110.1.3
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
@@ -493,6 +516,21 @@ proxies:
   network: ws
   port: 2095
   server: 104.19.45.253
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇦 加拿大 033
+  network: ws
+  port: 2095
+  server: 104.19.45.17
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1055,172 +1093,81 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: openRunner|🇯🇵 日本特殊
+  name: openRunner|🇸🇬 狮城特殊
   password: amazonskr05
   port: 443
-  server: 13.214.214.197
+  server: 54.151.219.143
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: openRunner|🇸🇬 狮城特殊
+  name: openRunner|🇯🇵 日本特殊
   password: amazonskr05
   port: 443
-  server: 54.254.62.209
+  server: 46.137.236.48
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: openRunner|🇰🇷 韩国特殊
+  password: amazonskr05
+  port: 443
+  server: 13.212.91.18
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: dayfree|🇨🇦_CA_加拿大
+  client-fingerprint: chrome
+  name: openRunner|🇺🇸 美国2
   network: ws
-  port: 443
-  server: 23.162.200.227
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- cipher: aes-256-gcm
-  name: mfuu|🇫🇷FR-149.202.82.172-191
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 149.202.82.172
-  type: ss
-- name: mfuu|🇨🇳CN-36.138.99.56-022
-  password: MyYoZhfX
-  port: 40316
-  server: 36.138.99.56
-  skip-cert-verify: true
-  type: trojan
-- cipher: aes-256-gcm
-  name: mfuu|🇫🇷FR-149.202.82.172-154
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  name: mfuu|🇫🇷FR-149.202.82.172-134
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  name: mfuu|🇺🇸US-38.114.114.143-152
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 38.114.114.143
-  type: ss
-- cipher: aes-256-gcm
-  name: mfuu|🇫🇷FR-149.202.82.172-135
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 149.202.82.172
-  type: ss
-- name: blobClash|🇨🇦_CA_加拿大->🇺🇸_US_美国
-  network: ws
-  password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
-  port: 443
-  server: 23.227.38.11
-  skip-cert-verify: true
-  sni: syndication-statutes-wanted-logo.trycloudflare.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /argox-tr
-- alterId: 64
-  cipher: auto
-  customName: CN_speednode_0003
-  name: ruk1ng|github.com/Ruk1ng001_2258369405
-  port: 31778
-  server: 120.232.242.117
+  port: 2095
+  server: cfcdn1.sanfencdn9.com
   skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  customName: disney_netflix_JP
-  name: ruk1ng|github.com/Ruk1ng001_2547464641
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c68b799:50307
-    mode: tls
-  port: 2377
-  server: 54.250.34.221
-  type: ss
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  customName: disney_netflix_JP
-  name: ruk1ng|github.com/Ruk1ng001_3628313846
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)a83679f:53325
-    mode: tls
-  port: 2377
-  server: 54.178.26.105
-  type: ss
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  customName: disney_netflix_JP
-  name: ruk1ng|github.com/Ruk1ng001_3560379342
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c68b799:50307
-    mode: tls
-  port: 2377
-  server: 54.178.71.192
-  type: ss
-- alterId: -1
-  cipher: aes-256-cfb
-  customName: 韩国特殊|@ripaojiedian
-  name: ruk1ng|github.com/Ruk1ng001_2004102139
-  password: amazonskr05
-  port: 443
-  server: 35.77.99.126
-  type: ss
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  customName: disney_netflix_JP
-  name: ruk1ng|github.com/Ruk1ng001_1657569711
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c68b799:50307
-    mode: tls
-  port: 2377
-  server: 18.183.87.73
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: rokate||13.09Mb
-  port: 1069
-  server: 152.69.197.60
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 0
-  cipher: auto
-  name: blobBird|🇺🇸_US_美国->🇩🇪_DE_德国_2
-  network: ws
-  port: 2052
-  server: 104.18.36.119
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
   ws-opts:
     headers:
-      host: helanv6cf.inekokkk.top
-    path: /
+      Host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
 - alterId: 0
   cipher: auto
-  name: blobBird|🇺🇸_US_美国->🇩🇪_DE_德国_3
+  client-fingerprint: chrome
+  name: openRunner|🇭🇰 香港
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  name: openRunner|🇯🇵 日本
+  password: MyYoZhfX
+  port: 22386
+  server: 183.249.207.244
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: openRunner|🇹🇼 台湾
+  port: 21006
+  server: 183.232.199.61
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: dayfree|🇺🇸_US_美国->🇩🇪_DE_德国_3
   network: ws
   port: 2052
   server: 104.18.19.191
@@ -1234,7 +1181,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: blobBird|🇺🇸_US_美国->🇩🇪_DE_德国_1
+  name: dayfree|🇺🇸_US_美国->🇩🇪_DE_德国_1
+  network: ws
+  port: 2052
+  server: 104.18.36.119
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: dayfree|🇺🇸_US_美国->🇩🇪_DE_德国_2
   network: ws
   port: 2052
   server: 104.19.250.15
@@ -1246,46 +1207,38 @@ proxies:
     headers:
       host: helanv6cf.inekokkk.top
     path: /
-- alterId: 0
-  cipher: auto
-  name: ermaozi|🇬🇧_GB_英国
-  network: http
-  port: 80
-  server: 89.213.164.154
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a
-- alterId: 0
-  cipher: auto
-  name: ermaozi|🇬🇧_GB_英国->🇺🇸_US_美国
-  network: http
+- name: blobClash|🇨🇦_CA_加拿大->🇺🇸_US_美国
+  network: ws
+  password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
   port: 443
-  server: 89.213.164.154
+  server: 23.227.38.11
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a
+  sni: syndication-statutes-wanted-logo.trycloudflare.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /argox-tr
 - alterId: 0
   cipher: auto
-  name: ermaozi|🇺🇸_US_美国_3
-  network: http
-  port: 80
-  server: 46.3.82.198
-  skip-cert-verify: true
+  name: rokate||13.09Mb
+  port: 1069
+  server: 152.69.197.60
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - alterId: 0
   cipher: auto
-  name: ermaozi|🇺🇸_US_美国_8
-  network: http
+  name: ermaozi|🇨🇦_CA_加拿大
+  network: ws
   port: 443
-  server: 46.3.82.198
+  server: 23.162.200.227
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1467,17 +1420,3 @@ proxies:
   port: 443
   server: 156.146.62.160
   type: ss
-- alterId: 0
-  cipher: auto
-  name: mahdiblanda|RELAY-172.67.199.185-1236 | 6.727MB
-  network: ws
-  port: 8080
-  server: 172.67.199.185
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
