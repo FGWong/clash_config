@@ -180,161 +180,55 @@ proxies:
   type: vmess
   uuid: e147ce52-2598-31b0-950d-6b12c306b360
   ws-path: /
-- alterId: 64
-  cipher: auto
-  name: wangyingbo|🇨🇳 广东省广州市 移动
-  port: 54437
-  server: 183.236.51.59
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- name: Flik6|[Trojan] 🇨🇳 江苏省 移动
+  password: MyYoZhfX
+  port: 20344
+  server: 36.151.195.46
+  skip-cert-verify: true
+  type: trojan
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: wangyingbo|🇺🇸 美国 CloudFlare节点 7
-  network: ws
-  port: 2052
-  server: 104.19.138.73
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
-  name: wangyingbo|🇺🇸 美国 CloudFlare节点 6
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
-  name: wangyingbo|🇺🇸 美国 CloudFlare节点 15
-  network: ws
-  port: 2052
-  server: 104.17.229.133
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
-  ws-opts:
-    headers:
-      Host: usxm.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: wangyingbo|🇺🇸 美国 CloudFlare节点 17
-  network: ws
-  port: 8080
-  server: 172.67.199.185
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- name: wangyingbo|🇷🇺 俄罗斯
-  password: 01278779-3f58-4477-8ae7-7b82033a5d2e
-  port: 443
-  server: 194.246.114.54
-  skip-cert-verify: false
-  sni: hk-full.privateip.net
+- name: Flik6|[Trojan] 🇨🇳 江苏省徐州市 移动
+  password: MyYoZhfX
+  port: 24791
+  server: 223.113.54.154
+  skip-cert-verify: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: wangyingbo|🇺🇸 美国 CloudFlare节点 4
+  name: Flik6|[VMess] 🇻🇳 越南 003
   network: ws
   port: 80
-  server: 104.19.43.205
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: osaka.xlb8.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: wangyingbo|🇺🇸 美国 CloudFlare节点 14
-  network: ws
-  port: 80
-  server: 104.19.43.213
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: osaka.xlb8.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 广东省汕头市 移动
-  port: 15601
-  server: 183.240.179.195
+  server: bs4.loadingip.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇻🇳 越南 001
-  network: ws
-  port: 80
-  server: 103.252.94.224
-  servername: bs2.loadingip.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5278f5d3-f001-4459-94b6-7e0915238998
+  uuid: 9e5999ba-870a-46b1-8500-37c640371ec6
   ws-opts:
+    headers:
+      Host: bs4.loadingip.com
     path: /bs
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇺🇸 美国 惠普HP
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 15.204.87.225
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: Flik6|[VMess] 广东省佛山市 移动 3
-  port: 21006
-  server: 183.232.199.28
+  name: Flik6|[VMess] 🇰🇷 韩国 蘑菇主机BGP数据中心
+  port: 10001
+  server: 103.214.68.57
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
 - alterId: 0
   cipher: auto
-  name: Flik6|[VMess] 广东省佛山市 移动 2
-  port: 15603
-  server: 183.232.199.61
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇦 加拿大 044
+  name: Flik6|[VMess] 🇨🇦 加拿大 018
   network: ws
   port: 2095
   server: 104.19.45.165
@@ -346,307 +240,6 @@ proxies:
   ws-opts:
     headers:
       Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇦 加拿大 040
-  network: ws
-  port: 2095
-  server: 104.19.45.14
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇦 加拿大 039
-  network: ws
-  port: 2095
-  server: 104.19.45.7
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- name: Flik6|[Trojan] 安徽省 移动数据上网公共出口
-  password: MyYoZhfX
-  port: 46011
-  server: 112.29.94.23
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.110.1.3
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇦 加拿大 036
-  network: ws
-  port: 2095
-  server: 104.19.45.56
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- name: Flik6|[Trojan] 安徽省 移动数据上网公共出口 2
-  password: MyYoZhfX
-  port: 51003
-  server: 112.29.94.23
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 🇺🇸 美国 V2CROSS.COM 2
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 23.162.200.213
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 4
-  network: ws
-  port: 2086
-  server: 104.16.61.8
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: ury-unit-c030ehei8.poget71138.workers.dev
-    path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇦 加拿大 045
-  network: ws
-  port: 2095
-  server: 104.19.45.137
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇦 加拿大 030
-  network: ws
-  port: 2095
-  server: 104.19.45.135
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇦 加拿大 038
-  network: ws
-  port: 2095
-  server: 104.19.45.48
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇦 加拿大 032
-  network: ws
-  port: 2095
-  server: 104.19.45.202
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇦 加拿大 029
-  network: ws
-  port: 2095
-  server: 104.19.45.70
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇦 加拿大 046
-  network: ws
-  port: 2095
-  server: 104.19.45.253
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇦 加拿大 033
-  network: ws
-  port: 2095
-  server: 104.19.45.17
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 广东省佛山市 移动
-  port: 46001
-  server: 183.232.199.28
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇦 加拿大 035
-  network: ws
-  port: 2095
-  server: 104.19.45.222
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇦 加拿大 034
-  network: ws
-  port: 2095
-  server: 104.19.45.88
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇦 加拿大 037
-  network: ws
-  port: 2095
-  server: 104.19.45.117
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 华盛顿Cogent通信公司
-  network: ws
-  port: 443
-  server: 38.91.107.36
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 广东省佛山市 移动 4
-  port: 61001
-  server: 183.232.199.61
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇦 加拿大 031
-  network: ws
-  port: 2095
-  server: 104.19.45.106
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 9
-  network: ws
-  port: 8080
-  server: 172.67.185.64
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
     path: /
 - cipher: aes-256-cfb
   name: freenodes_clash|🇸🇬-SG-074
@@ -1010,134 +603,90 @@ proxies:
   port: 9097
   server: 103.172.116.79
   type: ss
-- alterId: 64
-  cipher: auto
-  name: NoMoreWalls|6|香港7|@ripaojiedian
+- delay: 1033
+  name: NoMoreWalls|8|CN_speednode_0034
   network: tcp
-  port: '32998'
-  server: 120.232.242.122
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  password: MyYoZhfX
+  port: 46011
+  server: 112.29.94.23
+  skip-cert-verify: true
+  type: trojan
+  udp: false
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-25
+  password: SBM7R883jBmnqe6C
+  port: 9053
+  server: 103.172.116.103
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: NoMoreWalls|5|🇰🇷 韩国|@ripaojiedian
+  password: 6399ac7d-8265-436d-b348-299df4b735a5
+  port: 32999
+  server: gfoq.b4-h5a6gq7.h3w-kr01.my777999.top
+  tfo: false
+  type: ss
+- name: NoMoreWalls|5,8|CN_speednode_0055
+  network: tcp
+  password: MyYoZhfX
+  port: 15274
+  server: 223.113.54.154
+  skip-cert-verify: true
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: NoMoreWalls|5|🇮🇳 印度|@ripaojiedian
-  port: 44001
-  server: 183.232.199.28
-  skip-cert-verify: false
-  tfo: false
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: NoMoreWalls|0|-https://t.me/MrXbin-244
+  network: ws
+  port: 443
+  server: 172.67.183.55
+  servername: de3-vmess.sshmax.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7142b543-45a8-4274-b80d-f401e7892f5c
+  ws-opts:
+    headers:
+      HOST: de3-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+    path:
+    - /
+  name: NoMoreWalls|0,10|🇱🇺_LU_卢森堡_由快嘴科技提供：kkzui.com9
+  network: http
+  port: 3389
+  server: 45.82.31.164
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad
-- cipher: chacha20-ietf-poly1305
-  name: NoMoreWalls|0|-https://t.me/MrXbin-8
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)feec8af:29306
-    mode: tls
-  port: 2377
-  server: 118.163.179.162
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: NoMoreWalls|0|-https://t.me/MrXbin-1
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)feec8af:29306
-    mode: tls
-  port: 2377
-  server: 118.163.179.161
-  type: ss
+  udp: true
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: NoMoreWalls|5|🇭🇰 香港3|@ripaojiedian
+  port: 8443
+  server: 120.232.240.38
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
 - alterId: 0
   cipher: auto
   name: NoMoreWalls|5,6|香港5|@ripaojiedian
   network: ws
   port: '16632'
-  server: yes.cnmjcn.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: NoMoreWalls|6|香港2|@ripaojiedian
-  network: tcp
-  port: '40259'
-  server: 120.238.122.243
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: NoMoreWalls|5|🇭🇰 香港4|@ripaojiedian
-  password: MyYoZhfX
-  port: 11210
-  server: 112.29.94.23
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: NoMoreWalls|10|🇱🇺_LU_卢森堡_由快嘴科技提供：kkzui.com8
-  network: http
-  port: 3389
-  server: 45.82.31.164
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: openRunner|🇸🇬 狮城特殊
-  password: amazonskr05
-  port: 443
-  server: 54.151.219.143
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: openRunner|🇯🇵 日本特殊
-  password: amazonskr05
-  port: 443
-  server: 46.137.236.48
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: openRunner|🇰🇷 韩国特殊
-  password: amazonskr05
-  port: 443
-  server: 13.212.91.18
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: openRunner|🇺🇸 美国2
-  network: ws
-  port: 2095
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
-  ws-opts:
-    headers:
-      Host: us82pRzxDMb.fzbqfrse.xyz
-    path: /video/qYZue4zaWS
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: openRunner|🇭🇰 香港
-  network: ws
-  port: 16632
   server: m.cnmjin.net
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -1147,24 +696,40 @@ proxies:
     headers:
       Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
     path: /
-- client-fingerprint: chrome
-  name: openRunner|🇯🇵 日本
-  password: MyYoZhfX
-  port: 22386
-  server: 183.249.207.244
-  skip-cert-verify: true
-  type: trojan
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: openRunner|🇹🇼 台湾
-  port: 21006
+  name: NoMoreWalls|5|🇭🇰 香港8|@ripaojiedian
+  port: 15603
   server: 183.232.199.61
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: NoMoreWalls|6|新加坡|@ripaojiedian
+  network: tcp
+  port: '37997'
+  server: 8789-kf49kc85w.uy2w4vf-sg03.my777999.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6399ac7d-8265-436d-b348-299df4b735a5
+- alterId: 0
+  cipher: auto
+  name: dayfree|🇺🇸_US_美国_1
+  network: ws
+  port: 2052
+  server: 104.19.138.73
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
+  ws-opts:
+    headers:
+      host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
 - alterId: 0
   cipher: auto
   name: dayfree|🇺🇸_US_美国->🇩🇪_DE_德国_3
@@ -1195,6 +760,34 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: dayfree|🇺🇸_US_美国_3
+  network: ws
+  port: 2052
+  server: 104.17.229.133
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
+  ws-opts:
+    headers:
+      host: usxm.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: dayfree|🇺🇸_US_美国_2
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
+  ws-opts:
+    headers:
+      host: usxm.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
   name: dayfree|🇺🇸_US_美国->🇩🇪_DE_德国_2
   network: ws
   port: 2052
@@ -1218,6 +811,44 @@ proxies:
   udp: true
   ws-opts:
     path: /argox-tr
+- alterId: 64
+  cipher: auto
+  customName: disney_netflix_HK
+  h2-opts: {}
+  http-opts: {}
+  name: ruk1ng|github.com/Ruk1ng001_1708283347
+  port: 54100
+  server: 183.236.51.59
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: -1
+  customName: disney_netflix_HK
+  name: ruk1ng|github.com/Ruk1ng001_1278174278
+  password: cbe0efbf-b240-4666-b60f-5c7eb598679f
+  port: 41018
+  server: dc2.forlive.live
+  sni: ssl.sbgfw.info
+  type: trojan
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  customName: 🇨🇳 CN 215 → tg@nicevpn123
+  name: ruk1ng|github.com/Ruk1ng001_2736780227
+  password: e50dd0c1-b1bc-4910-aa3e-7237d55043c1
+  port: 14791
+  server: db.quanstring.top
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  customName: 11|广东省广州市 移动
+  name: ruk1ng|github.com/Ruk1ng001_536822818
+  network: tcp
+  port: 54437
+  server: 183.236.51.59
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: rokate||13.09Mb
@@ -1227,18 +858,56 @@ proxies:
   tls: false
   type: vmess
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- cipher: aes-256-cfb
+  name: ermaozi|🇺🇸_US_美国_3
+  password: amazonskr05
+  port: 443
+  server: 52.38.200.248
+  type: ss
+- cipher: aes-256-gcm
+  name: ermaozi|🇺🇸_US_美国_9
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 38.75.136.6
+  type: ss
+- cipher: aes-256-cfb
+  name: ermaozi|🇺🇸_US_美国_6
+  password: amazonskr05
+  port: 443
+  server: 34.222.133.159
+  type: ss
+- cipher: aes-256-gcm
+  name: ermaozi|🇺🇸_US_美国_2
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 38.86.135.185
+  type: ss
+- cipher: aes-256-gcm
+  name: ermaozi|🇺🇸_US_美国_11
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.110.1.122
+  type: ss
+- cipher: aes-256-gcm
+  name: ermaozi|🇺🇸_US_美国_10
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.110.1.122
+  type: ss
 - alterId: 0
   cipher: auto
-  name: ermaozi|🇨🇦_CA_加拿大
+  name: ermaozi|🇺🇸_US_美国_4
   network: ws
-  port: 443
-  server: 23.162.200.227
+  port: 8880
+  server: russia.com
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
   ws-opts:
-    path: /linkvws
+    headers:
+      host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1354,69 +1023,63 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- cipher: aes-256-cfb
-  name: mahdiblanda|🇯🇵JP-13.231.105.129-0746 | 8.536MB
-  password: amazonskr05
-  port: 443
-  server: 13.231.105.129
-  type: ss
-- cipher: aes-256-cfb
-  name: mahdiblanda|🇯🇵JP-3.112.218.182-3412 | 3.617MB
-  password: amazonskr05
-  port: 443
-  server: 3.112.218.182
-  type: ss
-- cipher: aes-256-cfb
-  name: mahdiblanda|🇸🇬SG-13.214.211.185-1604 | 6.505MB
-  password: amazonskr05
-  port: 443
-  server: 13.214.211.185
-  type: ss
 - alterId: 0
   cipher: auto
-  name: mahdiblanda|🇰🇷KR-152.67.218.38-0715 | 30.686MB
+  name: mahdiblanda|🇭🇰HK-43.199.36.215-4336 | 11.591MB
   network: ws
-  port: 443
-  server: 152.67.218.38
+  port: 80
+  server: 43.199.36.215
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
   ws-opts:
     path: /
-- cipher: aes-256-cfb
-  name: mahdiblanda|🇰🇷KR-43.203.201.192-0768 | 3.462MB
-  password: amazonskr05
-  port: 443
-  server: 43.203.201.192
-  type: ss
 - alterId: 0
   cipher: auto
-  name: mahdiblanda|🇬🇧GB-45.14.244.133-0258 | 28.682MB
+  name: mahdiblanda|🇭🇰HK-18.162.111.219-4335 | 11.569MB
   network: ws
-  port: 2024
-  server: 45.14.244.133
+  port: 80
+  server: 18.162.111.219
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: ab713079-5a16-493f-bf2c-97f4b77d6835
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
   ws-opts:
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: mahdiblanda|🇷🇺RU-146.185.198.44-0733 | 13.355MB
-  password: Zu5sVdhPITkII1Rf9bUTjt0ws1nks4vgBoHhe7QxwEk0j3Ai
-  port: 51348
-  server: 146.185.198.44
-  type: ss
-- cipher: aes-256-cfb
-  name: mahdiblanda|ZA-41.203.4.34-0725 | 14.763MB
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 41.203.4.34
-  type: ss
-- cipher: aes-128-cfb
-  name: mahdiblanda|CH-156.146.62.160-0696 | 28.087MB
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.160
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: mahdiblanda|🇩🇪DE-209.38.218.216-4340 | 28.951MB
+  network: ws
+  port: 80
+  server: 209.38.218.216
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: mahdiblanda|🇭🇰HK-43.198.14.45-4339 | 11.691MB
+  network: ws
+  port: 80
+  server: 43.198.14.45
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: mahdiblanda|🇩🇪DE-46.101.204.58-4342 | 28.915MB
+  network: ws
+  port: 80
+  server: 46.101.204.58
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  ws-opts:
+    path: /
