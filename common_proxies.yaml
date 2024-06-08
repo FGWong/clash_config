@@ -181,47 +181,40 @@ proxies:
   uuid: e147ce52-2598-31b0-950d-6b12c306b360
   ws-path: /
 - cipher: aes-256-gcm
-  name: WilliamStar|SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.200:8091_6@2
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: WilliamStar|SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:8118_6@5
-  password: cdBIDV42DCwnfIN
-  port: 8118
+  name: WilliamStar|SS-法国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.172:6379_6@19
+  password: zDNVedRFPQexG9v
+  port: 6379
   server: 149.202.82.172
   type: ss
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇰🇷 韩国 018
-  network: ws
-  port: 59802
-  server: kr-seoul-oracle-ced361.ip1.shop
-  servername: kr-seoul-oracle-ced361.ip1.shop
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.114.114.207
+  type: ss
   udp: true
-  uuid: c587cc79-10f0-4bd7-b929-b608d4044ca9
-  ws-opts:
-    headers:
-      Host: kr-seoul-oracle-ced361.ip1.shop
-    path: /namedfhgxfgdh
-- name: Flik6|[Trojan] 🇨🇦 加拿大 084
-  network: ws
-  password: f0eb8c92ce8946aaba856569cff1a16b
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇫🇷 法国 OVH机房SAS硬盘BGP主机 7
+  password: pKEW8JPByTVTLtM
   port: 443
-  server: 104.19.171.3
-  skip-cert-verify: true
-  sni: sherasheba.com
-  type: trojan
+  server: 149.202.82.172
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: sherasheba.com
-    path: 6b777a91
-- name: Flik6|[Trojan] 🇸🇬 新加坡 001
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇫🇷 法国 OVH机房SAS硬盘BGP主机 5
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇫🇷 法国 OVH机房SAS硬盘BGP主机 4
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- name: Flik6|[Trojan] 🇸🇬 新加坡 005
   network: ws
   password: b84d16a244460e09
   port: 3306
@@ -236,153 +229,220 @@ proxies:
     path: /gateway/connect
 - alterId: 0
   cipher: auto
-  name: NoMoreWalls|6|香港8|@ripaojiedian
-  network: tcp
-  port: '15610'
-  server: 183.232.170.47
-  servername: ''
+  http-opts:
+    headers:
+      Host:
+      - vkvd127.mycdn.me
+    method: GET
+    path:
+    - /
+  name: Flik6|[VMess] 🇨🇱 智利 001
+  network: http
+  port: 3389
+  server: 64.176.15.74
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- cipher: aes-256-cfb
-  name: NoMoreWalls|5|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.215.177.171
-  tfo: false
+  udp: true
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: 8080
+  server: 172.67.169.189
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇫🇷 法国 OVH机房SAS硬盘BGP主机 6
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 149.202.82.172
   type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇦 加拿大 105
+  network: ws
+  port: 80
+  server: zula.ir
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1886c4a7-c395-4aee-a1a2-a816722f5d29
+  ws-opts:
+    headers:
+      Host: Pl2.vmess.site.
+    path: /
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇫🇷 法国 OVH机房SAS硬盘BGP主机
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇫🇷 法国 OVH机房SAS硬盘BGP主机 2
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇫🇷 法国 OVH机房SAS硬盘BGP主机 3
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇺🇸 美国 060
+  network: ws
+  port: 443
+  server: cdnjs.com
+  servername: hdfy1c3.iraniancpi.uk
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f
+  ws-opts:
+    headers:
+      Host: hdfy1c3.iraniancpi.uk
+    path: /QvtvPdDXXIlSdZMqnuxG
 - name: NoMoreWalls|5|🇭🇰 香港4|@ripaojiedian
   password: gkviEOYc
   port: 4027
   server: 183.232.139.22
   skip-cert-verify: true
   type: trojan
+- cipher: aes-256-cfb
+  country: SG
+  name: NoMoreWalls|0|-https://t.me/MrXbin-91
+  password: amazonskr05
+  port: 443
+  server: 13.215.177.171
+  type: ss
+- cipher: aes-256-cfb
+  name: NoMoreWalls|5|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.17.220
+  tfo: false
+  type: ss
 - name: NoMoreWalls|5|🇯🇵 日本|@ripaojiedian
   password: gkviEOYc
   port: 23621
   server: 223.113.54.154
   skip-cert-verify: true
   type: trojan
+- alterId: 64
+  cipher: auto
+  name: NoMoreWalls|6|香港2|@ripaojiedian
+  network: tcp
+  port: '51193'
+  server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
-  name: NoMoreWalls|5|🇯🇵 日本特殊|@ripaojiedian
+  name: NoMoreWalls|5|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: NoMoreWalls|0|-https://t.me/MrXbin-89
+  password: MoxMpgM3MLhBw0DBDvPAnB
+  port: 25067
+  server: 77.221.137.197
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: NoMoreWalls|5,6|新加坡|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: bf475e6c-a607-415e-a7f7-45c889320633
+  ws-opts:
+    headers:
+      Host: 7nAi74jJsg1.yofnhkfc.xyz
+    path: /video/c9efxRCi
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: openRunner|🇸🇬 狮城特殊
   password: amazonskr05
   port: 443
-  server: 43.202.43.179
+  server: 13.113.253.68
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: openRunner|🇰🇷 韩国特殊
+  password: amazonskr05
+  port: 443
+  server: 3.112.233.37
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: NoMoreWalls|5|🇭🇰 香港7|@ripaojiedian
-  port: 15605
-  server: 183.232.199.28
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: NoMoreWalls|5,6|美国2|@ripaojiedian
+  client-fingerprint: chrome
+  name: openRunner|🇭🇰 香港5
   network: ws
-  port: '2052'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
+  port: 16632
+  server: m.cnmjin.net
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 3b99fe7d-a3e5-46c2-adee-7c9a8e40eb09
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
   ws-opts:
     headers:
-      Host: us3AJ8biuQx.fzbqfrse.xyz
-    path: /video/QXjZG5u4F2
-- alterId: 0
-  cipher: auto
-  name: NoMoreWalls|5,6|韩国2|@ripaojiedian
-  network: ws
-  port: '40396'
-  server: sui.forlive.live
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 502615aa-fa3d-42d1-8e4f-6ed9ecf0c95a
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
     path: /
-- name: NoMoreWalls|5|🇯🇵 日本6|@ripaojiedian
-  password: 7FwCA6Z9SyIagBDz0OaY3ep88z0OaY3ep88lKn343pFjE3SyORcRlZqDxAuxXC3SyORcR
-  port: 28332
-  server: terture.meijireform.com
-  skip-cert-verify: false
-  sni: terture.meijireform.com
-  type: trojan
-- name: NoMoreWalls|5|🇺🇸 美国5|@ripaojiedian
+- client-fingerprint: chrome
+  name: openRunner|🇺🇸 美国4
   password: gkviEOYc
-  port: 4787
-  server: 36.151.195.48
+  port: 23223
+  server: 223.113.54.160
   skip-cert-verify: true
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: NoMoreWalls|5|🇭🇰 香港|@ripaojiedian
-  port: 15601
-  server: 183.232.199.28
-  skip-cert-verify: false
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: openRunner|🇻🇳 越南R
+  password: hGkQ6915tD
+  port: 15083
+  server: 59.56.77.178
   tfo: false
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- name: NoMoreWalls|5,8|CN_speednode_0013
-  network: tcp
-  password: TNDSJfNv
-  port: 4603
-  server: 36.151.195.48
+  type: ss
+- client-fingerprint: chrome
+  name: openRunner|🇺🇸 美国5
+  password: gkviEOYc
+  port: 50611
+  server: 183.232.139.22
   skip-cert-verify: true
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: NoMoreWalls|6|美国|@ripaojiedian
-  network: tcp
-  port: '40096'
-  server: 183.232.170.47
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: NoMoreWalls|0|-https://t.me/MrXbin-91
-  network: tcp
-  port: 39841
-  server: 172.233.164.32
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4242d74d-b748-4e74-a7c2-2bfb9d6ed121
-- alterId: 0
-  cipher: auto
-  country: IN
-  h2-opts: {}
-  http-opts: {}
-  name: NoMoreWalls|0|-https://t.me/MrXbin-80
-  network: ws
-  port: 443
-  server: in-full.privateip.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7ac33d15-d4a3-4cad-8c83-fe916f0eaf3c
-  ws-opts:
-    path: /RACEVPN
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: openRunner|🇭🇰 香港6
+  name: openRunner|🇭🇰 香港7
   network: ws
   port: 16632
   server: yes.cnmjcn.net
@@ -395,93 +455,70 @@ proxies:
     headers:
       Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: openRunner|🇯🇵 日本3
-  port: 61002
-  server: 183.232.170.47
-  skip-cert-verify: false
+  name: openRunner|🇺🇸 美国R
+  password: hGkQ6915tD
+  port: 16058
+  server: 59.56.77.178
   tfo: false
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  type: ss
 - alterId: 0
-  cipher: auto
-  name: dayfree|🇺🇸_US_美国->🇩🇪_DE_德国_3
+  cipher: none
+  name: dayfree|🇳🇱_NL_荷兰->🇬🇮_GI_直布罗陀
   network: ws
-  port: 2095
-  server: 172.67.204.84
+  port: 80
+  server: 188.114.97.3
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
+  uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556
   ws-opts:
     headers:
-      host: Asdfghjkl10.unique69.com.
-    path: /
-- alterId: 0
-  cipher: auto
-  name: dayfree|🇺🇸_US_美国->🇩🇪_DE_德国_5
-  network: ws
-  port: 2095
-  server: 104.21.69.44
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
-  ws-opts:
-    headers:
-      host: Asdfghjkl10.unique69.com.
-    path: /
-- alterId: 0
-  cipher: auto
-  name: dayfree|🇺🇸_US_美国_6
-  network: http
-  port: 3389
-  server: 64.176.15.74
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: dayfree|🇳🇱_NL_荷兰
-  network: tcp
-  port: 443
-  server: nl-v2ray.ipracevpn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 836181bb-cf0e-4e3a-9795-0b4264e76ad5
-- alterId: 0
-  cipher: auto
-  name: dayfree|🇺🇸_US_美国->🇩🇪_DE_德国_1
-  network: ws
-  port: 2095
-  server: zula.ir
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
-  ws-opts:
-    headers:
-      host: Asdfghjkl10.unique69.com.
-    path: /
-- alterId: 0
-  cipher: auto
-  name: dayfree|🇺🇸_US_美国->🇩🇪_DE_德国_4
-  network: ws
-  port: 2095
-  server: Www.speedtest.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
-  ws-opts:
-    headers:
-      host: Asdfghjkl10.unique69.com.
-    path: /
+      host: De1.vmess.site.
+    path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
+- cipher: aes-256-gcm
+  name: mfuu|🇺🇸US-38.114.114.207-132
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 38.114.114.207
+  type: ss
+- cipher: aes-256-gcm
+  name: mfuu|🇺🇸US-38.114.114.207-112
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 38.114.114.207
+  type: ss
+- cipher: aes-256-gcm
+  name: mfuu|🇺🇸US-38.114.114.207-011
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 38.114.114.207
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: mfuu|🇬🇧GB-51.145.20.205-128
+  password: CsG76hlXYOAYwe9wsJJVh0
+  port: 20283
+  server: 51.145.20.205
+  type: ss
+- cipher: aes-256-gcm
+  name: mfuu|🇫🇷FR-149.202.82.172-158
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  name: mfuu|🇫🇷FR-149.202.82.172-201
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  name: mfuu|🇫🇷FR-149.202.82.172-196
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 149.202.82.172
+  type: ss
 - alterId: 0
   cipher: auto
   name: blobClash|🇱🇺_LU_卢森堡
@@ -503,17 +540,13 @@ proxies:
   udp: true
   ws-opts:
     path: /argox-tr
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: ruk1ng|CH😈github.com/Ruk1ng001_1063443724
-  port: 15604
-  server: 183.232.170.47
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  name: ruk1ng|CH😈github.com/Ruk1ng001_-1400900353
+  password: 4aa5bc5a-5574-4ec6-9c34-d2a5e9ee1d53
+  port: 46091
+  server: rk2.izoizoizo.top
+  type: ss
 - alterId: 0
   cipher: auto
   name: rokate||13.09Mb
@@ -523,38 +556,6 @@ proxies:
   tls: false
   type: vmess
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- cipher: aes-128-cfb
-  name: ermaozi|🇺🇸_US_美国_1
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: ermaozi|🇺🇸_US_美国->🇩🇪_DE_德国_1
-  network: ws
-  port: 2095
-  server: 104.18.202.232
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
-  ws-opts:
-    headers:
-      host: Asdfghjkl10.unique69.com.
-    path: /
-- cipher: aes-256-gcm
-  name: ermaozi|🇵🇱_PL_波兰_2
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: ermaozi|🇵🇱_PL_波兰_3
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 51.77.53.200
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -672,29 +673,13 @@ proxies:
     path: tg@zdyz2
 - alterId: 0
   cipher: auto
-  name: mahdiblanda|RELAY-104.21.69.44-0160 | 5.988MB
+  name: blobFree|🇹🇼_TW_台湾
   network: ws
-  port: 80
-  server: zula.ir
-  skip-cert-verify: false
+  port: 12345
+  server: 35.229.236.201
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 1886c4a7-c395-4aee-a1a2-a816722f5d29
+  uuid: 957c0034-9066-48a8-b824-5f6203298746
   ws-opts:
-    headers:
-      Host: Pl2.vmess.site.
-    path: /
-- alterId: 0
-  cipher: auto
-  name: mahdiblanda|RELAY-188.114.97.3-0165 | 2.354MB
-  network: ws
-  port: 80
-  server: 188.114.97.3
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556
-  ws-opts:
-    headers:
-      Host: De1.vmess.site.
-    path: /
+    path: /957c0034
