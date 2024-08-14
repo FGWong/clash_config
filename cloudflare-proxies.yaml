@@ -29,7 +29,7 @@ proxies:
   name: 🇭🇰 HK
   network: ws
   port: 443
-  server: 16.162.37.167
+  server: 18.167.20.205
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -42,7 +42,7 @@ proxies:
   name: 🇭🇰 HK 2
   network: ws
   port: 2053
-  server: 47.243.90.180
+  server: 8.217.250.222
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -54,8 +54,8 @@ proxies:
 - client-fingerprint: random
   name: 🇭🇰 HK 3
   network: ws
-  port: 2083
-  server: 47.243.186.171
+  port: 443
+  server: 18.167.194.154
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -67,8 +67,8 @@ proxies:
 - client-fingerprint: random
   name: 🇭🇰 HK 4
   network: ws
-  port: 2053
-  server: 8.210.43.213
+  port: 8443
+  server: 8.217.250.222
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -132,8 +132,8 @@ proxies:
 - client-fingerprint: random
   name: USm
   network: ws
-  port: 2053
-  server: 172.67.77.88
+  port: 2052
+  server: 172.67.156.70
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -145,8 +145,8 @@ proxies:
 - client-fingerprint: random
   name: USm 2
   network: ws
-  port: 2083
-  server: 172.67.105.59
+  port: 2082
+  server: 172.67.209.199
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -158,8 +158,8 @@ proxies:
 - client-fingerprint: random
   name: USm 3
   network: ws
-  port: 2087
-  server: 172.67.145.40
+  port: 2086
+  server: 172.67.157.253
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -171,8 +171,8 @@ proxies:
 - client-fingerprint: random
   name: USm 4
   network: ws
-  port: 2096
-  server: 172.67.221.99
+  port: 2095
+  server: 172.67.169.205
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -184,8 +184,8 @@ proxies:
 - client-fingerprint: random
   name: USm 5
   network: ws
-  port: 8443
-  server: 172.64.68.18
+  port: 8442
+  server: 141.101.115.183
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -198,7 +198,7 @@ proxies:
   name: USu
   network: ws
   port: 443
-  server: 172.64.161.172
+  server: 172.64.135.5
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -211,20 +211,7 @@ proxies:
   name: USu 2
   network: ws
   port: 2053
-  server: 172.67.87.96
-  servername: tunnel.unionpay.eu.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: tunnel.unionpay.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CRu
-  network: ws
-  port: 2083
-  server: 190.93.246.194
+  server: 172.67.100.181
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -237,7 +224,7 @@ proxies:
   name: USu 3
   network: ws
   port: 2096
-  server: 172.67.37.50
+  server: 172.67.123.12
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -250,7 +237,7 @@ proxies:
   name: USu 4
   network: ws
   port: 2096
-  server: 172.67.96.16
+  server: 198.41.221.75
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -263,7 +250,7 @@ proxies:
   name: USu 5
   network: ws
   port: 2053
-  server: 172.67.190.25
+  server: 172.67.33.2
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -329,6 +316,19 @@ proxies:
   network: ws
   port: 8443
   server: 172.67.7.92
+  servername: tunnel.unionpay.eu.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: tunnel.unionpay.eu.org
+    path: /?ed=2560
+- client-fingerprint: random
+  name: CRu
+  network: ws
+  port: 2083
+  server: 190.93.246.194
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
