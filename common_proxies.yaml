@@ -180,12 +180,78 @@ proxies:
   type: vmess
   uuid: e147ce52-2598-31b0-950d-6b12c306b360
   ws-path: /
-- name: Flik6|[Trojan] 🇩🇪 德国 黑森州法兰克福Amazon数据中心
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.59.95.40
+- name: Flik6|[Trojan] 🇨🇳 北京市 移动 3
+  password: 2195A7C1-5C63-69BB-7B6F-89F29A3C429F
+  port: 14902
+  server: bepgzbgp01.334837632.xyz
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+  sni: mpvideo.qpic.cn
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 乌克兰 V2CROSS.COM
+  password: 3698a3e7-2877-4ded-a665-d81ee3cfd449
+  port: 12003
+  server: 82.117.226.218
+  skip-cert-verify: true
+  sni: cn1.cdn.xfltd-cdn.top
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 🇨🇳 北京市 移动 2
+  password: 2195A7C1-5C63-69BB-7B6F-89F29A3C429F
+  port: 14903
+  server: bepgzbgp01.334837632.xyz
+  skip-cert-verify: true
+  sni: mpvideo.qpic.cn
+  type: trojan
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: Flik6|[VMess] 🇺🇸 美国 加利福尼亚州洛杉矶PetaExpress
+  port: 41911
+  server: 107.148.192.152
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: Flik6|[Trojan] 🇨🇳 北京市 移动 5
+  password: 2195A7C1-5C63-69BB-7B6F-89F29A3C429F
+  port: 14942
+  server: bepgzbgp01.334837632.xyz
+  skip-cert-verify: true
+  sni: mpvideo.qpic.cn
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 🇨🇳 上海市 移动 2
+  password: 2195A7C1-5C63-69BB-7B6F-89F29A3C429F
+  port: 14915
+  server: bepshbgp01.334837632.xyz
+  skip-cert-verify: true
+  sni: mpvideo.qpic.cn
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 🇨🇳 上海市 移动
+  password: 2195A7C1-5C63-69BB-7B6F-89F29A3C429F
+  port: 14965
+  server: bepshbgp01.334837632.xyz
+  skip-cert-verify: true
+  sni: mpvideo.qpic.cn
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 安徽省 移动数据上网公共出口
+  password: 3698a3e7-2877-4ded-a665-d81ee3cfd449
+  port: 12003
+  server: cn1.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cn1.cdn.xfltd-cdn.top
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 🇨🇳 上海市 移动 3
+  password: 2195A7C1-5C63-69BB-7B6F-89F29A3C429F
+  port: 14913
+  server: bepshbgp01.334837632.xyz
+  skip-cert-verify: true
+  sni: mpvideo.qpic.cn
   type: trojan
   udp: true
 - alterId: 0
@@ -193,7 +259,7 @@ proxies:
   name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 9
   network: ws
   port: 2086
-  server: singapore.com
+  server: russia.com
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -203,31 +269,52 @@ proxies:
     headers:
       Host: ip1.1789034.xyz
     path: github.com/Alvin9999
-- alterId: 64
+- name: Flik6|[Trojan] 🇨🇳 北京市 移动 4
+  password: 2195A7C1-5C63-69BB-7B6F-89F29A3C429F
+  port: 14970
+  server: bepgzbgp01.334837632.xyz
+  skip-cert-verify: true
+  sni: mpvideo.qpic.cn
+  type: trojan
+  udp: true
+- alterId: 0
   cipher: auto
-  name: Flik6|[VMess] 🇨🇳 广东省广州市 移动
-  port: 45020
-  server: 183.236.51.23
+  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 5
+  network: ws
+  port: 2086
+  server: 104.26.5.67
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇳🇴 挪威 V2CROSS.COM
-  network: ws
-  port: 443
-  server: beyonddsz.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      Host: beyonddsz.cfd
-    path: /linkws
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- name: Flik6|[Trojan] 🇨🇳 北京市 移动
+  password: 2195A7C1-5C63-69BB-7B6F-89F29A3C429F
+  port: 14943
+  server: bepgzbgp01.334837632.xyz
+  skip-cert-verify: true
+  sni: mpvideo.qpic.cn
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 13
+  network: ws
+  port: 2086
+  server: 104.26.0.56
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
 - cipher: chacha20-ietf-poly1305
   name: Flik6|[SS] 🇨🇦 加拿大 魁北克省蒙特利尔市OVH数据中心
   password: JIhN6rBKkaEboLNXVSv5rq
@@ -237,52 +324,77 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: NoMoreWalls|11|香港8|@ripaojiedian
-  network: tcp
-  port: '44815'
-  server: ambxxid02hk.dorabbb.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9ab3ef7a-2348-4452-8e4a-548fc8a980d9
-- name: NoMoreWalls|10,11|日本|@ripaojiedian
-  network: tcp
-  password: yEnxJlVC
-  port: 33609
-  server: 36.151.195.51
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 'NoMoreWalls|4|dg.com_1 #2'
+  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 15
   network: ws
   port: 2086
-  server: 23.227.38.6
-  servername: ip005.3196772.xyz
+  server: 162.159.140.66
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 2
+  network: ws
+  port: 2086
+  server: 172.64.233.32
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: NoMoreWalls|0|-https://t.me/MrXbin-30
+  network: ws
+  port: 2086
+  server: 23.227.38.3
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: NoMoreWalls|2|dg.com_1
+  network: ws
+  port: 2086
+  server: 23.227.38.5
+  servername: ip006.freegradely.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
   ws-opts:
     headers:
-      Host: ip005.3196772.xyz
+      Host: ip006.freegradely.xyz
     path: github.com/Alvin9999
-- name: NoMoreWalls|12|US_speednode_0173
-  network: ws
-  password: CMLiu
-  port: 443
-  server: 43.153.80.208
-  skip-cert-verify: true
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  udp: false
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /ed=2048
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: openRunner|🇹🇼 台湾2
+  password: adf1fbfc-6276-4478-9a08-0fca1da2edda
+  port: 39201
+  server: 6bhz.6bnw.top
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
-  name: NoMoreWalls|10|🇭🇰 香港5|@ripaojiedian
+  client-fingerprint: chrome
+  name: openRunner|🇭🇰 香港5
   port: 54104
   server: 183.236.51.23
   skip-cert-verify: false
@@ -290,61 +402,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 'NoMoreWalls|4|dg.com_3 #2'
-  network: ws
-  port: 2086
-  server: 104.19.38.62
-  servername: ip005.3196772.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip005.3196772.xyz
-    path: github.com/Alvin9999
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: openRunner|🇯🇵 日本3
-  password: 309f6157-8f68-488c-a6a8-b0f5d7106088
-  port: 49207
-  server: aa01gg.sssyun.xyz
+  name: openRunner|🇯🇵 日本2
+  password: adf1fbfc-6276-4478-9a08-0fca1da2edda
+  port: 19529
+  server: 6bhz.6bnw.top
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: openRunner|🇺🇸 美国5
-  network: ws
-  port: 2086
-  server: 104.26.0.56
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: openRunner|🇺🇸 美国
-  network: ws
-  port: 2086
-  server: 104.19.51.232
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip005.dtku47.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: dayfree|🇷🇺_RU_俄罗斯
@@ -353,9 +418,30 @@ proxies:
   server: 46.29.163.158
   type: vmess
   uuid: 0de1ee2b-92d7-4ca8-9f0e-64e89f5e5f6d
+- name: mfuu|🇰🇷KR-82.117.226.218-208
+  password: 3698a3e7-2877-4ded-a665-d81ee3cfd449
+  port: 12001
+  server: 82.117.226.218
+  skip-cert-verify: true
+  sni: cn1.cdn.xfltd-cdn.top
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: blobClash|🇺🇸_US_美国->🇨🇦_CA_加拿大_16
+  name: blobClash|🇺🇸_US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: 2086
+  server: 172.64.233.17
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: blobClash|🇺🇸_US_美国->🇨🇦_CA_加拿大_15
   network: ws
   port: 2086
   server: ip.sb
@@ -367,119 +453,17 @@ proxies:
     headers:
       host: ip1.1789034.xyz
     path: github.com/Alvin9999
-- cipher: aes-256-cfb
-  name: blobClash|🇷🇺_RU_俄罗斯_2
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  server: 80.92.204.106
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: blobClash|🇺🇸_US_美国->🇨🇦_CA_加拿大_6
-  network: ws
-  port: 2086
-  server: www.visa.com
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: blobClash|🇺🇸_US_美国->🇨🇦_CA_加拿大_13
-  network: ws
-  port: 2086
-  server: 172.67.71.187
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: blobClash|🇺🇸_US_美国->🇨🇦_CA_加拿大_10
-  network: ws
-  port: 2086
-  server: 104.26.5.56
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   name: blobClash|🇷🇺_RU_俄罗斯
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
-  server: 80.92.204.106
+  password: 6iCOjgGPbe0ad75UjLdItm
+  port: 21712
+  server: 62.133.60.60
   type: ss
-- cipher: aes-256-cfb
-  name: blobClash|🇷🇺_RU_俄罗斯_1
-  password: NvS8N4Vf8qAGPSCL
-  port: 9046
-  server: 80.92.204.106
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: blobClash|🇺🇸_US_美国->🇨🇦_CA_加拿大_14
-  network: ws
-  port: 2086
-  server: 162.159.140.66
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: blobClash|🇺🇸_US_美国->🇨🇦_CA_加拿大_8
-  network: ws
-  port: 2086
-  server: 162.159.140.19
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: blobClash|🇺🇸_US_美国->🇨🇦_CA_加拿大_12
-  network: ws
-  port: 2086
-  server: 172.64.233.37
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: blobClash|🇺🇸_US_美国_6
-  network: ws
-  port: 2086
-  server: 172.64.233.15
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      host: ip2.1457230.xyz
-    path: github.com/Alvin9999
 - alterId: 64
   cipher: none
-  name: ruk1ng|CN😈github.com/Ruk1ng001_-1502312429
-  port: 52442
-  server: 120.232.153.40
+  name: ruk1ng|CN😈github.com/Ruk1ng001_1516326159
+  port: 34565
+  server: 120.232.153.71
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts: {}
@@ -492,29 +476,24 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts: {}
 - alterId: 64
-  cipher: none
-  name: ruk1ng|CN😈github.com/Ruk1ng001_-1848921876
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: ruk1ng|CN😈github.com/Ruk1ng001_-521863197
+  network: tcp
   port: 54602
   server: 183.236.48.166
+  skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts: {}
-- alterId: 64
-  cipher: none
-  name: ruk1ng|CN😈github.com/Ruk1ng001_962560068
-  port: 35576
-  server: 183.238.90.3
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts: {}
-- alterId: 64
-  cipher: none
-  name: ruk1ng|CN😈github.com/Ruk1ng001_1090576457
-  port: 33414
-  server: 120.232.153.37
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts: {}
+- alterId: -1
+  cipher: aes-256-cfb
+  name: ruk1ng|SG😈github.com/Ruk1ng001_-1155172553
+  password: amazonskr05
+  port: 443
+  server: 13.214.209.23
+  type: ss
 - alterId: -1
   cipher: aes-256-cfb
   country: 🇸🇬SG
@@ -523,113 +502,138 @@ proxies:
   port: 443
   server: 13.229.243.64
   type: ss
-- alterId: 64
-  cipher: none
-  name: ruk1ng|CN😈github.com/Ruk1ng001_466513589
-  port: 52908
-  server: 120.237.79.157
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts: {}
-- alterId: 64
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: ruk1ng|CN😈github.com/Ruk1ng001_-2125474256
-  network: tcp
-  port: 50002
-  server: 120.210.205.82
-  servername: mpvideo.qpic.cn
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: -1
   cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: ruk1ng|SG😈github.com/Ruk1ng001_1025572808
+  country: 🇯🇵JP
+  name: ruk1ng|JP😈github.com/Ruk1ng001_-843712172
   password: amazonskr05
   port: 443
-  server: 54.169.236.64
-  type: ss
-- alterId: -1
-  cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: ruk1ng|SG😈github.com/Ruk1ng001_1464721073
-  password: amazonskr05
-  port: 443
-  server: 13.212.34.140
+  server: 18.183.77.249
   type: ss
 - alterId: -1
   cipher: aes-256-cfb
   country: 🇯🇵JP
-  name: ruk1ng|JP😈github.com/Ruk1ng001_-832336290
+  name: ruk1ng|JP😈github.com/Ruk1ng001_221259552
   password: amazonskr05
   port: 443
-  server: 52.194.250.138
+  server: 3.112.7.26
   type: ss
 - alterId: -1
   cipher: aes-256-cfb
-  country: 🇯🇵 JP
-  name: ruk1ng|JP😈github.com/Ruk1ng001_1278569820
+  country: 🇯🇵JP
+  name: ruk1ng|JP😈github.com/Ruk1ng001_171271995
   password: amazonskr05
   port: 443
-  server: 3.112.237.254
+  server: 18.183.138.196
   type: ss
 - alterId: -1
   cipher: aes-256-cfb
-  country: 🇺🇸 US
-  name: ruk1ng|SG😈github.com/Ruk1ng001_-348074317
-  password: amazonskr05
-  port: 443
-  server: 13.212.82.167
-  type: ss
-- alterId: -1
-  cipher: aes-256-cfb
-  country: 🇸🇬SG
   name: ruk1ng|SG😈github.com/Ruk1ng001_1277524372
   password: amazonskr05
   port: 443
   server: 13.228.79.13
   type: ss
-- alterId: 64
+- alterId: -1
+  cipher: aes-256-cfb
+  country: 🇯🇵JP
+  name: ruk1ng|JP😈github.com/Ruk1ng001_255020652
+  password: amazonskr05
+  port: 443
+  server: 54.150.207.255
+  type: ss
+- alterId: 2
   cipher: auto
-  country: 🇨🇳CN
+  country: 🇨🇳 CN
   h2-opts: {}
   http-opts: {}
-  name: ruk1ng|CN😈github.com/Ruk1ng001_-1509473673
+  name: ruk1ng|CH😈github.com/Ruk1ng001_1867031036
   network: tcp
+  port: 10009
+  server: cnah2.lanyunshi.top
+  servername: cnah2.lanyunshi.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: ruk1ng|CN😈github.com/Ruk1ng001_-606615158
   port: 50002
-  server: 114.55.132.202
+  server: 120.210.205.82
   skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: ruk1ng|CN😈github.com/Ruk1ng001_-1459618184
-  network: tcp
-  port: 42866
-  server: 183.238.202.171
-  skip-cert-verify: true
-  type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: -1
   cipher: aes-256-cfb
-  country: 🇯🇵 JP
-  name: ruk1ng|JP😈github.com/Ruk1ng001_-1948362065
+  country: 🇯🇵JP
+  name: ruk1ng|JP😈github.com/Ruk1ng001_159281507
   password: amazonskr05
   port: 443
-  server: 52.69.70.123
+  server: 52.197.108.167
   type: ss
 - alterId: -1
   cipher: aes-256-cfb
-  name: ruk1ng|SG😈github.com/Ruk1ng001_-1194034675
+  country: 🇸🇬SG
+  name: ruk1ng|SG😈github.com/Ruk1ng001_-348074317
   password: amazonskr05
   port: 443
-  server: 47.128.150.72
+  server: 13.212.82.167
+  type: ss
+- alterId: 64
+  cipher: none
+  name: ruk1ng|CN😈github.com/Ruk1ng001_1873915727
+  port: 50004
+  server: 112.132.212.19
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts: {}
+- alterId: 0
+  name: ruk1ng|Euro😈github.com/Ruk1ng001_-1232079968
+  password: 3698a3e7-2877-4ded-a665-d81ee3cfd449
+  port: 12005
+  server: cn1.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cn1.cdn.xfltd-cdn.top
+  tls: true
+  type: trojan
+  udp: true
+- alterId: -1
+  cipher: aes-256-cfb
+  country: 🇯🇵JP
+  name: ruk1ng|JP😈github.com/Ruk1ng001_1204534257
+  password: amazonskr05
+  port: 443
+  server: 13.231.37.25
+  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: ruk1ng|AU😈github.com/Ruk1ng001_1293917854
+  network: tcp
+  port: 19901
+  server: cnah2.lanyunshi.top
+  servername: cnah2.lanyunshi.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a
+- alterId: -1
+  cipher: aes-256-cfb
+  name: ruk1ng|JP😈github.com/Ruk1ng001_1663587379
+  password: amazonskr05
+  port: 443
+  server: 3.112.240.59
+  type: ss
+- alterId: -1
+  cipher: aes-256-gcm
+  country: 🇨🇳CN
+  name: ruk1ng|TW😈github.com/Ruk1ng001_2110366928
+  password: 2affd0c1-a5b4-4c1c-8800-fb2f866626e7
+  port: 47082
+  server: zzh2.gouersu.top
   type: ss
 - alterId: 0
   cipher: auto
