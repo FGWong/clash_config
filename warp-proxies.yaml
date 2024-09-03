@@ -5,11 +5,11 @@ proxies:
   ip: 172.16.0.2
   mtu: 1280
   name: 🇳🇱 NL-CF-WARP-1
-  port: 3854
+  port: 8886
   private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   remote-dns-resolve: true
-  server: 188.114.98.14
+  server: 188.114.96.78
   type: wireguard
   udp: true
 - dns:
@@ -18,11 +18,11 @@ proxies:
   ip: 172.16.0.2
   mtu: 1280
   name: 🇳🇱 NL-CF-WARP-2
-  port: 8886
+  port: 3854
   private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   remote-dns-resolve: true
-  server: 188.114.97.228
+  server: 188.114.99.38
   type: wireguard
   udp: true
 - dns:
@@ -31,11 +31,11 @@ proxies:
   ip: 172.16.0.2
   mtu: 1280
   name: 🇳🇱 NL-CF-WARP-3
-  port: 8886
+  port: 3854
   private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   remote-dns-resolve: true
-  server: 188.114.96.235
+  server: 188.114.97.75
   type: wireguard
   udp: true
 - dns:
@@ -61,7 +61,7 @@ proxies:
   private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   remote-dns-resolve: true
-  server: 162.159.195.129
+  server: 162.159.192.20
   type: wireguard
   udp: true
 - dns:
@@ -70,11 +70,11 @@ proxies:
   ip: 172.16.0.2
   mtu: 1280
   name: 🇺🇸 US-CF-WARP-6
-  port: 8886
+  port: 3854
   private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   remote-dns-resolve: true
-  server: 162.159.195.243
+  server: 162.159.195.166
   type: wireguard
   udp: true
 - dns:
@@ -83,7 +83,7 @@ proxies:
   ip: 172.16.0.2
   mtu: 1280
   name: 🇳🇱 NL-CF-WARP-7
-  port: 8886
+  port: 3854
   private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   remote-dns-resolve: true
@@ -95,12 +95,12 @@ proxies:
   - 1.0.0.1
   ip: 172.16.0.2
   mtu: 1280
-  name: 🇺🇸 US-CF-WARP-8
-  port: 3854
+  name: 🇳🇱 NL-CF-WARP-8
+  port: 8886
   private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   remote-dns-resolve: true
-  server: 162.159.195.185
+  server: 188.114.97.124
   type: wireguard
   udp: true
 - dns:
@@ -113,7 +113,7 @@ proxies:
   private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   remote-dns-resolve: true
-  server: 188.114.99.52
+  server: 188.114.96.28
   type: wireguard
   udp: true
 - dns:
@@ -121,11 +121,11 @@ proxies:
   - 1.0.0.1
   ip: 172.16.0.2
   mtu: 1280
-  name: 🇳🇱 NL-CF-WARP-10
+  name: 🇺🇸 US-CF-WARP-10
   port: 3854
   private-key: mMVJKCxsIhqe9EDefgRA4kSZO4c22FyxfQHRQf3UMFM=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   remote-dns-resolve: true
-  server: 188.114.99.253
+  server: 162.159.192.94
   type: wireguard
   udp: true

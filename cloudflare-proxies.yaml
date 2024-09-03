@@ -29,7 +29,7 @@ proxies:
   name: 🇭🇰 HK
   network: ws
   port: 443
-  server: 202.81.231.150
+  server: 103.220.72.40
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -42,7 +42,7 @@ proxies:
   name: 🇭🇰 HK 2
   network: ws
   port: 443
-  server: 219.76.13.169
+  server: 202.81.231.150
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -55,7 +55,7 @@ proxies:
   name: 🇭🇰 HK 3
   network: ws
   port: 443
-  server: 219.76.13.164
+  server: 219.76.13.183
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -68,7 +68,7 @@ proxies:
   name: 🇭🇰 HK 4
   network: ws
   port: 443
-  server: 156.230.12.71
+  server: 8.212.43.8
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -78,36 +78,10 @@ proxies:
       Host: tunnel.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: 🇺🇸 US
+  name: US2096
   network: ws
   port: 2096
   server: 188.114.99.1
-  servername: tunnel.unionpay.eu.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: tunnel.unionpay.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 🇺🇸 US 2
-  network: ws
-  port: 8443
-  server: 162.159.195.182
-  servername: tunnel.unionpay.eu.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: tunnel.unionpay.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 🇺🇸 US 3
-  network: ws
-  port: 2053
-  server: 162.159.192.215
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -130,7 +104,7 @@ proxies:
       Host: tunnel.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: USm
+  name: US2052
   network: ws
   port: 2052
   server: 172.67.156.70
@@ -143,7 +117,7 @@ proxies:
       Host: tunnel.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: USm 2
+  name: US2082
   network: ws
   port: 2082
   server: 172.67.209.199
@@ -156,7 +130,7 @@ proxies:
       Host: tunnel.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: USm 3
+  name: US2086
   network: ws
   port: 2086
   server: 172.67.157.253
@@ -169,7 +143,7 @@ proxies:
       Host: tunnel.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: USm 4
+  name: US2095
   network: ws
   port: 2095
   server: 172.67.169.205
@@ -195,7 +169,7 @@ proxies:
       Host: tunnel.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: V64IVd0
+  name: V64d0
   network: ws
   port: 2083
   server: '2606:4700:d0::'
@@ -208,7 +182,7 @@ proxies:
       Host: tunnel.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: V64IVd1
+  name: V64d1
   network: ws
   port: 2087
   server: '2606:4700:d1::'
@@ -221,7 +195,7 @@ proxies:
       Host: tunnel.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: USm7
+  name: US07
   network: ws
   port: 8443
   server: 129.159.83.88
@@ -234,7 +208,7 @@ proxies:
       Host: tunnel.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: USm6
+  name: US06
   network: ws
   port: 8443
   server: 158.101.169.13
@@ -247,7 +221,7 @@ proxies:
       Host: tunnel.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: USm5
+  name: US05
   network: ws
   port: 8443
   server: 158.101.215.45
@@ -260,7 +234,7 @@ proxies:
       Host: tunnel.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: USm4
+  name: US04
   network: ws
   port: 8443
   server: 129.154.254.254
@@ -273,7 +247,7 @@ proxies:
       Host: tunnel.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: USm3
+  name: US03
   network: ws
   port: 8443
   server: 152.69.210.245
@@ -286,7 +260,7 @@ proxies:
       Host: tunnel.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: USm2
+  name: US02
   network: ws
   port: 8443
   server: 152.69.199.70
@@ -299,7 +273,7 @@ proxies:
       Host: tunnel.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: USm1
+  name: US01
   network: ws
   port: 8443
   server: 141.147.85.167
