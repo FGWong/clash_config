@@ -29,7 +29,7 @@ proxies:
   name: 🇭🇰 HK
   network: ws
   port: 443
-  server: 8.218.65.62
+  server: 103.220.72.40
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
@@ -42,33 +42,7 @@ proxies:
   name: 🇭🇰 HK 2
   network: ws
   port: 443
-  server: 219.76.13.183
-  servername: tunnel.unionpay.eu.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: tunnel.unionpay.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 🇭🇰 HK 3
-  network: ws
-  port: 443
   server: 219.76.13.169
-  servername: tunnel.unionpay.eu.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: tunnel.unionpay.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 🇭🇰 HK 4
-  network: ws
-  port: 443
-  server: 221.127.50.207
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
