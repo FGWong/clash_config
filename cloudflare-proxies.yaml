@@ -29,7 +29,7 @@ proxies:
   name: 🇭🇰 HK
   network: ws
   port: 443
-  server: 103.220.72.40
+  server: 219.76.13.164
   servername: tunnel.unionpay.eu.org
   tls: true
   type: vless
