@@ -581,6 +581,7 @@ proxy-groups:
       - William_group
       - cflare
       - CFWarp
+      - ♻️ XQC
   - name: cflare
     type: url-test
     use:
@@ -603,6 +604,12 @@ proxy-groups:
       - 🐟 漏网之鱼
       - 🎏 失败切换
       - ⚡ 负载均衡
+  - name: ♻️ XQC
+    type: url-test
+    use:
+      - xqc
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 12000
   - name: 📲 电报信息
     type: select
     proxies:
@@ -734,6 +741,16 @@ proxy-providers:
     #type: file
     interval: 10807
     path: local_data/cloudflare-proxies.yaml
+    health-check:
+      enable: true
+      interval: 12000
+      url: 'http://www.gstatic.com/generate_204'
+  xqc:
+    url: "https://jiahe.eu.org:15443/clash_verge/xqc-proxies.yaml"
+    type: http
+    #type: file
+    interval: 10807
+    path: local_data/xqc-proxies.yaml
     health-check:
       enable: true
       interval: 12000
