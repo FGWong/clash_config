@@ -180,45 +180,284 @@ proxies:
   type: vmess
   uuid: e147ce52-2598-31b0-950d-6b12c306b360
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: Flik6|[SS] 🇷🇺 俄罗斯 V2CROSS.COM
+  password: 2fwufOmJ9ELfN4umzcHBfV
+  port: 12224
+  server: 194.87.82.28
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇺🇸 美国 新泽西州(Merck公司) 2
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 54.37.12.70
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 9
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 38.110.1.102
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 6
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.114.114.69
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.110.1.51
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 10
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 38.110.1.102
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇵🇱 波兰 V2CROSS.COM
+  port: 13194
+  server: 128.204.223.115
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6bd68f20-a6ac-4225-c9e5-6bb2478f630f
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 11
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 38.68.134.202
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 7
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 38.68.134.202
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 北美地区 V2CROSS.COM 7
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 23.157.40.89
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 38.68.134.202
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 5
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 38.114.114.143
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇺🇸 美国 新泽西州(Merck公司)
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 54.37.12.70
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 北美地区 V2CROSS.COM 14
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 23.157.40.113
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 北美地区 V2CROSS.COM 4
+  password: lGqs95QkFHo2NV
+  port: 5499
+  server: 23.157.40.89
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 4
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.114.114.69
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.68.134.202
   type: ss
   udp: true
-- name: NoMoreWalls|15|KR_speednode_0088
-  password: 1dfba761-c1e0-422e-98b6-062da56afb53
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 北美地区 V2CROSS.COM 9
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 23.157.40.89
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 8
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 38.121.43.204
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 51
+  network: ws
   port: 443
-  server: jkrf1.969799.xyz
+  server: obdii.cfd
   skip-cert-verify: true
-  sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- name: NoMoreWalls|15|CN_speednode_0022
-  password: af46f520-a6a1-4207-b3c4-062493fb71d1
-  port: 12011
-  server: cn1.cdn.xfltd-cdn.top
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 1
+  cipher: auto
+  name: Flik6|[VMess] 🇫🇷 法国 国际航空电讯集团公司(SITA)
+  network: ws
+  port: 443
+  server: 57.129.25.20
   skip-cert-verify: true
-  sni: cdn.alibaba.com
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 57.129.25.20
+    path: linkvws
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 3
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 38.114.114.143
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 北美地区 V2CROSS.COM
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 23.157.40.89
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇺🇸 美国 V2CROSS.COM 2
+  network: ws
+  port: 443
+  server: 45.149.12.78
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/ed=2560
+- alterId: 64
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇳 广东省广州市 移动
+  port: 40002
+  server: 183.236.48.163
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 北美地区 V2CROSS.COM 3
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 23.157.40.113
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 北美地区 V2CROSS.COM 12
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 23.157.40.113
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: NoMoreWalls|13|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.115.255.151
+  tfo: false
+  type: ss
+- name: NoMoreWalls|14|日本3|@ripaojiedian
+  network: tcp
+  password: an70aOaIjcCF43gOlSB6eKER53Z38DYDx8l9RCSCpYTwXS3pueyAqyFZx2zDNA
+  port: 443
+  server: plowman.meijireform.com
+  type: trojan
+- cipher: rc4-md5
+  name: NoMoreWalls|0|-https://t.me/MrXbin-6
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.155.57.51
+  type: ss
+- cipher: aes-256-gcm
+  name: NoMoreWalls|0|-https://t.me/MrXbin-5
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 38.121.43.204
+  type: ss
+- cipher: aes-256-gcm
+  name: NoMoreWalls|13|🇭🇰 香港3|@ripaojiedian
+  password: 99NH00E1KE8IF6WO
+  port: 15002
+  server: 120.241.45.50
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: NoMoreWalls|13|🇭🇰 香港4|@ripaojiedian
+  port: 58002
+  server: 120.232.153.27
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  name: NoMoreWalls|0|-https://t.me/MrXbin-3
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 38.75.136.117
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: NoMoreWalls|13|🇺🇸 美国4|@ripaojiedian
+  port: 52112
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  name: NoMoreWalls|0|-https://t.me/MrXbin-1
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.68.134.202
+  type: ss
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: NoMoreWalls|0|-https://t.me/MrXbin-26
+  name: NoMoreWalls|0|-https://t.me/MrXbin-32
   network: ws
   port: 443
-  server: 91.107.164.204
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  server: speedtest.net
+  servername: mehrjavan.ir
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -228,123 +467,118 @@ proxies:
     headers:
       Host: mehrjavan.ir
     path: /m28jcoZZUhkqg6pk11
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: NoMoreWalls|13,14|新加坡3|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 192.53.114.167
-  servername: 192.53.114.167
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  name: NoMoreWalls|14|香港X|@ripaojiedian
+  network: tcp
+  port: '51704'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
-  ws-opts:
-    headers:
-      Host: 192.53.114.167
-    path: /BqVwBioP
-- alterId: 0
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
   cipher: auto
-  name: NoMoreWalls|13|🇭🇰 香港6|@ripaojiedian
-  port: 12960
-  server: z3.fragranceninja.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: NoMoreWalls|0|-https://t.me/MrXbin-28
-  network: ws
-  port: 443
-  server: 38.91.100.228
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: sareikela.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: NoMoreWalls|13,14|美国|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 50.116.1.158
-  servername: 50.116.1.158
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
-  ws-opts:
-    headers:
-      Host: 50.116.1.158
-    path: /LtteaUsf
-- name: NoMoreWalls|13|🇸🇬 新加坡4|@ripaojiedian
-  password: '3672449442956713984'
-  port: 443
-  server: present-blowfish.sunbeam921.monster
-  skip-cert-verify: false
-  sni: present-blowfish.sunbeam921.monster
-  type: trojan
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: NoMoreWalls|0|-https://t.me/MrXbin-24
-  network: ws
-  port: 443
-  server: 57.129.28.69
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: baradiha.com
-    path: /linkvws
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: openRunner|🇸🇬 狮城特殊
-  password: amazonskr05
-  port: 443
-  server: 13.212.100.34
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: openRunner|🇰🇷 韩国3
-  network: ws
-  port: 80
-  server: cU9jf.c6tu5uwk9.buzz
+  name: NoMoreWalls|13|🇭🇰 香港2|@ripaojiedian
+  port: 56601
+  server: 183.236.51.23
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
-  ws-opts:
-    headers:
-      Host: kr01.1761d77fead15f193490a0f11b83f3a4.buzz
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: NoMoreWalls|0|-https://t.me/MrXbin-14
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.188
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: NoMoreWalls|13|🇭🇰 香港|@ripaojiedian
+  password: c17c376d-b0e0-4830-b3b1-b8657953e1db
+  port: 11001
+  server: 183.240.255.75
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: openRunner|🇹🇼 台湾
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 7c0ad96494.microsoft.com
+    mode: http
+  port: 1170
+  server: 163.177.58.179
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: openRunner|🇯🇵 日本3
+  password: amazonskr05
+  port: 443
+  server: 3.112.215.69
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: openRunner|🇸🇬 新加坡
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 7c0ad96494.microsoft.com
+    mode: http
+  port: 1190
+  server: 163.177.58.179
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: openRunner|🇰🇷 韩国特殊
   password: amazonskr05
   port: 443
-  server: 3.36.69.3
+  server: 52.193.244.212
   tfo: false
   type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: openRunner|🇹🇼 台湾2
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 7c0ad96494.microsoft.com
+    mode: http
+  port: 1171
+  server: 163.177.58.179
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: openRunner|🇯🇵 日本特殊
+  password: amazonskr05
+  port: 443
+  server: 13.250.3.43
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: openRunner|🇯🇵 日本2
+  password: 5b4becce-5739-483f-97ec-68b81a855d68
+  port: 13013
+  server: naiu-jp.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: openRunner|🇯🇵 日本
+  port: 25004
+  server: d.baodesign.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
 - alterId: 0
   cipher: auto
   name: dayfree|🇷🇺_RU_俄罗斯
@@ -354,10 +588,52 @@ proxies:
   type: vmess
   uuid: 0de1ee2b-92d7-4ca8-9f0e-64e89f5e5f6d
 - cipher: aes-256-gcm
-  name: blobClash|🇺🇸_US_美国_6
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 142.202.49.122
+  name: mfuu|🇺🇸US-38.110.1.102-178
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 38.110.1.102
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: mfuu|🇨🇳CN-61.172.235.22-049
+  password: d14e846e-18ae-4d2d-ba54-c21ee5daf376
+  port: 11001
+  server: 61.172.235.22
+  type: ss
+- cipher: aes-256-gcm
+  name: mfuu|🇺🇸US-38.75.136.117-024
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.75.136.117
+  type: ss
+- cipher: aes-256-gcm
+  name: mfuu|🇺🇸US-23.157.40.89-123
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 23.157.40.89
+  type: ss
+- cipher: aes-256-gcm
+  name: mfuu|🇺🇸US-23.157.40.89-126
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 23.157.40.89
+  type: ss
+- cipher: aes-256-cfb
+  name: blobClash|🇺🇸_US_美国_8
+  password: amazonskr05
+  port: 443
+  server: 34.209.103.254
+  type: ss
+- cipher: aes-256-cfb
+  name: blobClash|🇺🇸_US_美国_10
+  password: amazonskr05
+  port: 443
+  server: 54.213.247.125
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: blobClash|🇩🇪_DE_德国_1
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.166
   type: ss
 - alterId: 64
   cipher: auto
@@ -586,109 +862,50 @@ proxies:
   tls: false
   type: vmess
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 0
-  cipher: auto
-  name: blobBird|美国(yudou66.com 玉豆免费节点)_111
-  network: tcp
-  port: 12901
-  server: z3.fragranceninja.com
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: blobBird|美国(https://www.fuye.fun/免费节点) 33
+  password: 5cp9Z3iWnJZ2
+  port: 443
+  server: 205.134.180.150
+  type: ss
   udp: true
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  version: '2'
-- alterId: 0
-  cipher: auto
-  name: blobBird|美国(yudou66.com 玉豆免费节点)_123
-  network: tcp
-  port: 12975
-  server: z2.fragranceninja.com
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+- cipher: aes-256-gcm
+  name: blobBird|美国(https://www.fuye.fun/免费节点) 25
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 38.114.114.143
+  type: ss
   udp: true
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  version: '2'
-- alterId: 0
-  cipher: auto
-  name: blobBird|美国(yudou66.com 玉豆免费节点)_158
-  network: tcp
-  port: 12934
-  server: z8.fragranceninja.com
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: blobBird|德国(https://www.fuye.fun/免费节点) 9
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.181
+  type: ss
   udp: true
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  version: '2'
-- alterId: 0
-  cipher: auto
-  name: blobBird|美国(yudou66.com 玉豆免费节点)_103
-  network: ws
-  port: 12926
-  server: z2.fragranceninja.com
-  servername: ''
+- name: blobBird|美国(https://www.fuye.fun/免费节点) 24
+  password: b264982e-e333-4085-ac04-406afef23455
+  port: 13035
+  server: naiu-other.05vr9nyqg5.download
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  sni: naiu-other.05vr9nyqg5.download
+  type: trojan
   udp: true
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  version: '2'
-  ws-opts:
-    headers:
-      host: z2.fragranceninja.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: blobBird|美国(yudou66.com 玉豆免费节点)_180
-  network: tcp
-  port: 12962
-  server: z3.fragranceninja.com
-  servername: ''
+- cipher: chacha20-ietf-poly1305
+  name: blobBird|荷兰(https://www.fuye.fun/免费节点)
+  password: rtR4YX74vwqRJu9MGH3e1N3CQdGMWCUFkyLisijiFuvhkU9McV5TpygfkernJ4UQe63JtcDQkrQ9HfchzqQz1kLCnTRor8jg
+  port: 55330
+  server: 107.181.155.244
+  type: ss
+  udp: true
+- name: blobBird|美国(https://www.fuye.fun/免费节点) 13
+  password: b264982e-e333-4085-ac04-406afef23455
+  port: 13018
+  server: naiu-jp.05vr9nyqg5.download
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  sni: naiu-jp.05vr9nyqg5.download
+  type: trojan
   udp: true
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  version: '2'
-- alterId: 0
-  cipher: auto
-  name: blobBird|美国(yudou66.com 玉豆免费节点)_117
-  network: ws
-  port: 13001
-  server: z3.fragranceninja.com
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  version: '2'
-  ws-opts:
-    headers:
-      host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: blobBird|美国(yudou66.com 玉豆免费节点)_145
-  network: ws
-  port: 13007
-  server: z8.fragranceninja.com
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  version: '2'
-  ws-opts:
-    headers:
-      host: ''
-    path: ''
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -804,68 +1021,3 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
-- cipher: chacha20-ietf-poly1305
-  name: blobFree|🇳🇱_NL_荷兰
-  password: a8bt9fY0QsLS6eLnXUe0Ym
-  port: 8080
-  server: 45.158.171.14
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: blobFree|🇺🇸_US_美国_30
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 38.114.114.69
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: blobFree|🇺🇸_US_美国_1
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 38.110.1.12
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: blobFree|🇺🇸_US_美国_12
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 38.110.1.12
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: blobFree|🇺🇸_US_美国_5
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 38.110.1.105
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: mahdiblanda|🇸🇬SG-13.229.81.137-2801 | 11.615MB
-  password: amazonskr05
-  port: 443
-  server: 13.229.81.137
-  type: ss
-- cipher: aes-256-gcm
-  name: mahdiblanda|🇺🇸US-69.50.95.53-0672 | 1.08MB
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 69.50.95.53
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: mahdiblanda|LT-45.87.175.192-1113 | 25.719MB
-  password: gDFRe52uiIvVaxqPlqw439
-  port: 8080
-  server: 45.87.175.192
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: mahdiblanda|LT-45.87.175.188-1998 | 25.723MB
-  password: gDFRe52uiIvVaxqPlqw439
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- cipher: aes-256-gcm
-  name: mahdiblanda|🇺🇸US-69.50.95.53-0670 | 1.079MB
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 69.50.95.53
-  type: ss
