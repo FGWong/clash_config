@@ -180,324 +180,129 @@ proxies:
   type: vmess
   uuid: e147ce52-2598-31b0-950d-6b12c306b360
   ws-path: /
+- alterId: 64
+  cipher: auto
+  name: Flik6|[VMess] 🇳🇱 荷兰 V2CROSS.COM
+  network: ws
+  port: 41003
+  server: 46.182.107.117
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 990006bd-cb20-482f-9c97-f5fc65359605
+  ws-opts:
+    path: /path/191327203329
 - cipher: chacha20-ietf-poly1305
-  name: Flik6|[SS] 🇷🇺 俄罗斯 V2CROSS.COM
-  password: 2fwufOmJ9ELfN4umzcHBfV
-  port: 12224
-  server: 194.87.82.28
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 🇺🇸 美国 新泽西州(Merck公司) 2
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 54.37.12.70
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 9
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.110.1.102
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 6
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.110.1.51
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 10
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 38.110.1.102
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇵🇱 波兰 V2CROSS.COM
-  port: 13194
-  server: 128.204.223.115
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6bd68f20-a6ac-4225-c9e5-6bb2478f630f
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 11
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.68.134.202
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 7
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 38.68.134.202
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 北美地区 V2CROSS.COM 7
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 23.157.40.89
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 38.68.134.202
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 5
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 38.114.114.143
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 🇺🇸 美国 新泽西州(Merck公司)
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 54.37.12.70
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 北美地区 V2CROSS.COM 14
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 23.157.40.113
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 北美地区 V2CROSS.COM 4
-  password: lGqs95QkFHo2NV
-  port: 5499
-  server: 23.157.40.89
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 4
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.68.134.202
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 北美地区 V2CROSS.COM 9
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 23.157.40.89
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 8
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 38.121.43.204
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 51
-  network: ws
+  name: Flik6|[SS] 🇩🇪 德国 V2CROSS.COM
+  password: U2EIOHS5CMFms1vO5IhbJW
   port: 443
-  server: obdii.cfd
+  server: 195.74.86.162
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: Flik6|[VMess] 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
+  network: ws
+  port: 30001
+  server: 170.178.169.133
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  uuid: b697d727-cf6c-41dd-a0de-c7a9478e4a4a
   ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 1
-  cipher: auto
-  name: Flik6|[VMess] 🇫🇷 法国 国际航空电讯集团公司(SITA)
-  network: ws
-  port: 443
-  server: 57.129.25.20
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 57.129.25.20
-    path: linkvws
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司 3
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 38.114.114.143
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 北美地区 V2CROSS.COM
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 23.157.40.89
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 V2CROSS.COM 2
-  network: ws
-  port: 443
-  server: 45.149.12.78
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/ed=2560
-- alterId: 64
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇳 广东省广州市 移动
-  port: 40002
-  server: 183.236.48.163
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 北美地区 V2CROSS.COM 3
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 23.157.40.113
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 北美地区 V2CROSS.COM 12
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 23.157.40.113
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: NoMoreWalls|13|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.115.255.151
-  tfo: false
-  type: ss
-- name: NoMoreWalls|14|日本3|@ripaojiedian
-  network: tcp
-  password: an70aOaIjcCF43gOlSB6eKER53Z38DYDx8l9RCSCpYTwXS3pueyAqyFZx2zDNA
-  port: 443
-  server: plowman.meijireform.com
-  type: trojan
-- cipher: rc4-md5
-  name: NoMoreWalls|0|-https://t.me/MrXbin-6
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.155.57.51
-  type: ss
-- cipher: aes-256-gcm
-  name: NoMoreWalls|0|-https://t.me/MrXbin-5
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 38.121.43.204
-  type: ss
-- cipher: aes-256-gcm
-  name: NoMoreWalls|13|🇭🇰 香港3|@ripaojiedian
-  password: 99NH00E1KE8IF6WO
-  port: 15002
-  server: 120.241.45.50
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: NoMoreWalls|13|🇭🇰 香港4|@ripaojiedian
-  port: 58002
-  server: 120.232.153.27
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  name: NoMoreWalls|0|-https://t.me/MrXbin-3
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.75.136.117
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: NoMoreWalls|13|🇺🇸 美国4|@ripaojiedian
-  port: 52112
-  server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  name: NoMoreWalls|0|-https://t.me/MrXbin-1
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 38.68.134.202
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: NoMoreWalls|0|-https://t.me/MrXbin-32
-  network: ws
-  port: 443
-  server: speedtest.net
-  servername: mehrjavan.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
-  ws-opts:
-    headers:
-      Host: mehrjavan.ir
-    path: /m28jcoZZUhkqg6pk11
-- alterId: 64
-  cipher: auto
-  name: NoMoreWalls|14|香港X|@ripaojiedian
-  network: tcp
-  port: '51704'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: NoMoreWalls|13|🇭🇰 香港2|@ripaojiedian
-  port: 56601
-  server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    path: /path/181721272114
 - cipher: chacha20-ietf-poly1305
-  name: NoMoreWalls|0|-https://t.me/MrXbin-14
+  name: Flik6|[SS] 🇫🇷 法国 ONLINE S.A.S.数据中心
+  password: cjlNhDAZQMuDH6MI8F0E6m
+  port: 443
+  server: 62.210.88.22
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇺🇸 美国 V2CROSS.COM
+  network: ws
+  port: 443
+  server: 16.724064.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b7cf4466-956a-4639-b861-0cf78cbb6f8f
+  ws-opts:
+    headers:
+      Host: 16.724064.xyz
+    path: /zlppvws
+- alterId: 64
+  cipher: auto
+  name: Flik6|[VMess] 🇺🇸 美国 华盛顿Cogent通信公司
+  network: ws
+  port: 37000
+  server: 38.33.56.49
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/152409182214
+- cipher: chacha20-ietf-poly1305
+  name: Flik6|[SS] 欧盟 V2CROSS.COM 2
   password: 1RWwXhwfAB5gAEozU4G2Pg
   port: 8080
   server: 45.87.175.188
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: NoMoreWalls|13|🇭🇰 香港|@ripaojiedian
-  password: c17c376d-b0e0-4830-b3b1-b8657953e1db
-  port: 11001
-  server: 183.240.255.75
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: Flik6|[VMess] 🇺🇸 美国 V2CROSS.COM 2
+  network: ws
+  port: 37000
+  server: 137.175.13.218
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/112322180333
+- alterId: 64
+  cipher: auto
+  name: Flik6|[VMess] 🇺🇸 美国 华盛顿Cogent通信公司 2
+  network: ws
+  port: 38001
+  server: 38.33.0.225
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/323425122532
+- alterId: 64
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇳 广东省广州市 移动 2
+  port: 52112
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: NoMoreWalls|13|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.229.182.85
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: NoMoreWalls|13|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.151.152.144
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -587,36 +392,26 @@ proxies:
   server: 46.29.163.158
   type: vmess
   uuid: 0de1ee2b-92d7-4ca8-9f0e-64e89f5e5f6d
-- cipher: aes-256-gcm
-  name: mfuu|🇺🇸US-38.110.1.102-178
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 38.110.1.102
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: mfuu|🇨🇳CN-61.172.235.22-049
-  password: d14e846e-18ae-4d2d-ba54-c21ee5daf376
-  port: 11001
-  server: 61.172.235.22
-  type: ss
-- cipher: aes-256-gcm
-  name: mfuu|🇺🇸US-38.75.136.117-024
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.75.136.117
-  type: ss
-- cipher: aes-256-gcm
-  name: mfuu|🇺🇸US-23.157.40.89-123
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 23.157.40.89
-  type: ss
-- cipher: aes-256-gcm
-  name: mfuu|🇺🇸US-23.157.40.89-126
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 23.157.40.89
-  type: ss
+- name: mfuu|🇯🇵JP-154.31.115.33-112
+  password: AO0FjYBS38ZFCC2q93RpcAXySE6wON5apeaT83nDRDZlz7KxyeYC3xaDISgul4
+  port: 28332
+  server: 154.31.115.33
+  skip-cert-verify: true
+  sni: feadal.superpokemon.com
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: mfuu|🇨🇳CN-183.236.51.23-108
+  network: tcp
+  port: 53002
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.23
+  ws-path: /
 - cipher: aes-256-cfb
   name: blobClash|🇺🇸_US_美国_8
   password: amazonskr05
@@ -863,49 +658,46 @@ proxies:
   type: vmess
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - cipher: chacha20-ietf-poly1305
+  name: blobBird|德国(https://www.fuye.fun/免费节点) 3
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: blobBird|美国(https://www.fuye.fun/免费节点) 33
   password: 5cp9Z3iWnJZ2
   port: 443
   server: 205.134.180.150
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: blobBird|美国(https://www.fuye.fun/免费节点) 25
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.114.114.143
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: blobBird|美国(https://www.fuye.fun/免费节点) 17
+  port: 46602
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: blobBird|德国(https://www.fuye.fun/免费节点) 9
+  name: blobBird|德国(https://www.fuye.fun/免费节点) 2
   password: 1RWwXhwfAB5gAEozU4G2Pg
   port: 8080
-  server: 45.87.175.181
+  server: 45.87.175.178
   type: ss
   udp: true
-- name: blobBird|美国(https://www.fuye.fun/免费节点) 24
-  password: b264982e-e333-4085-ac04-406afef23455
-  port: 13035
-  server: naiu-other.05vr9nyqg5.download
+- alterId: 64
+  cipher: auto
+  name: blobBird|美国(https://www.fuye.fun/免费节点) 14
+  port: 51704
+  server: 183.236.51.23
   skip-cert-verify: true
-  sni: naiu-other.05vr9nyqg5.download
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: blobBird|荷兰(https://www.fuye.fun/免费节点)
-  password: rtR4YX74vwqRJu9MGH3e1N3CQdGMWCUFkyLisijiFuvhkU9McV5TpygfkernJ4UQe63JtcDQkrQ9HfchzqQz1kLCnTRor8jg
-  port: 55330
-  server: 107.181.155.244
-  type: ss
-  udp: true
-- name: blobBird|美国(https://www.fuye.fun/免费节点) 13
-  password: b264982e-e333-4085-ac04-406afef23455
-  port: 13018
-  server: naiu-jp.05vr9nyqg5.download
-  skip-cert-verify: true
-  sni: naiu-jp.05vr9nyqg5.download
-  type: trojan
-  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1021,3 +813,38 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
+- cipher: aes-256-cfb
+  name: blobFree|🇺🇸_US_美国_8
+  password: amazonskr05
+  port: 443
+  server: 54.244.81.162
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: blobFree|🇷🇺_RU_俄罗斯
+  password: dongtaiwang.com
+  port: 12345
+  server: 46.17.40.57
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: blobFree|🇺🇸_US_美国->🇪🇸_ES_西班牙
+  password: vSDWSBQ28qem0pwqW8WH2V
+  port: 443
+  server: 51.158.252.130
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: blobFree|🇳🇱_NL_荷兰_1
+  password: Fd2zvd70MYxXQIZbZBNbL3
+  port: 29746
+  server: 45.155.249.178
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: blobFree|🇩🇪_DE_德国->🇺🇸_US_美国
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.199
+  type: ss
+  udp: true

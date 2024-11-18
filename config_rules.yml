@@ -582,6 +582,7 @@ proxy-groups:
       - cflare
       - CFWarp
       - ♻️ XQC
+      - ♻️ BaiPiao
   - name: cflare
     type: url-test
     use:
@@ -608,6 +609,13 @@ proxy-groups:
     type: url-test
     use:
       - xqc
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 12000
+
+  - name: ♻️ BaiPiao
+    type: url-test
+    use:
+      - baipiao
     url: 'http://www.gstatic.com/generate_204'
     interval: 12000
   - name: 📲 电报信息
@@ -751,6 +759,16 @@ proxy-providers:
     #type: file
     interval: 10807
     path: local_data/xqc-proxies.yaml
+    health-check:
+      enable: true
+      interval: 12000
+      url: 'http://www.gstatic.com/generate_204'
+  baipiao:
+    url: "https://jiahe.eu.org:15443/clash_verge/bp-xyz-proxies.yaml"
+    type: http
+    #type: file
+    interval: 10806
+    path: local_data/bp-xyz-proxies.yaml
     health-check:
       enable: true
       interval: 12000
