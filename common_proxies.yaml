@@ -182,129 +182,44 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: Flik6|[VMess] 🇳🇱 荷兰 V2CROSS.COM
-  network: ws
-  port: 41003
-  server: 46.182.107.117
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 990006bd-cb20-482f-9c97-f5fc65359605
-  ws-opts:
-    path: /path/191327203329
-- cipher: chacha20-ietf-poly1305
-  name: Flik6|[SS] 🇩🇪 德国 V2CROSS.COM
-  password: U2EIOHS5CMFms1vO5IhbJW
-  port: 443
-  server: 195.74.86.162
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-  network: ws
-  port: 30001
-  server: 170.178.169.133
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b697d727-cf6c-41dd-a0de-c7a9478e4a4a
-  ws-opts:
-    path: /path/181721272114
-- cipher: chacha20-ietf-poly1305
-  name: Flik6|[SS] 🇫🇷 法国 ONLINE S.A.S.数据中心
-  password: cjlNhDAZQMuDH6MI8F0E6m
-  port: 443
-  server: 62.210.88.22
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 V2CROSS.COM
-  network: ws
-  port: 443
-  server: 16.724064.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b7cf4466-956a-4639-b861-0cf78cbb6f8f
-  ws-opts:
-    headers:
-      Host: 16.724064.xyz
-    path: /zlppvws
-- alterId: 64
-  cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 华盛顿Cogent通信公司
-  network: ws
-  port: 37000
-  server: 38.33.56.49
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/152409182214
-- cipher: chacha20-ietf-poly1305
-  name: Flik6|[SS] 欧盟 V2CROSS.COM 2
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 V2CROSS.COM 2
-  network: ws
-  port: 37000
-  server: 137.175.13.218
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/112322180333
-- alterId: 64
-  cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 华盛顿Cogent通信公司 2
-  network: ws
-  port: 38001
-  server: 38.33.0.225
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/323425122532
-- alterId: 64
-  cipher: auto
   name: Flik6|[VMess] 🇨🇳 广东省广州市 移动 2
-  port: 52112
+  port: 46602
   server: 183.236.51.23
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: NoMoreWalls|13,14|香港2|@ripaojiedian
+  network: tcp
+  password: QwwHvrnN
+  port: 25241
+  server: 36.151.192.203
+  skip-cert-verify: true
+  type: trojan
+- name: NoMoreWalls|13,14|日本|@ripaojiedian
+  network: tcp
+  password: QwwHvrnN
+  port: 31071
+  server: 36.151.192.198
+  skip-cert-verify: true
+  type: trojan
 - cipher: aes-256-cfb
-  name: NoMoreWalls|13|🇸🇬 狮城特殊|@ripaojiedian
+  name: NoMoreWalls|0|-https://t.me/MrXbin-4
   password: amazonskr05
   port: 443
-  server: 13.229.182.85
-  tfo: false
+  server: 34.216.74.178
   type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|13|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.151.152.144
-  tfo: false
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: NoMoreWalls|14|香港9|@ripaojiedian
+  network: tcp
+  port: '41490'
+  server: 183.236.48.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: openRunner|🇹🇼 台湾
@@ -384,51 +299,42 @@ proxies:
   tls: false
   type: vmess
   uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
-- alterId: 0
-  cipher: auto
-  name: dayfree|🇷🇺_RU_俄罗斯
-  network: tcp
-  port: 11811
-  server: 46.29.163.158
-  type: vmess
-  uuid: 0de1ee2b-92d7-4ca8-9f0e-64e89f5e5f6d
-- name: mfuu|🇯🇵JP-154.31.115.33-112
-  password: AO0FjYBS38ZFCC2q93RpcAXySE6wON5apeaT83nDRDZlz7KxyeYC3xaDISgul4
-  port: 28332
-  server: 154.31.115.33
-  skip-cert-verify: true
-  sni: feadal.superpokemon.com
-  type: trojan
+- cipher: aes-256-cfb
+  name: mfuu|🇸🇬SG-18.141.184.102-122
+  password: amazonskr05
+  port: 443
+  server: 18.141.184.102
+  type: ss
 - alterId: 64
   cipher: auto
-  name: mfuu|🇨🇳CN-183.236.51.23-108
+  name: mfuu|🇨🇳CN-183.236.48.158-132
   network: tcp
-  port: 53002
-  server: 183.236.51.23
+  port: 50052
+  server: 183.236.48.158
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 183.236.51.23
+    Host: 183.236.48.158
   ws-path: /
-- cipher: aes-256-cfb
-  name: blobClash|🇺🇸_US_美国_8
-  password: amazonskr05
-  port: 443
-  server: 34.209.103.254
-  type: ss
-- cipher: aes-256-cfb
-  name: blobClash|🇺🇸_US_美国_10
-  password: amazonskr05
-  port: 443
-  server: 54.213.247.125
+- cipher: chacha20-ietf-poly1305
+  name: mfuu|🇺🇸US-104.192.225.138-141
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 104.192.225.138
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: blobClash|🇩🇪_DE_德国_1
-  password: 1RWwXhwfAB5gAEozU4G2Pg
+  name: mfuu|🇫🇮FI-185.77.217.121-123
+  password: X7eoEBrARWsBUiVfchVEdH
+  port: 443
+  server: 185.77.217.121
+  type: ss
+- cipher: rc4-md5
+  name: mfuu|🇺🇸US-138.199.42.68-119
+  password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 45.87.175.166
+  server: 138.199.42.68
   type: ss
 - alterId: 64
   cipher: auto
@@ -657,41 +563,20 @@ proxies:
   tls: false
   type: vmess
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- cipher: chacha20-ietf-poly1305
-  name: blobBird|德国(https://www.fuye.fun/免费节点) 3
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: blobBird|美国(https://www.fuye.fun/免费节点) 33
-  password: 5cp9Z3iWnJZ2
-  port: 443
-  server: 205.134.180.150
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
-  name: blobBird|美国(https://www.fuye.fun/免费节点) 17
-  port: 46602
+  name: blobBird|美国(https://www.fuye.fun/免费节点) 89
+  port: 56601
   server: 183.236.51.23
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: blobBird|德国(https://www.fuye.fun/免费节点) 2
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.178
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
-  name: blobBird|美国(https://www.fuye.fun/免费节点) 14
-  port: 51704
+  name: blobBird|美国(https://www.fuye.fun/免费节点) 37
+  port: 52112
   server: 183.236.51.23
   skip-cert-verify: true
   tls: false
@@ -814,37 +699,40 @@ proxies:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
 - cipher: aes-256-cfb
-  name: blobFree|🇺🇸_US_美国_8
+  name: mahdiblanda|🇯🇵JP-43.207.112.115-0975 | 17.913MB
   password: amazonskr05
   port: 443
-  server: 54.244.81.162
+  server: 43.207.112.115
   type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: blobFree|🇷🇺_RU_俄罗斯
-  password: dongtaiwang.com
-  port: 12345
-  server: 46.17.40.57
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: blobFree|🇺🇸_US_美国->🇪🇸_ES_西班牙
-  password: vSDWSBQ28qem0pwqW8WH2V
+- cipher: aes-256-cfb
+  name: mahdiblanda|🇺🇸US-34.222.145.191-0955 | 10.729MB
+  password: amazonskr05
   port: 443
-  server: 51.158.252.130
+  server: 34.222.145.191
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: blobFree|🇳🇱_NL_荷兰_1
-  password: Fd2zvd70MYxXQIZbZBNbL3
-  port: 29746
-  server: 45.155.249.178
+- alterId: 0
+  cipher: auto
+  name: mahdiblanda|RELAY-170.114.45.51-0974 | 98.05MB
+  network: ws
+  port: 80
+  server: 170.114.45.51
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8471e1f6-cfa0-4561-a83e-311253b01130
+  ws-opts:
+    headers:
+      Host: us1.849yht89w.jiesk4pdqcqjo16j.xyz
+    path: /
+- cipher: aes-256-gcm
+  name: mahdiblanda|🇺🇸US-38.75.136.21-1479 | 1.859MB
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 38.75.136.21
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: blobFree|🇩🇪_DE_德国->🇺🇸_US_美国
-  password: 1RWwXhwfAB5gAEozU4G2Pg
+- cipher: rc4-md5
+  name: mahdiblanda|🇸🇬SG-68.183.227.45-0392 | 12.307MB
+  password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 45.87.175.199
+  server: 68.183.227.45
   type: ss
-  udp: true
