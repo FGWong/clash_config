@@ -1,6 +1,8 @@
 payload:
   - PROCESS-NAME,Weiyun
   - DOMAIN,jiahe.eu.org
+  - DOMAIN,clayton.us.org
+  - DOMAIN,fugang.us.org
   - DOMAIN-SUFFIX,jiahe.eu.org
   - DOMAIN-KEYWORD,aria2
   - DOMAIN-KEYWORD,xunlei
