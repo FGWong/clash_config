@@ -180,56 +180,194 @@ proxies:
   type: vmess
   uuid: e147ce52-2598-31b0-950d-6b12c306b360
   ws-path: /
-- name: Flik6|[Trojan] 🇵🇱 波兰 V2CROSS.COM 2
+- cipher: chacha20-ietf-poly1305
+  name: Flik6|[SS] 🇺🇸 美国 内华达州克拉克县亨德森市Enzu股份有限公司
+  password: LuxyNetBot
+  port: 443
+  server: 23.88.37.31
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: Flik6|[SS] 🇪🇺 欧洲 V2CROSS.COM
+  password: Z8_4QwVGXEUx3K-AK5bF4Q
+  port: 1090
+  server: 138.199.145.158
+  tfo: false
+  type: ss
+  udp: true
+- name: Flik6|[Trojan] 🇺🇸 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
   password: '3723507166611775488'
   port: 443
-  server: 94.177.131.205
+  server: 35.176.215.178
   skip-cert-verify: true
-  sni: unbiased-manatee.boa152.lol
+  sni: leading-shrew.boa152.lol
   tfo: false
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - zula.ir
+    method: GET
+    path:
+    - /
+  name: Flik6|[VMess] 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心
+  network: http
+  port: 2082
+  server: 139.59.142.237
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ba80b11b-2578-43c4-929d-89095af066ba
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇩🇪 德国 黑森州法兰克福AMazon数据中心
+  network: ws
+  port: 443
+  server: 3.122.62.145
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇩🇪 德国 黑森州法兰克福Amazon数据中心
+  network: ws
+  port: 443
+  server: 18.196.70.197
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- cipher: chacha20-ietf-poly1305
+  name: Flik6|[SS] 🇫🇷 法国 ONLINE S.A.S.数据中心
+  password: B03VO4S9bFunXRvthsZpCk
+  port: 443
+  server: 62.210.88.22
+  tfo: false
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇬🇧 英国 社会保险安全部
+  network: ws
+  port: 443
+  server: 51.20.161.26
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- name: Flik6|[Trojan] 🇺🇸 美国 CloudFlare节点
+  network: ws
+  password: b80Iy90Fma
+  port: 443
+  server: 104.26.9.227
+  skip-cert-verify: true
+  sni: usa03.rtx.al
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: usa03.rtx.al
+    path: /cfyyds
 - name: Flik6|[Trojan] 乌克兰 V2CROSS.COM
-  password: '3723507166611775488'
+  password: Julius
   port: 443
-  server: 95.111.198.77
+  server: 193.106.248.196
   skip-cert-verify: true
-  sni: ace-mayfly.boa152.lol
-  tfo: false
-  type: trojan
-  udp: true
-- name: Flik6|[Trojan] 🇺🇸 美国 Amazon EC2服务器
-  password: '3723507166611775488'
-  port: 443
-  server: 3.78.184.1
-  skip-cert-verify: true
-  sni: golden-krill.treefrog761.one
+  sni: miami.juliusnet.com
   tfo: false
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: Flik6|[SS] 🇱🇻 拉脱维亚 V2CROSS.COM
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 46.183.217.232
+  name: Flik6|[SS] 🇸🇬 新加坡 V2CROSS.COM
+  password: s5bAs9susIhvyK7W5ohOUM
+  port: 7016
+  server: 68.183.181.95
   tfo: false
   type: ss
   udp: true
-- name: Flik6|[Trojan] 🇧🇬 保加利亚 V2CROSS.COM 2
-  password: '3723507166611775488'
-  port: 443
-  server: 87.120.167.51
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇳 广东省广州市 移动 2
+  network: ws
+  port: 25216
+  server: cm.awslcn.info
   skip-cert-verify: true
-  sni: concrete-buzzard.boa152.lol
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-opts:
+    headers:
+      Host: cm.awslcn.info
+    path: /
+- name: Flik6|[Trojan] 🇺🇸 美国 亚特兰大
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: uk01.trojanyyds.xyz
+  skip-cert-verify: true
+  sni: uk01.trojanyyds.xyz
   tfo: false
   type: trojan
   udp: true
-- name: Flik6|[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 2
+- name: Flik6|[Trojan] 🇵🇱 波兰 V2CROSS.COM
   password: '3723507166611775488'
   port: 443
-  server: 5.189.203.38
+  server: 91.206.179.179
   skip-cert-verify: true
-  sni: sacred-guppy.boa152.lol
+  sni: holy-seahorse.boa152.lol
+  tfo: false
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 🇺🇸 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心 2
+  password: '3723507166611775488'
+  port: 443
+  server: usable-toad.treefrog761.one
+  skip-cert-verify: true
+  sni: usable-toad.treefrog761.one
+  tfo: false
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM
+  password: '3723507166611775488'
+  port: 443
+  server: 37.9.34.121
+  skip-cert-verify: true
+  sni: tight-clam.boa152.lol
+  tfo: false
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 🇺🇸 美国 纽约州布法罗ColoCrossing数据中心
+  password: 023f7aa2-d079-40d8-a730-c681947f10bb
+  port: 8848
+  server: 107.175.70.80
+  skip-cert-verify: true
   tfo: false
   type: trojan
   udp: true
@@ -538,19 +676,6 @@ proxies:
   skip-cert-verify: true
   sni: telewebion.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: mfuu|🇨🇳CN-119.36.154.75-204
-  network: ws
-  port: 25216
-  server: cm.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-  ws-headers:
-    Host: cm.awslcn.info
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: mfuu|🇩🇪DE-130.61.156.132-223
@@ -925,12 +1050,6 @@ proxies:
   server: bs3.jymzffbquawl.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: ruk1ng|🟡_🇩🇪_💻_github.com/Ruk1ng001_3130336332616630
-  password: LuxyNetBot
-  port: 443
-  server: 23.88.37.31
-  type: ss
 - cipher: rc4-md5
   name: ruk1ng|github.com/Ruk1ng001_3836656231336662
   password: RenzheCloudSS
@@ -1412,12 +1531,6 @@ proxies:
   server: bs1.jymzffbquawl.com
   type: ss
   udp: true
-- name: ruk1ng|❓_🇵🇱_📶_github.com/Ruk1ng001_3439333137313464
-  password: '3723507166611775488'
-  port: 443
-  server: 91.206.179.179
-  sni: holy-seahorse.boa152.lol
-  type: trojan
 - cipher: rc4-md5
   name: ruk1ng|github.com/Ruk1ng001_64663465383566
   password: RenzheCloudSS
@@ -1429,6 +1542,12 @@ proxies:
   server: pr3.jymzffbquawl.com
   type: ss
   udp: true
+- name: ruk1ng|🟠_🇳🇱_💻_github.com/Ruk1ng001_3661343364303263
+  password: '3723507166611775488'
+  port: 443
+  server: 5.189.203.38
+  sni: sacred-guppy.boa152.lol
+  type: trojan
 - cipher: rc4-md5
   name: ruk1ng|github.com/Ruk1ng001_3832653464613133
   password: RenzheCloudSS
@@ -1440,17 +1559,6 @@ proxies:
   server: bs3.jymzffbquawl.com
   type: ss
   udp: true
-- name: ruk1ng|🟡_🇺🇸_💻_github.com/Ruk1ng001_3930656534353832
-  network: ws
-  password: b80Iy90Fma
-  port: 443
-  server: 104.26.9.227
-  sni: usa03.rtx.al
-  type: trojan
-  ws-opts:
-    headers:
-      Host: usa03.rtx.al
-    path: /cfyyds
 - cipher: rc4-md5
   name: ruk1ng|github.com/Ruk1ng001_6431643335613537
   password: RenzheCloudSS
@@ -1616,19 +1724,6 @@ proxies:
   server: p199.panda003.net
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|🟡_🇩🇪_💼_github.com/Ruk1ng001_3263643631353735
-  network: ws
-  port: 443
-  server: 3.122.62.145
-  tls: true
-  type: vmess
-  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
-  ws-opts:
-    headers:
-      Host: nl.zhuk.us.kg
-    path: /ylks
 - cipher: aes-256-cfb
   name: ruk1ng|github.com/Ruk1ng001_6536623238313831
   password: qwerREWQ@@
@@ -1886,19 +1981,6 @@ proxies:
   port: 58368
   server: 61.255.174.173
   type: ss
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|🟡_🇸🇪_💼_github.com/Ruk1ng001_6337376265633535
-  network: ws
-  port: 443
-  server: 51.20.161.26
-  tls: true
-  type: vmess
-  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
-  ws-opts:
-    headers:
-      Host: nl.zhuk.us.kg
-    path: /ylks
 - cipher: aes-256-cfb
   name: ruk1ng|🟠_🇵🇱_💻_github.com/Ruk1ng001_6665323065373137
   password: ZET59LF6DvCC8KVt

@@ -580,6 +580,8 @@ proxy-groups:
       - 🔰 manual
       - William_group
       - cflare
+      - cfkg
+      - cfop
       - CFWarp
       - ♻️ XQC
       - ♻️ BaiPiao
@@ -593,6 +595,12 @@ proxy-groups:
     type: url-test
     use:
       - cldkg
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1200
+  - name: cfop
+    type: url-test
+    use:
+      - cldop
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
   - name: ♻️ 自动选择
@@ -637,6 +645,7 @@ proxy-groups:
       - common
       - cldflare
       - cldkg
+      - cldop
   - name: CFWarp
     type: url-test
     use:
@@ -766,6 +775,16 @@ proxy-providers:
     #type: file
     interval: 10807
     path: local_data/cfkg-proxies.yaml
+    health-check:
+      enable: true
+      interval: 12000
+      url: 'http://www.gstatic.com/generate_204'
+  cldop:
+    url: "https://jiahe.eu.org:15443/clash_verge/cf_op_proxies.yaml"
+    type: http
+    #type: file
+    interval: 10807
+    path: local_data/cf_op_proxies.yaml
     health-check:
       enable: true
       interval: 12000
