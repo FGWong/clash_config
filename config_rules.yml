@@ -589,6 +589,12 @@ proxy-groups:
       - cldflare
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
+  - name: cfkg
+    type: url-test
+    use:
+      - cldkg
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1200
   - name: ♻️ 自动选择
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
@@ -630,6 +636,7 @@ proxy-groups:
     use:
       - common
       - cldflare
+      - cldkg
   - name: CFWarp
     type: url-test
     use:
@@ -749,6 +756,16 @@ proxy-providers:
     #type: file
     interval: 10807
     path: local_data/cloudflare-proxies.yaml
+    health-check:
+      enable: true
+      interval: 12000
+      url: 'http://www.gstatic.com/generate_204'
+  cldkg:
+    url: "https://jiahe.eu.org:15443/clash_verge/cfkg-proxies.yaml"
+    type: http
+    #type: file
+    interval: 10807
+    path: local_data/cfkg-proxies.yaml
     health-check:
       enable: true
       interval: 12000

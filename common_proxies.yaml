@@ -180,133 +180,227 @@ proxies:
   type: vmess
   uuid: e147ce52-2598-31b0-950d-6b12c306b360
   ws-path: /
+- name: Flik6|[Trojan] 🇵🇱 波兰 V2CROSS.COM 2
+  password: '3723507166611775488'
+  port: 443
+  server: 94.177.131.205
+  skip-cert-verify: true
+  sni: unbiased-manatee.boa152.lol
+  tfo: false
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 乌克兰 V2CROSS.COM
+  password: '3723507166611775488'
+  port: 443
+  server: 95.111.198.77
+  skip-cert-verify: true
+  sni: ace-mayfly.boa152.lol
+  tfo: false
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 🇺🇸 美国 Amazon EC2服务器
+  password: '3723507166611775488'
+  port: 443
+  server: 3.78.184.1
+  skip-cert-verify: true
+  sni: golden-krill.treefrog761.one
+  tfo: false
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: Flik6|[SS] 🇳🇴 挪威 V2CROSS.COM
-  password: 3Vkbowf0PLHJkVMmPFjcA7i/j0ABb6EbYtbe/Xrwuds=
-  port: 59923
-  server: 138.124.51.236
+  name: Flik6|[SS] 🇱🇻 拉脱维亚 V2CROSS.COM
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 46.183.217.232
   tfo: false
   type: ss
   udp: true
-- name: Flik6|[Trojan] 🇳🇱 荷兰 V2CROSS.COM
-  password: '3648425794742788096'
+- name: Flik6|[Trojan] 🇧🇬 保加利亚 V2CROSS.COM 2
+  password: '3723507166611775488'
   port: 443
-  server: prime-gator.treefrog761.one
+  server: 87.120.167.51
   skip-cert-verify: true
-  sni: prime-gator.treefrog761.one
+  sni: concrete-buzzard.boa152.lol
+  tfo: false
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 2
+  password: '3723507166611775488'
+  port: 443
+  server: 5.189.203.38
+  skip-cert-verify: true
+  sni: sacred-guppy.boa152.lol
   tfo: false
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-17
-  password: amazonskr05
-  port: 443
-  server: 15.165.76.242
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-22
-  password: amazonskr05
-  port: 443
-  server: 3.38.103.161
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-12
-  password: amazonskr05
-  port: 443
-  server: 3.38.193.1
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|13|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.203.219.196
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-16
-  password: amazonskr05
-  port: 443
-  server: 52.79.248.193
-  type: ss
-- cipher: aes-256-cfb
   name: NoMoreWalls|13|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.125.90.251
+  server: 13.250.27.88
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-7
+  name: NoMoreWalls|0|-https://t.me/MrXbin-36
   password: amazonskr05
   port: 443
   server: 43.203.122.162
   type: ss
 - cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-9
-  password: amazonskr05
-  port: 443
-  server: 54.180.232.93
+  name: NoMoreWalls|0|-https://t.me/MrXbin-21
+  password: qwerREWQ@@
+  port: 19533
+  server: 203.234.238.140
   type: ss
 - cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-8
-  password: amazonskr05
-  port: 443
-  server: 52.12.174.108
+  name: NoMoreWalls|0|-https://t.me/MrXbin-22
+  password: qwerREWQ@@
+  port: 59974
+  server: 210.217.18.69
   type: ss
 - cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-5
+  name: NoMoreWalls|0|-https://t.me/MrXbin-34
+  password: qwerREWQ@@
+  port: 51219
+  server: 125.141.31.103
+  type: ss
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-37
+  password: qwerREWQ@@
+  port: 57884
+  server: 125.141.31.72
+  type: ss
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-56
+  password: qwerREWQ@@
+  port: 41748
+  server: 221.150.109.90
+  type: ss
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-55
+  password: qwerREWQ@@
+  port: 40244
+  server: 125.141.26.14
+  type: ss
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-35
+  password: qwerREWQ@@
+  port: 3231
+  server: 210.217.18.70
+  type: ss
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-47
   password: amazonskr05
   port: 443
-  server: 3.38.182.255
+  server: 43.203.127.152
   type: ss
 - cipher: aes-256-cfb
   name: NoMoreWalls|0|-https://t.me/MrXbin-18
-  password: amazonskr05
-  port: 443
-  server: 3.38.212.48
+  password: qwerREWQ@@
+  port: 59974
+  server: p241.panda004.net
   type: ss
-- name: NoMoreWalls|13,14|香港2|@ripaojiedian
-  network: tcp
-  password: QwwHvrnN
-  port: 25241
-  server: 36.151.192.203
-  skip-cert-verify: true
-  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-11
+  name: NoMoreWalls|0|-https://t.me/MrXbin-53
+  password: qwerREWQ@@
+  port: 40244
+  server: p229.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-51
+  password: qwerREWQ@@
+  port: 41748
+  server: p230.panda004.net
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: NoMoreWalls|0|-https://t.me/MrXbin-24
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.155.57.11
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-40
   password: amazonskr05
   port: 443
-  server: 3.34.255.220
+  server: 35.85.33.177
   type: ss
-- name: NoMoreWalls|15|VN_speednode_0048
-  password: 94d219c9-1afc-4d42-b090-8b3794764380
-  port: 443
-  server: 160.30.21.105
-  skip-cert-verify: true
-  sni: std1.loadingip.com
-  type: trojan
+- cipher: rc4-md5
+  name: NoMoreWalls|0|-https://t.me/MrXbin-19
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 194.5.215.59
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: NoMoreWalls|13|🇭🇰 香港7|@ripaojiedian
+  password: 7243745919d6de49a5db
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45578
+  server: console.02.aliyun.aq.kunlunaqs.com
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   name: NoMoreWalls|0|-https://t.me/MrXbin-1
-  password: amazonskr05
-  port: 443
-  server: 54.191.252.235
+  password: qwerREWQ@@
+  port: 33551
+  server: p227.panda004.net
   type: ss
+  udp: true
+- name: NoMoreWalls|13,14|新加坡2|@ripaojiedian
+  network: tcp
+  password: '3723507166611775488'
+  port: 443
+  server: major-reindeer.boa152.lol
+  skip-cert-verify: false
+  sni: major-reindeer.boa152.lol
+  tfo: false
+  type: trojan
 - cipher: aes-256-cfb
-  name: NoMoreWalls|0|-https://t.me/MrXbin-4
+  name: NoMoreWalls|0|-https://t.me/MrXbin-33
   password: amazonskr05
   port: 443
-  server: 54.201.174.149
+  server: 3.35.206.24
   type: ss
 - alterId: 64
   cipher: auto
-  name: NoMoreWalls|13|🇭🇰 香港7|@ripaojiedian
-  port: 46602
+  name: NoMoreWalls|14|香港5|@ripaojiedian
+  network: tcp
+  port: '51704'
   server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: rc4-md5
+  name: NoMoreWalls|0|-https://t.me/MrXbin-44
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.18
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: NoMoreWalls|14|香港3|@ripaojiedian
+  network: tcp
+  port: '52908'
+  server: 120.234.102.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: NoMoreWalls|0|-https://t.me/MrXbin-5
+  password: qwerREWQ@@
+  port: 25730
+  server: 168.126.234.230
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: openRunner|🇹🇼 台湾
@@ -386,38 +480,468 @@ proxies:
   tls: false
   type: vmess
   uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
-- cipher: chacha20-ietf-poly1305
-  name: dayfree|🇱🇻_LV_拉脱维亚
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 46.183.217.232
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: dayfree|🇺🇸_US_美国_3
-  password: amazonskr05
-  port: 443
-  server: 52.89.164.115
+  name: dayfree|🇷🇺_RU_俄罗斯_1
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 217.30.10.18
   type: ss
   udp: true
-- name: mfuu|🇨🇳CN-219.135.231.205-089
-  password: 6307d00e-56e0-4d0d-afe9-254155638bdf
-  port: 18147
-  server: 219.135.231.205
-  skip-cert-verify: true
-  type: trojan
 - cipher: rc4-md5
-  name: mfuu|🇺🇸US-23.251.121.242-048
+  name: dayfree|🇺🇸_US_美国->🇷🇺_RU_俄罗斯
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 23.251.121.242
   type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇰🇷_💼_github.com/Ruk1ng001_6633623365343030
+  name: mfuu|🇯🇵JP-18.179.197.216-075
   password: amazonskr05
   port: 443
-  server: 3.38.100.128
+  server: 18.179.197.216
   type: ss
+- cipher: aes-256-cfb
+  name: mfuu|🇯🇵JP-43.207.232.228-106
+  password: amazonskr05
+  port: 443
+  server: 43.207.232.228
+  type: ss
+- cipher: aes-256-cfb
+  name: mfuu|🇸🇬SG-13.215.51.127-084
+  password: amazonskr05
+  port: 443
+  server: 13.215.51.127
+  type: ss
+- name: mfuu|🇨🇳CN-36.150.215.196-046
+  password: vzhXXZVw
+  port: 18681
+  server: 36.150.215.196
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: mfuu|🇨🇳CN-119.36.154.75-226
+  network: ws
+  port: 25216
+  server: cm1.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-headers:
+    Host: cm1.awslcn.info
+  ws-path: /
+- name: mfuu|🇬🇧GB-51.38.65.155-030
+  password: ee872a10-c818-11ef-bdaf-1239d0255272
+  port: 443
+  server: 51.38.65.155
+  skip-cert-verify: true
+  sni: telewebion.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: mfuu|🇨🇳CN-119.36.154.75-204
+  network: ws
+  port: 25216
+  server: cm.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-headers:
+    Host: cm.awslcn.info
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: mfuu|🇩🇪DE-130.61.156.132-223
+  network: ws
+  port: 443
+  server: frankfurt03.zgjok.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4f7c2243-a38a-4672-983b-f1378aee0a7f
+  ws-headers:
+    Host: frankfurt03.zgjok.com
+  ws-path: /
+- cipher: aes-256-cfb
+  name: mfuu|🇺🇸US-35.92.45.179-079
+  password: amazonskr05
+  port: 443
+  server: 35.92.45.179
+  type: ss
+- cipher: aes-256-cfb
+  name: mfuu|🇸🇬SG-13.250.115.217-081
+  password: amazonskr05
+  port: 443
+  server: 13.250.115.217
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|❓_🇸🇬_💼_github.com/Ruk1ng001_3132373361313337
+  password: amazonskr05
+  port: 443
+  server: 18.142.246.34
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: ruk1ng|❓_🇸🇬_💼_github.com/Ruk1ng001_6230656133373262
+  password: amazonskr05
+  port: 443
+  server: 13.212.194.118
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇸🇬_💼_github.com/Ruk1ng001_3332356563356465
+  password: amazonskr05
+  port: 443
+  server: 54.169.231.25
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇸🇬_💼_github.com/Ruk1ng001_3934343433373166
+  password: amazonskr05
+  port: 443
+  server: 54.179.78.99
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇯🇵_💼_github.com/Ruk1ng001_3137636365653332
+  password: amazonskr05
+  port: 443
+  server: 54.248.142.136
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇰🇷_💼_github.com/Ruk1ng001_3837366164313862
+  password: amazonskr05
+  port: 443
+  server: 3.38.212.48
+  type: ss
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_64363865616430
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3600
+  server: bs1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3765336135363430
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3609
+  server: pr1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_61383537653338
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3608
+  server: bs1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3465646339326534
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3604
+  server: bs1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_31386563633238
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3601
+  server: pr1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_6262663036386233
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3601
+  server: bs1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3664333265393762
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3609
+  server: bs1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3639343662666331
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3606
+  server: pr1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3461633063656637
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3605
+  server: bs1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: ruk1ng|🟡_🇯🇵_💼_github.com/Ruk1ng001_6132373630353531
+  password: amazonskr05
+  port: 443
+  server: 3.113.31.223
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3831376231623465
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3607
+  server: pr1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3162363364616164
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3602
+  server: pr1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3835356339343838
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3026
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3139623165663966
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3056
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_6363613832313563
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3605
+  server: pr1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3161303236633633
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3608
+  server: pr1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3262336338613532
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3602
+  server: bs1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇰🇷_💼_github.com/Ruk1ng001_3765666563366634
+  password: qwerREWQ@@
+  port: 2003
+  server: 121.170.203.147
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇰🇷_💼_github.com/Ruk1ng001_6463663530333539
+  password: qwerREWQ@@
+  port: 2003
+  server: 121.170.203.148
+  type: ss
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3738653837633137
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 6600
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: ruk1ng|🟡_🇨🇳_📶_github.com/Ruk1ng001_63643864303034
+  network: tcp
+  port: 50004
+  server: 112.132.212.19
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: /afrhms16v.bestxray.buzz/linkws
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3735633937303034
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 6601
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇰🇷_💼_github.com/Ruk1ng001_3462616462363465
+  password: qwerREWQ@@
+  port: 59274
+  server: 125.141.31.74
+  type: ss
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_6537343961643839
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3607
+  server: bs1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3836376564393239
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 6602
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3530396639343536
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 6606
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_6464636531333861
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3603
+  server: pr1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇰🇷_💼_github.com/Ruk1ng001_3634656133646338
+  password: qwerREWQ@@
+  port: 7303
+  server: 222.112.15.142
+  type: ss
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3439616431306238
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 6608
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3337326236353736
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 6603
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|🟡_🇩🇪_💻_github.com/Ruk1ng001_3130336332616630
+  password: LuxyNetBot
+  port: 443
+  server: 23.88.37.31
+  type: ss
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3836656231336662
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 6609
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
@@ -432,63 +956,416 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-path: /ivideos.sbs/linkws
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇰🇷_💼_github.com/Ruk1ng001_3564316531666435
+  password: qwerREWQ@@
+  port: 43249
+  server: 222.112.15.140
+  type: ss
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3962623633373730
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 6605
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3934366237646433
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 6604
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇰🇷_💼_github.com/Ruk1ng001_3164353964643961
+  password: qwerREWQ@@
+  port: 40915
+  server: 168.126.234.233
+  type: ss
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3536656438623364
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4601
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3535323639623464
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4600
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3835636466353865
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3036
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3466376331613362
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4603
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_39303234646365
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3046
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3764643339646338
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4603
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3664613435646663
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4607
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3739353134636161
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4601
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3836316332303335
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4609
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3433323130326563
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4606
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_6532306636323039
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 6607
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_6338633161316638
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4602
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3566646665366266
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4607
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3935353332373131
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4605
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3263326632646339
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3046
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: ruk1ng|github.com/Ruk1ng001_6239353036343932
+  password: 176c983f-6a7f-4a96-9865-891a6c48ec86
+  port: 50000
+  server: a002.standard-nodes-chickenfarms.com
+  type: ss
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3137363532373438
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3056
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: ruk1ng|🟡_🇨🇳_💼_github.com/Ruk1ng001_6438366135323139
+  name: ruk1ng|🟡_🇨🇳_💼_github.com/Ruk1ng001_3139313335626131
   network: tcp
   port: 50002
-  server: 114.55.132.202
+  server: 47.104.186.133
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: github.com/Alvin9999
+  ws-path: /afrhms16v.bestxray.buzz/linkws
 - cipher: aes-256-cfb
-  name: ruk1ng|❓_🇸🇬_💼_github.com/Ruk1ng001_3837323337323332
+  name: ruk1ng|🟡_🇯🇵_💼_github.com/Ruk1ng001_3130323363343564
   password: amazonskr05
   port: 443
-  server: 18.141.231.184
+  server: 54.178.84.59
   type: ss
 - cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_6538326432613439
+  name: ruk1ng|🟡_🇸🇬_💼_github.com/Ruk1ng001_3566613766373364
   password: amazonskr05
   port: 443
-  server: 35.94.51.2
+  server: 54.151.212.176
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸 US
-  name: ruk1ng|github.com/Ruk1ng001_383566303939
-  password: Yeud3qg58vv3mgu/SIW/2cIphtimMYsTHGBI1jAKF/A=
-  port: 443
-  server: 3.v2.a.www.speedtest.net.2.op.jahesh-tolid.website
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3765633365666531
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4604
+  server: bs3.jymzffbquawl.com
   type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|❓_🇸🇬_💼_github.com/Ruk1ng001_3763363734616436
-  password: amazonskr05
+  udp: true
+- name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3561303933366563
+  password: '3723507166611775488'
   port: 443
-  server: 18.141.187.153
+  server: 195.133.93.135
+  sni: pleased-airedale.boa152.lol
+  type: trojan
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_6230323661383735
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3603
+  server: bs1.jymzffbquawl.com
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: ruk1ng|❓_🇺🇸_💼_github.com/Ruk1ng001_6639653662666634
+  name: ruk1ng|🟡_🇸🇬_💼_github.com/Ruk1ng001_3531363433353136
   password: amazonskr05
   port: 443
-  server: 44.243.243.198
+  server: 122.248.193.242
+  type: ss
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3339663439396362
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4602
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3364316432323961
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4600
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- country: 🇬🇧GB
+  name: ruk1ng|github.com/Ruk1ng001_3235323837613932
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.179.85.124
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: ruk1ng|github.com/Ruk1ng001_3333396639363032
+  password: qwerREWQ@@
+  port: 3231
+  server: p239.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: ruk1ng|github.com/Ruk1ng001_3332356262623861
+  password: qwerREWQ@@
+  port: 21215
+  server: p228.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3634656563313065
+  password: amazonskr05
+  port: 443
+  server: 54.202.77.81
   type: ss
 - cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3166383264306531
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3236386366363837
   password: amazonskr05
   port: 443
-  server: 34.222.132.123
+  server: 35.94.113.67
   type: ss
 - cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_6436663335626262
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3164626237333461
   password: amazonskr05
   port: 443
-  server: 34.215.192.217
+  server: 35.93.31.33
   type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|❓_🇯🇵_💼_github.com/Ruk1ng001_3466623133353738
+  password: amazonskr05
+  port: 443
+  server: 52.194.212.235
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|github.com/Ruk1ng001_3963646464373636
+  password: qwerREWQ@@
+  port: 7303
+  server: p233.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇯🇵_💼_github.com/Ruk1ng001_3935623663323134
+  password: amazonskr05
+  port: 443
+  server: 54.238.219.226
+  type: ss
+- name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3564303334303436
+  password: '3723507166611775488'
+  port: 443
+  server: 195.133.93.234
+  sni: wise-cowbird.boa152.lol
+  type: trojan
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇰🇷_💼_github.com/Ruk1ng001_31626166323638
+  password: qwerREWQ@@
+  port: 5412
+  server: 27.255.82.23
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_3933363863636534
+  password: LuxyNetBot
+  port: 443
+  server: apple.slumbo.com
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇰🇷_💼_github.com/Ruk1ng001_3566333632316237
+  password: qwerREWQ@@
+  port: 7018
+  server: 121.170.203.136
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_6134353539343461
+  password: amazonskr05
+  port: 443
+  server: 54.201.172.79
+  type: ss
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3264613866656565
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4605
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3339343061663435
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4608
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
@@ -503,129 +1380,360 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-path: /
 - cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3238346466303261
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3730313637623666
   password: amazonskr05
   port: 443
-  server: 54.244.200.142
+  server: 34.219.132.251
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇨🇳:🇹🇼_💻_github.com/Ruk1ng001_6639343362643837
+  password: qwerREWQ@@
+  port: 64759
+  server: 185.189.160.98
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: ruk1ng|🟡_🇨🇳_📶_github.com/Ruk1ng001_6466613664336630
+  port: 46602
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3466376362336436
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3606
+  server: bs1.jymzffbquawl.com
+  type: ss
+  udp: true
+- name: ruk1ng|❓_🇵🇱_📶_github.com/Ruk1ng001_3439333137313464
+  password: '3723507166611775488'
+  port: 443
+  server: 91.206.179.179
+  sni: holy-seahorse.boa152.lol
+  type: trojan
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_64663465383566
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3026
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3832653464613133
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 5605
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- name: ruk1ng|🟡_🇺🇸_💻_github.com/Ruk1ng001_3930656534353832
+  network: ws
+  password: b80Iy90Fma
+  port: 443
+  server: 104.26.9.227
+  sni: usa03.rtx.al
+  type: trojan
+  ws-opts:
+    headers:
+      Host: usa03.rtx.al
+    path: /cfyyds
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_6431643335613537
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 5601
+  server: bs3.jymzffbquawl.com
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3836336163343137
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_6239353666393634
   password: amazonskr05
   port: 443
-  server: 54.218.229.170
+  server: 35.85.36.208
   type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3562363531386463
+  password: amazonskr05
+  port: 443
+  server: 54.186.92.34
+  type: ss
+- name: ruk1ng|❓_🇩🇪_💼_github.com/Ruk1ng001_3161326336303231
+  password: '3723507166611775488'
+  port: 443
+  server: 63.176.218.64
+  sni: profound-anemone.boa152.lol
+  type: trojan
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3830353535353731
+  password: amazonskr05
+  port: 443
+  server: 34.216.172.180
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3861386530353737
+  password: amazonskr05
+  port: 443
+  server: 35.91.128.246
+  type: ss
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_6365626261643039
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3036
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_6337613236616236
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 5602
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- name: ruk1ng|🟠_🇳🇱_💻_github.com/Ruk1ng001_36383139326261
+  password: '3723507166611775488'
+  port: 443
+  server: 5.189.203.50
+  sni: devoted-starfish.boa152.lol
+  type: trojan
 - cipher: aes-256-cfb
   name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3166326239313863
   password: amazonskr05
   port: 443
   server: 34.222.136.128
   type: ss
+- name: ruk1ng|🟡_🇩🇪_💻_github.com/Ruk1ng001_3661353138653565
+  password: '3723507166611775488'
+  port: 443
+  server: 80.240.112.236
+  sni: pleased-slug.boa152.lol
+  type: trojan
+- name: ruk1ng|🟡_🇩🇪_💻_github.com/Ruk1ng001_3930666634373639
+  password: '3723507166611775488'
+  port: 443
+  server: 80.240.112.167
+  sni: ample-cockatoo.boa152.lol
+  type: trojan
 - cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3834306132326539
+  name: ruk1ng|❓_🇺🇸_💼_github.com/Ruk1ng001_6366613635646539
   password: amazonskr05
   port: 443
-  server: 54.184.77.199
+  server: 52.32.68.164
   type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3530313732353964
-  password: amazonskr05
-  port: 443
-  server: 34.211.105.26
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_64306565343630
+  password: f5136746-de79-46d0-b3be-d15d9992fa07
+  port: 23781
+  server: zx3.1010520.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3563643364316332
+  name: ruk1ng|🟡_🇰🇷_💼_github.com/Ruk1ng001_3234353735663236
+  password: qwerREWQ@@
+  port: 28139
+  server: 221.168.44.72
+  type: ss
+- cipher: aes-256-gcm
+  name: ruk1ng|github.com/Ruk1ng001_3462303162653637
+  password: 176c983f-6a7f-4a96-9865-891a6c48ec86
+  port: 50000
+  server: a007.standard-nodes-chickenfarms.com
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3562383061353564
   password: amazonskr05
   port: 443
-  server: 54.70.176.73
+  server: 34.213.242.165
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇳🇴 NO
-  name: ruk1ng|❓_🇳🇴_💼_github.com/Ruk1ng001_3831383563316436
-  password: xjzsiMfTByKjA9URbdXWNp
-  port: 32091
-  server: 51.120.1.158
-  type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|❓_🇰🇷_💼_github.com/Ruk1ng001_3232313331343261
-  password: amazonskr05
-  port: 443
-  server: 43.203.141.93
-  type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|🟠_🇵🇱_💻_github.com/Ruk1ng001_3731343834386336
-  password: FAdUvMJUq5vDgKEq
-  port: 9006
-  server: 217.30.10.18
+  name: ruk1ng|github.com/Ruk1ng001_3931333636343561
+  password: e1c77eb5-eacd-4afd-8da3-9fd2c1d3b499
+  port: 23781
+  server: zx2.1010520.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: ruk1ng|❓_🇰🇷_💼_github.com/Ruk1ng001_3563633262346137
-  password: amazonskr05
-  port: 443
-  server: 43.203.243.93
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_6332333362636165
+  password: e1c77eb5-eacd-4afd-8da3-9fd2c1d3b499
+  port: 45719
+  server: zx1.1010520.xyz
   type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|❓_🇰🇷_💼_github.com/Ruk1ng001_3737316333333034
-  password: amazonskr05
+  udp: true
+- name: ruk1ng|github.com/Ruk1ng001_6332633863396566
+  password: e8105dfd24414268b6c7652c63731097
   port: 443
-  server: 43.200.1.13
-  type: ss
-- alterId: 64
+  server: 132.145.94.80
+  sni: yournextcareerstep.online
+  type: trojan
+- alterId: 0
   cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: ruk1ng|🟡_🇨🇳_📶_github.com/Ruk1ng001_63643864303034
-  network: tcp
-  port: 50004
-  server: 112.132.212.19
+  name: ruk1ng|🟡_🇩🇪_💼_github.com/Ruk1ng001_6531376636623262
+  network: ws
+  port: 443
+  server: 3.67.25.193
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- name: ruk1ng|❓_🇵🇱_📶_github.com/Ruk1ng001_63343364666130
+  password: '3723507166611775488'
+  port: 443
+  server: 91.206.179.73
+  sni: perfect-beagle.boa152.lol
+  type: trojan
+- cipher: aes-256-cfb
+  name: ruk1ng|github.com/Ruk1ng001_3233396531366131
+  password: qwerREWQ@@
+  port: 58368
+  server: p199.panda003.net
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|🟡_🇩🇪_💼_github.com/Ruk1ng001_3263643631353735
+  network: ws
+  port: 443
+  server: 3.122.62.145
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- cipher: aes-256-cfb
+  name: ruk1ng|github.com/Ruk1ng001_6536623238313831
+  password: qwerREWQ@@
+  port: 28139
+  server: p196.panda001.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_6434666230343632
+  password: f5136746-de79-46d0-b3be-d15d9992fa07
+  port: 26436
+  server: zx3.1010520.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_3130346466656639
+  password: f5136746-de79-46d0-b3be-d15d9992fa07
+  port: 26436
+  server: zx2.1010520.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|❓_🇺🇸_💼_github.com/Ruk1ng001_6431393331323463
+  network: ws
+  port: 443
+  server: 18.236.13.188
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_3838313661396337
+  password: f5136746-de79-46d0-b3be-d15d9992fa07
+  port: 18769
+  server: zx2.1010520.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|🟡_🇸🇪_💼_github.com/Ruk1ng001_6262626565343761
+  network: ws
+  port: 443
+  server: 51.20.99.157
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|❓_🇺🇸_💻_github.com/Ruk1ng001_3538383234646439
+  network: ws
+  port: 443
+  server: 199.232.214.133
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 64
+  udp: true
+  uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
+  ws-opts:
+    headers:
+      Host: loki.oracle
+    path: /farcry
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3238346466303261
+  password: amazonskr05
+  port: 443
+  server: 54.244.200.142
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_6231336562643639
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 5603
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- alterId: 0
   cipher: auto
-  name: ruk1ng|🟡_🇨🇳_📶_github.com/Ruk1ng001_6135386464616234
-  port: 53002
-  server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  name: ruk1ng|🟡_🇩🇪_💼_github.com/Ruk1ng001_6436653561653836
+  network: ws
+  port: 443
+  server: 3.66.115.225
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: ruk1ng|❓_🇰🇷_💼_github.com/Ruk1ng001_3833626538313835
-  password: amazonskr05
-  port: 443
-  server: 43.202.65.32
-  type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|❓_🇰🇷_💼_github.com/Ruk1ng001_3133643032326434
-  password: amazonskr05
-  port: 443
-  server: 43.201.116.143
-  type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|🟠_🇳🇱_📶_github.com/Ruk1ng001_3266396432666231
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.15.82
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3333633334623636
-  password: amazonskr05
-  port: 443
-  server: 54.200.220.184
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: ruk1ng|🟠_🇵🇱_💻_github.com/Ruk1ng001_3638333163333062
-  password: c3NtHJ5ujV2tGDfj
-  port: 9084
-  server: 217.30.10.18
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_6161613865376666
+  password: f5136746-de79-46d0-b3be-d15d9992fa07
+  port: 30571
+  server: zx1.1010520.xyz
   type: ss
   udp: true
 - alterId: 64
@@ -641,6 +1749,194 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: ruk1ng|❓_🇰🇷_📶_github.com/Ruk1ng001_6630633530376464
+  password: qwerREWQ@@
+  port: 2105
+  server: 218.234.149.9
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: ruk1ng|🟡_🇨🇳_📶_github.com/Ruk1ng001_6135386464616234
+  port: 53002
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_6563373737336366
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4606
+  server: bs3.jymzffbquawl.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|🟡_🇫🇷_💼_github.com/Ruk1ng001_3263396234306161
+  network: ws
+  port: 443
+  server: 35.181.77.67
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_3362353739653465
+  password: f5136746-de79-46d0-b3be-d15d9992fa07
+  port: 30571
+  server: zx2.1010520.xyz
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_62356535633132
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4608
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3336303131613934
+  network: ws
+  port: 443
+  server: 34.225.195.136
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|🟡_🇩🇪_💼_github.com/Ruk1ng001_3464666565663831
+  network: ws
+  port: 443
+  server: 3.79.160.138
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇰🇷_💼_github.com/Ruk1ng001_3162343530363866
+  password: qwerREWQ@@
+  port: 25415
+  server: 168.126.234.232
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_3763306662656437
+  password: e1c77eb5-eacd-4afd-8da3-9fd2c1d3b499
+  port: 23984
+  server: zx2.1010520.xyz
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_6433643966323262
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 3600
+  server: pr1.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_3231313635663930
+  password: f5136746-de79-46d0-b3be-d15d9992fa07
+  port: 18769
+  server: zx3.1010520.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_3830623033303662
+  password: e1c77eb5-eacd-4afd-8da3-9fd2c1d3b499
+  port: 56315
+  server: zx2.1010520.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_3437376631633131
+  password: f5136746-de79-46d0-b3be-d15d9992fa07
+  port: 30571
+  server: zx3.1010520.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: ruk1ng|❓_🇰🇷_🌀_github.com/Ruk1ng001_6562633138333461
+  password: qwerREWQ@@
+  port: 58368
+  server: 61.255.174.173
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|🟡_🇸🇪_💼_github.com/Ruk1ng001_6337376265633535
+  network: ws
+  port: 443
+  server: 51.20.161.26
+  tls: true
+  type: vmess
+  uuid: 60c0bbfa-c54f-49a9-81ba-779b0206a9fd
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇵🇱_💻_github.com/Ruk1ng001_6665323065373137
+  password: ZET59LF6DvCC8KVt
+  port: 9005
+  server: 217.30.10.18
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_6366336465666166
+  password: f5136746-de79-46d0-b3be-d15d9992fa07
+  port: 56315
+  server: zx1.1010520.xyz
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇵🇱_💻_github.com/Ruk1ng001_3266343765386364
+  password: fG2artUmHfNT2cX7
+  port: 9018
+  server: 217.30.10.18
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3339376463306462
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 5608
+  server: pr3.jymzffbquawl.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_6164363662333634
+  password: e1c77eb5-eacd-4afd-8da3-9fd2c1d3b499
+  port: 56315
+  server: zx3.1010520.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: rokate||13.09Mb
@@ -650,43 +1946,90 @@ proxies:
   tls: false
   type: vmess
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- name: ermaozi|🇺🇸_US_美国->🇮🇪_IE_爱尔兰
-  network: tcp
-  password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a
-  port: 443
-  server: 138.2.237.121
+- name: blobBird|-0884-CN【nodeshare.xyz〗+永久免费节点机场
+  password: 38571ca6-6692-4559-b901-0bc5826b7661
+  port: 60194
+  server: ru0195.alibabaokz.com
   skip-cert-verify: true
-  sni: us01.ssr.ee
+  sni: ru0195.alibabaokz.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: ermaozi|🇺🇸_US_美国_9
+  password: amazonskr05
+  port: 443
+  server: 54.69.180.74
+  type: ss
+- cipher: aes-256-cfb
+  name: ermaozi|🇺🇸_US_美国_8
+  password: amazonskr05
+  port: 443
+  server: 35.88.126.102
+  type: ss
+- cipher: aes-256-cfb
+  name: ermaozi|🇺🇸_US_美国_5
+  password: amazonskr05
+  port: 443
+  server: 35.161.59.194
+  type: ss
+- cipher: aes-256-cfb
+  name: ermaozi|🇺🇸_US_美国_6
+  password: amazonskr05
+  port: 443
+  server: 52.89.164.115
+  type: ss
+- name: ermaozi|🇺🇸_US_美国
+  password: '3723507166611775488'
+  port: 443
+  server: profound-anemone.boa152.lol
+  skip-cert-verify: true
+  sni: profound-anemone.boa152.lol
   type: trojan
 - cipher: aes-256-cfb
-  name: ermaozi|🇷🇺_RU_俄罗斯_9
-  password: 9XwYyZsK8SNzQDtY
-  port: 9059
-  server: 217.30.10.18
+  name: ermaozi|🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+  password: amazonskr05
+  port: 443
+  server: 54.245.207.144
   type: ss
-- cipher: rc4-md5
-  name: ermaozi|🇺🇸_US_美国_3
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 79.110.53.169
-  type: ss
-- cipher: aes-256-cfb
-  name: ermaozi|🇷🇺_RU_俄罗斯
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: ermaozi|🇷🇺_RU_俄罗斯_2
-  password: rpgbNnU9rDDU4aWZ
-  port: 9094
-  server: 217.30.10.18
-  type: ss
+- name: ermaozi|🇺🇸_US_美国->🇩🇪_DE_德国
+  password: '3723507166611775488'
+  port: 443
+  server: 3.135.39.68
+  skip-cert-verify: false
+  sni: native-tetra.boa152.lol
+  type: trojan
+- name: ermaozi|🇫🇷_FR_法国
+  password: '3723507166611775488'
+  port: 443
+  server: lucky-grouper.boa152.lol
+  skip-cert-verify: true
+  sni: lucky-grouper.boa152.lol
+  type: trojan
+- name: ermaozi|🇫🇷_FR_法国->🇺🇦_UA_乌克兰
+  network: tcp
+  password: '3723507166611775488'
+  port: 443
+  server: sacred-guppy.boa152.lol
+  sni: sacred-guppy.boa152.lol
+  type: trojan
+- name: ermaozi|🇺🇸_US_美国_2
+  password: '3723507166611775488'
+  port: 443
+  server: tight-clam.boa152.lol
+  skip-cert-verify: true
+  sni: tight-clam.boa152.lol
+  type: trojan
 - cipher: aes-256-cfb
   name: ermaozi|🇷🇺_RU_俄罗斯_3
-  password: Lp27rqyJq72bZsqX
-  port: 9045
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
   server: 217.30.10.18
+  type: ss
+- cipher: aes-256-gcm
+  name: ermaozi|🇷🇺_RU_俄罗斯_2
+  password: dongtaiwang.com
+  port: 23456
+  server: 185.22.155.228
   type: ss
 - alterId: 0
   cipher: auto
@@ -804,14 +2147,38 @@ proxies:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
 - cipher: aes-256-cfb
-  name: mahdiblanda|🇺🇸US-54.202.63.77-1185 | 17.182MB
+  name: mahdiblanda|🇸🇬SG-18.140.65.217-0868 | 10.86MB
   password: amazonskr05
   port: 443
-  server: 54.202.63.77
+  server: 18.140.65.217
+  type: ss
+- cipher: aes-256-cfb
+  name: mahdiblanda|🇺🇸US-34.213.200.250-0422 | 26.435MB
+  password: amazonskr05
+  port: 443
+  server: 34.213.200.250
   type: ss
 - cipher: rc4-md5
-  name: mahdiblanda|🇺🇸US-107.155.57.11-0342 | 38.314MB
+  name: mahdiblanda|🇬🇧GB-169.150.210.233-0496 | 29.527MB
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 107.155.57.11
+  server: 169.150.210.233
+  type: ss
+- cipher: aes-256-cfb
+  name: mahdiblanda|🇺🇸US-54.200.223.152-0428 | 30.536MB
+  password: amazonskr05
+  port: 443
+  server: 54.200.223.152
+  type: ss
+- cipher: aes-256-cfb
+  name: mahdiblanda|🇺🇸US-35.90.2.104-0420 | 34.088MB
+  password: amazonskr05
+  port: 443
+  server: 35.90.2.104
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: mahdiblanda|LT-45.87.175.192-0853 | 24.769MB
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.192
   type: ss
