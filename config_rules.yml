@@ -783,11 +783,11 @@ proxy-providers:
     url: "https://jiahe.eu.org:15443/clash_verge/cf_op_proxies.yaml"
     type: http
     #type: file
-    interval: 10807
+    interval: 3612
     path: local_data/cf_op_proxies.yaml
     health-check:
       enable: true
-      interval: 12000
+      interval: 960
       url: 'http://www.gstatic.com/generate_204'
   xqc:
     url: "https://jiahe.eu.org:15443/clash_verge/xqc-proxies.yaml"

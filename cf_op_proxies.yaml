@@ -1,9 +1,24 @@
 proxies:
 - client-fingerprint: random
-  name: CFnat
+  name: 0_kg
   network: ws
-  port: 1234
-  server: 127.0.0.1
+  port: 443
+  server: 141.101.122.176
+  servername: ten.clayton.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: ten.clayton.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 1_eu
+  network: ws
+  port: 443
+  server: 104.16.116.73
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -13,10 +28,25 @@ proxies:
       Host: one.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: CF随机节点
+  name: 2_kg
   network: ws
   port: 443
-  server: 103.21.244.71
+  server: 141.101.121.115
+  servername: ten.clayton.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: ten.clayton.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 3_eu
+  network: ws
+  port: 443
+  server: 141.101.120.65
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -26,10 +56,25 @@ proxies:
       Host: one.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: CF随机节点 2
+  name: 4_kg
   network: ws
   port: 443
-  server: 104.16.208.26
+  server: 104.19.250.152
+  servername: ten.clayton.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: ten.clayton.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 5_eu
+  network: ws
+  port: 443
+  server: 141.101.123.195
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -39,10 +84,25 @@ proxies:
       Host: one.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: CF随机节点 3
+  name: 6_kg
   network: ws
   port: 443
-  server: 104.24.3.103
+  server: 104.19.133.202
+  servername: ten.clayton.us.kg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: ten.clayton.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 7_eu
+  network: ws
+  port: 443
+  server: 104.19.130.151
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -52,101 +112,25 @@ proxies:
       Host: one.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: CF随机节点 4
+  name: 8_kg
   network: ws
   port: 443
-  server: 172.64.155.110
-  servername: one.unionpay.eu.org
+  server: 104.19.142.252
+  servername: ten.clayton.us.kg
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: ten.clayton.us.kg
     path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点 5
+- client-fingerprint: chrome
+  name: 9_eu
   network: ws
   port: 443
-  server: 103.21.244.242
-  servername: one.unionpay.eu.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: one.unionpay.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点 6
-  network: ws
-  port: 443
-  server: 104.16.182.107
-  servername: one.unionpay.eu.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: one.unionpay.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点 7
-  network: ws
-  port: 443
-  server: 104.24.100.119
-  servername: one.unionpay.eu.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: one.unionpay.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点 8
-  network: ws
-  port: 443
-  server: 141.101.66.235
-  servername: one.unionpay.eu.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: one.unionpay.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点 9
-  network: ws
-  port: 443
-  server: 172.64.68.175
-  servername: one.unionpay.eu.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: one.unionpay.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点 10
-  network: ws
-  port: 443
-  server: 188.114.100.253
-  servername: one.unionpay.eu.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: one.unionpay.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点 11
-  network: ws
-  port: 443
-  server: 190.93.242.25
+  server: 162.159.45.72
   servername: one.unionpay.eu.org
   tls: true
   type: vless
