@@ -578,7 +578,6 @@ proxy-groups:
       - ♻️ 自动选择
       - ⚡ 负载均衡
       - 🔰 manual
-      - William_group
       - cflare
       - CFWarp
   - name: cflare
@@ -621,14 +620,6 @@ proxy-groups:
       - cf-warp
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
-  - name: William_group
-    type: url-test
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 1200
-    filter: "WilliamStar|NoMoreWalls" #(?i) (?A) 等语法无效
-    #exclude-filter: "(?i)Flik" #无效
-    use:
-      - common
   - name: ⚡ 负载均衡
     type: load-balance
     use:
