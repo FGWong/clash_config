@@ -3,7 +3,7 @@ proxies:
   name: 0_kg
   network: ws
   port: 443
-  server: 104.19.120.75
+  server: 104.19.57.172
   servername: ten.clayton.us.kg
   skip-cert-verify: true
   tfo: false
@@ -18,7 +18,7 @@ proxies:
   name: 1_eu
   network: ws
   port: 443
-  server: 104.19.104.219
+  server: 104.19.3.123
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -31,7 +31,7 @@ proxies:
   name: 2_kg
   network: ws
   port: 443
-  server: 104.19.26.167
+  server: 104.19.16.38
   servername: ten.clayton.us.kg
   skip-cert-verify: true
   tfo: false
@@ -46,7 +46,7 @@ proxies:
   name: 3_eu
   network: ws
   port: 443
-  server: 104.16.222.107
+  server: 141.101.120.62
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -59,7 +59,7 @@ proxies:
   name: 4_kg
   network: ws
   port: 443
-  server: 104.17.71.254
+  server: 104.19.115.213
   servername: ten.clayton.us.kg
   skip-cert-verify: true
   tfo: false
@@ -74,7 +74,7 @@ proxies:
   name: 5_eu
   network: ws
   port: 443
-  server: 104.16.226.103
+  server: 104.18.127.207
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -87,7 +87,7 @@ proxies:
   name: 6_kg
   network: ws
   port: 443
-  server: 104.17.121.174
+  server: 104.21.229.76
   servername: ten.clayton.us.kg
   skip-cert-verify: true
   tfo: false
@@ -102,7 +102,7 @@ proxies:
   name: 7_eu
   network: ws
   port: 443
-  server: 104.19.94.88
+  server: 104.19.136.180
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -115,7 +115,7 @@ proxies:
   name: 8_kg
   network: ws
   port: 443
-  server: 104.19.37.179
+  server: 162.159.207.153
   servername: ten.clayton.us.kg
   skip-cert-verify: true
   tfo: false
@@ -130,7 +130,7 @@ proxies:
   name: 9_eu
   network: ws
   port: 443
-  server: 104.17.58.138
+  server: 104.19.82.75
   servername: one.unionpay.eu.org
   tls: true
   type: vless

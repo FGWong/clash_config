@@ -106,11 +106,12 @@ hosts:
   #test.com: [1.1.1.1, 2.2.2.2]
   #search.com: google.com
   #clash.lan: clash
-  clayton.eu.or: 10.144.84.198
-  jiahe.eu.or: 10.144.100.6
-  'qnap': 10.144.84.198
-  'raspi': 10.144.100.6
-  'hp': 10.144.176.30
+
+  #clayton.eu.or: 10.144.84.198
+  #jiahe.eu.or: 10.144.100.6
+  #'qnap': 10.144.84.198
+  #'raspi': 10.144.100.6
+  #'hp': 10.144.176.30
 
 # Clash for Windows
 cfw-bypass:
@@ -581,9 +582,28 @@ proxy-groups:
       - cflare
       - cfkg
       - cfop
+      - SKR
       - CFWarp
       - ♻️ XQC
       - ♻️ BaiPiao
+  - name: cfop
+    type: url-test
+    use:
+      - cldop
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1200
+  - name: SKR
+    type: url-test
+    use:
+      - skr
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1200
+  - name: ♻️ XQC
+    type: url-test
+    use:
+      - xqc
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 12000
   - name: cflare
     type: url-test
     use:
@@ -596,12 +616,12 @@ proxy-groups:
       - cldkg
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
-  - name: cfop
+  - name: ♻️ BaiPiao
     type: url-test
     use:
-      - cldop
+      - baipiao
     url: 'http://www.gstatic.com/generate_204'
-    interval: 1200
+    interval: 12000
   - name: ♻️ 自动选择
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
@@ -618,19 +638,6 @@ proxy-groups:
       - 🐟 漏网之鱼
       - 🎏 失败切换
       - ⚡ 负载均衡
-  - name: ♻️ XQC
-    type: url-test
-    use:
-      - xqc
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 12000
-
-  - name: ♻️ BaiPiao
-    type: url-test
-    use:
-      - baipiao
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 12000
   - name: 📲 电报信息
     type: select
     proxies:
@@ -645,6 +652,7 @@ proxy-groups:
       - cldflare
       - cldkg
       - cldop
+      - skr
   - name: CFWarp
     type: url-test
     use:
@@ -776,6 +784,16 @@ proxy-providers:
     #type: file
     interval: 3612
     path: local_data/cf_op_proxies.yaml
+    health-check:
+      enable: true
+      interval: 960
+      url: 'http://www.gstatic.com/generate_204'
+  skr:
+    url: "https://jiahe.eu.org:15443/clash_verge/skrapp.yaml"
+    type: http
+    #type: file
+    interval: 3622
+    path: local_data/skrapp.yaml
     health-check:
       enable: true
       interval: 960

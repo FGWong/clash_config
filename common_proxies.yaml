@@ -1,173 +1,106 @@
 proxies:
-- name: Flik6|[Trojan] 🇷🇴 罗马尼亚 V2CROSS.COM
-  password: '3747000103274291200'
-  port: 443
-  server: 93.114.98.133
-  skip-cert-verify: true
-  sni: artistic-flounder.treefrog761.one
-  tfo: false
-  type: trojan
-  udp: true
-- name: Flik6|[Trojan] 🇺🇸 美国 Amazon EC2服务器
-  password: '3782591447421952000'
-  port: 443
-  server: composed-mustang.treefrog761.one
-  skip-cert-verify: true
-  sni: composed-mustang.treefrog761.one
-  tfo: false
-  type: trojan
-  udp: true
-- name: Flik6|[Trojan] 🇺🇸 美国 加州
-  password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928
-  port: 443
-  server: 64.23.162.126
-  skip-cert-verify: true
-  sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen
-  tfo: false
-  type: trojan
-  udp: true
-- name: Flik6|[Trojan] 🇷🇴 罗马尼亚 V2CROSS.COM 2
-  password: '3747000103274291200'
-  port: 443
-  server: alive-polecat.treefrog761.one
-  skip-cert-verify: true
-  sni: alive-polecat.treefrog761.one
-  tfo: false
-  type: trojan
-  udp: true
-- name: Flik6|[Trojan] 🇮🇳 印度 V2CROSS.COM
-  password: 94d219c9-1afc-4d42-b090-8b3794764380
-  port: 443
-  server: 103.238.235.140
-  skip-cert-verify: true
-  sni: std1.loadingip.com
-  tfo: false
-  type: trojan
-  udp: true
-- name: Flik6|[Trojan] 🇺🇸 美国 麻省理工学院
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.134.220.57
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  tfo: false
-  type: trojan
-  udp: true
-- name: NoMoreWalls|2|🇺🇸4 |  5.0MB/s
-  password: 5ffcb530-1f7b-3f23-b368-8690903c358f
-  port: 20307
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z307.hongkongnode.top
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: NoMoreWalls|2|🇺🇸11 |  4.7MB/s
-  port: 18000
-  server: 169.150.208.83
-  skip-cert-verify: false
+  name: Flik6|[VMess] 广东省湛江市 移动
+  port: 44014
+  server: 120.198.71.219
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: NoMoreWalls|2|🇺🇸14 |  1.8MB/s
-  password: '3787016351714123776'
-  port: 443
-  server: magnetic-chicken.treefrog761.one
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: Flik6|[SS] 乌克兰 V2CROSS.COM
+  password: OWY4ODBm
+  port: 8388
+  server: at1.opensocks.site
+  tfo: false
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 广东省湛江市 移动 2
+  port: 55482
+  server: 120.198.71.216
   skip-cert-verify: true
-  sni: magnetic-chicken.treefrog761.one
-  type: trojan
-- name: NoMoreWalls|14|GB_speednode_0033
-  password: '3747000103274291200'
-  port: 443
-  server: fond-moth.treefrog761.one
-  skip-cert-verify: false
-  sni: fond-moth.treefrog761.one
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
   udp: true
-- name: NoMoreWalls|14|IE_speednode_0045
-  password: '3747000103274291200'
-  port: 443
-  server: rich-sturgeon.treefrog761.one
-  skip-cert-verify: false
-  sni: rich-sturgeon.treefrog761.one
-  type: trojan
-  udp: true
-- name: NoMoreWalls|2|🌀3- |  4.1MB/s
-  password: '3787016351714123776'
-  port: 443
-  server: huge-katydid.treefrog761.one
-  skip-cert-verify: true
-  sni: huge-katydid.treefrog761.one
-  type: trojan
-- name: NoMoreWalls|14|GB_speednode_0034
-  password: '3747000103274291200'
-  port: 443
-  server: cuddly-slug.treefrog761.one
-  skip-cert-verify: false
-  sni: cuddly-slug.treefrog761.one
-  type: trojan
-  udp: true
-- name: NoMoreWalls|14|US_speednode_0191
-  password: '3747000103274291200'
-  port: 443
-  server: deciding-sunbeam.treefrog761.one
-  skip-cert-verify: false
-  sni: deciding-sunbeam.treefrog761.one
-  type: trojan
-  udp: true
-- name: NoMoreWalls|12,13,14|US_speednode_0193
-  network: tcp
-  password: '3747000103274291200'
-  port: 443
-  server: fluent-bat.treefrog761.one
-  skip-cert-verify: false
-  sni: fluent-bat.treefrog761.one
-  type: trojan
-  udp: true
-- name: NoMoreWalls|14|KR_speednode_0076
-  password: '3782591447421952000'
-  port: 443
-  server: equipped-mouse.treefrog761.one
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
-  ip-version: dual
-  name: dayfree|🇺🇸_US_美国_3
+  name: NoMoreWalls|12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.236.132.239
+  server: 13.229.59.137
+  tfo: false
   type: ss
+- cipher: aes-256-cfb
+  name: NoMoreWalls|2|🇸🇬1 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.254.62.242
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: NoMoreWalls|2|🇹🇼1 |  5.3MB/s
+  port: 15223
+  server: tw-detour-23.grabgo.pro
+  tls: false
+  type: vmess
+  uuid: f837b510-7050-4dec-b182-a777dc358469
+- name: NoMoreWalls|12,13|香港|@ripaojiedian
+  network: tcp
+  password: 1e63e585ab2fef3adcc9ea75a62abc23
+  port: 443
+  server: 104.251.227.182
+  skip-cert-verify: true
+  sni: hezijiasuqi.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: NoMoreWalls|2|🇺🇸8 |  5.1MB/s
+  port: 15508
+  server: la-detour-08.grabgo.pro
+  tls: false
+  type: vmess
+  uuid: f837b510-7050-4dec-b182-a777dc358469
+- alterId: 0
+  cipher: auto
+  name: NoMoreWalls|2|🇭🇰2 |  2.9MB/s
+  port: 15129
+  server: sz-hk-09.grabgo.pro
+  tls: false
+  type: vmess
+  uuid: f837b510-7050-4dec-b182-a777dc358469
+- name: NoMoreWalls|2|🇬🇧2 |  1.7MB/s
+  password: c3084fa7-1eba-3823-9674-b66abdf071d1
+  port: 11215
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z268.hongkongnode.top
+  type: trojan
   udp: true
 - cipher: aes-256-cfb
   ip-version: dual
   name: dayfree|🇺🇸_US_美国_2
   password: amazonskr05
   port: 443
-  server: 52.34.200.48
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  ip-version: dual
-  name: dayfree|🇬🇧_GB_英国
-  password: 6edTuN9WSufTkYhvfJD0js
-  port: 2239
-  server: 77.239.122.39
+  server: 54.185.211.74
   type: ss
   udp: true
 - cipher: aes-256-cfb
   ip-version: dual
-  name: dayfree|🇷🇺_RU_俄罗斯_4
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.173
+  name: dayfree|🇺🇸_US_美国_3
+  password: amazonskr05
+  port: 443
+  server: 52.32.166.45
   type: ss
   udp: true
 - cipher: aes-256-cfb
   ip-version: dual
-  name: dayfree|🇺🇦_UA_乌克兰_2
+  name: dayfree|🇺🇦_UA_乌克兰_1
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 176.103.53.105
@@ -225,48 +158,201 @@ proxies:
       host: mods-destruction-academy-gear.trycloudflare.com
     path: ''
 - cipher: aes-256-cfb
-  name: mfuu|🇺🇸US-35.160.134.223-089
+  ip-version: dual
+  name: forever|🇺🇸_US_美国->🇷🇺_RU_俄罗斯
   password: amazonskr05
   port: 443
-  server: 35.160.134.223
+  server: 34.218.246.115
   type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: mfuu|🇺🇸US-34.220.174.155-092
+  ip-version: dual
+  name: forever|🇺🇸_US_美国_1
   password: amazonskr05
   port: 443
-  server: 34.220.174.155
+  server: 34.220.211.62
   type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: mfuu|🇺🇸US-54.244.78.72-288
+  ip-version: dual
+  name: forever|🇺🇸_US_美国_2
   password: amazonskr05
   port: 443
   server: 54.244.78.72
   type: ss
-- cipher: aes-256-gcm
-  name: mfuu|🇺🇸US-23.154.136.137-010
-  password: lGqs95QkFHo2NV
-  port: 5498
-  server: 23.154.136.137
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: forever|🇷🇺_RU_俄罗斯_1
+  password: FG5ddLsMPbV5CutE
+  port: 9050
+  server: 217.30.10.18
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: mfuu|🇹🇼TW-2.58.241.42-018
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: forever|🇺🇸_US_美国_4
+  password: amazonskr05
   port: 443
-  server: taiwan-2.keenvpn.me
+  server: 44.243.45.146
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: mfuu|🇺🇸US-77.239.122.34-228
-  password: gPQfQwohlAiyDweHDQkDUO
-  port: 46785
-  server: 77.239.122.34
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: forever|🇮🇸_IS_冰岛
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 37.235.49.152
   type: ss
-- name: mfuu|🇨🇳CN-111.47.212.170-297
-  password: fe10330c-c392-37c0-a1d7-29b1c780e04c
-  port: 20141
-  server: gy.58n.net
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: mfuu|🇨🇳CN-120.232.153.63-115
+  network: tcp
+  port: 40172
+  server: 120.232.153.63
   skip-cert-verify: true
-  sni: z141.hongkongnode.top
-  type: trojan
+  tls: false
+  type: vmess
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  ws-headers:
+    Host: 120.232.153.63
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: mfuu|🇨🇳CN-120.241.40.37-181
+  network: tcp
+  port: 15201
+  server: tw-detour-01.grabgo.pro
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f837b510-7050-4dec-b182-a777dc358469
+  ws-headers:
+    Host: tw-detour-01.grabgo.pro
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: mfuu|🇨🇳CN-120.232.153.63-112
+  network: tcp
+  port: 40165
+  server: 120.232.153.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.232.153.63
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: mfuu|🇨🇳CN-183.236.51.38-086
+  network: tcp
+  port: 48919
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: mfuu|🇨🇳CN-120.198.71.216-025
+  network: tcp
+  port: 41259
+  server: 120.198.71.216
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.216
+  ws-path: /
+- cipher: aes-256-cfb
+  name: mfuu|🇸🇬SG-13.250.96.5-248
+  password: amazonskr05
+  port: 443
+  server: 13.250.96.5
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: mfuu|🇨🇳CN-183.236.51.38-101
+  network: tcp
+  port: 53902
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- cipher: chacha20-ietf
+  name: ruk1ng|❓_🇨🇳:🇭🇰_💼_github.com/Ruk1ng001_3363333662373361
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇸🇬_💼_github.com/Ruk1ng001_3638373066343461
+  password: amazonskr05
+  port: 443
+  server: 18.139.162.25
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇸🇬_💼_github.com/Ruk1ng001_3236316533626535
+  password: amazonskr05
+  port: 443
+  server: 54.255.224.231
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇸🇬_💼_github.com/Ruk1ng001_3630366335666138
+  password: amazonskr05
+  port: 443
+  server: 18.141.140.152
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇸🇬_💼_github.com/Ruk1ng001_3235373066336665
+  password: amazonskr05
+  port: 443
+  server: 47.129.8.153
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|❓_🇸🇬_💼_github.com/Ruk1ng001_6338613761323736
+  password: amazonskr05
+  port: 443
+  server: 13.229.127.74
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇯🇵_💼_github.com/Ruk1ng001_3866393139613539
+  password: amazonskr05
+  port: 443
+  server: 54.64.124.92
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|❓_🇰🇷_💼_github.com/Ruk1ng001_3164336263306661
+  password: amazonskr05
+  port: 443
+  server: 52.78.98.113
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|❓_🇸🇬_💼_github.com/Ruk1ng001_6536353534643737
+  password: amazonskr05
+  port: 443
+  server: 13.229.55.109
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6135653666633362
+  port: 11773
+  server: zyp2d-g01.jp02-9a99-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: ruk1ng|🟡_🇰🇷_💼_github.com/Ruk1ng001_3263646331623132
@@ -275,217 +361,621 @@ proxies:
   server: 54.180.133.38
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|❓_🇸🇬_💼_github.com/Ruk1ng001_6236383162333836
-  password: amazonskr05
-  port: 443
-  server: 13.229.59.137
-  type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇸🇬_💼_github.com/Ruk1ng001_3937313033633639
-  password: amazonskr05
-  port: 443
-  server: 18.143.165.183
-  type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|🟠_🇸🇬_💼_github.com/Ruk1ng001_6262643462383936
-  password: amazonskr05
-  port: 443
-  server: 47.129.37.234
-  type: ss
-  udp: true
-- alterId: 0
+- alterId: 1
   cipher: auto
-  ip-version: dual
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3137383833356432
-  network: tcp
-  port: 50002
-  server: 112.132.215.12
+  name: ruk1ng|github.com/Ruk1ng001_3530633936646165
+  port: 28783
+  server: xhnwf-g01.jp07-1f28-vm0.entry.fr0307a.art
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3564303336373131
+  port: 21581
+  server: hp0ng-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3563633661346439
+  port: 21581
+  server: ox93z-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3539633334363530
+  port: 21581
+  server: ho1n4-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3563333038633439
+  port: 28783
+  server: ftq2e-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3563633135646130
+  port: 21581
+  server: jybaz-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3563623137333965
+  port: 21586
+  server: ophn1-g06.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3562613435336431
+  port: 21581
+  server: bnmis-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3561303339333936
+  port: 21586
+  server: 04zv4-g06.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3562303261633337
+  port: 21581
+  server: 8596w-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_35626336623665
+  port: 21581
+  server: urg0d-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3563616165303231
+  port: 21581
+  server: wz75p-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3562373431396537
+  port: 21581
+  server: 9bkp7-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3562616138353737
+  port: 28783
+  server: jyr5f-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3539663135663862
+  port: 21581
+  server: 4gqny-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3561333164393264
+  port: 21581
+  server: oalle-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3563323132616364
+  port: 21581
+  server: i9bfs-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3563343136656164
+  port: 28783
+  server: cfwkw-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3562326363303264
+  port: 21581
+  server: meapn-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3563313064356666
+  port: 21581
+  server: kcarj-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
 - cipher: aes-256-cfb
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3761336132653064
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: ruk1ng|🟡_🇬🇧_💻_github.com/Ruk1ng001_6436396334623463
-  password: vcUpZCJzOuaVoN8OL2cYvK
-  port: 443
-  server: 78.129.140.11
-  type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇯🇵_💼_github.com/Ruk1ng001_3933666431303836
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_6137626638623666
   password: amazonskr05
   port: 443
-  server: 3.112.245.114
+  server: 35.88.126.62
   type: ss
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6234373539663134
+  port: 21586
+  server: 34usy-g06.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3561616635383935
+  port: 21581
+  server: fiew8-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3539376466343466
+  port: 21586
+  server: zkmda-g06.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3561346665663337
+  port: 21586
+  server: 2ugtq-g06.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3563663439616135
+  port: 28783
+  server: 8634m-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
 - cipher: aes-256-cfb
-  name: ruk1ng|❓_🇸🇬_💼_github.com/Ruk1ng001_3631643465616339
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_6635313439363036
+  obfs: plain
   password: amazonskr05
   port: 443
-  server: 13.229.82.37
+  protocol: origin
+  server: 34.220.174.155
+  type: ssr
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3862343235303863
+  port: 21581
+  server: 9c6l0-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6236396132396334
+  port: 28783
+  server: r9vr6-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- cipher: aes-256-cfb
+  name: ruk1ng|❓_🇺🇸_💼_github.com/Ruk1ng001_3931323964383765
+  password: amazonskr05
+  port: 443
+  server: 52.33.5.226
   type: ss
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6237633163653737
+  port: 21586
+  server: 4kbnr-g06.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3561363133616366
+  port: 21581
+  server: w63qv-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6235616361316264
+  port: 28783
+  server: w8dz9-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6238666332633566
+  port: 28783
+  server: xe4k4-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
 - alterId: 0
   cipher: auto
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3139303134326633
-  port: 42120
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇰🇷_💼_github.com/Ruk1ng001_3565353861393138
-  password: amazonskr05
-  port: 443
-  server: 3.38.214.76
-  type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3166613934636234
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3763633930633330
-  password: amazonskr05
-  port: 443
-  server: 34.220.99.193
-  type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_6266373737613234
-  password: amazonskr05
-  port: 443
-  server: 35.86.174.240
-  type: ss
-- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: ruk1ng|🟠_🇨🇳:🇹🇼_💻_github.com/Ruk1ng001_6239313637303632
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  port: 443
-  server: 2.58.241.42
-  type: ss
-- cipher: aes-256-gcm
-  country: 🏁ZZ
-  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_3566613837353163
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 23.154.136.106
-  type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_6666313035396431
-  password: amazonskr05
-  port: 443
-  server: 34.220.211.62
-  type: ss
-- alterId: 0
+  name: ruk1ng|github.com/Ruk1ng001_3735643562336335
+  password: 415b770f-20de-4be4-a3c1-8376da50a1b7
+  port: 33243
+  server: lm.kaiqsz.com
+  skip-cert-verify: false
+  sni: mmbiz13.redapricotcloud.com
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 6f5637c1-2a46-4d3b-8257-7dc3a70ff1dd
+- alterId: 1
   cipher: auto
-  name: ruk1ng|🟡_🇫🇮_💼_github.com/Ruk1ng001_3330373961653634
-  port: 39119
-  server: 31.58.137.67
-  skip-cert-verify: true
+  name: ruk1ng|github.com/Ruk1ng001_6235393238376536
+  port: 21581
+  server: 2uo11-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6238613039623236
+  port: 21586
+  server: wtx8w-g06.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6632323765346461
+  port: 449
+  server: 1lng7-g06.jp04-3771-vm0.entry.fr0307a.art
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 00dedc77-59b9-42f1-a9ce-3f33af694f5e
-- cipher: chacha20-ietf-poly1305
-  name: ruk1ng|🟠_🇵🇱_💻_github.com/Ruk1ng001_3366653766373038
-  password: khRaVpqrxCiJlvySn9J3eE
-  port: 443
-  server: 77.83.246.74
-  type: ss
+  udp: true
+  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6236633730393262
+  port: 21581
+  server: w3r07-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6236353063376266
+  port: 28783
+  server: rjl15-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3538396639613530
+  port: 28783
+  server: 11g15-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6234663463326233
+  port: 28783
+  server: hcsnn-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6237323333613030
+  port: 28783
+  server: a24ke-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6238313065366537
+  port: 21581
+  server: os86g-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6236343762373232
+  port: 28783
+  server: nw9b9-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6239363535633630
+  port: 21586
+  server: soob1-g06.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6238326136346230
+  port: 21586
+  server: 2hp2z-g06.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6238643635376161
+  port: 21581
+  server: llbie-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6235396236336236
+  port: 21586
+  server: 07xgt-g06.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
 - cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_6163346662633466
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_6630343232633961
+  obfs: plain
+  obfs-param: ''
   password: amazonskr05
   port: 443
-  server: 54.184.126.174
-  type: ss
+  protocol: origin
+  protocol-param: ''
+  server: 34.212.0.149
+  type: ssr
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6565363133393362
+  port: 11778
+  server: dyejk-g06.jp02-9a99-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-gcm
-  name: ruk1ng|🔴_🇺🇸_💻_github.com/Ruk1ng001_6164396161333865
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 38.107.226.159
-  type: ss
-- cipher: aes-256-gcm
-  name: ruk1ng|🔴_🇺🇸_💻_github.com/Ruk1ng001_6231653136303864
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.107.226.159
+  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3765393465303336
+  port: 11778
+  server: 06sol-g06.jp02-9a99-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
+- alterId: 1
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3831353863346436
+  port: 21586
+  server: fboa0-g06.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3461643831616261
+  password: amazonskr05
+  port: 443
+  server: 54.244.204.173
   type: ss
 - cipher: aes-256-cfb
-  name: ruk1ng|🔴_🇵🇹_💻_github.com/Ruk1ng001_6239313761366362
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3765393462366132
+  password: amazonskr05
+  port: 443
+  server: 35.160.134.223
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇫🇮_💻_github.com/Ruk1ng001_3664336563633730
+  obfs: plain
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 185.231.233.112
-  type: ss
-  udp: true
-- alterId: 2
+  protocol: origin
+  server: 37.143.129.230
+  type: ssr
+- alterId: 1
   cipher: auto
-  client-fingerprint: chrome
-  name: ruk1ng|github.com/Ruk1ng001_3639376363306231
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
+  name: ruk1ng|github.com/Ruk1ng001_6234623363393535
+  port: 28783
+  server: aenb6-g01.jp06-7c5a-vm0.entry.fr0307a.art
   skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
+  udp: true
+  uuid: fb43824b-a53d-3341-b27c-6e50dc0aa113
 - cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3130616634356639
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_6532343261313865
+  obfs: plain
   password: amazonskr05
   port: 443
-  server: 54.244.0.4
+  protocol: origin
+  server: 54.190.1.125
+  type: ssr
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_6161356230613666
+  password: amazonskr05
+  port: 443
+  server: 34.211.97.239
   type: ss
-- alterId: 2
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇪🇪_💻_github.com/Ruk1ng001_6663366538613733
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 188.214.36.155
+  type: ss
+- alterId: 64
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: ruk1ng|github.com/Ruk1ng001_6335306439316332
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺 RU
-  name: ruk1ng|❓_🇸🇪_🌀_github.com/Ruk1ng001_3533613631326533
-  password: PPXb8J2ciDybokWl7kxKab
-  port: 51587
-  server: 45.144.54.156
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ruk1ng|github.com/Ruk1ng001_3561383033653464
-  password: FCEUOASRQJC0LN0K
-  port: 15009
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3830616132373263
-  port: 40172
-  server: 120.232.153.63
+  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3939633539636335
+  port: 59104
+  server: 183.236.51.38
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3738343833376437
+  port: 14100
+  server: dxv4.pai50288.uk
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6362383938313335
+  network: ws
+  port: 80
+  server: AC.fastly80-2.hosting-ip.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6e3ac406-a15b-461d-8b05-ca01b284d9a0
+  ws-opts:
+    headers:
+      Host: telegram-isvvpn.dev
+    path: /racevpn
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|🟡_🇨🇳_📶_github.com/Ruk1ng001_6261386630393663
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40000
+  server: 103.216.253.197
+  type: ss
 - alterId: 2
   cipher: auto
   h2-opts: {}
@@ -503,51 +993,59 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇸🇬_💻_github.com/Ruk1ng001_3836306636656539
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇵🇱_💻_github.com/Ruk1ng001_39343637343433
+  obfs: plain
+  obfs-param: ''
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
+  protocol: origin
+  protocol-param: ''
+  server: 217.30.10.18
+  type: ssr
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_6336653262653165
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40209
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 1.link-hub.blog
+  type: ssr
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_6366613734383561
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40254
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 3.link-hub.click
+  type: ssr
+  udp: true
 - alterId: 0
   cipher: auto
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3963636266326638
-  port: 54082
+  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3932313130656265
+  port: 36602
   server: 120.232.153.40
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: ruk1ng|github.com/Ruk1ng001_6462396235386463
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40219
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 2.hublink.pro
-  type: ssr
-- cipher: aes-256-gcm
-  name: ruk1ng|github.com/Ruk1ng001_6565323561383432
-  password: 4S85LF2Q3QK92171
-  port: 18008
-  server: w72tapyb.slashdevslashnetslashtun.net
-  type: ss
-- cipher: rc4-md5
-  name: ruk1ng|github.com/Ruk1ng001_3732656138386162
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40210
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 2.hublink.pro
-  type: ssr
-- cipher: rc4-md5
-  name: ruk1ng|github.com/Ruk1ng001_3265376361663334
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40211
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 2.hublink.pro
-  type: ssr
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3235393965633336
+  port: 51754
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
   name: ruk1ng|github.com/Ruk1ng001_6164333163373436
   obfs: plain
@@ -558,93 +1056,58 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 3.link-hub.click
   type: ssr
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: ruk1ng|❓_🇺🇸_💻_github.com/Ruk1ng001_6535343837393064
-  password: 1RWwXhwfAB5gAEozU4G2Pg
+- cipher: chacha20-ietf-poly1305
+  name: blobBird|_DE_德国->🇷🇺_RU_俄罗斯
+  password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
-  server: 45.87.175.188
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- cipher: rc4-md5
-  name: ruk1ng|github.com/Ruk1ng001_6165323033363331
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40204
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 1.link-hub.blog
-  type: ssr
-- cipher: rc4-md5
-  name: ruk1ng|github.com/Ruk1ng001_6439323134616531
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40217
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 1.link-hub.blog
-  type: ssr
-- cipher: aes-256-gcm
-  name: ruk1ng|github.com/Ruk1ng001_6164613034663635
-  password: YMB3QL85L7F1KJR7
-  port: 18013
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  type: ss
-- cipher: aes-256-cfb
-  name: blobBird|_RU_俄罗斯_2
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 213.156.137.67
+  server: 45.87.175.199
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: ermaozi|🇨🇦_CA_加拿大_1
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 23.154.136.148
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: ermaozi|🇺🇦_UA_乌克兰_1
+  name: blobBird|_UA_乌克兰_1
   password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6
   port: 31348
   server: 188.191.147.127
   type: ss
-- name: ermaozi|🇷🇴_RO_罗马尼亚
-  password: '3747000103274291200'
-  port: 443
-  server: 93.114.98.252
-  skip-cert-verify: false
-  sni: alive-polecat.treefrog761.one
-  type: trojan
-- cipher: aes-256-cfb
-  name: ermaozi|🇷🇺_RU_俄罗斯
-  password: UTJA57ypk2XKQpnm
-  port: 9033
-  server: 217.30.10.18
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: blobBird|_DE_德国->🇮🇷_IR_伊朗
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.164
   type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: ermaozi|🇷🇴_RO_罗马尼亚_2
+  name: blobBird|_RU_俄罗斯_6
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.173
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: blobBird|_RO_罗马尼亚_2
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.193.49.88
   type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: ermaozi|🇷🇺_RU_俄罗斯
+  network: tcp
+  port: 22946
+  server: 188.130.154.56
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7ed1d138-37f7-41f7-843d-d4f2bdbba913
 - cipher: aes-256-cfb
-  name: mahdiblanda|🇺🇸US-34.219.121.181-1373 | 37.01MB
-  password: amazonskr05
-  port: 443
-  server: 34.219.121.181
-  type: ss
-- cipher: aes-256-cfb
-  name: mahdiblanda|🇺🇸US-18.237.113.248-1375 | 37.648MB
-  password: amazonskr05
-  port: 443
-  server: 18.237.113.248
+  name: ermaozi|🇷🇺_RU_俄罗斯_4
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
+  server: 217.30.10.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: mahdiblanda|AE-40.172.178.194-0495 | 19.007MB
+  name: mahdiblanda|AE-40.172.178.194-0431 | 21.851MB
   password: u17T3BvpYaaiuW2c
   port: 443
   server: 40.172.178.194
