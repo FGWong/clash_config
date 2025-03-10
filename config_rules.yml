@@ -583,9 +583,9 @@ proxy-groups:
       - cfkg
       - cfop
       - SKR
-      - CFWarp
+      - HyunWarp
       - ♻️ XQC
-      - ♻️ BaiPiao
+      - UserC
   - name: cfop
     type: url-test
     use:
@@ -598,12 +598,6 @@ proxy-groups:
       - skr
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
-  - name: ♻️ XQC
-    type: url-test
-    use:
-      - xqc
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 12000
   - name: cflare
     type: url-test
     use:
@@ -616,12 +610,19 @@ proxy-groups:
       - cldkg
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
-  - name: ♻️ BaiPiao
+  - name: ♻️ XQC
     type: url-test
     use:
-      - baipiao
+      - xqc
     url: 'http://www.gstatic.com/generate_204'
     interval: 12000
+  - name: UserC
+    type: select
+    use:
+      - ucust
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 12000
+
   - name: ♻️ 自动选择
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
@@ -638,13 +639,6 @@ proxy-groups:
       - 🐟 漏网之鱼
       - 🎏 失败切换
       - ⚡ 负载均衡
-  - name: 📲 电报信息
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - ♻️ 自动选择
-      - 🚀 节点选择
-      - ⚡ 负载均衡
   - name: 🔰 manual
     type: select
     use:
@@ -653,10 +647,11 @@ proxy-groups:
       - cldkg
       - cldop
       - skr
-  - name: CFWarp
+      - hyun-warp
+  - name: HyunWarp
     type: url-test
     use:
-      - cf-warp
+      - hyun-warp
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
   - name: ⚡ 负载均衡
@@ -684,9 +679,23 @@ proxy-groups:
   - name: 🎏 失败切换
     type: fallback
     use:
+      - cldop
+      - cldflare
+      - cldkg
+      - skr
+      - hyun-warp
       - common
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 节点选择
+      - ⚡ 负载均衡
+      - SKR
+      - HyunWarp
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -748,12 +757,12 @@ proxy-providers:
       enable: true
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
-  cf-warp:
+  hyun-warp:
     type: http
     #type: file
-    url: "https://jiahe.eu.org:15443/clash_verge/warp-proxies.yaml"
-    interval: 46411
-    path: local_data/warp-proxies.yaml
+    url: "https://jiahe.eu.org:15443/clash_verge/hyun-proxies.yaml"
+    interval: 12411
+    path: local_data/hyun-proxies.yaml
     health-check:
       enable: true
       interval: 12000
@@ -808,15 +817,15 @@ proxy-providers:
       enable: true
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
-  baipiao:
-    url: "https://jiahe.eu.org:15443/clash_verge/bp-xyz-proxies.yaml"
+  ucust:
+    url: "https://jiahe.eu.org:15443/clash_verge/user_custom.yaml"
     type: http
     #type: file
-    interval: 10806
-    path: local_data/bp-xyz-proxies.yaml
+    interval: 933622
+    path: local_data/user_custom.yaml
     health-check:
       enable: true
-      interval: 12000
+      interval: 960
       url: 'http://www.gstatic.com/generate_204'
 
 rule-providers:

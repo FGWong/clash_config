@@ -579,7 +579,6 @@ proxy-groups:
       - ⚡ 负载均衡
       - 🔰 manual
       - cflare
-      - CFWarp
   - name: cflare
     type: url-test
     use:
@@ -614,12 +613,6 @@ proxy-groups:
     use:
       - common
       - cldflare
-  - name: CFWarp
-    type: url-test
-    use:
-      - cf-warp
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 1200
   - name: ⚡ 负载均衡
     type: load-balance
     use:
@@ -705,16 +698,6 @@ proxy-providers:
     #type: file
     interval: 3600
     path: local_data/common-proxies.yaml
-    health-check:
-      enable: true
-      interval: 12000
-      url: 'http://www.gstatic.com/generate_204'
-  cf-warp:
-    type: http
-    #type: file
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/warp-proxies.yaml"
-    interval: 46411
-    path: local_data/warp-proxies.yaml
     health-check:
       enable: true
       interval: 12000
