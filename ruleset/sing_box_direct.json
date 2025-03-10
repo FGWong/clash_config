@@ -1,0 +1,144 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "jiahe.eu.org",
+        "clayton.us.org",
+        "fugang.us.org"
+      ],
+      "domain_suffix": [
+        "jiahe.eu.org",
+        ".cn",
+        "local",
+        "10698v939q.goho.co",
+        "clayton.eu.or",
+        "jiahe.eu.or",
+        "unionpay.eu.or",
+        "clayton.eu.org",
+        "jiahe.eu.org",
+        "unionpay.eu.org",
+        "clayton.eu.or",
+        "clayton.eu.org",
+        "jiahe.eu.or",
+        "jiahe.eu.org",
+        "unionpay.eu.or",
+        "mycloudnas.com",
+        "myqnapcloud.cn",
+        "myqnapcloud.com",
+        "crabpt.vip",
+        "hdcmct.org",
+        "m-team.cc",
+        "m-team.io",
+        "qlink.to",
+        "springsunday.net",
+        "111.com",
+        "52dic.vip",
+        "audiences.me",
+        "btschool.club",
+        "cathode-ray.tube",
+        "chdbits.co",
+        "chdbits.xyz",
+        "chaoxing.com",
+        "cinefiles.info",
+        "cursor.sh",
+        "crabpt.vip",
+        "dicmusic.club",
+        "dicmusic.com",
+        "dragonhd.xyz",
+        "deeplx.net",
+        "deeplx.org",
+        "gitlab.com",
+        "greatposterwall.com",
+        "hd-torrents.org",
+        "haidan.video",
+        "hdatmos.club",
+        "hdcmct.org",
+        "hddolby.com",
+        "hdfans.org",
+        "hdhome.org",
+        "hdpost.top",
+        "hdtime.org",
+        "hdts-announce.ru",
+        "hhan.club",
+        "hhanclub.top",
+        "hitpt.com",
+        "htpt.cc",
+        "iyuu.cn",
+        "jptv.club",
+        "leaves.red",
+        "linux.do",
+        "missuo.ru",
+        "m-team.cc",
+        "m-team.io",
+        "nicept.net",
+        "npupt.com",
+        "okpt.net",
+        "orcinusorca.org",
+        "ourbits.club",
+        "ourhelp.club",
+        "piggo.me",
+        "ptcafe.club",
+        "ptchdbits.co",
+        "pterclub.com",
+        "pthome.net",
+        "pttime.org",
+        "qhstudio.fun",
+        "sharkpt.net",
+        "soulvoice.club",
+        "springsunday.net",
+        "star-space.net",
+        "totheglory.im",
+        "wsrv.nl",
+        "xidian.edu.cn",
+        "xingtan.one",
+        "zmpt.cc"
+      ],
+      "domain_keyword": [
+        "aria2",
+        "xunlei",
+        "yunpan",
+        "XLLiveUD"
+      ],
+      "domain_regex": [
+        "^clayton.e\\..+"
+      ],
+      "source_ip_cidr": [
+        "10.0.0.0/24",
+        "192.168.0.1",
+        "192.168.1.1/32'
+      ],
+      "ip_cidr": [
+        "10.0.0.0/24",
+        "127.0.0.0/8,
+        "192.168.0.1"
+      ],
+      "source_port": [
+        21333,
+        51413
+      ],
+      "source_port_range": [
+        "37085:37089"
+      ],
+      "port": [
+        31022
+      ],
+      "port_range": [
+        "31023:31025"
+      ],
+      "process_name": [
+        "Weiyun"
+      ],
+      "process_path": [
+        "/usr/bin/transmission",
+        "/usr/bin/qbittorrent"
+      ],
+      "process_path_regex": [
+        "^/transmission/.+"
+      ],
+      "package_name": [
+        "com.termux"
+      ]
+    }
+  ]
+}

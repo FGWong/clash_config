@@ -1,0 +1,76 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "www.google.com"
+      ],
+      "domain_suffix": [
+        "youneed.win",
+        "onedrive.live.com",
+        "sub.unionpay.eu.org",
+        "subpage.unionpay.eu.org",
+        "accounts.google.com",
+        "adguard.com",
+        "adguard.info",
+        "adguard.io",
+        "agrd.io",
+        "bulianglin.com",
+        "cloudflare.com",
+        "cathode-ray.tube",
+        "cf2.poecdn.net",
+        "chdbits.xyz",
+        "frepai.com",
+        "follow.is",
+        "gcore.com",
+        "go-to-zlibrary.se",
+        "gonglue.us",
+        "googleapis.cn",
+        "grok.com",
+        "hd-torrents.me",
+        "hd-torrents.org",
+        "hicairo.com",
+        "larksuite.com",
+        "lorefree.com",
+        "imgbox.com",
+        "imgur.com",
+        "kaifangcidian.com",
+        "onedrive.com",
+        "onedrive.live.com",
+        "pa.googleapis.com",
+        "pp.ua",
+        "poe.com",
+        "qianghub.com",
+        "qiangwaikan.com",
+        "qnapclub.eu",
+        "quora.com",
+        "rarbg.to",
+        "reverso.net",
+        "sci-hub.ru",
+        "singlelogin.se",
+        "smallstep.one",
+        "star-space.net",
+        "star-space.top",
+        "svlik.com",
+        "tokenfree.ai",
+        "toplinks.cc",
+        "unlock-music.dev",
+        "v2rayse.com",
+        "vwert.com",
+        "wallvpn.com",
+        "x.ai",
+        "yts.mx",
+        "yibook.org",
+        "zooqle.com",
+        "z-library.do"
+      ],
+      "domain_keyword": [
+        "limetorrents",
+        "sci-hub"
+      ],
+      "process_name": [
+        "Thunderbird"
+      ]
+    }
+  ]
+}
