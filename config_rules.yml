@@ -644,9 +644,6 @@ proxy-groups:
     type: select
     use:
       - common
-      - cldflare
-      - cldkg
-      - cldop
       - skr
       - hyun-warp
   - name: HyunWarp
