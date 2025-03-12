@@ -107,12 +107,6 @@ hosts:
   #search.com: google.com
   #clash.lan: clash
 
-  #clayton.eu.or: 10.144.84.198
-  #jiahe.eu.or: 10.144.100.6
-  #'qnap': 10.144.84.198
-  #'raspi': 10.144.100.6
-  #'hp': 10.144.176.30
-
 # Clash for Windows
 cfw-bypass:
   # 直连列表
@@ -579,36 +573,14 @@ proxy-groups:
       - ♻️ 自动选择
       - ⚡ 负载均衡
       - 🔰 manual
-      - cflare
-      - cfkg
-      - cfop
       - SKR
       - HyunWarp
       - ♻️ XQC
-      - UserC
-  - name: cfop
-    type: url-test
-    use:
-      - cldop
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 1200
-    icon: https://g.csdnimg.cn/static/logo/favicon32.ico
+      - ♻️ BaiPiao
   - name: SKR
     type: url-test
     use:
       - skr
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 1200
-  - name: cflare
-    type: url-test
-    use:
-      - cldflare
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 1200
-  - name: cfkg
-    type: url-test
-    use:
-      - cldkg
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
   - name: ♻️ XQC
@@ -617,19 +589,20 @@ proxy-groups:
       - xqc
     url: 'http://www.gstatic.com/generate_204'
     interval: 12000
-  - name: UserC
-    type: select
+  - name: ♻️ BaiPiao
+    type: url-test
     use:
-      - ucust
+      - baipiao
     url: 'http://www.gstatic.com/generate_204'
     interval: 12000
-
   - name: ♻️ 自动选择
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
     use:
       - common
+      - skr
+      - hyun-warp
   - name: 全局选择
     type: select
     proxies:
@@ -644,9 +617,6 @@ proxy-groups:
     type: select
     use:
       - common
-      - cldflare
-      - cldkg
-      - cldop
       - skr
       - hyun-warp
   - name: HyunWarp
@@ -680,23 +650,9 @@ proxy-groups:
   - name: 🎏 失败切换
     type: fallback
     use:
-      - cldop
-      - cldflare
-      - cldkg
-      - skr
-      - hyun-warp
       - common
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
-  - name: 📲 电报信息
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - ♻️ 自动选择
-      - 🚀 节点选择
-      - ⚡ 负载均衡
-      - SKR
-      - HyunWarp
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -712,6 +668,15 @@ proxy-groups:
       - 🚀 节点选择
     use:
       - common
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 节点选择
+      - ⚡ 负载均衡
+      - SKR
+      - HyunWarp
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -768,36 +733,6 @@ proxy-providers:
       enable: true
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
-  cldflare:
-    url: "https://jiahe.eu.org:15443/clash_verge/cloudflare-proxies.yaml"
-    type: http
-    #type: file
-    interval: 10807
-    path: local_data/cloudflare-proxies.yaml
-    health-check:
-      enable: true
-      interval: 12000
-      url: 'http://www.gstatic.com/generate_204'
-  cldkg:
-    url: "https://jiahe.eu.org:15443/clash_verge/cfkg-proxies.yaml"
-    type: http
-    #type: file
-    interval: 10807
-    path: local_data/cfkg-proxies.yaml
-    health-check:
-      enable: true
-      interval: 12000
-      url: 'http://www.gstatic.com/generate_204'
-  cldop:
-    url: "https://jiahe.eu.org:15443/clash_verge/cf_op_proxies.yaml"
-    type: http
-    #type: file
-    interval: 3612
-    path: local_data/cf_op_proxies.yaml
-    health-check:
-      enable: true
-      interval: 960
-      url: 'http://www.gstatic.com/generate_204'
   skr:
     url: "https://jiahe.eu.org:15443/clash_verge/skrapp.yaml"
     type: http
@@ -818,15 +753,15 @@ proxy-providers:
       enable: true
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
-  ucust:
-    url: "https://jiahe.eu.org:15443/clash_verge/user_custom.yaml"
+  baipiao:
+    url: "https://jiahe.eu.org:15443/clash_verge/bp-xyz-proxies.yaml"
     type: http
     #type: file
-    interval: 933622
-    path: local_data/user_custom.yaml
+    interval: 10806
+    path: local_data/bp-xyz-proxies.yaml
     health-check:
       enable: true
-      interval: 960
+      interval: 12000
       url: 'http://www.gstatic.com/generate_204'
 
 rule-providers:
@@ -1039,7 +974,6 @@ rules:
   - RULE-SET,cncidr,🎯 全球直连
   - GEOIP,LAN,🎯 全球直连
   - GEOIP,CN,🎯 全球直连,no-resolve
-  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
 
   #- DOMAIN-KEYWORD,limetorrents.,🚀 节点选择
   #- DOMAIN-SUFFIX,,🚀 节点选择

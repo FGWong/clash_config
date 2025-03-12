@@ -1,9 +1,17 @@
 payload:
   - PROCESS-NAME,Weiyun
+  - DOMAIN,clayton.eu.org
   - DOMAIN,jiahe.eu.org
+  - DOMAIN,unionpay.eu.org
   - DOMAIN,clayton.us.org
   - DOMAIN,fugang.us.org
+  - DOMAIN,clayton.v6.navy
   - DOMAIN-SUFFIX,jiahe.eu.org
+  - DOMAIN-SUFFIX,clayton.eu.org
+  - DOMAIN-SUFFIX,unionpay.eu.org
+  - DOMAIN-SUFFIX,fugang.us.kg
+  - DOMAIN-SUFFIX,clayton.us.kg
+  - DOMAIN-SUFFIX,clayton.v6.navy
   - DOMAIN-KEYWORD,aria2
   - DOMAIN-KEYWORD,xunlei
   - DOMAIN-KEYWORD,yunpan
@@ -22,3 +30,9 @@ payload:
   #transmission
   - DST-PORT,51413
   - SRC-PORT,51413
+  #腾讯 深圳的ASN 编号
+  - IP-ASN,132203
+  #阿里杭州 ASN
+  - IP-ASN,37963
+  - IP-ASN,45102
+  - IP-ASN,45103
