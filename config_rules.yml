@@ -975,6 +975,14 @@ rule-providers:
     path: ./ruleset/OneDrive.yaml
     interval: 86400
 
+  cloudflare_geoip:
+    type: http
+    behavior: geoip
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/cloudflare.yaml"
+    # https://github.com/Loyalsoldier/geoip/blob/release/clash/ipcidr/cloudflare.txt
+    path: ./ruleset/cloudflare_geoip.yaml
+    interval: 86400
+
   artificial_direct:
     type: http
     behavior: domain
@@ -1009,6 +1017,10 @@ rule-providers:
 rules:
   - RULE-SET,classical_direct,🎯 全球直连
   - RULE-SET,artificial_direct,🎯 全球直连
+  - RULE-SET,cloudflare_geoip,🎯 全球直连
+  - DOMAIN-SUFFIX,cloudflare.com,🎯 全球直连
+  - IP-ASN,13335,🎯 全球直连
+  - IP-ASN,14154,🎯 全球直连
   - RULE-SET,classical_proxy,🚀 节点选择
   - RULE-SET,artificial_proxy,🚀 节点选择
 

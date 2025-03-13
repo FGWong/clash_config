@@ -19,3 +19,9 @@ config_raspi.black_rule.yml , 更节省vpn流量的配置
   gfw.yaml 为proxy.yaml 的子集
 
 
+
+获取cloudflare的ip范围, 在ruleset/classic_direct.yaml 中设置直连
+cf_op 等代理 使用了cf边缘节点，两个边缘节点被cf设置禁止直接连接，所以会有连不上的情况
+wget "https://www.cloudflare.com/ips-v4"
+wget "https://www.cloudflare.com/ips-v6"
+

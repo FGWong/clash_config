@@ -1,31 +1,20 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 华盛顿Cogent通信公司
-  network: ws
-  port: 38003
-  server: 38.14.107.233
-  skip-cert-verify: true
+- cipher: chacha20-ietf-poly1305
+  name: Flik6|[SS] 🇺🇸 美国 华盛顿Cogent通信公司
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 38.165.233.18
   tfo: false
-  tls: true
-  type: vmess
+  type: ss
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.23179753.xyz
-    path: /path/340434130032
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇳 广东省广州市 移动
-  port: 53902
-  server: 183.236.51.38
-  skip-cert-verify: true
+- cipher: aes-256-gcm
+  name: Flik6|[SS] 广东省东莞市 电信IDC业务段 6
+  password: S0FY3FQL4FCQGR4S
+  port: 15015
+  server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
-  tls: false
-  type: vmess
+  type: ss
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   name: NoMoreWalls|2|🇸🇬1 |  4.6MB/s
   password: amazonskr05
@@ -72,6 +61,22 @@ proxies:
   server: 185.158.155.33
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: openRunner|🇭🇰 香港3
+  password: bba1cfff-9e0b-4cb6-9df4-c741c75e59a8
+  port: 13007
+  server: naiu-hk.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: dayfree|🇺🇸_US_美国_2
+  password: amazonskr05
+  port: 443
+  server: 34.222.44.5
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   ip-version: dual
   name: forever|🇺🇸_US_美国->🇷🇺_RU_俄罗斯
@@ -238,6 +243,185 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_23
+  password: CKFDLC4I9UCCJTYI
+  port: '18003'
+  server: 156.231.104.13
+  type: ss
+- cipher: aes-256-cfb
+  name: airport|🇰🇷 韩国_1
+  password: amazonskr05
+  port: '443'
+  server: 3.36.61.71
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: airport|❓ 未知_4
+  password: amazonskr05
+  port: '443'
+  server: 43.207.102.171
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: airport|🇭🇰 香港_5
+  password: LJ6RUH48DXMKPSXM
+  port: '15004'
+  server: w72tapyb.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇭🇰 香港_3
+  password: JHYI1R6ISUYHVNG0
+  port: '15006'
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇭🇰 香港_2
+  password: 30AUZZQAYK6NDL3H
+  port: '15010'
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇹🇼 台湾_7
+  password: FXFYRVMMA5BPC7HJ
+  port: '21004'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇹🇼 台湾_2
+  password: S5B6YEXVIHPI8WIV
+  port: '21002'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇹🇼 台湾_1
+  password: 621R37D39IRGLVW4
+  port: '21006'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇨🇦 加拿大_4
+  password: JYDU7VO9DTSLW8K6
+  port: '20026'
+  server: 185.213.22.93
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇸🇬 新加坡_9
+  password: 3RZL1XC8TTXQ7R1Y
+  port: '16011'
+  server: w72tapyb.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇭🇰 香港_7
+  password: 6VSH51YF4JQ9I3RY
+  port: '15003'
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  type: ss
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: airport|❓ 未知_5
+  port: '50002'
+  server: 47.104.186.133
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  name: airport|🇸🇬 新加坡_3
+  password: SEKAN1MMGZ0VVBMC
+  port: '16003'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇸🇬 新加坡_6
+  password: 0GPQ1IUNFF4LE1W7
+  port: '16007'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇸🇬 新加坡_4
+  password: REBVBDELV78PULL3
+  port: '16005'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇸🇬 新加坡_10
+  password: 1IJNH2PS7GJ02VZQ
+  port: '16009'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇸🇬 新加坡_11
+  password: 3MWJMFDU7NDRNLDJ
+  port: '16015'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇸🇬 新加坡_8
+  password: J8YA3OYU4XSCZLHT
+  port: '16013'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇭🇰 香港_1
+  password: EQS06MPDZLYAOYOP
+  port: '15016'
+  server: w72tapyb.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇨🇦 加拿大_5
+  password: 32ZEIW0I3CEHKVZC
+  port: '20037'
+  server: 92.118.205.219
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇸🇬 新加坡_2
+  password: NR1W67VPU6097RWQ
+  port: '16014'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇨🇦 加拿大_1
+  password: KVVIP6VBGNFOTTUL
+  port: '20018'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_39
+  password: QUZ6VETQ482PR3TG
+  port: '20025'
+  server: 185.186.77.137
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_67
+  password: 3C5GUXLHRA6UQG0O
+  port: '20036'
+  server: 185.237.185.77
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇸🇬 新加坡_5
+  password: GIKC7JC9PDWX60ZH
+  port: '16008'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇨🇦 加拿大_6
+  password: FG5R577UYVADTCRB
+  port: '20034'
+  server: 185.90.61.157
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_45
+  password: GCYPRF4C9NEXOAE2
+  port: '20030'
+  server: 45.154.207.246
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇯🇵 日本_7
+  password: LKE9BX5AYDGJXJVC
+  port: '18015'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
@@ -247,134 +431,486 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_86
+  password: AH5KHDH4VESLKJN4
+  port: '20028'
+  server: 185.186.79.135
+  type: ss
+- alpn:
+  - http/1.1
+  name: airport|❓ 未知_66
+  password: telegram-id-directvpn
+  port: '22222'
+  server: 51.44.195.34
+  sni: trojan.burgerip.co.uk
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: airport|🇯🇵 日本_13
-  password: hGkQ6915tD
-  port: '15084'
-  server: 120.232.81.50
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|❓ 未知_23
+  name: airport|🇺🇸 美国_11
   password: amazonskr05
   port: '443'
-  server: 43.203.193.109
+  server: 18.237.73.216
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇸🇬 新加坡_1
+  password: 156EQ7IYSJGWFNSH
+  port: '16016'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_51
+  password: JS9OP2B27X8YMMGN
+  port: '20000'
+  server: 109.104.154.131
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_36
+  password: 880BCJC1ALFD0W8L
+  port: '19001'
+  server: 206.245.211.11
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_31
+  password: 57R14JBP3KGFJ7OL
+  port: '19013'
+  server: 206.245.211.23
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇬🇧 英国_1
+  password: TPH5YUM5VFU9NBH3
+  port: '19007'
+  server: 206.245.211.17
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇬🇧 英国_5
+  password: L49W02SNOC9UNK5S
+  port: '19006'
+  server: 206.245.211.16
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_32
+  password: XFLTRHOJDMFRFN0A
+  port: '19009'
+  server: 206.245.211.19
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_54
+  password: VBIZETLI8VYN3XT4
+  port: '19016'
+  server: 206.245.211.26
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_35
+  password: HHB811IBV8T7CU4W
+  port: '19003'
+  server: 206.245.211.13
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇬🇧 英国_3
+  password: TMGWLIFIXN1635RN
+  port: '19004'
+  server: 206.245.211.14
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_52
+  password: FN12ZM67MRIBP1GT
+  port: '19014'
+  server: 206.245.211.24
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇬🇧 英国_2
+  password: XBU9TPC2BHQI81W1
+  port: '19002'
+  server: 206.245.211.12
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_33
+  password: A5DU7FBH0L7BYKZF
+  port: '19011'
+  server: 206.245.211.21
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_34
+  password: V8HW0RZA918RU0U4
+  port: '19005'
+  server: 206.245.211.15
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_41
+  password: 8ELWFGKT8267YV93
+  port: '19008'
+  server: 206.245.211.18
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇬🇧 英国_7
+  password: 13648R14CVAU85X2
+  port: '19012'
+  server: 206.245.211.22
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇬🇧 英国_4
+  password: ODVEGHM8U5XXY6NF
+  port: '19010'
+  server: 206.245.211.20
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇮🇳 印度
+  password: S7L4V3XBCMS3J7JA
+  port: '20019'
+  server: w72tapyb.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇬🇧 英国_6
+  password: 3OT782ISBNG7ESRO
+  port: '19015'
+  server: 206.245.211.25
+  type: ss
+- cipher: aes-256-cfb
+  name: airport|🇰🇷 韩国_2
+  password: amazonskr05
+  port: '443'
+  server: 43.203.229.162
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_49
+  password: 9099BEAQU5P04WPA
+  port: '20029'
+  server: 185.213.20.36
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: airport|❓ 未知_68
+  password: d0fa3a9b-2115-4cc0-a8f5-7f4f7caf6ec1
+  port: '8080'
+  server: 5.252.25.61
+  type: ss
+- cipher: aes-256-cfb
+  name: airport|🇨🇭 瑞士
+  password: f8f7aCzcPKbsF8p3
+  port: '989'
+  server: 84.17.53.160
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇨🇦 加拿大_10
+  password: N9M3BIWK7CZWQQEL
+  port: '20021'
+  server: 103.75.119.144
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇺🇸 美国_5
+  password: 1X3DHB9JPXZVZSKM
+  port: '17004'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_70
+  password: QN7BDM8O9ZY7WML5
+  port: '20035'
+  server: 185.186.78.220
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_62
+  password: QFT9E00SC8UV938E
+  port: '20032'
+  server: 147.78.3.137
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇯🇵 日本_5
+  password: 6Z15O92K5OSTCQUD
+  port: '18008'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇺🇸 美国_12
+  password: 3D5E3GR6BW1N99NI
+  port: '17006'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇦🇪 阿联酋_1
+  password: S4VR3FPL8166HMVZ
+  port: '20017'
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇺🇸 美国_13
+  password: KUEK4BAJT1HBVTGH
+  port: '17007'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-cfb
+  name: airport|❓ 未知_69
+  password: amazonskr05
+  port: '443'
+  server: 54.184.74.88
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: airport|🇺🇸 美国_6
+  password: NSC1D751089CYH0A
+  port: '17001'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇺🇸 美国_8
+  password: JZUPV5PW5XQZV5VT
+  port: '17005'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇺🇸 美国_7
+  password: GB3C4KTSHWRL2ON8
+  port: '17003'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇮🇱 以色列
+  password: ZJRR8VPPET6NZA18
+  port: '20020'
+  server: 147.78.2.35
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇨🇦 加拿大_9
+  password: BMNM5ELVIV6BTMIW
+  port: '20038'
+  server: 45.154.206.189
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇹🇷 土耳其
+  password: H52O1A5BSFP12A92
+  port: '20024'
+  server: 185.123.100.140
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_82
+  password: DK6IS01XVWIKZWUK
+  port: '20027'
+  server: 185.126.237.58
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇨🇦 加拿大_12
+  password: B8OGC7KBNZL5XUJU
+  port: '20014'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇯🇵 日本_4
+  password: TU4488XKIXP0XLH2
+  port: '18011'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇨🇦 加拿大_8
+  password: O0AE9IJLVHKXGHU9
+  port: '20012'
+  server: 37.143.128.125
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_87
+  password: F3TYRYJT7YPF4K2V
+  port: '20005'
+  server: 91.148.134.106
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇨🇦 加拿大_11
+  password: TP1HR3M40GY52DQC
+  port: '20007'
+  server: 185.47.254.177
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇬🇷 希腊
+  password: NVVAKKYCL0VATII8
+  port: '20004'
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_89
+  password: XQBXM4E4TKGTNQVA
+  port: '20009'
+  server: 185.47.252.16
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇸🇬 新加坡_7
+  password: NTW5EWF7WURCP8IV
+  port: '16004'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇯🇵 日本_6
+  password: H4QQV2BI0QMPRKXI
+  port: '18001'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_84
+  password: MMK6JFSFK4LRZGVT
+  port: '20010'
+  server: 185.47.253.144
   type: ss
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
-  name: airport|🇬🇧 英国_5
-  port: '41699'
-  server: 183.236.51.38
+  name: airport|🇫🇷 法国_1
+  port: '44550'
+  server: 120.232.153.40
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
+- cipher: aes-256-gcm
+  name: airport|🇨🇦 加拿大_13
+  password: SR4YUPWZXC31J5H8
+  port: '20006'
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇨🇦 加拿大_7
+  password: O68FC67K7ESQ43BM
+  port: '20016'
+  server: 185.255.123.183
+  type: ss
+- cipher: rc4-md5
+  name: airport|🇯🇵 日本_10
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: '40202'
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 1.link-hub.blog
+  type: ssr
+- cipher: rc4-md5
+  name: airport|🇭🇰 香港_8
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: '40239'
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 3.link-hub.click
+  type: ssr
+- cipher: rc4-md5
+  name: airport|🇯🇵 日本_12
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: '40200'
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 1.link-hub.blog
+  type: ssr
+- cipher: rc4-md5
+  name: airport|🇭🇰 香港_13
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: '40209'
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 1.link-hub.blog
+  type: ssr
+- cipher: rc4-md5
+  name: airport|🇺🇸 美国_17
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: '40204'
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 1.link-hub.blog
+  type: ssr
+- cipher: rc4-md5
+  name: airport|🇺🇸 美国_15
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: '40217'
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 1.link-hub.blog
+  type: ssr
+- cipher: rc4-md5
+  name: airport|🇭🇰 香港_11
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: '40207'
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 1.link-hub.blog
+  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: airport|❓ 未知_96
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: '8080'
+  server: 45.87.175.166
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇺🇸 美国_2
+  password: Y6R9pAtvxxzmGC
+  port: '8888'
+  server: 69.50.95.86
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|❓ 未知_26
+  password: 507VYSF0B2T7FZ8M
+  port: '18010'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: aes-256-gcm
+  name: airport|🇯🇵 日本_9
+  password: XREK3VWARJ9IJKFO
+  port: '18016'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+- cipher: rc4-md5
+  name: airport|🇺🇸 美国_18
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: '40211'
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
+  type: ssr
+- alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: airport|❓ 未知_8
-  port: '50002'
-  server: 47.104.186.133
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇺🇸 美国_13
+  name: mfuu|🇨🇳CN-120.232.153.41-249
   network: tcp
-  port: '32077'
+  port: 32077
   server: 120.232.153.41
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: airport|🇺🇸 美国_10
-  password: amazonskr05
-  port: '443'
-  server: 54.201.149.176
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇺🇸 美国_16
-  password: amazonskr05
-  port: '443'
-  server: 54.202.63.169
-  type: ss
-- cipher: chacha20-ietf
-  name: airport|❓ 未知_1
-  password: asd123456
-  port: '8388'
-  server: 103.36.90.195
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: mfuu|🇨🇳CN-120.198.71.214-232
-  network: tcp
-  port: 35565
-  server: 120.198.71.214
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 120.198.71.214
+    Host: 120.232.153.41
   ws-path: /
-- cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇰🇷_💼_github.com/Ruk1ng001_6238393039653030
-  password: amazonskr05
-  port: 443
-  server: 43.203.229.162
-  type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇯🇵_💼_github.com/Ruk1ng001_3836303134643736
-  password: amazonskr05
-  port: 443
-  server: 3.112.205.40
-  type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇯🇵_💼_github.com/Ruk1ng001_6534383237626637
-  password: amazonskr05
-  port: 443
-  server: 54.249.5.208
-  type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|❓_🇯🇵_💼_github.com/Ruk1ng001_3536333764636266
-  password: amazonskr05
-  port: 443
-  server: 57.180.60.4
-  type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇯🇵_💼_github.com/Ruk1ng001_3832363461356164
-  password: amazonskr05
-  port: 443
-  server: 43.206.222.219
-  type: ss
 - cipher: aes-256-cfb
   name: ruk1ng|🟡_🇸🇬_💼_github.com/Ruk1ng001_6534633832666363
   password: amazonskr05
   port: 443
   server: 54.169.255.43
   type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|❓_🇯🇵_💼_github.com/Ruk1ng001_3864656238383330
-  password: amazonskr05
-  port: 443
-  server: 57.180.25.228
+- cipher: aes-256-gcm
+  name: ruk1ng|github.com/Ruk1ng001_3136383764323661
+  password: RWNHLGW5WHBKM9AG
+  port: 15007
+  server: 8tv68qhq.slashdevslashnetslashtun.net
   type: ss
 - cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3764396463383734
+  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3166613565306365
   password: amazonskr05
   port: 443
-  server: 18.237.73.216
+  server: 54.218.61.43
   type: ss
 - cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇯🇵_💼_github.com/Ruk1ng001_61326530353564
+  name: ruk1ng|🟡_🇯🇵_💼_github.com/Ruk1ng001_3435323338353463
   password: amazonskr05
   port: 443
-  server: 54.249.187.223
+  server: 18.183.116.21
   type: ss
 - cipher: aes-256-cfb
   name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_3430363135666236
@@ -383,13 +919,12 @@ proxies:
   server: 34.211.230.161
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_6333393732313434
-  password: amazonskr05
-  port: 443
-  server: 34.222.44.5
+- cipher: aes-256-gcm
+  name: ruk1ng|github.com/Ruk1ng001_6530623338333834
+  password: TCEL1H0XD7TWAKI0
+  port: 15011
+  server: 183.61.177.235
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: ruk1ng|🔴_🇮🇱_💼_github.com/Ruk1ng001_3164616565303961
   password: w2HdZnGb5ibh
@@ -398,43 +933,39 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: ruk1ng|github.com/Ruk1ng001_3539616336633136
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9207a3fc-18cc-4af7-ab1c-1c0000e57e37
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_64643834343737
-  port: 44550
-  server: 120.232.153.40
+  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_34343837626464
+  port: 41699
+  server: 183.236.51.38
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: ruk1ng|github.com/Ruk1ng001_3639376363306231
+  h2-opts: {}
+  http-opts: {}
+  name: ruk1ng|github.com/Ruk1ng001_6335306439316332
   network: ws
-  port: 22643
+  port: 22642
   server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  skip-cert-verify: false
-  tfo: false
+  skip-cert-verify: true
   tls: true
   type: vmess
+  udp: true
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: zxjp-c.tkong.cc
+      Host: zxjp-b.tkong.cc
     path: /
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_6562626466303730
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40238
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 3.link-hub.click
+  type: ssr
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: ruk1ng|github.com/Ruk1ng001_6462396235386463
@@ -446,15 +977,32 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 2.hublink.pro
   type: ssr
-- name: ruk1ng|🟡_🇺🇸_💻_github.com/Ruk1ng001_3235616266376432
-  network: ws
-  password: Pooria
-  port: 443
-  server: 104.17.148.22
+- cipher: rc4-md5
+  name: ruk1ng|github.com/Ruk1ng001_3166386531643933
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40218
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
+  type: ssr
+- name: mahdiblanda|IE-54.171.242.255-6097 | 25.667MB
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 54.171.242.255
   skip-cert-verify: false
-  sni: 301.pOORiAm.ir
+  sni: trojan.burgerip.co.uk
   type: trojan
-  ws-opts:
-    headers:
-      Host: 301.pOORiAm.ir
-    path: /trPyOrWMfkHd15oxiIed=1520
+- cipher: aes-256-cfb
+  name: mahdiblanda|🇯🇵JP-18.181.194.77-2454 | 24.739MB
+  password: amazonskr05
+  port: 443
+  server: 18.181.194.77
+  type: ss
+- cipher: aes-256-cfb
+  name: mahdiblanda|🇫🇷FR-51.15.27.48-0418 | 18.785MB
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.27.48
+  type: ss
