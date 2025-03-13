@@ -2,7 +2,7 @@ port: 7890
 socks-port: 7891
 mixed-port: 7892
 allow-lan: true
-mode: Rule
+mode: rule
 log-level: info
 external-controller: :9090
 dns:
@@ -74,11 +74,14 @@ dns:
     - speedtest.cros.wr.pvp.net
   use-hosts: true
 
+  nameserver-policy:
+    "geosite:gfw": "fallback"
+      #- domain:geosite:gfw
+      #匹配属于 gfw GeoSite 列表的域名
+      #address: 1.1.1.1
   fallback-filter:
     geoip: true
     geoip-code: CN
-    geosite:
-      - gfw
     ipcidr:
       - 240.0.0.0/4
     domain:
@@ -975,12 +978,15 @@ rule-providers:
     path: ./ruleset/OneDrive.yaml
     interval: 86400
 
-  cloudflare_geoip:
+  cloudflare_ipcidr:
     type: http
-    behavior: geoip
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/cloudflare.yaml"
-    # https://github.com/Loyalsoldier/geoip/blob/release/clash/ipcidr/cloudflare.txt
-    path: ./ruleset/cloudflare_geoip.yaml
+    behavior: classical
+    format: 'text' # or 'yaml'
+    url: "https://raw.githubusercontent.com/Loyalsoldier/geoip/refs/heads/release/clash/classical/cloudflare.txt"
+      #behavior: ipcidr
+      #url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/cloudflare.yaml"
+      # https://github.com/Loyalsoldier/geoip/blob/release/clash/ipcidr/cloudflare.txt
+    path: ./ruleset/cloudflare_ipcidr.yaml
     interval: 86400
 
   artificial_direct:
@@ -1017,7 +1023,7 @@ rule-providers:
 rules:
   - RULE-SET,classical_direct,🎯 全球直连
   - RULE-SET,artificial_direct,🎯 全球直连
-  - RULE-SET,cloudflare_geoip,🎯 全球直连
+  - RULE-SET,cloudflare_ipcidr,🎯 全球直连
   - DOMAIN-SUFFIX,cloudflare.com,🎯 全球直连
   - IP-ASN,13335,🎯 全球直连
   - IP-ASN,14154,🎯 全球直连
