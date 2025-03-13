@@ -16,65 +16,30 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: NoMoreWalls|2|🇸🇬1 |  4.6MB/s
+  name: NoMoreWalls|12|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.254.138.40
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|2|🇯🇵1 |  5.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.115.162.137
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|2|🇯🇵2 |  3.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.207.153.78
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|12|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.141.140.120
+  server: 35.77.94.139
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: NoMoreWalls|12|🇸🇬 新加坡4|@ripaojiedian
-  password: eath1eicieSh_!MMyb~4HT,}bC@ohpheiRaighier0shohd
-  port: 8388
-  server: 5.223.55.99
-  tfo: false
+- cipher: aes-256-gcm
+  name: NoMoreWalls|2|🇺🇸5 |  2.7MB/s
+  password: ZZ742AZT1DKLRDIF
+  port: 19005
+  server: 206.245.211.15
   type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|12|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.78.120.105
-  tfo: false
+- cipher: aes-256-gcm
+  name: NoMoreWalls|2|🌀3- |  14.4MB/s
+  password: A2IA8TWD9XT9TJUG
+  port: 16008
+  server: ti3hyra4.slashdevslashnetslashtun.net
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: NoMoreWalls|12|🇷🇺 俄罗斯|@ripaojiedian
-  password: eath1eicieSh_!MMyb~4HT,}bC@ohpheiRaighier0shohd
-  port: 8388
-  server: 185.158.155.33
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: openRunner|🇭🇰 香港3
-  password: bba1cfff-9e0b-4cb6-9df4-c741c75e59a8
-  port: 13007
-  server: naiu-hk.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
 - cipher: aes-256-cfb
   ip-version: dual
-  name: dayfree|🇺🇸_US_美国_2
-  password: amazonskr05
-  port: 443
-  server: 34.222.44.5
+  name: dayfree|🇨🇭_CH_瑞士
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 84.17.53.160
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -232,6 +197,15 @@ proxies:
   tls: false
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: forever|SG, Singapore
+  password: amazonskr05
+  port: 443
+  server: 52.78.120.105
+  tls: false
+  type: ss
+  udp: true
 - name: forever|Vless_Websocket
   network: ws
   port: 8080
@@ -374,6 +348,12 @@ proxies:
   port: '20037'
   server: 92.118.205.219
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: airport|❓ 未知_56
+  password: eath1eicieSh_!MMyb~4HT,}bC@ohpheiRaighier0shohd
+  port: '8388'
+  server: 5.223.55.99
+  type: ss
 - cipher: aes-256-gcm
   name: airport|🇸🇬 新加坡_2
   password: NR1W67VPU6097RWQ
@@ -397,12 +377,6 @@ proxies:
   password: 3C5GUXLHRA6UQG0O
   port: '20036'
   server: 185.237.185.77
-  type: ss
-- cipher: aes-256-gcm
-  name: airport|🇸🇬 新加坡_5
-  password: GIKC7JC9PDWX60ZH
-  port: '16008'
-  server: ti3hyra4.slashdevslashnetslashtun.net
   type: ss
 - cipher: aes-256-gcm
   name: airport|🇨🇦 加拿大_6
@@ -531,12 +505,6 @@ proxies:
   server: 206.245.211.21
   type: ss
 - cipher: aes-256-gcm
-  name: airport|❓ 未知_34
-  password: V8HW0RZA918RU0U4
-  port: '19005'
-  server: 206.245.211.15
-  type: ss
-- cipher: aes-256-gcm
   name: airport|❓ 未知_41
   password: 8ELWFGKT8267YV93
   port: '19008'
@@ -584,12 +552,6 @@ proxies:
   password: d0fa3a9b-2115-4cc0-a8f5-7f4f7caf6ec1
   port: '8080'
   server: 5.252.25.61
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇨🇭 瑞士
-  password: f8f7aCzcPKbsF8p3
-  port: '989'
-  server: 84.17.53.160
   type: ss
 - cipher: aes-256-gcm
   name: airport|🇨🇦 加拿大_10
@@ -877,16 +839,16 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: mfuu|🇨🇳CN-120.232.153.41-249
+  name: mfuu|🇨🇳CN-183.236.51.38-252
   network: tcp
-  port: 32077
-  server: 120.232.153.41
+  port: 53902
+  server: 183.236.51.38
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-headers:
-    Host: 120.232.153.41
+    Host: 183.236.51.38
   ws-path: /
 - cipher: aes-256-cfb
   name: ruk1ng|🟡_🇸🇬_💼_github.com/Ruk1ng001_6534633832666363

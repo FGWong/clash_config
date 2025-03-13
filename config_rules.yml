@@ -7,33 +7,36 @@ log-level: info
 external-controller: :9090
 dns:
   enabled: true
+  prefer-h3: true
+  ipv6: true
+  default-nameserver:
+    - 114.114.114.114
+    - 8.8.8.8
+      #- system
+      #- "udp://223.5.5.5"
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-    - 119.29.29.29
-    - 223.5.5.5
-      #- 119.29.29.29
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - 1.1.1.1
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
-      #- tls://1.1.1.1:853
-      #- tls://1.0.0.1:853
-      #- 101.6.6.6:5353
-  ipv6: true
-  enhanced-mode: fake-ip #redir-host
+    - quic://dns.adguard.com:784
+
+  enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
+  # 可设置为whitelist，即只有匹配成功才返回fake-ip
+  fake-ip-filter-mode: blacklist
   fake-ip-filter:
     - '*.lan'
     - '*.local'
-    - dns.msftncsi.com
-    - www.msftncsi.com
     - www.msftconnecttest.com
+    - '*.msftconnecttest.com'
+    - 'dns.msftncsi.com'
+    - 'www.msftncsi.com'
+    - '*.msftncsi.com'
+    - "connect.rom.miui.com"  # 小米设备检测
+    - "*.msn.com"             # Windows更新检测
     - stun.*.*.*
     - stun.*.*
     - miwifi.com
+    - rule-set:apple #fakeip-filter #且 behavior 必须为 domain/classical，当为 classical 时仅会生效域名类规则
     - music.163.com
     - '*.music.163.com'
     - '*.126.net'
@@ -61,10 +64,9 @@ dns:
     - tplinklogin.net
     - tplinkwifi.net
     - tplinkrepeater.net
+    - '*.tpddns.cn'
     - '*.ntp.org.cn'
     - '*.openwrt.pool.ntp.org'
-    - '*.msftconnecttest.com'
-    - '*.msftncsi.com'
     - localhost.ptlogin2.qq.com
     - '*.*.*.srv.nintendo.net'
     - '*.*.stun.playstation.net'
@@ -74,22 +76,40 @@ dns:
     - speedtest.cros.wr.pvp.net
   use-hosts: true
 
+  fallback:
+    - https://1.12.12.12/dns-query
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
   nameserver-policy:
-    "geosite:gfw": "fallback"
-      #- domain:geosite:gfw
-      #匹配属于 gfw GeoSite 列表的域名
-      #address: 1.1.1.1
+    #"geosite:gfw,geolocation-!cn":
+    #  - https://dns.google/dns-query
+    #  - quic://dns.adguard.com:784
+    #  - https://cloudflare-dns.com/dns-query
+    #"geosite:cn,geolocation-cn": ["udp://223.5.5.5", https://doh.pub/dns-query]  # 国内域名直连
+    #"geosite:category-ads-all": rcode://success
+    '+.baidu.com': '114.114.114.114'
+    "rule-set:gfw": https://dns.google/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
     ipcidr:
+      - 0.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.168.0.0/16
+      - 224.0.0.0/4
       - 240.0.0.0/4
+      - 255.255.255.255/32
     domain:
       - '+.google.com'
       - '+.facebook.com'
       - '+.youtube.com'
       - '+.cloudflare.com'
       - +.twitter.com
+      - +.x.com
       - +.xn--ngstr-lra8j.com
       - +.google.cn
       - +.googleapis.cn
