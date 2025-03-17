@@ -15,21 +15,26 @@ dns:
       #- system
       #- "udp://223.5.5.5"
   nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-    - quic://dns.adguard.com:784
+    - https://1.12.12.12/dns-query
+    - https://223.6.6.6/dns-query
+      #- https://doh.pub/dns-query
+      #- https://dns.alidns.com/dns-query
 
-  enhanced-mode: fake-ip
+  fallback:
+    - https://dns.google/dns-query
+    - quic://dns.adguard.com:784
+    - https://cloudflare-dns.com/dns-query
+  enhanced-mode: fake-ip #redir-host
   fake-ip-range: 198.18.0.1/16
   # 可设置为whitelist，即只有匹配成功才返回fake-ip
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
     - '*.lan'
     - '*.local'
+    - dns.msftncsi.com
+    - www.msftncsi.com
     - www.msftconnecttest.com
     - '*.msftconnecttest.com'
-    - 'dns.msftncsi.com'
-    - 'www.msftncsi.com'
     - '*.msftncsi.com'
     - "connect.rom.miui.com"  # 小米设备检测
     - "*.msn.com"             # Windows更新检测
@@ -76,10 +81,6 @@ dns:
     - speedtest.cros.wr.pvp.net
   use-hosts: true
 
-  fallback:
-    - https://1.12.12.12/dns-query
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
   nameserver-policy:
     #"geosite:gfw,geolocation-!cn":
     #  - https://dns.google/dns-query
@@ -602,14 +603,14 @@ proxy-groups:
       - ♻️ 自动选择
       - ⚡ 负载均衡
       - 🔰 manual
-      - cflare
-      - cfkg
-      - cfop
+      - Cflare
+      - Cfkg
+      - Cfop
       - SKR
       - HyunWarp
       - ♻️ XQC
       - UserC
-  - name: cfop
+  - name: Cfop
     type: url-test
     use:
       - cldop
@@ -622,13 +623,13 @@ proxy-groups:
       - skr
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
-  - name: cflare
+  - name: Cflare
     type: url-test
     use:
       - cldflare
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
-  - name: cfkg
+  - name: Cfkg
     type: url-test
     use:
       - cldkg
@@ -675,6 +676,14 @@ proxy-groups:
       - hyun-warp
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
+  - name: "SpecialFilter"
+    type: select
+    use:
+      - hyun-warp
+    filter: "Gbps"
+    #exclude-type: "vmess|trojan"
+      #exclude-filter: ""
+
   - name: ⚡ 负载均衡
     type: load-balance
     use:
@@ -812,7 +821,7 @@ proxy-providers:
     url: "https://jiahe.eu.org:15443/clash_verge/cf_op_proxies.yaml"
     type: http
     #type: file
-    interval: 3612
+    interval: 5612
     path: local_data/cf_op_proxies.yaml
     health-check:
       enable: true
@@ -822,7 +831,7 @@ proxy-providers:
     url: "https://jiahe.eu.org:15443/clash_verge/skrapp.yaml"
     type: http
     #type: file
-    interval: 3622
+    interval: 6622
     path: local_data/skrapp.yaml
     health-check:
       enable: true
@@ -1044,9 +1053,9 @@ rules:
   - RULE-SET,classical_direct,🎯 全球直连
   - RULE-SET,artificial_direct,🎯 全球直连
   - RULE-SET,cloudflare_ipcidr,🎯 全球直连
-  - DOMAIN-SUFFIX,cloudflare.com,🎯 全球直连
   - IP-ASN,13335,🎯 全球直连
   - IP-ASN,14154,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
   - RULE-SET,classical_proxy,🚀 节点选择
   - RULE-SET,artificial_proxy,🚀 节点选择
 
@@ -1058,7 +1067,6 @@ rules:
   - RULE-SET,BanProgramAD,🛑 全球拦截
 
   - RULE-SET,applications,🎯 全球直连
-  - RULE-SET,UnBan,🎯 全球直连
   - RULE-SET,private,🎯 全球直连
   - RULE-SET,Download,🎯 全球直连
   - RULE-SET,GoogleCN,🎯 全球直连
