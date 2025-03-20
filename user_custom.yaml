@@ -1,0 +1,97 @@
+proxies:
+  - name: Hysteria2-misaka
+    type: hysteria2
+    server: jiahe.eu.org
+    port: 24101
+    tls: true
+    password: j6j,hh2sts1
+    sni: www.bing.com
+    skip-cert-verify: true
+    fast-open: false
+    ip-version: dual
+    udp: true
+  - name: Hysteria2-cherry
+    type: hysteria2
+    server: clayton.v6.navy
+    port: 24680
+    tls: true
+    password: meimima
+    skip-cert-verify: true
+    sni: clayton.v6.navy
+    fast-open: true
+    udp: true
+    ip-version: dual
+  - name: vm-ws-cherry
+    type: vmess
+    server: clayton.v6.navy
+    port: 27351
+    uuid: bb984877-08c9-4a45-878d-93f84aca18c8
+    network: ws
+    tls: false
+    ip-version: dual
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: www.yahoo.com
+    ws-opts:
+      headers:
+        Host: www.yahoo.com
+      path: /bb984877-08c9-4a45-878d-93f84aca18c8-vm
+
+  - name: vless-reality-vision-ip-172-31-4-155
+    type: vless
+    server: clayton.v6.navy
+    port: 27345
+    uuid: bb984877-08c9-4a45-878d-93f84aca18c8
+    network: tcp
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    servername: www.yahoo.com
+    reality-opts:
+      public-key: rQqvYewgamAyCTIxj79EMRXBE45KieHzg-0TIiy2nR4
+      short-id: 8e7176f0
+    client-fingerprint: chrome
+
+  - name: vmess-ws-ip-172-31-4-155
+    type: vmess
+    server: clayton.v6.navy
+    port: 27351
+    uuid: bb984877-08c9-4a45-878d-93f84aca18c8
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: www.bing.com
+    ws-opts:
+      path: "bb984877-08c9-4a45-878d-93f84aca18c8-vm"
+      headers:
+        Host: www.bing.com
+
+  - name: hysteria2-ip-172-31-4-155
+    type: hysteria2
+    server: clayton.v6.navy
+    port: 27361
+    password: bb984877-08c9-4a45-878d-93f84aca18c8
+    servername: www.bing.com
+    udp: true
+    tls: true
+    alpn:
+      - h3
+    sni: www.bing.com
+    skip-cert-verify: true
+    fast-open: true
+  - name: tuic5-ip-172-31-4-155
+    server: clayton.v6.navy
+    port: 27371
+    type: tuic
+    uuid: bb984877-08c9-4a45-878d-93f84aca18c8
+    password: bb984877-08c9-4a45-878d-93f84aca18c8
+    alpn: [h3]
+    disable-sni: true
+    reduce-rtt: true
+    udp-relay-mode: native
+    congestion-controller: bbr
+    sni: www.bing.com
+    skip-cert-verify: true
