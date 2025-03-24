@@ -1,15 +1,4 @@
 proxies:
-  - name: Hysteria2-raspi
-    type: hysteria2
-    server: jiahe.eu.org
-    port: 24101
-    tls: true
-    password: j6j,hh2sts1
-    sni: www.bing.com
-    skip-cert-verify: true
-    fast-open: false
-    ip-version: dual
-    udp: true
   - name: vm-ws-cherry-yahoo
     type: vmess
     server: clayton.v6.navy
@@ -57,20 +46,6 @@ proxies:
       path: "bb984877-08c9-4a45-878d-93f84aca18c8-vm"
       headers:
         Host: www.bing.com
-
-  - name: hysteria2-cherry
-    type: hysteria2
-    server: clayton.v6.navy
-    port: 27361
-    password: bb984877-08c9-4a45-878d-93f84aca18c8
-    servername: www.bing.com
-    udp: true
-    tls: true
-    alpn:
-      - h3
-    sni: www.bing.com
-    skip-cert-verify: true
-    fast-open: true
   - name: tuic5-cherry
     server: clayton.v6.navy
     port: 27371

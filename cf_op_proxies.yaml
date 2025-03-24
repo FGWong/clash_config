@@ -1,24 +1,22 @@
 proxies:
-- client-fingerprint: random
-  name: 0_kg
+- client-fingerprint: chrome
+  name: 0_eu
   network: ws
   port: 443
-  server: 104.19.33.76
-  servername: ten.clayton.us.kg
-  skip-cert-verify: true
-  tfo: false
+  server: 104.19.241.207
+  servername: one.unionpay.eu.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: ten.clayton.us.kg
+      Host: one.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: chrome
   name: 1_eu
   network: ws
   port: 443
-  server: 162.159.207.63
+  server: 104.19.250.215
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -27,26 +25,24 @@ proxies:
     headers:
       Host: one.unionpay.eu.org
     path: /?ed=2560
-- client-fingerprint: random
-  name: 2_kg
+- client-fingerprint: chrome
+  name: 2_eu
   network: ws
   port: 443
-  server: 104.18.126.40
-  servername: ten.clayton.us.kg
-  skip-cert-verify: true
-  tfo: false
+  server: 162.159.207.186
+  servername: one.unionpay.eu.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: ten.clayton.us.kg
+      Host: one.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: chrome
   name: 3_eu
   network: ws
   port: 443
-  server: 162.159.251.128
+  server: 104.18.28.173
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -55,26 +51,24 @@ proxies:
     headers:
       Host: one.unionpay.eu.org
     path: /?ed=2560
-- client-fingerprint: random
-  name: 4_kg
+- client-fingerprint: chrome
+  name: 4_eu
   network: ws
   port: 443
-  server: 104.19.255.173
-  servername: ten.clayton.us.kg
-  skip-cert-verify: true
-  tfo: false
+  server: 104.16.125.60
+  servername: one.unionpay.eu.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: ten.clayton.us.kg
+      Host: one.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: chrome
   name: 5_eu
   network: ws
   port: 443
-  server: 104.19.133.133
+  server: 104.18.19.126
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -83,26 +77,24 @@ proxies:
     headers:
       Host: one.unionpay.eu.org
     path: /?ed=2560
-- client-fingerprint: random
-  name: 6_kg
+- client-fingerprint: chrome
+  name: 6_eu
   network: ws
   port: 443
-  server: 104.19.14.43
-  servername: ten.clayton.us.kg
-  skip-cert-verify: true
-  tfo: false
+  server: 141.101.123.230
+  servername: one.unionpay.eu.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: ten.clayton.us.kg
+      Host: one.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: chrome
   name: 7_eu
   network: ws
   port: 443
-  server: 162.159.250.58
+  server: 104.19.242.158
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -111,26 +103,24 @@ proxies:
     headers:
       Host: one.unionpay.eu.org
     path: /?ed=2560
-- client-fingerprint: random
-  name: 8_kg
+- client-fingerprint: chrome
+  name: 8_eu
   network: ws
   port: 443
-  server: 104.19.113.60
-  servername: ten.clayton.us.kg
-  skip-cert-verify: true
-  tfo: false
+  server: 104.19.240.163
+  servername: one.unionpay.eu.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: ten.clayton.us.kg
+      Host: one.unionpay.eu.org
     path: /?ed=2560
 - client-fingerprint: chrome
   name: 9_eu
   network: ws
   port: 443
-  server: 104.19.209.104
+  server: 162.159.252.138
   servername: one.unionpay.eu.org
   tls: true
   type: vless
