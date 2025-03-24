@@ -21,6 +21,7 @@ dns:
       #- https://dns.alidns.com/dns-query
 
   fallback:
+    - https://120.53.53.53/dns-query
     - https://dns.google/dns-query
     - quic://dns.adguard.com:784
     - https://cloudflare-dns.com/dns-query

@@ -12,35 +12,31 @@ dns:
   default-nameserver:
     - 114.114.114.114
     - 8.8.8.8
+      #- system
+      #- "udp://223.5.5.5"
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-    - "udp://119.29.29.29"
-    - "udp://223.5.5.5"
-      #- 119.29.29.29
-  fallback:
-    - https://dns.google/dns-query
     - quic://dns.adguard.com:784
+
+  fallback:
+    - https://120.53.53.53/dns-query
+    - https://dns.google/dns-query
     - https://cloudflare-dns.com/dns-query
-      #- 8.8.8.8
-      #- 8.8.4.4
-      #- 1.1.1.1
-      #- tls://1.0.0.1:853
-      #- tls://dns.google:853
-      #- tls://1.1.1.1:853
-      #- tls://1.0.0.1:853
-      #- 101.6.6.6:5353
-  enhanced-mode: fake-ip #redir-host
+  enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
+  # 可设置为whitelist，即只有匹配成功才返回fake-ip
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
     - '*.lan'
     - '*.local'
-    - dns.msftncsi.com
-    - www.msftncsi.com
     - www.msftconnecttest.com
     - '*.msftconnecttest.com'
+    - 'dns.msftncsi.com'
+    - 'www.msftncsi.com'
     - '*.msftncsi.com'
+    - "connect.rom.miui.com"  # 小米设备检测
+    - "*.msn.com"             # Windows更新检测
     - stun.*.*.*
     - stun.*.*
     - miwifi.com
@@ -85,15 +81,28 @@ dns:
   use-hosts: true
 
   nameserver-policy:
+    #"geosite:gfw,geolocation-!cn":
+    #  - https://dns.google/dns-query
+    #  - quic://dns.adguard.com:784
+    #  - https://cloudflare-dns.com/dns-query
+    #"geosite:cn,geolocation-cn": ["udp://223.5.5.5", https://doh.pub/dns-query]  # 国内域名直连
+    #"geosite:category-ads-all": rcode://success
     '+.baidu.com': '114.114.114.114'
     "rule-set:gfw": https://dns.google/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
     ipcidr:
+      - 0.0.0.0/8
       - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.168.0.0/16
       - 224.0.0.0/4
       - 240.0.0.0/4
+      - 255.255.255.255/32
     domain:
       - '+.google.com'
       - '+.facebook.com'
@@ -120,6 +129,12 @@ hosts:
   #test.com: [1.1.1.1, 2.2.2.2]
   #search.com: google.com
   #clash.lan: clash
+
+  #clayton.eu.or: 10.144.84.198
+  #jiahe.eu.or: 10.144.100.6
+  #'qnap': 10.144.84.198
+  #'raspi': 10.144.100.6
+  #'hp': 10.144.176.30
 
 # Clash for Windows
 cfw-bypass:
@@ -587,14 +602,36 @@ proxy-groups:
       - ♻️ 自动选择
       - ⚡ 负载均衡
       - 🔰 manual
+      - Cflare
+      - Cfkg
+      - Cfop
       - SKR
       - HyunWarp
       - ♻️ XQC
-      - ♻️ BaiPiao
+      - UserC
+  - name: Cfop
+    type: url-test
+    use:
+      - cldop
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1200
+    icon: https://g.csdnimg.cn/static/logo/favicon32.ico
   - name: SKR
     type: url-test
     use:
       - skr
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1200
+  - name: Cflare
+    type: url-test
+    use:
+      - cldflare
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1200
+  - name: Cfkg
+    type: url-test
+    use:
+      - cldkg
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
   - name: ♻️ XQC
@@ -603,20 +640,19 @@ proxy-groups:
       - xqc
     url: 'http://www.gstatic.com/generate_204'
     interval: 12000
-  - name: ♻️ BaiPiao
-    type: url-test
+  - name: UserC
+    type: select
     use:
-      - baipiao
+      - ucust
     url: 'http://www.gstatic.com/generate_204'
     interval: 12000
+
   - name: ♻️ 自动选择
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
     use:
       - common
-      - skr
-      - hyun-warp
   - name: 全局选择
     type: select
     proxies:
@@ -639,6 +675,14 @@ proxy-groups:
       - hyun-warp
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
+  - name: "SpecialFilter"
+    type: select
+    use:
+      - hyun-warp
+    filter: "Gbps"
+    #exclude-type: "vmess|trojan"
+      #exclude-filter: ""
+
   - name: ⚡ 负载均衡
     type: load-balance
     use:
@@ -664,9 +708,23 @@ proxy-groups:
   - name: 🎏 失败切换
     type: fallback
     use:
+      - cldop
+      - cldflare
+      - cldkg
+      - skr
+      - hyun-warp
       - common
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 节点选择
+      - ⚡ 负载均衡
+      - SKR
+      - HyunWarp
   - name: Twitter_X
     type: select
     proxies:
@@ -674,6 +732,8 @@ proxy-groups:
       - 🚀 节点选择
       - SKR
       - HyunWarp
+      - UserC
+      - ♻️ XQC
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -689,15 +749,6 @@ proxy-groups:
       - 🚀 节点选择
     use:
       - common
-  - name: 📲 电报信息
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - ♻️ 自动选择
-      - 🚀 节点选择
-      - ⚡ 负载均衡
-      - SKR
-      - HyunWarp
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -754,11 +805,41 @@ proxy-providers:
       enable: true
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
+  cldflare:
+    url: "https://jiahe.eu.org:15443/clash_verge/cloudflare-proxies.yaml"
+    type: http
+    #type: file
+    interval: 10807
+    path: local_data/cloudflare-proxies.yaml
+    health-check:
+      enable: true
+      interval: 12000
+      url: 'http://www.gstatic.com/generate_204'
+  cldkg:
+    url: "https://jiahe.eu.org:15443/clash_verge/cfkg-proxies.yaml"
+    type: http
+    #type: file
+    interval: 10807
+    path: local_data/cfkg-proxies.yaml
+    health-check:
+      enable: true
+      interval: 12000
+      url: 'http://www.gstatic.com/generate_204'
+  cldop:
+    url: "https://jiahe.eu.org:15443/clash_verge/cf_op_proxies.yaml"
+    type: http
+    #type: file
+    interval: 3612
+    path: local_data/cf_op_proxies.yaml
+    health-check:
+      enable: true
+      interval: 960
+      url: 'http://www.gstatic.com/generate_204'
   skr:
     url: "https://jiahe.eu.org:15443/clash_verge/skrapp.yaml"
     type: http
     #type: file
-    interval: 6622
+    interval: 3622
     path: local_data/skrapp.yaml
     health-check:
       enable: true
@@ -774,15 +855,15 @@ proxy-providers:
       enable: true
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
-  baipiao:
-    url: "https://jiahe.eu.org:15443/clash_verge/user_custom.yaml"
+  ucust:
+    url: "https://jiahe.eu.org:15443/clash_verge/unhy2_custom.yaml"
     type: http
     #type: file
-    interval: 10806
+    interval: 933622
     path: local_data/user_custom.yaml
     health-check:
       enable: true
-      interval: 12000
+      interval: 960
       url: 'http://www.gstatic.com/generate_204'
 
 rule-providers:
@@ -1014,6 +1095,7 @@ rules:
   - RULE-SET,cncidr,🎯 全球直连
   - GEOIP,LAN,🎯 全球直连
   - GEOIP,CN,🎯 全球直连,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
 
   #- DOMAIN-KEYWORD,limetorrents.,🚀 节点选择
   #- DOMAIN-SUFFIX,,🚀 节点选择
