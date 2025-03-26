@@ -14,7 +14,7 @@ proxies:
     type: vmess
     server: clayton.v6.navy
     port: 27351
-    uuid: bb984877-08c9-4a45-878d-93f84aca18c8
+    uuid: 10782e64-2a49-44df-9b58-336ece392e9a
     network: ws
     tls: false
     ip-version: dual
@@ -25,28 +25,28 @@ proxies:
     ws-opts:
       headers:
         Host: www.yahoo.com
-      path: /bb984877-08c9-4a45-878d-93f84aca18c8-vm
+      path: "10782e64-2a49-44df-9b58-336ece392e9a-vm"
 
-  - name: vless-reality-vision-cherry
+  - name: vless-cherry
     type: vless
     server: clayton.v6.navy
     port: 27345
-    uuid: bb984877-08c9-4a45-878d-93f84aca18c8
+    uuid: 10782e64-2a49-44df-9b58-336ece392e9a
     network: tcp
     udp: true
     tls: true
     flow: xtls-rprx-vision
     servername: www.yahoo.com
     reality-opts:
-      public-key: rQqvYewgamAyCTIxj79EMRXBE45KieHzg-0TIiy2nR4
-      short-id: 8e7176f0
+      public-key: JLTspytJtS1zsi0T6ol0wW-Pw7xMpHi-wu80OVSuAQw
+      short-id: f8fb9c24
     client-fingerprint: chrome
 
   - name: vmess-ws-cherry
     type: vmess
     server: clayton.v6.navy
     port: 27351
-    uuid: bb984877-08c9-4a45-878d-93f84aca18c8
+    uuid: 10782e64-2a49-44df-9b58-336ece392e9a
     alterId: 0
     cipher: auto
     udp: true
@@ -54,7 +54,7 @@ proxies:
     network: ws
     servername: www.bing.com
     ws-opts:
-      path: "bb984877-08c9-4a45-878d-93f84aca18c8-vm"
+      path: "10782e64-2a49-44df-9b58-336ece392e9a-vm"
       headers:
         Host: www.bing.com
 
@@ -62,7 +62,7 @@ proxies:
     type: hysteria2
     server: clayton.v6.navy
     port: 27361
-    password: bb984877-08c9-4a45-878d-93f84aca18c8
+    password: 10782e64-2a49-44df-9b58-336ece392e9a
     servername: www.bing.com
     udp: true
     tls: true
@@ -75,8 +75,8 @@ proxies:
     server: clayton.v6.navy
     port: 27371
     type: tuic
-    uuid: bb984877-08c9-4a45-878d-93f84aca18c8
-    password: bb984877-08c9-4a45-878d-93f84aca18c8
+    uuid: 10782e64-2a49-44df-9b58-336ece392e9a
+    password: 10782e64-2a49-44df-9b58-336ece392e9a
     alpn: [h3]
     disable-sni: true
     reduce-rtt: true

@@ -17,6 +17,9 @@ payload:
   - DOMAIN-KEYWORD,yunpan
   - DOMAIN-KEYWORD,XLLiveUD
   - DOMAIN-KEYWORD,cloudflare
+    ##（PrivateTracker直连）
+  - DOMAIN-KEYWORD,tracker
+  - DOMAIN-KEYWORD,announce
 
   - SRC-IP-CIDR,192.168.0.1/32
   - SRC-IP-CIDR,192.168.1.1/32

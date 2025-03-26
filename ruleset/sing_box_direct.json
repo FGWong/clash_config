@@ -100,7 +100,9 @@
         "aria2",
         "xunlei",
         "yunpan",
-        "XLLiveUD"
+        "XLLiveUD",
+        "tracker",
+        "announce"
       ],
       "domain_regex": [
         "^clayton.e\\..+"

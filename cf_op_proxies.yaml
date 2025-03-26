@@ -3,7 +3,7 @@ proxies:
   name: 0_eu
   network: ws
   port: 443
-  server: 104.19.241.207
+  server: 104.16.64.96
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -16,7 +16,7 @@ proxies:
   name: 1_eu
   network: ws
   port: 443
-  server: 104.19.250.215
+  server: 104.19.159.217
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -29,7 +29,7 @@ proxies:
   name: 2_eu
   network: ws
   port: 443
-  server: 162.159.207.186
+  server: 172.64.95.226
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -42,7 +42,7 @@ proxies:
   name: 3_eu
   network: ws
   port: 443
-  server: 104.18.28.173
+  server: 104.16.175.15
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -55,7 +55,7 @@ proxies:
   name: 4_eu
   network: ws
   port: 443
-  server: 104.16.125.60
+  server: 172.64.84.176
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -68,7 +68,7 @@ proxies:
   name: 5_eu
   network: ws
   port: 443
-  server: 104.18.19.126
+  server: 104.18.5.184
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -81,7 +81,7 @@ proxies:
   name: 6_eu
   network: ws
   port: 443
-  server: 141.101.123.230
+  server: 104.16.45.215
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -94,7 +94,7 @@ proxies:
   name: 7_eu
   network: ws
   port: 443
-  server: 104.19.242.158
+  server: 104.18.84.171
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -107,7 +107,7 @@ proxies:
   name: 8_eu
   network: ws
   port: 443
-  server: 104.19.240.163
+  server: 104.19.8.238
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -120,7 +120,7 @@ proxies:
   name: 9_eu
   network: ws
   port: 443
-  server: 162.159.252.138
+  server: 104.19.116.53
   servername: one.unionpay.eu.org
   tls: true
   type: vless
