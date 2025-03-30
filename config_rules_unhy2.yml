@@ -734,9 +734,10 @@ proxy-groups:
       - 🚀 节点选择
       - SKR
       - HyunWarp
-      - common
       - UserC
       - ♻️ XQC
+    use:
+      - common
   - name: 🌍 国外媒体
     type: select
     proxies:
