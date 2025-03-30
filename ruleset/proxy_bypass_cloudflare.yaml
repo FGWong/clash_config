@@ -2,4 +2,5 @@ payload:
   - PROCESS-NAME,Warp
   - DOMAIN,x.com
   - DOMAIN-SUFFIX,v2ex.com
+  - DOMAIN-SUFFIX,hd-torrents.org
   - DOMAIN-KEYWORD,cloudflare
