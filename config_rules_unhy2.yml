@@ -727,13 +727,14 @@ proxy-groups:
       - ⚡ 负载均衡
       - SKR
       - HyunWarp
-  - name: Twitter_X
+  - name: XTwitter
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - SKR
       - HyunWarp
+      - common
       - UserC
       - ♻️ XQC
   - name: 🌍 国外媒体
@@ -1065,6 +1066,14 @@ rule-providers:
     path: ./ruleset/classical_proxy.yaml
     interval: 86400
 
+  passby_proxy:
+    behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
+    type: http # file
+    format: 'yaml' # or 'text'
+    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/proxy_bypass_cloudflare.yaml"
+    path: ./ruleset/proxy_bypass_cloudflare.yaml
+    interval: 86400
+
 rules:
   - RULE-SET,classical_direct,🎯 全球直连
   - RULE-SET,artificial_direct,🎯 全球直连
@@ -1087,7 +1096,8 @@ rules:
   - RULE-SET,telegramcidr,📲 电报信息
   - RULE-SET,google,🚀 节点选择
   - RULE-SET,OneDrive,🚀 节点选择
-  - RULE-SET,Twitter,Twitter_X
+  - RULE-SET,Twitter,XTwitter
+  - RULE-SET,passby_proxy,XTwitter
   - RULE-SET,icloud,🎯 全球直连
   - RULE-SET,apple,🍎 苹果服务
 

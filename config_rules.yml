@@ -733,6 +733,7 @@ proxy-groups:
       - 🚀 节点选择
       - SKR
       - HyunWarp
+      - common
       - UserC
       - ♻️ XQC
   - name: 🌍 国外媒体
@@ -1095,6 +1096,7 @@ rules:
   - RULE-SET,google,🚀 节点选择
   - RULE-SET,OneDrive,🚀 节点选择
   - RULE-SET,Twitter,XTwitter
+  - RULE-SET,passby_proxy,XTwitter
   - RULE-SET,icloud,🎯 全球直连
   - RULE-SET,apple,🍎 苹果服务
 
