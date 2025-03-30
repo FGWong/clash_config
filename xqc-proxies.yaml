@@ -1,0 +1,10 @@
+proxies:
+- name: TW, Taipei11
+  type: ss
+  server: 47.129.58.69
+  port: 443
+  tls: false
+  password: amazonskr05
+  ip-version: dual
+  udp: true
+  cipher: aes-256-cfb

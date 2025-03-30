@@ -1,0 +1,183 @@
+proxies:
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  client-fingerprint: chrome
+  name: 🇻🇳 越南 | 1Gbps
+  network: ws
+  port: 443
+  server: hyun.cloudflare.182682.xyz
+  servername: vn.oldcloud.online
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 5cf6bd4f-4318-4eda-e9da-4bbb0103f26a
+  ws-opts:
+    headers:
+      Host: vn.oldcloud.online
+    path: /
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 | 1Gbps
+  network: ws
+  port: 443
+  server: hyun.cloudflare.182682.xyz
+  servername: xz.4056860.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d59139e1-a805-421c-a5d4-9b9cf5814338
+  ws-opts:
+    headers:
+      Host: xz.4056860.xyz
+    path: /
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  client-fingerprint: chrome
+  name: 🇦🇶 南极 | 1Gbps
+  network: ws
+  port: 443
+  server: hyun.cloudflare.182682.xyz
+  servername: aq.oldcloud.online
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: ae20b743-9c67-4ba9-86f5-116a4a838b12
+  ws-opts:
+    headers:
+      Host: aq.oldcloud.online
+    path: /
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  client-fingerprint: chrome
+  name: 🇲🇴 澳门 | 1Gbps
+  network: ws
+  port: 443
+  server: hyun.cloudflare.182682.xyz
+  servername: mo.4056860.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 32561a76-b738-48b9-b3f2-37856346fbd8
+  ws-opts:
+    headers:
+      Host: mo.4056860.xyz
+    path: /
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国 | 1Gbps
+  network: ws
+  port: 443
+  server: hyun.cloudflare.182682.xyz
+  servername: kr.4056860.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d5b92857-e8f2-456e-8d58-8ff2d53ecd0b
+  ws-opts:
+    headers:
+      Host: kr.4056860.xyz
+    path: /
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  client-fingerprint: chrome
+  name: 🇮🇸 冰岛 | 1Gbps
+  network: ws
+  port: 443
+  server: hyun.cloudflare.182682.xyz
+  servername: is.oldcloud.online
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 753fa8e8-a3e8-442e-abf7-875ed776eacb
+  ws-opts:
+    headers:
+      Host: is.oldcloud.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇨🇳 深圳 | 200Mbps
+  network: ws
+  port: 38926
+  server: 8.134.162.37
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: d7e4f817-c2e7-4eea-8b53-8ea594e8bb19
+  ws-opts:
+    path: /
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  client-fingerprint: chrome
+  name: 🇹🇷 土耳其 | 1Gbps
+  network: ws
+  port: 443
+  server: hyun.cloudflare.182682.xyz
+  servername: tr.oldcloud.online
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: c085c9e0-6666-4ba4-a0af-f17a67eade85
+  ws-opts:
+    headers:
+      Host: tr.oldcloud.online
+    path: /
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  client-fingerprint: chrome
+  name: 🇬🇱 格陵兰  | 1Gbps
+  network: ws
+  port: 443
+  server: hyun.cloudflare.182682.xyz
+  servername: gl.9901154.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a6b40242-7a3c-4346-97a2-439d8fd06250
+  ws-opts:
+    headers:
+      Host: gl.9901154.xyz
+    path: /
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  client-fingerprint: chrome
+  name: 🇬🇮 直布罗陀 | 30Mbps
+  network: ws
+  port: 443
+  server: hyun.cloudflare.182682.xyz
+  servername: gi.9901157.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 26d226dc-ea66-45b9-984e-25e9bfb9e864
+  ws-opts:
+    headers:
+      Host: gi.9901157.xyz
+    path: /
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  client-fingerprint: chrome
+  name: 🇱🇰 斯里兰卡 | 10Mbps
+  network: ws
+  port: 443
+  server: hyun.cloudflare.182682.xyz
+  servername: lk.4056860.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 4c2876a8-e01b-4804-b26c-4f68f4725b22
+  ws-opts:
+    headers:
+      Host: lk.4056860.xyz
+    path: /

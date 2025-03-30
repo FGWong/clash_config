@@ -4,154 +4,178 @@ proxies:
   network: ws
   port: 1234
   server: 127.0.0.1
-  servername: one.unionpay.eu.org
+  servername: ele.jiahe.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: ele.jiahe.eu.org
     path: /?ed=2560
 - client-fingerprint: random
   name: CF随机节点
   network: ws
   port: 443
-  server: 103.21.245.161
-  servername: one.unionpay.eu.org
+  server: 103.21.244.42
+  servername: ele.jiahe.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: ele.jiahe.eu.org
     path: /?ed=2560
 - client-fingerprint: random
   name: CF随机节点 2
   network: ws
   port: 443
-  server: 104.16.96.5
-  servername: one.unionpay.eu.org
+  server: 104.16.250.151
+  servername: ele.jiahe.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: ele.jiahe.eu.org
     path: /?ed=2560
 - client-fingerprint: random
   name: CF随机节点 3
   network: ws
   port: 443
-  server: 104.24.84.66
-  servername: one.unionpay.eu.org
+  server: 104.24.109.124
+  servername: ele.jiahe.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: ele.jiahe.eu.org
     path: /?ed=2560
 - client-fingerprint: random
   name: CF随机节点 4
   network: ws
   port: 443
-  server: 172.64.17.173
-  servername: one.unionpay.eu.org
+  server: 172.64.55.173
+  servername: ele.jiahe.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: ele.jiahe.eu.org
     path: /?ed=2560
 - client-fingerprint: random
   name: CF随机节点 5
   network: ws
   port: 443
-  server: 103.21.245.178
-  servername: one.unionpay.eu.org
+  server: 103.21.245.111
+  servername: ele.jiahe.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: ele.jiahe.eu.org
     path: /?ed=2560
 - client-fingerprint: random
   name: CF随机节点 6
   network: ws
   port: 443
-  server: 104.16.21.112
-  servername: one.unionpay.eu.org
+  server: 104.16.194.141
+  servername: ele.jiahe.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: ele.jiahe.eu.org
     path: /?ed=2560
 - client-fingerprint: random
   name: CF随机节点 7
   network: ws
   port: 443
-  server: 104.24.166.60
-  servername: one.unionpay.eu.org
+  server: 104.24.14.149
+  servername: ele.jiahe.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: ele.jiahe.eu.org
     path: /?ed=2560
 - client-fingerprint: random
   name: CF随机节点 8
   network: ws
   port: 443
-  server: 141.101.72.109
-  servername: one.unionpay.eu.org
+  server: 141.101.88.135
+  servername: ele.jiahe.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: ele.jiahe.eu.org
     path: /?ed=2560
 - client-fingerprint: random
   name: CF随机节点 9
   network: ws
   port: 443
-  server: 172.64.211.115
-  servername: one.unionpay.eu.org
+  server: 172.64.140.10
+  servername: ele.jiahe.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: ele.jiahe.eu.org
     path: /?ed=2560
 - client-fingerprint: random
   name: CF随机节点 10
   network: ws
   port: 443
-  server: 188.114.100.221
-  servername: one.unionpay.eu.org
+  server: 188.114.96.202
+  servername: ele.jiahe.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: ele.jiahe.eu.org
     path: /?ed=2560
 - client-fingerprint: random
   name: CF随机节点 11
   network: ws
   port: 443
-  server: 190.93.245.204
-  servername: one.unionpay.eu.org
+  server: 190.93.243.85
+  servername: ele.jiahe.eu.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: ele.jiahe.eu.org
     path: /?ed=2560

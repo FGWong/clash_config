@@ -1,36 +1,102 @@
 proxies:
-- name: Flik6|[Trojan] 🇵🇱 波兰 V2CROSS.COM
-  password: '74260704627805900'
-  port: 443
-  server: driven-tiger.shiner427.skin
-  skip-cert-verify: true
-  tfo: false
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: Flik6|[SS] 🇷🇺 俄罗斯 V2CROSS.COM
-  password: DcFkL3vSe3CceaI3mRfCd0
-  port: 65262
-  server: 62.133.63.21
-  tfo: false
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 7
+  name: weok|美国(yudou66.com 玉豆免费节点) 4
+  port: 59554
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: weok|美国(yudou66.com 玉豆免费节点) 3
+  port: 40105
+  server: 120.232.153.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: weok|香港(yudou66.com 玉豆免费节点) 2
+  port: 31998
+  server: 120.234.102.229
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: weok|香港(yudou66.com 玉豆免费节点) 3
+  port: 51039
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: weok|美国(yudou66.com 玉豆免费节点) 2
+  port: 40059
+  server: 120.198.71.216
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: weok|香港(yudou66.com 玉豆免费节点)
+  port: 34042
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇮🇷 伊朗 V2CROSS.COM
+  port: 4500
+  server: 5.75.195.199
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 89de804d-a4c4-4c00-c647-18c3af1c8c8c
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 8
   network: ws
-  port: 2053
-  server: 172.67.212.59
+  port: 443
+  server: 104.18.149.75
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vmess
   udp: true
-  uuid: 05965003-8632-43b2-c9c0-12c1f2abff57
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
   ws-opts:
     headers:
-      Host: ny1sub.890601.pp.ua
-    path: /ny1lj
+      Host: us.insbot.filegear-sg.me
+    path: /aa
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇳 广东省广州市 移动 4
+  port: 46902
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: Flik6|[VMess] 广东省湛江市 移动
@@ -44,90 +110,192 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 3
+  name: Flik6|[VMess] 🇪🇸 西班牙 V2CROSS.COM
   network: ws
-  port: 2083
-  server: support.farsonline24.ir
+  port: 8443
+  server: 185.238.228.41
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vmess
   udp: true
-  uuid: 20edc33b-2d87-48d5-b11f-5e9cc11070e4
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
   ws-opts:
     headers:
-      Host: support.farsonline24.ir
-    path: /🆔@M3HDIO1
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇧🇷 巴西圣保罗 CloudFlare节点 3
+  network: ws
+  port: 443
+  server: 188.114.99.134
+  servername: linde06.indiavideo.sbs
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 广东省湛江市 移动 2
+  port: 51095
+  server: 120.198.71.219
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇹🇷 土耳其 V2CROSS.COM
+  port: 52807
+  server: 84.54.13.30
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 559f2ab2-1b52-4f5b-9e45-7794e6f2648b
 - cipher: aes-256-cfb
-  name: NoMoreWalls|12|🇰🇷 韩国特殊|@ripaojiedian
+  name: NoMoreWalls|2|🇯🇵5 |  5.2MB/s
   password: amazonskr05
   port: 443
-  server: 18.140.70.168
-  tfo: false
+  server: 43.207.203.164
   type: ss
-- alterId: '0'
+- cipher: aes-256-cfb
+  country: 🇧🇪BE
+  delay: 1627
+  name: NoMoreWalls|2|🇯🇵6 |  4.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 57.181.29.160
+  type: ss
+- alterId: 64
   cipher: auto
-  name: NoMoreWalls|2|🇸🇬5 |  4.2MB/s
+  name: NoMoreWalls|2|🇺🇸8 |  3.9MB/s
   network: tcp
-  port: '56901'
-  server: 183.236.51.38
-  skip-cert-verify: true
+  port: 52143
+  raw:
+    add: 142.4.104.33
+    aid: '64'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 418048af-a293-4b99-9b0c-98ca3580dd24
+    net: tcp
+    path: /
+    port: 52143
+    ps: 🇺🇸 US_401
+    scy: ''
+    sni: ''
+    tls: ''
+    type: ''
+    v: '2'
+  server: 142.4.104.33
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
 - cipher: aes-256-cfb
   name: NoMoreWalls|12|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.181.175.212
+  server: 54.169.64.23
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: NoMoreWalls|12|🇸🇬 狮城特殊|@ripaojiedian
+  name: NoMoreWalls|12|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 57.180.35.64
+  server: 54.178.177.97
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: NoMoreWalls|12|🇹🇼 台湾2|@ripaojiedian
-  password: 560b7d65c1f4b12a
-  port: 19111
-  server: 194.87.69.122
-  tfo: false
+- cipher: aes-256-cfb
+  country: 🇺🇸 US
+  delay: 1081
+  name: NoMoreWalls|2|🇺🇸17 |  2.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.40.170.193
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: NoMoreWalls|2|🌀24-TR |  1.3MB/s
-  password: DcFkL3vSe3CceaI3mRfCd0
-  port: 65262
-  server: h110vpntr.outlinekeys.net
+  name: NoMoreWalls|2|🇬🇧6 |  2.5MB/s
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 11006
+  server: 183.232.229.164
   type: ss
-- name: NoMoreWalls|13|日本8|@ripaojiedian
-  network: tcp
-  password: '74260704627805900'
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: NoMoreWalls|2|🇳🇱2 |  2.4MB/s
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12361
+  server: 183.232.229.164
+  type: ss
+  udp: true
+- name: NoMoreWalls|2,14|HK_speednode_0239
+  password: 6557bf4a-852b-4a69-ad35-d53293386a13
   port: 443
-  server: gorgeous-gopher.shiner427.skin
-  skip-cert-verify: true
+  server: ru.mjt000.com
+  skip-cert-verify: false
+  sni: ru.mjt000.com
   type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: NoMoreWalls|2|🇺🇸18 |  1.3MB/s
+  network: ws
+  port: 8443
+  server: 188.42.145.9
+  servername: lax1.ibgfw.top
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
 - cipher: aes-256-cfb
-  ip-version: dual
-  name: dayfree|🇺🇸_US_美国_2
+  client-fingerprint: chrome
+  name: openRunner|🇸🇬 狮城特殊
   password: amazonskr05
   port: 443
-  server: 44.242.208.211
+  server: 18.181.194.77
+  tfo: false
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  ip-version: dual
-  name: dayfree|🇺🇸_US_美国_11
+  client-fingerprint: chrome
+  name: openRunner|🇯🇵 日本特殊
   password: amazonskr05
   port: 443
-  server: 35.161.163.245
+  server: 43.203.206.73
+  tfo: false
   type: ss
-  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: openRunner|🇰🇷 韩国特殊
+  password: amazonskr05
+  port: 443
+  server: 47.129.51.201
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: openRunner|🇸🇬 新加坡
+  obfs: tls1.2_ticket_auth
+  obfs-param: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
 - cipher: aes-256-cfb
   ip-version: dual
   name: forever|🇺🇸_US_美国->🇷🇺_RU_俄罗斯
@@ -303,63 +471,12 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: airport|🇰🇷 韩国_1
-  password: amazonskr05
-  port: '443'
-  server: 3.38.92.181
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: airport|🇭🇰 香港_2
-  network: tcp
-  port: '55754'
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
-  name: airport|🇨🇳 中国_2
+  name: airport|❓ 未知_7
   port: '59003'
   server: 183.236.51.36
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: airport|❓ 未知_29
-  password: amazonskr05
-  port: '443'
-  server: 3.34.253.95
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇳🇱 荷兰_1
-  password: GfKGyjTs7WQXalgedr9FU3
-  port: '23822'
-  server: 178.208.78.170
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: airport|❓ 未知_3
-  password: amazonskr05
-  port: '443'
-  server: 13.213.69.248
-  type: ss
-- cipher: chacha20-ietf
-  name: airport|🇭🇰 香港_1
-  password: asd123456
-  port: '8388'
-  server: 154.197.26.237
-  type: ss
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|❓ 未知_4
-  port: '50002'
-  server: 47.104.186.133
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -367,142 +484,107 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: airport|🇨🇳 中国_1
+  network: tcp
+  port: '50002'
+  server: 120.26.55.225
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: airport|❓ 未知_2
+  port: '50002'
+  server: 47.104.186.133
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: airport|🇸🇬 新加坡_2
+  password: amazonskr05
+  port: '443'
+  server: 18.141.139.23
+  type: ss
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: airport|❓ 未知_1
   port: '50002'
   server: 47.92.152.169
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇭🇰 香港_9
-  network: tcp
-  port: '59554'
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: airport|🇩🇪 德国_2
-  port: '56635'
-  server: 185.231.59.202
-  tls: false
-  type: vmess
-  uuid: dd9a594a-0572-4365-84da-e6dc8022c05a
 - cipher: aes-256-cfb
-  name: airport|🇹🇼 台湾_3
-  password: qwerREWQ@@
-  port: '64759'
-  server: 185.189.160.98
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇺🇸 美国_18
+  name: airport|🇰🇷 韩国_6
   password: amazonskr05
   port: '443'
-  server: 35.89.254.58
+  server: 3.36.26.148
   type: ss
-- cipher: aes-256-cfb
+- alterId: '0'
+  cipher: auto
   client-fingerprint: chrome
-  ip-version: dual
-  name: airport|🇺🇸 美国_29
+  name: airport|🇨🇳 中国_2
+  network: tcp
+  port: '50002'
+  server: 112.132.215.12
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: airport|🇰🇷 韩国_7
   password: amazonskr05
   port: '443'
-  server: 54.187.221.114
-  tls: false
+  server: 3.36.72.86
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: mfuu|🇨🇳CN-183.232.229.164-164
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 11001
+  server: 183.232.229.164
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: mfuu|🇨🇳CN-183.232.229.164-167
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12359
+  server: 183.232.229.164
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: mfuu|🇨🇳CN-183.232.229.164-143
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12355
+  server: 183.232.229.164
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: mfuu|🇨🇳CN-183.240.255.75-166
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12366
+  server: 183.240.255.75
   type: ss
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: airport|🇵🇹 葡萄牙_1
-  password: f8f7aCzcPKbsF8p3
-  port: '989'
-  server: 185.231.233.112
-  type: ss
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇸🇬 新加坡_1
-  network: tcp
-  port: '41002'
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇭🇰 香港_10
-  network: tcp
-  port: '51039'
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: mfuu|🇨🇳CN-120.198.71.219-012
-  network: tcp
-  port: 51095
-  server: 120.198.71.219
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.219
-  ws-path: /
-- cipher: aes-256-cfb
-  name: mfuu|🇯🇵JP-43.207.150.238-430
+  name: mfuu|🇸🇬SG-54.169.134.156-357
   password: amazonskr05
   port: 443
-  server: 43.207.150.238
+  server: 54.169.134.156
   type: ss
-- cipher: aes-256-cfb
-  name: mfuu|🇺🇸US-35.93.21.189-134
-  password: amazonskr05
-  port: 443
-  server: 35.93.21.189
+- cipher: chacha20-ietf-poly1305
+  name: mfuu|🇨🇳CN-183.232.229.164-349
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12358
+  server: 183.232.229.164
   type: ss
-- cipher: aes-256-cfb
-  name: mfuu|🇰🇷KR-43.203.206.73-129
-  password: amazonskr05
-  port: 443
-  server: 43.203.206.73
+- cipher: chacha20-ietf-poly1305
+  name: mfuu|🇨🇳CN-120.232.150.248-371
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12357
+  server: 120.232.150.248
   type: ss
 - alterId: 0
   cipher: auto
-  name: mfuu|🇨🇳CN-120.198.71.216-288
+  name: mfuu|🇨🇳CN-120.232.153.123-228
   network: tcp
-  port: 40059
-  server: 120.198.71.216
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.216
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: mfuu|🇨🇳CN-120.232.153.63-283
-  network: tcp
-  port: 40105
-  server: 120.232.153.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: mfuu|🇨🇳CN-120.232.153.123-294
-  network: tcp
-  port: 51052
+  port: 41402
   server: 120.232.153.123
   skip-cert-verify: true
   tls: false
@@ -511,40 +593,78 @@ proxies:
   ws-headers:
     Host: 120.232.153.123
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: mfuu|🇨🇳CN-183.232.229.164-157
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12353
+  server: 183.232.229.164
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: mfuu|🇨🇳CN-183.240.255.75-168
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12365
+  server: 183.240.255.75
+  type: ss
 - cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇸🇬_💼_github.com/Ruk1ng001_6335353561613434
+  name: ruk1ng|🟡_🇸🇬_💼_github.com/Ruk1ng001_3365393661663162
   password: amazonskr05
   port: 443
-  server: 47.128.245.70
+  server: 47.129.38.96
   type: ss
-- alterId: 0
-  cipher: auto
-  ip-version: dual
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3137383833356432
-  network: tcp
-  port: 50002
-  server: 112.132.215.12
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: ruk1ng|❓_🇸🇬_💼_github.com/Ruk1ng001_6261386634323937
+  password: amazonskr05
+  port: 443
+  server: 52.76.22.133
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇯🇵_💼_github.com/Ruk1ng001_6634613664646365
+  password: amazonskr05
+  port: 443
+  server: 54.199.64.156
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇸🇬_💼_github.com/Ruk1ng001_6666333961306339
+  password: amazonskr05
+  port: 443
+  server: 54.169.188.214
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇸🇬_💼_github.com/Ruk1ng001_3331623064663138
+  password: amazonskr05
+  port: 443
+  server: 18.140.70.168
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|❓_🇸🇬_💼_github.com/Ruk1ng001_31323035333436
+  password: amazonskr05
+  port: 443
+  server: 3.0.50.161
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇯🇵_💼_github.com/Ruk1ng001_3432333330626235
+  password: amazonskr05
+  port: 443
+  server: 43.207.157.253
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟡_🇯🇵_💼_github.com/Ruk1ng001_336664666332
+  password: amazonskr05
+  port: 443
+  server: 54.199.103.26
+  type: ss
 - cipher: aes-256-cfb
   name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_6334663661303064
   password: amazonskr05
   port: 443
   server: 35.94.124.230
   type: ss
-- cipher: aes-256-gcm
-  name: ruk1ng|🔴_🇮🇹_💻_github.com/Ruk1ng001_6461623566333236
-  password: N682230VIDGHUJW5
-  port: 20029
-  server: 185.213.20.36
-  type: ss
 - cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💼_github.com/Ruk1ng001_6237623430643933
+  name: ruk1ng|❓_🇯🇵_💼_github.com/Ruk1ng001_6264303430366636
   password: amazonskr05
   port: 443
-  server: 35.87.29.54
+  server: 52.195.209.247
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_6438316539613034
@@ -555,111 +675,87 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: ruk1ng|github.com/Ruk1ng001_6666653031333364
-  network: ws
-  port: 23030
-  server: 212.192.13.68
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ba6f9848-bbe8-4747-a5b8-2dd9808083a5
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3535663264623865
-  port: 34042
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: rc4-md5
-  name: ruk1ng|github.com/Ruk1ng001_6336653262653165
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40209
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 1.link-hub.blog
-  type: ssr
-- cipher: rc4-md5
-  name: ruk1ng|github.com/Ruk1ng001_6231613434303938
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40207
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 1.link-hub.blog
-  type: ssr
-- cipher: rc4-md5
-  name: ruk1ng|github.com/Ruk1ng001_6439323134616531
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40217
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 1.link-hub.blog
-  type: ssr
-- cipher: rc4-md5
-  name: ruk1ng|github.com/Ruk1ng001_6165323033363331
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40204
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 1.link-hub.blog
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_6265333533316439
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: 111.29.57.125
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_6239363865303630
-  port: 31998
-  server: 120.234.102.229
+  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3235303331643032
+  port: 55754
+  server: 183.236.51.38
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  name: ruk1ng|github.com/Ruk1ng001_3133613532313337
-  password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
-  port: 41705
-  server: zf1.10101251.xyz
-  type: ss
 - cipher: aes-256-cfb
-  name: blobBird|_US_美国_6
+  name: ruk1ng|🟡_🇰🇷_💼_github.com/Ruk1ng001_3564363735373738
   password: amazonskr05
   port: 443
-  server: 34.216.142.212
+  server: 3.34.253.95
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_3834383362623239
+  password: ZTAwMGEw
+  port: 8388
+  server: 185.231.207.247
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3930386563383364
+  port: 56901
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_6535343837393064
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.188
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- cipher: rc4-md5
+  name: ruk1ng|❓_🇰🇼_💻_github.com/Ruk1ng001_3264613735393038
+  password: b17902c35beb3c11
+  port: 29951
+  server: 163.171.181.49
+  type: ss
+- cipher: aes-256-gcm
+  name: ruk1ng|🔴_🇮🇹_💻_github.com/Ruk1ng001_6461623566333236
+  password: N682230VIDGHUJW5
+  port: 20029
+  server: 185.213.20.36
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3838633166353430
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 11008
+  server: 120.232.150.248
+  type: ss
+- cipher: aes-256-cfb
+  name: blobBird|_US_美国_6 2
+  password: amazonskr05
+  port: 443
+  server: 54.244.97.108
   type: ss
   udp: true
 - cipher: aes-256-cfb
   name: ermaozi|🇺🇸_US_美国_1
   password: amazonskr05
   port: 443
-  server: 54.185.253.219
+  server: 35.93.21.189
   type: ss
 - cipher: aes-256-cfb
-  name: mahdiblanda|🇰🇷KR-43.203.249.105-0846 | 22.78MB
+  name: ermaozi|🇺🇸_US_美国_9
   password: amazonskr05
   port: 443
-  server: 43.203.249.105
+  server: 54.187.221.114
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: mahdiblanda|AE-40.172.178.194-0457 | 9.011MB
-  password: u17T3BvpYaaiuW2c
+- cipher: aes-256-cfb
+  name: mahdiblanda|🇯🇵JP-18.183.170.175-5744 | 2.084MB
+  password: amazonskr05
   port: 443
-  server: 40.172.178.194
+  server: 18.183.170.175
+  type: ss
+- cipher: aes-256-cfb
+  name: mahdiblanda|🇯🇵JP-43.207.150.238-5780 | 3.408MB
+  password: amazonskr05
+  port: 443
+  server: 43.207.150.238
   type: ss

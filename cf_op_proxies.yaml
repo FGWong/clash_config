@@ -1,22 +1,24 @@
 proxies:
-- client-fingerprint: chrome
-  name: 0_eu
+- client-fingerprint: random
+  name: 0_kg
   network: ws
   port: 443
-  server: 104.16.64.96
-  servername: one.unionpay.eu.org
+  server: 104.19.31.150
+  servername: royal2.wuser.workers.dev
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: royal2.wuser.workers.dev
     path: /?ed=2560
 - client-fingerprint: chrome
   name: 1_eu
   network: ws
   port: 443
-  server: 104.19.159.217
+  server: 104.17.65.199
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -25,24 +27,26 @@ proxies:
     headers:
       Host: one.unionpay.eu.org
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: 2_eu
+- client-fingerprint: random
+  name: 2_kg
   network: ws
   port: 443
-  server: 172.64.95.226
-  servername: one.unionpay.eu.org
+  server: 190.93.244.164
+  servername: royal2.wuser.workers.dev
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: royal2.wuser.workers.dev
     path: /?ed=2560
 - client-fingerprint: chrome
   name: 3_eu
   network: ws
   port: 443
-  server: 104.16.175.15
+  server: 104.18.31.38
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -51,24 +55,26 @@ proxies:
     headers:
       Host: one.unionpay.eu.org
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: 4_eu
+- client-fingerprint: random
+  name: 4_kg
   network: ws
   port: 443
-  server: 172.64.84.176
-  servername: one.unionpay.eu.org
+  server: 104.18.9.244
+  servername: royal2.wuser.workers.dev
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: royal2.wuser.workers.dev
     path: /?ed=2560
 - client-fingerprint: chrome
   name: 5_eu
   network: ws
   port: 443
-  server: 104.18.5.184
+  server: 104.19.100.12
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -77,24 +83,26 @@ proxies:
     headers:
       Host: one.unionpay.eu.org
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: 6_eu
+- client-fingerprint: random
+  name: 6_kg
   network: ws
   port: 443
-  server: 104.16.45.215
-  servername: one.unionpay.eu.org
+  server: 104.17.199.18
+  servername: royal2.wuser.workers.dev
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: royal2.wuser.workers.dev
     path: /?ed=2560
 - client-fingerprint: chrome
   name: 7_eu
   network: ws
   port: 443
-  server: 104.18.84.171
+  server: 104.18.93.209
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -103,24 +111,26 @@ proxies:
     headers:
       Host: one.unionpay.eu.org
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: 8_eu
+- client-fingerprint: random
+  name: 8_kg
   network: ws
   port: 443
-  server: 104.19.8.238
-  servername: one.unionpay.eu.org
+  server: 162.159.243.254
+  servername: royal2.wuser.workers.dev
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: royal2.wuser.workers.dev
     path: /?ed=2560
 - client-fingerprint: chrome
   name: 9_eu
   network: ws
   port: 443
-  server: 104.19.116.53
+  server: 162.159.45.21
   servername: one.unionpay.eu.org
   tls: true
   type: vless
