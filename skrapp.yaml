@@ -1,19 +1,46 @@
 proxies:
 - cipher: aes-256-cfb
   ip-version: dual
-  name: HK, Kowloon
+  name: KR, Incheon
   password: amazonskr05
   port: 443
-  server: 3.36.26.148
+  server: 54.199.64.156
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-cfb
   ip-version: dual
-  name: HK, Los Angeles
+  name: JP, Tokyo 2
   password: amazonskr05
   port: 443
-  server: 34.208.203.47
+  server: 43.203.249.105
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: US, Houston
+  password: amazonskr05
+  port: 443
+  server: 34.209.118.169
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: US, Dallas 2
+  password: amazonskr05
+  port: 443
+  server: 44.247.247.209
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: HK, Kowloon
+  password: amazonskr05
+  port: 443
+  server: 54.169.188.214
   tls: false
   type: ss
   udp: true
@@ -31,16 +58,7 @@ proxies:
   name: TW, Taipei
   password: amazonskr05
   port: 443
-  server: 13.112.73.126
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: US, Dallas 2
-  password: amazonskr05
-  port: 443
-  server: 34.220.128.153
+  server: 3.1.205.82
   tls: false
   type: ss
   udp: true
@@ -49,43 +67,7 @@ proxies:
   name: CA, Vancouver
   password: amazonskr05
   port: 443
-  server: 34.217.15.41
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: SG, Singapore
-  password: amazonskr05
-  port: 443
-  server: 47.128.245.70
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: JP, Tokyo 2
-  password: amazonskr05
-  port: 443
-  server: 43.203.206.73
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: KR, Incheon
-  password: amazonskr05
-  port: 443
-  server: 54.179.52.175
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: JP, Tokyo
-  password: amazonskr05
-  port: 443
-  server: 54.199.64.156
+  server: 54.69.221.160
   tls: false
   type: ss
   udp: true
@@ -94,16 +76,34 @@ proxies:
   name: HK, New Territories
   password: amazonskr05
   port: 443
-  server: 13.213.69.248
+  server: 3.38.92.181
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-cfb
   ip-version: dual
-  name: US, Houston
+  name: JP, Tokyo
   password: amazonskr05
   port: 443
-  server: 52.88.180.184
+  server: 43.207.157.253
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: SG, Singapore
+  password: amazonskr05
+  port: 443
+  server: 47.129.51.201
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: HK, Los Angeles
+  password: amazonskr05
+  port: 443
+  server: 34.208.31.71
   tls: false
   type: ss
   udp: true

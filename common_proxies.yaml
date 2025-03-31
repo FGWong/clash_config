@@ -538,72 +538,11 @@ proxies:
   port: '443'
   server: 3.36.72.86
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: mfuu|🇨🇳CN-183.232.229.164-164
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 11001
-  server: 183.232.229.164
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: mfuu|🇨🇳CN-183.232.229.164-167
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 12359
-  server: 183.232.229.164
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: mfuu|🇨🇳CN-183.232.229.164-143
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 12355
-  server: 183.232.229.164
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: mfuu|🇨🇳CN-183.240.255.75-166
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 12366
-  server: 183.240.255.75
-  type: ss
-- cipher: aes-256-cfb
-  name: mfuu|🇸🇬SG-54.169.134.156-357
-  password: amazonskr05
-  port: 443
-  server: 54.169.134.156
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: mfuu|🇨🇳CN-183.232.229.164-349
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 12358
-  server: 183.232.229.164
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: mfuu|🇨🇳CN-120.232.150.248-371
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 12357
-  server: 120.232.150.248
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: mfuu|🇨🇳CN-120.232.153.123-228
-  network: tcp
-  port: 41402
-  server: 120.232.153.123
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.123
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: mfuu|🇨🇳CN-183.232.229.164-157
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 12353
-  server: 183.232.229.164
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: mfuu|🇨🇳CN-183.240.255.75-168
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 12365
-  server: 183.240.255.75
+- cipher: aes-256-gcm
+  name: mfuu|🇺🇸US-154.83.90.11-496
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21115
+  server: okanc.node-is.green
   type: ss
 - cipher: aes-256-cfb
   name: ruk1ng|🟡_🇸🇬_💼_github.com/Ruk1ng001_3365393661663162
