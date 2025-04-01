@@ -3,5 +3,4 @@ payload:
   - DOMAIN,x.com
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,hd-torrents.org
-  - DOMAIN-SUFFIX,cathode-ray.tube
   - DOMAIN-KEYWORD,cloudflare

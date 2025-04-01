@@ -4,7 +4,18 @@ mixed-port: 7892
 allow-lan: true
 mode: rule
 log-level: info
+ipv6: true
 external-controller: :9090
+
+#自定义 geodata url
+geox-url:
+  geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb"
+
+geo-auto-update: false # 是否自动更新 geodata
+geo-update-interval: 24 # 更新间隔，单位：小时
+
 dns:
   enabled: true
   prefer-h3: true
@@ -137,12 +148,40 @@ hosts:
   #'raspi': 10.144.100.6
   #'hp': 10.144.176.30
 
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [ 443 ]
+  force-domain:
+    - '+.v2ex.com'
+  skip-domain:
+    - 'Mijia Cloud'
+    - 'dlg.io.mi.com'
+    - '+.apple.com'
+    - '+.local'
+
+
 # Clash for Windows
 cfw-bypass:
   # 直连列表
   # MyList
   - qq.com
+  - "*.qq.com"
   - music.163.com
+  - '*.music.163.com'
+  - "www.webofscience.com" # Web of Science域名
+  - "snowplow.apps.clarivate.com"
+  - "access.clarivate.com"
+  - "snowplow-collector.userintel.prod.sp.aws.clarivate.net"
   - "*.13th.tech"
   - "*.423down.com"
   - "*.chaipip.com"
@@ -571,25 +610,10 @@ cfw-bypass:
   - "*.zhuihd.com"
   - localhost
   - 127.*
-  - 10.*
-  - 172.16.*
-  - 172.17.*
-  - 172.18.*
-  - 172.19.*
-  - 172.20.*
-  - 172.21.*
-  - 172.22.*
-  - 172.23.*
-  - 172.24.*
-  - 172.25.*
-  - 172.26.*
-  - 172.27.*
-  - 172.28.*
-  - 172.29.*
-  - 172.30.*
-  - 172.31.*
-  - 192.168.*
-  - <local>
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+  - "+.local"
 cfw-latency-timeout: 3000
 proxy:
   - name: "ProxyH" # 默认使用的出站代理名称

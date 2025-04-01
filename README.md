@@ -1,7 +1,9 @@
 
+
 clash meta cofigure file in yaml format.
 with proxy-providers and rule-providers
 
+refer: https://github.com/MetaCubeX/mihomo/blob/Meta/docs/config.yaml
 
 config_rules.yml
 clash 的默认订阅配置, proxies-provider 在raspi 上生成
