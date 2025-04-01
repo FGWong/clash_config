@@ -1,6 +1,9 @@
 port: 7890
 socks-port: 7891
 mixed-port: 7892
+# redir-port: 7892 # 透明代理端口，用于 Linux 和 MacOS
+# Transparent proxy server port for Linux (TProxy TCP and TProxy UDP)
+# tproxy-port: 7893
 allow-lan: true
 mode: rule
 log-level: info
@@ -1038,13 +1041,16 @@ rule-providers:
   OneDrive:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
+    #url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
+    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
     path: ./ruleset/OneDrive.yaml
     interval: 86400
   Twitter:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Twitter.yaml"
+    #url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Twitter.yaml"
+    format: 'text' # or 'yaml'
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/classical/twitter.txt"
     path: ./ruleset/Twitter.yaml
     interval: 86400
 
@@ -1052,7 +1058,8 @@ rule-providers:
     type: http
     behavior: classical
     format: 'text' # or 'yaml'
-    url: "https://raw.githubusercontent.com/Loyalsoldier/geoip/refs/heads/release/clash/classical/cloudflare.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/classical/cloudflare.txt"
+      #"https://raw.githubusercontent.com/Loyalsoldier/geoip/refs/heads/release/clash/classical/cloudflare.txt"
       #behavior: ipcidr
       #url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/cloudflare.yaml"
       # https://github.com/Loyalsoldier/geoip/blob/release/clash/ipcidr/cloudflare.txt
