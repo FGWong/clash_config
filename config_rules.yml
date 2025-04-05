@@ -172,7 +172,6 @@ sniffer:
     - '+.apple.com'
     - '+.local'
 
-
 # Clash for Windows
 cfw-bypass:
   # 直连列表
