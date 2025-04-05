@@ -692,10 +692,10 @@ proxy-groups:
   - name: XTwitter
     type: select
     proxies:
-      - 🎯 全球直连
-      - 🚀 节点选择
       - SKR
       - HyunWarp
+      - 🚀 节点选择
+      - 🎯 全球直连
       - UserC
       - ♻️ XQC
     use:
@@ -1012,7 +1012,7 @@ rule-providers:
   artificial_proxy:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/manual_proxy.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/manual_proxy.yaml"
     path: ./ruleset/manual_proxy.yaml
     interval: 86400
 
@@ -1020,7 +1020,7 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/classical_direct.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/classical_direct.yaml"
     #url: "https://jiahe.eu.org:15443/clash_verge/ruleset/classical_direct.yaml"
     path: ./ruleset/classical_direct.yaml
     interval: 86400
@@ -1029,7 +1029,7 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/classical_proxy.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/classical_proxy.yaml"
     path: ./ruleset/classical_proxy.yaml
     interval: 86400
 
@@ -1037,7 +1037,7 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/proxy_bypass_cloudflare.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/proxy_bypass_cloudflare.yaml"
     path: ./ruleset/proxy_bypass_cloudflare.yaml
     interval: 86400
 
