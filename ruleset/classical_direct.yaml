@@ -45,8 +45,8 @@ payload:
   - IP-ASN,45102
   - IP-ASN,45103
   #cloudflare
-  - IP-ASN,13335
-  - IP-ASN,14154
+  #- IP-ASN,13335
+  #- IP-ASN,14154
   #jingdongyun with cf
   - IP-ASN,137876
   - IP-ASN,138950
