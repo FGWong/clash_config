@@ -10,51 +10,48 @@ proxies:
     fast-open: false
     ip-version: dual
     udp: true
-  - name: vm-ws-cherry-yahoo
-    type: vmess
-    server: clayton.v6.navy
-    port: 27351
-    uuid: 10782e64-2a49-44df-9b58-336ece392e9a
-    network: ws
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
-    udp: true
-    servername: www.yahoo.com
-    ws-opts:
-      headers:
-        Host: www.yahoo.com
-      path: "10782e64-2a49-44df-9b58-336ece392e9a-vm"
-
   - name: vless-cherry
     type: vless
     server: clayton.v6.navy
     port: 27345
-    uuid: 10782e64-2a49-44df-9b58-336ece392e9a
+    uuid: c9126299-c6e9-4616-959e-a7903f1a35c5
     network: tcp
     udp: true
     tls: true
     flow: xtls-rprx-vision
     servername: www.yahoo.com
     reality-opts:
-      public-key: JLTspytJtS1zsi0T6ol0wW-Pw7xMpHi-wu80OVSuAQw
-      short-id: f8fb9c24
+      public-key: YwlzMnVlZC-5qNr028XTdyiwVbNhAmLGBdrnTx382G4
+      short-id: be345db4
     client-fingerprint: chrome
-
   - name: vmess-ws-cherry
     type: vmess
     server: clayton.v6.navy
     port: 27351
-    uuid: 10782e64-2a49-44df-9b58-336ece392e9a
+    uuid: c9126299-c6e9-4616-959e-a7903f1a35c5
     alterId: 0
     cipher: auto
     udp: true
-    tls: false
+    tls: true
+    network: ws
+    servername: www.yahoo.com
+    ws-opts:
+      path: "c9126299-c6e9-4616-959e-a7903f1a35c5-vm"
+      headers:
+        Host: www.yahoo.com
+  - name: vm-ws-cherry-bing
+    type: vmess
+    server: clayton.v6.navy
+    port: 27351
+    uuid: c9126299-c6e9-4616-959e-a7903f1a35c5
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
     network: ws
     servername: www.bing.com
     ws-opts:
-      path: "10782e64-2a49-44df-9b58-336ece392e9a-vm"
+      path: "c9126299-c6e9-4616-959e-a7903f1a35c5-vm"
       headers:
         Host: www.bing.com
 
@@ -62,25 +59,28 @@ proxies:
     type: hysteria2
     server: clayton.v6.navy
     port: 27361
-    password: 10782e64-2a49-44df-9b58-336ece392e9a
+    password: c9126299-c6e9-4616-959e-a7903f1a35c5
     servername: www.bing.com
     udp: true
     tls: true
     alpn:
       - h3
     sni: www.bing.com
+    #skip-cert-verify: false
     skip-cert-verify: true
     fast-open: true
+
   - name: tuic5-cherry
     server: clayton.v6.navy
     port: 27371
     type: tuic
-    uuid: 10782e64-2a49-44df-9b58-336ece392e9a
-    password: 10782e64-2a49-44df-9b58-336ece392e9a
+    uuid: c9126299-c6e9-4616-959e-a7903f1a35c5
+    password: c9126299-c6e9-4616-959e-a7903f1a35c5
     alpn: [h3]
     disable-sni: true
     reduce-rtt: true
     udp-relay-mode: native
     congestion-controller: bbr
     sni: www.bing.com
-    skip-cert-verify: true
+    skip-cert-verify: false
+    #skip-cert-verify: true

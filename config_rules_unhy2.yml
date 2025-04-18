@@ -143,7 +143,13 @@ cfw-bypass:
   # 直连列表
   # MyList
   - qq.com
+  - "*.qq.com"
   - music.163.com
+  - '*.music.163.com'
+  - "www.webofscience.com" # Web of Science域名
+  - "snowplow.apps.clarivate.com"
+  - "access.clarivate.com"
+  - "snowplow-collector.userintel.prod.sp.aws.clarivate.net"
   - "*.13th.tech"
   - "*.423down.com"
   - "*.chaipip.com"
@@ -156,8 +162,6 @@ cfw-bypass:
   - "*.msftncsi.com"
   - "*.qupu123.com"
   - "*.pdfwifi.com"
-  - "*.zhenguanyu.biz"
-  - "*.zhenguanyu.com"
   - "*.snapdrop.net"
   # CN域名直连(中国|公司|网络)
   - "*.xn--fiqs8s"
@@ -171,22 +175,13 @@ cfw-bypass:
   - "*.qhres.com"
   - "*.qhstatic.com"
   # 4399
-  - "*.4399pk.com"
-  - "*.img4399.com"
   # Alibaba
-  - "*.aliapp.org"
   - "*.alibabacloud.com"
-  - "*.alibabausercontent.com"
   - "*.alicloudccp.com"
-  - "*.aliexpress.com"
-  - "*.aliimg.com"
   - "*.alipay.com"
   - "*.alipayobjects.com"
-  - "*.alisoft.com"
   - "*.aliyuncdn.com"
   - "*.aliyundrive.com"
-  - "*.autonavi.com"
-  - "*.dingtalk.com"
   - "*.hichina.com"
   - "*.mxhichina.com"
   - "*.soku.com"
@@ -210,10 +205,6 @@ cfw-bypass:
   - "*.bigfunapp.cn"
   - "*.biliapi.com"
   - "*.biliapi.net"
-  - "*.biligame.com"
-  - "*.biligame.net"
-  - "*.bilivideo.com"
-  - "*.bilivideo.cn"
   - "*.hdslb.com"
   - "*.im9.com"
   - "*.smtcdns.net"
@@ -228,38 +219,20 @@ cfw-bypass:
   - "*.byteimg.com"
   - "*.bytescm.com"
   - "*.bytetos.com"
-  - "*.bytexservice.com"
-  - "*.douyin.com"
-  - "*.douyincdn.com"
-  - "*.douyinpic.com"
-  - "*.douyinstatic.com"
-  - "*.douyinvod.com"
   - "*.feelgood.cn"
   - "*.feiliao.com"
   - "*.gifshow.com"
   - "*.huoshan.com"
-  - "*.huoshanzhibo.com"
   - "*.ibytedapm.com"
   - "*.iesdouyin.com"
   - "*.ixigua.com"
   - "*.kspkg.com"
-  - "*.toutiao13.com"
-  - "*.toutiaoapi.com"
-  - "*.toutiaocdn.com"
-  - "*.toutiaocdn.net"
-  - "*.toutiaocloud.com"
-  - "*.toutiaohao.com"
-  - "*.toutiaohao.net"
-  - "*.toutiaoimg.com"
-  - "*.toutiaopage.com"
   - "*.wukong.com"
   - "*.zijieapi.com"
   - "*.zijieimg.com"
   - "*.zjbyte.com"
   - "*.zjcdn.com"
   # CCTV
-  - "*.cctvpic.com"
-  - "*.livechina.com"
   # DiDi
   - "*.didialift.com"
   - "*.didiglobal.com"
@@ -277,9 +250,7 @@ cfw-bypass:
   - "*.hc-cdn.com"
   - "*.hicloud.com"
   - "*.hihonor.com"
-  - "*.huawei.com"
   - "*.huaweicloud.com"
-  - "*.huaweishop.net"
   - "*.hwccpc.com"
   - "*.vmallres.com"
   # Heytap
@@ -302,21 +273,14 @@ cfw-bypass:
   - "*.iqiyipic.com"
   - "*.ppsimg.com"
   - "*.qiyipic.com"
-  - "*.qy.net"
   # JD
-  - "*.360buyimg.com"
   - "*.jcloudcs.com"
   - "*.jdcloud.com"
-  - "*.jdpay.com"
-  - "*.paipai.com"
   # Kuaishou 快手
   - "*.yximgs.com"
   # Meitu
   - "*.meipai.com"
   # LeTV 乐视
-  - "*.lecloud.com"
-  - "*.letvcloud.com"
-  - "*.letvimg.com"
   # MGTV 芒果TV
   - "*.hitv.com"
   # NetEase
@@ -458,7 +422,6 @@ cfw-bypass:
   - "*.geilicdn.com"
   - "*.ghpym.com"
   - "*.godic.net"
-  - "*.guazi.com"
   - "*.gzlzfm.com"
   - "*.haibian.com"
   - "*.hollisterco.com"
@@ -469,9 +432,6 @@ cfw-bypass:
   - "*.ithome.com"
   - "*.ixdzs.com"
   - "*.jianguoyun.com"
-  - "*.jianshu.com"
-  - "*.jianshu.io"
-  - "*.jianshuapi.com"
   - "*.jmstatic.com"
   - "*.jumei.com"
   - "*.kaola.com"
@@ -483,38 +443,24 @@ cfw-bypass:
   - "*.lanzou.com"
   - "*.lanzoui.com"
   - "*.lanzoux.com"
-  - "*.lemicp.com"
   - "*.letitfly.me"
-  - "*.lizhi.fm"
-  - "*.lizhi.io"
-  - "*.lizhifm.com"
-  - "*.luoo.net"
   - "*.lvmama.com"
   - "*.lxdns.com"
   - "*.maoyan.com"
   - "*.meilishuo.com"
   - "*.migucloud.com"
-  - "*.miguvideo.com"
-  - "*.mogu.com"
-  - "*.mogucdn.com"
-  - "*.moke.com"
   - "*.msstatic.com"
   - "*.mubu.com"
   - "*.myunlu.com"
   - "*.nruan.com"
-  - "*.nuomi.com"
   - "*.onedns.net"
-  - "*.oneplus.com"
   - "*.onlinedown.net"
-  - "*.oracle.com"
-  - "*.oschina.net"
   - "*.ourdvs.com"
   - "*.polyv.net"
   - "*.qcloud.com"
   - "*.qcloudcdn.com"
   - "*.qdaily.com"
   - "*.qdmm.com"
-  - "*.qianqian.com"
   - "*.qihucdn.com"
   - "*.qin.io"
   - "*.qiniu.com"
@@ -549,7 +495,6 @@ cfw-bypass:
   - "*.uxengine.net"
   - "*.weico.cc"
   - "*.weidian.com"
-  - "*.womai.com"
   - "*.wscdns.com"
   - "*.xhscdn.com"
   - "*.xinhuanet.com"
@@ -566,31 +511,13 @@ cfw-bypass:
   - "*.yystatic.com"
   - "*.zealer.com"
   - "*.zhangzishi.cc"
-  - "*.zhanqi.tv"
-  - "*.zhaopin.com"
-  - "*.zhimg.com"
   - "*.zhuihd.com"
   - localhost
   - 127.*
-  - 10.*
-  - 172.16.*
-  - 172.17.*
-  - 172.18.*
-  - 172.19.*
-  - 172.20.*
-  - 172.21.*
-  - 172.22.*
-  - 172.23.*
-  - 172.24.*
-  - 172.25.*
-  - 172.26.*
-  - 172.27.*
-  - 172.28.*
-  - 172.29.*
-  - 172.30.*
-  - 172.31.*
-  - 192.168.*
-  - <local>
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+  - "+.local"
 cfw-latency-timeout: 3000
 proxy:
   - name: "ProxyH" # 默认使用的出站代理名称
@@ -642,13 +569,28 @@ proxy-groups:
       - xqc
     url: 'http://www.gstatic.com/generate_204'
     interval: 12000
+  - name: FlyNb
+    type: url-test
+    use:
+      - flynb
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 12000
   - name: UserC
     type: select
     use:
       - ucust
     url: 'http://www.gstatic.com/generate_204'
     interval: 12000
-
+  - name: XTwitter
+    type: select
+    proxies:
+      - UserC
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - SKR
+      - ♻️ XQC
+      - ACommon
+      - FlyNb
   - name: ♻️ 自动选择
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
@@ -684,6 +626,12 @@ proxy-groups:
     filter: "Gbps"
     #exclude-type: "vmess|trojan"
       #exclude-filter: ""
+  - name: ACommon
+    type: url-test
+    use:
+      - common
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1200
 
   - name: ⚡ 负载均衡
     type: load-balance
@@ -727,17 +675,6 @@ proxy-groups:
       - ⚡ 负载均衡
       - SKR
       - HyunWarp
-  - name: XTwitter
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🚀 节点选择
-      - SKR
-      - HyunWarp
-      - UserC
-      - ♻️ XQC
-    use:
-      - common
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -855,6 +792,16 @@ proxy-providers:
     #type: file
     interval: 10807
     path: local_data/xqc-proxies.yaml
+    health-check:
+      enable: true
+      interval: 12000
+      url: 'http://www.gstatic.com/generate_204'
+  flynb:
+    url: "https://jiahe.eu.org:15443/clash_verge/flynb-proxies.yaml"
+    type: http
+    #type: file
+    interval: 10807
+    path: local_data/flynb-proxies.yaml
     health-check:
       enable: true
       interval: 12000
@@ -1015,13 +962,14 @@ rule-providers:
   OneDrive:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
+    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
     path: ./ruleset/OneDrive.yaml
     interval: 86400
   Twitter:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Twitter.yaml"
+    format: 'text' # or 'yaml'
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/classical/twitter.txt"
     path: ./ruleset/Twitter.yaml
     interval: 86400
 
@@ -1029,7 +977,7 @@ rule-providers:
     type: http
     behavior: classical
     format: 'text' # or 'yaml'
-    url: "https://raw.githubusercontent.com/Loyalsoldier/geoip/refs/heads/release/clash/classical/cloudflare.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/classical/cloudflare.txt"
       #behavior: ipcidr
       #url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/cloudflare.yaml"
       # https://github.com/Loyalsoldier/geoip/blob/release/clash/ipcidr/cloudflare.txt
@@ -1046,7 +994,7 @@ rule-providers:
   artificial_proxy:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/manual_proxy.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/manual_proxy.yaml"
     path: ./ruleset/manual_proxy.yaml
     interval: 86400
 
@@ -1054,7 +1002,7 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/classical_direct.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/classical_direct.yaml"
     #url: "https://jiahe.eu.org:15443/clash_verge/ruleset/classical_direct.yaml"
     path: ./ruleset/classical_direct.yaml
     interval: 86400
@@ -1063,7 +1011,7 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/classical_proxy.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/classical_proxy.yaml"
     path: ./ruleset/classical_proxy.yaml
     interval: 86400
 
@@ -1071,7 +1019,7 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/proxy_bypass_cloudflare.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/proxy_bypass_cloudflare.yaml"
     path: ./ruleset/proxy_bypass_cloudflare.yaml
     interval: 86400
 

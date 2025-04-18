@@ -1,10 +1,31 @@
 proxies:
-- name: TW, Taipei11
-  type: ss
-  server: 47.129.58.69
-  port: 443
-  tls: false
-  password: amazonskr05
-  ip-version: dual
-  udp: true
-  cipher: aes-256-cfb
+  - name: 🇭🇰香港
+    type: vless
+    server: csuzhou01.1cooldns.com
+    port: 41279
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    tls: true
+    servername: www.nvidia.com
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    ip-version: dual
+    udp: true
+  - name: 🇯🇵日本
+    type: vless
+    server: shenzhou05.mysynology.net
+    port: 17278
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    tls: true
+    servername: www.yahoo.com
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    ip-version: dual
+    udp: true
