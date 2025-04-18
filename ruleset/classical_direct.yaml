@@ -16,7 +16,7 @@ payload:
   - DOMAIN-KEYWORD,xunlei
   - DOMAIN-KEYWORD,yunpan
   - DOMAIN-KEYWORD,XLLiveUD
-  #- DOMAIN-KEYWORD,cloudflare,no-resolve
+  - DOMAIN-KEYWORD,cloudflare,no-resolve
     ##（PrivateTracker直连）
   - DOMAIN-KEYWORD,tracker
   - DOMAIN-KEYWORD,announce
