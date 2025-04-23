@@ -140,6 +140,21 @@ hosts:
 cfw-bypass:
   # 直连列表
   # MyList
+  - "*.cmbc.com.cn"
+  - "*.citicbank.com"
+  - "*.cmbchina.com"
+  - "*.icbc.com.cn"
+  - "*.ccb.com"
+  - "*.spdb.com.cn"
+  - "*.abchina.com"
+  - "*.boc.cn"
+  - "*.bankcomm.com"
+  - "*.hxb.com.cn"
+  - "*.cebbank.com"
+  - "*.psbc.com"
+  - "*.bankofbeijing.com.cn"
+  - "*.95516.com"
+  - "*.unionpay.com"
   - qq.com
   - music.163.com
   - "*.13th.tech"
