@@ -59,162 +59,506 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇭🇷 克罗地亚 V2CROSS.COM 2
-  port: 180
-  server: 89.18.58.104
+- name: Flik6|[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 2
+  password: '3828095943467868160'
+  port: 443
+  server: 195.133.93.118
   skip-cert-verify: true
+  sni: humble-shad.dolphin109.quest
   tfo: false
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇭🇷 克罗地亚 V2CROSS.COM
-  port: 180
-  server: 89.18.58.63
+- name: Flik6|[Trojan] 🇷🇴 罗马尼亚 V2CROSS.COM
+  password: '3828095943467868160'
+  port: 443
+  server: 93.114.98.8
   skip-cert-verify: true
+  sni: supreme-loon.dolphin109.quest
   tfo: false
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 6
-  network: ws
-  port: 8443
-  server: skk.moe
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ba516af9-329e-4c5c-8ff6-dc59f563269e
-  ws-opts:
-    headers:
-      Host: digitaloceanus.lzj520hxw.dpdns.org
-    path: ba516af9-329e-4c5c-8ff6-dc59f563269e-vm
-- name: Flik6|[Trojan] 🇺🇸 美国 V2CROSS.COM 2
-  password: 502ce857-5d5d-4acd-9c5c-f62a9acfa54e
-  port: 42883
+- name: Flik6|[Trojan] 🇺🇸 美国 V2CROSS.COM 4
+  password: 94308660-8f30-42cc-8c6f-93bd9780106b
+  port: 27101
   server: 45.146.232.173
   skip-cert-verify: true
   sni: q08m.vgraxiw73s.hasyaf.cn
   tfo: false
   type: trojan
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: NoMoreWalls|2|🇭🇰5 |  1.4MB/s
-  network: tcp
-  port: 32919
-  server: 183.236.51.38
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: NoMoreWalls|12|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
+- name: Flik6|[Trojan] 🇦🇱 阿尔巴尼亚 V2CROSS.COM
+  password: '3828095943467868160'
   port: 443
-  server: 43.203.202.53
+  server: 109.104.154.201
+  skip-cert-verify: true
+  sni: choice-gar.dolphin109.quest
+  tfo: false
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: Flik6|[VMess] 🇭🇰 香港 电讯盈科有限公司 7
+  network: ws
+  port: 80
+  server: 5f1dfbd6-sv2sg0-t77vub-1kb47.hgc1.tcpbbr.net
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d3660af8-6181-11ed-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: Flik6|[VMess] 🇭🇰 香港 电讯盈科有限公司 2
+  network: ws
+  port: 80
+  server: 112093fc-sv2sg0-t1a26b-1dn6p.hgc1.tcpbbr.net
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f30891a2-7d0e-11ed-bb05-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: Flik6|[VMess] 🇭🇰 香港 电讯盈科有限公司 6
+  network: ws
+  port: 80
+  server: 44002edb-sv4n40-swqixu-1luqs.hgc1.tcpbbr.net
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 788328ee-d49f-11ef-bd97-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: Flik6|[VMess] 🇭🇰 香港 电讯盈科有限公司 8
+  network: ws
+  port: 80
+  server: ad2be703-sv4n40-t8dih2-9kd8.hgc1.tcpbbr.net
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8bd4eef0-e4ad-11ef-b717-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: Flik6|[VMess] 🇭🇰 香港 电讯盈科有限公司 3
+  network: ws
+  port: 80
+  server: 35c88247-sv2sg0-t65a3e-tqgz.hgc1.tcpbbr.net
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88da0d21-b25d-11ec-b9f7-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: Flik6|[VMess] 🇭🇰 香港 电讯盈科有限公司 5
+  network: ws
+  port: 80
+  server: 7fcc629b-sv4n40-szeqpq-sbt2.hgc1.tcpbbr.net
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b88ebf3a-b6b7-11ea-82ef-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- name: Flik6|[Trojan] 🇺🇸 美国 V2CROSS.COM 2
+  password: fffddde3-e433-47a0-87b7-a21f3ab4a9dc
+  port: 27002
+  server: 45.146.232.173
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tfo: false
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 🇺🇸 美国 加利福尼亚洛杉矶ITLDC Network
+  password: '3828095943467868160'
+  port: 443
+  server: classic-kangaroo.dolphin109.quest
+  skip-cert-verify: true
+  sni: classic-kangaroo.dolphin109.quest
+  tfo: false
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: Flik6|[VMess] 🇭🇰 香港 电讯盈科有限公司
+  network: ws
+  port: 80
+  server: 0bdbdfe8-sv4n40-t2e9t0-ssb3.hgc1.tcpbbr.net
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5b14630c-05d6-11ee-a790-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- name: Flik6|[Trojan] 🇺🇸 美国 V2CROSS.COM 7
+  password: '3828095943467868160'
+  port: 443
+  server: main-hound.dolphin109.quest
+  skip-cert-verify: true
+  sni: main-hound.dolphin109.quest
+  tfo: false
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 🇷🇺 俄罗斯 Barnaul State Educational University
+  password: '3828095943467868160'
+  port: 443
+  server: lucky-lynx.dolphin109.quest
+  skip-cert-verify: true
+  sni: lucky-lynx.dolphin109.quest
+  tfo: false
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: Flik6|[VMess] 🇭🇰 香港 电讯盈科有限公司 9
+  network: ws
+  port: 80
+  server: 304ec112-sv2sg0-swotpn-1nn0k.hgc1.tcpbbr.net
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f9c35596-f323-11ed-8ccd-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- name: Flik6|[Trojan] 🇮🇳 印度 V2CROSS.COM 3
+  password: '3828095943467868160'
+  port: 443
+  server: closing-longhorn.dolphin109.quest
+  skip-cert-verify: true
+  sni: closing-longhorn.dolphin109.quest
+  tfo: false
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM
+  password: '3828095943467868160'
+  port: 443
+  server: correct-pelican.dolphin109.quest
+  skip-cert-verify: true
+  sni: correct-pelican.dolphin109.quest
+  tfo: false
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: Flik6|[VMess] 🇭🇰 香港 电讯盈科有限公司 4
+  network: ws
+  port: 80
+  server: 21724941-sv2sg0-sw32p9-fha8.hgc1.tcpbbr.net
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8ec8325a-efa4-11ef-a7bb-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 5
+  network: ws
+  port: 443
+  server: 104.18.149.75
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: cae97b1c-35e8-4cf2-dc1b-52032c3d3fa7
+  ws-opts:
+    headers:
+      Host: jp.insbot.filegear-sg.me
+    path: /aa
+- name: Flik6|[Trojan] 🇭🇰 香港 LeaseWeb HKG10数据中心
+  password: '3828095943467868160'
+  port: 443
+  server: 203.23.128.48
+  skip-cert-verify: true
+  sni: evolving-hippo.dolphin109.quest
+  tfo: false
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 🇺🇸 美国 V2CROSS.COM 5
+  password: 0092e8f5-d988-4328-b255-4c59956236a0
+  port: 43499
+  server: 45.146.232.173
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tfo: false
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 🇺🇸 美国 V2CROSS.COM 3
+  password: 0092e8f5-d988-4328-b255-4c59956236a0
+  port: 43499
+  server: 45.146.232.171
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tfo: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 广东省湛江市 移动
+  port: 50082
+  server: 120.198.71.216
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: Flik6|[Trojan] 🇬🇧 英国 V2CROSS.COM 2
+  password: '3828095943467868160'
+  port: 443
+  server: 85.234.83.28
+  skip-cert-verify: true
+  sni: workable-puma.dolphin109.quest
+  tfo: false
+  type: trojan
+  udp: true
+- name: NoMoreWalls|2|🇳🇱2 |  1.2MB/s
+  password: '3828095943467868160'
+  port: 443
+  server: 109.104.153.229
+  skip-cert-verify: true
+  sni: exotic-wahoo.dolphin109.quest
+  type: trojan
+- cipher: rc4-md5
+  name: NoMoreWalls|12|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202504221857755-wjQtxZzCYu.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- name: NoMoreWalls|14|LU_speednode_0068
+  password: '3828095943467868160'
+  port: 443
+  server: 93.174.164.49
+  skip-cert-verify: true
+  sni: concrete-lion.dolphin109.quest
+  type: trojan
+  udp: true
+- name: NoMoreWalls|2,14|GB_speednode_0059
+  password: '3828095943467868160'
+  port: 443
+  server: 202.78.163.141
+  skip-cert-verify: true
+  sni: sharp-bear.dolphin109.quest
+  type: trojan
+  udp: true
+- name: NoMoreWalls|2|🇳🇱7 |  1.1MB/s
+  password: '3828095943467868160'
+  port: 443
+  server: 85.234.65.100
+  skip-cert-verify: true
+  sni: handy-sparrow.dolphin109.quest
+  tfo: false
+  type: trojan
+  udp: true
+- name: NoMoreWalls|14|NL_speednode_0075
+  password: '3828095943467868160'
+  port: 443
+  server: choice-gar.dolphin109.quest
+  skip-cert-verify: true
+  sni: choice-gar.dolphin109.quest
+  type: trojan
+  udp: true
+- name: NoMoreWalls|2|🌀8-CZ |  4.4MB/s
+  password: '3828095943467868160'
+  port: 443
+  server: humble-shad.dolphin109.quest
+  skip-cert-verify: true
+  sni: humble-shad.dolphin109.quest
+  type: trojan
+- name: NoMoreWalls|2|🇦🇪1 |  1.1MB/s
+  password: '3828095943467868160'
+  port: 443
+  server: dynamic-dane.dolphin109.quest
+  skip-cert-verify: true
+  sni: dynamic-dane.dolphin109.quest
+  type: trojan
+- name: NoMoreWalls|14|SG_speednode_0077
+  password: '3828095943467868160'
+  port: 443
+  server: stable-labrador.dolphin109.quest
+  skip-cert-verify: true
+  sni: stable-labrador.dolphin109.quest
+  type: trojan
+  udp: true
+- name: NoMoreWalls|14|GB_speednode_0058
+  password: '3828095943467868160'
+  port: 443
+  server: sharp-bear.dolphin109.quest
+  skip-cert-verify: true
+  sni: sharp-bear.dolphin109.quest
+  type: trojan
+  udp: true
+- name: NoMoreWalls|14|NL_speednode_0073
+  password: '3828095943467868160'
+  port: 443
+  server: exotic-wahoo.dolphin109.quest
+  skip-cert-verify: true
+  sni: exotic-wahoo.dolphin109.quest
+  type: trojan
+  udp: true
+- name: NoMoreWalls|2,14|GB_speednode_0061
+  password: '3828095943467868160'
+  port: 443
+  server: mutual-gannet.dolphin109.quest
+  skip-cert-verify: true
+  sni: mutual-gannet.dolphin109.quest
+  type: trojan
+  udp: true
 - cipher: rc4-md5
   name: NoMoreWalls|12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504212352625-mSKdydjLdf.download.microsoft.com
+    host: 202504221857755-wjQtxZzCYu.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-128-cfb
-  name: NoMoreWalls|2|🇺🇸4 |  5.1MB/s
-  password: shadowsocks
+- allowInsecure: ''
+  name: NoMoreWalls|2|🇺🇸12 |  5.4MB/s
+  network: ws
+  password: 15b24b56-d667-4fa8-b548-f3dc942fb461
   port: 443
-  server: 184.170.241.194
+  server: 104.21.34.159
+  skip-cert-verify: false
+  sni: 2qwert.2031.pp.ua
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 2qwert.2031.pp.ua
+    path: /4p35eUnmGxQ8YJFJxz
+- alterId: '2'
+  cipher: auto
+  name: NoMoreWalls|2|🇺🇸23 |  5.1MB/s
+  network: ws
+  port: '30829'
+  server: v29.heduian.link
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /oooo
+- cipher: chacha20-ietf-poly1305
+  name: NoMoreWalls|12|🇭🇰 香港3|@ripaojiedian
+  password: 91a41f4e02dc
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hkkh11v1.xpmc.cc
+    mode: websocket
+    mux: true
+    path: /utvbnrzejpmt
+    skip-cert-verify: false
+    tls: true
+  port: 50101
+  server: hkkh11v1.xpmc.cc
+  tfo: false
   type: ss
-- allowInsecure: ''
-  name: NoMoreWalls|2|🇺🇸9 |  5.2MB/s
-  network: ws
-  password: 072f4db4-d89d-420d-9d9e-045ed8d5c9cc
+- name: NoMoreWalls|14|LU_speednode_0069
+  password: '3828095943467868160'
   port: 443
-  server: 104.21.86.44
-  skip-cert-verify: false
-  sni: 10xcvb.he2022.filegear-sg.me
-  tls: true
+  server: concrete-lion.dolphin109.quest
+  skip-cert-verify: true
+  sni: concrete-lion.dolphin109.quest
   type: trojan
-  ws-opts:
-    headers:
-      Host: 10xcvb.he2022.filegear-sg.me
-    path: /VEP415T5mby2DulPWRIwOavJd
-- allowInsecure: ''
-  name: NoMoreWalls|2|🇺🇸39 |  5.9MB/s
-  network: ws
-  password: 0212fab5-e93c-4904-b7a8-187fd535f354
-  port: 443
-  server: 104.21.49.59
-  skip-cert-verify: false
-  sni: 3wsxcvbn.890617.xyz
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 3wsxcvbn.890617.xyz
-    path: /rFt8MpX4JNWO67qEaMINZ1
-- allowInsecure: ''
-  name: NoMoreWalls|2|🇺🇸33 |  5.0MB/s
-  network: ws
-  password: 0212fab5-e93c-4904-b7a8-187fd535f354
-  port: 443
-  server: 172.67.159.56
-  skip-cert-verify: false
-  sni: 3wsxcvbn.890617.xyz
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 3wsxcvbn.890617.xyz
-    path: /rFt8MpX4JNWO67qEaMINZ1
+  udp: true
 - alterId: 0
   cipher: auto
-  name: NoMoreWalls|13|美国|@ripaojiedian
+  name: NoMoreWalls|2|🇺🇸9 |  3.6MB/s
+  network: ws
+  port: 443
+  server: 9uyiopsdfh.iran.pp.ua
+  servername: 9uyiopsdfh.iran.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 906ba92f-ef96-4133-8eee-f33202a5a721
+  ws-opts:
+    headers:
+      Host: 9uyiopsdfh.iran.pp.ua
+    path: /DAxJddOdTd5pVam9w
+- name: NoMoreWalls|2|🇳🇱1 |  1.9MB/s
+  password: '3828095943467868160'
+  port: 443
+  server: 85.234.65.12
+  sni: mutual-gannet.dolphin109.quest
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: NoMoreWalls|13|香港6|@ripaojiedian
   network: tcp
-  port: '44015'
-  server: 120.198.71.219
+  port: '43674'
+  server: 120.234.102.229
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: NoMoreWalls|2|🇳🇱2 |  5.4MB/s
-  password: MWYyN
-  port: 8388
-  server: 85.209.158.11
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: NoMoreWalls|2|🇳🇱7 |  3.4MB/s
-  password: NGQ1Y
-  port: 8388
-  server: 194.124.250.4
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: NoMoreWalls|2|🇫🇷7 |  1.1MB/s
-  network: ws
-  port: '443'
-  server: 158.180.228.226
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      host: beyonddsz.cfd
-    path: /linkws
+- name: NoMoreWalls|12,13,14|CN_speednode_0046
+  network: tcp
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: dozo01.flztjc.top
+  skip-cert-verify: false
+  sni: hk-13-568.flztjc.net
+  type: trojan
+  udp: true
+- name: NoMoreWalls|2,14|CN_speednode_0020
+  password: fe966b1a-3db5-442b-b64d-06650137f489
+  port: 43498
+  server: sla.cn.964e995b760.gogodns.xin
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
   name: NoMoreWalls|13|香港8|@ripaojiedian
@@ -227,46 +571,38 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: NoMoreWalls|12|🇸🇬 新加坡2|@ripaojiedian
-  port: 41902
-  server: 183.236.51.38
+  name: NoMoreWalls|2|🌀16-ID |  1.1MB/s
+  port: 17234
+  server: cd5a3a1e-sv8cg0-tcw58g-1p0be.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- alterId: 64
+  cipher: auto
+  name: NoMoreWalls|12|🇭🇰 香港7|@ripaojiedian
+  port: 36609
+  server: 120.232.153.40
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: NoMoreWalls|12|🇭🇰 香港9|@ripaojiedian
-  password: 91a41f4e02dc
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hkkh11v1.xpmc.cc
-    mode: websocket
-    mux: true
-    path: /utvbnrzejpmt
-    skip-cert-verify: false
-    tls: true
-  port: 31402
-  server: hkkh11v1.xpmc.cc
+- alterId: 0
+  cipher: auto
+  name: NoMoreWalls|12|🇺🇸 美国|@ripaojiedian
+  port: 44015
+  server: 120.198.71.219
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: openRunner|🇯🇵 日本3
   port: 32980
   server: 120.198.71.214
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: openRunner|🇭🇰 香港7
-  port: 36609
-  server: 120.232.153.40
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -283,6 +619,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-cfb
+  ip-version: dual
+  name: dayfree|🇺🇸_US_美国
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   ip-version: dual
   name: forever|🇺🇸_US_美国->🇷🇺_RU_俄罗斯
@@ -461,49 +805,21 @@ proxies:
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
+  name: airport|🇨🇳 中国_6
+  network: tcp
+  port: '50002'
+  server: 112.132.215.12
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
   name: airport|🇨🇳 中国_2
   network: tcp
   port: '59003'
   server: 183.236.51.36
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: airport|🇹🇼 台湾_18
-  password: qwerREWQ@@
-  port: '64759'
-  server: 185.189.160.98
-  type: ss
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇨🇳 中国_4
-  network: tcp
-  port: '50002'
-  server: 47.104.186.133
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alpn:
-  - http/1.1
-  name: airport|🇩🇪 德国_8
-  password: telegram-id-vlessconfig
-  port: '22222'
-  server: 3.126.154.68
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇹🇷 土耳其_2
-  password: HLJHywJQTSfO5Lqg57Hfig
-  port: '55548'
-  server: 62.60.233.240
-  type: ss
-- name: airport|🇭🇰 香港_5
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: '8313'
-  server: 121.14.61.174
-  skip-cert-verify: false
-  sni: hk-13-568.flztjc.net
-  type: trojan
 - name: airport|🇭🇰 香港_9
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: '8313'
@@ -514,12 +830,90 @@ proxies:
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
+  name: airport|❓ 未知_6
+  network: tcp
+  port: '50002'
+  server: 47.92.152.169
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: airport|🇨🇳 中国_1
+  network: tcp
+  port: '50002'
+  server: 120.26.55.225
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: airport|🇭🇰 香港_5
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: '8313'
+  server: 121.14.61.174
+  skip-cert-verify: false
+  sni: hk-13-568.flztjc.net
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: airport|🇹🇷 土耳其_2
+  password: HLJHywJQTSfO5Lqg57Hfig
+  port: '55548'
+  server: 62.60.233.240
+  type: ss
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: airport|🇸🇬 新加坡_1
+  network: tcp
+  port: '57852'
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: airport|🇨🇳 中国_5
+  port: '34652'
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
   name: airport|🇭🇰 香港_2
   port: '59082'
   server: 120.232.153.40
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '0'
+  cipher: auto
+  name: airport|🇺🇸 美国_3
+  network: tcp
+  port: '42259'
+  server: 120.198.71.216
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '2'
+  cipher: auto
+  name: airport|❓ 未知_10
+  network: ws
+  port: '80'
+  server: 2ef3f2b4-sv2sg0-tasors-1tdqt.hgc1.tcpbbr.net
+  servername: 🇭🇰HK-1.36.223.14-7073 | 9.215MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 2ef3f2b4-sv2sg0-tasors-1tdqt.hgc1.tcpbbr.net
+    path: /
 - alterId: 0
   cipher: auto
   name: mfuu|🇨🇳CN-112.132.215.34-275
@@ -565,13 +959,6 @@ proxies:
   ws-headers:
     Host: 183.236.51.38
   ws-path: /
-- name: mfuu|🇳🇱NL-109.104.154.201-504
-  password: 3828095943467868160
-  port: 443
-  server: choice-gar.dolphin109.quest
-  skip-cert-verify: true
-  sni: choice-gar.dolphin109.quest
-  type: trojan
 - name: mfuu|🇺🇸US-23.95.79.152-488
   password: 3828095943467868160
   port: 443
@@ -579,26 +966,6 @@ proxies:
   skip-cert-verify: true
   sni: direct-mollusk.dolphin109.quest
   type: trojan
-- name: mfuu|🇳🇱NL-109.104.153.229-448
-  password: 3828095943467868160
-  port: 443
-  server: exotic-wahoo.dolphin109.quest
-  skip-cert-verify: true
-  sni: exotic-wahoo.dolphin109.quest
-  type: trojan
-- alterId: 64
-  cipher: auto
-  name: mfuu|🇨🇳CN-120.234.102.229-236
-  network: tcp
-  port: 43674
-  server: 120.234.102.229
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.234.102.229
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: mfuu|🇳🇱NL-195.85.250.173-019
   password: 4QbzZcp6q7kg0LCrZfyQ9w
@@ -633,27 +1000,6 @@ proxies:
   skip-cert-verify: true
   sni: equal-porpoise.dolphin109.quest
   type: trojan
-- name: mfuu|🇸🇬SG-103.106.229.240-502
-  password: 3828095943467868160
-  port: 443
-  server: stable-labrador.dolphin109.quest
-  skip-cert-verify: true
-  sni: stable-labrador.dolphin109.quest
-  type: trojan
-- name: mfuu|🇺🇿UZ-93.174.164.49-227
-  password: 3828095943467868160
-  port: 443
-  server: concrete-lion.dolphin109.quest
-  skip-cert-verify: true
-  sni: concrete-lion.dolphin109.quest
-  type: trojan
-- name: mfuu|🇦🇪AE-212.192.2.253-197
-  password: 3828095943467868160
-  port: 443
-  server: dynamic-dane.dolphin109.quest
-  skip-cert-verify: true
-  sni: dynamic-dane.dolphin109.quest
-  type: trojan
 - alterId: 0
   cipher: auto
   name: mfuu|🇦🇪AE-31.58.51.127-075
@@ -687,20 +1033,19 @@ proxies:
   ws-headers:
     Host: nl.ipv4.v2rayflash.top
   ws-path: /
-- name: mfuu|🇺🇸US-162.216.231.86-180
-  password: 3828095943467868160
-  port: 443
-  server: main-hound.dolphin109.quest
+- alterId: 0
+  cipher: auto
+  name: mfuu|🇨🇳CN-183.236.51.38-307
+  network: tcp
+  port: 32919
+  server: 183.236.51.38
   skip-cert-verify: true
-  sni: main-hound.dolphin109.quest
-  type: trojan
-- name: mfuu|🇳🇱NL-85.234.65.12-187
-  password: 3828095943467868160
-  port: 443
-  server: mutual-gannet.dolphin109.quest
-  skip-cert-verify: true
-  sni: mutual-gannet.dolphin109.quest
-  type: trojan
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - name: mfuu|🇸🇬SG-103.106.229.195-482
   password: 3828095943467868160
   port: 443
@@ -789,13 +1134,19 @@ proxies:
   ws-headers:
     Host: 9b521ad7-sv2sg0-t2whio-1jcwu.hk.p5pv.com
   ws-path: /
-- name: mfuu|🇺🇸US-95.85.93.192-190
-  password: 3828095943467868160
-  port: 443
-  server: correct-pelican.dolphin109.quest
+- alterId: 0
+  cipher: auto
+  name: mfuu|🇨🇳CN-183.236.51.38-529
+  network: tcp
+  port: 41902
+  server: 183.236.51.38
   skip-cert-verify: true
-  sni: correct-pelican.dolphin109.quest
-  type: trojan
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - name: mfuu|🇭🇰HK-203.23.128.48-465
   password: 3828095943467868160
   port: 443
@@ -878,22 +1229,14 @@ proxies:
 - alterId: 0
   cipher: auto
   ip-version: dual
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3137383833356432
+  name: ruk1ng|🟡_🇨🇳_💼_github.com/Ruk1ng001_3930363731346639
   network: tcp
   port: 50002
-  server: 112.132.215.12
+  server: 47.104.186.133
   tls: false
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: ruk1ng|github.com/Ruk1ng001_6538323937663637
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: dozo01.flztjc.top
-  skip-cert-verify: false
-  sni: hk-13-568.flztjc.net
-  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: ruk1ng|🟡_🇹🇭_💻_github.com/Ruk1ng001_6231633532313733
@@ -921,36 +1264,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|github.com/Ruk1ng001_3534363136316231
-  port: 17234
-  server: cd5a3a1e-sv8cg0-tcw58g-1p0be.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
 - name: ruk1ng|github.com/Ruk1ng001_3637616364373530
   password: VMhGp5wEIyCDf90T
   port: 42303
   server: csuzhou01.1cooldns.com
   sni: hk06.run.place
   type: trojan
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  h2-opts: {}
-  http-opts: {}
-  name: ruk1ng|github.com/Ruk1ng001_6337303437626362
-  network: ws
-  port: 80
-  server: 35c88247-sv2sg0-t65a3e-tqgz.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 88da0d21-b25d-11ec-b9f7-f23c91cfbbc9
-  ws-headers:
-    HOST: broadcastlv.chat.bilibili.com
-  ws-path: /
 - name: ruk1ng|github.com/Ruk1ng001_3766313064646337
   password: 07b8825c-1324-42ba-b4f2-7926ed38a7b4
   port: 27002
@@ -963,23 +1282,6 @@ proxies:
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- name: ruk1ng|github.com/Ruk1ng001_3763333534313062
-  password: 29f1c9e5-d0e9-472c-8cf7-aed4f119bd5e
-  port: 43498
-  server: sla.cn.964e995b760.gogodns.xin
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- alterId: 64
-  cipher: auto
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_6166346164643166
-  port: 50082
-  server: 120.198.71.216
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: ruk1ng|github.com/Ruk1ng001_3832363834616137
   password: 08946a45-1999-4e83-b448-4976372d4ae6
   port: 27001
@@ -992,14 +1294,6 @@ proxies:
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3939643135333838
-  network: tcp
-  port: 34652
-  server: 183.236.51.38
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: ruk1ng|github.com/Ruk1ng001_3732623933646462
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
@@ -1110,13 +1404,6 @@ proxies:
   skip-cert-verify: true
   sni: modest-firefly.dolphin109.quest
   type: trojan
-- name: ermaozi|🇬🇧_GB_英国->🇷🇴_RO_罗马尼亚
-  password: '3828095943467868160'
-  port: 443
-  server: 85.234.65.100
-  skip-cert-verify: true
-  sni: handy-sparrow.dolphin109.quest
-  type: trojan
 - alterId: 0
   cipher: auto
   name: ermaozi|🇺🇸_US_美国_3
@@ -1159,20 +1446,6 @@ proxies:
   server: 95.85.93.192
   sni: correct-pelican.dolphin109.quest
   type: trojan
-- name: ermaozi|🇪🇸_ES_西班牙_1
-  password: '3828095943467868160'
-  port: 443
-  server: lucky-lynx.dolphin109.quest
-  skip-cert-verify: true
-  sni: lucky-lynx.dolphin109.quest
-  type: trojan
-- name: ermaozi|🇷🇺_RU_俄罗斯
-  password: '3828095943467868160'
-  port: 443
-  server: humble-shad.dolphin109.quest
-  skip-cert-verify: true
-  sni: humble-shad.dolphin109.quest
-  type: trojan
 - name: ermaozi|🇪🇸_ES_西班牙
   password: '3828095943467868160'
   port: 443
@@ -1193,16 +1466,15 @@ proxies:
     headers:
       host: 1sdfghjk.890602.xyz
     path: /OYzPAeaZdXUq2d6J3gc4aj
-- name: ermaozi|🇦🇱_AL_阿尔巴尼亚_1
-  password: '3828095943467868160'
-  port: 443
-  server: 109.104.153.229
-  skip-cert-verify: true
-  sni: exotic-wahoo.dolphin109.quest
-  type: trojan
 - name: ermaozi|🇳🇱_NL_荷兰->🇷🇺_RU_俄罗斯_1
   password: e7793c4f-2885-475c-8046-26e660c46467
   port: 43586
   server: 45.146.232.171
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: mahdiblanda|🇳🇱NL-85.209.158.11-1461 | 15.919MB
+  password: MWYyN
+  port: 8388
+  server: 85.209.158.11
+  type: ss

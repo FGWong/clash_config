@@ -2,5 +2,6 @@ payload:
   - PROCESS-NAME,Warp
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,hd-torrents.org
+  - DOMAIN-SUFFIX,star-space.net
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-KEYWORD,cloudflare
