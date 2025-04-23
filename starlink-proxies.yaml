@@ -1,0 +1,1127 @@
+proxies:
+- name: 官网：xship.top
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 10505
+  server: starlink-tw3.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 遇到问题?进群讨论
+  network: ws
+  password: 82c38befa875bc2ef4fa90ce0aa839d5
+  port: 443
+  server: notice.2513142.xyz
+  skip-cert-verify: true
+  sni: notice.2513142.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 🔰 免费订阅，此类节点无风控
+  network: ws
+  password: 82c38befa875bc2ef4fa90ce0aa839d5
+  port: 443
+  server: notice.2513142.xyz
+  skip-cert-verify: true
+  sni: notice.2513142.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 🎯 永久不限量「风控看官网说明」
+  network: ws
+  password: 82c38befa875bc2ef4fa90ce0aa839d5
+  port: 443
+  server: notice.2513142.xyz
+  skip-cert-verify: true
+  sni: notice.2513142.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 🇸🇬 新加坡1
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sgp.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇸🇬 新加坡2
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sgp2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇸🇬 新加坡3
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sgp3.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇸🇬 新加坡4
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sgp4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇸🇬 新加坡5
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sgp5.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇸🇬 新加坡6
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sgp4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇸🇬 新加坡7
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sgp3.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇸🇬 新加坡8
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sgp2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇸🇬 新加坡9
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sgp.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇸🇬 新加坡10
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sgp2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇯🇵 日本1
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-tko.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇯🇵 日本2
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-tko2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇯🇵 日本3
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-tko3.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇯🇵 日本4
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-tko4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇯🇵 日本5
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-tko5.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇯🇵 日本6
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-tko4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇯🇵 日本7
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-tko3.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇯🇵 日本8
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-tko2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇯🇵 日本9
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-tko.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇯🇵 日本10
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-tko2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇨🇳 台湾1
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 16301
+  server: starlink-tw4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇨🇳 台湾2
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 22101
+  server: starlink-tw.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇨🇳 台湾3
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 16302
+  server: starlink-tw4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇨🇳 台湾4
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 21542
+  server: starlink-tw2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇨🇳 台湾5
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 16303
+  server: starlink-tw4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇨🇳 台湾6
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 10505
+  server: starlink-tw3.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇨🇳 台湾7
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 16304
+  server: starlink-tw4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇨🇳 台湾8
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 16305
+  server: starlink-tw4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇭🇰 香港1丨HYPER🔒
+  password: 升级订阅解锁全部节点
+  port: 20000
+  server: starlink-hkx.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港2丨HYPER🔒
+  password: 升级订阅解锁全部节点
+  port: 20000
+  server: starlink-hkx2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港3丨HYPER🔒
+  password: 升级订阅解锁全部节点
+  port: 20001
+  server: starlink-hkx3.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港4丨HYPER🔒
+  password: 升级订阅解锁全部节点
+  port: 22300
+  server: starlink-hkx.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港5丨HYPER🔒
+  password: 升级订阅解锁全部节点
+  port: 23880
+  server: starlink-hkx2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港6丨HYPER🔒
+  password: 升级订阅解锁全部节点
+  port: 28880
+  server: starlink-hkx3.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港7🔒
+  password: 升级订阅解锁全部节点
+  port: 30005
+  server: starlink-hkt.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: 🇭🇰 香港8🔒
+  password: 升级订阅解锁全部节点
+  port: 58651
+  server: starlink-hkt2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港9🔒
+  password: 升级订阅解锁全部节点
+  port: 25134
+  server: starlink-hkt4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港10
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 30000
+  server: starlink-hkt.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇭🇰 香港11
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 58641
+  server: starlink-hkt2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇭🇰 香港12
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 25131
+  server: starlink-hkt3.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇭🇰 香港13(移动)
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-hk.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇭🇰 香港14(移动)
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-hk2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇵🇭 菲律宾1🔒
+  password: 升级订阅解锁全部节点
+  port: 58661
+  server: starlink-hkt2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇵🇭 菲律宾2🔒
+  password: 升级订阅解锁全部节点
+  port: 58661
+  server: starlink-hkt2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇮🇩 印度尼西亚1🔒
+  password: 升级订阅解锁全部节点
+  port: 10002
+  server: starlink-sgp4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇮🇩 印度尼西亚2🔒
+  password: 升级订阅解锁全部节点
+  port: 10002
+  server: starlink-sgp4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇻🇳 越南1🔒
+  password: 升级订阅解锁全部节点
+  port: 58662
+  server: starlink-hkt2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇻🇳 越南2🔒
+  password: 升级订阅解锁全部节点
+  port: 58662
+  server: starlink-hkt2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇹🇭 泰国1🔒
+  password: 升级订阅解锁全部节点
+  port: 10001
+  server: starlink-sgp4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇹🇭 泰国2🔒
+  password: 升级订阅解锁全部节点
+  port: 10001
+  server: starlink-sgp4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇧🇩 孟加拉1🔒
+  password: 升级订阅解锁全部节点
+  port: 58663
+  server: starlink-hkt2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇧🇩 孟加拉2🔒
+  password: 升级订阅解锁全部节点
+  port: 58663
+  server: starlink-hkt2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇰🇷 韩国1
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sol.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇰🇷 韩国2
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sol2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇰🇷 韩国3
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sol3.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇰🇷 韩国4
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sol4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇰🇷 韩国5
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sol2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇰🇷 韩国6
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sol4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇺🇸 美国1
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sfo.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇺🇸 美国2
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sfo2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇺🇸 美国3
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sfo3.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇺🇸 美国4
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sfo4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇺🇸 美国5
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sfo5.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇺🇸 美国6
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sfo6.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇺🇸 美国7
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sfo7.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇺🇸 美国8
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-sfo8.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇺🇸 美国9🔒
+  network: ws
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-sfo3.2513142.xyz
+  skip-cert-verify: true
+  sni: starlink-sfo3.2513142.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 🇺🇸 美国10🔒
+  network: ws
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-sfo4.2513142.xyz
+  skip-cert-verify: true
+  sni: starlink-sfo4.2513142.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 🇺🇸 美国11🔒
+  network: ws
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-sfo5.2513142.xyz
+  skip-cert-verify: true
+  sni: starlink-sfo5.2513142.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 🇺🇸 美国12🔒
+  network: ws
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-sfo6.2513142.xyz
+  skip-cert-verify: true
+  sni: starlink-sfo6.2513142.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 🇺🇸 美国13🔒
+  network: ws
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-sfo7.2513142.xyz
+  skip-cert-verify: true
+  sni: starlink-sfo7.2513142.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 🇺🇸 美国14🔒
+  network: ws
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-sfo8.2513142.xyz
+  skip-cert-verify: true
+  sni: starlink-sfo8.2513142.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 🇺🇸 美国15🔒
+  network: ws
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-sfo2.2513142.xyz
+  skip-cert-verify: true
+  sni: starlink-sfo2.2513142.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 🇺🇸 美国16🔒
+  network: ws
+  password: Beta实验性
+  port: 443
+  server: x-sjs.2513142.xyz
+  skip-cert-verify: true
+  sni: x-sjs.2513142.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 🇦🇺 澳大利亚1(联通电信)
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-syd2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇦🇺 澳大利亚2(联通电信)
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-syd2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇦🇺 澳大利亚3(移动)
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-syd.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇦🇺 澳大利亚4(移动)
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-syd.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇦🇺 澳大利亚5(移动联通)🔒
+  password: Beta实验性
+  port: 25131
+  server: sydney-mini-ddns.faforex.eu.org
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇳🇿 新西兰1🔒
+  password: 升级订阅解锁全部节点
+  port: 20175
+  server: 103.243.170.17
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  udp: true
+- name: 🇳🇿 新西兰2🔒
+  password: 升级订阅解锁全部节点
+  port: 10005
+  server: starlink-sgp4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇮🇳 印度1(联通)🔒
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-blr.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇮🇳 印度2🔒
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-blr2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇮🇳 印度3🔒
+  password: 升级订阅解锁全部节点
+  port: 10006
+  server: starlink-sgp4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- cipher: aes-128-gcm
+  name: 🇮🇳 印度4🔒
+  password: 升级订阅解锁全部节点
+  port: 4433
+  server: starlink-blr2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: ss
+  udp: true
+- name: 🇦🇪 阿联酋🔒
+  password: 升级订阅解锁全部节点
+  port: 10003
+  server: starlink-sgp4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇸🇦 沙特阿拉伯🔒
+  password: 升级订阅解锁全部节点
+  port: 10004
+  server: starlink-sgp4.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇩🇪 德国1
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-fra.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇩🇪 德国2
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇩🇪 德国3
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 4433
+  server: starlink-fra.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: 🇩🇪 德国4
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 4433
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: 🇫🇷 法国1
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-par.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇫🇷 法国2
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-par2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇫🇷 法国3
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-par.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇫🇷 法国4🔒
+  password: Beta实验性
+  port: 42600
+  server: 84.235.237.61
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇬🇧 英国1🔒
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-lon.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇬🇧 英国2🔒
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-lon2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇮🇪 爱尔兰1🔒
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 443
+  server: starlink-irl.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇮🇪 爱尔兰2🔒
+  password: _RP5WBvhkvkfK72mu4gwgQtv
+  port: 4433
+  server: starlink-irl.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: 🇮🇹 意大利1🔒
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-mil.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇮🇹 意大利2🔒
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-mil.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇪🇸 西班牙1🔒
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-mad.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇪🇸 西班牙2🔒
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-mad.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇸🇪 瑞典1🔒
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-sto.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇸🇪 瑞典2🔒
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-sto.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇳🇱 荷兰1🔒
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-ams.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇳🇱 荷兰2🔒
+  password: 升级订阅解锁全部节点
+  port: 4433
+  server: starlink-ams.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: 🇲🇽 墨西哥🔒
+  network: ws
+  password: Beta实验性
+  port: 443
+  server: x-mty.2513142.xyz
+  skip-cert-verify: true
+  sni: x-mty.2513142.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 🇨🇦 加拿大1🔒
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-tor.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇨🇦 加拿大2🔒
+  password: 升级订阅解锁全部节点
+  port: 443
+  server: starlink-tor.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+- name: 🇪🇬 埃及🔒
+  password: 升级订阅解锁全部节点
+  port: 10001
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇮🇱 以色列🔒
+  password: 升级订阅解锁全部节点
+  port: 10002
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇦🇿 阿塞拜疆1🔒
+  password: 升级订阅解锁全部节点
+  port: 20065
+  server: 94.20.88.36
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  udp: true
+- name: 🇦🇿 阿塞拜疆2🔒
+  password: 升级订阅解锁全部节点
+  port: 10003
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇹🇷 土耳其1🔒
+  password: 升级订阅解锁全部节点
+  port: 20195
+  server: 185.36.127.46
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  udp: true
+- name: 🇹🇷 土耳其2🔒
+  password: 升级订阅解锁全部节点
+  port: 10004
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇧🇬 保加利亚1🔒
+  password: 升级订阅解锁全部节点
+  port: 20045
+  server: 79.124.29.25
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  udp: true
+- name: 🇧🇬 保加利亚2🔒
+  password: Beta实验性
+  port: 20041
+  server: 79.124.29.25
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇲🇩 摩尔多瓦🔒
+  password: 升级订阅解锁全部节点
+  port: 10005
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇺🇦 乌克兰🔒
+  password: 升级订阅解锁全部节点
+  port: 10006
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇭🇺 匈牙利🔒
+  password: 升级订阅解锁全部节点
+  port: 10007
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇵🇱 波兰1🔒
+  password: 升级订阅解锁全部节点
+  port: 20185
+  server: 212.127.78.119
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  udp: true
+- name: 🇵🇱 波兰2🔒
+  password: Beta实验性
+  port: 20181
+  server: 212.127.78.119
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇨🇿 捷克🔒
+  password: 升级订阅解锁全部节点
+  port: 10008
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇨🇭 瑞士🔒
+  password: 升级订阅解锁全部节点
+  port: 10009
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇰🇬 吉尔吉斯斯坦1🔒
+  password: 升级订阅解锁全部节点
+  port: 20075
+  server: 188.240.213.45
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  udp: true
+- name: 🇰🇬 吉尔吉斯斯坦2🔒
+  password: Beta实验性
+  port: 20071
+  server: 188.240.213.45
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇰🇿 哈萨克斯坦1🔒
+  password: 升级订阅解锁全部节点
+  port: 20285
+  server: 89.218.15.134
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  udp: true
+- name: 🇰🇿 哈萨克斯坦2🔒
+  password: Beta实验性
+  port: 20281
+  server: 89.218.15.134
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇷🇺 俄罗斯🔒
+  password: 升级订阅解锁全部节点
+  port: 10010
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇱🇹 立陶宛🔒
+  password: 升级订阅解锁全部节点
+  port: 10011
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇳🇴 挪威🔒
+  password: 升级订阅解锁全部节点
+  port: 10012
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇮🇸 冰岛🔒
+  password: 升级订阅解锁全部节点
+  port: 10013
+  server: starlink-fra2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇨🇴 哥伦比亚🔒
+  network: ws
+  password: Beta实验性
+  port: 443
+  server: x-bog.2513142.xyz
+  skip-cert-verify: true
+  sni: x-bog.2513142.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 🇧🇷 巴西1🔒
+  password: Beta实验性
+  port: 27000
+  server: 144.22.202.82
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇧🇷 巴西2🔒
+  password: Beta实验性
+  port: 27000
+  server: 144.22.202.82
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇨🇱 智利🔒
+  network: ws
+  password: Beta实验性
+  port: 443
+  server: x-stg.2513142.xyz
+  skip-cert-verify: true
+  sni: x-stg.2513142.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 🇿🇦 南非1🔒
+  password: 升级订阅解锁全部节点
+  port: 20045
+  server: 102.219.85.236
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  udp: true
+- name: 🇿🇦 南非2🔒
+  password: Beta实验性
+  port: 20041
+  server: 102.219.85.236
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: 🇹🇬 多哥1🔒
+  password: 升级订阅解锁全部节点
+  port: 20155
+  server: 154.70.82.31
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  udp: true
+- name: 🇹🇬 多哥2🔒
+  password: Beta实验性
+  port: 20151
+  server: 154.70.82.31
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
