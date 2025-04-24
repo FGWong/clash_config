@@ -29,3 +29,59 @@ proxies:
       public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
     ip-version: dual
     udp: true
+  - name: SG-Cylix_1
+    type: vless
+    server: 92.112.20.77
+    port: 26994
+    uuid: 3ce409b1-954f-44b0-8a76-406714e800b0
+    network: tcp
+    tls: true
+    servername: www.iij.ad.jp
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: u6_U1GFMVn-ZfSqCJixV7-QF0z4ER4Pm-QWGW2xTklE
+    ip-version: dual
+    udp: true
+  - name: SG-Cylix_2
+    type: vmess
+    server: www.visa.com.tw
+    port: 443
+    uuid: 3ce409b1-954f-44b0-8a76-406714e800b0
+    network: ws
+    tls: true
+    servername: fatty-disaster-fossil-theme.trycloudflare.com
+    skip-cert-verify: true
+    client-fingerprint: randomized
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: none
+  - name: SG-Cylix_3
+    type: hysteria2
+    server: 92.112.20.77
+    port: 8132
+    tls: true
+    password: 3ce409b1-954f-44b0-8a76-406714e800b0
+    sni: www.bing.com
+    alpn:
+      - h3
+    skip-cert-verify: true
+    fast-open: false
+    ip-version: dual
+    udp: true
+  - name: SG-Cylix_4
+    type: tuic
+    server: 92.112.20.77
+    port: 23224
+    uuid: vT2F4nn2flmXT3X44NIJ8LT9
+    tls: true
+    password: 3ce409b1-954f-44b0-8a76-406714e800b0
+    sni: www.bing.com
+    alpn:
+      - h3
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+    congestion-controller: bbr
