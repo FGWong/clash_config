@@ -84,3 +84,83 @@ proxies:
     sni: www.bing.com
     skip-cert-verify: false
     #skip-cert-verify: true
+  - name: freeus-17M
+    type: vless
+    server: wow.quicky.dpdns.org
+    port: 443
+    uuid: 64aced52-7611-42e5-8725-c6bb47f38555
+    network: ws
+    tls: true
+    servername: us.quicky.dpdns.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /fastus
+      headers:
+        host: us.quicky.dpdns.org
+    ip-version: dual
+    udp: true
+  - name: freeus
+    type: vless
+    server: wow.quicky.dpdns.org
+    port: 443
+    uuid: 64aced52-7611-42e5-8725-c6bb47f38555
+    tls: true
+    client-fingerprint: chrome
+    servername: us.quicky.dpdns.org
+    network: ws
+    ws-opts:
+      path: /fastus
+      headers:
+        host: us.quicky.dpdns.org
+    tfo: false
+    skip-cert-verify: false
+  - name: hk
+    type: vless
+    server: 202.181.24.70
+    port: 663
+    uuid: 0116cea0-f2f0-4bb7-8cec-84a060234d0b
+    tls: false
+    network: ws
+    ws-opts:
+      path: /hk
+    tfo: false
+  - name: hk
+    type: vless
+    server: 202.181.24.70
+    port: 663
+    uuid: 0116cea0-f2f0-4bb7-8cec-84a060234d0b
+    network: ws
+    tls: false
+    ws-opts:
+      path: /hk
+    ip-version: dual
+  - name: us_1
+    type: vless
+    server: okay.mjjs.dpdns.org
+    port: 443
+    uuid: acbb8b71-58a0-4944-bea2-f5bdeddf7d8c
+    network: ws
+    tls: true
+    servername: usb.mjjs.dpdns.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /usb
+      headers:
+        host: usb.mjjs.dpdns.org
+    ip-version: dual
+    udp: true
+  - name: us_2
+    type: vless
+    server: okay.mjjs.dpdns.org
+    port: 443
+    uuid: nla2c321-a6a6-4eb5-b541-759d0aadc7nl
+    network: ws
+    tls: true
+    servername: usa.mjjs.dpdns.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /usa
+      headers:
+        host: usa.mjjs.dpdns.org
+    ip-version: dual
+    udp: true

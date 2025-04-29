@@ -3,7 +3,7 @@ proxies:
   name: 0_kg
   network: ws
   port: 443
-  server: 104.19.181.185
+  server: 104.18.132.195
   servername: ele.jiahe.eu.org
   skip-cert-verify: true
   tfo: false
@@ -18,7 +18,7 @@ proxies:
   name: 1_eu
   network: ws
   port: 443
-  server: 104.16.64.86
+  server: 104.18.179.50
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -31,7 +31,7 @@ proxies:
   name: 2_kg
   network: ws
   port: 443
-  server: 104.19.67.87
+  server: 104.18.27.92
   servername: ele.jiahe.eu.org
   skip-cert-verify: true
   tfo: false
@@ -46,7 +46,7 @@ proxies:
   name: 3_eu
   network: ws
   port: 443
-  server: 104.19.208.108
+  server: 104.18.123.146
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -59,7 +59,7 @@ proxies:
   name: 4_kg
   network: ws
   port: 443
-  server: 104.17.57.29
+  server: 104.16.197.130
   servername: ele.jiahe.eu.org
   skip-cert-verify: true
   tfo: false
@@ -74,7 +74,7 @@ proxies:
   name: 5_eu
   network: ws
   port: 443
-  server: 104.19.84.73
+  server: 104.17.159.217
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -87,7 +87,7 @@ proxies:
   name: 6_kg
   network: ws
   port: 443
-  server: 198.41.200.206
+  server: 104.17.73.100
   servername: ele.jiahe.eu.org
   skip-cert-verify: true
   tfo: false
@@ -102,7 +102,7 @@ proxies:
   name: 7_eu
   network: ws
   port: 443
-  server: 104.17.81.4
+  server: 104.18.5.72
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -115,7 +115,7 @@ proxies:
   name: 8_kg
   network: ws
   port: 443
-  server: 104.17.184.72
+  server: 104.18.168.217
   servername: ele.jiahe.eu.org
   skip-cert-verify: true
   tfo: false
@@ -130,7 +130,7 @@ proxies:
   name: 9_eu
   network: ws
   port: 443
-  server: 104.17.85.57
+  server: 104.18.150.253
   servername: one.unionpay.eu.org
   tls: true
   type: vless
