@@ -85,36 +85,6 @@ proxies:
     ip-version: dual
     udp: true
     congestion-controller: bbr
-  - name: us_1
-    type: vless
-    server: okay.mjjs.dpdns.org
-    port: 443
-    uuid: acbb8b71-58a0-4944-bea2-f5bdeddf7d8c
-    network: ws
-    tls: true
-    servername: usb.mjjs.dpdns.org
-    skip-cert-verify: true
-    ws-opts:
-      path: /usb
-      headers:
-        host: usb.mjjs.dpdns.org
-    ip-version: dual
-    udp: true
-  - name: us_2
-    type: vless
-    server: okay.mjjs.dpdns.org
-    port: 443
-    uuid: nla2c321-a6a6-4eb5-b541-759d0aadc7nl
-    network: ws
-    tls: true
-    servername: usa.mjjs.dpdns.org
-    skip-cert-verify: true
-    ws-opts:
-      path: /usa
-      headers:
-        host: usa.mjjs.dpdns.org
-    ip-version: dual
-    udp: true
   - name: freeus-17M
     type: vless
     server: wow.quicky.dpdns.org
@@ -130,59 +100,28 @@ proxies:
         host: us.quicky.dpdns.org
     ip-version: dual
     udp: true
-  - name: usa
+  - name: freeus
     type: vless
-    server: okay.mjjs.dpdns.org
+    server: wow.quicky.dpdns.org
     port: 443
-    uuid: acbb8b71-58a0-4944-bea2-f5bdeddf7d8c
+    uuid: 64aced52-7611-42e5-8725-c6bb47f38555
     network: ws
     tls: true
-    servername: usa.mjjs.dpdns.org
-    skip-cert-verify: true
+    servername: us.quicky.dpdns.org
     ws-opts:
-      path: /usb
+      path: /fastus
       headers:
-        host: usa.mjjs.dpdns.org
-    ip-version: dual
-  - name: usb
+        host: us.quicky.dpdns.org
+    tfo: false
+    skip-cert-verify: false
+    client-fingerprint: chrome
+  - name: hkfree
     type: vless
-    server: okay.mjjs.dpdns.org
-    port: 443
-    uuid: acbb8b71-58a0-4944-bea2-f5bdeddf7d8c
+    server: 202.181.24.70
+    port: 65056
+    uuid: c9d0ddb5-f2c1-4111-a92d-9798a2348a56
     network: ws
-    tls: true
-    servername: usb.mjjs.dpdns.org
-    skip-cert-verify: true
+    tls: false
     ws-opts:
-      path: /usb
-      headers:
-        host: usb.mjjs.dpdns.org
-    ip-version: dual
-  - name: usc
-    type: vless
-    server: okay.mjjs.dpdns.org
-    port: 443
-    uuid: acbb8b71-58a0-4944-bea2-f5bdeddf7d8c
-    network: ws
-    tls: true
-    servername: usc.mjjs.dpdns.org
-    skip-cert-verify: true
-    ws-opts:
-      path: /usb
-      headers:
-        host: usc.mjjs.dpdns.org
-    ip-version: dual
-  - name: usd
-    type: vless
-    server: okay.mjjs.dpdns.org
-    port: 443
-    uuid: acbb8b71-58a0-4944-bea2-f5bdeddf7d8c
-    network: ws
-    tls: true
-    servername: usd.mjjs.dpdns.org
-    skip-cert-verify: true
-    ws-opts:
-      path: /usb
-      headers:
-        host: usd.mjjs.dpdns.org
+      path: /yz
     ip-version: dual

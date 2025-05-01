@@ -16,7 +16,7 @@ proxies:
   name: CF随机节点
   network: ws
   port: 443
-  server: 103.21.244.224
+  server: 103.21.244.60
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -29,7 +29,7 @@ proxies:
   name: CF随机节点 2
   network: ws
   port: 443
-  server: 104.16.42.36
+  server: 104.16.155.172
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -42,7 +42,7 @@ proxies:
   name: CF随机节点 3
   network: ws
   port: 443
-  server: 104.24.64.22
+  server: 104.24.172.206
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -55,7 +55,7 @@ proxies:
   name: CF随机节点 4
   network: ws
   port: 443
-  server: 172.64.127.201
+  server: 172.64.0.109
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -68,7 +68,7 @@ proxies:
   name: CF随机节点 5
   network: ws
   port: 443
-  server: 103.21.244.137
+  server: 103.21.244.178
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -81,7 +81,7 @@ proxies:
   name: CF随机节点 6
   network: ws
   port: 443
-  server: 104.16.31.84
+  server: 104.16.168.146
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -94,7 +94,7 @@ proxies:
   name: CF随机节点 7
   network: ws
   port: 443
-  server: 104.24.7.185
+  server: 104.24.246.204
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -107,7 +107,7 @@ proxies:
   name: CF随机节点 8
   network: ws
   port: 443
-  server: 141.101.93.197
+  server: 141.101.69.203
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -120,7 +120,7 @@ proxies:
   name: CF随机节点 9
   network: ws
   port: 443
-  server: 172.64.233.25
+  server: 172.64.136.30
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -133,7 +133,7 @@ proxies:
   name: CF随机节点 10
   network: ws
   port: 443
-  server: 188.114.99.62
+  server: 188.114.98.139
   servername: one.unionpay.eu.org
   tls: true
   type: vless
@@ -146,7 +146,7 @@ proxies:
   name: CF随机节点 11
   network: ws
   port: 443
-  server: 190.93.244.151
+  server: 190.93.244.28
   servername: one.unionpay.eu.org
   tls: true
   type: vless

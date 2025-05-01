@@ -114,53 +114,71 @@ proxies:
         host: us.quicky.dpdns.org
     tfo: false
     skip-cert-verify: false
-  - name: hk
+  - name: SG-Cylix_1
     type: vless
-    server: 202.181.24.70
-    port: 663
-    uuid: 0116cea0-f2f0-4bb7-8cec-84a060234d0b
-    tls: false
-    network: ws
-    ws-opts:
-      path: /hk
-    tfo: false
-  - name: hk
-    type: vless
-    server: 202.181.24.70
-    port: 663
-    uuid: 0116cea0-f2f0-4bb7-8cec-84a060234d0b
-    network: ws
-    tls: false
-    ws-opts:
-      path: /hk
-    ip-version: dual
-  - name: us_1
-    type: vless
-    server: okay.mjjs.dpdns.org
-    port: 443
-    uuid: acbb8b71-58a0-4944-bea2-f5bdeddf7d8c
-    network: ws
+    server: 92.112.20.77
+    port: 26994
+    uuid: 3ce409b1-954f-44b0-8a76-406714e800b0
+    network: tcp
     tls: true
-    servername: usb.mjjs.dpdns.org
+    servername: www.iij.ad.jp
+    flow: xtls-rprx-vision
     skip-cert-verify: true
-    ws-opts:
-      path: /usb
-      headers:
-        host: usb.mjjs.dpdns.org
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: u6_U1GFMVn-ZfSqCJixV7-QF0z4ER4Pm-QWGW2xTklE
     ip-version: dual
     udp: true
-  - name: us_2
-    type: vless
-    server: okay.mjjs.dpdns.org
-    port: 443
-    uuid: nla2c321-a6a6-4eb5-b541-759d0aadc7nl
-    network: ws
+  - name: SG-Cylix_3
+    type: hysteria2
+    server: 92.112.20.77
+    port: 8132
     tls: true
-    servername: usa.mjjs.dpdns.org
+    password: 3ce409b1-954f-44b0-8a76-406714e800b0
+    sni: www.bing.com
+    alpn:
+      - h3
     skip-cert-verify: true
+    fast-open: false
+    ip-version: dual
+    udp: true
+  - name: hkfree
+    type: vless
+    server: 202.181.24.70
+    port: 65056
+    uuid: c9d0ddb5-f2c1-4111-a92d-9798a2348a56
+    network: ws
+    tls: false
     ws-opts:
-      path: /usa
-      headers:
-        host: usa.mjjs.dpdns.org
+      path: /yz
+    ip-version: dual
+  - name: 🇭🇰香港
+    type: vless
+    server: csuzhou01.1cooldns.com
+    port: 41279
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    tls: true
+    servername: www.nvidia.com
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    ip-version: dual
+    udp: true
+  - name: 🇯🇵日本
+    type: vless
+    server: shenzhou05.mysynology.net
+    port: 17278
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    network: tcp
+    tls: true
+    servername: www.yahoo.com
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
     ip-version: dual
     udp: true
