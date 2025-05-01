@@ -4,4 +4,5 @@ payload:
   - DOMAIN-SUFFIX,hd-torrents.org
   - DOMAIN-SUFFIX,star-space.net
   - DOMAIN-SUFFIX,v2ex.com
+  - DOMAIN-SUFFIX,x.ai
   - DOMAIN-KEYWORD,cloudflare

@@ -1268,26 +1268,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d0f35ada-c39c-11ef-8a98-f23c91cfbbc9
-- cipher: chacha20-ietf-poly1305
-  name: blobBird|_IR_伊朗
-  password: Wo7H7pfmmq0nxMRTSBYDj7
-  port: 58919
-  server: 5.34.209.50
-  type: ss
-  udp: true
-- name: blobBird|_US_美国_2
-  network: ws
-  password: 5453ae26-250d-4e79-b4ec-016baf806865
-  port: 443
-  server: 172.67.204.22
-  skip-cert-verify: true
-  sni: 1SdfghJk.890602.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 1SdfghJk.890602.xyz
-    path: /OYzPAeaZdXUq2d6J3gc4aj
 - cipher: aes-256-cfb
   name: ermaozi|🇺🇸_US_美国
   password: amazonskr05
