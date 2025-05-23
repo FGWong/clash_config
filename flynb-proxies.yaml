@@ -1,811 +1,100 @@
 proxies:
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: ✈️ 频道：@HelloWorld_1024
-  password: nUthZ7z3VmyV
-  port: 9001
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: GigaMAX02🐼
-  password: qwerREWQ@@
-  port: 49043
-  server: p240.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 대한민국11🐼
-  password: qwerREWQ@@
-  port: 58487
-  server: p230.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 대한민국09🐼
-  password: qwerREWQ@@
-  port: 63648
-  server: p228.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 대한민국08🐼
-  password: qwerREWQ@@
-  port: 4857
-  server: p227.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 대한민국06🐼
-  password: qwerREWQ@@
-  port: 60125
-  server: p225.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 대한민국12🐼
-  password: qwerREWQ@@
-  port: 11389
-  server: p231.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 대한민국10🐼
-  password: qwerREWQ@@
-  port: 30454
-  server: p229.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: GigaMAX03🐼
-  password: qwerREWQ@@
-  port: 3886
-  server: p241.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 대한민국15🐼
-  password: qwerREWQ@@
-  port: 45544
-  server: p234.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: PremiumSK25🐼
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 대한민국02🐼
-  password: qwerREWQ@@
-  port: 34669
-  server: p221.panda001.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 대한민국03🐼
-  password: qwerREWQ@@
-  port: 15098
-  server: p222.panda001.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 🇨🇳 Taiwan01@🐼
-  password: qwerREWQ@@
-  port: 64759
-  server: e001.panda003.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: TerraLG18🐼
-  password: qwerREWQ@@
-  port: 36379
-  server: p080.panda001.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 🇯🇵 ⓢⓟ Tokyo Pro 4
-  password: nHUXPsJ6
-  port: 30323
-  server: 13.113.80.125
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ⓢⓟ Seoul Pro 3
-  password: gJg1TyUQ
-  port: 30976
-  server: 13.125.168.176
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ⓢⓟ Seoul Pro 1
-  password: poiyT9rF
-  port: 8995
-  server: 54.180.189.215
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ⓢⓟ Los Angeles  27
-  password: Jb2EJDsW
-  port: 8288
-  server: 23.95.72.158
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ⓢⓟ Oregon Pro 21
-  password: FnUBfINL
-  port: 27826
-  server: 34.215.118.253
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ⓢⓟ Oregon Pro 26
-  password: EY21ohqh
-  port: 17155
-  server: 44.247.201.109
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 🇬🇧 ⓢⓟ London Pro 8
-  password: MEBE3zah
-  port: 4743
-  server: 13.42.68.15
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ⓢⓟ Los Angeles  Pro 27
-  password: Jb2EJDsW
-  port: 8288
-  server: 23.95.72.158
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 🇮🇪 ⓢⓟ Ireland Pro 3
-  password: onOQvQ8b
-  port: 24425
-  server: 54.216.179.123
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ⓢⓟ Virginia Pro 10
-  password: VgYSMwfU
-  port: 13651
-  server: 54.159.126.90
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ⓢⓟ Virginia Pro 9
-  password: omoa8ufq
-  port: 15802
-  server: 3.218.100.218
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ⓢⓟ Istanbul  Pro 1
-  password: aCRNijIj
-  port: 7713
-  server: 93.114.98.34
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ⓢⓟ Virginia Pro 22
-  password: VUWK9NyG
-  port: 23478
-  server: 34.234.217.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ⓢⓟ Ohio Pro 23
-  password: JLMk9bhp
-  port: 14743
-  server: 18.190.62.192
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 🇬🇧 ⓢⓟ London Pro 4
-  password: Y09Etfs6
-  port: 6110
-  server: 51.24.5.76
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ⓢⓟ Stockholm Pro 1
-  password: LEFqixTd
-  port: 21072
-  server: 16.170.101.150
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ⓢⓟ Stockholm Pro 3
-  password: YXuoVMik
-  port: 30298
-  server: 13.61.113.181
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ⓢⓟ Frankfurt  Pro 4
-  password: bYTSbN7t
-  port: 31172
-  server: 176.119.203.15
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 🇨🇦 ⓢⓟ Montreal Pro 4
-  password: pHvYevSM
-  port: 24119
-  server: 15.156.196.38
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 🇸🇬 ⓢⓟ Singapore Pro 34
-  password: xj3xTQaW
-  port: 13058
-  server: 103.3.62.110
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 🇸🇬 ⓢⓟ Singapore 34
-  password: xj3xTQaW
-  port: 13058
-  server: 103.3.62.110
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 🇮🇪 ⓢⓟ Ireland Pro 5
-  password: Yk6Y6W9Z
-  port: 31938
-  server: 54.76.126.234
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ⓢⓟ Amsterdam Pro 8
-  password: XaAIkJjp
-  port: 11359
-  server: 85.234.65.100
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ⓢⓟ Frankfurt  4
-  password: bYTSbN7t
-  port: 31172
-  server: 176.119.203.15
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ⓢⓟ Amsterdam 8
-  password: XaAIkJjp
-  port: 11359
-  server: 85.234.65.100
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 🇨🇦 ⓢⓟ Montreal Pro 3
-  password: ABEtdGqo
-  port: 1153
-  server: 3.98.51.125
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 221.132.29.208
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 23
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.18
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 24
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.19
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 25
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.20
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 26
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.21
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 27
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.22
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 28
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.23
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 29
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.24
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 30
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.25
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 31
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.26
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 32
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.27
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 33
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.28
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 34
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.29
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 35
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.30
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 36
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.31
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 37
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.32
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 38
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.33
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 39
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.35
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 40
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.36
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 41
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.37
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN Ho Chi Minh 42
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.38
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN GAME VIP 23
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.18
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN GAME VIP 24
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.19
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN GAME VIP 25
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.20
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN GAME VIP 26
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.21
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN GAME VIP 27
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.22
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN GAME VIP 28
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.23
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN GAME VIP 29
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.24
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: VN GAME VIP 30
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.25
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇭🇰 香港1
-  password: nUthZ7z3VmyV
-  port: 9001
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇭🇰 香港
-  password: passLUsO2Ktuer77tu
-  port: 8321
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇭🇰 香港3
-  password: v5aUUtme3jxs
-  port: 9003
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇭🇰 香港2
-  password: PTgFLLrT5pVg
-  port: 9002
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇭🇰 香港4
-  password: s6Zau9ioic
-  port: 9004
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇭🇰 香港5
-  password: sJMdcI7NPj
-  port: 9005
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇸🇬 新加坡
-  password: DvPfKa8vsV9K
-  port: 8334
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇯🇵 日本1
-  password: avpBqFFmsYBN
-  port: 8335
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇯🇵 日本2
-  password: GqbcCfh365aT
-  port: 8331
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇰🇷 韩国首尔
-  password: ADZmRQUGHTwX
-  port: 8339
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇺🇸 美国纽约
-  password: d3baK6NW2HEc
-  port: 8349
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇸🇬 美国洛杉矶新
-  password: 8BZ5uBrPuUDY
-  port: 8332
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇺🇸 美国达拉斯
-  password: wDazHDu63gcg
-  port: 8344
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇩🇪 德国法兰克福
-  password: jrgc64sFSLQM
-  port: 8333
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇬🇧 英国
-  password: 3fn3CH5Swh2N
-  port: 8337
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇺🇸 美国洛杉矶
-  password: r8jh6ZeykHvB
-  port: 8342
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇮🇱 以色列
-  password: N9k4f2PORl14
-  port: 8348
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇨🇦 加拿大
-  password: dkYsdgWqegNV
-  port: 8343
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇦🇺 澳大利亚
-  password: zWyQvJbQRZaV
-  port: 8341
-  server: 14.18.253.178
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20
-  client-fingerprint: chrome
-  name: 🇫🇷 法国巴黎
-  password: q2kSGp4ayFKB
-  port: 8347
-  server: 14.18.253.178
-  tfo: true
-  type: ss
+- client-fingerprint: chrome
+  name: 频道： @HelloWorld_1024
+  password: 4cDgyx33xaypDCIFaOj84Snjy3g9XpulOI3FF0CaaTSyY3ElCOeYKx8eCeN7zRRZnCu2A
+  port: 28331
+  server: 61.221.48.98
+  skip-cert-verify: false
+  sni: sohtsa.taiwanesefood.link
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵 ️ Japan 01
+  password: CpFKYCc9yO25F2e4CyaxIB38ZaRXYeAu3FD6B3DSlDgIp8e0lz3qYN330F7jDTpZO43SE
+  port: 28332
+  server: 13.112.39.1
+  skip-cert-verify: false
+  sni: infinity.meijireform.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵 ️ Japan 02
+  password: AACY9aXaD0ZDyuyOBzD3Onl2ICw6anBE8l3SRl38RCSDpw7FpYzcRj7NeaFSpR5qx85Su
+  port: 443
+  server: 13.114.65.253
+  skip-cert-verify: false
+  sni: forward.meijireform.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵 ️ Japan 03
+  password: AC8aADj36wSp36S9xIC34yyAYeKgOCDxDSaxOY3YZu8l7eluexYZSnRFBgR4Z3a8DT09E
+  port: 28336
+  server: 54.150.199.120
+  skip-cert-verify: false
+  sni: derrick.meijireform.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬 ️ Singapore 01
+  password: 8A5SgnpNyaCaORwOqgOSFZYDBAF4ENzSKKDX3eC5D63FlXCyY3a7zpDB9Iax3ZneR0Ywe
+  port: 18332
+  server: 18.141.191.2
+  skip-cert-verify: false
+  sni: handgun.protocolbuffer.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬 ️ Singapore 02
+  password: 7BzaRCYwD8Cu3YxazA2yAEpgZ30Sy8lXp3YyAlcODDpEj7ZxS0YlFR9NTCSAFx3qT2Opn
+  port: 18332
+  server: 13.215.193.69
+  skip-cert-verify: false
+  sni: orlang.protocolbuffer.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬 ️ Singapore 03
+  password: 6303ux8zpDA9c9OTqCFNFeCCDalxaFZAE36p3RYSaORYDSKTRZIy3nDjZD2R5wS48Yxc8
+  port: 18332
+  server: 13.213.45.77
+  skip-cert-verify: false
+  sni: briefly.protocolbuffer.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇸🇬 ️ Singapore 04
+  password: RaC8S3NF583ga3xSu3yTxCCaYlpRxOBDKOjOF9K3aDFAaY3eeyDc4aX0lN0nZXzn87SZS
+  port: 18333
+  server: 47.129.49.22
+  skip-cert-verify: false
+  sni: diagram.protocolbuffer.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸 ️ United States 01
+  password: czaOZA3OxRYDl4u0RxT7D62FyNI3aC98ZCDDRnDax6zECS5I35wSqSKTXYAy3Nw3eXYaO
+  port: 28331
+  server: 154.17.11.217
+  skip-cert-verify: false
+  sni: cutting.homeofbrave.net
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸 ️ United States 02
+  password: Z3aXaKZnXxNc3y03OnKcaq4CN3OcqA8SwSzSRZ3O3Sa3NnaFD4xzgCSR7AaOZ983y0yY3lBOYCAOAzx
+  port: 28331
+  server: 154.17.17.149
+  skip-cert-verify: false
+  sni: hanger.homeofbrave.net
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸 ️ United States 03
+  password: 3lSlAcxDSNpeKOyZ3pIlyYRC7328C3X93Aa8SFOgDX4D7An0zYSRDRuaRE8lCpCASE6Bu
+  port: 443
+  server: 154.17.25.96
+  skip-cert-verify: false
+  sni: theory.wireshop.net
+  type: trojan
   udp: true

@@ -567,6 +567,7 @@ cfw-bypass:
   - 172.16.0.0/12
   - 192.168.0.0/16
   - "+.local"
+  - <local>
 cfw-latency-timeout: 3000
 proxy:
   - name: "ProxyH" # 默认使用的出站代理名称
@@ -881,7 +882,7 @@ proxy-providers:
     path: local_data/user_custom.yaml
     health-check:
       enable: true
-      interval: 960
+      interval: 186400
       url: 'http://www.gstatic.com/generate_204'
 
 rule-providers:

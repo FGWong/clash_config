@@ -4,6 +4,7 @@ mixed-port: 7892
 allow-lan: true
 mode: rule
 log-level: info
+ipv6: true
 external-controller: :9090
 dns:
   enabled: true
@@ -585,24 +586,10 @@ cfw-bypass:
   - "*.zhuihd.com"
   - localhost
   - 127.*
-  - 10.*
-  - 172.16.*
-  - 172.17.*
-  - 172.18.*
-  - 172.19.*
-  - 172.20.*
-  - 172.21.*
-  - 172.22.*
-  - 172.23.*
-  - 172.24.*
-  - 172.25.*
-  - 172.26.*
-  - 172.27.*
-  - 172.28.*
-  - 172.29.*
-  - 172.30.*
-  - 172.31.*
-  - 192.168.*
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+  - "+.local"
   - <local>
 cfw-latency-timeout: 3000
 proxy:
@@ -620,9 +607,10 @@ proxy-groups:
       - Cflare
       - Cfkg
       - Cfop
-      - SKR
       - HyunWarp
       - ♻️ XQC
+      - FlyNb
+      - StarLink
       - UserC
   - name: Cfop
     type: url-test
@@ -631,12 +619,6 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
     icon: https://g.csdnimg.cn/static/logo/favicon32.ico
-  - name: SKR
-    type: url-test
-    use:
-      - skr
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 1200
   - name: Cflare
     type: url-test
     use:
@@ -655,13 +637,34 @@ proxy-groups:
       - xqc
     url: 'http://www.gstatic.com/generate_204'
     interval: 12000
+  - name: FlyNb
+    type: url-test
+    use:
+      - flynb
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 12000
+  - name: StarLink
+    type: url-test
+    use:
+      - stars
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 12000
   - name: UserC
     type: select
     use:
       - ucust
     url: 'http://www.gstatic.com/generate_204'
     interval: 12000
-
+  - name: XTwitter
+    type: select
+    proxies:
+      - FlyNb
+      - StarLink
+      - UserC
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ XQC
+      - ACommon
   - name: ♻️ 自动选择
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
@@ -682,7 +685,6 @@ proxy-groups:
     type: select
     use:
       - common
-      - skr
       - hyun-warp
   - name: HyunWarp
     type: url-test
@@ -697,7 +699,12 @@ proxy-groups:
     filter: "Gbps"
     #exclude-type: "vmess|trojan"
       #exclude-filter: ""
-
+  - name: ACommon
+    type: url-test
+    use:
+      - common
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1200
   - name: ⚡ 负载均衡
     type: load-balance
     use:
@@ -726,7 +733,6 @@ proxy-groups:
       - cldop
       - cldflare
       - cldkg
-      - skr
       - hyun-warp
       - common
     url: 'http://www.gstatic.com/generate_204'
@@ -738,17 +744,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🚀 节点选择
       - ⚡ 负载均衡
-      - SKR
       - HyunWarp
-  - name: Twitter_X
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🚀 节点选择
-      - SKR
-      - HyunWarp
-      - UserC
-      - ♻️ XQC
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -844,18 +840,8 @@ proxy-providers:
     url: "https://jiahe.eu.org:15443/clash_verge/cf_op_proxies.yaml"
     type: http
     #type: file
-    interval: 3612
+    interval: 5612
     path: local_data/cf_op_proxies.yaml
-    health-check:
-      enable: true
-      interval: 960
-      url: 'http://www.gstatic.com/generate_204'
-  skr:
-    url: "https://jiahe.eu.org:15443/clash_verge/skrapp.yaml"
-    type: http
-    #type: file
-    interval: 3622
-    path: local_data/skrapp.yaml
     health-check:
       enable: true
       interval: 960
@@ -870,6 +856,26 @@ proxy-providers:
       enable: true
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
+  flynb:
+    url: "https://jiahe.eu.org:15443/clash_verge/flynb-proxies.yaml"
+    type: http
+    #type: file
+    interval: 10807
+    path: local_data/flynb-proxies.yaml
+    health-check:
+      enable: true
+      interval: 12000
+      url: 'http://www.gstatic.com/generate_204'
+  stars:
+    url: "https://jiahe.eu.org:15443/clash_verge/starlink-proxies.yaml"
+    type: http
+    #type: file
+    interval: 10807
+    path: local_data/starlink-proxies.yaml
+    health-check:
+      enable: true
+      interval: 12000
+      url: 'http://www.gstatic.com/generate_204'
   ucust:
     url: "https://jiahe.eu.org:15443/clash_verge/unhy2_custom.yaml"
     type: http
@@ -878,7 +884,7 @@ proxy-providers:
     path: local_data/user_custom.yaml
     health-check:
       enable: true
-      interval: 960
+      interval: 186960
       url: 'http://www.gstatic.com/generate_204'
 
 rule-providers:
@@ -1026,13 +1032,14 @@ rule-providers:
   OneDrive:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
+    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
     path: ./ruleset/OneDrive.yaml
     interval: 86400
   Twitter:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Twitter.yaml"
+    format: 'text' # or 'yaml'
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/classical/twitter.txt"
     path: ./ruleset/Twitter.yaml
     interval: 86400
 
@@ -1040,7 +1047,8 @@ rule-providers:
     type: http
     behavior: classical
     format: 'text' # or 'yaml'
-    url: "https://raw.githubusercontent.com/Loyalsoldier/geoip/refs/heads/release/clash/classical/cloudflare.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/classical/cloudflare.txt"
+      #url: "https://raw.githubusercontent.com/Loyalsoldier/geoip/refs/heads/release/clash/classical/cloudflare.txt"
       #behavior: ipcidr
       #url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/cloudflare.yaml"
       # https://github.com/Loyalsoldier/geoip/blob/release/clash/ipcidr/cloudflare.txt
@@ -1057,7 +1065,7 @@ rule-providers:
   artificial_proxy:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/manual_proxy.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/manual_proxy.yaml"
     path: ./ruleset/manual_proxy.yaml
     interval: 86400
 
@@ -1065,7 +1073,7 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/classical_direct.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/classical_direct.yaml"
     #url: "https://jiahe.eu.org:15443/clash_verge/ruleset/classical_direct.yaml"
     path: ./ruleset/classical_direct.yaml
     interval: 86400
@@ -1074,8 +1082,16 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/classical_proxy.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/classical_proxy.yaml"
     path: ./ruleset/classical_proxy.yaml
+    interval: 86400
+
+  passby_proxy:
+    behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
+    type: http # file
+    format: 'yaml' # or 'text'
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/proxy_bypass_cloudflare.yaml"
+    path: ./ruleset/proxy_bypass_cloudflare.yaml
     interval: 86400
 
 rules:
@@ -1083,6 +1099,7 @@ rules:
   - RULE-SET,artificial_direct,🎯 全球直连
   - RULE-SET,cloudflare_ipcidr,🎯 全球直连
   - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,passby_proxy,XTwitter
   - RULE-SET,classical_proxy,🚀 节点选择
   - RULE-SET,artificial_proxy,🚀 节点选择
 
@@ -1100,7 +1117,7 @@ rules:
   - RULE-SET,telegramcidr,📲 电报信息
   - RULE-SET,google,🚀 节点选择
   - RULE-SET,OneDrive,🚀 节点选择
-  - RULE-SET,Twitter,Twitter_X
+  - RULE-SET,Twitter,XTwitter
   - RULE-SET,icloud,🎯 全球直连
   - RULE-SET,apple,🍎 苹果服务
 

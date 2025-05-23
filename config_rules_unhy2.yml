@@ -4,6 +4,7 @@ mixed-port: 7892
 allow-lan: true
 mode: rule
 log-level: info
+ipv6: true
 external-controller: :9090
 dns:
   enabled: true
@@ -533,6 +534,7 @@ cfw-bypass:
   - 172.16.0.0/12
   - 192.168.0.0/16
   - "+.local"
+  - <local>
 cfw-latency-timeout: 3000
 proxy:
   - name: "ProxyH" # 默认使用的出站代理名称
@@ -552,6 +554,8 @@ proxy-groups:
       - SKR
       - HyunWarp
       - ♻️ XQC
+      - FlyNb
+      - StarLink
       - UserC
   - name: Cfop
     type: url-test
@@ -590,6 +594,12 @@ proxy-groups:
       - flynb
     url: 'http://www.gstatic.com/generate_204'
     interval: 12000
+  - name: StarLink
+    type: url-test
+    use:
+      - stars
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 12000
   - name: UserC
     type: select
     use:
@@ -599,13 +609,14 @@ proxy-groups:
   - name: XTwitter
     type: select
     proxies:
+      - FlyNb
+      - StarLink
       - UserC
       - 🚀 节点选择
       - 🎯 全球直连
       - SKR
       - ♻️ XQC
       - ACommon
-      - FlyNb
   - name: ♻️ 自动选择
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
@@ -647,7 +658,6 @@ proxy-groups:
       - common
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
-
   - name: ⚡ 负载均衡
     type: load-balance
     use:
@@ -817,6 +827,16 @@ proxy-providers:
     #type: file
     interval: 10807
     path: local_data/flynb-proxies.yaml
+    health-check:
+      enable: true
+      interval: 12000
+      url: 'http://www.gstatic.com/generate_204'
+  stars:
+    url: "https://jiahe.eu.org:15443/clash_verge/starlink-proxies.yaml"
+    type: http
+    #type: file
+    interval: 10807
+    path: local_data/starlink-proxies.yaml
     health-check:
       enable: true
       interval: 12000

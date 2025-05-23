@@ -125,3 +125,79 @@ proxies:
     ws-opts:
       path: /yz
     ip-version: dual
+  - name: cdn
+    type: vless
+    server: meiguojiedian.464687.xyz
+    port: 80
+    uuid: 7711da80-feed-4ad2-8607-db79f0d73608
+    tls: false
+    network: xhttp
+    tfo: false
+    ws-opts:
+      path: /5a65a9
+    ip-version: dual
+  - name: linuxdo-nlf9a7al
+    type: vless
+    server: iepnxdjph1xzjexh.blxpz.eu.org
+    port: 49645
+    uuid: d090647f-d7a1-408a-b10a-bf67670671b1
+    tls: true
+    client-fingerprint: chrome
+    servername: www.microsoft.com
+    network: tcp
+    reality-opts:
+      public-key: 5Vl9xzPOF7vFn9io0bH0GJzGxRd8Dhkr6L4MV-qLWjQ
+      short-id: 220c10b65ced5fa7
+    tfo: false
+    skip-cert-verify: false
+  - name: :united_states:-US原生纯净-1
+    server: sj-arm.nfsn666.gq
+    port: 8888
+    client-fingerprint: chrome
+    type: hysteria2
+    password: nfsn666
+    auth: nfsn666
+    sni: sj-arm.nfsn666.gq
+    skip-cert-verify: false
+  - name: 🇺🇸-US原生纯净-2
+    server: 2ef15a2a-svi800-sw77c8-dnss.la.shifen.uk
+    port: 1443
+    client-fingerprint: chrome
+    type: hysteria2
+    password: 16955d72-1794-11f0-a035-f23c95b6f51d
+    auth: 16955d72-1794-11f0-a035-f23c95b6f51d
+    sni: 2ef15a2a-svi800-sw77c8-dnss.la.shifen.uk
+    skip-cert-verify: false
+  - name: 🇺🇸-US
+    server: 183.2.150.64
+    port: 27301
+    client-fingerprint: chrome
+    type: trojan
+    password: 073621ef-cc87-4fe4-ab3c-1023b975f862
+    sni: q08m.vgraxiw73s.hasyaf.cn
+    skip-cert-verify: false
+  - name: 🇭🇰-HK
+    server: 120.198.71.216
+    port: 46759
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+  - name: 三网直连
+    type: vless
+    server: 70.39.205.15
+    port: 443
+    uuid: 501bb22e-c54b-437d-8821-c702d520da70
+    tls: true
+    client-fingerprint: chrome
+    servername: www.lumen.com
+    network: xhttp
+    reality-opts:
+      public-key: xF4_8Tp0W04Z2ZPz1QBQYBBGuJ10ILLjo3jMQK4Uwg4
+      short-id: 82be
+    tfo: false
+    skip-cert-verify: false

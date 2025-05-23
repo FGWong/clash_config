@@ -142,3 +142,73 @@ proxies:
       public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
     ip-version: dual
     udp: true
+  - name: cdn
+    type: vless
+    server: meiguojiedian.464687.xyz
+    port: 80
+    uuid: 7711da80-feed-4ad2-8607-db79f0d73608
+    tls: false
+    network: xhttp
+    tfo: false
+    ip-version: dual
+    reality-opts:
+      public-key: CxAZCNOE80T1zmWRVHekqBNKiNx7FMI9vw0FWrr51Ao
+      short-id: ""
+    client-fingerprint: chrome
+  - name: cdn2
+    type: vless
+    server: meiguojiedian.464687.xyz
+    port: 80
+    uuid: 7711da80-feed-4ad2-8607-db79f0d73608
+    network: xhttp
+    tls: true
+    ws-opts:
+      headers:
+        Host: microsoft.com
+      path: /5a65a9
+    ip-version: dual
+    reality-opts:
+      public-key: CxAZCNOE80T1zmWRVHekqBNKiNx7FMI9vw0FWrr51Ao
+      short-id: ""
+    skip-cert-verify: false
+    servername: microsoft.com
+    flow: xtls-rprx-vision
+  - name: "VLESS+Reality+XHTTP" # 代理名称，可根据需要自定义
+    type: vless
+    server: "meiguojiedian.464687.xyz" # 服务器域名
+    port: 80 # 服务器端口
+    uuid: "7711da80-feed-4ad2-8607-db79f0d73608" # UUID
+    encryption: none # 加密方式
+    network: xhttp # 传输协议
+    tls: false # 是否启用 TLS 加密，此处根据节点信息为 false
+    reality-opts:
+      public-key: "CxAZCNOE80T1zmWRVHekqBNKiNx7FMI9vw0FWrr51Ao" # Reality 公钥
+      short-id: "" # 短 ID，为空则留空
+      server-name: "microsoft.com" # 服务器名称
+      fingerprint: "chrome" # 指纹
+      show: false # 是否显示
+    xhttp-opts:
+      host: "" # 可为空
+      path: "/5a65a9" # 路径
+      mode: "auto" # 模式
+      headers:
+        User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" # 可选，自定义请求头
+    downloadSettings: # 下行设置
+      address: "2604:abc0:103:415:2::1a" # IPv6 地址
+      port: 443 # 端口
+      network: xhttp # 传输协议
+      security: reality # 安全类型
+      realitySettings:
+        serverName: "microsoft.com" # 服务器名称
+        fingerprint: "chrome" # 指纹
+        show: false # 是否显示
+        publicKey: "CxAZCNOE80T1zmWRVHekqBNKiNx7FMI9vw0FWrr51Ao" # 公钥
+        shortId: "" # 短 ID，为空则留空
+        spiderX: "/" # 其他参数
+      xhttpSettings:
+        host: "" # 可为空
+        path: "/5a65a9" # 路径
+        mode: "auto" # 模式
+        headers:
+          User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" # 可选，自定义请求头
+    # 其他配置项可根据需要添加
