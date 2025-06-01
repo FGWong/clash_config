@@ -201,3 +201,221 @@ proxies:
       short-id: 82be
     tfo: false
     skip-cert-verify: false
+  - name: 纽约TLS|admin
+    type: vless
+    server: hgtrojan.zabc.net
+    port: 2087
+    uuid: 5f74cdcd-77b0-4971-85dc-7f52e43ed6f9
+    tls: true
+    client-fingerprint: chrome
+    servername: hgtrojan.zabc.net
+    network: ws
+    ws-opts:
+      path: /23434sdfsasfdsdfs
+    tfo: false
+    skip-cert-verify: false
+  - name: 纽约TLS2|admin
+    type: vmess
+    server: hgtrojan.zabc.net
+    port: 2083
+    uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+    alterId: 0
+    cipher: auto
+    tls: true
+    servername: hgtrojan.zabc.net
+    network: ws
+    ws-opts:
+      path: /e6395c20
+      headers:
+        Host: hgtrojan.zabc.net
+  - name: 米粒美国06-中转
+    type: trojan
+    server: 36.151.251.62
+    port: 3330
+    password: RlzoEILU
+    tls: true
+    client-fingerprint: chrome
+    sni: cdn.egvra.cn
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: '1'
+    type: vless
+    server: 163.223.182.254
+    port: 443
+    uuid: 74318b39-bd34-4023-82be-0e69b3260297
+    tls: true
+    client-fingerprint: chrome
+    servername: www.lumen.com
+    network: xhttp
+    reality-opts:
+      public-key: KRM5MLGmsT_FlwMzyz7R8q37Z1hHp0AExi-EdYOc2RM
+      short-id: '00'
+    tfo: false
+    skip-cert-verify: false
+  - name: '2'
+    type: hysteria2
+    server: 163.223.182.254
+    port: 443
+    obfs: salamander
+    obfs-password: ＠＠
+    password: '0'
+    auth: '0'
+    skip-cert-verify: true
+  - name: '3'
+    type: vless
+    server: hkt.102118.xyz
+    port: 14271
+    uuid: 74318b39-bd34-4023-82be-0e69b3260297
+    tls: true
+    client-fingerprint: chrome
+    servername: www.lumen.com
+    network: xhttp
+    reality-opts:
+      public-key: KRM5MLGmsT_FlwMzyz7R8q37Z1hHp0AExi-EdYOc2RM
+      short-id: '00'
+    tfo: false
+    skip-cert-verify: false
+  - name: '4'
+    type: hysteria2
+    server: hkt.102118.xyz
+    port: 14271
+    obfs: salamander
+    obfs-password: ＠＠
+    password: '0'
+    auth: '0'
+    skip-cert-verify: true
+  - name: '5'
+    type: vless
+    server: 141.11.42.167
+    port: 443
+    uuid: 74318b39-bd34-4023-82be-0e69b3260297
+    tls: true
+    client-fingerprint: chrome
+    servername: www.lumen.com
+    network: xhttp
+    reality-opts:
+      public-key: KRM5MLGmsT_FlwMzyz7R8q37Z1hHp0AExi-EdYOc2RM
+      short-id: '00'
+    tfo: false
+    skip-cert-verify: false
+  - name: '6'
+    type: hysteria2
+    server: 141.11.42.167
+    port: 443
+    obfs: salamander
+    obfs-password: ＠＠
+    password: '0'
+    auth: '0'
+    skip-cert-verify: true
+  - name: '7'
+    type: vless
+    server: 89.213.150.62
+    port: 443
+    uuid: 74318b39-bd34-4023-82be-0e69b3260297
+    tls: true
+    client-fingerprint: chrome
+    servername: www.lumen.com
+    network: xhttp
+    reality-opts:
+      public-key: KRM5MLGmsT_FlwMzyz7R8q37Z1hHp0AExi-EdYOc2RM
+      short-id: '00'
+    tfo: false
+    skip-cert-verify: false
+  - name: '8'
+    type: hysteria2
+    server: 89.213.150.62
+    port: 443
+    obfs: salamander
+    obfs-password: ＠＠
+    password: '0'
+    auth: '0'
+    skip-cert-verify: true
+  - name: '9'
+    type: vless
+    server: hinet.102118.xyz
+    port: 49827
+    uuid: 74318b39-bd34-4023-82be-0e69b3260297
+    tls: true
+    client-fingerprint: chrome
+    servername: www.lumen.com
+    network: xhttp
+    reality-opts:
+      public-key: KRM5MLGmsT_FlwMzyz7R8q37Z1hHp0AExi-EdYOc2RM
+      short-id: '00'
+    tfo: false
+    skip-cert-verify: false
+  - name: '10'
+    type: hysteria2
+    server: hinet.102118.xyz
+    port: 49827
+    obfs: salamander
+    obfs-password: ＠＠
+    password: '0'
+    auth: '0'
+    skip-cert-verify: true
+  - name: '11'
+    type: vless
+    server: a.jp.taphip.com
+    port: 10242
+    uuid: 74318b39-bd34-4023-82be-0e69b3260297
+    tls: true
+    client-fingerprint: chrome
+    servername: www.lumen.com
+    network: xhttp
+    reality-opts:
+      public-key: KRM5MLGmsT_FlwMzyz7R8q37Z1hHp0AExi-EdYOc2RM
+      short-id: '00'
+    tfo: false
+    skip-cert-verify: false
+  - name: '12'
+    type: hysteria2
+    server: a.jp.taphip.com
+    port: 10242
+    obfs: salamander
+    obfs-password: ＠＠
+    password: '0'
+    auth: '0'
+    skip-cert-verify: true
+  - name: '13'
+    type: vless
+    server: us.alumos.xyz
+    port: 48711
+    uuid: 8f517290-94b4-4813-bf89-8d973ec9a9a4
+    tls: true
+    client-fingerprint: chrome
+    servername: tesla.com
+    network: tcp
+    reality-opts:
+      public-key: 6mnY43rqYmNPetrxuUsfS7XJiPBeUdBZuJRFa3UG_CM
+      short-id: 9758fa1c61caf9
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: 米粒直连SG
+    type: vless
+    server: 92.112.22.221
+    port: 50157
+    uuid: 32f93075-f612-44ce-980c-42484cdbf0c5
+    tls: true
+    client-fingerprint: chrome
+    servername: yahoo.com
+    network: tcp
+    reality-opts:
+      public-key: 6bDYOLlmzYbs5puTBhYUdaM4BZhnxQ0ekANtN6b_Zik
+      short-id: 24f926cb52d8af
+    tfo: false
+    skip-cert-verify: false
+  - name: ux6e2hrxo
+    type: vless
+    server: 104.16.18.94
+    port: 443
+    uuid: f75c4f6c-61b5-450a-fa72-4e5686f87f45
+    tls: true
+    client-fingerprint: chrome
+    servername: meiguojiedian.464687.xyz
+    network: ws
+    ws-opts:
+      path: /56956
+    tfo: false
+    skip-cert-verify: false

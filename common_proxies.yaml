@@ -1,160 +1,45 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: weok|美国(yudou66.com 玉豆免费节点) 4
-  port: 59554
-  server: 183.236.51.38
+- name: Flik6|[Trojan] 🇸🇬 新加坡 Amazon数据中心
+  password: 8A5SgnpNyaCaORwOqgOSFZYDBAF4ENzSKKDX3eC5D63FlXCyY3a7zpDB9Iax3ZneR0Ywe
+  port: 18332
+  server: 18.141.191.2
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: handgun.protocolbuffer.com
+  tfo: false
+  type: trojan
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: weok|美国(yudou66.com 玉豆免费节点) 3
-  port: 40105
-  server: 120.232.153.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: weok|香港(yudou66.com 玉豆免费节点) 2
-  port: 31998
-  server: 120.234.102.229
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: weok|香港(yudou66.com 玉豆免费节点) 3
-  port: 51039
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: weok|美国(yudou66.com 玉豆免费节点) 2
-  port: 40059
-  server: 120.198.71.216
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: weok|香港(yudou66.com 玉豆免费节点)
-  port: 34042
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: Flik6|[Trojan] 🇨🇳 江苏省 移动
   password: RlzoEILU
-  port: 28548
-  server: 36.151.251.62
+  port: 33097
+  server: 36.151.251.61
   skip-cert-verify: true
-  sni: cdn.egvra.cn
   tfo: false
   type: trojan
   udp: true
-- name: Flik6|[Trojan] 🇯🇵 日本 东京Amazon数据中心
-  password: AACY9aXaD0ZDyuyOBzD3Onl2ICw6anBE8l3SRl38RCSDpw7FpYzcRj7NeaFSpR5qx85Su
-  port: 443
-  server: 13.114.65.253
-  skip-cert-verify: true
-  sni: forward.meijireform.com
+- cipher: chacha20-ietf-poly1305
+  name: NoMoreWalls|13|🇭🇰 香港2|@ripaojiedian
+  password: 91a41f4e02dc
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hkkh11v1.xpmc.cc
+    mode: websocket
+    mux: true
+    path: /utvbnrzejpmt
+    skip-cert-verify: false
+    tls: true
+  port: 36368
+  server: hkkh11v1.xpmc.cc
   tfo: false
+  type: ss
+- name: NoMoreWalls|15|CN_speednode_0039
+  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
+  port: 21102
+  server: 120.233.44.201
+  skip-cert-verify: true
+  sni: 120.233.44.201
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇮🇷 伊朗 V2CROSS.COM 2
-  port: 54928
-  server: 31.57.33.106
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: df83bcf4-fbe6-48ec-bdd7-8a0a3b97db6b
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 广东省中山市 移动 2
-  port: 47883
-  server: 120.198.44.126
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇮🇷 伊朗 V2CROSS.COM
-  network: ws
-  port: 443
-  server: 5.78.114.254
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 0160afb7-f896-45af-a790-41b0ada08ed7
-  ws-opts:
-    headers:
-      Host: freesg-win.lzj520hxw.dpdns.org
-    path: /t.me/lzjjjjjjjjjjj
-- name: Flik6|[Trojan] 广东省东莞市 移动
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: 183.232.235.2
-  skip-cert-verify: true
-  sni: hk-13-568.flztjc.net
-  tfo: false
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇳 广东省广州市 移动 2
-  port: 40392
-  server: 120.232.153.123
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇳 广东省广州市 移动
-  port: 46597
-  server: 120.232.153.41
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: NoMoreWalls|14|CN_speednode_0019
-  password: RlzoEILU
-  port: 28296
-  server: 36.151.251.60
-  skip-cert-verify: true
-  sni: cdn.egvra.cn
-  type: trojan
-  udp: true
-- name: NoMoreWalls|14|CN_speednode_0021
+- name: NoMoreWalls|15|CN_speednode_0016
   password: RlzoEILU
   port: 50723
   server: 36.156.102.123
@@ -162,28 +47,19 @@ proxies:
   sni: 36.156.102.123
   type: trojan
   udp: true
-- name: NoMoreWalls|14|CN_speednode_0023
-  password: RlzoEILU
-  port: 17166
-  server: 36.156.102.123
-  skip-cert-verify: true
-  sni: cdn.egvra.cn
-  type: trojan
-  udp: true
-- name: NoMoreWalls|14|CN_speednode_0020
-  password: RlzoEILU
-  port: 15624
-  server: 36.156.102.124
-  skip-cert-verify: true
-  sni: 36.156.102.124
-  type: trojan
-  udp: true
+- cipher: aes-256-cfb
+  name: NoMoreWalls|13|🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.29
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
-  name: NoMoreWalls|12,13|美国5|@ripaojiedian
+  name: NoMoreWalls|13,14|美国6|@ripaojiedian
   network: ws
   port: '22641'
-  server: tk.hzlt.tkddns.xyz
+  server: 120.236.198.165
   servername: zxjp-a.tkong.cc
   skip-cert-verify: false
   tfo: false
@@ -194,76 +70,116 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- name: NoMoreWalls|15|CN_speednode_0017
+  password: RlzoEILU
+  port: 3330
+  server: 36.151.251.62
+  skip-cert-verify: true
+  sni: cdn.egvra.cn
+  type: trojan
+  udp: true
+- name: NoMoreWalls|15|CN_speednode_0021
+  password: RlzoEILU
+  port: 13542
+  server: 36.151.251.62
+  skip-cert-verify: true
+  sni: cdn.egvra.cn
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: NoMoreWalls|12|🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.33
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: NoMoreWalls|1,12|🇰🇷 韩国|@ripaojiedian
+  name: NoMoreWalls|2|🇰🇷2 |  1.5MB/s|44%|Openai
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: openRunner|🇭🇰 香港9
+  password: 4KGHWKCKQAJOVPHO
+  port: 15003
+  server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: NoMoreWalls|12|🇸🇬 新加坡2|@ripaojiedian
-  port: 49121
-  server: 183.236.51.38
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: NoMoreWalls|13|香港3|@ripaojiedian
+- alpn:
+  - http/1.1
+  ip-version: dual
+  name: dayfree|🇫🇷_FR_法国_2
   network: tcp
-  port: '35921'
-  server: 120.198.71.216
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: openRunner|🇺🇸 美国4
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-b.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
+  password: telegram-id-directvpn
+  port: 22223
+  server: 35.181.202.67
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- ip-version: dual
+  name: dayfree|🇫🇷_FR_法国_1
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.181.202.67
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- ip-version: dual
+  name: dayfree|🇺🇸_US_美国->🇫🇷_FR_法国_2
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.38.150.199
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   ip-version: dual
-  name: dayfree|🇷🇺_RU_俄罗斯
+  name: dayfree|🇮🇹_IT_意大利
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 185.231.233.112
+  server: 185.213.23.226
   type: ss
   udp: true
 - ip-version: dual
-  name: dayfree|🇺🇸_US_美国
+  name: dayfree|🇺🇸_US_美国_3
   network: ws
-  password: ac5b2e52-435b-4461-a99c-1317ab0e2889
+  password: 19a78eeb-d83a-4364-b095-b7dd93436320
   port: 443
-  server: 104.21.46.90
-  sni: DddVfGty.frEeVpnAtM.dpdNS.oRG
+  server: 172.67.149.202
+  sni: CVFgTrE4.222560.XyZ
   type: trojan
   udp: true
   ws-opts:
-    path: /HmfeUdLKf899DmZDo0oju2st1
+    headers:
+      host: cvfgtre4.222560.xyz
+    path: /Hq0I4JMuzO0WLijID
+- ip-version: dual
+  name: dayfree|🇺🇸_US_美国_1
+  network: ws
+  password: 44ed7a37-af89-4cd1-8680-83a7207810d9
+  port: 443
+  server: 172.67.135.37
+  sni: cCtv4.459.pp.uA
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: cctv4.459.pp.ua
+    path: /HpYP4foAlpTKtfYnjLYhU30U
+- ip-version: dual
+  name: dayfree|🇺🇸_US_美国->🇫🇷_FR_法国_3
+  network: ws
+  password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae
+  port: 443
+  server: 104.21.25.95
+  skip-cert-verify: true
+  sni: DDd.890604.FIlEGear-sG.Me
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /mZr1mA5hub7QHHkQBzYO
+- ip-version: dual
+  name: dayfree|🇺🇸_US_美国_4
+  password: OX32x3nNZ0eFYcwzyDl2pISqeRETDZnDYyDwyFTlCaAa9SAlCOOSF36CXYSRzS4A3xaR8
+  port: 443
+  server: panels.wireshop.net
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   ip-version: dual
   name: forever|🇺🇸_US_美国->🇷🇺_RU_俄罗斯
@@ -439,359 +355,302 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: airport|🇰🇷 韩国_5
-  password: qwerREWQ@@
-  port: '11389'
-  server: 221.150.109.89
-  type: ss
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇨🇳 中国_2
-  port: '59003'
-  server: 183.236.51.36
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
-  name: airport|🇭🇰 香港_7
-  password: b6200af42ccadea353f5b5856dd20d70
-  port: '39001'
-  server: 120.233.128.68
-  skip-cert-verify: true
-  sni: 120.233.128.68
+  name: guanxi|🇹🇼台湾1 | ⬇️ 1.2MB/s|Disney|Youtube|Openai
+  password: 4NDgRx3YxEuCnxIFlOj84SnZy3gyXAa3OO383jzIRS7eCC2euaaeYKlTp9cFFCyCD0yap
+  port: 28332
+  server: sohtsa.taiwanesefood.link
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: guanxi|🇺🇸美国4 | ⬇️ 2.9MB/s|17%|Openai|Gemini
+  password: BIRCauz5R2S8O3pZ56eg8yC43yla4T3D7znxCDFxSCODO9jA3NxAcaE3YYK3Sq8u9DxZg
+  port: '18332'
+  server: closet.homeofbrave.net
+  skip-cert-verify: false
   type: trojan
   udp: true
 - alterId: '0'
   cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇨🇳 中国_1
-  network: tcp
-  port: '50002'
-  server: 47.116.166.178
+  name: guanxi|🇺🇸美国6 | ⬇️ 1.7MB/s|56%|Netflix|Disney|Openai|Gemini
+  network: ws
+  port: 443
+  server: www.visa.com.tw
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  udp: true
+  uuid: 982087ef-8851-44df-eb8e-836f3362f3f1
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: oracle-sjc.ecp.dpdns.org
+    max-early-data: 2560
+    path: /by-zedware-network/
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  delay: 2218
+  name: guanxi|🇺🇸美国96 | ⬇️ 1.3MB/s|25%|Openai
+  network: ws
+  password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae
+  port: 443
+  server: 172.67.172.91
+  sni: Ty.457.pP.uA
+  type: trojan
+  ws-opts:
+    path: /mZr1mA5hub7QHHkQBzYO
+- name: guanxi|🇺🇸美国209 | ⬇️ 2.9MB/s|Openai
+  network: ws
+  password: f82fb954-06a1-4f0b-9180-17e07585b61f
+  port: 443
+  server: 104.21.23.162
+  skip-cert-verify: false
+  sni: 6tghjk.131.pp.ua
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 6tghjk.131.pp.ua
+    path: '%2FYu29UN3Yz8hcnI3SlZor0'
+- cipher: aes-256-cfb
+  name: guanxi|🇬🇧英国1 | ⬇️ 1.5MB/s|0%|Youtube|Openai
+  obfs: plain
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  protocol: origin
+  server: 62.100.205.48
+  type: ssr
+- alpn:
+  - http/1.1
+  name: guanxi|🇺🇸美国204 | ⬇️ 4.0MB/s|32%|Openai
+  network: ws
+  password: a926af96-2cfe-4169-8107-6c5f0d74a938
+  port: 443
+  server: 104.21.22.211
+  skip-cert-verify: false
+  sni: 5.taipei108.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /5NB3RVAWa3Uo1P5zFPkui
+- cipher: chacha20-ietf-poly1305
+  name: guanxi|🇺🇸美国10 | ⬇️ 7.4MB/s|30%|Netflix|Openai
+  password: Wl3SYj2xzd52NLZEBU4wCN
+  port: 5842
+  server: 35.170.192.169
+  type: ss
 - alterId: '0'
   cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇨🇳 中国_3
+  name: airport|🇸🇬 新加坡_1
   network: tcp
-  port: '50002'
-  server: 112.132.215.12
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '64'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇨🇳 中国_5
-  network: tcp
-  port: '50002'
-  server: 120.210.205.59
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '64'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇨🇳 中国_4
-  network: tcp
-  port: '50002'
-  server: 47.92.152.169
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇨🇳 中国_6
-  network: tcp
-  port: '50002'
-  server: 120.26.55.225
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: airport|🇺🇸 美国_26
-  network: tcp
-  port: '39076'
-  server: 183.238.90.8
+  port: '59652'
+  server: 183.236.51.38
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: airport|🇻🇳 越南_10
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.29
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: airport|🇻🇳 越南_12
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.20
+  name: airport|🇭🇰 香港_7
+  password: asd123456
+  port: '8388'
+  server: 154.197.26.237
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: airport|🇹🇼 台湾_1
+  password: 937f6b6168b6
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: wt8v1.kvote.cn
+    mode: websocket
+    mux: true
+    path: /oqhygtklyhwi
+    tls: true
+  port: '443'
+  server: 103.137.62.194
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: airport|🇭🇰 香港_1
+  password: asd123456
+  port: '8388'
+  server: 103.149.182.191
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: airport|🇻🇳 越南_9
+  name: airport|❓ 未知_82
+  password: qwerREWQ@@
+  port: '4857'
+  server: 125.141.26.12
+  type: ss
+- alpn:
+  - http/1.1
+  name: airport|❓ 未知_80
+  password: telegram-id-privatevpns
+  port: '22222'
+  server: 63.176.41.214
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南_3
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
-  server: 103.186.154.31
+  server: 103.186.155.133
   type: ss
+- alterId: '0'
+  cipher: auto
+  disable-sni: true
+  name: airport|🇺🇸 美国_4
+  network: tcp
+  port: '41491'
+  server: 120.232.153.41
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: ''
+    path: ''
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: airport|🇻🇳 越南_2
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
-  server: 103.186.155.21
+  server: 103.186.155.23
   type: ss
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: airport|🇻🇳 越南_6
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.18
-  type: ss
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇸🇬 新加坡_1
-  port: '59152'
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南_8
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.19
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  ip-version: dual
-  name: airport|🇻🇳 越南_13
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.19
-  tls: false
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: airport|🇺🇸 美国_3
-  port: '31609'
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: airport|🇬🇧 英国_3
-  obfs: plain
-  obfs-param: ''
-  password: f8f7aCzcPKbsF8p3
-  port: '989'
-  protocol: origin
-  protocol-param: ''
-  server: 62.100.205.48
-  type: ssr
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|❓ 未知_7
-  port: '50002'
-  server: 47.104.186.133
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: airport|🇰🇷 韩国_2
+  name: airport|🇰🇷 韩国_1
   password: qwerREWQ@@
-  port: '36379'
-  server: p080.panda001.net
-  tfo: false
+  port: '11389'
+  server: 221.150.109.89
   type: ss
-- alterId: '2'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇺🇸 美国_73
-  network: ws
-  port: '22641'
-  server: 120.233.154.102
-  servername: zxjp-a.tkong.cc
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- alterId: '64'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇺🇸 美国_28
-  port: '49291'
-  server: 183.236.51.38
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: airport|🇻🇳 越南_1
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.35
-  type: ss
-- alterId: '2'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇺🇸 美国_86
-  network: ws
-  port: '22643'
-  server: 120.233.154.102
-  servername: zxjp-c.tkong.cc
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: airport|🇻🇳 越南_4
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.36
-  type: ss
-- alterId: '2'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇺🇸 美国_88
-  network: ws
-  port: '22643'
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
+- client-fingerprint: chrome
+  name: airport|🇭🇰 香港_37
+  password: RlzoEILU
+  port: '28296'
+  server: 36.151.251.60
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: airport|🇭🇰 香港_1
-  password: 0S43J3FD6L7IEKGQ
-  port: '15008'
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  type: ss
+  sni: cdn.egvra.cn
+  type: trojan
   udp: true
 - alterId: '0'
   cipher: auto
-  name: airport|🇺🇸 美国_25
-  port: '52082'
-  server: 120.198.71.216
+  name: airport|🇭🇰 香港_4
+  port: '15229'
+  server: f4a6bc09-sva740-tbrhck-1thqb.cm.plebai.net
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  udp: true
+  uuid: 4f4c6876-fcf6-11ef-94aa-f23c913c8d2b
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
   name: airport|🇸🇬 新加坡_2
-  port: '40292'
+  port: '43292'
   server: 120.232.153.40
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: '64'
   cipher: auto
-  name: mfuu|🇨🇳CN-120.234.102.229-206
+  disable-sni: true
+  name: airport|🇺🇸 美国_1
   network: tcp
-  port: 42174
-  server: 120.234.102.229
+  port: '49554'
+  server: 183.236.51.38
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.234.102.229
-  ws-path: /
-- name: mfuu|🇨🇳CN-125.88.196.143-176
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: dozo01.flztjc.top
-  skip-cert-verify: true
-  sni: hk-13-568.flztjc.net
-  type: trojan
-- name: mfuu|🇺🇸US-154.17.17.149-210
-  password: Z3aXaKZnXxNc3y03OnKcaq4CN3OcqA8SwSzSRZ3O3Sa3NnaFD4xzgCSR7AaOZ983y0yY3lBOYCAOAzx
-  port: 28331
-  server: 154.17.17.149
-  skip-cert-verify: true
-  sni: hanger.homeofbrave.net
-  type: trojan
-- name: mfuu|🇨🇳CN-36.151.251.62-030
-  password: RlzoEILU
-  port: 33019
-  server: 36.151.251.62
-  skip-cert-verify: true
-  type: trojan
-- alterId: 64
+  ws-opts:
+    headers:
+      host: ''
+    path: ''
+- alterId: '0'
   cipher: auto
-  name: mfuu|🇨🇳CN-120.198.71.219-168
+  name: airport|🇺🇸 美国_16
   network: tcp
-  port: 49355
+  port: '37805'
+  server: 120.232.153.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '64'
+  cipher: auto
+  client-fingerprint: chrome
+  name: airport|🇺🇸 美国_2
+  port: '31209'
+  server: 120.232.153.40
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: airport|🇭🇰 香港_8
+  password: 0S43J3FD6L7IEKGQ
+  port: '15008'
+  server: 183.2.157.135
+  type: ss
+- cipher: aes-256-cfb
+  name: airport|🇰🇷 韩国_2
+  password: qwerREWQ@@
+  port: '15098'
+  server: p222.panda001.net
+  type: ss
+- alterId: '64'
+  cipher: auto
+  disable-sni: true
+  name: airport|🇺🇸 美国_14
+  network: tcp
+  port: '44915'
   server: 120.198.71.219
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.198.71.219
-  ws-path: /
-- name: mfuu|🇨🇳CN-157.148.96.94-011
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  port: 15229
-  server: f8021ada-swo740-t1bnjq-1krtb.cu.plebai.net
-  skip-cert-verify: true
-  type: trojan
-- name: mfuu|🇨🇳CN-157.148.96.94-207
-  password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
-  port: 15229
-  server: a828e0b8-swo740-tcinla-hrtf.cu.plebai.net
-  skip-cert-verify: true
-  sni: a828e0b8-swo740-tcinla-hrtf.cu.plebai.net
-  type: trojan
+  ws-opts:
+    headers:
+      host: ''
+    path: ''
+- cipher: rc4-md5
+  name: mfuu|🇨🇳CN-118.184.136.142-025
+  password: 26d8vZ
+  port: 5185
+  server: twgame02.graniterapids.com
+  type: ss
 - alterId: 0
   cipher: auto
-  name: mfuu|🇨🇳CN-120.198.71.216-200
+  name: mfuu|🇨🇳CN-183.240.228.221-123
   network: tcp
-  port: 46759
-  server: 120.198.71.216
+  port: 15229
+  server: e871a090-sva740-tcq5zn-19qpt.cm.plebai.net
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
   ws-headers:
-    Host: 120.198.71.216
+    Host: e871a090-sva740-tcq5zn-19qpt.cm.plebai.net
   ws-path: /
+- cipher: aes-256-gcm
+  name: mfuu|🇨🇳CN-183.2.157.135-027
+  password: 0S43J3FD6L7IEKGQ
+  port: 15008
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  type: ss
 - alterId: 0
   cipher: auto
   http-opts:
@@ -807,267 +666,71 @@ proxies:
   type: vmess
   udp: true
   uuid: cc101ff1-3452-41c3-89fe-c2a5a20dc6dc
-- alterId: 64
-  cipher: auto
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3439396564336236
-  port: 50352
-  server: 120.232.153.123
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇯🇵_💻_github.com/Ruk1ng001_3533663536313231
-  password: awsps0501
-  port: 443
-  server: 54.168.106.133
-  type: ss
-- client-fingerprint: chrome
-  name: ruk1ng|🟡_🇸🇬_💻_github.com/Ruk1ng001_3131653935393637
-  password: 6303ux8zpDA9c9OTqCFNFeCCDalxaFZAE36p3RYSaORYDSKTRZIy3nDjZD2R5wS48Yxc8
-  port: 18332
-  server: 13.213.45.77
-  skip-cert-verify: false
-  sni: briefly.protocolbuffer.com
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3336656166306464
-  password: 93f122df-87be-4554-b6cd-4f55da7f619a
-  port: 39102
-  server: 183.236.51.26
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 772
-  name: ruk1ng|🟡_🇰🇷_📶_github.com/Ruk1ng001_3535316337373862
-  password: qwerREWQ@@
-  port: 4857
-  server: 125.141.26.12
-  type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: ruk1ng|🟡_🇨🇳_📶_github.com/Ruk1ng001_6232356138633631
-  network: ws
-  port: 46015
-  server: 112.29.213.228
-  skip-cert-verify: false
-  tfo: false
+  name: ruk1ng|github.com/Ruk1ng001_6365316133396364
+  port: 15228
+  server: 8feddcfa-svjgg0-t7h9gl-1q15s.cm.plebai.net
   tls: false
   type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    path: /zh-cn
+  uuid: 11303a62-9a33-11ee-be7f-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: ruk1ng|🟡_🇨🇳_📶_github.com/Ruk1ng001_6337336132343539
-  port: 50007
-  server: 112.132.215.34
-  servername: 112.132.215.34
+  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_6466343131636431
+  port: 59003
+  server: 183.236.51.36
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: ruk1ng|🟡_🇯🇵_💻_github.com/Ruk1ng001_6563623764633465
-  password: AC8aADj36wSp36S9xIC34yyAYeKgOCDxDSaxOY3YZu8l7eluexYZSnRFBgR4Z3a8DT09E
-  port: 28336
-  server: 54.150.199.120
-  skip-cert-verify: false
-  sni: derrick.meijireform.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: ruk1ng|🟡_🇺🇸_💻_github.com/Ruk1ng001_3931366537663530
-  password: 3lSlAcxDSNpeKOyZ3pIlyYRC7328C3X93Aa8SFOgDX4D7An0zYSRDRuaRE8lCpCASE6Bu
-  port: 443
-  server: 154.17.25.96
-  skip-cert-verify: false
-  sni: theory.wireshop.net
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: ruk1ng|🟡_🇨🇳:🇹🇼_📶_github.com/Ruk1ng001_3461653835393338
-  password: 937f6b6168b6
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: wt8v1.kvote.cn
-    mode: websocket
-    mux: true
-    path: /oqhygtklyhwi
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 103.137.62.194
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: ruk1ng|github.com/Ruk1ng001_3831353438663762
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  tfo: true
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: ruk1ng|🟡_🇸🇬_💻_github.com/Ruk1ng001_3733376339353030
-  password: 8A5SgnpNyaCaORwOqgOSFZYDBAF4ENzSKKDX3eC5D63FlXCyY3a7zpDB9Iax3ZneR0Ywe
-  port: 18332
-  server: 18.141.191.2
-  skip-cert-verify: false
-  sni: handgun.protocolbuffer.com
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: ruk1ng|🟡_🇺🇸_💻_github.com/Ruk1ng001_3436366638353934
-  password: awsps0501
-  port: 443
-  server: 34.217.14.49
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: ruk1ng|❓_🇻🇳_💻_github.com/Ruk1ng001_3838666639393030
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.38
-  tfo: true
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: ruk1ng|github.com/Ruk1ng001_6236663165313232
+- name: ruk1ng|github.com/Ruk1ng001_3732623933646462
   network: ws
-  port: 1443
-  server: sslvpn.51job.com
+  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+  port: 40021
+  server: vt-bana2-cn-11.ghpgwqswodgzv.com
+  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
+    path: /dl_media
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|🟡_🇨🇳_💼_github.com/Ruk1ng001_3337366466613035
+  port: 50002
+  server: 47.116.166.178
+  servername: 47.116.166.178
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
-  ws-opts:
-    headers:
-      Host: centos7
-    path: /634c5c4f9782
-- client-fingerprint: chrome
-  name: ruk1ng|🟡_🇨🇳:🇹🇼_📶_github.com/Ruk1ng001_6233623266366531
-  password: 4cDgyx33xaypDCIFaOj84Snjy3g9XpulOI3FF0CaaTSyY3ElCOeYKx8eCeN7zRRZnCu2A
-  port: 28331
-  server: 61.221.48.98
-  skip-cert-verify: false
-  sni: sohtsa.taiwanesefood.link
-  type: trojan
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3338366133666634
-  port: 44915
-  server: 120.198.71.219
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3334666165333737
-  port: 41024
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- allowInsecure: ''
-  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_3961336534356663
-  network: ws
-  password: 5453ae26-250d-4e79-b4ec-016baf806865
-  port: 443
-  server: 172.67.205.22
-  skip-cert-verify: false
-  sni: 1SSdDdFfffHhHJJJJ.20220420.Pp.uA
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 1ssdddffffhhhjjjj.20220420.pp.ua
-    path: /OYzPAeaZdXUq2d6J3gc4aj
-- name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_3839316531393261
-  network: ws
-  password: 061ec9d5-ba40-428a-8be0-1947b10b5cfc
-  port: 443
-  server: 172.67.207.27
-  skip-cert-verify: false
-  sni: T.taipEi108.Dpdns.Org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: T.taipEi108.Dpdns.Org
-    path: '%2FDmby2AKiZKvMo1YauoQwY5'
-- alterId: 64
-  cipher: auto
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3763663564623732
-  port: 32980
-  server: 120.198.71.214
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  name: ruk1ng|github.com/Ruk1ng001_3533333133396362
-  password: 77a12a3d-6df0-48c8-a189-b071fcda1456
-  port: 11511
-  server: cdn-p1-us.youku-dns.com
+  name: ruk1ng|github.com/Ruk1ng001_3139393836313463
+  password: qwerREWQ@@
+  port: 36379
+  server: p080.panda001.net
+  tfo: true
   type: ss
-- name: ruk1ng|github.com/Ruk1ng001_6331613266323733
-  password: ef18aaca-4711-11ec-a8bf-f23c91cfbbc9
-  port: 15229
-  server: 83c0ab3a-swq1s0-sy439s-laev.cu.plebai.net
-  sni: 83c0ab3a-swq1s0-sy439s-laev.cu.plebai.net
-  type: trojan
-- name: ruk1ng|🟡_🇺🇸_💻_github.com/Ruk1ng001_3561303761303564
-  network: ws
-  password: 061ec9d5-ba40-428a-8be0-1947b10b5cfc
-  port: 443
-  server: 104.21.22.211
-  skip-cert-verify: false
-  sni: T.taipEi108.Dpdns.Org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: T.taipEi108.Dpdns.Org
-    path: '%2FDmby2AKiZKvMo1YauoQwY5'
+  udp: true
 - alterId: 0
   cipher: auto
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_6539363265393562
-  port: 42375
-  server: 120.198.71.214
+  name: ruk1ng|github.com/Ruk1ng001_6566396665333465
+  port: 17233
+  server: a842afb9-sutj40-suyhjm-1hhyy.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: ruk1ng|github.com/Ruk1ng001_6331613839313530
-  password: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
-  port: 15229
-  server: 72df6fa3-swq1s0-syfwbx-1k0yf.cu.plebai.net
-  sni: 72df6fa3-swq1s0-syfwbx-1k0yf.cu.plebai.net
-  type: trojan
-- name: ruk1ng|github.com/Ruk1ng001_3862393631336139
-  password: 861b5684-062c-11f0-8eb0-f23c9164ca5d
-  port: 15229
-  server: 21df6ca0-swq1s0-sx9b4u-1sd8z.cu.plebai.net
-  sni: 21df6ca0-swq1s0-sx9b4u-1sd8z.cu.plebai.net
-  type: trojan
-- name: ruk1ng|github.com/Ruk1ng001_33323830383335
-  password: 591ac730-bd6f-11ed-a8bf-f23c91cfbbc9
-  port: 15229
-  server: bbe9f678-swq1s0-sy3zfb-ezjz.cu.plebai.net
-  sni: bbe9f678-swq1s0-sy3zfb-ezjz.cu.plebai.net
-  type: trojan
-- name: ruk1ng|github.com/Ruk1ng001_6231323462383936
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  port: 15229
-  server: c17003df-swq1s0-t1bnjq-1krtb.cu.plebai.net
-  tls: true
-  type: trojan
+  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3363383863643761
+  port: 17233
+  server: 34ac196c-svlb40-tdnzz0-1qtp7.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: ruk1ng|github.com/Ruk1ng001_6234393264623431
@@ -1077,63 +740,236 @@ proxies:
   tfo: true
   type: ss
   udp: true
-- name: ruk1ng|github.com/Ruk1ng001_3934616631393639
-  password: 0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9
-  port: 15229
-  server: abeeaaca-swq1s0-sxkd63-17z95.cu.plebai.net
-  skip-cert-verify: false
-  sni: abeeaaca-swq1s0-sxkd63-17z95.cu.plebai.net
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: ruk1ng|❓_🇻🇳_💻_github.com/Ruk1ng001_3939303335666538
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.30
-  tfo: true
-  type: ss
-  udp: true
-- name: ruk1ng|github.com/Ruk1ng001_3430353361373234
-  password: 3fa7157d-efe8-832e-9b3c-582d78efbc52
-  port: 15229
-  server: d2898ef4-swq1s0-tf70jh-vm13.cu.plebai.net
-  sni: d2898ef4-swq1s0-tf70jh-vm13.cu.plebai.net
-  type: trojan
-  udp: true
-- name: ruk1ng|github.com/Ruk1ng001_61383661656263
-  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-  port: 15229
-  server: 6e03acc9-swq1s0-sy4bp2-1pr35.cu.plebai.net
-  sni: 6e03acc9-swq1s0-sy4bp2-1pr35.cu.plebai.net
-  type: trojan
-- name: ruk1ng|github.com/Ruk1ng001_31323433363537
-  password: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
-  port: 15229
-  server: 2e279390-swq1s0-sy5642-1mish.cu.plebai.net
-  sni: 2e279390-swq1s0-sy5642-1mish.cu.plebai.net
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6566386366323265
+  port: 17233
+  server: 50ec05bc-sutj40-tdcdb7-1k27l.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6561376362653662
+  port: 17233
+  server: 76c85625-sutj40-t1k53r-1jm8i.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3237313264303565
+  port: 17233
+  server: 132fa85e-svfr40-sxv7gp-8rja.cm5.p5pv.com
+  servername: 132fa85e-svfr40-sxv7gp-8rja.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+- alterId: 0
+  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_6432663034613066
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: 183.232.235.2
+  skip-cert-verify: true
+  sni: hk-13-568.flztjc.net
+  tls: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_6461626666386633
-  network: tcp
-  port: 37805
-  server: 120.232.153.63
-  skip-cert-verify: true
+  name: ruk1ng|github.com/Ruk1ng001_63396433633564
+  port: 17233
+  server: 0e8845d1-suk9s0-sve5if-z93q.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
+- alterId: 64
+  cipher: auto
+  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_6363333431306462
+  port: 39076
+  server: 183.238.90.8
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.63
-  ws-path: /
-- name: ruk1ng|github.com/Ruk1ng001_3234353265343038
-  password: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  port: 15229
-  server: 32ac3419-swq1s0-t12cnj-1ol97.cu.plebai.net
-  sni: 32ac3419-swq1s0-t12cnj-1ol97.cu.plebai.net
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6534336336663733
+  port: 15228
+  server: f641bba8-supts0-svp9t7-1oijm.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: bf140bc0-3f68-11ee-953a-f23c9164ca5d
+- alpn:
+  - http/1.1
+  name: ruk1ng|🟡_🇺🇸_💻_github.com/Ruk1ng001_38306366663834
+  network: ws
+  password: 0bf83a1d-f785-487a-a479-3c3de2566ba6
+  port: 443
+  server: 104.21.75.75
+  skip-cert-verify: false
+  sni: Xs2ws.857856.xYz
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+    path: /xJXdWGMbbZovkcaL2SsGTGxE
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3835316566326536
+  port: 17233
+  server: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
+  servername: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
+- alpn:
+  - http/1.1
+  name: ruk1ng|🟡_🇺🇸_💻_github.com/Ruk1ng001_6365656437666433
+  network: ws
+  password: c8eac4b7-95ba-4ce0-920d-c3279eb3b391
+  port: 443
+  server: 104.21.35.247
+  skip-cert-verify: false
+  sni: ff.HuangSHANg2030.DPDnS.oRg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /ptGwaGzcA4KNAXX
+- alpn:
+  - http/1.1
+  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_6131356166376632
+  network: ws
+  password: 0bf83a1d-f785-487a-a479-3c3de2566ba6
+  port: 443
+  server: 172.67.204.120
+  skip-cert-verify: false
+  sni: VV.890603.xyZ
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /xJXdWGMbbZovkcaL2SsGTGxE
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: ruk1ng|github.com/Ruk1ng001_64653762303962
+  port: 17233
+  server: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3735343264623936
+  port: 17233
+  server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3334666165333737
+  port: 41024
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_3335373263623365
+  port: 41766
+  server: 183.238.90.8
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6465613832333636
+  port: 15229
+  server: 2130c4e3-surog0-szxfsm-v3c2.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6461653861393238
+  port: 17233
+  server: fe15251f-sunz40-tbpkla-1otc2.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 0114339c-488d-11ee-8792-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  ip-version: dual
+  name: ruk1ng|github.com/Ruk1ng001_6164356261613562
+  network: tcp
+  port: 15229
+  server: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_6462666161666465
+  port: 47883
+  server: 120.198.44.126
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alpn:
+  - http/1.1
+  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_6532306262636161
+  network: ws
+  password: c6840587-7ac4-40be-aa4b-ae327eb4fa53
+  port: 443
+  server: 172.67.211.136
+  skip-cert-verify: false
+  sni: ddFRTy.191266.XYZ
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /ogSVyJu0ksqZjqvVUXlLhk95Ad
+- alpn:
+  - http/1.1
+  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_6436326263306336
+  network: ws
+  password: c8eac4b7-95ba-4ce0-920d-c3279eb3b391
+  port: 443
+  server: 172.67.181.193
+  skip-cert-verify: false
+  sni: ff.HuangSHANg2030.DPDnS.oRg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /ptGwaGzcA4KNAXX
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3237346338623634
+  port: 15229
+  server: 9f76b27c-sux8g0-tcbdbb-1tjwn.cm.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9340ab4a-0535-11f0-90e2-f23c913c8d2b
 - alterId: 64
   cipher: auto
   name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_6238333865363639
@@ -1144,10 +980,41 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
-  name: ruk1ng|github.com/Ruk1ng001_3536663336653435
+  client-fingerprint: chrome
+  name: ruk1ng|github.com/Ruk1ng001_6139646430646237
   network: ws
-  port: 30805
-  server: v5.heduian.link
+  port: 30808
+  server: v8.heduian.link
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alpn:
+  - http/1.1
+  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_6133643237343039
+  network: ws
+  password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae
+  port: 443
+  server: 172.67.133.248
+  skip-cert-verify: false
+  sni: DDd.890604.FIlEGear-sG.Me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /mZr1mA5hub7QHHkQBzYO
+- alterId: 2
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6632356238633566
+  network: ws
+  port: 30804
+  server: v4.heduian.link
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -1156,28 +1023,27 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: ruk1ng|github.com/Ruk1ng001_6266626530333337
-  password: 6e9cdc20-b92a-11ef-973a-f23c913c8d2b
-  port: 15229
-  server: a2a2e847-swq1s0-sww7b0-1qwp5.cu.plebai.net
-  sni: a2a2e847-swq1s0-sww7b0-1qwp5.cu.plebai.net
+- alterId: 0
+  name: ruk1ng|github.com/Ruk1ng001_6362356335363362
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: dozo01.flztjc.top
+  skip-cert-verify: true
+  sni: hk-13-568.flztjc.net
+  tls: true
   type: trojan
   udp: true
-- name: ruk1ng|github.com/Ruk1ng001_3961353132633734
-  password: 398e0d38-8649-11ef-959c-f23c9164ca5d
-  port: 15229
-  server: 699bbddc-swq1s0-sxzls8-1gxvd.cu.plebai.net
-  sni: 699bbddc-swq1s0-sxzls8-1gxvd.cu.plebai.net
-  type: trojan
-  udp: true
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_6166303330336134
-  port: 55002
-  server: 183.237.84.53
+  client-fingerprint: chrome
+  name: ruk1ng|github.com/Ruk1ng001_6332636330626563
+  port: 15228
+  server: 2a646fc6-sv0xs0-tevzxo-3e5b.cm.plebai.net
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: b70f5316-cc87-11ed-ab19-f23c91cfbbc9
 - alterId: 2
   cipher: auto
   name: ruk1ng|github.com/Ruk1ng001_6262326533313937
@@ -1192,58 +1058,183 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 64
+- alterId: 2
   cipher: auto
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_6466323135303534
-  port: 41766
-  server: 183.238.90.8
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: ruk1ng|github.com/Ruk1ng001_3835313665623735
-  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-  port: 15229
-  server: 808f9c30-swq1s0-swy6li-tni2.cu.plebai.net
-  tls: true
-  type: trojan
-- name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_6138303737393261
+  client-fingerprint: chrome
+  name: ruk1ng|github.com/Ruk1ng001_3639376363306231
   network: ws
-  password: 508a5202-d450-42d2-a74c-9326dcda8b63
-  port: 443
-  server: 172.67.137.6
-  skip-cert-verify: true
-  sni: SsSxderT.fREevPnatM.Dpdns.ORG
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
   tfo: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- alpn:
+  - http/1.1
+  name: ruk1ng|🟡_🇺🇸_💻_github.com/Ruk1ng001_6333663535663435
+  network: ws
+  password: 44ed7a37-af89-4cd1-8680-83a7207810d9
+  port: 443
+  server: 104.21.26.17
+  skip-cert-verify: false
+  sni: cCtv4.459.pp.uA
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: SsSxderT.fREevPnatM.Dpdns.ORG
-    path: /dDWfJuXDH50Q7a7NsRZbl4sVHqtMKS
-- name: ruk1ng|github.com/Ruk1ng001_6135616664616366
-  password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /HpYP4foAlpTKtfYnjLYhU30U
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6465616131616331
+  port: 17234
+  server: 5a86c3b1-surog0-t26vr3-1likw.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: a23c20fc-3e66-11ef-b1d2-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6164313865376634
+  port: 17234
+  server: 174ff997-sv2sg0-tbe46y-1la7v.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 460749c2-bcef-11ee-89fc-f23c913c8d2b
+- alterId: 64
+  cipher: auto
+  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_6134653763646330
+  port: 49302
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6563623762656634
+  port: 17234
+  server: dfb883f1-surog0-szxfsm-v3c2.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+- alterId: 2
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: ruk1ng|github.com/Ruk1ng001_3138303861303333
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6666656233636538
+  port: 17232
+  server: 2b6fa9f9-sum4g0-sv6oiy-1p1b.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3966303965636332
+  port: 17234
+  server: 89cd4eaf-svdwg0-tbmeud-1th9y.cm5.p5pv.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 12a81f5a-fa9e-11ef-8400-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3462393961633832
+  port: 17234
+  server: 9c8a78dd-svjgg0-t6fl0c-1r7od.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6362383465336361
   port: 15229
-  server: a2bbfa2e-swq1s0-sxwsos-g3b3.cu.plebai.net
+  server: 435217c8-sux8g0-surw8s-1hzyr.cm.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+- alpn:
+  - http/1.1
+  name: ruk1ng|🟡_🇺🇸_💻_github.com/Ruk1ng001_3661356135346237
+  network: ws
+  password: a926af96-2cfe-4169-8107-6c5f0d74a938
+  port: 443
+  server: 104.21.112.1
   skip-cert-verify: false
-  sni: a2bbfa2e-swq1s0-sxwsos-g3b3.cu.plebai.net
+  sni: zsde.7777128.xyz
   type: trojan
   udp: true
-- name: ruk1ng|github.com/Ruk1ng001_6166333531343966
-  password: 0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /5NB3RVAWa3Uo1P5zFPkui
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6263376637333734
+  port: 15228
+  server: 1e843891-sva740-t6k7h7-1rcxl.cm.plebai.net
+  servername: 1e843891-sva740-t6k7h7-1rcxl.cm.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9141f048-0b70-11ef-9eb1-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6437633434653031
   port: 15229
-  server: eac1462b-swxgg0-sxkd63-17z95.cu.plebai.net
-  sni: eac1462b-swxgg0-sxkd63-17z95.cu.plebai.net
+  server: 067f183f-sv8cg0-t48iy7-gydh.cm.plebai.net
+  servername: 067f183f-sv8cg0-t48iy7-gydh.cm.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b68f4b4c-2d02-11ec-9ee8-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6536353366366435
+  network: tcp
+  port: 17235
+  server: ee53ff51-sux8g0-sxxbmq-1szgv.cm5.p5pv.com
+  type: vmess
+  uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
+- cipher: aes-256-cfb
+  name: blobBird|_RU_俄罗斯_1
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.112
+  type: ss
+  udp: true
+- name: mahdiblanda|🇯🇵JP-52.69.249.182-5985 | 21.816MB
+  password: FNCEZ4Z336SlI8TRlyx3Y3SljwaxFexDNRxzya4R82DEOOCYR25eOSBq0K0ez9ZnaX9D3
+  port: 28332
+  server: mailbox.meijireform.com
+  skip-cert-verify: false
   type: trojan
 - cipher: aes-256-gcm
-  name: ermaozi|🇷🇺_RU_俄罗斯_1
-  password: b55c7e84afdd52cb
-  port: 2029
-  server: 185.22.153.67
+  name: mahdiblanda|🇷🇺RU-176.32.35.68-5995 | 16.993MB
+  password: 4194ce5b1f36f660
+  port: 2022
+  server: 176.32.35.68
   type: ss
-- name: mahdiblanda|🇺🇸US-138.197.5.103-0249 | 162.683MB
-  password: xxoo
-  port: 443
-  server: 138.197.5.103
-  skip-cert-verify: false
-  sni: us.blazeppn.info
-  type: trojan
