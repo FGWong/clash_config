@@ -9,394 +9,432 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇨🇳 Taiwan
-  password: 4NDgRx3YxEuCnxIFlOj84SnZy3gyXAa3OO383jzIRS7eCC2euaaeYKlTp9cFFCyCD0yap
-  port: 28332
-  server: sohtsa.taiwanesefood.link
-  skip-cert-verify: false
-  type: trojan
+  name: 🇯🇵 Tokyo1
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 4990
+  server: 103.232.213.170
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇯🇵 Japan
-  password: Rpcl4qFSzOYTZB3u3RXCFTgypA347ZEeCCa0x39E2DX36AlgwF8eDYAyaSa393aaO7zqj
-  port: 28335
-  server: boohoo.meijireform.com
-  skip-cert-verify: false
-  type: trojan
+  name: Los Angeles
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8330
+  server: lax04.wddc.akaedge.net
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇯🇵 Japan 2
-  password: S7a4xCe5y83ualA3OpCCp8YRlAS8C3IeyZ6EqOjxYKBDwxNXF92z3RZ8nTAwD3lCjOB7e
-  port: 18333
-  server: sniffle.meijireform.com
-  skip-cert-verify: false
-  type: trojan
+  name: Seoul2
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8330
+  server: 61.111.247.42
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇯🇵 Japan 3
-  password: lCBaR9Z36DTpaFSSYInu4R3AYeKOuCDxxSaD3xY8y7e43Z9O6eYZlCg88AyAjg3xwSD0E
-  port: 28337
-  server: derrick.meijireform.com
-  skip-cert-verify: false
-  type: trojan
+  name: Riyadh
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 4990
+  server: 156.244.12.140
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇯🇵 Japan 4
-  password: FNCEZ4Z336SlI8TRlyx3Y3SljwaxFexDNRxzya4R82DEOOCYR25eOSBq0K0ez9ZnaX9D3
-  port: 28332
-  server: mailbox.meijireform.com
-  skip-cert-verify: false
-  type: trojan
+  name: Frankfurt
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8443
+  server: 156.226.175.105
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇨🇳 Taiwan 2
-  password: D0zS6R8YgalOCSagRpKXATSN68q4BDZnw9xDC3333ej9DEaaCjuZ2ueFYRK3AnyIpA7ZF
-  port: 28333
-  server: levuior.taiwanesefood.link
-  skip-cert-verify: false
-  type: trojan
+  name: Madrid
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8330
+  server: 103.240.146.143
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇯🇵 Japan 5
-  password: Aa4cexaO3FReREXgAlp9CjyTjpaRNan3YDx6DxaDYFS3On0SqgF08CZcBpYxy3awXeEIC
-  port: 28331
-  server: huzzah.meijireform.com
-  skip-cert-verify: false
-  type: trojan
+  name: New York
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8330
+  server: 66.55.65.54
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵 Japan 6
-  password: CS30xF68I3YCyOayRApRgpFRyAZYeS8naO8q3p3w0jzZOB74zD8l9O3DElR3SKuceXacx
-  port: 443
-  server: terture.meijireform.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵 Japan 7
-  password: SC82p83RpnSRyuyDqzA7FYSajN73c9XxZIaYD8l6Op3DleRuaCSOnC5BA05zwEwFlRBDa
-  port: 443
-  server: forward.meijireform.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵 Japan 8
-  password: 7DFyEI4qOZgDD5AK3S3KnTXF3aOpxOc2Dw0Za3Bj6xRyC9E8e8g0AN3uYTY3SFNDYFASa
-  port: 28336
-  server: kuam.meijireform.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵 Japan 9
-  password: 3DZwNDRFSa7ZYpYRx2lAZzR4SCncORY7ESYAXyFpaexDA98eljCw6xyCOa534TlCD0xKD
-  port: 18332
-  server: compost.meijireform.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵 Japan 10
-  password: DBFKzCj8yD25SFe4C4ZYI3DpZ333YeAu3FDI00OF8CS9gERacY3pxNXeT2p73OlaqyBl6
-  port: 443
-  server: infinity.meijireform.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇰🇷 South Korea
-  password: 94Xn93e3F2uOxCE8De8upAAwnlI8ySRRj70Ol6zgYNBjZFCDK5Yaca3D8aT2qaxyEc0DK
-  port: 443
-  server: bapus.koreanbbq.link
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 United States
-  password: 2NZOyeag5BS0jCwzwOAEnplZ8gDpYjSSe53lY8uIp6Rcq3alOBSYA8CeFDAZS3R3Ky39D
-  port: 28332
-  server: flashlight.homeofbrave.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 United States 2
-  password: Ye8uA37l3C9FwpCwBCuZBy4SqlKTapDXEDnCZFRKSNlZCRSy0I3Yc8DxayzOeO3xaxjjg
-  port: 28331
-  server: fireplace.wireshop.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 United States 3
-  password: e3qTaj4gOeDDzR8lzYXpyZDpga5a3SCwyE4CO6c738aZxwlaaAD0SYSYyXOlF9S3FRF0x
-  port: 28331
-  server: cutlery.homeofbrave.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 United States 4
-  password: pBS63OYXOw3ATcOX5Cz0FEx4lS8CDCYZIBl3C3wzepKYa3SaSq9payCDRynqZxlKSea2A
-  port: 443
-  server: ground.wireshop.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 United States 5
-  password: DD32pDOaTXqZ3z73OnR3D0e3ClC8CnCxEyxw8RcSal6l5ONYClwCyqRaAIY3ESZ4S94eF
-  port: 443
-  server: typical.starspace.link
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 United States 6
-  password: Xpw5xx3q0NDe2XKYDZ3C6S9Dy33AyZn7YSIYx3zOlEa6Z5OcSIau33yFaFD8nAClRSCT8
-  port: 443
-  server: cooker.homeofbrave.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 United States 7
-  password: 4NA33p3DcRaTynzeCajRuFS9zeg8ZeYxCOC83F7ZSABS8aFOulSxS5l3DxlXEDp9Oqx2F
-  port: 28333
-  server: mintaka.starspace.link
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 United States 8
-  password: 6F0ECaSOlYOj952R9juzC5AOZnSeNAXgXqICZY3eYap3e8gCDwSyeac7w4OBxaD3TDyC3
-  port: 28331
-  server: romexs.starspace.link
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 United States 9
-  password: 364alEYAq8BCzFYSZSDRNqaDyA3wOS9KC9eZx3cZKBeuDSAOaCpXY2TAxy8u62IRN043F
-  port: 443
-  server: liveroom.starspace.link
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 United States 10
-  password: OX32x3nNZ0eFYcwzyDl2pISqeRETDZnDYyDwyFTlCaAa9SAlCOOSF36CXYSRzS4A3xaR8
-  port: 443
-  server: panels.wireshop.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 United States 11
-  password: BIRCauz5R2S8O3pZ56eg8yC43yla4T3D7znxCDFxSCODO9jA3NxAcaE3YYK3Sq8u9DxZg
-  port: 18332
-  server: closet.homeofbrave.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 United States 12
-  password: DKzNyaYFCDj86DTIFlO7aanXwgOuYy3Ow3yDlC3ZS9AqFRAAexgR2qz4l843NApZxpep5
-  port: 443
-  server: octopus.starspace.link
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 United States 13
-  password: Eg4ZTOCSZcwl303ZnRaNIKKzaCCDlpOS26TAX7ReY8FR2ISgS3yx3DFaBSC85YqCEBaD9
-  port: 443
-  server: magnet.wireshop.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 United States 14
-  password: 8nCED4l05aB2CqO2ODlDTwK8YRcuazTa3SpIe3wxYR369eX5ZCFY7DFREFO36acxNyS3S
-  port: 28332
-  server: napkin.homeofbrave.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪 Germany
-  password: 7gZIq33OD6pxTR0SCK4z3IDElYCSe9lRFXaCaOT380eSuCe9yj8OFanXYADAA5B3BwK62
-  port: 443
-  server: siwtno.coffeekit.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 United States 15
-  password: lRuIXx3wDYxFyqaaaCc8OY33ynDAS3zECS5DNYXKNaw6RxCR6TeD75TIZ9A34zSDO2OZ0
-  port: 443
-  server: cutting.homeofbrave.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 United States 16
-  password: STSY8lnlFOS8CZaqS8DF4Sw7FBxK3AuO5Sxlz7YRCSNSNFAjSeSDllYFB33az3OzwaNDN80BjE9OwjR
-  port: 28334
-  server: frequency.wireshop.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 United States 17
-  password: CYjXlaFOAyEDZaTe0gZaCOCyy4RwSyKYDq9SSpDCxzF33eA3SS06O28aj65a3lY3znO88
-  port: 28332
-  server: handles.homeofbrave.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
   name: 🇸🇬 Singapore
-  password: 3gSOyqaSBRp9pl73F4DRTSDY92TlCZDu4xYFCS6aeczXZSnC6Fncl8jDIZDRA380a3p2y
-  port: 18332
-  server: morlin.protocolbuffer.com
-  skip-cert-verify: false
-  type: trojan
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8330
+  server: singapore.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇸🇬 Singapore 2
-  password: 4a3paxFKgSCxXBlaZn73Suc6AF3Dj3078l8FeDzDOXZOwyCDCICzeApyySAEgeTOSEZSZ
-  port: 18333
-  server: luber.protocolbuffer.com
-  skip-cert-verify: false
-  type: trojan
+  name: 🇦🇺 Sydney
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8330
+  server: 45.77.239.139
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇸🇬 Singapore 3
-  password: CXpgF4pDnCO33TBKOAIc8ASl9Rqx3zZeBSgwueFlZ86ZOSx2al7T9AqD57FaS3NDlYCx8
-  port: 28338
-  server: pevoy.protocolbuffer.com
-  skip-cert-verify: false
-  type: trojan
+  name: Almaty
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8310
+  server: 77.91.75.132
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇩🇪 Germany 2
-  password: 9SS3yFAOZTx3FaNENDljOC6e67482RDpO3KA85eID3w9y2aAcZDlYzCpYqCZlCSun0Bya
-  port: 28335
-  server: yecea.coffeekit.net
-  skip-cert-verify: false
-  type: trojan
+  name: 🇭🇰 HongKong2
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8443
+  server: hk02.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇸🇬 Singapore 4
-  password: YaN8FFNe58nga3xAu3yTx0CSllcSeOnDZOj3SXROCz3S34B9D3F7Ka0aYa8yaxpXCDRKZ
-  port: 18334
-  server: diagram.protocolbuffer.com
-  skip-cert-verify: false
-  type: trojan
+  name: 🇬🇧 London
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: 104.218.164.53
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇬🇧 United Kingdom
-  password: C2BSyw8ap37lOXBe6YF3j8DDT5RnzlSx3A9gD0SAaaFE234NZaYSRNc3RZSZI0nT3ScZe
+  name: 🇭🇰 HongKong4
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8443
+  server: edgw0.nnce.kxcdn.net
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: 🇭🇰 HongKong5
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 4399
+  server: 152.32.133.115
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: 🇭🇰 Singapore (via HK)
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8444
+  server: sbgp.penso.akaedge.net
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: Stockholm
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: 103.45.246.184
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: Amsterdam
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 5990
+  server: 185.229.225.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: 🇨🇦 Toronto
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: 104.129.128.58
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: 🇲🇽 Mexico City
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: 216.238.81.28
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: 🇮🇹 Milan
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8200
+  server: 185.47.172.230
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: Chicago
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 4999
+  server: 146.71.78.145
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: Taipei
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8330
+  server: tw01.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: Kuala Lumpur
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: 155.254.60.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: Santiago
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8330
+  server: 64.176.16.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: Tel Aviv
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: 185.162.124.132
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: 🇯🇵 Tokyo2
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 4399
+  server: 156.231.117.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: Los Angeles2
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: 165.154.206.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: HoChiMinh2 (ISP)
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: 42.119.60.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: 🇭🇰 HoChiMinh2 (via HK
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8445
+  server: vn5.penso.akaedge.net
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: Warsaw
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: 194.87.108.40
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: Phnom Penh
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: kh01.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: chrome
+  name: 🇷🇺 St.Petersburg
+  password: 25d55ad283aa400af464c76d713c07ad
   port: 443
-  server: scarily.golfland.club
-  skip-cert-verify: false
-  type: trojan
+  server: 194.87.197.196
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇸🇬 Singapore 5
-  password: lOY3KNXAR4jD2lpCaFDI3OygSZ67A8ClDSClZjYwaFpC5qcN2TDzTaIEFYOBx3yn034CZ
-  port: 18334
-  server: pricing.protocolbuffer.com
-  skip-cert-verify: false
-  type: trojan
+  name: Dhaka
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 4330
+  server: 103.174.50.95
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇸🇪 Sweden
-  password: C3CcSOwlyEgpyR3aY9RZF47Nz3zyFCKeDCw38AOxDSyx8SXq8BxDOI2YXqjKZYRa68aFa
-  port: 28331
-  server: mstiot.golfland.club
-  skip-cert-verify: false
-  type: trojan
+  name: Istanbul
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: 103.215.218.174
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇸🇬 Singapore 6
-  password: 3wFeD7FC8CRgIa6KaRDX8O9S3Zpn32aCl7ABZY3u5SlCpSTjqE6D3F8eRyxgSn34aO93p
-  port: 443
-  server: valance.protocolbuffer.com
-  skip-cert-verify: false
-  type: trojan
+  name: Johannesburg
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: 139.84.240.81
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇺🇸 United States 18
-  password: 48yaxxO653y4FDCFZTnzBODaaEXuTOOYSeDCaZYZlqN9ww0SlDeyp7Y2eKZ3AaSICl393
-  port: 28332
-  server: connector.wireshop.net
-  skip-cert-verify: false
-  type: trojan
+  name: Bangkok2
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: 128.1.79.134
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇺🇸 United States 19
-  password: ZaEjzYF6Dj6393CaBZO2pyE9BES2ZZ65SzD5eA283qOyFSSX3C0KqCSIXSFyRqau4DezYwAa3XyCnj8
-  port: 443
-  server: hotpot.homeofbrave.net
-  skip-cert-verify: false
-  type: trojan
+  name: 🇦🇪 Dubai2
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8330
+  server: 165.154.108.92
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇺🇸 United States 20
-  password: AE3pC3ASS78yzjcY8j2ZYa3F0wSeulA39lxxI2wEOIeDDSpNyDFXlNDa3eaC6OCZyqq7T
-  port: 18332
-  server: aluminum.wireshop.net
-  skip-cert-verify: false
-  type: trojan
+  name: Mubai2
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 5201
+  server: 152.32.156.119
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇮🇳 India
-  password: NzaZ4OyY7pc2jeAcx5Xn3De3yp88aZDSqxyDZAYKpxeuI9Tl3OFaR0EwSRYDaDO4q0RBz
-  port: 28331
-  server: mineral.protocolbuffer.com
-  skip-cert-verify: false
-  type: trojan
+  name: Manila
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8339
+  server: 165.154.33.173
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇸🇪 Sweden 2
-  password: TaOF33RCzXSCx3aySp9nFSlDeEwYAYqz2FDCIORZlRAlcTwSayye8SNn42X60DYODZ3xA
-  port: 443
-  server: otcele.golfland.club
-  skip-cert-verify: false
-  type: trojan
+  name: 🇮🇩 Jakarta
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8443
+  server: 165.154.150.51
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇸🇬 Singapore 7
-  password: CxqDpOuC5lCKZ4TzR3ApDA8DFYaC3OaxlDa3B2EgIepuey8R8y3c339FyCRcY2ejCZSgn
-  port: 443
-  server: mention.protocolbuffer.com
-  skip-cert-verify: false
-  type: trojan
+  name: 🇧🇷 Sao Paulo
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: 152.32.197.14
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇬🇧 United Kingdom 2
-  password: OE2xAc83AwKjlFpyAa8w7pD0TaC9ueY2eCy3x9S5Dn8npOIRlXE3BgNFxCqeNFIYyD404
-  port: 28331
-  server: young.golfland.club
-  skip-cert-verify: false
-  type: trojan
+  name: Bahrain
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8331
+  server: 154.205.146.29
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: tqqlqvxj@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 🇫🇷 France
-  password: Aay3RlCe8BSayO2Ypa63F80SxDycq8BeZulaIK0nOFO3SCpaDTDYRXEOSZwAnx9ZDgYjR
-  port: 28331
-  server: coliseum.coffeekit.net
-  skip-cert-verify: false
-  type: trojan
+  name: 🇫🇷 Paris
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: 45.143.5.60
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- client-fingerprint: chrome
-  name: 🇮🇳 India 2
-  password: R3ZC63ENRcY00wz4SDaF6c9pSIuuZXeRqyKX3O9EnlB2yDa3OF3aN4lYC8glpyFD5DCxj
-  port: 28333
-  server: peruby.protocolbuffer.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  username: tqqlqvxj@mayorlogistic.com

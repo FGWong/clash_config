@@ -1,206 +1,4 @@
 proxies:
-  - name: 🇭🇰香港
-    type: vless
-    server: csuzhou01.1cooldns.com
-    port: 41279
-    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-    network: tcp
-    tls: true
-    servername: www.nvidia.com
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-    ip-version: dual
-    udp: true
-  - name: 🇯🇵日本
-    type: vless
-    server: shenzhou05.mysynology.net
-    port: 17278
-    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-    network: tcp
-    tls: true
-    servername: www.yahoo.com
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-    ip-version: dual
-    udp: true
-  - name: SG-Cylix_1
-    type: vless
-    server: 92.112.20.77
-    port: 26994
-    uuid: 3ce409b1-954f-44b0-8a76-406714e800b0
-    network: tcp
-    tls: true
-    servername: www.iij.ad.jp
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: u6_U1GFMVn-ZfSqCJixV7-QF0z4ER4Pm-QWGW2xTklE
-    ip-version: dual
-    udp: true
-  - name: SG-Cylix_2
-    type: vmess
-    server: www.visa.com.tw
-    port: 443
-    uuid: 3ce409b1-954f-44b0-8a76-406714e800b0
-    network: ws
-    tls: true
-    servername: fatty-disaster-fossil-theme.trycloudflare.com
-    skip-cert-verify: true
-    client-fingerprint: randomized
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: none
-  - name: SG-Cylix_3
-    type: hysteria2
-    server: 92.112.20.77
-    port: 8132
-    tls: true
-    password: 3ce409b1-954f-44b0-8a76-406714e800b0
-    sni: www.bing.com
-    alpn:
-      - h3
-    skip-cert-verify: true
-    fast-open: false
-    ip-version: dual
-    udp: true
-  - name: SG-Cylix_4
-    type: tuic
-    server: 92.112.20.77
-    port: 23224
-    uuid: vT2F4nn2flmXT3X44NIJ8LT9
-    tls: true
-    password: 3ce409b1-954f-44b0-8a76-406714e800b0
-    sni: www.bing.com
-    alpn:
-      - h3
-    skip-cert-verify: true
-    ip-version: dual
-    udp: true
-    congestion-controller: bbr
-  - name: freeus-17M
-    type: vless
-    server: wow.quicky.dpdns.org
-    port: 443
-    uuid: 64aced52-7611-42e5-8725-c6bb47f38555
-    network: ws
-    tls: true
-    servername: us.quicky.dpdns.org
-    skip-cert-verify: true
-    ws-opts:
-      path: /fastus
-      headers:
-        host: us.quicky.dpdns.org
-    ip-version: dual
-    udp: true
-  - name: freeus
-    type: vless
-    server: wow.quicky.dpdns.org
-    port: 443
-    uuid: 64aced52-7611-42e5-8725-c6bb47f38555
-    network: ws
-    tls: true
-    servername: us.quicky.dpdns.org
-    ws-opts:
-      path: /fastus
-      headers:
-        host: us.quicky.dpdns.org
-    tfo: false
-    skip-cert-verify: false
-    client-fingerprint: chrome
-  - name: hkfree
-    type: vless
-    server: 202.181.24.70
-    port: 65056
-    uuid: c9d0ddb5-f2c1-4111-a92d-9798a2348a56
-    network: ws
-    tls: false
-    ws-opts:
-      path: /yz
-    ip-version: dual
-  - name: cdn
-    type: vless
-    server: meiguojiedian.464687.xyz
-    port: 80
-    uuid: 7711da80-feed-4ad2-8607-db79f0d73608
-    tls: false
-    network: xhttp
-    tfo: false
-    ws-opts:
-      path: /5a65a9
-    ip-version: dual
-  - name: linuxdo-nlf9a7al
-    type: vless
-    server: iepnxdjph1xzjexh.blxpz.eu.org
-    port: 49645
-    uuid: d090647f-d7a1-408a-b10a-bf67670671b1
-    tls: true
-    client-fingerprint: chrome
-    servername: www.microsoft.com
-    network: tcp
-    reality-opts:
-      public-key: 5Vl9xzPOF7vFn9io0bH0GJzGxRd8Dhkr6L4MV-qLWjQ
-      short-id: 220c10b65ced5fa7
-    tfo: false
-    skip-cert-verify: false
-  - name: :united_states:-US原生纯净-1
-    server: sj-arm.nfsn666.gq
-    port: 8888
-    client-fingerprint: chrome
-    type: hysteria2
-    password: nfsn666
-    auth: nfsn666
-    sni: sj-arm.nfsn666.gq
-    skip-cert-verify: false
-  - name: 🇺🇸-US原生纯净-2
-    server: 2ef15a2a-svi800-sw77c8-dnss.la.shifen.uk
-    port: 1443
-    client-fingerprint: chrome
-    type: hysteria2
-    password: 16955d72-1794-11f0-a035-f23c95b6f51d
-    auth: 16955d72-1794-11f0-a035-f23c95b6f51d
-    sni: 2ef15a2a-svi800-sw77c8-dnss.la.shifen.uk
-    skip-cert-verify: false
-  - name: 🇺🇸-US
-    server: 183.2.150.64
-    port: 27301
-    client-fingerprint: chrome
-    type: trojan
-    password: 073621ef-cc87-4fe4-ab3c-1023b975f862
-    sni: q08m.vgraxiw73s.hasyaf.cn
-    skip-cert-verify: false
-  - name: 🇭🇰-HK
-    server: 120.198.71.216
-    port: 46759
-    client-fingerprint: chrome
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-  - name: 三网直连
-    type: vless
-    server: 70.39.205.15
-    port: 443
-    uuid: 501bb22e-c54b-437d-8821-c702d520da70
-    tls: true
-    client-fingerprint: chrome
-    servername: www.lumen.com
-    network: xhttp
-    reality-opts:
-      public-key: xF4_8Tp0W04Z2ZPz1QBQYBBGuJ10ILLjo3jMQK4Uwg4
-      short-id: 82be
-    tfo: false
-    skip-cert-verify: false
   - name: 纽约TLS|admin
     type: vless
     server: hgtrojan.zabc.net
@@ -228,155 +26,6 @@ proxies:
       path: /e6395c20
       headers:
         Host: hgtrojan.zabc.net
-  - name: 米粒美国06-中转
-    type: trojan
-    server: 36.151.251.62
-    port: 3330
-    password: RlzoEILU
-    tls: true
-    client-fingerprint: chrome
-    sni: cdn.egvra.cn
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: '1'
-    type: vless
-    server: 163.223.182.254
-    port: 443
-    uuid: 74318b39-bd34-4023-82be-0e69b3260297
-    tls: true
-    client-fingerprint: chrome
-    servername: www.lumen.com
-    network: xhttp
-    reality-opts:
-      public-key: KRM5MLGmsT_FlwMzyz7R8q37Z1hHp0AExi-EdYOc2RM
-      short-id: '00'
-    tfo: false
-    skip-cert-verify: false
-  - name: '2'
-    type: hysteria2
-    server: 163.223.182.254
-    port: 443
-    obfs: salamander
-    obfs-password: ＠＠
-    password: '0'
-    auth: '0'
-    skip-cert-verify: true
-  - name: '3'
-    type: vless
-    server: hkt.102118.xyz
-    port: 14271
-    uuid: 74318b39-bd34-4023-82be-0e69b3260297
-    tls: true
-    client-fingerprint: chrome
-    servername: www.lumen.com
-    network: xhttp
-    reality-opts:
-      public-key: KRM5MLGmsT_FlwMzyz7R8q37Z1hHp0AExi-EdYOc2RM
-      short-id: '00'
-    tfo: false
-    skip-cert-verify: false
-  - name: '4'
-    type: hysteria2
-    server: hkt.102118.xyz
-    port: 14271
-    obfs: salamander
-    obfs-password: ＠＠
-    password: '0'
-    auth: '0'
-    skip-cert-verify: true
-  - name: '5'
-    type: vless
-    server: 141.11.42.167
-    port: 443
-    uuid: 74318b39-bd34-4023-82be-0e69b3260297
-    tls: true
-    client-fingerprint: chrome
-    servername: www.lumen.com
-    network: xhttp
-    reality-opts:
-      public-key: KRM5MLGmsT_FlwMzyz7R8q37Z1hHp0AExi-EdYOc2RM
-      short-id: '00'
-    tfo: false
-    skip-cert-verify: false
-  - name: '6'
-    type: hysteria2
-    server: 141.11.42.167
-    port: 443
-    obfs: salamander
-    obfs-password: ＠＠
-    password: '0'
-    auth: '0'
-    skip-cert-verify: true
-  - name: '7'
-    type: vless
-    server: 89.213.150.62
-    port: 443
-    uuid: 74318b39-bd34-4023-82be-0e69b3260297
-    tls: true
-    client-fingerprint: chrome
-    servername: www.lumen.com
-    network: xhttp
-    reality-opts:
-      public-key: KRM5MLGmsT_FlwMzyz7R8q37Z1hHp0AExi-EdYOc2RM
-      short-id: '00'
-    tfo: false
-    skip-cert-verify: false
-  - name: '8'
-    type: hysteria2
-    server: 89.213.150.62
-    port: 443
-    obfs: salamander
-    obfs-password: ＠＠
-    password: '0'
-    auth: '0'
-    skip-cert-verify: true
-  - name: '9'
-    type: vless
-    server: hinet.102118.xyz
-    port: 49827
-    uuid: 74318b39-bd34-4023-82be-0e69b3260297
-    tls: true
-    client-fingerprint: chrome
-    servername: www.lumen.com
-    network: xhttp
-    reality-opts:
-      public-key: KRM5MLGmsT_FlwMzyz7R8q37Z1hHp0AExi-EdYOc2RM
-      short-id: '00'
-    tfo: false
-    skip-cert-verify: false
-  - name: '10'
-    type: hysteria2
-    server: hinet.102118.xyz
-    port: 49827
-    obfs: salamander
-    obfs-password: ＠＠
-    password: '0'
-    auth: '0'
-    skip-cert-verify: true
-  - name: '11'
-    type: vless
-    server: a.jp.taphip.com
-    port: 10242
-    uuid: 74318b39-bd34-4023-82be-0e69b3260297
-    tls: true
-    client-fingerprint: chrome
-    servername: www.lumen.com
-    network: xhttp
-    reality-opts:
-      public-key: KRM5MLGmsT_FlwMzyz7R8q37Z1hHp0AExi-EdYOc2RM
-      short-id: '00'
-    tfo: false
-    skip-cert-verify: false
-  - name: '12'
-    type: hysteria2
-    server: a.jp.taphip.com
-    port: 10242
-    obfs: salamander
-    obfs-password: ＠＠
-    password: '0'
-    auth: '0'
-    skip-cert-verify: true
   - name: '13'
     type: vless
     server: us.alumos.xyz
@@ -392,30 +41,180 @@ proxies:
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
-  - name: 米粒直连SG
+  - name: '414'
+    type: trojan
+    server: wb.kaiqsz.com
+    port: 12221
+    password: 3ff46365-810c-480f-badb-112d3dd03f04
+    tls: true
+    client-fingerprint: chrome
+    sni: mmbiz.redapricotcloud.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: '410'
+    type: trojan
+    server: wb.kaiqsz.com
+    port: 12221
+    password: 3ff46365-810c-480f-badb-112d3dd03f04
+    tls: true
+    client-fingerprint: chrome
+    sni: mmbiz.redapricotcloud.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: '411'
+    type: trojan
+    server: js-12f83a8c.kaiqsz.com
+    port: 12221
+    password: 3ff46365-810c-480f-badb-112d3dd03f04
+    tls: true
+    client-fingerprint: chrome
+    sni: mmbiz.redapricotcloud.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: '418'
+    type: trojan
+    server: js-12f83a8c.kaiqsz.com
+    port: 42765
+    password: 3ff46365-810c-480f-badb-112d3dd03f04
+    tls: true
+    client-fingerprint: chrome
+    sni: mmbiz1.redapricotcloud.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: '39'
+    type: trojan
+    server: hxipv6.hongxingdl.vip
+    port: 42765
+    password: 3ff46365-810c-480f-badb-112d3dd03f04
+    tls: true
+    client-fingerprint: chrome
+    sni: mmbiz1.redapricotcloud.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: '412'
+    type: trojan
+    server: gz-43e866.kaiqsz.com
+    port: 42765
+    password: 3ff46365-810c-480f-badb-112d3dd03f04
+    tls: true
+    client-fingerprint: chrome
+    sni: mmbiz1.redapricotcloud.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: '413'
+    type: trojan
+    server: wb.kaiqsz.com
+    port: 42765
+    password: 3ff46365-810c-480f-badb-112d3dd03f04
+    tls: true
+    client-fingerprint: chrome
+    sni: mmbiz1.redapricotcloud.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: '37'
+    type: hysteria2
+    server: hxzlaws.80-25-lyy.com
+    port: 48597
+    password: 3ff46365-810c-480f-badb-112d3dd03f04
+    auth: 3ff46365-810c-480f-badb-112d3dd03f04
+    skip-cert-verify: true
+  - name: '415'
+    type: trojan
+    server: hxipv6.hongxingdl.vip
+    port: 48291
+    password: 3ff46365-810c-480f-badb-112d3dd03f04
+    tls: true
+    client-fingerprint: chrome
+    sni: mmbiz1.redapricotcloud.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: '416'
+    type: hysteria2
+    server: hxzlaws.80-25-lyy.com
+    port: 31183
+    password: 3ff46365-810c-480f-badb-112d3dd03f04
+    auth: 3ff46365-810c-480f-badb-112d3dd03f04
+    skip-cert-verify: true
+  - name: '419'
+    type: trojan
+    server: hxipv6.hongxingdl.vip
+    port: 28713
+    password: 3ff46365-810c-480f-badb-112d3dd03f04
+    tls: true
+    client-fingerprint: chrome
+    sni: mmbiz1.redapricotcloud.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: 新加坡LXC节点10M
+    type: vmess
+    server: 103.14.77.89
+    port: 30177
+    uuid: 39c20232-b375-453a-b331-2fa31317b22a
+    network: tcp
+    tls: false
+    ip-version: dual
+    alterId: 0
+    cipher: auto
+  - name: 米粒-SG
     type: vless
     server: 92.112.22.221
-    port: 50157
-    uuid: 32f93075-f612-44ce-980c-42484cdbf0c5
+    port: 34092
+    uuid: 7b871e52-bf53-4eb5-baab-b8565a542a39
+    network: tcp
+    tls: true
+    servername: yahoo.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: O8ZFgrWKXyHCNONxa0yU_VYI_qeVgJMbZNe6X4UVOUM
+      short-id: '514498'
+    ip-version: dual
+    udp: true
+  - name: 88d84548-singbox_hysteria2
+    type: hysteria2
+    server: coco.edu.deal
+    port: 41841
+    tls: true
+    password: 88d84548-1281-4b46-a265-be89cb8a8e9e
+    sni: coco.edu.deal
+    alpn:
+      - h3
+    skip-cert-verify: false
+    fast-open: false
+    ip-version: dual
+  - name: 88d84548-singbox_tuic
+    type: tuic
+    server: coco.edu.deal
+    port: 21027
+    uuid: 88d84548-1281-4b46-a265-be89cb8a8e9e
+    tls: true
+    password: 88d84548-1281-4b46-a265-be89cb8a8e9e
+    sni: coco.edu.deal
+    alpn:
+      - h3
+    skip-cert-verify: true
+    ip-version: dual
+    congestion-controller: bbr
+  - name: 米粒-CMI
+    type: vless
+    server: 151.242.73.243
+    port: 28687
+    uuid: 8d2eef16-38b7-4dfd-b69a-8a35ab9739eb
     tls: true
     client-fingerprint: chrome
     servername: yahoo.com
     network: tcp
     reality-opts:
-      public-key: 6bDYOLlmzYbs5puTBhYUdaM4BZhnxQ0ekANtN6b_Zik
-      short-id: 24f926cb52d8af
-    tfo: false
-    skip-cert-verify: false
-  - name: ux6e2hrxo
-    type: vless
-    server: 104.16.18.94
-    port: 443
-    uuid: f75c4f6c-61b5-450a-fa72-4e5686f87f45
-    tls: true
-    client-fingerprint: chrome
-    servername: meiguojiedian.464687.xyz
-    network: ws
-    ws-opts:
-      path: /56956
+      public-key: GmgHjWV4JNCPcsRUe6Px43ONrOpOG46MbMtW7nqwHkQ
+      short-id: ad5d2db00c0a0573
     tfo: false
     skip-cert-verify: false
