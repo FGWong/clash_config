@@ -660,7 +660,7 @@ proxy-groups:
       - common
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
-  - name: Twitter_X
+  - name: XTwitter
     type: select
     proxies:
       - 🎯 全球直连
@@ -913,13 +913,14 @@ rule-providers:
   OneDrive:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
+    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
     path: ./ruleset/OneDrive.yaml
     interval: 86400
   Twitter:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Twitter.yaml"
+    format: 'text' # or 'yaml'
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/classical/twitter.txt"
     path: ./ruleset/Twitter.yaml
     interval: 86400
 
@@ -927,7 +928,7 @@ rule-providers:
     type: http
     behavior: classical
     format: 'text' # or 'yaml'
-    url: "https://raw.githubusercontent.com/Loyalsoldier/geoip/refs/heads/release/clash/classical/cloudflare.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/classical/cloudflare.txt"
       #behavior: ipcidr
       #url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/cloudflare.yaml"
       # https://github.com/Loyalsoldier/geoip/blob/release/clash/ipcidr/cloudflare.txt
@@ -944,7 +945,7 @@ rule-providers:
   artificial_proxy:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/manual_proxy.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/manual_proxy.yaml"
     path: ./ruleset/manual_proxy.yaml
     interval: 86400
 
@@ -952,7 +953,7 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/classical_direct.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/classical_direct.yaml"
     #url: "https://jiahe.eu.org:15443/clash_verge/ruleset/classical_direct.yaml"
     path: ./ruleset/classical_direct.yaml
     interval: 86400
@@ -961,8 +962,16 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/classical_proxy.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/classical_proxy.yaml"
     path: ./ruleset/classical_proxy.yaml
+    interval: 86400
+
+  passby_proxy:
+    behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
+    type: http # file
+    format: 'yaml' # or 'text'
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/proxy_bypass_cloudflare.yaml"
+    path: ./ruleset/proxy_bypass_cloudflare.yaml
     interval: 86400
 
 rules:
@@ -970,6 +979,8 @@ rules:
   - RULE-SET,artificial_direct,🎯 全球直连
   - RULE-SET,cloudflare_ipcidr,🎯 全球直连
   - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,passby_proxy,XTwitter
+  - RULE-SET,Twitter,XTwitter
   - RULE-SET,classical_proxy,🚀 节点选择
   - RULE-SET,artificial_proxy,🚀 节点选择
 
@@ -987,7 +998,6 @@ rules:
   - RULE-SET,telegramcidr,📲 电报信息
   - RULE-SET,google,🚀 节点选择
   - RULE-SET,OneDrive,🚀 节点选择
-  - RULE-SET,Twitter,Twitter_X
   - RULE-SET,icloud,🎯 全球直连
   - RULE-SET,apple,🍎 苹果服务
 
