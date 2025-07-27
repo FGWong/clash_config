@@ -1100,6 +1100,7 @@ rules:
   - RULE-SET,cloudflare_ipcidr,🎯 全球直连
   - RULE-SET,UnBan,🎯 全球直连
   - RULE-SET,passby_proxy,XTwitter
+  - RULE-SET,Twitter,XTwitter
   - RULE-SET,classical_proxy,🚀 节点选择
   - RULE-SET,artificial_proxy,🚀 节点选择
 
@@ -1117,7 +1118,6 @@ rules:
   - RULE-SET,telegramcidr,📲 电报信息
   - RULE-SET,google,🚀 节点选择
   - RULE-SET,OneDrive,🚀 节点选择
-  - RULE-SET,Twitter,XTwitter
   - RULE-SET,icloud,🎯 全球直连
   - RULE-SET,apple,🍎 苹果服务
 
