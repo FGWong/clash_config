@@ -96,3 +96,130 @@ proxies:
         headers:
           User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" # 可选，自定义请求头
     # 其他配置项可根据需要添加
+
+  - name: "Hysteria2-菲律宾"
+    type: hysteria2
+    server: 203.174.82.145
+    port: 43057
+    password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
+    sni: www.bing.com
+    alpn: [h3]
+    skip-cert-verify: true
+
+  - name: "Hysteria2-新加坡"
+    type: hysteria2
+    server: 192.229.85.46
+    port: 57238
+    password: c5cf6677-50f7-4fd2-abbc-c73f4cf7cfff
+    sni: www.bing.com
+    alpn: [h3]
+    skip-cert-verify: true
+
+  - name: "VLESS-美国-2"
+    type: vless
+    server: kuzing.zabc.net
+    port: 40287
+    uuid: 675b7a12-a013-4d5b-9607-1211abaf7421
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    servername: yahoo.com
+    reality-opts:
+      public-key: g3tlfCGYOga5YAm5N9gqNbnY6uuXnmWt5P_tLbFhywY
+      short-id: 3dc0c68f
+
+  - name: "Trojan-美国"
+    type: trojan
+    server: kuzing.zabc.net
+    port: 33003
+    password: xxTiKFswGB
+    sni: kuzing.zabc.net
+    tls: true
+    alpn: [h3, h2, http/1.1]
+
+  - name: "Hysteria-AWS-美国"
+    type: hysteria2
+    server: hy2.everytalk.dpdns.org
+    port: 443
+    password: lkz20040702
+    sni: hy2.everytalk.dpdns.org
+    skip-cert-verify: false
+
+  - name: "Hysteria2-新加坡-修复"
+    type: hysteria2
+    server: kkk9.zabc.net
+    port: 443
+    password: lkz20040702
+    sni: kkk9.zabc.net
+    masquerade: https://bing.com
+
+  - name: "Trojan-美国-2"
+    type: trojan
+    server: luuu71.dpdns.org
+    port: 12433
+    password: ok8r9vycfv
+    sni: luuu71.dpdns.org
+    tls: true
+    alpn: [h3, h2, http/1.1]
+    client-fingerprint: chrome
+
+  - name: "VMess-美国-2"
+    type: vmess
+    server: luuu71.dpdns.org
+    port: 47471
+    uuid: b31b4a1d-f1f0-4d61-8e41-71460799d343
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: true
+    servername: luuu71.dpdns.org
+    client-fingerprint: chrome
+    alpn: [h3, h2, http/1.1]
+
+  - name: "VMess-美国-3"
+    type: vmess
+    server: kuzing.zabc.net
+    port: 49038
+    uuid: 7f498d59-de4d-41d8-80ac-b42e08db4afa
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: true
+    servername: kuzing.zabc.net
+    client-fingerprint: chrome
+    alpn: [h3, h2, http/1.1]
+
+  - name: "Hysteria2-美国-新"
+    type: hysteria2
+    server: anyaitotalked.zabc.net
+    port: 443
+    password: lkz20040702
+    sni: anyaitotalked.zabc.net
+    skip-cert-verify: false
+
+  - name: "VLESS-美国-4"
+    type: vless
+    server: luuu71.dpdns.org
+    port: 59614
+    uuid: 81da6bd0-1af3-4ef8-bf3c-17673e848c91
+    network: tcp
+    tls: true
+    servername: yahoo.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: HbmJ7usHO-qATw9vKjCUgvaCBmoDk9gbF6h3FfL0YnI
+      short-id: 557afc857889bb
+
+  - name: "Reality-jmq31raw"
+    type: vless
+    server: 192.227.148.11
+    port: 443
+    uuid: 5da24f04-f019-44e5-858b-4100584c4a6c
+    network: tcp
+    tls: true
+    reality-opts:
+      public-key: c-nyXJtwqn-sCL_ZBE87uyQV8lMdnwbJJx5Xftsydn4
+      short-id: 976e3a4f7baf87
+    servername: 5da24f04.com
+    client-fingerprint: chrome
