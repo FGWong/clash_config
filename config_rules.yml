@@ -191,9 +191,7 @@ cfw-bypass:
   - "*.bankofbeijing.com.cn"
   - "*.95516.com"
   - "*.unionpay.com"
-  - qq.com
   - "*.qq.com"
-  - music.163.com
   - '*.music.163.com'
   - "www.webofscience.com" # Web of Science域名
   - "snowplow.apps.clarivate.com"
@@ -566,8 +564,14 @@ cfw-bypass:
   - 10.0.0.0/8
   - 172.16.0.0/12
   - 192.168.0.0/16
+  - 192.0.0.0/24
   - "+.local"
   - <local>
+  - 100.64.0.0/10
+  - 169.254.0.0/16
+  - 224.0.0.0/4
+  - 240.0.0.0/4
+  - 255.255.255.255/32
 cfw-latency-timeout: 3000
 proxy:
   - name: "ProxyH" # 默认使用的出站代理名称
@@ -585,10 +589,7 @@ proxy-groups:
       - Cfkg
       - Cfop
       - SKR
-      - HyunWarp
       - ♻️ XQC
-      - FlyNb
-      - StarLink
       - UserC
   - name: Cfop
     type: url-test
@@ -621,18 +622,6 @@ proxy-groups:
       - xqc
     url: 'http://www.gstatic.com/generate_204'
     interval: 12000
-  - name: FlyNb
-    type: url-test
-    use:
-      - flynb
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 12000
-  - name: StarLink
-    type: url-test
-    use:
-      - stars
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 12000
   - name: UserC
     type: select
     use:
@@ -642,8 +631,6 @@ proxy-groups:
   - name: XTwitter
     type: select
     proxies:
-      - FlyNb
-      - StarLink
       - UserC
       - 🚀 节点选择
       - 🎯 全球直连
@@ -671,20 +658,6 @@ proxy-groups:
     use:
       - common
       - skr
-      - hyun-warp
-  - name: HyunWarp
-    type: url-test
-    use:
-      - hyun-warp
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 1200
-  - name: "SpecialFilter"
-    type: select
-    use:
-      - hyun-warp
-    filter: "Gbps"
-    #exclude-type: "vmess|trojan"
-      #exclude-filter: ""
   - name: ACommon
     type: url-test
     use:
@@ -720,7 +693,6 @@ proxy-groups:
       - cldflare
       - cldkg
       - skr
-      - hyun-warp
       - common
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
@@ -732,7 +704,6 @@ proxy-groups:
       - 🚀 节点选择
       - ⚡ 负载均衡
       - SKR
-      - HyunWarp
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -794,16 +765,6 @@ proxy-providers:
       enable: true
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
-  hyun-warp:
-    type: http
-    #type: file
-    url: "https://jiahe.eu.org:15443/clash_verge/hyun-proxies.yaml"
-    interval: 12411
-    path: local_data/hyun-proxies.yaml
-    health-check:
-      enable: true
-      interval: 12000
-      url: 'http://www.gstatic.com/generate_204'
   cldflare:
     url: "https://jiahe.eu.org:15443/clash_verge/cloudflare-proxies.yaml"
     type: http
@@ -850,26 +811,6 @@ proxy-providers:
     #type: file
     interval: 10807
     path: local_data/xqc-proxies.yaml
-    health-check:
-      enable: true
-      interval: 12000
-      url: 'http://www.gstatic.com/generate_204'
-  flynb:
-    url: "https://jiahe.eu.org:15443/clash_verge/flynb-proxies.yaml"
-    type: http
-    #type: file
-    interval: 10807
-    path: local_data/flynb-proxies.yaml
-    health-check:
-      enable: true
-      interval: 12000
-      url: 'http://www.gstatic.com/generate_204'
-  stars:
-    url: "https://jiahe.eu.org:15443/clash_verge/starlink-proxies.yaml"
-    type: http
-    #type: file
-    interval: 10807
-    path: local_data/starlink-proxies.yaml
     health-check:
       enable: true
       interval: 12000
