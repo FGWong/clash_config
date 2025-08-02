@@ -320,3 +320,54 @@ proxies:
     network: tcp
     tfo: false
     skip-cert-verify: false
+  - name: DE2
+    type: hysteria2
+    server: '2a03:4000:6c:903:a:a:c06a:ecf0'
+    port: 50830
+    obfs: salamander
+    obfs-password: h0ftQ1glKteaPQ18
+    password: 5b1a170b-5188-4f48-b240-b770e78bf2a4
+    auth: 5b1a170b-5188-4f48-b240-b770e78bf2a4
+    skip-cert-verify: true
+  - name: US2-0.3倍
+    type: hysteria2
+    server: '2604:abc0:50::10:505b'
+    port: 57316
+    obfs: salamander
+    obfs-password: mCywdi7xWEeKsMFK
+    password: 5b1a170b-5188-4f48-b240-b770e78bf2a4
+    auth: 5b1a170b-5188-4f48-b240-b770e78bf2a4
+    skip-cert-verify: true
+  - name: US5-0.1倍
+    type: hysteria2
+    server: '2001:470:1f07:b41::1:42fe'
+    port: 58380
+    obfs: salamander
+    obfs-password: pZVdJJWDH2kXi2bp
+    password: 5b1a170b-5188-4f48-b240-b770e78bf2a4
+    auth: 5b1a170b-5188-4f48-b240-b770e78bf2a4
+    skip-cert-verify: true
+  - name: US1-0.3倍
+    type: vless
+    server: backus1.dh03.shop
+    port: 443
+    uuid: 5b1a170b-5188-4f48-b240-b770e78bf2a4
+    tls: true
+    client-fingerprint: chrome
+    servername: backus1.dh03.shop
+    network: ws
+    ws-opts:
+      path: /higate
+      headers:
+        host: backus1.dh03.shop
+    tfo: false
+    skip-cert-verify: false
+  - name: HK1-0.5倍率
+    type: hysteria2
+    server: '2a0f:7803:fac0:579d::1'
+    port: 53816
+    obfs: salamander
+    obfs-password: TGFWe7Bd7LrJTVQr
+    password: 5b1a170b-5188-4f48-b240-b770e78bf2a4
+    auth: 5b1a170b-5188-4f48-b240-b770e78bf2a4
+    skip-cert-verify: true
