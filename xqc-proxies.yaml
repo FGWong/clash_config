@@ -164,21 +164,6 @@ proxies:
     ip-version: dual
     alterId: 0
     cipher: auto
-  - name: 米粒-SG
-    type: vless
-    server: 92.112.22.221
-    port: 34092
-    uuid: 7b871e52-bf53-4eb5-baab-b8565a542a39
-    network: tcp
-    tls: true
-    servername: yahoo.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: O8ZFgrWKXyHCNONxa0yU_VYI_qeVgJMbZNe6X4UVOUM
-      short-id: '514498'
-    ip-version: dual
-    udp: true
   - name: 88d84548-singbox_hysteria2
     type: hysteria2
     server: coco.edu.deal
@@ -204,20 +189,6 @@ proxies:
     skip-cert-verify: true
     ip-version: dual
     congestion-controller: bbr
-  - name: 米粒-CMI
-    type: vless
-    server: 151.242.73.243
-    port: 28687
-    uuid: 8d2eef16-38b7-4dfd-b69a-8a35ab9739eb
-    tls: true
-    client-fingerprint: chrome
-    servername: yahoo.com
-    network: tcp
-    reality-opts:
-      public-key: GmgHjWV4JNCPcsRUe6Px43ONrOpOG46MbMtW7nqwHkQ
-      short-id: ad5d2db00c0a0573
-    tfo: false
-    skip-cert-verify: false
   - name: '7'
     type: vless
     server: 89.213.150.62
@@ -370,4 +341,32 @@ proxies:
     obfs-password: TGFWe7Bd7LrJTVQr
     password: 5b1a170b-5188-4f48-b240-b770e78bf2a4
     auth: 5b1a170b-5188-4f48-b240-b770e78bf2a4
+    skip-cert-verify: true
+  - name: JP-Alibaba_Cloud
+    type: hysteria2
+    server: 47.74.18.2
+    port: 19998
+    password: e1765375-6d68-4519-b5d1-04b279f6076a
+    auth: e1765375-6d68-4519-b5d1-04b279f6076a
+    skip-cert-verify: true
+  - name: 米粒-香港西贡移动专线
+    type: vless
+    server: 151.242.73.243
+    port: 35697
+    uuid: 30672fd3-e4b4-491b-9449-021087c1cbd3
+    tls: true
+    client-fingerprint: chrome
+    servername: yahoo.com
+    network: tcp
+    reality-opts:
+      public-key: i5jcPq9oCLn4bFfWgwAa2OK-qwAkzA3UP-MzQTGOOW8
+      short-id: 61362aba601469ca
+    tfo: false
+    skip-cert-verify: false
+  - name: 米粒-ALI-HK
+    type: hysteria2
+    server: 8.210.4.111
+    port: 29642
+    password: iI6cXb9yYn5dVvIODPRKpilY
+    auth: iI6cXb9yYn5dVvIODPRKpilY
     skip-cert-verify: true
