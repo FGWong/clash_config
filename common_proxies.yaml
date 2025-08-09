@@ -198,19 +198,23 @@ proxies:
     headers:
       Host: tttttttttgggghhhnmk.iran2035.dpdns.org
     path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp
-- alterId: '2'
+- alterId: '0'
   cipher: auto
-  name: airport|🇭🇰 香港_5
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
+  name: airport|🇭🇰 香港_2
+  port: '15105'
+  server: hkt-detour-05.grabgo.pro
   tls: false
   type: vmess
-  uuid: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
+  uuid: d673e01d-e157-4c99-9421-c9fdf63cf870
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: airport|❓ 未知_2
+  port: '50002'
+  server: 47.104.186.133
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: mfuu|🇺🇸US-64.81.30.91-096

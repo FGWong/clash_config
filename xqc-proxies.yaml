@@ -390,3 +390,48 @@ proxies:
     password: HAQufEZmSU6CsSTRTNANKzQBVI
     auth: HAQufEZmSU6CsSTRTNANKzQBVI
     skip-cert-verify: true
+  - name: US-web
+    type: vless
+    server: hh.crosswall.dpdns.org
+    port: 443
+    uuid: 5b1a170b-5188-4f48-b240-b770e78bf2a4
+    tls: true
+    client-fingerprint: chrome
+    servername: hh.crosswall.dpdns.org
+    network: ws
+    ws-opts:
+      path: /higate
+      headers:
+        host: hh.crosswall.dpdns.org
+    tfo: false
+    skip-cert-verify: false
+  - name: UK1-0.3倍
+    type: vless
+    server: backdciaq.dh04.shop
+    port: 443
+    uuid: 5b1a170b-5188-4f48-b240-b770e78bf2a4
+    tls: true
+    client-fingerprint: chrome
+    servername: backdciaq.dh04.shop
+    network: ws
+    ws-opts:
+      path: /higate
+      headers:
+        host: backdciaq.dh04.shop
+    tfo: false
+    skip-cert-verify: false
+  - name: UK1-0.5倍率
+    type: hysteria2
+    server: '2a0f:7803:fac0:579d::1'
+    port: 50348
+    obfs: salamander
+    obfs-password: TGFWe7Bd7LrJTVQr
+    password: 5b1a170b-5188-4f48-b240-b770e78bf2a4
+    auth: 5b1a170b-5188-4f48-b240-b770e78bf2a4
+    skip-cert-verify: true
+  - name: HK2
+    type: ss
+    server: 202.155.152.86
+    port: 27600
+    cipher: aes-256-gcm
+    password: 5b1a170b-5188-4f48-b240-b770e78bf2a4
