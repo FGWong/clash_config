@@ -588,7 +588,6 @@ proxy-groups:
       - ⚡ 负载均衡
       - 🔰 manual
       - SKR
-      - HyunWarp
       - ♻️ XQC
   - name: SKR
     type: url-test
@@ -609,7 +608,6 @@ proxy-groups:
     use:
       - common
       - skr
-      - hyun-warp
   - name: 全局选择
     type: select
     proxies:
@@ -625,13 +623,6 @@ proxy-groups:
     use:
       - common
       - skr
-      - hyun-warp
-  - name: HyunWarp
-    type: url-test
-    use:
-      - hyun-warp
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 1200
   - name: ⚡ 负载均衡
     type: load-balance
     use:
@@ -666,7 +657,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - SKR
-      - HyunWarp
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -690,7 +680,6 @@ proxy-groups:
       - 🚀 节点选择
       - ⚡ 负载均衡
       - SKR
-      - HyunWarp
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -733,16 +722,6 @@ proxy-providers:
     #type: file
     interval: 3600
     path: local_data/common-proxies.yaml
-    health-check:
-      enable: true
-      interval: 12000
-      url: 'http://www.gstatic.com/generate_204'
-  hyun-warp:
-    type: http
-    #type: file
-    url: "https://jiahe.eu.org:15443/clash_verge/hyun-proxies.yaml"
-    interval: 12411
-    path: local_data/hyun-proxies.yaml
     health-check:
       enable: true
       interval: 12000

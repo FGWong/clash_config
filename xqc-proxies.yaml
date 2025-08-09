@@ -370,3 +370,23 @@ proxies:
     password: iI6cXb9yYn5dVvIODPRKpilY
     auth: iI6cXb9yYn5dVvIODPRKpilY
     skip-cert-verify: true
+  - name: 米粒-HK-移动专线
+    type: vless
+    server: 151.242.73.243
+    port: 39852
+    uuid: ac77f1a8-1a5e-49f1-9e08-7a7660a23474
+    tls: true
+    client-fingerprint: chrome
+    servername: microsoft.com
+    network: tcp
+    reality-opts:
+      public-key: wNiqe9gtUHmpkfp2YYR5xWZzNBynohyl9tNpcA2PBWY
+    tfo: false
+    skip-cert-verify: false
+  - name: 米粒-SG直连
+    type: hysteria2
+    server: 92.112.22.221
+    port: 2920
+    password: HAQufEZmSU6CsSTRTNANKzQBVI
+    auth: HAQufEZmSU6CsSTRTNANKzQBVI
+    skip-cert-verify: true

@@ -704,6 +704,7 @@ proxy-groups:
       - 🚀 节点选择
       - ⚡ 负载均衡
       - SKR
+      - ♻️ XQC
   - name: 🌍 国外媒体
     type: select
     proxies:
