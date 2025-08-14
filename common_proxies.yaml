@@ -108,55 +108,20 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- name: openRunner|🇸🇬 新加坡
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1256
-  server: 36.156.102.125
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: openRunner|🇸🇬 新加坡2
-  password: 253bc477d4e43c209f2d427272968280
-  port: 406
-  server: 36.156.102.125
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: openRunner|🇯🇵 日本4
-  password: 253bc477d4e43c209f2d427272968280
-  port: 461
-  server: 36.156.102.125
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: openRunner|🇭🇰 香港4
-  password: 253bc477d4e43c209f2d427272968280
-  port: 447
-  server: 36.156.102.125
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: openRunner|🇺🇸 美国3
-  password: 253bc477d4e43c209f2d427272968280
-  port: 347
-  server: 36.156.102.125
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: openRunner|🇺🇸 美国4
-  password: 253bc477d4e43c209f2d427272968280
-  port: 22006
-  server: 36.156.102.67
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: openRunner|🇭🇰 香港6
-  password: 253bc477d4e43c209f2d427272968280
-  port: 444
-  server: 36.156.102.125
-  skip-cert-verify: true
-  sni: www.ithome.com
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: openRunner|🇰🇷 韩国
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19852
+  server: mm.huawei-api.top
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: dayfree|🇰🇷_KR_韩国->🇯🇵_JP_日本
+  password: qwerREWQ@@
+  port: 15098
+  server: p222.panda001.net
+  type: ss
 - name: forever|Vless_Websocket
   network: ws
   port: 8080

@@ -435,3 +435,17 @@ proxies:
     port: 27600
     cipher: aes-256-gcm
     password: 5b1a170b-5188-4f48-b240-b770e78bf2a4
+  - name: 米粒-ALI-JP
+    type: hysteria2
+    server: 47.74.18.2
+    port: 34230
+    password: lZTacgJEx2Eg603YyKgQLh5kDdQ
+    auth: lZTacgJEx2Eg603YyKgQLh5kDdQ
+    skip-cert-verify: true
+  - name: hy2-CT218
+    type: hysteria2
+    server: '2a05:4140:63::10'
+    port: 32095
+    password: 2042822c-46b9-4e0f-9439-09b3210033e4
+    auth: 2042822c-46b9-4e0f-9439-09b3210033e4
+    skip-cert-verify: true
