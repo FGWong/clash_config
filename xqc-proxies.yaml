@@ -26,134 +26,6 @@ proxies:
       path: /e6395c20
       headers:
         Host: hgtrojan.zabc.net
-  - name: '13'
-    type: vless
-    server: us.alumos.xyz
-    port: 48711
-    uuid: 8f517290-94b4-4813-bf89-8d973ec9a9a4
-    tls: true
-    client-fingerprint: chrome
-    servername: tesla.com
-    network: tcp
-    reality-opts:
-      public-key: 6mnY43rqYmNPetrxuUsfS7XJiPBeUdBZuJRFa3UG_CM
-      short-id: 9758fa1c61caf9
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: '414'
-    type: trojan
-    server: wb.kaiqsz.com
-    port: 12221
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz.redapricotcloud.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: '410'
-    type: trojan
-    server: wb.kaiqsz.com
-    port: 12221
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz.redapricotcloud.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: '411'
-    type: trojan
-    server: js-12f83a8c.kaiqsz.com
-    port: 12221
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz.redapricotcloud.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: '418'
-    type: trojan
-    server: js-12f83a8c.kaiqsz.com
-    port: 42765
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz1.redapricotcloud.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: '39'
-    type: trojan
-    server: hxipv6.hongxingdl.vip
-    port: 42765
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz1.redapricotcloud.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: '412'
-    type: trojan
-    server: gz-43e866.kaiqsz.com
-    port: 42765
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz1.redapricotcloud.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: '413'
-    type: trojan
-    server: wb.kaiqsz.com
-    port: 42765
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz1.redapricotcloud.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: '37'
-    type: hysteria2
-    server: hxzlaws.80-25-lyy.com
-    port: 48597
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    auth: 3ff46365-810c-480f-badb-112d3dd03f04
-    skip-cert-verify: true
-  - name: '415'
-    type: trojan
-    server: hxipv6.hongxingdl.vip
-    port: 48291
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz1.redapricotcloud.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: '416'
-    type: hysteria2
-    server: hxzlaws.80-25-lyy.com
-    port: 31183
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    auth: 3ff46365-810c-480f-badb-112d3dd03f04
-    skip-cert-verify: true
-  - name: '419'
-    type: trojan
-    server: hxipv6.hongxingdl.vip
-    port: 28713
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz1.redapricotcloud.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
   - name: 新加坡LXC节点10M
     type: vmess
     server: 103.14.77.89
@@ -189,6 +61,17 @@ proxies:
     skip-cert-verify: true
     ip-version: dual
     congestion-controller: bbr
+  - name: '2'
+    type: trojan
+    server: gz-43e866.kaiqsz.com
+    port: 12221
+    password: 3ff46365-810c-480f-badb-112d3dd03f04
+    tls: true
+    client-fingerprint: chrome
+    sni: mmbiz.redapricotcloud.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
   - name: '7'
     type: vless
     server: 89.213.150.62
@@ -214,10 +97,10 @@ proxies:
     network: tcp
     tfo: false
     skip-cert-verify: false
-  - name: '15'
+  - name: '12'
     type: trojan
-    server: hxipv6.hongxingdl.vip
-    port: 48291
+    server: gz-43e866.kaiqsz.com
+    port: 42765
     password: 3ff46365-810c-480f-badb-112d3dd03f04
     tls: true
     client-fingerprint: chrome
@@ -247,21 +130,10 @@ proxies:
     network: tcp
     tfo: false
     skip-cert-verify: false
-  - name: '2'
-    type: trojan
-    server: gz-43e866.kaiqsz.com
-    port: 12221
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz.redapricotcloud.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: '19'
+  - name: '15'
     type: trojan
     server: hxipv6.hongxingdl.vip
-    port: 28713
+    port: 48291
     password: 3ff46365-810c-480f-badb-112d3dd03f04
     tls: true
     client-fingerprint: chrome
@@ -280,10 +152,10 @@ proxies:
     network: tcp
     tfo: false
     skip-cert-verify: false
-  - name: '12'
+  - name: '19'
     type: trojan
-    server: gz-43e866.kaiqsz.com
-    port: 42765
+    server: hxipv6.hongxingdl.vip
+    port: 28713
     password: 3ff46365-810c-480f-badb-112d3dd03f04
     tls: true
     client-fingerprint: chrome
@@ -291,150 +163,6 @@ proxies:
     network: tcp
     tfo: false
     skip-cert-verify: false
-  - name: DE2
-    type: hysteria2
-    server: '2a03:4000:6c:903:a:a:c06a:ecf0'
-    port: 50830
-    obfs: salamander
-    obfs-password: h0ftQ1glKteaPQ18
-    password: 5b1a170b-5188-4f48-b240-b770e78bf2a4
-    auth: 5b1a170b-5188-4f48-b240-b770e78bf2a4
-    skip-cert-verify: true
-  - name: US2-0.3倍
-    type: hysteria2
-    server: '2604:abc0:50::10:505b'
-    port: 57316
-    obfs: salamander
-    obfs-password: mCywdi7xWEeKsMFK
-    password: 5b1a170b-5188-4f48-b240-b770e78bf2a4
-    auth: 5b1a170b-5188-4f48-b240-b770e78bf2a4
-    skip-cert-verify: true
-  - name: US5-0.1倍
-    type: hysteria2
-    server: '2001:470:1f07:b41::1:42fe'
-    port: 58380
-    obfs: salamander
-    obfs-password: pZVdJJWDH2kXi2bp
-    password: 5b1a170b-5188-4f48-b240-b770e78bf2a4
-    auth: 5b1a170b-5188-4f48-b240-b770e78bf2a4
-    skip-cert-verify: true
-  - name: US1-0.3倍
-    type: vless
-    server: backus1.dh03.shop
-    port: 443
-    uuid: 5b1a170b-5188-4f48-b240-b770e78bf2a4
-    tls: true
-    client-fingerprint: chrome
-    servername: backus1.dh03.shop
-    network: ws
-    ws-opts:
-      path: /higate
-      headers:
-        host: backus1.dh03.shop
-    tfo: false
-    skip-cert-verify: false
-  - name: HK1-0.5倍率
-    type: hysteria2
-    server: '2a0f:7803:fac0:579d::1'
-    port: 53816
-    obfs: salamander
-    obfs-password: TGFWe7Bd7LrJTVQr
-    password: 5b1a170b-5188-4f48-b240-b770e78bf2a4
-    auth: 5b1a170b-5188-4f48-b240-b770e78bf2a4
-    skip-cert-verify: true
-  - name: JP-Alibaba_Cloud
-    type: hysteria2
-    server: 47.74.18.2
-    port: 19998
-    password: e1765375-6d68-4519-b5d1-04b279f6076a
-    auth: e1765375-6d68-4519-b5d1-04b279f6076a
-    skip-cert-verify: true
-  - name: 米粒-香港西贡移动专线
-    type: vless
-    server: 151.242.73.243
-    port: 35697
-    uuid: 30672fd3-e4b4-491b-9449-021087c1cbd3
-    tls: true
-    client-fingerprint: chrome
-    servername: yahoo.com
-    network: tcp
-    reality-opts:
-      public-key: i5jcPq9oCLn4bFfWgwAa2OK-qwAkzA3UP-MzQTGOOW8
-      short-id: 61362aba601469ca
-    tfo: false
-    skip-cert-verify: false
-  - name: 米粒-ALI-HK
-    type: hysteria2
-    server: 8.210.4.111
-    port: 29642
-    password: iI6cXb9yYn5dVvIODPRKpilY
-    auth: iI6cXb9yYn5dVvIODPRKpilY
-    skip-cert-verify: true
-  - name: 米粒-HK-移动专线
-    type: vless
-    server: 151.242.73.243
-    port: 39852
-    uuid: ac77f1a8-1a5e-49f1-9e08-7a7660a23474
-    tls: true
-    client-fingerprint: chrome
-    servername: microsoft.com
-    network: tcp
-    reality-opts:
-      public-key: wNiqe9gtUHmpkfp2YYR5xWZzNBynohyl9tNpcA2PBWY
-    tfo: false
-    skip-cert-verify: false
-  - name: 米粒-SG直连
-    type: hysteria2
-    server: 92.112.22.221
-    port: 2920
-    password: HAQufEZmSU6CsSTRTNANKzQBVI
-    auth: HAQufEZmSU6CsSTRTNANKzQBVI
-    skip-cert-verify: true
-  - name: US-web
-    type: vless
-    server: hh.crosswall.dpdns.org
-    port: 443
-    uuid: 5b1a170b-5188-4f48-b240-b770e78bf2a4
-    tls: true
-    client-fingerprint: chrome
-    servername: hh.crosswall.dpdns.org
-    network: ws
-    ws-opts:
-      path: /higate
-      headers:
-        host: hh.crosswall.dpdns.org
-    tfo: false
-    skip-cert-verify: false
-  - name: UK1-0.3倍
-    type: vless
-    server: backdciaq.dh04.shop
-    port: 443
-    uuid: 5b1a170b-5188-4f48-b240-b770e78bf2a4
-    tls: true
-    client-fingerprint: chrome
-    servername: backdciaq.dh04.shop
-    network: ws
-    ws-opts:
-      path: /higate
-      headers:
-        host: backdciaq.dh04.shop
-    tfo: false
-    skip-cert-verify: false
-  - name: UK1-0.5倍率
-    type: hysteria2
-    server: '2a0f:7803:fac0:579d::1'
-    port: 50348
-    obfs: salamander
-    obfs-password: TGFWe7Bd7LrJTVQr
-    password: 5b1a170b-5188-4f48-b240-b770e78bf2a4
-    auth: 5b1a170b-5188-4f48-b240-b770e78bf2a4
-    skip-cert-verify: true
-  - name: HK2
-    type: ss
-    server: 202.155.152.86
-    port: 27600
-    cipher: aes-256-gcm
-    password: 5b1a170b-5188-4f48-b240-b770e78bf2a4
   - name: 米粒-ALI-JP
     type: hysteria2
     server: 47.74.18.2
@@ -449,3 +177,47 @@ proxies:
     password: 2042822c-46b9-4e0f-9439-09b3210033e4
     auth: 2042822c-46b9-4e0f-9439-09b3210033e4
     skip-cert-verify: true
+  - name: 米粒优质US-40M小水管
+    type: hysteria2
+    server: 149.88.90.156
+    port: 2926
+    password: AyqL4nTvw9RSQGdX2kJC89ONXQU
+    auth: AyqL4nTvw9RSQGdX2kJC89ONXQU
+    skip-cert-verify: true
+  - name: Vls-US-Amazon_Technologies_Inc.
+    type: vless
+    server: joeyblog.net
+    port: 443
+    uuid: f292f2ff-f134-4cd4-b208-c2f04edb340d
+    tls: true
+    client-fingerprint: chrome
+    servername: seller-hunting-seminar-promised.trycloudflare.com
+    network: ws
+    ws-opts:
+      path: /vless-argo?ed=2560
+      headers:
+        host: seller-hunting-seminar-promised.trycloudflare.com
+    tfo: false
+    skip-cert-verify: false
+  - name: 米粒-JP-Alibaba_Cloud
+    type: hysteria2
+    server: 47.74.18.2
+    port: 64970
+    password: ef52a00a-c99b-4dbb-a24a-3dfccbc540b7
+    auth: ef52a00a-c99b-4dbb-a24a-3dfccbc540b7
+    skip-cert-verify: true
+  - name: Vls-US-Amazon_Technologies_Inc.
+    type: trojan
+    server: joeyblog.net
+    port: 443
+    password: f292f2ff-f134-4cd4-b208-c2f04edb340d
+    tls: true
+    client-fingerprint: chrome
+    sni: seller-hunting-seminar-promised.trycloudflare.com
+    network: ws
+    ws-opts:
+      path: /trojan-argo?ed=2560
+      headers:
+        host: seller-hunting-seminar-promised.trycloudflare.com
+    tfo: false
+    skip-cert-verify: false

@@ -28,7 +28,7 @@ dns:
     - 8.8.8.8
       #- system
       #- "udp://223.5.5.5"
-  nameserver:
+  nameserver: #当 nameserver / fallback 里的域名解析失败时才会用到 #tencent
     - https://1.12.12.12/dns-query
     - https://223.6.6.6/dns-query
       #- https://doh.pub/dns-query
