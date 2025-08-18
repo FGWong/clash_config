@@ -18,7 +18,7 @@ proxies:
   name: CF随机节点
   network: ws
   port: 443
-  server: 103.21.245.9
+  server: 103.21.244.158
   servername: ele.jiahe.eu.org
   skip-cert-verify: true
   tfo: false
@@ -33,7 +33,7 @@ proxies:
   name: CF随机节点 2
   network: ws
   port: 443
-  server: 104.16.253.116
+  server: 104.16.79.142
   servername: ele.jiahe.eu.org
   skip-cert-verify: true
   tfo: false
@@ -48,7 +48,7 @@ proxies:
   name: CF随机节点 3
   network: ws
   port: 443
-  server: 104.24.242.75
+  server: 104.24.20.114
   servername: ele.jiahe.eu.org
   skip-cert-verify: true
   tfo: false
@@ -63,7 +63,7 @@ proxies:
   name: CF随机节点 4
   network: ws
   port: 443
-  server: 172.64.183.65
+  server: 172.64.0.213
   servername: ele.jiahe.eu.org
   skip-cert-verify: true
   tfo: false
@@ -78,7 +78,7 @@ proxies:
   name: CF随机节点 5
   network: ws
   port: 443
-  server: 103.21.244.217
+  server: 103.21.244.233
   servername: ele.jiahe.eu.org
   skip-cert-verify: true
   tfo: false
@@ -93,7 +93,7 @@ proxies:
   name: CF随机节点 6
   network: ws
   port: 443
-  server: 104.16.135.175
+  server: 104.16.168.250
   servername: ele.jiahe.eu.org
   skip-cert-verify: true
   tfo: false
@@ -108,7 +108,7 @@ proxies:
   name: CF随机节点 7
   network: ws
   port: 443
-  server: 104.24.7.19
+  server: 104.24.164.214
   servername: ele.jiahe.eu.org
   skip-cert-verify: true
   tfo: false
@@ -123,7 +123,7 @@ proxies:
   name: CF随机节点 8
   network: ws
   port: 443
-  server: 141.101.89.22
+  server: 141.101.85.226
   servername: ele.jiahe.eu.org
   skip-cert-verify: true
   tfo: false
@@ -138,7 +138,7 @@ proxies:
   name: CF随机节点 9
   network: ws
   port: 443
-  server: 172.64.178.163
+  server: 172.64.188.155
   servername: ele.jiahe.eu.org
   skip-cert-verify: true
   tfo: false
@@ -153,7 +153,7 @@ proxies:
   name: CF随机节点 10
   network: ws
   port: 443
-  server: 188.114.97.125
+  server: 188.114.102.160
   servername: ele.jiahe.eu.org
   skip-cert-verify: true
   tfo: false
@@ -168,7 +168,7 @@ proxies:
   name: CF随机节点 11
   network: ws
   port: 443
-  server: 190.93.244.78
+  server: 190.93.243.242
   servername: ele.jiahe.eu.org
   skip-cert-verify: true
   tfo: false
