@@ -1,39 +1,7 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇳 江苏省 移动 2
-  network: ws
-  port: 30837
-  server: v37.heduian.link
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v37.heduian.link
-    path: /oooo
 - alterId: 0
   cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 3
-  network: ws
-  port: 8443
-  server: fk1.620720.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: fk1.620720.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 2
+  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点
   network: ws
   port: 8443
   server: fk2.620720.xyz
@@ -577,17 +545,9 @@ proxies:
       Host: aio.unlimited.biz.id
     path: /aioproxybot/129.150.49.58-18650
   xudp: true
-- alterId: 2
-  cipher: auto
-  name: mahdiblanda|🇭🇰HK-1.36.223.236-2075 | 2.559MB
-  network: ws
-  port: 80
-  server: 5bf9e2f8-t15b40-t6eg6k-1pckg.hk3.p5pv.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 526a1128-7487-11ee-9bca-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+- cipher: aes-256-cfb
+  name: mahdiblanda|IE-34.244.73.113-0665 | 19.737MB
+  password: amazonskr05
+  port: 443
+  server: 34.244.73.113
+  type: ss

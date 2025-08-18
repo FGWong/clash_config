@@ -61,17 +61,6 @@ proxies:
     skip-cert-verify: true
     ip-version: dual
     congestion-controller: bbr
-  - name: '2'
-    type: trojan
-    server: gz-43e866.kaiqsz.com
-    port: 12221
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz.redapricotcloud.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
   - name: '7'
     type: vless
     server: 89.213.150.62
@@ -84,83 +73,6 @@ proxies:
     reality-opts:
       public-key: KRM5MLGmsT_FlwMzyz7R8q37Z1hHp0AExi-EdYOc2RM
       short-id: '00'
-    tfo: false
-    skip-cert-verify: false
-  - name: '11'
-    type: trojan
-    server: js-12f83a8c.kaiqsz.com
-    port: 12221
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz.redapricotcloud.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: '12'
-    type: trojan
-    server: gz-43e866.kaiqsz.com
-    port: 42765
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz1.redapricotcloud.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: '13'
-    type: trojan
-    server: wb.kaiqsz.com
-    port: 42765
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz1.redapricotcloud.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: '14'
-    type: trojan
-    server: wb.kaiqsz.com
-    port: 12221
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz.redapricotcloud.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: '15'
-    type: trojan
-    server: hxipv6.hongxingdl.vip
-    port: 48291
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz1.redapricotcloud.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: '18'
-    type: trojan
-    server: js-12f83a8c.kaiqsz.com
-    port: 42765
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz1.redapricotcloud.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: '19'
-    type: trojan
-    server: hxipv6.hongxingdl.vip
-    port: 28713
-    password: 3ff46365-810c-480f-badb-112d3dd03f04
-    tls: true
-    client-fingerprint: chrome
-    sni: mmbiz1.redapricotcloud.com
-    network: tcp
     tfo: false
     skip-cert-verify: false
   - name: 米粒-ALI-JP
