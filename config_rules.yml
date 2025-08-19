@@ -598,6 +598,12 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
     icon: https://g.csdnimg.cn/static/logo/favicon32.ico
+  - name: ♻️ XQC
+    type: url-test
+    use:
+      - xqc
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 12000
   - name: SKR
     type: url-test
     use:
@@ -616,12 +622,6 @@ proxy-groups:
       - cldkg
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
-  - name: ♻️ XQC
-    type: url-test
-    use:
-      - xqc
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 12000
   - name: UserC
     type: select
     use:
