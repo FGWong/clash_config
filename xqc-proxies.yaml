@@ -77,7 +77,7 @@ proxies:
     server: 43.202.3.104
     port: 45667
     cipher: 2022-blake3-aes-256-gcm
-    password: ydY0Y20gQKzLwoRwji7X9K9OghNMglEXBeOOVcLTcCc=�
+    password: ydY0Y20gQKzLwoRwji7X9K9OghNMglEXBeOOVcLTcCc=
   - name: HK-IX
     type: vless
     server: 83.229.125.179
