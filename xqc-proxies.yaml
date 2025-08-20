@@ -72,3 +72,38 @@ proxies:
     password: ef52a00a-c99b-4dbb-a24a-3dfccbc540b7
     auth: ef52a00a-c99b-4dbb-a24a-3dfccbc540b7
     skip-cert-verify: true
+  - name: "KR-SS2022-ALS-KR"
+    type: ss
+    server: 43.202.3.104
+    port: 45667
+    cipher: 2022-blake3-aes-256-gcm
+    password: ydY0Y20gQKzLwoRwji7X9K9OghNMglEXBeOOVcLTcCc=�
+  - name: HK-IX
+    type: vless
+    server: 83.229.125.179
+    port: 8880
+    uuid: 4316d46b-1102-46ac-b485-fa13a5bfb549
+    tls: true
+    client-fingerprint: chrome
+    servername: www.apple.com
+    network: tcp
+    reality-opts:
+      public-key: vn_WxfNE_yMS3XADCWHzDDsSjuU1hkOVuRNMwxuQ53A
+      short-id: fa75aa166deb2084
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: 米粒-直连SG
+    type: vless
+    server: 92.112.22.221
+    port: 11309
+    uuid: 9fa268d7-c2f2-4ac1-971b-c80f5454dcb9
+    tls: true
+    client-fingerprint: chrome
+    servername: yahoo.com
+    network: tcp
+    reality-opts:
+      public-key: dpmcSye0joTtFzQJZT084iRWWr833Ws7F1o_ANQq8FE
+      short-id: fae147
+    tfo: false
+    skip-cert-verify: false
