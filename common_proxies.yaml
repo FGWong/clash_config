@@ -1,13 +1,4 @@
 proxies:
-- name: Flik6|[Trojan] 🇨🇳 江苏省盐城市 移动
-  password: 253bc477d4e43c209f2d427272968280
-  port: 406
-  server: 36.156.102.125
-  skip-cert-verify: true
-  sni: www.baidu.com
-  tfo: false
-  type: trojan
-  udp: true
 - name: NoMoreWalls|日本4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -20,6 +11,14 @@ proxies:
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1256
+  server: 36.156.102.125
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: NoMoreWalls|新加坡2|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 406
   server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
@@ -106,51 +105,79 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: guanxi|🇺🇸美国34 | ⬇️ 5.5MB/s|Netflix|Openai|Gemini
+  name: guanxi|🇺🇸美国94 | ⬇️ 2.0MB/s|Netflix|Openai
   network: ws
-  port: 443
-  server: 172.67.165.122
-  tls: true
+  port: 80
+  server: pubg.ac
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 20e89a95-cedf-4fe3-9421-517ce66be170
+  udp: true
+  uuid: b0a60a1a-fb2a-4d93-b0a3-6ea50d7a1dea
   ws-opts:
     headers:
-      Host: pppploiu.4444936.xyz
-    path: /SHToRcqfiraYkzOdf
-- cipher: rc4-md5
-  name: guanxi|🇺🇸美国9 | ⬇️ 3.3MB/s|Netflix|Openai|Gemini
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 23.251.121.242
-  type: ss
+      Host: cdn-node-oss-99.paofu.de
+    path: /profile/telegram@ssrsub
+  xudp: true
 - cipher: aes-256-cfb
-  name: guanxi|🌀其他21-VN | ⬇️ 1.3MB/s|Netflix|Openai
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.24
-  type: ss
-- cipher: aes-256-cfb
-  name: guanxi|🌀其他25-VN | ⬇️ 1.1MB/s|Netflix|Youtube|Openai|Gemini
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.27
-  type: ss
-- cipher: aes-256-cfb
-  name: guanxi|🌀其他27-VN | ⬇️ 1.0MB/s|Netflix|Youtube|Openai|Gemini
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.30
-  type: ss
-- cipher: aes-256-cfb
-  name: guanxi|🌀其他20-VN | ⬇️ 1.1MB/s|Netflix|Openai
+  name: guanxi|🌀其他14-VN | ⬇️ 1.2MB/s|Netflix|Openai
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.133
   type: ss
+- cipher: aes-256-cfb
+  name: guanxi|🌀其他21-VN | ⬇️ 1.2MB/s|Netflix|Youtube|Openai|Gemini
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.25
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 857
+  name: guanxi|🌀其他9-ES | ⬇️ 1.6MB/s|Disney|Openai
+  password: 15irSWJJbfLiFzN3qtGbWAQ9i15yJAuWp7Lhy8sAzsb38vaDjSbgZd2HGtaFHG3sS6FqzY658Ud3qdEi5LZhyboxeSLnXJks
+  port: 40565
+  server: imap.roomyinmita.name
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: guanxi|🇺🇸美国19 | ⬇️ 2.3MB/s|Netflix|Openai
+  network: ws
+  port: 443
+  server: ssssssssssssfffffffgh.2032.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+  ws-opts:
+    headers:
+      Host: ssssssssssssfffffffgh.2032.pp.ua
+    path: /6We3U9Df1WGxgFnoFPw1
+- cipher: aes-256-gcm
+  name: guanxi|🇬🇧英国32 | ⬇️ 6.8MB/s|Netflix|Youtube|Openai
+  password: babec2f7-da9b-461a-83e9-9c7507909ecf
+  port: '443'
+  server: 45.134.13.75
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: guanxi|🇯🇵日本1 | ⬇️ 2.2MB/s|Netflix|Disney|Openai|Gemini
+  network: ws
+  password: f282b878-8711-45a1-8c69-5564172123c1
+  port: 443
+  server: 104.21.72.109
+  skip-cert-verify: false
+  sni: vpn.stupidworld.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /Stupid-World/103.106.228.126-2053
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: guanxi|🇺🇸美国39 | ⬇️ 11.0MB/s|Netflix|Openai|Gemini
+  name: guanxi|🇺🇸美国23 | ⬇️ 6.1MB/s|Netflix|Openai|Gemini
   network: ws
   password: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
   port: 443
@@ -163,69 +190,23 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /x9F83IcyjcEyBXZBROjL3Q5vTymr
-- alterId: '0'
-  cipher: auto
-  name: guanxi|🇺🇸美国6 | ⬇️ 3.2MB/s|Netflix|Openai
-  network: ws
-  port: '443'
-  server: 172.67.170.147
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: guanxi|🇯🇵日本4 | ⬇️ 1.4MB/s|Youtube|Openai
+  password: EEsjQL0rXwQgJez3ASjoOq
+  port: '1235'
+  server: 91.194.160.151
+  type: ss
   udp: true
-  uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
-  ws-opts:
-    headers:
-      Host: xcvfgt6.999854.xyz
-    path: /4Bp70NdrJV3xr1D40NK
-  xudp: true
+- cipher: aes-256-cfb
+  name: guanxi|🌀其他1-MD | ⬇️ 1.5MB/s|Netflix|Openai
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
 - client-fingerprint: chrome
-  name: guanxi|🇺🇸美国110 | ⬇️ 2.1MB/s|Netflix|Openai
+  name: guanxi|🇺🇸美国102 | ⬇️ 2.1MB/s|Netflix|Openai
   network: ws
-  password: 7577254b-c576-48cd-bbd0-69872aa3a9c9
-  port: '8443'
-  server: csgo.com
-  skip-cert-verify: false
-  sni: cdn-node-oss-99.paofu.de
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /profile/telegram@ssrsub
-- client-fingerprint: chrome
-  name: guanxi|🇺🇸美国106 | ⬇️ 2.3MB/s|Netflix|Openai
-  network: ws
-  password: 7577254b-c576-48cd-bbd0-69872aa3a9c9
-  port: '8443'
-  server: fastcup.net
-  skip-cert-verify: false
-  sni: cdn-node-oss-99.paofu.de
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /profile/telegram@ssrsub
-- alpn:
-  - http/1.1
-  name: guanxi|🇺🇸美国40 | ⬇️ 3.2MB/s|Netflix|Openai
-  network: ws
-  password: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
-  port: 443
-  server: 104.21.26.17
-  skip-cert-verify: false
-  sni: rrrRrRRrT.459.pp.ua
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: rrrRrRRrT.459.pp.ua
-    path: /znQImc22ijDwVOkZfoq
-- client-fingerprint: chrome
-  name: guanxi|🇺🇸美国131 | ⬇️ 4.7MB/s|Netflix|Openai
-  network: ws
-  password: 7577254b-c576-48cd-bbd0-69872aa3a9c9
+  password: b0a60a1a-fb2a-4d93-b0a3-6ea50d7a1dea
   port: '8443'
   server: pubg.ac
   skip-cert-verify: false
@@ -234,65 +215,95 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
     path: /profile/telegram@ssrsub
-- alpn:
-  - http/1.1
-  name: guanxi|🇺🇸美国51 | ⬇️ 1.1MB/s|Netflix|Openai
+- client-fingerprint: chrome
+  name: guanxi|🇺🇸美国81 | ⬇️ 1.2MB/s|Netflix|Openai
   network: ws
-  password: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
-  port: 443
-  server: 172.67.135.37
+  password: b0a60a1a-fb2a-4d93-b0a3-6ea50d7a1dea
+  port: '8443'
+  server: csgo.com
   skip-cert-verify: false
-  sni: rrrRrRRrT.459.pp.ua
+  sni: cdn-node-oss-99.paofu.de
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: rrrRrRRrT.459.pp.ua
-    path: /znQImc22ijDwVOkZfoq
-- alterId: 0
-  cipher: auto
-  name: guanxi|🇺🇸美国41 | ⬇️ 3.4MB/s|Netflix|Openai
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /profile/telegram@ssrsub
+- client-fingerprint: chrome
+  name: guanxi|🇺🇸美国86 | ⬇️ 2.6MB/s|Netflix|Openai
   network: ws
-  port: 443
-  server: ssssssssssssfffffffgh.2032.pp.ua
+  password: b0a60a1a-fb2a-4d93-b0a3-6ea50d7a1dea
+  port: '8443'
+  server: fastcup.net
   skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+  sni: cdn-node-oss-99.paofu.de
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: ssssssssssssfffffffgh.2032.pp.ua
-    path: /6We3U9Df1WGxgFnoFPw1
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /profile/telegram@ssrsub
 - alterId: 0
   cipher: auto
-  name: guanxi|🇺🇸美国50 | ⬇️ 7.1MB/s|Netflix|Openai
-  network: ws
-  port: 443
-  server: dddfFFvvBnhJU.931.pP.uA
-  tls: true
-  type: vmess
-  uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e
-  ws-opts:
-    headers:
-      Host: dddfffvvbnhju.931.pp.ua
-    path: /14Fziqw1hYgCXNutkS5H
-- alterId: 0
-  cipher: auto
-  name: guanxi|🇩🇪德国19 | ⬇️ 2.8MB/s|Netflix|Disney|Youtube|Openai
+  delay: 1754
+  name: guanxi|🇺🇸美国33 | ⬇️ 2.9MB/s|Netflix|Disney|Openai
   network: ws
   port: 8443
-  server: fk1.620720.xyz
-  servername: fk1.620720.xyz
+  server: sj1.620720.xyz
+  servername: sj1.620720.xyz
   skip-cert-verify: false
   tls: true
   type: vmess
+  udp: true
   uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: fk1.620720.xyz
+      Host: sj1.620720.xyz
+    max-early-data: 2560
     path: /
+- alterId: 0
+  cipher: auto
+  delay: 1945
+  name: guanxi|🇺🇸美国32 | ⬇️ 7.8MB/s|Netflix|Disney|Openai
+  network: ws
+  port: 8443
+  server: sj4.620720.xyz
+  servername: sj4.620720.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sj4.620720.xyz
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: guanxi|🇯🇵日本2 | ⬇️ 3.2MB/s|Netflix|Disney|Openai|Gemini
+  network: ws
+  password: f282b878-8711-45a1-8c69-5564172123c1
+  port: 443
+  server: 172.67.181.173
+  skip-cert-verify: false
+  sni: vpn.stupidworld.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /Stupid-World/103.106.228.126-2053
+- cipher: chacha20-ietf-poly1305
+  name: guanxi|🌀其他53-TR | ⬇️ 1.7MB/s|Netflix|Disney|Youtube|Openai
+  password: haQpIdcLwwtb
+  port: '443'
+  server: 77.83.245.190
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: airport|🇸🇨 塞舌尔
@@ -306,21 +317,6 @@ proxies:
     tls: true
   port: '636'
   server: 156.251.179.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: airport|❓ 未知_147
-  password: 0b191076d18f
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hk6v1.dsjsapp.com
-    mode: websocket
-    mux: true
-    path: /ugiibpkbca
-    tls: true
-  port: '636'
-  server: 156.251.179.136
   type: ss
   udp: true
 - alterId: '0'
@@ -340,31 +336,34 @@ proxies:
   server: 120.210.205.59
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: airport|❓ 未知_147
+  password: 0b191076d18f
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hk6v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /ugiibpkbca
+    tls: true
+  port: '636'
+  server: 156.251.179.136
+  type: ss
+  udp: true
+- alterId: 2
   cipher: auto
-  name: mfuu|🇨🇳CN-183.240.245.239-164
-  network: tcp
-  port: 42272
-  server: 183.240.245.239
+  name: mfuu|🇭🇰HK-1.65.196.131-045
+  network: ws
+  port: 80
+  server: 486a4149-t0bog0-t14dgl-duku.hk3.p5pv.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
   ws-headers:
-    Host: www.ithome.com
+    Host: broadcastlv.chat.bilibili.com
   ws-path: /
-- alterId: 64
-  cipher: auto
-  name: ruk1ng|🟡_🇨🇳_💼_github.com/Ruk1ng001_6338356335633935
-  network: tcp
-  port: 50002
-  server: 47.116.166.178
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  xudp: true
 - alterId: 64
   cipher: auto
   name: ruk1ng|🟡_🇨🇳_💼_github.com/Ruk1ng001_6362343931636662
@@ -374,6 +373,21 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  name: ruk1ng|🟠_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001_3535323531306232
+  password: 941cbc4237e0
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: kh36v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /tkzhhylcfuf
+    skip-cert-verify: false
+    tls: true
+  port: 636
+  server: 121.127.231.239
+  tfo: false
+  type: ss
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -390,67 +404,51 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /dilyfCPEmLvYr5hYXD
-- cipher: aes-256-cfb
-  name: ruk1ng|🔴_🇲🇩_💼_github.com/Ruk1ng001_65373938613838
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: ruk1ng|🟠_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001_3535323531306232
-  password: 941cbc4237e0
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: kh36v1.dsjsapp.com
-    mode: websocket
-    mux: true
-    path: /tkzhhylcfuf
-    skip-cert-verify: false
-    tls: true
-  port: 636
-  server: 121.127.231.239
-  tfo: false
-  type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  ip-version: dual
-  name: ruk1ng|github.com/Ruk1ng001_3264323232653631
+  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_6366646265363033
   network: ws
-  port: 30835
-  server: v35.heduian.link
+  port: 443
+  server: 172.67.165.122
+  tls: true
   type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 20e89a95-cedf-4fe3-9421-517ce66be170
   ws-opts:
     headers:
-      host: baidu.com
-    path: /oooo
+      Host: pppploiu.4444936.xyz
+    path: /SHToRcqfiraYkzOdf
+- alpn:
+  - http/1.1
+  alterId: 0
+  cipher: auto
+  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_3533623538613934
+  network: ws
+  port: 443
+  server: 172.67.170.147
+  servername: XCvfGt6.999854.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
+  ws-opts:
+    headers:
+      Host: xcvfgt6.999854.xyz
+    path: /4Bp70NdrJV3xr1D40NK
+  xudp: true
 - alterId: 2
   cipher: auto
-  name: ruk1ng|github.com/Ruk1ng001_3536663336653435
+  name: ruk1ng|github.com/Ruk1ng001_6262326533313937
   network: ws
-  port: 30805
-  server: v5.heduian.link
+  port: 30836
+  server: v36.heduian.link
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: ocbc.com
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: ruk1ng|github.com/Ruk1ng001_3530626166313039
-  network: ws
-  port: 30833
-  server: v33.heduian.link
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: baidu.com
+      Host: baidu.com
     path: /oooo
 - name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_3261646537326636
   network: ws
@@ -466,61 +464,58 @@ proxies:
     path: /XmTzATQPJv9RO3xr1D40NK
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: ruk1ng|github.com/Ruk1ng001_6139646430646237
+  name: ruk1ng|github.com/Ruk1ng001_3530626166313039
   network: ws
-  port: 30808
-  server: v8.heduian.link
-  skip-cert-verify: false
+  port: 30833
+  server: v33.heduian.link
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: baidu.com
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  ip-version: dual
+  name: ruk1ng|github.com/Ruk1ng001_3264323232653631
+  network: ws
+  port: 30835
+  server: v35.heduian.link
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: baidu.com
+    path: /oooo
+- cipher: aes-256-gcm
+  name: ruk1ng|🟡_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001_6139626263326265
+  password: 0b191076d18f
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hk6v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /ugiibpkbca
+    skip-cert-verify: false
+    tls: true
+  port: 636
+  server: 156.251.179.139
   tfo: false
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3635363062663266
+  network: ws
+  port: 30829
+  server: v29.heduian.link
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: baidu.com
+      Host: ocbc.com
     path: /oooo
-- client-fingerprint: chrome
-  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_3334613931346334
-  network: ws
-  password: f282b878-8711-45a1-8c69-5564172123c1
-  port: 443
-  server: 104.21.72.109
-  skip-cert-verify: false
-  sni: vpn.stupidworld.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /Stupid-World/103.106.228.126-2053
-- name: ruk1ng|github.com/Ruk1ng001_3538373739383732
-  network: ws
-  password: f282b878-8711-45a1-8c69-5564172123c1
-  port: 443
-  server: aio.zipzap.biz.id
-  skip-cert-verify: false
-  sni: aio.zipzap.biz.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: aio.zipzap.biz.id
-    path: /aioproxybot/129.150.49.58-18650
-- client-fingerprint: chrome
-  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_3538393066646239
-  network: ws
-  password: f282b878-8711-45a1-8c69-5564172123c1
-  port: 443
-  server: 172.67.181.173
-  skip-cert-verify: false
-  sni: vpn.stupidworld.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /Stupid-World/103.106.228.126-2053
 - alterId: 0
   cipher: auto
   name: ermaozi|🇮🇷_IR_伊朗->🇺🇸_US_美国

@@ -26,16 +26,6 @@ proxies:
       path: /e6395c20
       headers:
         Host: hgtrojan.zabc.net
-  - name: 新加坡LXC节点10M
-    type: vmess
-    server: 103.14.77.89
-    port: 30177
-    uuid: 39c20232-b375-453a-b331-2fa31317b22a
-    network: tcp
-    tls: false
-    ip-version: dual
-    alterId: 0
-    cipher: auto
   - name: 88d84548-singbox_hysteria2
     type: hysteria2
     server: coco.edu.deal
@@ -61,20 +51,6 @@ proxies:
     skip-cert-verify: true
     ip-version: dual
     congestion-controller: bbr
-  - name: '7'
-    type: vless
-    server: 89.213.150.62
-    port: 443
-    uuid: 74318b39-bd34-4023-82be-0e69b3260297
-    tls: true
-    client-fingerprint: chrome
-    servername: www.lumen.com
-    network: xhttp
-    reality-opts:
-      public-key: KRM5MLGmsT_FlwMzyz7R8q37Z1hHp0AExi-EdYOc2RM
-      short-id: '00'
-    tfo: false
-    skip-cert-verify: false
   - name: 米粒-ALI-JP
     type: hysteria2
     server: 47.74.18.2
@@ -89,28 +65,6 @@ proxies:
     password: 2042822c-46b9-4e0f-9439-09b3210033e4
     auth: 2042822c-46b9-4e0f-9439-09b3210033e4
     skip-cert-verify: true
-  - name: 米粒优质US-40M小水管
-    type: hysteria2
-    server: 149.88.90.156
-    port: 2926
-    password: AyqL4nTvw9RSQGdX2kJC89ONXQU
-    auth: AyqL4nTvw9RSQGdX2kJC89ONXQU
-    skip-cert-verify: true
-  - name: Vls-US-Amazon_Technologies_Inc.
-    type: vless
-    server: joeyblog.net
-    port: 443
-    uuid: f292f2ff-f134-4cd4-b208-c2f04edb340d
-    tls: true
-    client-fingerprint: chrome
-    servername: seller-hunting-seminar-promised.trycloudflare.com
-    network: ws
-    ws-opts:
-      path: /vless-argo?ed=2560
-      headers:
-        host: seller-hunting-seminar-promised.trycloudflare.com
-    tfo: false
-    skip-cert-verify: false
   - name: 米粒-JP-Alibaba_Cloud
     type: hysteria2
     server: 47.74.18.2
@@ -118,18 +72,3 @@ proxies:
     password: ef52a00a-c99b-4dbb-a24a-3dfccbc540b7
     auth: ef52a00a-c99b-4dbb-a24a-3dfccbc540b7
     skip-cert-verify: true
-  - name: Vls-US-Amazon_Technologies_Inc.
-    type: trojan
-    server: joeyblog.net
-    port: 443
-    password: f292f2ff-f134-4cd4-b208-c2f04edb340d
-    tls: true
-    client-fingerprint: chrome
-    sni: seller-hunting-seminar-promised.trycloudflare.com
-    network: ws
-    ws-opts:
-      path: /trojan-argo?ed=2560
-      headers:
-        host: seller-hunting-seminar-promised.trycloudflare.com
-    tfo: false
-    skip-cert-verify: false
