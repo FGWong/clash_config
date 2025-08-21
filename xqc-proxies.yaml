@@ -51,13 +51,6 @@ proxies:
     skip-cert-verify: true
     ip-version: dual
     congestion-controller: bbr
-  - name: 米粒-ALI-JP
-    type: hysteria2
-    server: 47.74.18.2
-    port: 34230
-    password: lZTacgJEx2Eg603YyKgQLh5kDdQ
-    auth: lZTacgJEx2Eg603YyKgQLh5kDdQ
-    skip-cert-verify: true
   - name: hy2-CT218
     type: hysteria2
     server: '2a05:4140:63::10'
