@@ -100,3 +100,12 @@ proxies:
       short-id: fae147
     tfo: false
     skip-cert-verify: false
+  - name: xxpp-k1cdosvz
+    type: vmess
+    server: 38.246.227.25
+    port: 40024
+    uuid: d2d6935e-613c-4b94-b6eb-eecec2a3aa0d
+    alterId: .nan
+    cipher: auto
+    tls: false
+    network: tcp
