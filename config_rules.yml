@@ -581,15 +581,15 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
+      - Cfop
+      - ♻️ XQC
       - 🎯 全球直连
       - ♻️ 自动选择
       - ⚡ 负载均衡
       - 🔰 manual
       - Cflare
       - Cfkg
-      - Cfop
       - SKR
-      - ♻️ XQC
       - UserC
   - name: Cfop
     type: url-test
