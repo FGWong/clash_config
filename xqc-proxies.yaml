@@ -109,3 +109,25 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+  - name: "新加坡sg1000mbps"
+    type: hysteria2
+    server: 165.22.53.121
+    port: 41803
+    password: b8240a26
+    auth: b8240a26
+    skip-cert-verify: true
+  - name: "Misaka-Hysteria2DE"
+    type: hysteria2
+    server: 157.230.106.120
+    port: 32603
+    password: dd81762b
+    auth: dd81762b
+    skip-cert-verify: true
+  - name: i7xpyrbf
+    type: vless
+    server: 156.238.244.127
+    port: 25794
+    uuid: 3ae3ceba-7090-4b15-ae64-a6d0137192c0
+    tls: false
+    network: tcp
+    tfo: false
