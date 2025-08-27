@@ -1,23 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: Flik6|[VMess] 🇭🇰 香港 电讯盈科有限公司
-  network: ws
-  port: 80
-  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点
+  name: Flik6|[VMess] 🇺🇸 美国 CloudFlare节点 2
   network: ws
   port: 443
   server: cloudgetservice.mcloudservice.site
@@ -31,23 +15,35 @@ proxies:
     headers:
       Host: Fra-Vp-123.BLaZECLOUD.Site
     path: /linvkws
-- cipher: rc4-md5
-  name: NoMoreWalls|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202508100385405-YeOFla7vv5.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
+- alterId: 0
+  cipher: auto
+  name: NoMoreWalls|美国|@ripaojiedian
+  network: ws
+  port: '443'
+  server: ssssssssssssfffffffgh.2032.pp.ua
+  servername: ssssssssssssfffffffgh.2032.pp.ua
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: openRunner|tg频道:@freenodedaily
-  password: amazonskr05
-  port: 443
-  server: 54.229.66.224
+  tls: true
+  type: vmess
+  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+  ws-opts:
+    headers:
+      Host: ssssssssssssfffffffgh.2032.pp.ua
+    path: /6We3U9Df1WGxgFnoFPw1
+- cipher: aes-256-gcm
+  name: NoMoreWalls|🇭🇰 香港2|@ripaojiedian
+  password: 9bfdde71b4c0
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: newroot2v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /cauejypbltqt
+    skip-cert-verify: false
+    tls: true
+  port: 636
+  server: 103.103.245.158
   tfo: false
   type: ss
 - name: forever|Vless_Websocket
@@ -107,25 +103,6 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /x9F83IcyjcEyBXZBROjL3Q5vTymr
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: guanxi|🇺🇸美国82 | ⬇️ 1.5MB/s|Netflix|Openai
-  network: ws
-  port: '443'
-  server: ssssssssssssfffffffgh.2032.pp.ua
-  servername: ssssssssssssfffffffgh.2032.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-  ws-opts:
-    headers:
-      Host: ssssssssssssfffffffgh.2032.pp.ua
-    path: /6We3U9Df1WGxgFnoFPw1
-  xudp: true
 - cipher: chacha20-ietf-poly1305
   name: guanxi|🌀其他44-TR | ⬇️ 6.5MB/s|Disney|Youtube|Openai
   password: qscavF5UviIL-8V-E4raBA
@@ -178,76 +155,60 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /profile/telegram@ssrsub
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: airport|🇭🇰 香港_3
-  password: 23d03aa704c7
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: cmihk3v1.dsjsapp.com
-    mode: websocket
-    mux: true
-    path: /grqhyifio
-    tls: true
-  port: '636'
-  server: 156.251.179.181
-  type: ss
-  udp: true
 - alterId: '64'
   cipher: auto
-  name: airport|❓ 未知_3
-  network: tcp
-  port: '50112'
-  server: 120.26.55.225
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '64'
-  cipher: auto
-  name: airport|❓ 未知_2
-  network: tcp
-  port: '50002'
-  server: 47.92.152.169
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: airport|❓ 未知_10
-  network: tcp
-  port: '50007'
-  server: 112.132.215.34
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|❓ 未知_9
-  port: '50002'
-  server: 47.104.186.133
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '64'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|❓ 未知_6
+  name: airport|❓ 未知_12
   network: tcp
   port: '50002'
   server: 120.210.205.59
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: airport|❓ 未知_7
-  network: ws
-  password: ttfang
-  port: '81'
-  server: 220.135.202.250
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: airport|🇸🇨 塞舌尔
+  password: 0b191076d18f
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hk6v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /ugiibpkbca
+    tls: true
+  port: '636'
+  server: 156.251.179.136
+  type: ss
   udp: true
+- alterId: '64'
+  cipher: auto
+  client-fingerprint: chrome
+  name: airport|❓ 未知_11
+  network: tcp
+  port: '50002'
+  server: 47.92.152.169
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '64'
+  cipher: auto
+  name: airport|❓ 未知_8
+  network: tcp
+  port: '50112'
+  server: 120.26.55.225
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '2'
+  cipher: auto
+  client-fingerprint: chrome
+  name: airport|❓ 未知_21
+  network: ws
+  port: '80'
+  server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
   ws-opts:
     headers:
-      Host: ttfang.fange.me
+      Host: broadcastlv.chat.bilibili.com
     path: /
 - cipher: aes-256-gcm
   name: ruk1ng|🟠_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001_3535323531306232
@@ -276,29 +237,32 @@ proxies:
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|github.com/Ruk1ng001_3338373762663838
-  port: 26144
-  server: ppy-boardv2.02ijp4uos1.download
-  tls: false
-  type: vmess
-  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
 - cipher: aes-256-gcm
-  name: ruk1ng|🟠_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001_6439353565343935
-  password: 9bfdde71b4c0
+  name: ruk1ng|🟡_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001_3537653235303637
+  password: 23d03aa704c7
   plugin: v2ray-plugin
   plugin-opts:
-    host: newroot2v1.dsjsapp.com
+    host: cmihk3v1.dsjsapp.com
     mode: websocket
     mux: true
-    path: /cauejypbltqt
+    path: /grqhyifio
     skip-cert-verify: false
     tls: true
   port: 636
-  server: 103.103.245.158
+  server: 156.251.179.181
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  ip-version: dual
+  name: ruk1ng|🟡_🇨🇳_💼_github.com/Ruk1ng001_3930363731346639
+  network: tcp
+  port: 50002
+  server: 47.104.186.133
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
   name: ruk1ng|🟡_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001_6139626263326265
   password: 0b191076d18f
@@ -314,35 +278,12 @@ proxies:
   server: 156.251.179.139
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: ruk1ng|🟡_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001_3164386239623931
-  password: 0b191076d18f
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hk6v1.dsjsapp.com
-    mode: websocket
-    mux: true
-    path: /ugiibpkbca
-    skip-cert-verify: false
-    tls: true
-  port: 636
-  server: 156.251.179.136
-  tfo: false
+- cipher: chacha20-ietf
+  name: ruk1ng|❓_🇨🇳:🇭🇰_💼_github.com/Ruk1ng001_6630303766636432
+  password: asd123456
+  port: 8388
+  server: 103.149.183.154
   type: ss
-- alterId: 2
-  cipher: auto
-  name: ruk1ng|github.com/Ruk1ng001_6262326533313937
-  network: ws
-  port: 30836
-  server: v36.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - client-fingerprint: chrome
   name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_3538393066646239
   network: ws
@@ -359,6 +300,20 @@ proxies:
     path: /Stupid-World/103.106.228.126-2053
 - alterId: 2
   cipher: auto
+  ip-version: dual
+  name: ruk1ng|github.com/Ruk1ng001_3264323232653631
+  network: ws
+  port: 30835
+  server: v35.heduian.link
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: baidu.com
+    path: /oooo
+- alterId: 2
+  cipher: auto
   name: ruk1ng|github.com/Ruk1ng001_3635363062663266
   network: ws
   port: 30829
@@ -372,18 +327,61 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  ip-version: dual
-  name: ruk1ng|github.com/Ruk1ng001_3264323232653631
+  client-fingerprint: chrome
+  name: ruk1ng|github.com/Ruk1ng001_6139646430646237
   network: ws
-  port: 30835
-  server: v35.heduian.link
+  port: 30808
+  server: v8.heduian.link
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      host: baidu.com
+      Host: baidu.com
     path: /oooo
+- client-fingerprint: chrome
+  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_3334613931346334
+  network: ws
+  password: f282b878-8711-45a1-8c69-5564172123c1
+  port: 443
+  server: 104.21.72.109
+  skip-cert-verify: false
+  sni: vpn.stupidworld.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /Stupid-World/103.106.228.126-2053
+- alterId: 2
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6634303333376339
+  network: ws
+  port: 30824
+  server: v24.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- name: ruk1ng|github.com/Ruk1ng001_3538373739383732
+  network: ws
+  password: f282b878-8711-45a1-8c69-5564172123c1
+  port: 443
+  server: aio.zipzap.biz.id
+  skip-cert-verify: false
+  sni: aio.zipzap.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: aio.zipzap.biz.id
+    path: /aioproxybot/129.150.49.58-18650
 - alpn:
   - ''
   alterId: 0
@@ -403,47 +401,6 @@ proxies:
       Host: aio.unlimited.biz.id
     path: /aioproxybot/129.150.49.58-18650
   xudp: true
-- alterId: 2
-  cipher: auto
-  name: ruk1ng|github.com/Ruk1ng001_3334356634346233
-  network: ws
-  port: 30830
-  server: v30.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
-- client-fingerprint: chrome
-  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_3334613931346334
-  network: ws
-  password: f282b878-8711-45a1-8c69-5564172123c1
-  port: 443
-  server: 104.21.72.109
-  skip-cert-verify: false
-  sni: vpn.stupidworld.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /Stupid-World/103.106.228.126-2053
-- name: ruk1ng|github.com/Ruk1ng001_3538373739383732
-  network: ws
-  password: f282b878-8711-45a1-8c69-5564172123c1
-  port: 443
-  server: aio.zipzap.biz.id
-  skip-cert-verify: false
-  sni: aio.zipzap.biz.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: aio.zipzap.biz.id
-    path: /aioproxybot/129.150.49.58-18650
 - alterId: 0
   cipher: auto
   name: ermaozi|🇮🇷_IR_伊朗->🇺🇸_US_美国
@@ -453,8 +410,22 @@ proxies:
   type: vmess
   uuid: cd11391b-9f7a-4478-b624-3a1d5d81d426
 - cipher: aes-256-cfb
-  name: mahdiblanda|🇫🇷FR-15.237.179.114-0668 | 41.636MB
-  password: amazonskr05
-  port: 443
-  server: 15.237.179.114
+  name: mahdiblanda|🇰🇷KR-218.237.185.230-4909 | 0.058MB
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
   type: ss
+- alterId: 2
+  cipher: auto
+  name: mahdiblanda|🇭🇰HK-116.49.109.153-0280 | 0.99MB
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
