@@ -93,3 +93,17 @@ proxies:
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
+  - name: 米粒-日本
+    type: vless
+    server: 154.36.183.73
+    port: 58671
+    uuid: 2b99d098-1213-4834-ad07-ca5436324321
+    tls: true
+    client-fingerprint: chrome
+    servername: yahoo.com
+    network: tcp
+    reality-opts:
+      public-key: Y6oqaRdUXgZwPKV9qBlq_9K3anSTZMo-hXy5uUH_YUY
+      short-id: '39'
+    tfo: false
+    skip-cert-verify: false
