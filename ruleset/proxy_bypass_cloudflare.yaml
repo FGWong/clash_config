@@ -8,5 +8,7 @@ payload:
   - DOMAIN-SUFFIX,workers.dev
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,x.com
+  - DOMAIN-SUFFIX,pplx.ai
+  - DOMAIN-SUFFIX,os.ai
   - DOMAIN-KEYWORD,cloudflare
-
+  - DOMAIN-KEYWORD,perplexity

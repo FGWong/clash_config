@@ -32,7 +32,8 @@ proxies:
       Host: ssssssssssssfffffffgh.2032.pp.ua
     path: /6We3U9Df1WGxgFnoFPw1
 - cipher: aes-256-gcm
-  name: NoMoreWalls|🇭🇰 香港2|@ripaojiedian
+  client-fingerprint: chrome
+  name: openRunner|🇭🇰 香港2
   password: 9bfdde71b4c0
   plugin: v2ray-plugin
   plugin-opts:
@@ -46,6 +47,16 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  fingerprint: ''
+  name: dayfree|🇪🇸_ES_西班牙->🇺🇸_US_美国
+  network: tcp
+  port: 32020
+  server: s3.ipyar.org
+  sni: ''
+  type: vmess
+  uuid: 78b4fb57-39d7-4e9d-dd38-c9a38322bcb2
 - name: forever|Vless_Websocket
   network: ws
   port: 8080
@@ -211,33 +222,6 @@ proxies:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - cipher: aes-256-gcm
-  name: ruk1ng|🟠_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001_3535323531306232
-  password: 941cbc4237e0
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: kh36v1.dsjsapp.com
-    mode: websocket
-    mux: true
-    path: /tkzhhylcfuf
-    skip-cert-verify: false
-    tls: true
-  port: 636
-  server: 121.127.231.239
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: ruk1ng|🟡_🇨🇳_💼_github.com/Ruk1ng001_6338356335633935
-  network: tcp
-  port: 50002
-  server: 47.116.166.178
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  xudp: true
-- cipher: aes-256-gcm
   name: ruk1ng|🟡_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001_3537653235303637
   password: 23d03aa704c7
   plugin: v2ray-plugin
@@ -263,6 +247,33 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: ruk1ng|🟡_🇨🇳_💼_github.com/Ruk1ng001_6338356335633935
+  network: tcp
+  port: 50002
+  server: 47.116.166.178
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  xudp: true
+- cipher: aes-256-gcm
+  name: ruk1ng|🟠_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001_3535323531306232
+  password: 941cbc4237e0
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: kh36v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /tkzhhylcfuf
+    skip-cert-verify: false
+    tls: true
+  port: 636
+  server: 121.127.231.239
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
   name: ruk1ng|🟡_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001_6139626263326265
   password: 0b191076d18f
@@ -278,26 +289,35 @@ proxies:
   server: 156.251.179.139
   tfo: false
   type: ss
-- cipher: chacha20-ietf
-  name: ruk1ng|❓_🇨🇳:🇭🇰_💼_github.com/Ruk1ng001_6630303766636432
-  password: asd123456
-  port: 8388
-  server: 103.149.183.154
-  type: ss
 - client-fingerprint: chrome
-  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_3538393066646239
+  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_3334613931346334
   network: ws
   password: f282b878-8711-45a1-8c69-5564172123c1
   port: 443
-  server: 172.67.181.173
+  server: 104.21.72.109
   skip-cert-verify: false
   sni: vpn.stupidworld.web.id
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
     path: /Stupid-World/103.106.228.126-2053
+- cipher: aes-256-gcm
+  name: ruk1ng|🟡_🇯🇵_💻_github.com/Ruk1ng001_3732356432656665
+  password: 823e135ed103
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jp7v1.lingjfjkm002.com
+    mode: websocket
+    mux: true
+    path: /dchlbvrbbotc
+    skip-cert-verify: false
+    tls: true
+  port: 636
+  server: 137.220.191.38
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
   ip-version: dual
@@ -325,6 +345,20 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- client-fingerprint: chrome
+  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_3538393066646239
+  network: ws
+  password: f282b878-8711-45a1-8c69-5564172123c1
+  port: 443
+  server: 172.67.181.173
+  skip-cert-verify: false
+  sni: vpn.stupidworld.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /Stupid-World/103.106.228.126-2053
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -341,66 +375,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- client-fingerprint: chrome
-  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_3334613931346334
-  network: ws
-  password: f282b878-8711-45a1-8c69-5564172123c1
-  port: 443
-  server: 104.21.72.109
-  skip-cert-verify: false
-  sni: vpn.stupidworld.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /Stupid-World/103.106.228.126-2053
-- alterId: 2
-  cipher: auto
-  name: ruk1ng|github.com/Ruk1ng001_6634303333376339
-  network: ws
-  port: 30824
-  server: v24.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- name: ruk1ng|github.com/Ruk1ng001_3538373739383732
-  network: ws
-  password: f282b878-8711-45a1-8c69-5564172123c1
-  port: 443
-  server: aio.zipzap.biz.id
-  skip-cert-verify: false
-  sni: aio.zipzap.biz.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: aio.zipzap.biz.id
-    path: /aioproxybot/129.150.49.58-18650
-- alpn:
-  - ''
-  alterId: 0
-  cipher: zero
-  name: ruk1ng|github.com/Ruk1ng001_6630316162633161
-  network: ws
-  port: 443
-  server: aio.unlimited.biz.id
-  servername: aio.unlimited.biz.id
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f282b878-8711-45a1-8c69-5564172123c1
-  ws-opts:
-    headers:
-      Host: aio.unlimited.biz.id
-    path: /aioproxybot/129.150.49.58-18650
-  xudp: true
 - alterId: 0
   cipher: auto
   name: ermaozi|🇮🇷_IR_伊朗->🇺🇸_US_美国
@@ -409,6 +383,12 @@ proxies:
   server: dl01.armod.top
   type: vmess
   uuid: cd11391b-9f7a-4478-b624-3a1d5d81d426
+- cipher: chacha20-ietf
+  name: mahdiblanda|🇭🇰HK-103.149.183.154-5113 | 5.813MB
+  password: asd123456
+  port: 8388
+  server: 103.149.183.154
+  type: ss
 - cipher: aes-256-cfb
   name: mahdiblanda|🇰🇷KR-218.237.185.230-4909 | 0.058MB
   password: qwerREWQ@@
