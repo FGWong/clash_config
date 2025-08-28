@@ -3,12 +3,12 @@ payload:
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,hd-torrents.org
   - DOMAIN-SUFFIX,nexconvert.com
+  - DOMAIN-SUFFIX,os.ai
+  - DOMAIN-SUFFIX,pplx.ai
   - DOMAIN-SUFFIX,star-space.net
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,workers.dev
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,x.com
-  - DOMAIN-SUFFIX,pplx.ai
-  - DOMAIN-SUFFIX,os.ai
   - DOMAIN-KEYWORD,cloudflare
   - DOMAIN-KEYWORD,perplexity
