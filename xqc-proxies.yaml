@@ -107,3 +107,11 @@ proxies:
     password: QWMs8htepu4efwwWrzM2nrRMT
     auth: QWMs8htepu4efwwWrzM2nrRMT
     skip-cert-verify: true
+  - name: i7xpyrbf
+    type: vless
+    server: 156.238.244.127
+    port: 25794
+    uuid: 3ae3ceba-7090-4b15-ae64-a6d0137192c0
+    tls: false
+    network: tcp
+    tfo: false
