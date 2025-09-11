@@ -58,13 +58,6 @@ proxies:
     password: 2042822c-46b9-4e0f-9439-09b3210033e4
     auth: 2042822c-46b9-4e0f-9439-09b3210033e4
     skip-cert-verify: true
-  - name: 米粒-JP-Alibaba_Cloud
-    type: hysteria2
-    server: 47.74.18.2
-    port: 64970
-    password: ef52a00a-c99b-4dbb-a24a-3dfccbc540b7
-    auth: ef52a00a-c99b-4dbb-a24a-3dfccbc540b7
-    skip-cert-verify: true
   - name: "KR-SS2022-ALS-KR"
     type: ss
     server: 43.202.3.104
@@ -78,32 +71,39 @@ proxies:
     password: dd81762b
     auth: dd81762b
     skip-cert-verify: true
-  - name: HK-S-G-IX
+  - name: Reality-83.229.125.179-1757075191
     type: vless
     server: 83.229.125.179
-    port: 8966
-    uuid: ab2a8158-0281-4452-9721-cc408c826fce
+    port: 443
+    uuid: c237c1a5-68a2-4bb5-8c62-278ec59928ea
     tls: true
     client-fingerprint: chrome
-    servername: www.apple.com
+    servername: www.tesla.com
     network: tcp
     reality-opts:
-      public-key: DGaKVSTplPo6g6nW0fQbqcitQgnBB694o9QNv1J0OUA
-      short-id: '34587477e8044039'
+      public-key: p_6WEk5sHCIElxQUTydfvG2JaAFstkUn4NlCZloKQHM
+      short-id: 0123456789abcdef
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
-  - name: 米粒-日本
-    type: vless
-    server: 154.36.183.73
-    port: 58671
-    uuid: 2b99d098-1213-4834-ad07-ca5436324321
-    tls: true
-    client-fingerprint: chrome
-    servername: yahoo.com
-    network: tcp
-    reality-opts:
-      public-key: Y6oqaRdUXgZwPKV9qBlq_9K3anSTZMo-hXy5uUH_YUY
-      short-id: '39'
-    tfo: false
-    skip-cert-verify: false
+  - name: Hy2-83.229.125.179-1757075191
+    type: hysteria2
+    server: 83.229.125.179
+    port: 8443
+    password: 1qaBipxRcyj88GTx
+    auth: 1qaBipxRcyj88GTx
+    skip-cert-verify: true
+  - name: 澳大利亚
+    type: hysteria2
+    server: 77.90.35.18
+    port: 25565
+    password: QWMs8htepu4efwwWrzM2nrRMT
+    auth: QWMs8htepu4efwwWrzM2nrRMT
+    skip-cert-verify: true
+  - name: 德国
+    type: hysteria2
+    server: 80.75.218.223
+    port: 64381
+    password: QWMs8htepu4efwwWrzM2nrRMT
+    auth: QWMs8htepu4efwwWrzM2nrRMT
+    skip-cert-verify: true
