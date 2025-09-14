@@ -115,3 +115,57 @@ proxies:
     tls: false
     network: tcp
     tfo: false
+  - name: vl-reality-hksev
+    type: vless
+    server: 151.243.22.28
+    port: 40127
+    uuid: 3f84e932-efed-468b-9097-0ade250fcf1c
+    tls: true
+    client-fingerprint: chrome
+    servername: www.yahoo.com
+    network: tcp
+    reality-opts:
+      public-key: 4y_EyROSTIkQJYaQ3XqDSxBJ-Kvat_8nC0nqepreVFQ
+      short-id: b75a3601
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: hy2-hksev
+    type: hysteria2
+    server: 151.243.22.28
+    port: 40129
+    password: 3f84e932-efed-468b-9097-0ade250fcf1c
+    auth: 3f84e932-efed-468b-9097-0ade250fcf1c
+    skip-cert-verify: true
+  - name: vm-ws-hksev
+    type: vmess
+    server: 151.243.22.28
+    port: 40128
+    uuid: 3f84e932-efed-468b-9097-0ade250fcf1c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: 3f84e932-efed-468b-9097-0ade250fcf1c-vm
+      headers:
+        Host: www.bing.com
+  - name: tu5-hksev
+    type: tuic
+    server: 151.243.22.28
+    port: 40130
+    uuid: >-
+      3f84e932-efed-468b-9097-0ade250fcf1c%3A3f84e932-efed-468b-9097-0ade250fcf1c
+    skip-cert-verify: true
+    disable-sni: true
+    alpn:
+      - h3
+    sni: www.bing.com
+    udp-relay-mode: native
+  - name: 香港1 | ⬇️ 5.1MB/s|Netflix|Disney|Youtube
+    type: hysteria2
+    server: hk2bbz.youxuan.wiki
+    port: 8080
+    password: 5407367c-cfa5-4e24-89ee-990e86d4cde8
+    auth: 5407367c-cfa5-4e24-89ee-990e86d4cde8
+    skip-cert-verify: true

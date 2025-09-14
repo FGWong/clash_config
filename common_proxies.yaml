@@ -1,51 +1,22 @@
 proxies:
-- cipher: aes-256-gcm
-  name: Flik6|[SS] 🇯🇵 日本 东京Amazon数据中心
-  password: amazongreatvpn
-  port: 16888
-  server: 35.73.224.122
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: NoMoreWalls|🇹🇼 台湾|@ripaojiedian
-  password: a6c9f4e3-372d-414c-b945-d63544d599ec
-  port: 10129
-  server: 114.35.114.182
-  tfo: false
-  type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: NoMoreWalls|香港3|@ripaojiedian
+  name: Flik6|[VMess] 🇫🇷 法国 国际航空电讯集团公司(SITA)
   network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
-  skip-cert-verify: false
+  port: 443
+  server: 57.129.64.238
+  skip-cert-verify: true
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- name: NoMoreWalls|RU_speednode_0052
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.59.218.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
   udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
+      Host: kapelleng.com
+    path: /linkvws
 - cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: openRunner|🇭🇰 香港2
+  name: NoMoreWalls|🇭🇰 香港2|@ripaojiedian
   password: 2b5fad3874e5
   plugin: v2ray-plugin
   plugin-opts:
@@ -58,12 +29,6 @@ proxies:
   port: 443
   server: 156.251.179.135
   tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: dayfree|🇲🇩_MD_摩尔多瓦
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
   type: ss
 - name: forever|Vless_Websocket
   network: ws
@@ -265,57 +230,686 @@ proxies:
   tls: false
   type: vmess
   uuid: ade0486c-fe64-4815-9895-78de66553a2c
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  country: 🇨🇳 CN
-  h2-opts: {}
-  http-opts: {}
-  name: ruk1ng|🟡_🇨🇳_📶_github.com/Ruk1ng001_6337336132343539
-  network: tcp
-  port: 50007
-  server: 112.132.215.34
-  skip-cert-verify: true
+  client-fingerprint: ''
+  name: airport|❓ 未知_5
+  port: '59003'
+  server: 183.236.51.36
+  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: /
 - alterId: 64
   cipher: auto
-  country: 🇨🇳 CN
-  h2-opts: {}
-  http-opts: {}
-  name: ruk1ng|🟡_🇨🇳_📶_github.com/Ruk1ng001_3834623433633230
+  name: mfuu|🇺🇸US-38.12.83.217-106
   network: tcp
-  port: 50002
-  server: 112.132.215.12
-  servername: ury-unit-c030ehei8.poget71138.workers.dev
+  port: 30002
+  server: 38.12.83.217
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: /ivideos.sbs/linkws
+  ws-headers:
+    Host: loosely.freetrade.link
+  ws-path: /
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_65346533353135
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.45
+  type: ss
 - alterId: 0
   cipher: auto
-  name: ruk1ng|❓_🇺🇸_💻_github.com/Ruk1ng001_3830363031636264
+  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_3438343834323430
   network: none
-  port: 48247
-  server: 64.50.181.241
+  port: 35703
+  server: 107.172.5.52
   tls: false
   type: vmess
-  uuid: ad447539-8607-41a7-fe74-7fdf7a0ba96f
-- alterId: 2
-  cipher: auto
-  name: ruk1ng|github.com/Ruk1ng001_6139646430646237
-  network: ws
-  port: 30808
-  server: v8.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  uuid: 420c92f0-16db-4306-8129-935bd942897e
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6464353662353765
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.79
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6636366161343432
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.252
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3738633565663530
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.141
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6130393231653361
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.62
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6636303539616430
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.206
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6537323732646137
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.224
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3434393664343536
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.35
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3739653964376538
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.250
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6663383030343365
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.65
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3634353238653362
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.220
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3131373530323733
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.206
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3836646535336431
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.253
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3838393463646435
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.51
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3832323531646230
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.15
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3838396431653661
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.17
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3330303662316138
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.175
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6562323265353734
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.145
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_39326630643337
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.196
+  type: ss
+- cipher: chacha20-ietf
+  name: ruk1ng|🟠_🇨🇳:🇭🇰_🌀_github.com/Ruk1ng001_3864393534396362
+  password: asd123456
+  port: 8388
+  server: 154.197.26.237
+  type: ss
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3436613538663938
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.116
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3931363832373037
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.76
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3233623865336232
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.231
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3439656263653961
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.245
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_36316361393465
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.183
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3838666639393030
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.38
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3238313837613065
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.58
+  type: ss
+- cipher: chacha20-ietf
+  name: ruk1ng|❓_🇨🇳:🇭🇰_💼_github.com/Ruk1ng001_6630303766636432
+  password: asd123456
+  port: 8388
+  server: 103.149.183.154
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6632623432323739
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.205
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3663376533653735
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.34
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6536646230393863
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.82
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6564303964336362
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.219
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_66656138353237
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.117
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3737663432366537
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.232
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3738656631653763
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.41
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3563336465383863
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.37
+  type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: ruk1ng|🟠_🇮🇳_💻_github.com/Ruk1ng001_6465326632373966
+  network: http
+  port: 18872
+  server: 123.58.203.92
+  tls: false
+  type: vmess
+  uuid: edfe29a5-cc54-488d-a31d-ca71f39e38d4
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3962333439303164
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.119
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3664346538633739
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.60
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3539353337366538
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.68
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6538356162626134
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.64
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6132326437646365
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.155
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6566353462633938
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.188
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6236333230376166
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.75
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6434303634336232
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.53
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6135663764626431
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.33
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3839386465383638
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.197
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6363303935336439
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.183
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3136353462323838
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.56
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3334396635356262
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.113
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6532386330656563
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.232
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3832323563323630
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.27
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6166653437313234
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.8
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3630326138333630
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.153
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6639336663346535
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.56
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3562663430653336
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.50
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3134343765616330
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.214
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3931306466653637
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.167
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3837666661383138
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.225
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3865643666353232
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.40
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3963393466613431
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.165
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3162386333666162
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.53
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6631326230343439
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.244
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6138616565663538
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.233
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3533313462646363
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.101
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3236323731623564
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.15
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3564373036373364
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.146
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🔴_🇲🇩_💼_github.com/Ruk1ng001_65373938613838
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3863613835396332
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.107
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6634633534303534
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.49
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3834336131383333
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.141
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3835616137373735
+  network: ws
+  port: 443
+  server: klo.986986.shop
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: b75c9731-408d-4aa6-8ae9-3857205113a1
   ws-opts:
     headers:
-      Host: baidu.com
-    path: /oooo
+      Host: klo.986986.shop
+    path: /nvjx6j7kbDQIQMZvbeVA9
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_66383934643736
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.44
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3461396166666364
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.240
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3466326366353766
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.135
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6266323930663265
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.212
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3637306463646532
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.234
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3463636534356666
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.202
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6538323435316265
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.132
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6434656437663436
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.43
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6565393638323532
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.240
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3431386666353865
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.125
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3664313266613761
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.39
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6537356632386266
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.145
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_63626261643836
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.235
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3230353533616366
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.246
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3234623965313061
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.204
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6266383463313964
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.12
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3730336266366235
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.102
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_39303833393337
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.5
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3661663664353239
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.38
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6662363030643134
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.16
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6637316235663735
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.81
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3464323031313531
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.106
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3839393762373166
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.58
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6663333736623139
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.11
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6631393035326331
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.52
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6130663164356162
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.218
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|🟡_🇺🇸_💻_github.com/Ruk1ng001_3966383831663334
+  network: none
+  port: 59674
+  server: 43.162.114.137
+  tls: false
+  type: vmess
+  uuid: 6a4ce5b9-0d60-4a21-a8fe-897798019500
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6136613839643732
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.227
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  name: ruk1ng|github.com/Ruk1ng001_3761663039323233
+  password: RGl5M0p1UHhZSExJM3VwNGFsd3l1WHpmWTVheVRHVWM=
+  port: 50803
+  server: 8.138.9.184
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6234653832663835
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.70
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_3235353836323039
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.120
+  type: ss
+- cipher: aes-256-cfb
+  name: ruk1ng|🟠_🇻🇳_💻_github.com/Ruk1ng001_6235663432303733
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.203
+  type: ss
 - alterId: 0
   cipher: auto
   fingerprint: ''
