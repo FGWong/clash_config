@@ -137,19 +137,6 @@ proxies:
     password: 3f84e932-efed-468b-9097-0ade250fcf1c
     auth: 3f84e932-efed-468b-9097-0ade250fcf1c
     skip-cert-verify: true
-  - name: vm-ws-hksev
-    type: vmess
-    server: 151.243.22.28
-    port: 40128
-    uuid: 3f84e932-efed-468b-9097-0ade250fcf1c
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: 3f84e932-efed-468b-9097-0ade250fcf1c-vm
-      headers:
-        Host: www.bing.com
   - name: tu5-hksev
     type: tuic
     server: 151.243.22.28
@@ -168,4 +155,88 @@ proxies:
     port: 8080
     password: 5407367c-cfa5-4e24-89ee-990e86d4cde8
     auth: 5407367c-cfa5-4e24-89ee-990e86d4cde8
+    skip-cert-verify: true
+  - name: HK
+    type: hysteria2
+    server: 47.76.83.25
+    port: 11243
+    password: L60nS04NhsoMpN2DDGbnMqLP8DY
+    auth: L60nS04NhsoMpN2DDGbnMqLP8DY
+    skip-cert-verify: true
+  - name: SG
+    type: hysteria2
+    server: xjp1.mangshe.xyz
+    port: 2055
+    password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+    auth: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+    skip-cert-verify: true
+  - name: "\U0001F1EF\U0001F1F5日本"
+    type: hysteria2
+    server: jpjp.gzcloud.shop
+    port: 443
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    password: 89a62b16-a3c3-4ad7-be18-6f0266f7a2c5
+    auth: 89a62b16-a3c3-4ad7-be18-6f0266f7a2c5
+    skip-cert-verify: true
+  - name: KR
+    type: hysteria2
+    server: cc1.mangshe.xyz
+    port: 2056
+    password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+    auth: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+    skip-cert-verify: true
+  - name: 香港
+    type: hysteria2
+    server: xg1.mangshe.xyz
+    port: 2056
+    password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+    auth: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+    skip-cert-verify: true
+  - name: US
+    type: hysteria2
+    server: 166.88.164.9
+    port: 27704
+    password: peEduuHzbExjK7UQHzazXwqgA
+    auth: peEduuHzbExjK7UQHzazXwqgA
+    skip-cert-verify: true
+  - name: unknown
+    type: vmess
+    server: 193.124.24.247
+    port: 6506
+    uuid: c53d41d1-7d56-43ce-9994-408780c6476a
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: HY2
+    type: hysteria2
+    server: yapc-1.adamhayward.co.uk
+    port: 36600
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
+    password: Yet-Another-Public-Config-1
+    auth: Yet-Another-Public-Config-1
+    skip-cert-verify: true
+  - name: "\U0001F1F8\U0001F1EC新加坡"
+    type: vless
+    server: sg2.gzcloud.shop
+    port: 11451
+    uuid: 89a62b16-a3c3-4ad7-be18-6f0266f7a2c5
+    tls: true
+    client-fingerprint: chrome
+    servername: buylite.music.apple.com
+    network: tcp
+    reality-opts:
+      public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+      short-id: 4b070735
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: 新加坡
+    type: hysteria2
+    server: xjp2.mangshe.xyz
+    port: 2060
+    password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+    auth: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
     skip-cert-verify: true
