@@ -40,6 +40,8 @@ dns:
       #- 101.6.6.6:5353
   enhanced-mode: fake-ip #redir-host
   fake-ip-range: 198.18.0.1/16
+  # 可设置为whitelist，即只有匹配成功才返回fake-ip
+  fake-ip-filter-mode: blacklist
   fake-ip-filter:
     - '*.lan'
     - '*.local'
@@ -48,6 +50,8 @@ dns:
     - www.msftconnecttest.com
     - '*.msftconnecttest.com'
     - '*.msftncsi.com'
+    - "connect.rom.miui.com"  # 小米设备检测
+    - "*.msn.com"             # Windows更新检测
     - stun.*.*.*
     - stun.*.*
     - miwifi.com
@@ -207,8 +211,6 @@ cfw-bypass:
   - "*.msftncsi.com"
   - "*.qupu123.com"
   - "*.pdfwifi.com"
-  - "*.zhenguanyu.biz"
-  - "*.zhenguanyu.com"
   - "*.snapdrop.net"
   # CN域名直连(中国|公司|网络)
   - "*.xn--fiqs8s"
@@ -582,13 +584,14 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
+      - Cfop
+      - ♻️ XQC
       - 🎯 全球直连
       - ♻️ 自动选择
       - ⚡ 负载均衡
       - 🔰 manual
       - Cflare
       - Cfkg
-      - Cfop
   - name: Cfop
     type: url-test
     use:
@@ -596,6 +599,12 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
     icon: https://g.csdnimg.cn/static/logo/favicon32.ico
+  - name: ♻️ XQC
+    type: url-test
+    use:
+      - xqc
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 12000
   - name: Cflare
     type: url-test
     use:
@@ -614,6 +623,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - ♻️ XQC
       - ACommon
   - name: ♻️ 自动选择
     type: url-test
@@ -630,13 +640,6 @@ proxy-groups:
       - 🛑 全球拦截
       - 🐟 漏网之鱼
       - 🎏 失败切换
-      - ⚡ 负载均衡
-  - name: 📲 电报信息
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - ♻️ 自动选择
-      - 🚀 节点选择
       - ⚡ 负载均衡
   - name: 🔰 manual
     type: select
@@ -680,6 +683,14 @@ proxy-groups:
       - common
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🚀 节点选择
+      - ⚡ 负载均衡
+      - ♻️ XQC
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -762,7 +773,7 @@ proxy-providers:
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
   cldop:
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main//cf_op_proxies.yaml"
+    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/cf_op_proxies.yaml"
     type: http
     #type: file
     interval: 5612
@@ -770,6 +781,16 @@ proxy-providers:
     health-check:
       enable: true
       interval: 960
+      url: 'http://www.gstatic.com/generate_204'
+  xqc:
+    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/xqc-proxies.yaml"
+    type: http
+    #type: file
+    interval: 10807
+    path: local_data/xqc-proxies.yaml
+    health-check:
+      enable: true
+      interval: 12000
       url: 'http://www.gstatic.com/generate_204'
 
 rule-providers:
@@ -917,7 +938,7 @@ rule-providers:
   OneDrive:
     type: http
     behavior: classical
-      #url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
+    #url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
     url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
     path: ./ruleset/OneDrive.yaml
     interval: 86400
@@ -945,14 +966,14 @@ rule-providers:
   artificial_direct:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/manual_direct.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config/ruleset/manual_direct.yaml"
     path: ./ruleset/manual_direct.yaml
     interval: 86400
 
   artificial_proxy:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/manual_proxy.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/manual_proxy.yaml"
     path: ./ruleset/manual_proxy.yaml
     interval: 86400
 
@@ -960,7 +981,7 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/classical_direct.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/classical_direct.yaml"
     path: ./ruleset/classical_direct.yaml
     interval: 86400
 
@@ -968,7 +989,7 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    url: "https://raw.githubusercontent.com/FGWong/clash_config/main/ruleset/classical_proxy.yaml"
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/classical_proxy.yaml"
     path: ./ruleset/classical_proxy.yaml
     interval: 86400
 

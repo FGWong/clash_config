@@ -240,3 +240,10 @@ proxies:
     password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
     auth: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
     skip-cert-verify: true
+  - name: ml-kr
+    type: hysteria2
+    server: 47.80.8.236
+    port: 23197
+    password: mxckV5rLwMUeDjYkiKFAApEkTMA
+    auth: mxckV5rLwMUeDjYkiKFAApEkTMA
+    skip-cert-verify: true

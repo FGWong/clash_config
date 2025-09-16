@@ -966,7 +966,7 @@ rule-providers:
     type: http
     behavior: classical
     #url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Download.yaml"
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Download.yaml"
+    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Download.yaml"
     path: ./ruleset/Download.yaml
     interval: 86400
   OneDrive:
