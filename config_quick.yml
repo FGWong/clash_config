@@ -1,11 +1,24 @@
 port: 7890
 socks-port: 7891
 mixed-port: 7892
+# redir-port: 7892 # 透明代理端口，用于 Linux 和 MacOS
+# Transparent proxy server port for Linux (TProxy TCP and TProxy UDP)
+# tproxy-port: 7893
 allow-lan: true
 mode: rule
 log-level: info
 ipv6: true
 external-controller: :9090
+
+#自定义 geodata url
+geox-url:
+  geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb"
+
+geo-auto-update: false # 是否自动更新 geodata
+geo-update-interval: 24 # 更新间隔，单位：小时
+
 dns:
   enabled: true
   prefer-h3: true
@@ -16,25 +29,26 @@ dns:
       #- system
       #- "udp://223.5.5.5"
   nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-    - quic://dns.adguard.com:784
+    - https://1.12.12.12/dns-query
+    - https://223.6.6.6/dns-query
+      #- https://doh.pub/dns-query
+      #- https://dns.alidns.com/dns-query
 
   fallback:
-    - https://120.53.53.53/dns-query
     - https://dns.google/dns-query
+    - quic://dns.adguard.com:784
     - https://cloudflare-dns.com/dns-query
-  enhanced-mode: fake-ip
+  enhanced-mode: fake-ip #redir-host
   fake-ip-range: 198.18.0.1/16
   # 可设置为whitelist，即只有匹配成功才返回fake-ip
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
     - '*.lan'
     - '*.local'
+    - dns.msftncsi.com
+    - www.msftncsi.com
     - www.msftconnecttest.com
     - '*.msftconnecttest.com'
-    - 'dns.msftncsi.com'
-    - 'www.msftncsi.com'
     - '*.msftncsi.com'
     - "connect.rom.miui.com"  # 小米设备检测
     - "*.msn.com"             # Windows更新检测
@@ -137,7 +151,26 @@ hosts:
   #'raspi': 10.144.100.6
   #'hp': 10.144.176.30
 
-# Clash for Windows
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [ 443 ]
+  force-domain:
+    - '+.v2ex.com'
+  skip-domain:
+    - 'Mijia Cloud'
+    - 'dlg.io.mi.com'
+    - '+.apple.com'
+    - '+.local'
 cfw-bypass:
   # 直连列表
   # MyList
@@ -157,441 +190,29 @@ cfw-bypass:
   - "*.95516.com"
   - "*.unionpay.com"
   - qq.com
+  - "*.qq.com"
   - music.163.com
+  - '*.music.163.com'
+  - "www.webofscience.com" # Web of Science域名
+  - "snowplow.apps.clarivate.com"
+  - "access.clarivate.com"
+  - "snowplow-collector.userintel.prod.sp.aws.clarivate.net"
   - "*.13th.tech"
   - "*.423down.com"
   - "*.chaipip.com"
   - "*.chinaplay.store"
-  - "*.hrtsea.com"
-  - "*.kaikeba.com"
-  - "*.laomo.me"
-  - "*.mpyit.com"
+
   - "*.msftconnecttest.com"
   - "*.msftncsi.com"
-  - "*.qupu123.com"
-  - "*.pdfwifi.com"
-  - "*.zhenguanyu.biz"
-  - "*.zhenguanyu.com"
-  - "*.snapdrop.net"
-  # CN域名直连(中国|公司|网络)
-  - "*.xn--fiqs8s"
-  - "*.xn--55qx5d"
-  - "*.xn--io0a7i"
-  # 中国国内常见域名关键词直连
-  - "*360buy*"
-  - "*appzapp*"
-  # 360
-  - "*.dhrest.com"
-  - "*.qhres.com"
-  - "*.qhstatic.com"
-  # 4399
-  - "*.4399pk.com"
-  - "*.img4399.com"
-  # Alibaba
-  - "*.aliapp.org"
-  - "*.alibabacloud.com"
-  - "*.alibabausercontent.com"
-  - "*.alicloudccp.com"
-  - "*.aliexpress.com"
-  - "*.aliimg.com"
-  - "*.alipay.com"
-  - "*.alipayobjects.com"
-  - "*.alisoft.com"
-  - "*.aliyuncdn.com"
-  - "*.aliyundrive.com"
-  - "*.autonavi.com"
-  - "*.dingtalk.com"
-  - "*.hichina.com"
-  - "*.mxhichina.com"
-  - "*.soku.com"
-  - "*.tbcache.com"
-  - "*.tbcdn.com"
-  - "*.tmall.com"
-  - "*.tmall.hk"
-  - "*.xiami.com"
-  - "*.xiami.net"
-  # Baidu
-  - "*.baidubcr.com"
-  - "*.baidupcs.com"
-  - "*.baidustatic.com"
-  - "*.bdurl.net"
-  - "*.jomodns.com"
-  # Bilibili
-  - "*.acg.tv"
-  - "*.acgvideo.com"
-  - "*.b23.tv"
-  - "*.bigfun.cn"
-  - "*.bigfunapp.cn"
-  - "*.biliapi.com"
-  - "*.biliapi.net"
-  - "*.biligame.com"
-  - "*.biligame.net"
-  - "*.bilivideo.com"
-  - "*.bilivideo.cn"
-  - "*.hdslb.com"
-  - "*.im9.com"
-  - "*.smtcdns.net"
-  # ByteDance
-  - "*.amemv.com"
-  - "*.bdxiguaimg.com"
-  - "*.bdxiguastatic.com"
-  - "*.byted-static.com"
-  - "*.bytedns.net"
-  - "*.bytednsdoc.com"
-  - "*.bytegoofy.com"
-  - "*.byteimg.com"
-  - "*.bytescm.com"
-  - "*.bytetos.com"
-  - "*.bytexservice.com"
-  - "*.douyin.com"
-  - "*.douyincdn.com"
-  - "*.douyinpic.com"
-  - "*.douyinstatic.com"
-  - "*.douyinvod.com"
-  - "*.feelgood.cn"
-  - "*.feiliao.com"
-  - "*.gifshow.com"
-  - "*.huoshan.com"
-  - "*.huoshanzhibo.com"
-  - "*.ibytedapm.com"
-  - "*.iesdouyin.com"
-  - "*.ixigua.com"
-  - "*.kspkg.com"
-  - "*.toutiao13.com"
-  - "*.toutiaoapi.com"
-  - "*.toutiaocdn.com"
-  - "*.toutiaocdn.net"
-  - "*.toutiaocloud.com"
-  - "*.toutiaohao.com"
-  - "*.toutiaohao.net"
-  - "*.toutiaoimg.com"
-  - "*.toutiaopage.com"
-  - "*.wukong.com"
-  - "*.zijieapi.com"
-  - "*.zijieimg.com"
-  - "*.zjbyte.com"
-  - "*.zjcdn.com"
-  # CCTV
-  - "*.cctvpic.com"
-  - "*.livechina.com"
-  # DiDi
-  - "*.didialift.com"
-  - "*.didiglobal.com"
-  - "*.udache.com"
-  # Douyu 斗鱼
-  - "*.douyuscdn.com"
-  # Epic
-  - "*.epicgames.com"
-  - "*.epicgames.dev"
-  - "*.helpshift.com"
-  - "*.paragon.com"
-  - "*.unrealengine.com"
-  # HuaWei
-  - "*.dbankcdn.com"
-  - "*.hc-cdn.com"
-  - "*.hicloud.com"
-  - "*.hihonor.com"
-  - "*.huawei.com"
-  - "*.huaweicloud.com"
-  - "*.huaweishop.net"
-  - "*.hwccpc.com"
-  - "*.vmallres.com"
-  # Heytap
-  - "*.allawnfs.com"
-  - "*.allawno.com"
-  - "*.allawntech.com"
-  - "*.coloros.com"
-  - "*.heytap.com"
-  - "*.heytapcs.com"
-  - "*.heytapdownload.com"
-  - "*.heytapimage.com"
-  - "*.heytapmobi.com"
-  - "*.oppoer.me"
-  # Iflytek 科大讯飞
-  - "*.iflyink.com"
-  - "*.iflyrec.com"
-  - "*.iflytek.com"
-  # Iqiyi
-  - "*.71edge.com"
-  - "*.iqiyipic.com"
-  - "*.ppsimg.com"
-  - "*.qiyipic.com"
-  - "*.qy.net"
-  # JD
-  - "*.360buyimg.com"
-  - "*.jcloudcs.com"
-  - "*.jdcloud.com"
-  - "*.jdpay.com"
-  - "*.paipai.com"
-  # Kuaishou 快手
-  - "*.yximgs.com"
-  # Meitu
-  - "*.meipai.com"
-  # LeTV 乐视
-  - "*.lecloud.com"
-  - "*.letvcloud.com"
-  - "*.letvimg.com"
-  # MGTV 芒果TV
-  - "*.hitv.com"
-  # NetEase
-  - "*.lofter.com"
-  # PDD 拼多多
-  - "*.pinduoduo.com"
-  - "*.yangkeduo.com"
-  # Sina
-  - "*.miaopai.com"
-  - "*.xiaoka.tv"
-  # Sohu Sogo
-  - "*.go2map.com"
-  - "*.sogo.com"
-  - "*.sohucs.com"
-  - "*.sohuno.com"
-  - "*.sohurdc.com"
-  # Sony
-  - "*.playstation.com"
-  - "*.playstation.net"
-  - "*.playstationnetwork.com"
-  - "*.sony.com"
-  - "*.sonyentertainmentnetwork.com"
-  # SteamCN
-  - "*.cm.steampowered.com"
-  - "*.steamcontent.com"
-  - "*.steamusercontent.com"
-  - "*.steamchina.com"
-  - "csgo.wmsj.cn"
-  - "dota2.wmsj.cn"
-  - "wmsjsteam.com"
-  - "dl.steam.clngaa.com"
-  - "dl.steam.ksyna.com"
-  - "st.dl.bscstorage.net"
-  - "st.dl.eccdnx.com"
-  - "st.dl.pinyuncloud.com"
-  - "xz.pphimalayanrt.com"
-  - "steampipe.steamcontent.tnkjmec.com"
-  - "steampowered.com.8686c.com"
-  - "steamstatic.com.8686c.com"
-  # Tencent
   - "*.foxmail.com"
-  - "*.idqqimg.com"
-  - "*.igamecj.com"
-  - "*.myapp.com"
-  - "*.qqmail.com"
-  - "*.qqurl.com"
-  - "*.smtcdns.com"
-  - "*.smtcdns.net"
-  - "*.soso.com"
-  - "*.tencent-cloud.net"
-  - "*.tencent.com"
-  - "*.tenpay.com"
-  - "*.wechat.com"
-  - "*.weixin.com"
-  - "*.weiyun.com"
-  # Vip 唯品会
-  - "*.appsimg.com"
-  - "*.appvipshop.com"
-  # Ximalaya 喜马拉雅
-  - "*.xmcdn.com"
-  # Xunlei 迅雷
-  - "*.00cdn.com"
-  - "*.88cdn.com"
-  - "*.kanimg.com"
-  - "*.p2cdn.com"
-  - "*.thundercdn.com"
-  # YYeTs 人人影视
-  - "*.got001.com"
-  - "*.p4pfile.com"
-  - "*.rrys.tv"
-  - "*.rrys2020.com"
-  - "*.yyets.com"
-  - "*.zimuzu.io"
-  - "*.zimuzu.tv"
-  - "*.zmz001.com"
-  - "*.zmz002.com"
-  - "*.zmz003.com"
-  - "*.zmz004.com"
-  - "*.zmz2019.com"
-  - "*.zmzapi.com"
-  - "*.zmzapi.net"
-  - "*.zmzfile.com"
-  # TeamViewer
-  - "*.teamviewer.com"
-  # Public Direct CDN 公共直连
-  - "*.baomitu.com"
-  - "*.bootcss.com"
-  - "*.jiasule.com"
-  - "*.staticfile.org"
-  # China DNS
-  - "*.doh.pub"
-  - "*.dns.alidns.com"
-  - "*.doh.360.cn"
-  # AccelerateDirectSites
-  - "*.36kr.com"
-  - "*.3dmgame.com"
-  - "*.51job.com"
-  - "*.51jobcdn.com"
-  - "*.8686c.com"
-  - "*.abchina.com"
-  - "*.abercrombie.com"
-  - "*.acfun.tv"
-  - "*.aixifan.com"
-  - "*.algocasts.io"
-  - "*.babytreeimg.com"
-  - "*.baidupan.com"
-  - "*.biqudu.com"
-  - "*.c-ctrip.com"
-  - "*.camera360.com"
-  - "*.cdnmama.com"
-  - "*.chaoxing.com"
-  - "*.che168.com"
-  - "*.chinacache.net"
-  - "*.chuimg.com"
-  - "*.cloudxns.net"
-  - "*.cn163.net"
-  - "*.cnblogs.com"
-  - "*.cnki.net"
-  - "*.cnmstl.net"
-  - "*.coolapk.com"
-  - "*.coolapkmarket.com"
-  - "*.ctrip.com"
-  - "*.dfcfw.com"
-  - "*.dianping.com"
-  - "*.dilidili.wang"
-  - "*.dpfile.com"
-  - "*.dxycdn.com"
-  - "*.dytt8.net"
-  - "*.ecitic.com"
-  - "*.element-plus.org"
-  - "*.ewqcxz.com"
-  - "*.fantasy.tv"
-  - "*.fengkongcloud.com"
-  - "*.fir.im"
-  - "*.frdic.com"
-  - "*.fresh-ideas.cc"
-  - "*.ganjistatic1.com"
-  - "*.geetest.com"
-  - "*.geilicdn.com"
-  - "*.ghpym.com"
-  - "*.godic.net"
-  - "*.guazi.com"
-  - "*.gzlzfm.com"
-  - "*.haibian.com"
-  - "*.hollisterco.com"
-  - "*.hongxiu.com"
-  - "*.huxiucdn.com"
-  - "*.images-amazon.com"
-  - "*.ipip.net"
-  - "*.ithome.com"
-  - "*.ixdzs.com"
-  - "*.jianguoyun.com"
-  - "*.jianshu.com"
-  - "*.jianshu.io"
-  - "*.jianshuapi.com"
-  - "*.jmstatic.com"
-  - "*.jumei.com"
-  - "*.kaola.com"
-  - "*.knewone.com"
-  - "*.ksyungslb.com"
-  - "*.kuaidi100.com"
-  - "*.lancdns.com"
-  - "*.landiannews.com"
-  - "*.lanzou.com"
-  - "*.lanzoui.com"
-  - "*.lanzoux.com"
-  - "*.lemicp.com"
-  - "*.letitfly.me"
-  - "*.lizhi.fm"
-  - "*.lizhi.io"
-  - "*.lizhifm.com"
-  - "*.luoo.net"
-  - "*.lvmama.com"
-  - "*.lxdns.com"
-  - "*.maoyan.com"
-  - "*.meilishuo.com"
-  - "*.migucloud.com"
-  - "*.miguvideo.com"
-  - "*.mogu.com"
-  - "*.mogucdn.com"
-  - "*.moke.com"
-  - "*.msstatic.com"
-  - "*.mubu.com"
-  - "*.myunlu.com"
-  - "*.nruan.com"
-  - "*.nuomi.com"
-  - "*.onedns.net"
-  - "*.oneplus.com"
-  - "*.onlinedown.net"
-  - "*.oracle.com"
-  - "*.oschina.net"
-  - "*.ourdvs.com"
-  - "*.polyv.net"
-  - "*.qcloud.com"
-  - "*.qcloudcdn.com"
-  - "*.qdaily.com"
-  - "*.qdmm.com"
-  - "*.qianqian.com"
-  - "*.qihucdn.com"
-  - "*.qin.io"
-  - "*.qiniu.com"
-  - "*.qiniucdn.com"
-  - "*.qiniudn.com"
-  - "*.quanmin.tv"
-  - "*.qunarzz.com"
-  - "*.repaik.com"
-  - "*.runoob.com"
-  - "*.sankuai.com"
-  - "*.segmentfault.com"
-  - "*.sf-express.com"
-  - "*.shumilou.net"
-  - "*.simplecd.me"
-  - "*.snwx.com"
-  - "*.soufunimg.com"
-  - "*.sspai.com"
-  - "*.startssl.com"
-  - "*.synology.com"
-  - "*.taihe.com"
-  - "*.th-sjy.com"
-  - "*.tianqi.com"
-  - "*.tianqistatic.com"
-  - "*.tianyancha.com"
-  - "*.tietuku.com"
-  - "*.tmiaoo.com"
-  - "*.trip.com"
-  - "*.ttmeiju.com"
-  - "*.tuniu.com"
-  - "*.tuniucdn.com"
-  - "*.upyun.com"
-  - "*.uxengine.net"
-  - "*.weico.cc"
-  - "*.weidian.com"
-  - "*.womai.com"
-  - "*.wscdns.com"
-  - "*.xhscdn.com"
-  - "*.xinhuanet.com"
-  - "*.xip.io"
-  - "*.xiumi.us"
-  - "*.xslb.net"
-  - "*.xueqiu.com"
-  - "*.yach.me"
-  - "*.yeepay.com"
-  - "*.yihaodianimg.com"
-  - "*.yinxiang.com"
-  - "*.yixia.com"
-  - "*.ys168.com"
-  - "*.yystatic.com"
-  - "*.zealer.com"
-  - "*.zhangzishi.cc"
-  - "*.zhanqi.tv"
-  - "*.zhaopin.com"
-  - "*.zhimg.com"
-  - "*.zhuihd.com"
   - localhost
   - 127.*
   - 10.0.0.0/8
   - 172.16.0.0/12
   - 192.168.0.0/16
   - "+.local"
-  - <local>
 cfw-latency-timeout: 3000
+
 proxy:
   - name: "ProxyH" # 默认使用的出站代理名称
     type: socks5 # 出站代理类型，支持 HTTP、HTTPS、SOCKS4 和 SOCKS5。
@@ -602,16 +223,14 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ⚡ 负载均衡
       - 🔰 manual
       - Cflare
       - Cfkg
       - Cfop
+      - SKR
       - HyunWarp
-      - ♻️ XQC
-      - FlyNb
-      - StarLink
       - UserC
+      - SpecialFilter
   - name: Cfop
     type: url-test
     use:
@@ -619,6 +238,12 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
     icon: https://g.csdnimg.cn/static/logo/favicon32.ico
+  - name: SKR
+    type: url-test
+    use:
+      - skr
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1200
   - name: Cflare
     type: url-test
     use:
@@ -631,22 +256,10 @@ proxy-groups:
       - cldkg
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
-  - name: ♻️ XQC
-    type: url-test
-    use:
-      - xqc
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 12000
   - name: FlyNb
     type: url-test
     use:
       - flynb
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 12000
-  - name: StarLink
-    type: url-test
-    use:
-      - stars
     url: 'http://www.gstatic.com/generate_204'
     interval: 12000
   - name: UserC
@@ -659,11 +272,11 @@ proxy-groups:
     type: select
     proxies:
       - FlyNb
-      - StarLink
       - UserC
       - 🚀 节点选择
       - 🎯 全球直连
-      - ♻️ XQC
+      - SKR
+      - HyunWarp
       - ACommon
   - name: ♻️ 自动选择
     type: url-test
@@ -680,11 +293,11 @@ proxy-groups:
       - 🛑 全球拦截
       - 🐟 漏网之鱼
       - 🎏 失败切换
-      - ⚡ 负载均衡
   - name: 🔰 manual
     type: select
     use:
       - common
+      - skr
       - hyun-warp
   - name: HyunWarp
     type: url-test
@@ -705,13 +318,6 @@ proxy-groups:
       - common
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
-  - name: ⚡ 负载均衡
-    type: load-balance
-    use:
-      - common
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 1200
-    strategy: consistent-hashing # or round-robin
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -733,6 +339,7 @@ proxy-groups:
       - cldop
       - cldflare
       - cldkg
+      - skr
       - hyun-warp
       - common
     url: 'http://www.gstatic.com/generate_204'
@@ -743,35 +350,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ⚡ 负载均衡
+      - SKR
       - HyunWarp
-  - name: 🌍 国外媒体
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
-    use:
-      - common
-  - name: 🌏 国内媒体
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🚀 节点选择
-    use:
-      - common
+
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - ♻️ 自动选择
-  - name: 🎥 NETFLIX
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -846,15 +433,15 @@ proxy-providers:
       enable: true
       interval: 960
       url: 'http://www.gstatic.com/generate_204'
-  xqc:
-    url: "https://jiahe.eu.org:15443/clash_verge/xqc-proxies.yaml"
+  skr:
+    url: "https://jiahe.eu.org:15443/clash_verge/skrapp.yaml"
     type: http
     #type: file
-    interval: 10807
-    path: local_data/xqc-proxies.yaml
+    interval: 6622
+    path: local_data/skrapp.yaml
     health-check:
       enable: true
-      interval: 12000
+      interval: 960
       url: 'http://www.gstatic.com/generate_204'
   flynb:
     url: "https://jiahe.eu.org:15443/clash_verge/flynb-proxies.yaml"
@@ -866,18 +453,8 @@ proxy-providers:
       enable: true
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
-  stars:
-    url: "https://jiahe.eu.org:15443/clash_verge/starlink-proxies.yaml"
-    type: http
-    #type: file
-    interval: 10807
-    path: local_data/starlink-proxies.yaml
-    health-check:
-      enable: true
-      interval: 12000
-      url: 'http://www.gstatic.com/generate_204'
   ucust:
-    url: "https://jiahe.eu.org:15443/clash_verge/unhy2_custom.yaml"
+    url: "https://jiahe.eu.org:15443/clash_verge/user_custom.yaml"
     type: http
     #type: file
     interval: 933622
@@ -1032,12 +609,14 @@ rule-providers:
   OneDrive:
     type: http
     behavior: classical
+    #url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
     url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
     path: ./ruleset/OneDrive.yaml
     interval: 86400
   Twitter:
     type: http
     behavior: classical
+    #url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Twitter.yaml"
     format: 'text' # or 'yaml'
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/classical/twitter.txt"
     path: ./ruleset/Twitter.yaml
@@ -1048,7 +627,7 @@ rule-providers:
     behavior: classical
     format: 'text' # or 'yaml'
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/classical/cloudflare.txt"
-      #url: "https://raw.githubusercontent.com/Loyalsoldier/geoip/refs/heads/release/clash/classical/cloudflare.txt"
+      #"https://raw.githubusercontent.com/Loyalsoldier/geoip/refs/heads/release/clash/classical/cloudflare.txt"
       #behavior: ipcidr
       #url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/cloudflare.yaml"
       # https://github.com/Loyalsoldier/geoip/blob/release/clash/ipcidr/cloudflare.txt
@@ -1100,40 +679,24 @@ rules:
   - RULE-SET,cloudflare_ipcidr,🎯 全球直连
   - RULE-SET,UnBan,🎯 全球直连
   - RULE-SET,passby_proxy,XTwitter
-  - RULE-SET,Twitter,XTwitter
   - RULE-SET,classical_proxy,🚀 节点选择
   - RULE-SET,artificial_proxy,🚀 节点选择
-
-  - DOMAIN,clash.razord.top,🎯 全球直连
-  - DOMAIN,yacd.haishan.me,🎯 全球直连
 
   - RULE-SET,reject,🛑 全球拦截
   - RULE-SET,BanAD,🛑 全球拦截
   - RULE-SET,BanProgramAD,🛑 全球拦截
 
-  - RULE-SET,applications,🎯 全球直连
-  - RULE-SET,private,🎯 全球直连
-  - RULE-SET,Download,🎯 全球直连
-  - RULE-SET,GoogleCN,🎯 全球直连
   - RULE-SET,telegramcidr,📲 电报信息
   - RULE-SET,google,🚀 节点选择
   - RULE-SET,OneDrive,🚀 节点选择
-  - RULE-SET,icloud,🎯 全球直连
+  - RULE-SET,Twitter,XTwitter
   - RULE-SET,apple,🍎 苹果服务
 
   - RULE-SET,proxy,🚀 节点选择
-  - RULE-SET,direct,🎯 全球直连
-  - RULE-SET,lancidr,🎯 全球直连
-  - RULE-SET,cncidr,🎯 全球直连
-  - GEOIP,LAN,🎯 全球直连
-  - GEOIP,CN,🎯 全球直连,no-resolve
-  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - RULE-SET,lancidr,🎯 全球直连,no-resolve
+  - GEOIP,LAN,🎯 全球直连,no-resolve
 
-  #- DOMAIN-KEYWORD,limetorrents.,🚀 节点选择
-  #- DOMAIN-SUFFIX,,🚀 节点选择
-  #- DST-PORT,34567,🎯 全球直连
-  #- DST-PORT,45678,🎯 全球直连
-  #- SRC-PORT,34567,🎯 全球直连
-  #- SRC-PORT,45678,🎯 全球直连
+  - RULE-SET,tld-not-cn,🚀 节点选择
+  - RULE-SET,gfw,🚀 节点选择
 
-  - MATCH,🐟 漏网之鱼
+  - MATCH,🎯 全球直连

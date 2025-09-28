@@ -250,3 +250,79 @@ proxies:
       short-id: 976e3a4f7baf87
     servername: 5da24f04.com
     client-fingerprint: chrome
+  - name: "\U0001F1FA\U0001F1F8 US"
+    type: vmess
+    server: 45.32.65.103
+    port: 25001
+    uuid: 42e2548d-b96d-4745-a534-51eebde275df
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: "\U0001F1F8\U0001F1EC SG"
+    type: vmess
+    server: 43.156.175.95
+    port: 52377
+    uuid: 0e5ffcbd-0607-4ce7-df0f-ea56660ab735
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: "\U0001F1ED\U0001F1F0 HK"
+    type: trojan
+    server: 165.154.112.107
+    port: 12000
+    password: 1640ef52-2db0-44ab-b3f3-8690b762ebc9
+    tls: true
+    client-fingerprint: chrome
+    sni: aliyun.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: 香港
+    type: ss
+    server: 212.192.15.40
+    port: 8388
+    cipher: aes-256-gcm
+    password: wioMkgwpRIt5jb7I
+  - name: 韩国
+    type: ss
+    server: 167.17.183.59
+    port: 20219
+    cipher: aes-256-gcm
+    password: 017c7384fc99638d
+  - name: "\U0001F1EF\U0001F1F5日本"
+    type: vless
+    server: cf.090227.xyz
+    port: 80
+    uuid: 89a62b16-a3c3-4ad7-be18-6f0266f7a2c5
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: xn--wgv71a.xn--4gqza090la383cba657a9rw23a362bz35amu9c.site
+    tfo: false
+  - name: "\U0001F1ED\U0001F1F0香港"
+    type: vmess
+    server: tunnel.gzcloud.shop
+    port: 47093
+    uuid: 89a62b16-a3c3-4ad7-be18-6f0266f7a2c5
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 美国
+    type: hysteria2
+    server: lsj3.mangshe.xyz
+    port: 2056
+    password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+    auth: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+    skip-cert-verify: true
+  - name: 新加坡
+    type: hysteria2
+    server: xjp2.mangshe.xyz
+    port: 2060
+    password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+    auth: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+    skip-cert-verify: true

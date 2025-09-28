@@ -1,39 +1,67 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇬🇧 英国 社会保险安全部
-  network: ws
-  port: 8443
-  server: 51.222.158.243
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4b0df213-0e59-4c16-b391-e0d97686bfa9
-  ws-opts:
-    path: /vmess/
-- client-fingerprint: chrome
-  name: openRunner|🇺🇸 美国3
-  password: 253bc477d4e43c209f2d427272968280
-  port: 2966
-  server: xingxing.jiasu123.org
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
 - alterId: 2
   cipher: auto
-  name: dayfree|美国_40
+  name: Flik6|[VMess] 🇭🇰 香港 电讯盈科有限公司
   network: ws
-  port: 30808
-  server: v8.heduian.link
-  servername: v8.heduian.link
+  port: 80
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
   type: vmess
+  udp: true
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇳 江苏省 移动 3
+  network: ws
+  port: 30829
+  server: v29.heduian.link
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: v8.heduian.link
+      Host: ocbc.com
     path: /oooo
+- cipher: aes-256-gcm
+  name: NoMoreWalls|🇭🇰 香港2|@ripaojiedian
+  password: ccf426f1fe78
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: newroot2v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /zksuapgx
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 103.103.245.158
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: openRunner|🇭🇰 香港2
+  password: 2b5fad3874e5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hk6v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /aqwshiog
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 156.251.179.135
+  tfo: false
+  type: ss
 - name: forever|Vless_Websocket
   network: ws
   port: 8080
@@ -69,21 +97,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 8baca37e-4338-419a-b1ac-f94dd5a8d6d4
-- alterId: 2
-  cipher: auto
-  name: guanxi|🇭🇰香港2 | ⬇️ 1.8MB/s|Disney|Youtube|Openai
-  network: ws
-  port: 80
-  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-  servername: 🇭🇰HK-219.79.157.184-0282 | 11.701MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-    path: /
 - alterId: 0
   cipher: auto
   name: guanxi|🇺🇸美国27 | ⬇️ 4.1MB/s|Netflix|Disney|Openai|Gemini
@@ -236,10 +249,21 @@ proxies:
   uuid: ade0486c-fe64-4815-9895-78de66553a2c
 - alterId: '0'
   cipher: auto
-  client-fingerprint: ''
-  name: airport|❓ 未知_5
-  port: '59003'
-  server: 183.236.51.36
+  name: airport|❓ 未知_2
+  network: ''
+  port: '50002'
+  server: 112.132.215.12
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '0'
+  cipher: auto
+  name: airport|❓ 未知_3
+  network: ''
+  port: '50007'
+  server: 112.132.215.34
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -271,6 +295,13 @@ proxies:
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
+- name: mfuu|🇯🇵JP-54.95.151.231-151
+  password: 253bc477d4e43c209f2d427272968280
+  port: 2966
+  server: xingxing.jiasu123.org
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
 - name: mfuu|🇨🇳CN-36.156.102.77-147
   password: 253bc477d4e43c209f2d427272968280
   port: 9160
@@ -294,173 +325,110 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: ruk1ng|🟡_🇺🇸_📶_github.com/Ruk1ng001_3638663038363161
-  network: none
-  port: 54838
-  server: 216.167.32.129
-  tls: false
-  type: vmess
-  uuid: b96a0b00-8349-4dcb-9bac-8c215082badd
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_3566373334656336
-  network: http
-  port: 5555
-  server: 91.186.209.46
-  tls: false
-  type: vmess
-  uuid: b778d9b4-e9ae-4df7-ce6e-59f25c2bbf4e
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|🟠_🇸🇬_💻_github.com/Ruk1ng001_3937343563636661
-  network: none
-  port: 52377
-  server: 43.156.175.95
-  tls: false
-  type: vmess
-  uuid: 0e5ffcbd-0607-4ce7-df0f-ea56660ab735
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|🟠_🇸🇬_💻_github.com/Ruk1ng001_3138366632333963
-  network: none
-  port: 34355
-  server: 43.153.214.58
-  tls: false
-  type: vmess
-  uuid: 6eb6031a-67c1-41f6-f844-bc8be9205043
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|🟠_🇸🇬_💻_github.com/Ruk1ng001_3433636539633265
-  network: none
-  port: 50512
-  server: 43.156.224.60
-  tls: false
-  type: vmess
-  uuid: 05c83256-cc7b-4356-a6de-a2e4d4e6c184
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|🟡_🇺🇸_💻_github.com/Ruk1ng001_6132626363626464
-  network: none
-  port: 25001
-  server: 45.32.65.103
-  tls: false
-  type: vmess
-  uuid: 42e2548d-b96d-4745-a534-51eebde275df
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|🟡_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001_32653662356336
-  network: none
-  port: 12483
-  server: 8.217.192.138
-  tls: false
-  type: vmess
-  uuid: 350bf6fe-aa1a-42ad-eeac-92546d8a4732
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|🟡_🇨🇳:🇹🇼_🌀_github.com/Ruk1ng001_6230376365343562
+  name: ruk1ng|🟡_🇨🇳_💻_github.com/Ruk1ng001_3133383832306236
   network: ws
   port: 20521
-  server: 140.235.38.89
+  server: 119.29.98.43
   tls: false
   type: vmess
-  uuid: c65ef645-2172-44d1-909f-cb30a40bca1c
+  uuid: 682b8828-6cb4-476b-99ea-33ac91e30c77
   ws-opts:
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  fingerprint: ''
-  name: ermaozi|🇺🇸_US_美国->🇪🇸_ES_西班牙_1
+  name: ruk1ng|github.com/Ruk1ng001_3536663336653435
+  network: ws
+  port: 30805
+  server: v5.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v5.heduian.link
+    path: /oooo
+- name: ermaozi|🇺🇸_US_美国_9
   network: tcp
+  password: Npgx9nO3OBaZF5yxARYl93lFX08TlR3waDla733az8SqXe3YS3zjESECSZpAw428a6SID
   port: 443
-  server: 38.60.134.249
-  sni: ''
-  type: vmess
-  uuid: beb28159-7f4c-4c09-9313-6283515f150b
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: ermaozi|🇪🇸_ES_西班牙
+  server: metallic.isquirrel.net
+  type: trojan
+- name: ermaozi|🇺🇸_US_美国_6
   network: tcp
-  port: 443
-  server: 188.208.141.177
-  sni: ''
-  type: vmess
-  uuid: 0970834f-5b4d-44da-d890-19dcb2a72d4c
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: ermaozi|🇬🇧_GB_英国
-  network: tcp
-  port: 443
-  server: 89.31.120.192
-  sni: ''
-  type: vmess
-  uuid: 44537595-9ccc-4b83-8936-5f9ad3229019
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: ermaozi|🇺🇸_US_美国->🇪🇸_ES_西班牙
-  network: tcp
-  port: 443
-  server: 38.54.59.237
-  sni: ''
-  type: vmess
-  uuid: 5ac807d5-42c9-4b97-9567-478e61dab696
-- alterId: 0
-  cipher: none
-  fingerprint: ''
-  name: ermaozi|🇮🇳_IN_印度->🇦🇺_AU_澳大利亚
-  network: tcp
-  port: 443
-  server: 103.57.249.204
-  sni: ''
-  type: vmess
-  uuid: f13143a7-542d-49ec-9428-098142b6977c
-- alterId: 0
-  cipher: auto
-  name: ermaozi|🇵🇱_PL_波兰
-  network: tcp
-  port: 43953
-  server: myfreecloud.ru
-  type: vmess
-  uuid: 712c13ab-550a-4812-8d3b-7eb11ac7eeaf
+  password: OaFFcTDe9pSlez6x3SY8AARXwClzCRRDwSN8F3OqZAEYC0SE6F8gp3wCTCSTDYllcNceagCDD2C59S3
+  port: 28332
+  server: bolster.appagent.net
+  type: trojan
 - cipher: aes-256-cfb
-  name: mahdiblanda|MD-185.153.197.5-5220 | 0.528MB
+  name: ermaozi|🇮🇹_IT_意大利->🇬🇧_GB_英国
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 185.153.197.5
+  server: 185.213.23.226
   type: ss
+- name: ermaozi|🇺🇸_US_美国
+  network: tcp
+  password: B3AO9XlcTxaIATp08S29pS6luwZ8C4qDFzaCFYEDDSA5YDeKZAy3e2ZXRe73zIpxwByN7
+  port: 18333
+  server: kasheet.appagent.net
+  type: trojan
+- name: ermaozi|🇺🇸_US_美国_2
+  network: tcp
+  password: RzFSy3laClaxnYCcO3jBEpYgDyZx2CO78IC3X46ATFD73RSSZZTx8yCOKYDOqeD8pSeRa
+  port: 28334
+  server: sirens.isquirrel.net
+  type: trojan
 - cipher: aes-256-cfb
-  name: mahdiblanda|🇰🇷KR-154.90.63.177-0327 | 1.076MB
+  name: ermaozi|🇺🇸_US_美国_8
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 154.90.63.177
+  server: 104.192.226.106
+  type: ss
+- name: ermaozi|🇺🇸_US_美国_3
+  network: tcp
+  password: F9OKESxKjSDExSeaOw7XyINxDzaOZqeKxCeIczYYED8ewZ2Yl9AppAySO3XwFNy3lCaXDDCFnlACSB0
+  port: 28334
+  server: pricey.appagent.net
+  type: trojan
+- name: ermaozi|🇺🇸_US_美国_7
+  network: tcp
+  password: eYaw9xlNDu4695IF3CyY2leZOTnY8ZSOD3Xa3DClz0xqZy7Z3eaBFaTKOSwCSAOyEap4D
+  port: 28333
+  server: connect.appagent.net
+  type: trojan
+- cipher: aes-256-cfb
+  name: ermaozi|🇩🇪_DE_德国
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.60
   type: ss
 - cipher: aes-256-cfb
-  name: mahdiblanda|🇳🇱NL-51.15.17.169-0232 | 35.658MB
+  name: ermaozi|🇺🇸_US_美国_5
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 38.165.233.93
+  type: ss
+- cipher: aes-256-cfb
+  name: ermaozi|🇬🇧_GB_英国_2
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 51.15.17.169
   type: ss
 - cipher: aes-256-cfb
-  name: mahdiblanda|MT-171.22.254.17-5123 | 1.377MB
+  name: ermaozi|🇬🇧_GB_英国->🇸🇪_SE_瑞典
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 171.22.254.17
+  server: 51.15.23.63
   type: ss
+- name: ermaozi|🇺🇸_US_美国_4
+  network: tcp
+  password: 0C3YaEDx46ODTFTcaF8lXlZ3zeqSlF33wZagexzRjIyODa8RDwp8XSCO93ygCSYcSYABA
+  port: 18332
+  server: blength.appagent.net
+  type: trojan
 - cipher: aes-256-cfb
-  name: mahdiblanda|GR-192.71.166.100-0370 | 1.309MB
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
-- cipher: aes-256-cfb
-  name: mahdiblanda|PY-38.165.233.93-0297 | 25.885MB
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.165.233.93
+  name: mahdiblanda|🇰🇷KR-121.170.203.147-5024 | 0.465MB
+  password: qwerREWQ@@
+  port: 2520
+  server: 121.170.203.147
   type: ss

@@ -694,12 +694,12 @@ proxy-groups:
   - name: 📲 电报信息
     type: select
     proxies:
+      - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🚀 节点选择
       - ⚡ 负载均衡
       - SKR
-      - HyunWarp
+      - ♻️ XQC
   - name: 🌍 国外媒体
     type: select
     proxies:

@@ -51,70 +51,6 @@ proxies:
     skip-cert-verify: true
     ip-version: dual
     congestion-controller: bbr
-  - name: hy2-CT218
-    type: hysteria2
-    server: '2a05:4140:63::10'
-    port: 32095
-    password: 2042822c-46b9-4e0f-9439-09b3210033e4
-    auth: 2042822c-46b9-4e0f-9439-09b3210033e4
-    skip-cert-verify: true
-  - name: "KR-SS2022-ALS-KR"
-    type: ss
-    server: 43.202.3.104
-    port: 45667
-    cipher: 2022-blake3-aes-256-gcm
-    password: ydY0Y20gQKzLwoRwji7X9K9OghNMglEXBeOOVcLTcCc=
-  - name: "Misaka-Hysteria2DE"
-    type: hysteria2
-    server: 157.230.106.120
-    port: 32603
-    password: dd81762b
-    auth: dd81762b
-    skip-cert-verify: true
-  - name: Reality-83.229.125.179-1757075191
-    type: vless
-    server: 83.229.125.179
-    port: 443
-    uuid: c237c1a5-68a2-4bb5-8c62-278ec59928ea
-    tls: true
-    client-fingerprint: chrome
-    servername: www.tesla.com
-    network: tcp
-    reality-opts:
-      public-key: p_6WEk5sHCIElxQUTydfvG2JaAFstkUn4NlCZloKQHM
-      short-id: 0123456789abcdef
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: Hy2-83.229.125.179-1757075191
-    type: hysteria2
-    server: 83.229.125.179
-    port: 8443
-    password: 1qaBipxRcyj88GTx
-    auth: 1qaBipxRcyj88GTx
-    skip-cert-verify: true
-  - name: 澳大利亚
-    type: hysteria2
-    server: 77.90.35.18
-    port: 25565
-    password: QWMs8htepu4efwwWrzM2nrRMT
-    auth: QWMs8htepu4efwwWrzM2nrRMT
-    skip-cert-verify: true
-  - name: 德国
-    type: hysteria2
-    server: 80.75.218.223
-    port: 64381
-    password: QWMs8htepu4efwwWrzM2nrRMT
-    auth: QWMs8htepu4efwwWrzM2nrRMT
-    skip-cert-verify: true
-  - name: i7xpyrbf
-    type: vless
-    server: 156.238.244.127
-    port: 25794
-    uuid: 3ae3ceba-7090-4b15-ae64-a6d0137192c0
-    tls: false
-    network: tcp
-    tfo: false
   - name: vl-reality-hksev
     type: vless
     server: 151.243.22.28
@@ -141,74 +77,13 @@ proxies:
     type: tuic
     server: 151.243.22.28
     port: 40130
-    uuid: >-
-      3f84e932-efed-468b-9097-0ade250fcf1c%3A3f84e932-efed-468b-9097-0ade250fcf1c
+    uuid: 3f84e932-efed-468b-9097-0ade250fcf1c%3A3f84e932-efed-468b-9097-0ade250fcf1c
     skip-cert-verify: true
     disable-sni: true
     alpn:
       - h3
     sni: www.bing.com
     udp-relay-mode: native
-  - name: 香港1 | ⬇️ 5.1MB/s|Netflix|Disney|Youtube
-    type: hysteria2
-    server: hk2bbz.youxuan.wiki
-    port: 8080
-    password: 5407367c-cfa5-4e24-89ee-990e86d4cde8
-    auth: 5407367c-cfa5-4e24-89ee-990e86d4cde8
-    skip-cert-verify: true
-  - name: HK
-    type: hysteria2
-    server: 47.76.83.25
-    port: 11243
-    password: L60nS04NhsoMpN2DDGbnMqLP8DY
-    auth: L60nS04NhsoMpN2DDGbnMqLP8DY
-    skip-cert-verify: true
-  - name: SG
-    type: hysteria2
-    server: xjp1.mangshe.xyz
-    port: 2055
-    password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-    auth: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-    skip-cert-verify: true
-  - name: "\U0001F1EF\U0001F1F5日本"
-    type: hysteria2
-    server: jpjp.gzcloud.shop
-    port: 443
-    obfs: salamander
-    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-    password: 89a62b16-a3c3-4ad7-be18-6f0266f7a2c5
-    auth: 89a62b16-a3c3-4ad7-be18-6f0266f7a2c5
-    skip-cert-verify: true
-  - name: KR
-    type: hysteria2
-    server: cc1.mangshe.xyz
-    port: 2056
-    password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-    auth: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-    skip-cert-verify: true
-  - name: 香港
-    type: hysteria2
-    server: xg1.mangshe.xyz
-    port: 2056
-    password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-    auth: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-    skip-cert-verify: true
-  - name: US
-    type: hysteria2
-    server: 166.88.164.9
-    port: 27704
-    password: peEduuHzbExjK7UQHzazXwqgA
-    auth: peEduuHzbExjK7UQHzazXwqgA
-    skip-cert-verify: true
-  - name: unknown
-    type: vmess
-    server: 193.124.24.247
-    port: 6506
-    uuid: c53d41d1-7d56-43ce-9994-408780c6476a
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: HY2
     type: hysteria2
     server: yapc-1.adamhayward.co.uk
@@ -218,32 +93,10 @@ proxies:
     password: Yet-Another-Public-Config-1
     auth: Yet-Another-Public-Config-1
     skip-cert-verify: true
-  - name: "\U0001F1F8\U0001F1EC新加坡"
-    type: vless
-    server: sg2.gzcloud.shop
-    port: 11451
-    uuid: 89a62b16-a3c3-4ad7-be18-6f0266f7a2c5
-    tls: true
-    client-fingerprint: chrome
-    servername: buylite.music.apple.com
-    network: tcp
-    reality-opts:
-      public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
-      short-id: 4b070735
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: 新加坡
+  - name: 米粒-SG直连
     type: hysteria2
-    server: xjp2.mangshe.xyz
-    port: 2060
-    password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-    auth: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-    skip-cert-verify: true
-  - name: ml-kr
-    type: hysteria2
-    server: 47.80.8.236
-    port: 23197
-    password: mxckV5rLwMUeDjYkiKFAApEkTMA
-    auth: mxckV5rLwMUeDjYkiKFAApEkTMA
+    server: 92.112.22.221
+    port: 32711
+    password: eb053b55-484d-4102-8056-bd7674d0e450
+    auth: eb053b55-484d-4102-8056-bd7674d0e450
     skip-cert-verify: true
