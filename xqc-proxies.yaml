@@ -170,3 +170,13 @@ proxies:
     network: tcp
     tfo: false
     skip-cert-verify: false
+  - name: 美國-主线路
+    type: trojan
+    server: 12gh1i9gh90in6g7.jcnlzq.top
+    port: 30015
+    password: 7f893325-9c58-11f0-8e3c-c634b2dba7db
+    tls: true
+    client-fingerprint: chrome
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
