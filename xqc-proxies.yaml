@@ -100,3 +100,82 @@ proxies:
     password: eb053b55-484d-4102-8056-bd7674d0e450
     auth: eb053b55-484d-4102-8056-bd7674d0e450
     skip-cert-verify: true
+  - name: 香港-主线路
+    type: trojan
+    server: 7hg312b79ib3bgf8.jcnlzq.top
+    port: 40031
+    password: 7f893325-9c58-11f0-8e3c-c634b2dba7db
+    tls: true
+    client-fingerprint: chrome
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: 台灣-Disney+丨B站解锁
+    type: trojan
+    server: 7hg312b79ib3bgf8.jcnlzq.top
+    port: 40013
+    password: 7f893325-9c58-11f0-8e3c-c634b2dba7db
+    tls: true
+    client-fingerprint: chrome
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: 新加坡-Netflix解锁
+    type: trojan
+    server: 7hg312b79ib3bgf8.jcnlzq.top
+    port: 40014
+    password: 7f893325-9c58-11f0-8e3c-c634b2dba7db
+    tls: true
+    client-fingerprint: chrome
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: 東京-游戏解锁
+    type: trojan
+    server: 7hg312b79ib3bgf8.jcnlzq.top
+    port: 40012
+    password: 7f893325-9c58-11f0-8e3c-c634b2dba7db
+    tls: true
+    client-fingerprint: chrome
+    network: tcp
+    tfo: false
+    skip-cert-verify: false  - name: 香港-主线路
+    type: trojan
+    server: 7hg312b79ib3bgf8.jcnlzq.top
+    port: 40031
+    password: 7f893325-9c58-11f0-8e3c-c634b2dba7db
+    tls: true
+    client-fingerprint: chrome
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: 台灣-Disney+丨B站解锁
+    type: trojan
+    server: 7hg312b79ib3bgf8.jcnlzq.top
+    port: 40013
+    password: 7f893325-9c58-11f0-8e3c-c634b2dba7db
+    tls: true
+    client-fingerprint: chrome
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: 新加坡-Netflix解锁
+    type: trojan
+    server: 7hg312b79ib3bgf8.jcnlzq.top
+    port: 40014
+    password: 7f893325-9c58-11f0-8e3c-c634b2dba7db
+    tls: true
+    client-fingerprint: chrome
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: 東京-游戏解锁
+    type: trojan
+    server: 7hg312b79ib3bgf8.jcnlzq.top
+    port: 40012
+    password: 7f893325-9c58-11f0-8e3c-c634b2dba7db
+    tls: true
+    client-fingerprint: chrome
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
