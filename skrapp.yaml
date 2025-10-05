@@ -255,3 +255,45 @@ proxies:
       grpc-mode: gun
     tfo: false
     skip-cert-verify: false
+  - name: "719\U0001F34E@xkmfjd_\U0001F1EE\U0001F1F7"
+    type: ss
+    server: 151.242.251.131
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: QCXDxuDlTTMD7jtgHUjIoj
+  - name: "719\U0001F34E@xkmfjd_\U0001F1FA\U0001F1F8_49"
+    type: vless
+    server: 172.67.130.204
+    port: 443
+    uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8
+    tls: true
+    client-fingerprint: chrome
+    servername: HHhhhHhhhhH.777198.xYz
+    network: ws
+    ws-opts:
+      path: /OjdW89Bpg4ykd4O
+      headers:
+        host: hhhhhhhhhhh.777198.xyz
+    tfo: false
+    skip-cert-verify: false
+  - name: "719\U0001F34E@xkmfjd_\U0001F1FA\U0001F1F8_12"
+    type: vless
+    server: 172.66.47.156
+    port: 443
+    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+    tls: true
+    client-fingerprint: chrome
+    servername: wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET
+    tfo: false
+    skip-cert-verify: false
+  - name: "香港家庭宽带"
+    type: ss
+    server: cnmsb2.3645612156311546.xyz
+    port: 17019
+    cipher: chacha20-ietf-poly1305
+    password: ac7b3d49-8de3-4ecb-a032-6d840501bc9a

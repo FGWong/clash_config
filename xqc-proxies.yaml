@@ -180,3 +180,79 @@ proxies:
     network: tcp
     tfo: false
     skip-cert-verify: false
+  - name: "香港suyunjichang"
+    type: trojan
+    server: shengzhen.oboob.cn
+    port: 12221
+    password: f1153d29-e862-45c3-9ad0-3f325e034e29
+    tls: true
+    client-fingerprint: chrome
+    sni: v1-dy.ixigua.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: "台灣suyunjichang"
+    type: trojan
+    server: gongxingdns.oboob.cn
+    port: 42765
+    password: f1153d29-e862-45c3-9ad0-3f325e034e29
+    tls: true
+    client-fingerprint: chrome
+    sni: v1-dy.ixigua.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: "新加坡suyunjichang"
+    type: trojan
+    server: gongxingdns.oboob.cn
+    port: 48291
+    password: f1153d29-e862-45c3-9ad0-3f325e034e29
+    tls: true
+    client-fingerprint: chrome
+    sni: v1-dy.ixigua.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: "東京suyunjichang"
+    type: trojan
+    server: gongxingdns.oboob.cn
+    port: 28713
+    password: f1153d29-e862-45c3-9ad0-3f325e034e29
+    tls: true
+    client-fingerprint: chrome
+    sni: v1-dy.ixigua.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: "美國suyunjichang"
+    type: trojan
+    server: gongxingdns.oboob.cn
+    port: 21489
+    password: f1153d29-e862-45c3-9ad0-3f325e034e29
+    tls: true
+    client-fingerprint: chrome
+    sni: v1-dy.ixigua.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: 米粒-US
+    type: vless
+    server: 154.56.121.98
+    port: 21145
+    uuid: 85bfc9cf-7842-41e2-9f88-3dac8091d1f1
+    tls: true
+    client-fingerprint: chrome
+    servername: yahoo.com
+    network: tcp
+    reality-opts:
+      public-key: PosV0yJDhK8JVsMobbX0mSh5yIsiNy8qtO64MAvdHmw
+      short-id: aa657761b0
+    tfo: false
+    skip-cert-verify: false
+  - name: 米粒-US-HY2
+    type: hysteria2
+    server: 154.56.121.98
+    port: 63802
+    password: cac4ac08
+    auth: cac4ac08
+    skip-cert-verify: true
