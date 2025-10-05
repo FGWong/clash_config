@@ -1,36 +1,20 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: Flik6|[VMess] 🇭🇰 香港 电讯盈科有限公司
+  name: Flik6|[VMess] 🇨🇳 江苏省 移动
   network: ws
-  port: 80
-  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  port: 30829
+  server: v29.heduian.link
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: Flik6|[VMess] 🇭🇰 香港 电讯盈科有限公司 3
-  network: ws
-  port: 80
-  server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
-    path: /
+      Host: ocbc.com
+    path: /oooo
 - cipher: aes-256-cfb
   name: NoMoreWalls|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
@@ -89,6 +73,21 @@ proxies:
   tls: false
   type: vmess
   uuid: 8baca37e-4338-419a-b1ac-f94dd5a8d6d4
+- alterId: 2
+  cipher: auto
+  name: guanxi|🇭🇰香港2 | ⬇️ 1.8MB/s|Disney|Youtube|Openai
+  network: ws
+  port: 80
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  servername: 🇭🇰HK-219.79.157.184-0282 | 11.701MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+    path: /
 - alterId: 0
   cipher: auto
   name: guanxi|🇺🇸美国27 | ⬇️ 4.1MB/s|Netflix|Disney|Openai|Gemini
@@ -239,6 +238,26 @@ proxies:
   tls: false
   type: vmess
   uuid: ade0486c-fe64-4815-9895-78de66553a2c
+- alterId: '0'
+  cipher: auto
+  name: airport|❓ 未知_3
+  network: ''
+  port: '50007'
+  server: 112.132.215.34
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: '0'
+  cipher: auto
+  name: airport|❓ 未知_2
+  network: ''
+  port: '50002'
+  server: 112.132.215.12
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: mfuu|🇯🇵JP-54.95.151.231-124
   password: 253bc477d4e43c209f2d427272968280
   port: 3957
@@ -307,19 +326,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳 CN
-  h2-opts: {}
-  http-opts: {}
-  name: ruk1ng|🟡_🇨🇳_📶_github.com/Ruk1ng001_6337336132343539
-  network: tcp
-  port: 50007
-  server: 112.132.215.34
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: ruk1ng|🟠_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001_3135313836333639
@@ -357,6 +363,20 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- alterId: 2
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3938363135313966
+  network: ws
+  port: 80
+  server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
+    path: /
 - alterId: 2
   cipher: auto
   name: ruk1ng|github.com/Ruk1ng001_3536663336653435
@@ -449,3 +469,16 @@ proxies:
   port: 18332
   server: blength.appagent.net
   type: trojan
+- name: mahdiblanda|🇯🇵JP-153.121.51.29-0632 | 2.386MB
+  password: 253bc477d4e43c209f2d427272968280
+  port: 409
+  server: 153.121.51.29
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: aes-256-cfb
+  name: mahdiblanda|🇮🇸IS-37.235.49.168-0302 | 0.688MB
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 37.235.49.168
+  type: ss
