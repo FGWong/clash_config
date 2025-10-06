@@ -654,8 +654,8 @@ proxy-groups:
   - name: XTwitter
     type: select
     proxies:
-      - 🎯 全球直连
       - 🚀 节点选择
+      - 🎯 全球直连
       - SKR
   - name: 🌍 国外媒体
     type: select

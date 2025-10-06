@@ -22,22 +22,6 @@ proxies:
   server: 121.170.203.147
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: openRunner|🇭🇰 香港2
-  password: ccf426f1fe78
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: newroot2v1.dsjsapp.com
-    mode: websocket
-    mux: true
-    path: /zksuapgx
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 103.103.245.158
-  tfo: false
-  type: ss
 - name: forever|Vless_Websocket
   network: ws
   port: 8080
@@ -240,16 +224,6 @@ proxies:
   uuid: ade0486c-fe64-4815-9895-78de66553a2c
 - alterId: '0'
   cipher: auto
-  name: airport|❓ 未知_3
-  network: ''
-  port: '50007'
-  server: 112.132.215.34
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
   name: airport|❓ 未知_2
   network: ''
   port: '50002'
@@ -307,14 +281,17 @@ proxies:
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
-- name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_6433303034356564
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|🟡_🇨🇳_💼_github.com/Ruk1ng001_3134333563383431
   network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 22000
-  server: 36.156.102.86
+  port: 30302
+  server: 39.107.155.11
   skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
+  tfo: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: ruk1ng|🟡_🇨🇳_💼_github.com/Ruk1ng001_3631653531623238
@@ -326,71 +303,20 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: ruk1ng|🟠_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001_3135313836333639
-  password: 2b5fad3874e5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hk6v1.dsjsapp.com
-    mode: websocket
-    mux: true
-    path: /aqwshiog
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 156.251.179.135
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|github.com/Ruk1ng001_3134333563383431
-  network: tcp
-  port: 30302
-  server: 39.107.155.11
+- name: ruk1ng|github.com/Ruk1ng001_6135386338656136
+  network: ws
+  password: YwuvGJk36B
+  port: 2053
+  server: creativecommons.org
   skip-cert-verify: true
+  sni: kotlet.arshiacomplus.dpdns.org
   tfo: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  name: ruk1ng|github.com/Ruk1ng001_3262333433356361
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3160
-  server: 160.16.124.55
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  name: ruk1ng|github.com/Ruk1ng001_3938363135313966
-  network: ws
-  port: 80
-  server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
   ws-opts:
     headers:
-      Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: ruk1ng|github.com/Ruk1ng001_3536663336653435
-  network: ws
-  port: 30805
-  server: v5.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v5.heduian.link
-    path: /oooo
+      Host: kotlet.arshiacomplus.dpdns.org
+    path: /yamtekodasayahhh
 - name: ermaozi|🇺🇸_US_美国_9
   network: tcp
   password: Npgx9nO3OBaZF5yxARYl93lFX08TlR3waDla733az8SqXe3YS3zjESECSZpAw428a6SID
@@ -473,6 +399,13 @@ proxies:
   password: 253bc477d4e43c209f2d427272968280
   port: 409
   server: 153.121.51.29
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: mahdiblanda|🇨🇳CN-36.156.102.86-0559 | 0.488MB
+  password: 253bc477d4e43c209f2d427272968280
+  port: 22000
+  server: 36.156.102.86
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
