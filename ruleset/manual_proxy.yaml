@@ -2,6 +2,7 @@ payload:
   - 'sub.unionpay.eu.org'
   - 'subpage.unionpay.eu.org'
   - 'accounts.google.com'
+  - 'tv.garden'
   - '+.adguard.com'
   - '+.adguard.info'
   - '+.adguard.io'
