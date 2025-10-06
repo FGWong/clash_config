@@ -583,13 +583,13 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
+      - Cfop
       - 🎯 全球直连
       - ♻️ 自动选择
       - ⚡ 负载均衡
       - 🔰 manual
       - SKR
       - ♻️ XQC
-      - Cfop
   - name: SKR
     type: url-test
     use:
@@ -663,6 +663,7 @@ proxy-groups:
   - name: XTwitter
     type: select
     proxies:
+      - ♻️ XQC
       - 🚀 节点选择
       - 🎯 全球直连
       - SKR
