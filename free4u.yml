@@ -589,6 +589,7 @@ proxy-groups:
       - 🔰 manual
       - SKR
       - ♻️ XQC
+      - Cfop
   - name: SKR
     type: url-test
     use:
@@ -601,6 +602,13 @@ proxy-groups:
       - xqc
     url: 'http://www.gstatic.com/generate_204'
     interval: 12000
+  - name: Cfop
+    type: url-test
+    use:
+      - cldop
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1200
+    icon: https://g.csdnimg.cn/static/logo/favicon32.ico
   - name: ♻️ 自动选择
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
@@ -608,6 +616,7 @@ proxy-groups:
     use:
       - common
       - skr
+      - xqc
   - name: 全局选择
     type: select
     proxies:
@@ -725,6 +734,16 @@ proxy-providers:
     health-check:
       enable: true
       interval: 12000
+      url: 'http://www.gstatic.com/generate_204'
+  cldop:
+    url: "https://jiahe.eu.org:15443/clash_verge/cf_op_proxies.yaml"
+    type: http
+    #type: file
+    interval: 5612
+    path: local_data/cf_op_proxies.yaml
+    health-check:
+      enable: true
+      interval: 960
       url: 'http://www.gstatic.com/generate_204'
   skr:
     url: "https://jiahe.eu.org:15443/clash_verge/skrapp.yaml"
