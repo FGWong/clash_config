@@ -2,12 +2,6 @@ proxies:
   - {name: 🇭🇰 香港6|@ripaojiedian, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇭🇰 香港7|@ripaojiedian, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇸🇬 新加坡|@ripaojiedian, server: v12.heduian.link, port: 30812, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - name: "香港家庭宽带"
-    type: ss
-    server: cnmsb2.3645612156311546.xyz
-    port: 17019
-    cipher: chacha20-ietf-poly1305
-    password: ac7b3d49-8de3-4ecb-a032-6d840501bc9a
   - name: 日本(yudou123.top 玉豆免费节点)
     type: ss
     server: arxfw2b78fi2q9hzylhn.freesocks.work
@@ -20,33 +14,22 @@ proxies:
     port: 443
     cipher: chacha20-ietf-poly1305
     password: 9tqhMdIrTkgQ46PvhyAtMH
-  - name: US美国(mibei77.com 米贝节点分享)
-    type: vless
-    server: pvt.moonop.tech
-    port: 443
-    uuid: 45be1c2b-4bb1-44f4-89e4-c026ad211d04
-    tls: true
-    client-fingerprint: chrome
-    servername: pvt.moonop.tech
+  - type: vmess
+    name: 美国(yudou123.top 玉豆免费节点)_1
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
     network: ws
+    cipher: auto
+    servername: ""
     ws-opts:
-      path: /aws5
+      path: ""
       headers:
-        host: pvt.moonop.tech
-    tfo: false
-    skip-cert-verify: false
-  - name: "719\U0001F34E@xkmfjd_\U0001F1FA\U0001F1F8_49"
-    type: vless
-    server: 172.67.130.204
+        Host: ""
+  - type: ss
+    name: 美国(yudou123.top 玉豆免费节点)_2
+    server: pupas-shirting-unsung.freesocks.work
     port: 443
-    uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8
-    tls: true
-    client-fingerprint: chrome
-    servername: HHhhhHhhhhH.777198.xYz
-    network: ws
-    ws-opts:
-      path: /OjdW89Bpg4ykd4O
-      headers:
-        host: hhhhhhhhhhh.777198.xyz
-    tfo: false
-    skip-cert-verify: false
+    cipher: chacha20-ietf-poly1305
+    password: p78naCf2EfOlRSLTX0wFVx

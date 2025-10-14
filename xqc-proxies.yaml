@@ -84,175 +84,223 @@ proxies:
       - h3
     sni: www.bing.com
     udp-relay-mode: native
-  - name: HY2
-    type: hysteria2
-    server: yapc-1.adamhayward.co.uk
-    port: 36600
-    obfs: salamander
-    obfs-password: Yet-Another-Public-Config-1
-    password: Yet-Another-Public-Config-1
-    auth: Yet-Another-Public-Config-1
-    skip-cert-verify: true
-  - name: 米粒-SG直连
+  - name: 米粒-SG
     type: hysteria2
     server: 92.112.22.221
-    port: 32711
-    password: eb053b55-484d-4102-8056-bd7674d0e450
-    auth: eb053b55-484d-4102-8056-bd7674d0e450
+    port: 48795
+    password: 8qmn0L5KQz
+    auth: 8qmn0L5KQz
     skip-cert-verify: true
-  - name: 香港-主线路
-    type: trojan
-    server: 7hg312b79ib3bgf8.jcnlzq.top
-    port: 40031
-    password: 7f893325-9c58-11f0-8e3c-c634b2dba7db
-    tls: true
-    client-fingerprint: chrome
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: 台灣-Disney+丨B站解锁
-    type: trojan
-    server: 7hg312b79ib3bgf8.jcnlzq.top
-    port: 40013
-    password: 7f893325-9c58-11f0-8e3c-c634b2dba7db
-    tls: true
-    client-fingerprint: chrome
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: 新加坡-Netflix解锁
-    type: trojan
-    server: 7hg312b79ib3bgf8.jcnlzq.top
-    port: 40014
-    password: 7f893325-9c58-11f0-8e3c-c634b2dba7db
-    tls: true
-    client-fingerprint: chrome
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: 東京-游戏解锁
-    type: trojan
-    server: 7hg312b79ib3bgf8.jcnlzq.top
-    port: 40012
-    password: 7f893325-9c58-11f0-8e3c-c634b2dba7db
-    tls: true
-    client-fingerprint: chrome
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: 香港-主线路
-    type: trojan
-    server: 7hg312b79ib3bgf8.jcnlzq.top
-    port: 40031
-    password: 7f893325-9c58-11f0-8e3c-c634b2dba7db
-    tls: true
-    client-fingerprint: chrome
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: 台灣-Disney+丨B站解锁
-    type: trojan
-    server: 7hg312b79ib3bgf8.jcnlzq.top
-    port: 40013
-    password: 7f893325-9c58-11f0-8e3c-c634b2dba7db
-    tls: true
-    client-fingerprint: chrome
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: 新加坡-Netflix解锁
-    type: trojan
-    server: 7hg312b79ib3bgf8.jcnlzq.top
-    port: 40014
-    password: 7f893325-9c58-11f0-8e3c-c634b2dba7db
-    tls: true
-    client-fingerprint: chrome
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: 美國-主线路
-    type: trojan
-    server: 12gh1i9gh90in6g7.jcnlzq.top
-    port: 30015
-    password: 7f893325-9c58-11f0-8e3c-c634b2dba7db
-    tls: true
-    client-fingerprint: chrome
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: "香港suyunjichang"
-    type: trojan
-    server: shengzhen.oboob.cn
-    port: 12221
-    password: f1153d29-e862-45c3-9ad0-3f325e034e29
-    tls: true
-    client-fingerprint: chrome
-    sni: v1-dy.ixigua.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: "台灣suyunjichang"
-    type: trojan
-    server: gongxingdns.oboob.cn
-    port: 42765
-    password: f1153d29-e862-45c3-9ad0-3f325e034e29
-    tls: true
-    client-fingerprint: chrome
-    sni: v1-dy.ixigua.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: "新加坡suyunjichang"
-    type: trojan
-    server: gongxingdns.oboob.cn
-    port: 48291
-    password: f1153d29-e862-45c3-9ad0-3f325e034e29
-    tls: true
-    client-fingerprint: chrome
-    sni: v1-dy.ixigua.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: "東京suyunjichang"
-    type: trojan
-    server: gongxingdns.oboob.cn
-    port: 28713
-    password: f1153d29-e862-45c3-9ad0-3f325e034e29
-    tls: true
-    client-fingerprint: chrome
-    sni: v1-dy.ixigua.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: "美國suyunjichang"
-    type: trojan
-    server: gongxingdns.oboob.cn
-    port: 21489
-    password: f1153d29-e862-45c3-9ad0-3f325e034e29
-    tls: true
-    client-fingerprint: chrome
-    sni: v1-dy.ixigua.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
   - name: 米粒-US
-    type: vless
-    server: 154.56.121.98
-    port: 21145
-    uuid: 85bfc9cf-7842-41e2-9f88-3dac8091d1f1
-    tls: true
-    client-fingerprint: chrome
-    servername: yahoo.com
-    network: tcp
-    reality-opts:
-      public-key: PosV0yJDhK8JVsMobbX0mSh5yIsiNy8qtO64MAvdHmw
-      short-id: aa657761b0
-    tfo: false
-    skip-cert-verify: false
-  - name: 米粒-US-HY2
     type: hysteria2
-    server: 154.56.121.98
-    port: 63802
-    password: cac4ac08
-    auth: cac4ac08
+    server: 45.43.57.104
+    port: 8522
+    password: 1dlDWFAa2xP01hTb
+    auth: 1dlDWFAa2xP01hTb
     skip-cert-verify: true
+  - type: vless
+    name: TG@ZDYZ2 TW1
+    server: 34.81.140.124
+    port: 10240
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    network: ws
+    servername: fei.634676.xyz
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: fei.634676.xyz
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
+    name: TG@ZDYZ2 SG2
+    server: 47.245.95.160
+    port: 1443
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    network: ws
+    servername: fei.634676.xyz
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: fei.634676.xyz
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
+    name: TG@ZDYZ2 禁止爬取本订阅节点
+    server: 104.21.238.2
+    port: 2096
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    network: ws
+    servername: fei.634676.xyz
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: fei.634676.xyz
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
+    name: TG@ZDYZ2 SG3
+    server: 27.50.48.206
+    port: 443
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    network: ws
+    servername: fei.634676.xyz
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: fei.634676.xyz
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
+    name: TG@ZDYZ2 关注TG频道获取更多免费节点
+    server: fbi.gov
+    port: 443
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    network: ws
+    servername: fei.634676.xyz
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: fei.634676.xyz
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
+    name: TG@ZDYZ2 US2
+    server: 154.17.30.27
+    port: 443
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    network: ws
+    servername: fei.634676.xyz
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: fei.634676.xyz
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
+    name: TG@ZDYZ2 KR2
+    server: 61.83.202.17
+    port: 10042
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    network: ws
+    servername: fei.634676.xyz
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: fei.634676.xyz
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
+    name: TG@ZDYZ2 SG1
+    server: 8.219.205.100
+    port: 443
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    network: ws
+    servername: fei.634676.xyz
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: fei.634676.xyz
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
+    name: TG@ZDYZ2 HK5
+    server: 154.83.98.90
+    port: 58443
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    network: ws
+    servername: fei.634676.xyz
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: fei.634676.xyz
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
+    name: "@TG@ZDYZ2 HK1"
+    server: 46.3.109.228
+    port: 30002
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    network: ws
+    servername: fei.634676.xyz
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: fei.634676.xyz
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
+    name: TG@ZDYZ2 HK3
+    server: 45.144.136.162
+    port: 21326
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    network: ws
+    servername: fei.634676.xyz
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: fei.634676.xyz
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
+    name: TG@ZDYZ2 HK4
+    server: 36.50.90.241
+    port: 35951
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    network: ws
+    servername: fei.634676.xyz
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: fei.634676.xyz
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
+    name: 719🍎@xkmfjd_🇺🇸_12
+    server: 172.66.47.156
+    port: 443
+    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+    network: ws
+    servername: wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /
+      headers:
+        Host: wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET
+    client-fingerprint: chrome

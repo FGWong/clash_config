@@ -581,8 +581,8 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - Cfop
-      - ♻️ XQC
+      - Optimize
+      - XQC
       - 🎯 全球直连
       - ♻️ 自动选择
       - ⚡ 负载均衡
@@ -591,14 +591,14 @@ proxy-groups:
       - Cfkg
       - SKR
       - UserC
-  - name: Cfop
+  - name: Optimize
     type: url-test
     use:
       - cldop
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
     icon: https://g.csdnimg.cn/static/logo/favicon32.ico
-  - name: ♻️ XQC
+  - name: XQC
     type: url-test
     use:
       - xqc
@@ -635,7 +635,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - SKR
-      - ♻️ XQC
+      - XQC
       - ACommon
   - name: ♻️ 自动选择
     type: url-test
@@ -704,7 +704,7 @@ proxy-groups:
       - ♻️ 自动选择
       - ⚡ 负载均衡
       - SKR
-      - ♻️ XQC
+      - XQC
   - name: 🌍 国外媒体
     type: select
     proxies:
