@@ -1,5 +1,6 @@
 payload:
   - PROCESS-NAME,Warp
+  - DOMAIN-SUFFIX,cathode-ray.tube
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,hd-torrents.org
   - DOMAIN-SUFFIX,nexconvert.com
