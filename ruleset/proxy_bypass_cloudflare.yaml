@@ -3,6 +3,7 @@ payload:
   - DOMAIN-SUFFIX,cathode-ray.tube
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,hd-torrents.org
+  - DOMAIN-SUFFIX,hd-torrents.me
   - DOMAIN-SUFFIX,nexconvert.com
   - DOMAIN-SUFFIX,os.ai
   - DOMAIN-SUFFIX,pplx.ai

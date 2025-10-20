@@ -591,6 +591,7 @@ proxy-groups:
       - Cfkg
       - SKR
       - UserC
+      - Tclash
   - name: Optimize
     type: url-test
     use:
@@ -628,6 +629,13 @@ proxy-groups:
       - ucust
     url: 'http://www.gstatic.com/generate_204'
     interval: 12000
+  - name: Tclash
+    type: url-test
+    use:
+      - tclashfile
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1200
+    icon: https://g.csdnimg.cn/static/logo/favicon32.ico
   - name: XTwitter
     type: select
     proxies:
@@ -822,6 +830,16 @@ proxy-providers:
     #type: file
     interval: 933622
     path: local_data/user_custom.yaml
+    health-check:
+      enable: true
+      interval: 186400
+      url: 'http://www.gstatic.com/generate_204'
+  tclashfile:
+    url: "https://jiahe.eu.org:15443/clash_verge/Clash.yaml"
+    type: http
+    #type: file
+    interval: 933622
+    path: local_data/Clash.yaml
     health-check:
       enable: true
       interval: 186400

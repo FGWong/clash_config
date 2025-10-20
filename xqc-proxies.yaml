@@ -304,3 +304,36 @@ proxies:
       headers:
         Host: wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET
     client-fingerprint: chrome
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "芬兰|4.2MB/s"
+    network: ws
+    port: "2087"
+    server: www.researchgate.net
+    servername: interimrita.shividpolo.store
+    tls: true
+    type: vless
+    udp: true
+    uuid: cd7f3c2f-8d6d-4ad8-98eb-fb10e0f6da9e
+    ws-opts:
+      headers:
+          Host: interimrita.shividpolo.store
+          User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+      path: /downloader?ed=2048
+    xudp: true
+  - name: 🇭🇰香港精品2
+    password: <password>
+    port: 443
+    server: d0935e70-szpgg0-tcxn4m-12qba.hkt2.cdnhuawei.com
+    tls: true
+    type: socks5
+    username: 0cf1d872-aa2a-11ef-97e0-f23c9164ca5d
+  - name: 🇭🇰香港精品3
+    password: <password>
+    port: 8443
+    server: aec9c0f5-szpgg0-tcxn4m-12qba.hkt.cdnhuawei.com
+    tls: true
+    type: http
+    username: 0cf1d872-aa2a-11ef-97e0-f23c9164ca5d
