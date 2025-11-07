@@ -54,7 +54,6 @@ proxies:
       path: "c9126299-c6e9-4616-959e-a7903f1a35c5-vm"
       headers:
         Host: www.bing.com
-
   - name: hysteria2-cherry
     type: hysteria2
     server: clayton.v6.navy
@@ -69,7 +68,6 @@ proxies:
     #skip-cert-verify: false
     skip-cert-verify: true
     fast-open: true
-
   - name: tuic5-cherry
     server: clayton.v6.navy
     port: 27371
@@ -124,35 +122,6 @@ proxies:
           User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" # 可选，自定义请求头
     # 其他配置项可根据需要添加
 
-  - name: SG AMAZON 14 @SubscriptionShare
-    network: ws
-    password: 58176021-8165-48d5-94b1-ad3e96e71e8b
-    port: 20230
-    server: 13.229.235.135
-    skip-cert-verify: true
-    sni: www.alibaba.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: www.alibaba.com
-      path: ''
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: AE GCSL 01 @SubscriptionShare
-    network: tcp
-    port: 20223
-    reality-opts:
-      public-key: RsbED0LyE3f2byTPx5t-dQewju6z9R4xqTWrADM4WnM
-      short-id: c6842be1
-    server: 5.44.42.27
-    servername: www.cloudflare.com
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
   - alterId: 0
     cipher: auto
     name: BE GCSL 01 @SubscriptionShare
@@ -253,15 +222,6 @@ proxies:
     type: vmess
     udp: true
     uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-    name: IT Seflow 02 @SubscriptionShare
-    password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-    port: 3000
-    server: 107.175.77.45
-    skip-cert-verify: true
-    sni: 5f6a56-20.9966661.xyz
-    type: hysteria2
-    udp: true
   - alterId: 0
     cipher: auto
     name: NL DIGITALOCEAN 01 @SubscriptionShare
@@ -352,15 +312,6 @@ proxies:
     type: vmess
     udp: true
     uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-    name: VN CLOUDFLARENET 02 @SubscriptionShare
-    password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-    port: 3000
-    server: 103.137.185.46
-    skip-cert-verify: true
-    sni: vnvn-u-do-vn1.9966661.xyz
-    type: hysteria2
-    udp: true
   - alterId: 0
     cipher: auto
     name: ZA AS 01 @SubscriptionShare
@@ -371,40 +322,3 @@ proxies:
     type: vmess
     udp: true
     uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-    name: RU Kviktel 03 @SubscriptionShare
-    password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-    port: 3000
-    server: 192.3.219.86
-    skip-cert-verify: true
-    sni: ef6b4d-20.9966661.xyz
-    type: hysteria2
-    udp: true
-  - auth: a24c6851-2055-42c1-9c20-2d3bad97334f
-    name: US CLOUDFLARENET 17 @SubscriptionShare
-    password: a24c6851-2055-42c1-9c20-2d3bad97334f
-    port: 3000
-    server: 192.3.233.174
-    skip-cert-verify: true
-    sni: 1e3fb9-330-co.9966661.xyz
-    type: hysteria2
-    udp: true
-
-  - auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-    name: CA OVH 04 @SubscriptionShare
-    password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-    port: 3000
-    server: 107.175.64.226
-    skip-cert-verify: true
-    sni: c94442-20-1.9966661.xyz
-    type: hysteria2
-    udp: true
-  - auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-    name: ID PT 03 @SubscriptionShare
-    password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-    port: 3000
-    server: 107.175.77.38
-    skip-cert-verify: true
-    sni: 358d29-330.9966661.xyz
-    type: hysteria2
-    udp: true
