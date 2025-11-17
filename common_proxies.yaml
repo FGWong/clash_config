@@ -1,69 +1,26 @@
 proxies:
-- name: Flik6|[Trojan] 🇨🇳 江苏省 移动
-  password: BxceQaOe
-  port: 1655
-  server: 36.150.215.231
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tfo: false
-  type: trojan
-  udp: true
 - name: Flik6|[Trojan] 🇭🇰 香港 电讯盈科有限公司
   password: BxceQaOe
   port: 443
-  server: 58.152.46.98
+  server: 219.79.165.55
   skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   tfo: false
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇨🇦 加拿大 V2CROSS.COM
-  port: 35218
-  server: 165.154.197.225
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1a237dd2-851c-47e1-cf7e-e447a363830a
-- name: NoMoreWalls|美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 9269
-  server: 36.150.215.245
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: NoMoreWalls|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 203.198.122.129
+  server: 112.120.34.55
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: NoMoreWalls|新加坡3|@ripaojiedian
+- name: NoMoreWalls|香港3|@ripaojiedian
   network: tcp
-  password: BxceQaOe
-  port: 9713
-  server: 36.150.215.137
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: NoMoreWalls|新加坡2|@ripaojiedian
-  network: tcp
-  password: e4e262d453466988575c397a30562337
-  port: 2173
-  server: 117.172.176.23
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: openRunner|🇺🇸 美国
-  password: e4e262d453466988575c397a30562337
-  port: 4553
-  server: 117.172.176.23
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 443
+  server: 58.152.110.216
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -91,47 +48,18 @@ proxies:
   server: 36.151.192.242
   skip-cert-verify: true
   type: trojan
-- cipher: chacha20-ietf
-  name: ruk1ng|🟠_🇨🇳:🇭🇰_🌀_github.com/Ruk1ng001_3864393534396362
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|🟡_🇨🇳_💼_github.com/Ruk1ng001_3631653531623238
-  network: tcp
-  port: 50002
-  server: 139.129.20.6
-  skip-cert-verify: true
-  tfo: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  name: ruk1ng|github.com/Ruk1ng001_6633646638346234
-  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-  port: 20021
-  server: oss-cn-shanghai.letssepub.com
-  skip-cert-verify: true
-  sni: dingding-doc.com
-  tls: true
+- name: aiboboxx|[Trojan] NL_speednode_0004
+  network: ws
+  password: e812343b-61a1-46fd-b086-b1395d0eb7de
+  port: 443
+  server: 89.110.116.141
+  skip-cert-verify: false
+  sni: joss.gpj.web.id
   type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: ruk1ng|🟠_🇻🇳_📶_github.com/Ruk1ng001_3336623635376265
-  network: http
-  port: 23806
-  server: 103.197.185.149
-  tls: false
-  type: vmess
-  uuid: 841550b4-d4bf-4e3e-de9c-cff7baa47df3
+  ws-opts:
+    headers:
+      Host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/89.110.116.141=443
 - cipher: aes-256-cfb
   name: ermaozi|🇷🇺_RU_俄罗斯
   password: SBM7R883jBmnqe6C
@@ -173,16 +101,4 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 91.132.94.200
-  type: ss
-- cipher: aes-256-cfb
-  name: mahdiblanda|🇰🇷KR-218.237.185.230-0408 | 0.12MB
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
-- cipher: aes-256-cfb
-  name: mahdiblanda|🇰🇷KR-218.237.185.230-0436 | 0.655MB
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
   type: ss
