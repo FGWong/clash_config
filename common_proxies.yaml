@@ -1,4 +1,13 @@
 proxies:
+- name: Flik6|[Trojan] 🇭🇰 香港 电讯盈科有限公司 3
+  password: BxceQaOe
+  port: 3127
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  tfo: false
+  type: trojan
+  udp: true
 - name: Flik6|[Trojan] 🇭🇰 香港 电讯盈科有限公司 2
   password: BxceQaOe
   port: 443
@@ -14,6 +23,15 @@ proxies:
   server: 219.79.165.55
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tfo: false
+  type: trojan
+  udp: true
+- name: Flik6|[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 194.87.18.124
+  skip-cert-verify: true
+  sni: www.bilibili.com
   tfo: false
   type: trojan
   udp: true
@@ -115,16 +133,9 @@ proxies:
   port: 989
   server: 91.132.94.200
   type: ss
-- name: mahdiblanda|🇭🇰HK-203.198.122.135-1160 | 2.799MB
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  port: 443
-  server: 203.198.122.135
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: mahdiblanda|MD-213.159.66.206-0326 | 0.044MB
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
+- cipher: chacha20-ietf
+  name: mahdiblanda|🇭🇰HK-103.149.182.203-5474 | 2.259MB
+  password: asd123456
+  port: 8388
+  server: 103.149.182.203
   type: ss
