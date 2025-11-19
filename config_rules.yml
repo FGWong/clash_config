@@ -24,14 +24,15 @@ dns:
   prefer-h3: true
   ipv6: true
   default-nameserver:
+    - 119.29.29.29
     - 114.114.114.114
     - 8.8.8.8
       #- system
       #- "udp://223.5.5.5"
   nameserver: #当 nameserver / fallback 里的域名解析失败时才会用到 #tencent
+    - https://doh.pub/dns-query
     - https://1.12.12.12/dns-query
     - https://223.6.6.6/dns-query
-      #- https://doh.pub/dns-query
       #- https://dns.alidns.com/dns-query
 
   fallback:

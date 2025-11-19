@@ -5,6 +5,7 @@ payload:
   - DOMAIN-SUFFIX,hd-torrents.org
   - DOMAIN-SUFFIX,hd-torrents.me
   - DOMAIN-SUFFIX,nexconvert.com
+  - DOMAIN-SUFFIX,matrix.org
   - DOMAIN-SUFFIX,os.ai
   - DOMAIN-SUFFIX,pplx.ai
   - DOMAIN-SUFFIX,star-space.net

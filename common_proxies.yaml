@@ -1,10 +1,19 @@
 proxies:
+- name: Flik6|[Trojan] 🇭🇰 香港 电讯盈科有限公司 2
+  password: BxceQaOe
+  port: 443
+  server: 58.152.26.173
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tfo: false
+  type: trojan
+  udp: true
 - name: Flik6|[Trojan] 🇭🇰 香港 电讯盈科有限公司
   password: BxceQaOe
   port: 443
   server: 219.79.165.55
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: t.me%2Fripaojiedian
   tfo: false
   type: trojan
   udp: true
@@ -48,18 +57,22 @@ proxies:
   server: 36.151.192.242
   skip-cert-verify: true
   type: trojan
-- name: aiboboxx|[Trojan] NL_speednode_0004
+- alterId: 2
+  cipher: auto
+  name: blobBird|德国 02
   network: ws
-  password: e812343b-61a1-46fd-b086-b1395d0eb7de
-  port: 443
-  server: 89.110.116.141
-  skip-cert-verify: false
-  sni: joss.gpj.web.id
-  type: trojan
+  port: 30833
+  server: v33.heduian.link
+  servername: baidu.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/89.110.116.141=443
+      Host: baidu.com
+    path: /oooo
 - cipher: aes-256-cfb
   name: ermaozi|🇷🇺_RU_俄罗斯
   password: SBM7R883jBmnqe6C
@@ -101,4 +114,17 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 91.132.94.200
+  type: ss
+- name: mahdiblanda|🇭🇰HK-203.198.122.135-1160 | 2.799MB
+  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  port: 443
+  server: 203.198.122.135
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: mahdiblanda|MD-213.159.66.206-0326 | 0.044MB
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
   type: ss

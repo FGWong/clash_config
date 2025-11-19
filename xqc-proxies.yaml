@@ -149,3 +149,36 @@ proxies:
     ws-opts:
       path: /?ed=2048
       headers:
+  - name: vevc-ws-argo
+    type: vless
+    server: families-mike-deserve-forum.trycloudflare.com
+    port: 443
+    uuid: f95242a9-232f-4016-b2ca-44ab8a31ff08
+    tls: true
+    client-fingerprint: chrome
+    servername: families-mike-deserve-forum.trycloudflare.com
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+    tfo: false
+    skip-cert-verify: false
+  - name: vevc-reality
+    type: vless
+    server: 217.154.173.102
+    port: 9682
+    uuid: f95242a9-232f-4016-b2ca-44ab8a31ff08
+    tls: true
+    client-fingerprint: chrome
+    servername: www.cloudflare.com
+    network: tcp
+    reality-opts:
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: vevc-hy2
+    type: hysteria2
+    server: 217.154.173.102
+    port: 9682
+    password: f95242a9-232f-4016-b2ca-44ab8a31ff08
+    auth: f95242a9-232f-4016-b2ca-44ab8a31ff08
+    skip-cert-verify: true
