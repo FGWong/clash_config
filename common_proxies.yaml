@@ -35,22 +35,6 @@ proxies:
   tfo: false
   type: trojan
   udp: true
-- name: NoMoreWalls|香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 112.120.34.55
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: NoMoreWalls|香港3|@ripaojiedian
-  network: tcp
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 443
-  server: 58.152.110.216
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: forever|Vless_Websocket
   network: ws
   port: 8080
@@ -75,22 +59,6 @@ proxies:
   server: 36.151.192.242
   skip-cert-verify: true
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: blobBird|德国 02
-  network: ws
-  port: 30833
-  server: v33.heduian.link
-  servername: baidu.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - cipher: aes-256-cfb
   name: ermaozi|🇷🇺_RU_俄罗斯
   password: SBM7R883jBmnqe6C

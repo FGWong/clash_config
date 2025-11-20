@@ -182,3 +182,18 @@ proxies:
     password: f95242a9-232f-4016-b2ca-44ab8a31ff08
     auth: f95242a9-232f-4016-b2ca-44ab8a31ff08
     skip-cert-verify: true
+  - name: DE1
+    type: vless
+    server: '2603:c020:800e:62ee:471c:3b87:2081:48aa'
+    port: 46202
+    uuid: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14
+    alterId: 0
+    cipher: auto
+    udp: true
+    flow: null
+    tls: true
+    skip-cert-verify: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: GunSffffervice
+  - { name: NL1, server: '2001:bc8:1640:50eb:dc00:ff:fe57:dd6f', port: 58641, sni: Ab.ac, up: null, down: null, skip-cert-verify: true, ports: 50000-60000, type: hysteria2, password: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14, obfs: salamander, obfs-password: FnFgQIckcMRtKq7i }
