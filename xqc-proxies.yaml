@@ -131,12 +131,6 @@ proxies:
     tls: true
     type: http
     username: 0cf1d872-aa2a-11ef-97e0-f23c9164ca5d
-  - name: US美国
-    type: ss
-    server: arxfw2b78fi2q9hzylhn.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: Nk9asglDzHzjktVzTkvhaA
   - name: GB英国1
     type: vmess
     server: '2001:bc8:32d7:302::10'
@@ -196,4 +190,49 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: GunSffffervice
+  - name: "\U0001F1EA\U0001F1F8"
+    type: vless
+    server: 210.87.111.61
+    port: 39738
+    uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+    tls: true
+    client-fingerprint: chrome
+    servername: vless3.datatestvless.click
+    network: ws
+    ws-opts:
+      path: "/?ed=2560&telegram\U0001F1E8\U0001F1F3@wangcai2"
+      headers:
+        host: vless3.datatestvless.click
+    tfo: false
+    skip-cert-verify: false
+  - name: "\U0001F1EC\U0001F1E7"
+    type: vless
+    server: 8.217.180.234
+    port: 443
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    tls: true
+    client-fingerprint: chrome
+    servername: kuangbao.xiejiang.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: kuangbao.xiejiang.dpdns.org
+    tfo: false
+    skip-cert-verify: false
+  - name: "\U0001F1EC\U0001F1E7"
+    type: vless
+    server: 104.18.45.223
+    port: 443
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    tls: true
+    client-fingerprint: chrome
+    servername: kuangbao.xiejiang.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: kuangbao.xiejiang.dpdns.org
+    tfo: false
+    skip-cert-verify: false
   - { name: NL1, server: '2001:bc8:1640:50eb:dc00:ff:fe57:dd6f', port: 58641, sni: Ab.ac, up: null, down: null, skip-cert-verify: true, ports: 50000-60000, type: hysteria2, password: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14, obfs: salamander, obfs-password: FnFgQIckcMRtKq7i }

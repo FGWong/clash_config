@@ -15,6 +15,7 @@ payload:
   - '+.deeplx.org'
   - '+.docker.com'
   - '+.docker.io'
+  - '+.duckdns.org'
   - '+.follow.is'
   - '+.freeembyguide.eu.org'
   - '+.frepai.com'
