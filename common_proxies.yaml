@@ -1,16 +1,25 @@
 proxies:
-- name: Flik6|[Trojan] 🇭🇰 香港 电讯盈科有限公司
+- name: Flik6|[Trojan] 🇯🇵 日本 东京SAKURA数据中心
   password: BxceQaOe
-  port: 443
-  server: 58.152.53.22
+  port: 5156
+  server: 153.121.65.212
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   tfo: false
   type: trojan
   udp: true
+- name: Flik6|[Trojan] 🇭🇰 香港 电讯盈科有限公司
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me%25252Fripaojiedian
+  tfo: false
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: Flik6|[VMess] 🇬🇧 英国 V2CROSS.COM
+  name: Flik6|[VMess] 🇬🇧 英国 V2CROSS.COM 2
   port: 180
   server: 82.198.246.97
   skip-cert-verify: true
@@ -19,43 +28,34 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: Flik6|[Trojan] 🇭🇰 香港 电讯盈科有限公司 2
+- name: NoMoreWalls|香港4|@ripaojiedian
+  network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.25.241
+  server: 58.152.53.8
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  tfo: false
   type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: Flik6|[VMess] 🇺🇸 美国 Microsoft数据中心
-  network: ws
-  port: 443
-  server: west_a.gaogroup.bid
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ef004cfa-b463-4473-97df-4f0da4473ae0
-  ws-opts:
-    headers:
-      Host: west_a.gaogroup.bid
-    path: /ctzxvws
 - name: NoMoreWalls|香港3|@ripaojiedian
   network: tcp
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  password: 2cf6d686799e6fa95316394064f26c0a
   port: 443
-  server: 58.152.18.98
+  server: 58.152.110.120
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: openRunner|🇭🇰 香港4
+- name: NoMoreWalls|RU_speednode_0030
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
+  type: trojan
+  udp: true
+- name: openRunner|🇭🇰 香港5
   password: BxceQaOe
   port: 443
-  server: 58.152.18.95
+  server: 58.152.53.22
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -70,33 +70,155 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: airport|🇸🇬 新加坡3|@ripaojiedian
-  password: BxceQaOe
-  port: 1691
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: airport|日本|@ripaojiedian-3
-  password: BxceQaOe
-  port: 1924
-  server: 160.16.227.93
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
+- cipher: chacha20-ietf
+  name: airport|🇭🇰 香港6|@stairnode-4
+  password: asd123456
+  port: 8388
+  server: 103.149.182.158
+  type: ss
+- cipher: aes-256-cfb
+  delay: 573
+  name: airport|德国 - Frankfurt am Main - Amazon Technologies Inc. - 9
+  password: amazonskr05
+  port: 443
+  server: 3.72.36.217
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 1234
+  name: airport|德国 - Frankfurt am Main - Amazon Technologies Inc. - 2
+  password: amazonskr05
+  port: 443
+  server: 54.93.211.165
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: airport|🇭🇷 克罗地亚 | HRV-1
+  name: airport|🇳🇱 荷兰 | NLD 8
+  password: HWNsKy61qPyoDtrEYEtZuk
+  port: 6403
+  server: 5.129.214.186
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 267
+  name: airport|中国 - 广州市 - CHINANET Guangdong province network - 42
+  password: '123'
+  port: 6100
+  server: 14.18.106.88
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: airport|俄罗斯(yudou6677.top 玉豆免费节点) 2
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 1477
+  name: airport|德国 - Frankfurt am Main - Amazon.com - 6
+  password: amazonskr05
+  port: 443
+  server: 63.178.2.18
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 424
+  name: airport|德国 - Frankfurt am Main - Amazon Technologies Inc. - 1
+  password: amazonskr05
+  port: 443
+  server: 54.93.101.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: airport|🇹🇷 土耳其 | TUR 3
+  password: depjSbjv2Uql6W4Vge7sDf
+  port: 34085
+  server: 185.39.204.189
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 666
+  name: airport|波兰 - 华沙 - WorkTitans B.V. - 1
+  password: 6Ts2ZDTQAf3hkFoB8AFufDwsGrlF4e2t
+  port: 443
+  server: 45.15.126.19
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇩🇪DE
+  delay: 769
+  name: airport|德国 - Frankfurt am Main - Amazon Technologies Inc. - 4
+  password: amazonskr05
+  port: 443
+  server: 18.184.12.56
+  type: ss
+- cipher: aes-256-cfb
+  delay: 637
+  name: airport|德国 - Frankfurt am Main - Amazon Technologies Inc. - 3
+  password: amazonskr05
+  port: 443
+  server: 3.65.219.59
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 476
+  name: airport|德国 - Frankfurt am Main - Amazon.com - 5
+  password: amazonskr05
+  port: 443
+  server: 63.177.227.124
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: airport|🇰🇷KR-218.237.185.230-0315 | 0.131MB
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: airport|🇳🇱 荷兰 | NLD
+  password: 8HtC7rj6NfZncXYvAjDV5t
+  port: 7022
+  server: 213.176.16.77
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: airport|🇫🇷FR_5 | ⬇️ 1.8MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 195.154.119.77
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: airport|US_539e7_0050
+  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
+  port: 443
+  server: 23.95.72.81
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: airport|🇸🇬SG-167.150.100.115-0286 | 3.299MB
+  password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
+  port: 443
+  server: 167.150.100.115
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: airport|HR-185.156.110.92-0251 | 0.037MB
   password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
   port: 443
   server: 185.156.110.92
   type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: airport|GR-192.71.166.100-0327 | 0.212MB
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
+- cipher: chacha20-ietf-poly1305
+  name: airport|🇺🇸_US_美国_8-3
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: airport|US美国(mibei77.com 米贝节点分享) 8
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
+  udp: true
 - name: mfuu|🇨🇳CN-117.172.176.24-085
   password: bca467b8c15211d189008a93c7519d3b
   port: 5321
@@ -110,28 +232,6 @@ proxies:
   server: 36.151.192.242
   skip-cert-verify: true
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: ruk1ng|🟠_🇺🇸_💻_github.com/Ruk1ng001_3161653062333730
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
-  type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: ruk1ng|github.com/Ruk1ng001_3530626166313039
-  network: ws
-  port: 30833
-  server: v33.heduian.link
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - cipher: aes-256-cfb
   name: ermaozi|🇷🇺_RU_俄罗斯
   password: SBM7R883jBmnqe6C
@@ -175,8 +275,20 @@ proxies:
   server: 91.132.94.200
   type: ss
 - cipher: chacha20-ietf
-  name: mahdiblanda|🇭🇰HK-103.149.182.79-5580 | 0.564MB
+  name: mahdiblanda|🇭🇰HK-103.149.182.38-5526 | 3.799MB
   password: asd123456
   port: 8388
-  server: 103.149.182.79
+  server: 103.149.182.38
+  type: ss
+- cipher: chacha20-ietf
+  name: mahdiblanda|🇭🇰HK-103.149.182.203-5529 | 9.721MB
+  password: asd123456
+  port: 8388
+  server: 103.149.182.203
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: mahdiblanda|LT-45.87.175.166-0279 | 0.134MB
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 443
+  server: 45.87.175.166
   type: ss
