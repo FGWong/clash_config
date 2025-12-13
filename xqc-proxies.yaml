@@ -84,20 +84,6 @@ proxies:
       - h3
     sni: www.bing.com
     udp-relay-mode: native
-  - type: vless
-    name: 719🍎@xkmfjd_🇺🇸_12
-    server: 172.66.47.156
-    port: 443
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-    network: ws
-    servername: wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /
-      headers:
-        Host: wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET
-    client-fingerprint: chrome
   - alpn:
       - h2
       - http/1.1
@@ -143,39 +129,6 @@ proxies:
     ws-opts:
       path: /?ed=2048
       headers:
-  - name: vevc-ws-argo
-    type: vless
-    server: families-mike-deserve-forum.trycloudflare.com
-    port: 443
-    uuid: f95242a9-232f-4016-b2ca-44ab8a31ff08
-    tls: true
-    client-fingerprint: chrome
-    servername: families-mike-deserve-forum.trycloudflare.com
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-    tfo: false
-    skip-cert-verify: false
-  - name: vevc-reality
-    type: vless
-    server: 217.154.173.102
-    port: 9682
-    uuid: f95242a9-232f-4016-b2ca-44ab8a31ff08
-    tls: true
-    client-fingerprint: chrome
-    servername: www.cloudflare.com
-    network: tcp
-    reality-opts:
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: vevc-hy2
-    type: hysteria2
-    server: 217.154.173.102
-    port: 9682
-    password: f95242a9-232f-4016-b2ca-44ab8a31ff08
-    auth: f95242a9-232f-4016-b2ca-44ab8a31ff08
-    skip-cert-verify: true
   - name: DE1
     type: vless
     server: '2603:c020:800e:62ee:471c:3b87:2081:48aa'
@@ -236,3 +189,27 @@ proxies:
     tfo: false
     skip-cert-verify: false
   - { name: NL1, server: '2001:bc8:1640:50eb:dc00:ff:fe57:dd6f', port: 58641, sni: Ab.ac, up: null, down: null, skip-cert-verify: true, ports: 50000-60000, type: hysteria2, password: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14, obfs: salamander, obfs-password: FnFgQIckcMRtKq7i }
+  - name: "\U0001F1EC\U0001F1E7"
+    type: vless
+    server: 47.79.41.201
+    port: 443
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    tls: true
+    client-fingerprint: chrome
+    servername: kuangbao.xiejiang.dpdns.org
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: kuangbao.xiejiang.dpdns.org
+    tfo: false
+    skip-cert-verify: false
+  - name: US美国(ProxyGo免费节点分享)
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp

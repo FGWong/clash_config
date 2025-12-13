@@ -1,7 +1,8 @@
 payload:
+  - 'accounts.google.com'
   - 'sub.unionpay.eu.org'
   - 'subpage.unionpay.eu.org'
-  - 'accounts.google.com'
+  - 'pub.loc.cc'
   - 'tv.garden'
   - '+.adguard.com'
   - '+.adguard.info'
@@ -36,6 +37,7 @@ payload:
   - '+.onedrive.live.com'
   - '+.pa.googleapis.com'
   - '+.pp.ua'
+  - '+.pbu.loc.cc'
   - '+.poe.com'
   - '+.qianghub.com'
   - '+.qiangwaikan.com'

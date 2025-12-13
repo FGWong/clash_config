@@ -3,77 +3,77 @@ proxies:
   network: ws
   port: 443
   server: usa.visa.com
-  servername: one.unionpay.eu.org
+  servername: o.clayton.dpdns.org
   tls: true
   type: vless
   udp: false
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: o.clayton.dpdns.org
     path: /?ed=2560
 - name: CF_V9_myanmar.visa.com_8443
   network: ws
   port: 8443
   server: myanmar.visa.com
-  servername: one.unionpay.eu.org
+  servername: o.clayton.dpdns.org
   tls: true
   type: vless
   udp: false
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: o.clayton.dpdns.org
     path: /?ed=2560
 - name: CF_V10_www.visa.com.tw_2053
   network: ws
   port: 2053
   server: www.visa.com.tw
-  servername: one.unionpay.eu.org
+  servername: o.clayton.dpdns.org
   tls: true
   type: vless
   udp: false
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: o.clayton.dpdns.org
     path: /?ed=2560
 - name: CF_V11_www.visaeurope.ch_2083
   network: ws
   port: 2083
   server: www.visaeurope.ch
-  servername: one.unionpay.eu.org
+  servername: o.clayton.dpdns.org
   tls: true
   type: vless
   udp: false
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: o.clayton.dpdns.org
     path: /?ed=2560
 - name: CF_V12_www.visa.com.br_2087
   network: ws
   port: 2087
   server: www.visa.com.br
-  servername: one.unionpay.eu.org
+  servername: o.clayton.dpdns.org
   tls: true
   type: vless
   udp: false
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: o.clayton.dpdns.org
     path: /?ed=2560
 - name: CF_V13_www.visasoutheasteurope.com_2096
   network: ws
   port: 2096
   server: www.visasoutheasteurope.com
-  servername: one.unionpay.eu.org
+  servername: o.clayton.dpdns.org
   tls: true
   type: vless
   udp: false
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: one.unionpay.eu.org
+      Host: o.clayton.dpdns.org
     path: /?ed=2560
