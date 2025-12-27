@@ -1,8 +1,9 @@
 payload:
   - 'accounts.google.com'
+  - 'linux.do'
+  - 'pub.loc.cc'
   - 'sub.unionpay.eu.org'
   - 'subpage.unionpay.eu.org'
-  - 'pub.loc.cc'
   - 'tv.garden'
   - '+.adguard.com'
   - '+.adguard.info'

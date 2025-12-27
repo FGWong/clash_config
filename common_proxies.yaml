@@ -1,34 +1,63 @@
 proxies:
-- name: NoMoreWalls|香港4|@ripaojiedian
-  network: tcp
+- name: Flik6|[Trojan] 🇭🇰 香港 电讯盈科有限公司
   password: BxceQaOe
   port: 443
-  server: 219.79.186.107
+  server: 58.152.46.60
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tfo: false
   type: trojan
-- name: NoMoreWalls|香港3|@ripaojiedian
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: Flik6|[VMess] 🇨🇳 中国 V2CROSS.COM
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: NoMoreWalls|新加坡2|@ripaojiedian
   network: tcp
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 443
-  server: 58.152.110.154
-  skip-cert-verify: false
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  port: 2760
+  server: 160.16.82.24
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: NoMoreWalls|美国2|@ripaojiedian
+  network: tcp
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  port: 4054
+  server: 18.162.244.22
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: NoMoreWalls|🇺🇸 美国4|@ripaojiedian
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: NoMoreWalls|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.25.242
+  server: 203.198.84.221
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: openRunner|🇭🇰 香港5
-  password: BxceQaOe
+- name: openRunner|🇭🇰 香港3
+  password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 443
-  server: 219.78.209.224
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  server: 112.118.116.8
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - name: forever|Vless_Websocket
   network: ws
@@ -41,19 +70,52 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- alterId: 0
-  cipher: none
-  name: airport|🔒 VM-TCP-NA 🇨🇳 CN-183.236.51.36:59003-01
-  port: 59003
-  server: 183.236.51.36
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf
-  name: airport|🇭🇰 香港6|@stairnode-2
-  password: asd123456
-  port: 8388
-  server: 103.149.182.86
+- cipher: chacha20-ietf-poly1305
+  name: "airport|【机场推荐：https://a0a.xyz/】8\r"
+  password: Mb7c1yskGeWF3qsl2Z3Zth
+  port: 443
+  server: 217.60.63.96
+  type: ss
+- name: airport|美國_145
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.108
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: airport|🇨🇳 橘子电报频道@juzibaipiao🇺🇸US¹-TW⁰_1|0.5MB/s|GM|YT|TK|NF|D+|X|sinspired/subs-check
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.15
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: airport|美国(yudou6677.top 玉豆免费节点)_91
+  password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA
+  port: 443
+  server: 95.164.116.33
+  type: ss
+- cipher: aes-256-cfb
+  name: airport|🇺🇸US-104.192.226.106-0268 | 49.129MB
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 104.192.226.106
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: airport|🇬🇧GB-82.38.31.218-0282 | 36.064MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.218
   type: ss
 - name: mfuu|🇨🇳CN-117.172.176.24-085
   password: bca467b8c15211d189008a93c7519d3b
@@ -68,40 +130,30 @@ proxies:
   server: 36.151.192.242
   skip-cert-verify: true
   type: trojan
-- alterId: 0
-  cipher: aes-256-gcm
-  name: ruk1ng|🟡_🇨🇳_📶_github.com/Ruk1ng001_3165323762303130
-  password: '123'
-  port: 6100
-  server: 14.18.106.88
-  skip-cert-verify: true
-  tls: true
+- cipher: chacha20-ietf
+  name: ruk1ng|🟠_🇨🇳:🇭🇰_💼_github.com/Ruk1ng001_33376633623231
+  password: asd123456
+  port: 8388
+  server: 103.149.182.105
   type: ss
-- name: ruk1ng|🟡_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001_6338623937653830
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 0
+- cipher: chacha20-ietf
+  name: ruk1ng|🟠_🇨🇳:🇭🇰_💼_github.com/Ruk1ng001_3937656232646539
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
+  type: ss
+- alterId: 2
   cipher: auto
-  name: ruk1ng|❓_🇺🇸_💻_github.com/Ruk1ng001_6366653537656537
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: ruk1ng|🟡_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001_6536353635366362
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: ruk1ng|github.com/Ruk1ng001_3863376664656636
   network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.174
+  port: 30835
+  server: v35.hdacd.com
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   name: ermaozi|🇷🇺_RU_俄罗斯
   password: SBM7R883jBmnqe6C
@@ -143,4 +195,16 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 91.132.94.200
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: mahdiblanda|🇺🇸US-104.192.226.106-0265 | 33.482MB
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 104.192.226.106
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: mahdiblanda|NO-107.174.114.71-0395 | 0.48MB
+  password: 595HLF3fHUuw0McM51tpvPygSIB1uf4D
+  port: 443
+  server: 107.174.114.71
   type: ss
