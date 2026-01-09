@@ -213,3 +213,33 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+  - name: de5-snippets-vless
+    type: vless
+    server: www.shopify.com
+    port: 2053
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    tls: true
+    client-fingerprint: chrome
+    servername: freesni.zjde5.de5.net
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: freesni.zjde5.de5.net
+    tfo: false
+    skip-cert-verify: false
+  - name: de5-snippets-trojan
+    type: trojan
+    server: www.shopify.com
+    port: 2087
+    password: '666'
+    tls: true
+    client-fingerprint: chrome
+    sni: freesni.zjde5.de5.net
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: freesni.zjde5.de5.net
+    tfo: false
+    skip-cert-verify: false
