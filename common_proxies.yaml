@@ -19,12 +19,38 @@ proxies:
   tfo: false
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: NoMoreWalls|🇰🇷 韩国|@ripaojiedian
-  password: qwerREWQ@@
-  port: 21215
-  server: 221.150.109.92
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: NoMoreWalls|CN2｜家宽｜非常安全
+  network: tcp
+  port: '59003'
+  server: 183.236.51.36
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: NoMoreWalls|香港3|@ripaojiedian
+  network: tcp
+  password: 61d8077bfb174e171b8283f155a555ad
+  port: 443
+  server: 112.118.116.123
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: NoMoreWalls|HK29｜家宽｜非常安全
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2088%20'
+  type: trojan
+- name: NoMoreWalls|新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 3579
+  server: 3.112.254.143
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: forever|Vless_Websocket
   network: ws
   port: 8080
@@ -37,430 +63,43 @@ proxies:
       Host: a.mifeng.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: airport|香港3|@ripaojiedian
+  name: airport|新加坡2|@ripaojiedian-2
   password: 61d8077bfb174e171b8283f155a555ad
-  port: 443
-  server: 112.118.116.123
-  skip-cert-verify: false
+  port: 544
+  server: 160.16.150.76
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- cipher: rc4-md5
+  name: airport|AM_95122_0001
+  password: 6c325435b2176c2d
+  port: 18790
+  server: 85.90.207.104
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: airport|🇰🇷 韩国 | KOR 4
+  name: airport|🇰🇷KR²_2|1.0MB/s|0%|GPT⁺|YT-CN|NF|D+|X|History|[原生|住宅]
   password: qwerREWQ@@
   port: 51978
   server: 168.126.234.247
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  delay: 468
-  name: airport|韩国 - Geumcheon-gu - Korea Telecom - 13
-  password: qwerREWQ@@
-  port: 52713
-  server: 125.141.26.12
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: airport|🇰🇷KR-168.126.234.233-1020 | 0.114MB
-  password: qwerREWQ@@
-  port: 28860
-  server: 168.126.234.233
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇰🇷KR-121.170.203.136-1023 | 0.213MB
-  password: qwerREWQ@@
-  port: 2071
-  server: 121.170.203.136
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: airport|🇰🇷KR²_1|0.7MB/s|GPT⁺|YT|NF|D+|X|History|[原生|住宅]
-  password: qwerREWQ@@
-  port: 61417
-  server: 121.170.203.147
   skip-cert-verify: false
   type: ss
   udp: false
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇭🇰HK
-  delay: 2602
-  h2-opts: {}
-  http-opts: {}
-  name: airport|中国 - 香港 - PCCW IMS Limited - 13
-  network: ws
-  port: 80
-  server: 636073a9-t70f40-tighxj-12hj8.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-      Host: 636073a9-t70f40-tighxj-12hj8.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇭🇰HK
-  delay: 1730
-  h2-opts: {}
-  http-opts: {}
-  name: airport|中国 - 香港 - PCCW IMS Limited - 39
-  network: ws
-  port: 80
-  server: 6bb95974-t70f40-t94bdb-mrtr.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-      Host: 6bb95974-t70f40-t94bdb-mrtr.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇭🇰HK
-  delay: 2567
-  h2-opts: {}
-  http-opts: {}
-  name: airport|中国 - 香港 - PCCW IMS Limited - 49
-  network: ws
-  port: 80
-  server: eabe4766-t6r5s0-tds6bp-1hzyr.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-      Host: eabe4766-t6r5s0-tds6bp-1hzyr.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇭🇰HK
-  delay: 2715
-  h2-opts: {}
-  http-opts: {}
-  name: airport|中国 - 香港 - PCCW IMS Limited - 10
-  network: ws
-  port: 80
-  server: 1df94287-t70f40-t7k911-1gxvd.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 398e0d38-8649-11ef-959c-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-      Host: 1df94287-t70f40-t7k911-1gxvd.hkt.gotochinatown.net
-    path: /
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇦UA
-  delay: 2419
-  name: airport|亚美尼亚 - Yerevan - G-Core Labs S.A. - 1
-  password: e716d7bbae4bdd14
-  port: 18793
-  server: 85.90.207.104
+- cipher: aes-256-gcm
+  name: airport|🇷🇺 俄罗斯 | RUS 2
+  password: 9f3d1a6d31468599
+  port: 10912
+  server: 195.58.49.100
   type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇭🇰HK
-  delay: 2289
-  h2-opts: {}
-  http-opts: {}
-  name: airport|中国 - 香港 - PCCW IMS Limited - 14
-  network: ws
-  port: 80
-  server: 0b0c6db6-t70f40-tbe46y-1la7v.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-      Host: 0b0c6db6-t70f40-tbe46y-1la7v.hkt.gotochinatown.net
-    path: /
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: airport|约旦+V2CROSS.COM
-  password: 11bf054dcc0342cd
-  port: 11201
-  server: 91.106.109.74
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: airport|🇦🇲AM²_1|1.2MB/s|37%|GPT⁺|YT-US|TK|NF|X|[广播|机房]
+  name: airport|美国-08
   password: e716d7bbae4bdd14
-  port: 18791
+  port: 18794
   server: 85.90.207.104
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: aes-256-cfb
-  name: airport|🇰🇷 _KR_韩国_5
-  password: qwerREWQ@@
-  port: 4483
-  server: 218.234.149.9
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: airport|美国(yudou789.top 玉豆免费节点)_100-2
-  password: Q4t8T7hEYY3mD2Fn4wnxyK4X35AUzvR8
-  port: 443
-  server: 176.126.83.121
-  type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇭🇰 香港 | HKG 12
-  network: ws
-  port: 80
-  server: 320ede8b-t70f40-tfi5fd-1imi4.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 320ede8b-t70f40-tfi5fd-1imi4.hkt.gotochinatown.net
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: airport|荷蘭-04
-  password: e716d7bbae4bdd14
-  port: 18792
-  server: 85.90.207.104
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  delay: 2227
-  name: airport|约旦 - 安曼 - Batelco Jordan - 1
-  password: be5ee3c62f0aae96
-  port: 11201
-  server: 91.106.109.73
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: airport|LT-45.87.175.193-0426 | 0.279MB
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.193
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: airport|🇺🇸US-23.95.75.146-0419 | 0.393MB
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
-  type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇭🇰HK
-  delay: 1650
-  h2-opts: {}
-  http-opts: {}
-  name: airport|中国 - 香港 - PCCW IMS Limited - 38
-  network: ws
-  port: 80
-  server: ea900bd2-t6pb40-tonrmx-8n27.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-      Host: ea900bd2-t6pb40-tonrmx-8n27.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇭🇰 香港 | HKG 4
-  network: ws
-  port: 80
-  server: bf85780f-t8lts0-td95qh-1isea.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇭🇰 香港 | HKG 28
-  network: ws
-  port: 80
-  server: 119ea9de-t8lts0-tbpkla-1otc2.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0114339c-488d-11ee-8792-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇭🇰 香港 | HKG 40
-  network: ws
-  port: 80
-  server: 482957a7-t8nog0-td95qh-1isea.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇭🇰 香港 | HKG 30
-  network: ws
-  port: 80
-  server: f34503ac-t70f40-tbac1z-1j3zm.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: f34503ac-t70f40-tbac1z-1j3zm.hkt.gotochinatown.net
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: airport|🇵🇱PL-89.223.93.176-0313 | 1.021MB
-  password: Vmsf06YTMqtAYdhwMqdSuGqgdVkm0yddi4kYaAEVQWYj9iHA
-  port: 41348
-  server: 89.223.93.176
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: ruk1ng|🟠_🇰🇷_📶_github.com/Ruk1ng001_3432323636373732
-  password: qwerREWQ@@
-  port: 3733
-  server: 27.255.82.135
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: ruk1ng|🟡_🇰🇷_📶_github.com/Ruk1ng001_3664613231616161
-  password: qwerREWQ@@
-  port: 41563
-  server: 125.141.31.76
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: ruk1ng|🟡_🇰🇷_📶_github.com/Ruk1ng001_3137666462633236
-  password: qwerREWQ@@
-  port: 18590
-  server: 125.141.31.100
-  tfo: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: ruk1ng|❓_🇳🇱_💻_github.com/Ruk1ng001_6133333834326332
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.214
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  name: ruk1ng|🟡_🇨🇳_📶_github.com/Ruk1ng001_3165323762303130
-  password: '123'
-  port: 6100
-  server: 14.18.106.88
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|🔴_🇨🇳:🇭🇰_💼_github.com/Ruk1ng001_3731386534346666
-  network: none
-  port: 20423
-  server: 156.238.238.147
-  tls: false
-  type: vmess
-  uuid: eb99e8d4-b68f-41d4-afdb-99115ccadd75
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|❓_🇨🇳_📶_github.com/Ruk1ng001_6466343131636431
-  network: tcp
-  port: 59003
-  server: 183.236.51.36
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: ruk1ng|github.com/Ruk1ng001_3666323938626135
-  network: ws
-  port: 80
-  server: 6acf7544-t6r5s0-tnkuks-wujn.hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 6acf7544-t6r5s0-tnkuks-wujn.hkt.gotochinatown.net
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: ruk1ng|🟡_🇰🇷_📶_github.com/Ruk1ng001_6235633663653237
-  password: qwerREWQ@@
-  port: 42013
-  server: 221.150.109.20
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: ruk1ng|🟡_🇰🇷_📶_github.com/Ruk1ng001_3838643763353361
-  password: qwerREWQ@@
-  port: 44112
-  server: 168.126.234.230
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: ruk1ng|❓_🇰🇷_📶_github.com/Ruk1ng001_3136666634653738
-  password: qwerREWQ@@
-  port: 41240
-  server: 221.139.79.41
-  tfo: true
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: ruk1ng|🟡_🇰🇷_📶_github.com/Ruk1ng001_6462353363656465
@@ -470,41 +109,98 @@ proxies:
   tfo: true
   type: ss
   udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  name: ruk1ng|🟡_🇨🇳_📶_github.com/Ruk1ng001_3165323762303130
+  password: '123'
+  port: 6100
+  server: 14.18.106.88
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇦 UA
+  name: ruk1ng|🟠_🇦🇲_💻_github.com/Ruk1ng001_3131623930366138
+  password: e716d7bbae4bdd14
+  port: 18792
+  server: 85.90.207.104
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3361353439643761
+  network: ws
+  port: 80
+  server: 2859af40-t70f40-tdh9w7-ahsb.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 2859af40-t70f40-tdh9w7-ahsb.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_6430363337383663
+  network: ws
+  port: 80
+  server: 71ac3d4f-t6r5s0-t85e8f-141tv.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 71ac3d4f-t6r5s0-t85e8f-141tv.hkt.gotochinatown.net
+    path: /
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_3338626630333362
+  password: e716d7bbae4bdd14
+  port: 18793
+  server: 85.90.207.104
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: ruk1ng|github.com/Ruk1ng001_6433666535353264
+  password: e716d7bbae4bdd14
+  port: 18791
+  server: 85.90.207.104
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: ruk1ng|github.com/Ruk1ng001_3532343430386639
+  network: ws
+  port: 80
+  server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: ruk1ng|❓_🇰🇷_📶_github.com/Ruk1ng001_3733633166636637
+  name: ruk1ng|❓_🇰🇷_📶_github.com/Ruk1ng001_3936623539623764
   password: qwerREWQ@@
-  port: 39502
-  server: 218.38.103.150
+  port: 13979
+  server: 221.139.79.57
   tfo: true
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: blobBird|_KR_韩国
-  password: qwerREWQ@@
-  port: 43231
-  server: 221.150.109.89
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: blobBird|_KR_韩国_4
-  password: qwerREWQ@@
-  port: 19307
-  server: 211.201.169.70
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: blobBird|_HU_匈牙利
-  password: 01dc0d7cbb650bc3
-  port: 11201
-  server: 109.61.39.150
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: blobBird|_NL_荷兰_1
-  password: X36TIi4C3NH6Oln3TdGyjg
-  port: 9443
-  server: fl3.cowjuice.me
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: ruk1ng|🔴_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001_3866613863623335
+  password: 7e1dd4c55bf85da5
+  port: 50521
+  server: 212.192.15.59
+  tfo: true
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -548,16 +244,4 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 91.132.94.200
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: mahdiblanda|🇬🇧GB-82.38.31.217-0277 | 17.428MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.217
-  type: ss
-- cipher: aes-256-cfb
-  name: mahdiblanda|🇩🇰DK-192.36.27.94-0391 | 2.045MB
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.36.27.94
   type: ss

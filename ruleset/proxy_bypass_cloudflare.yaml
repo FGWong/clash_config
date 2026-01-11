@@ -8,6 +8,7 @@ payload:
   - DOMAIN-SUFFIX,hd-torrents.me
   - DOMAIN-SUFFIX,nexconvert.com
   - DOMAIN-SUFFIX,matrix.org
+  - DOMAIN-SUFFIX,linux.do
   - DOMAIN-SUFFIX,os.ai
   - DOMAIN-SUFFIX,pplx.ai
   - DOMAIN-SUFFIX,star-space.net

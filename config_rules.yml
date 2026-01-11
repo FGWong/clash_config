@@ -104,7 +104,7 @@ dns:
     #"geosite:cn,geolocation-cn": ["udp://223.5.5.5", https://doh.pub/dns-query]  # 国内域名直连
     #"geosite:category-ads-all": rcode://success
     '+.baidu.com': '114.114.114.114'
-    "rule-set:gfw": https://dns.google/dns-query
+    "rule-set:gfw,+.gu.vy": https://dns.google/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
@@ -763,7 +763,7 @@ proxy-groups:
 
 proxy-providers:
   common:
-    url: "https://jiahe.eu.org:15443/clash_verge/common_proxies.yaml"
+    url: "https://pub.loc.cc:15443/clash_verge/common_proxies.yaml"
     #exclude-type: "Shadowsocks|Http"
     #exclude-filter: "(?i)港|hk|hongkong|hong kong"
     #filter: "(?i)港|hk|hongkong|hong kong" #(?i) (?A) 等语法无效
@@ -776,7 +776,7 @@ proxy-providers:
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
   cldflare:
-    url: "https://jiahe.eu.org:15443/clash_verge/cloudflare-proxies.yaml"
+    url: "https://pub.loc.cc:15443/clash_verge/cloudflare-proxies.yaml"
     type: http
     #type: file
     interval: 10807
@@ -786,7 +786,7 @@ proxy-providers:
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
   cldkg:
-    url: "https://jiahe.eu.org:15443/clash_verge/cfkg-proxies.yaml"
+    url: "https://pub.loc.cc:15443/clash_verge/cfkg-proxies.yaml"
     type: http
     #type: file
     interval: 10807
@@ -796,7 +796,7 @@ proxy-providers:
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
   cldop:
-    url: "https://jiahe.eu.org:15443/clash_verge/cf_op_proxies.yaml"
+    url: "https://pub.loc.cc:15443/clash_verge/cf_op_proxies.yaml"
     type: http
     #type: file
     interval: 5612
@@ -806,7 +806,7 @@ proxy-providers:
       interval: 960
       url: 'http://www.gstatic.com/generate_204'
   skr:
-    url: "https://jiahe.eu.org:15443/clash_verge/skrapp.yaml"
+    url: "https://pub.loc.cc:15443/clash_verge/skrapp.yaml"
     type: http
     #type: file
     interval: 6622
@@ -816,7 +816,7 @@ proxy-providers:
       interval: 960
       url: 'http://www.gstatic.com/generate_204'
   xqc:
-    url: "https://jiahe.eu.org:15443/clash_verge/xqc-proxies.yaml"
+    url: "https://pub.loc.cc:15443/clash_verge/xqc-proxies.yaml"
     type: http
     #type: file
     interval: 10807
@@ -826,7 +826,7 @@ proxy-providers:
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
   ucust:
-    url: "https://jiahe.eu.org:15443/clash_verge/user_custom.yaml"
+    url: "https://pub.loc.cc:15443/clash_verge/user_custom.yaml"
     type: http
     #type: file
     interval: 933622
@@ -836,7 +836,7 @@ proxy-providers:
       interval: 186400
       url: 'http://www.gstatic.com/generate_204'
   tclashfile:
-    url: "https://jiahe.eu.org:15443/clash_verge/Clash.yaml"
+    url: "https://pub.loc.cc:15443/clash_verge/Clash.yaml"
     type: http
     #type: file
     interval: 933622
@@ -985,14 +985,14 @@ rule-providers:
     type: http
     behavior: classical
     #url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Download.yaml"
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Download.yaml"
+    url: "https://gh-proxy.com/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Download.yaml"
     path: ./ruleset/Download.yaml
     interval: 86400
   OneDrive:
     type: http
     behavior: classical
     #url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
+    url: "https://gh-proxy.com/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
     path: ./ruleset/OneDrive.yaml
     interval: 86400
   Twitter:
@@ -1035,7 +1035,7 @@ rule-providers:
     type: http # file
     format: 'yaml' # or 'text'
     url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/classical_direct.yaml"
-    #url: "https://jiahe.eu.org:15443/clash_verge/ruleset/classical_direct.yaml"
+    #url: "https://pub.loc.cc:15443/clash_verge/ruleset/classical_direct.yaml"
     path: ./ruleset/classical_direct.yaml
     interval: 86400
 
