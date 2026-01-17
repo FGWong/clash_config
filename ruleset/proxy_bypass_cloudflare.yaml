@@ -3,9 +3,6 @@ payload:
   - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,cathode-ray.tube
   - DOMAIN-SUFFIX,greasyfork.org
-  - DOMAIN-SUFFIX,gv.uy
-  - DOMAIN-SUFFIX,hd-torrents.org
-  - DOMAIN-SUFFIX,hd-torrents.me
   - DOMAIN-SUFFIX,nexconvert.com
   - DOMAIN-SUFFIX,matrix.org
   - DOMAIN-SUFFIX,linux.do
@@ -18,4 +15,5 @@ payload:
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,x.com
   - DOMAIN-KEYWORD,cloudflare
+  - DOMAIN-KEYWORD,hd-torrents
   - DOMAIN-KEYWORD,perplexity

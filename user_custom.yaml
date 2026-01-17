@@ -122,203 +122,75 @@ proxies:
           User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" # 可选，自定义请求头
     # 其他配置项可根据需要添加
 
-  - alterId: 0
-    cipher: auto
-    name: BE GCSL 01 @SubscriptionShare
-    port: 26150
-    server: 103.181.165.243
-    skip-cert-verify: true
+  - name: 移动-MAA-80-WS
+    type: vless
+    server: '2606:4700:83ba::1013:2aba'
+    port: 80
+    uuid: 55638c55-de0d-403b-a5b7-90a3a8647737
     tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: BG Belcloud 01 @SubscriptionShare
-    port: 26094
-    server: 103.181.165.243
-    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: super-moon-ba33.to2ai.workers.dev
+    tfo: false
+  - name: 电信-SIN-80-Trojan-WS
+    type: trojan
+    server: '2606:4700:4404::5df9:2431'
+    port: 80
+    password: 55638c55-de0d-403b-a5b7-90a3a8647737
     tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: CL AS 02 @SubscriptionShare
-    port: 26147
-    server: 103.181.165.243
-    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: super-moon-ba33.to2ai.workers.dev
+    tfo: false
+  - name: 电信-SIN-80-WS
+    type: vless
+    server: '2606:4700:4404::5df9:2431'
+    port: 80
+    uuid: 55638c55-de0d-403b-a5b7-90a3a8647737
     tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: CN NATOLAB 01 @SubscriptionShare
-    port: 26122
-    server: 103.181.165.243
-    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: super-moon-ba33.to2ai.workers.dev
+    tfo: false
+  - name: 电信-SIN-80-Trojan-WS
+    type: trojan
+    server: '2606:4700:440a::35e3:2481'
+    port: 80
+    password: 55638c55-de0d-403b-a5b7-90a3a8647737
     tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: CZ ASNET 01 @SubscriptionShare
-    port: 26100
-    server: 103.181.165.243
-    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: super-moon-ba33.to2ai.workers.dev
+    tfo: false
+  - name: 电信-SIN-80-WS
+    type: vless
+    server: '2606:4700:440f::1f67:1a1e'
+    port: 80
+    uuid: 55638c55-de0d-403b-a5b7-90a3a8647737
     tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: DE DIGITALOCEAN 02 @SubscriptionShare
-    port: 26112
-    server: 103.181.165.243
-    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: super-moon-ba33.to2ai.workers.dev
+    tfo: false
+  - name: 移动-MAA-80-WS
+    type: vless
+    server: '2606:4700:83b1::6a44:343f'
+    port: 80
+    uuid: 55638c55-de0d-403b-a5b7-90a3a8647737
     tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: DE ASNET 03 @SubscriptionShare
-    port: 26104
-    server: 103.181.165.243
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: GB DIGITALOCEAN 03 @SubscriptionShare
-    port: 26116
-    server: 103.181.165.243
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: GR GCSL 01 @SubscriptionShare
-    port: 26130
-    server: 103.181.165.243
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: IN DIGITALOCEAN 02 @SubscriptionShare
-    port: 26132
-    server: 103.181.165.243
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: NL DIGITALOCEAN 01 @SubscriptionShare
-    port: 26098
-    server: 103.181.165.243
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: NO HOSTHATCH 01 @SubscriptionShare
-    port: 26140
-    server: 103.181.165.243
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: PL ASNET 01 @SubscriptionShare
-    port: 26096
-    server: 103.181.165.243
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: RO CFIS 01 @SubscriptionShare
-    port: 26146
-    server: 103.181.165.243
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: RU LLC 02 @SubscriptionShare
-    port: 26090
-    server: 103.181.165.243
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: SC Kaopu 01 @SubscriptionShare
-    port: 26155
-    server: 103.181.165.243
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: SC Kaopu 02 @SubscriptionShare
-    port: 26124
-    server: 103.181.165.243
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: TR ASNET 03 @SubscriptionShare
-    port: 26092
-    server: 103.181.165.243
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: UA ASNET 01 @SubscriptionShare
-    port: 26106
-    server: 103.181.165.243
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-  - alterId: 0
-    cipher: auto
-    name: ZA AS 01 @SubscriptionShare
-    port: 26086
-    server: 103.181.165.243
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: super-moon-ba33.to2ai.workers.dev
+    tfo: false

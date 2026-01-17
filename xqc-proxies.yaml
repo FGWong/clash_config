@@ -243,3 +243,53 @@ proxies:
         host: freesni.zjde5.de5.net
     tfo: false
     skip-cert-verify: false
+  - name: Vl-ws-tls-vps-6d898976bf-jkp8f
+    type: vless
+    server: bwaybdfwemsz.ap-northeast-1.clawcloudrun.com
+    port: 443
+    uuid: 66b80b60-7877-416b-af71-f1c38acd7bdd
+    tls: true
+    client-fingerprint: chrome
+    servername: bwaybdfwemsz.ap-northeast-1.clawcloudrun.com
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: bwaybdfwemsz.ap-northeast-1.clawcloudrun.com
+    tfo: false
+    skip-cert-verify: false
+  - name: vvvva.to2ai.workers.dev
+    type: vless
+    server: yg1.ygkkk.dpdns.org
+    port: 8880
+    uuid: 55d2328a-8864-435d-a8ac-e59f4d848667
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: vvvva.to2ai.workers.dev
+  - name: '【机场推荐：https://a0a.xyz/】17'
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: "\U0001F1FA\U0001F1F8_US_美国"
+    type: vless
+    server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+    port: 443
+    uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+    tls: true
+    client-fingerprint: chrome
+    servername: i2pd.website
+    network: tcp
+    reality-opts:
+      public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+      short-id: 55e6af1a35e64a98
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
