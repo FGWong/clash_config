@@ -3,7 +3,7 @@ proxies:
   name: 0_kg
   network: ws
   port: 443
-  server: 172.64.53.45
+  server: 162.159.39.23
   servername: o.clayton.dpdns.org
   skip-cert-verify: true
   tfo: false
@@ -18,20 +18,20 @@ proxies:
   name: 1_eu
   network: ws
   port: 443
-  server: 162.159.45.1
-  servername: o.clayton.dpdns.org
+  server: 108.162.198.130
+  servername: a.fugang.dpdns.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: o.clayton.dpdns.org
-    path: /?ed=2560
+      Host: a.fugang.dpdns.org
+    path: /
 - client-fingerprint: random
   name: 2_kg
   network: ws
   port: 443
-  server: 162.159.38.233
+  server: 172.64.229.97
   servername: o.clayton.dpdns.org
   skip-cert-verify: true
   tfo: false
@@ -46,20 +46,20 @@ proxies:
   name: 3_eu
   network: ws
   port: 443
-  server: 162.159.44.121
-  servername: o.clayton.dpdns.org
+  server: 162.159.45.69
+  servername: a.fugang.dpdns.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: o.clayton.dpdns.org
-    path: /?ed=2560
+      Host: a.fugang.dpdns.org
+    path: /
 - client-fingerprint: random
   name: 4_kg
   network: ws
   port: 443
-  server: 108.162.198.240
+  server: 162.159.38.166
   servername: o.clayton.dpdns.org
   skip-cert-verify: true
   tfo: false
@@ -74,20 +74,20 @@ proxies:
   name: 5_eu
   network: ws
   port: 443
-  server: 172.64.52.210
-  servername: o.clayton.dpdns.org
+  server: 172.64.53.9
+  servername: a.fugang.dpdns.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: o.clayton.dpdns.org
-    path: /?ed=2560
+      Host: a.fugang.dpdns.org
+    path: /
 - client-fingerprint: random
   name: 6_kg
   network: ws
   port: 443
-  server: 162.159.39.185
+  server: 162.159.33.62
   servername: o.clayton.dpdns.org
   skip-cert-verify: true
   tfo: false
@@ -102,20 +102,20 @@ proxies:
   name: 7_eu
   network: ws
   port: 443
-  server: 172.64.229.51
-  servername: o.clayton.dpdns.org
+  server: 172.64.52.42
+  servername: a.fugang.dpdns.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: o.clayton.dpdns.org
-    path: /?ed=2560
+      Host: a.fugang.dpdns.org
+    path: /
 - client-fingerprint: random
   name: 8_kg
   network: ws
   port: 443
-  server: 172.64.32.80
+  server: 104.18.42.86
   servername: o.clayton.dpdns.org
   skip-cert-verify: true
   tfo: false
@@ -130,12 +130,12 @@ proxies:
   name: 9_eu
   network: ws
   port: 443
-  server: 172.64.152.76
-  servername: o.clayton.dpdns.org
+  server: 162.159.44.49
+  servername: a.fugang.dpdns.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: o.clayton.dpdns.org
-    path: /?ed=2560
+      Host: a.fugang.dpdns.org
+    path: /

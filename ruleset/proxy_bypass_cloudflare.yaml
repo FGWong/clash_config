@@ -2,6 +2,7 @@ payload:
   - PROCESS-NAME,Warp
   - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,cathode-ray.tube
+  - DOMAIN-SUFFIX,fuckip.me
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,nexconvert.com
   - DOMAIN-SUFFIX,matrix.org

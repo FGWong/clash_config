@@ -19,29 +19,21 @@ proxies:
   tfo: false
   type: trojan
   udp: true
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: NoMoreWalls|CN2｜家宽｜非常安全
+  name: NoMoreWalls|CN3｜家宽｜非常安全
   network: tcp
   port: '59003'
   server: 183.236.51.36
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: NoMoreWalls|香港5|@ripaojiedian
+- name: NoMoreWalls|香港3|@ripaojiedian
   network: tcp
-  password: BxceQaOe
+  password: 869e9086806483ca4744a4cb0f3d6e16
   port: 443
-  server: 58.152.110.50
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: NoMoreWalls|HK13｜家宽｜非常安全
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.219
-  skip-cert-verify: true
-  sni: 58.152.53.219
+  server: 58.152.18.124
+  sni: www.nintendogames.net
   type: trojan
 - name: forever|Vless_Websocket
   network: ws
@@ -54,58 +46,123 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- cipher: aes-256-gcm
-  name: airport|CZ_95105_0001
-  password: d2umVadPT1m/FwIn
-  port: 8388
-  server: 194.87.10.161
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: airport|https://t.me/zyzzzoao ⚡️-11
-  password: qwerREWQ@@
-  port: 44112
-  server: 168.126.234.230
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - client-fingerprint: chrome
-  name: airport|香港4|@ripaojiedian
+  name: airport|新加坡3|@ripaojiedian
   password: BxceQaOe
-  port: 4329
-  server: 13.115.134.113
+  port: 2673
+  server: 43.198.16.69
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- client-fingerprint: chrome
+  name: airport|日本3|@ripaojiedian-2
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 1933
+  server: 160.16.89.176
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: airport|新加坡|@ripaojiedian-2
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 3076
+  server: 160.16.89.176
+  sni: www.nintendogames.net
+  type: trojan
+- name: ruk1ng|⚪🏳️_github.com/Ruk1ng001_3a9a26d2
+  password: HutaoCloud
+  port: 10443
+  server: 185.220.238.77
+  skip-cert-verify: true
+  sni: jp1.hutaonode.top
+  type: trojan
+- cipher: chacha20-ietf
+  name: ruk1ng|🔴🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001_4c0b453c
+  obfs: plain
+  obfs-param: 1fa5048573.microsoft.com
+  password: NaikoCloud
+  port: 15410
+  protocol: auth_aes128_md5
+  protocol-param: 48573:t6DrnkxCikNadiIT
+  server: 27.150.132.73
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ruk1ng|⚪🏳️_github.com/Ruk1ng001_434f0f3a
+  password: NaikoCloud
+  port: 19810
+  server: 185.220.238.83
+  type: ss
+- name: ruk1ng|🟢🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001_65d3375b
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.219
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: airport|🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.157.220:443-01
-  network: ws
-  password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
-  port: 443
-  server: 172.67.157.220
-  sni: 6666YHjU.777159.xYz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 6666yhju.777159.xyz
-    path: /dilyfCPEmLvYr5hYXD
-- cipher: aes-256-cfb
-  name: airport|🇫🇷FR-195.154.119.77-0444 | 20.409MB
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 195.154.119.77
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  name: ruk1ng|🟡_🇨🇳_📶_github.com/Ruk1ng001_3165323762303130
-  password: '123'
-  port: 6100
-  server: 14.18.106.88
+- cipher: chacha20-ietf
+  name: ruk1ng|🔴🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001_823c5181
+  obfs: plain
+  obfs-param: 1fa5048573.microsoft.com
+  password: NaikoCloud
+  port: 15403
+  protocol: auth_aes128_md5
+  protocol-param: 48573:t6DrnkxCikNadiIT
+  server: 27.150.132.73
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: ruk1ng|🔴🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001_7ce4de79
+  obfs: plain
+  obfs-param: 1fa5048573.microsoft.com
+  password: NaikoCloud
+  port: 15409
+  protocol: auth_aes128_md5
+  protocol-param: 48573:t6DrnkxCikNadiIT
+  server: 27.150.132.73
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: ruk1ng|🔴🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001_1a1547ed
+  obfs: plain
+  obfs-param: 1fa5048573.microsoft.com
+  password: NaikoCloud
+  port: 15407
+  protocol: auth_aes128_md5
+  protocol-param: 48573:t6DrnkxCikNadiIT
+  server: 27.150.132.73
+  type: ssr
+  udp: true
+- client-fingerprint: chrome
+  name: ruk1ng|🟢🇭🇰[📺🎭📦🔍]_github.com/Ruk1ng001_73190860
+  network: tcp
+  password: aaee4477-81cd-44c0-9bfa-0a7ad8f7d783
+  port: 31103
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  tls: true
-  type: ss
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: ruk1ng|🟢🇺🇸[📺🎪📦🔍]_github.com/Ruk1ng001_3799c9e7
+  network: tcp
+  password: 03c12414-6ad7-4e37-831a-41b59f9406fd
+  port: 35502
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: ruk1ng|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_6e8e6eff
+  network: tcp
+  password: 909020a3-40d6-47ba-93f3-fedde341e6aa
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: ermaozi|🇷🇺_RU_俄罗斯
   password: SBM7R883jBmnqe6C
@@ -148,10 +205,3 @@ proxies:
   port: 989
   server: 91.132.94.200
   type: ss
-- name: mahdiblanda|🇭🇰HK-58.152.18.147-0888 | 3.309MB
-  password: 4843e94d205f3893f588255a591abe94
-  port: 443
-  server: 58.152.18.147
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan

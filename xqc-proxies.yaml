@@ -51,58 +51,6 @@ proxies:
     skip-cert-verify: true
     ip-version: dual
     congestion-controller: bbr
-  - name: vl-reality-hksev
-    type: vless
-    server: 151.243.22.28
-    port: 40127
-    uuid: 3f84e932-efed-468b-9097-0ade250fcf1c
-    tls: true
-    client-fingerprint: chrome
-    servername: www.yahoo.com
-    network: tcp
-    reality-opts:
-      public-key: 4y_EyROSTIkQJYaQ3XqDSxBJ-Kvat_8nC0nqepreVFQ
-      short-id: b75a3601
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: hy2-hksev
-    type: hysteria2
-    server: 151.243.22.28
-    port: 40129
-    password: 3f84e932-efed-468b-9097-0ade250fcf1c
-    auth: 3f84e932-efed-468b-9097-0ade250fcf1c
-    skip-cert-verify: true
-  - name: tu5-hksev
-    type: tuic
-    server: 151.243.22.28
-    port: 40130
-    uuid: 3f84e932-efed-468b-9097-0ade250fcf1c%3A3f84e932-efed-468b-9097-0ade250fcf1c
-    skip-cert-verify: true
-    disable-sni: true
-    alpn:
-      - h3
-    sni: www.bing.com
-    udp-relay-mode: native
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    name: "芬兰|4.2MB/s"
-    network: ws
-    port: "2087"
-    server: www.researchgate.net
-    servername: interimrita.shividpolo.store
-    tls: true
-    type: vless
-    udp: true
-    uuid: cd7f3c2f-8d6d-4ad8-98eb-fb10e0f6da9e
-    ws-opts:
-      headers:
-          Host: interimrita.shividpolo.store
-          User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-      path: /downloader?ed=2048
-    xudp: true
   - name: 🇭🇰香港精品2
     password: <password>
     port: 443
@@ -158,36 +106,6 @@ proxies:
         host: vless3.datatestvless.click
     tfo: false
     skip-cert-verify: false
-  - name: "\U0001F1EC\U0001F1E7"
-    type: vless
-    server: 8.217.180.234
-    port: 443
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    tls: true
-    client-fingerprint: chrome
-    servername: kuangbao.xiejiang.dpdns.org
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        host: kuangbao.xiejiang.dpdns.org
-    tfo: false
-    skip-cert-verify: false
-  - name: "\U0001F1EC\U0001F1E7"
-    type: vless
-    server: 104.18.45.223
-    port: 443
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    tls: true
-    client-fingerprint: chrome
-    servername: kuangbao.xiejiang.dpdns.org
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        host: kuangbao.xiejiang.dpdns.org
-    tfo: false
-    skip-cert-verify: false
   - { name: NL1, server: '2001:bc8:1640:50eb:dc00:ff:fe57:dd6f', port: 58641, sni: Ab.ac, up: null, down: null, skip-cert-verify: true, ports: 50000-60000, type: hysteria2, password: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14, obfs: salamander, obfs-password: FnFgQIckcMRtKq7i }
   - name: "\U0001F1EC\U0001F1E7"
     type: vless
@@ -213,36 +131,6 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: de5-snippets-vless
-    type: vless
-    server: www.shopify.com
-    port: 2053
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    tls: true
-    client-fingerprint: chrome
-    servername: freesni.zjde5.de5.net
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        host: freesni.zjde5.de5.net
-    tfo: false
-    skip-cert-verify: false
-  - name: de5-snippets-trojan
-    type: trojan
-    server: www.shopify.com
-    port: 2087
-    password: '666'
-    tls: true
-    client-fingerprint: chrome
-    sni: freesni.zjde5.de5.net
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        host: freesni.zjde5.de5.net
-    tfo: false
-    skip-cert-verify: false
   - name: Vl-ws-tls-vps-6d898976bf-jkp8f
     type: vless
     server: bwaybdfwemsz.ap-northeast-1.clawcloudrun.com
@@ -293,3 +181,46 @@ proxies:
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
+  - name: Standby-vless
+    type: vless
+    server: tg2.another-kanon.top
+    port: 8848
+    uuid: 25bb0558-61f1-4c40-ba91-32add6d6d920
+    tls: true
+    client-fingerprint: chrome
+    servername: www.tesla.com
+    network: tcp
+    reality-opts:
+      public-key: YSv3Ltg8QD4aclPuk8hVkRnqVUdjZdfF5DDvjrmYKFY
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: Standby-hysteria2
+    type: hysteria2
+    server: tg2.another-kanon.top
+    port: 8849
+    password: QKVp1aw1mi
+    auth: QKVp1aw1mi
+    skip-cert-verify: true
+  - name: ALL-vless
+    type: vless
+    server: all.another-kanon.top
+    port: 443
+    uuid: 7ff051a7-2576-458e-bf82-79ae9193f2c0
+    tls: true
+    client-fingerprint: chrome
+    servername: snap.licdn.com
+    network: tcp
+    reality-opts:
+      public-key: 5xNp9lCEk37IofU6hTpid4QnbyU-2KFtL5YHzq9LAws
+      short-id: 7b10
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: ALL-hysteria2
+    type: hysteria2
+    server: all.another-kanon.top
+    port: 8443
+    password: Tv9XEXlqH9
+    auth: Tv9XEXlqH9
+    skip-cert-verify: true

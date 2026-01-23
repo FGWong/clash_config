@@ -1,181 +1,521 @@
 proxies:
-- client-fingerprint: random
+- client-fingerprint: chrome
+  name: 加入我的频道t.me/CMLiussss解锁更多优选节点
+  network: ws
+  port: 443
+  server: Join.my.Telegram.channel.CMLiussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
   name: CFnat
   network: ws
   port: 1234
   server: 127.0.0.1
-  servername: ele.jiahe.eu.org
-  skip-cert-verify: true
-  tfo: false
+  servername: a.fugang.dpdns.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: ele.jiahe.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇭🇰 HK
   network: ws
   port: 443
-  server: 103.21.244.82
-  servername: ele.jiahe.eu.org
-  skip-cert-verify: true
-  tfo: false
+  server: 159.138.138.87
+  servername: a.fugang.dpdns.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: ele.jiahe.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点 2
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇭🇰 HK 2
   network: ws
   port: 443
-  server: 104.16.194.219
-  servername: ele.jiahe.eu.org
-  skip-cert-verify: true
-  tfo: false
+  server: 47.76.218.163
+  servername: a.fugang.dpdns.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: ele.jiahe.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点 3
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇬🇧 GB
   network: ws
   port: 443
-  server: 104.24.111.138
-  servername: ele.jiahe.eu.org
-  skip-cert-verify: true
-  tfo: false
+  server: 57.128.181.91
+  servername: a.fugang.dpdns.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: ele.jiahe.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点 4
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: FI
+  network: ws
+  port: 2053
+  server: 46.8.71.32
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇳🇱 NL
   network: ws
   port: 443
-  server: 172.64.156.47
-  servername: ele.jiahe.eu.org
-  skip-cert-verify: true
-  tfo: false
+  server: 194.87.82.149
+  servername: a.fugang.dpdns.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: ele.jiahe.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点 5
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: LV
   network: ws
   port: 443
-  server: 103.21.244.63
-  servername: ele.jiahe.eu.org
-  skip-cert-verify: true
-  tfo: false
+  server: 5.34.211.103
+  servername: a.fugang.dpdns.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: ele.jiahe.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点 6
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: AM
+  network: ws
+  port: 8443
+  server: 213.159.76.202
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇬🇧 GB 2
+  network: ws
+  port: 8443
+  server: 57.129.137.239
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: FI 2
   network: ws
   port: 443
-  server: 104.16.198.21
-  servername: ele.jiahe.eu.org
-  skip-cert-verify: true
-  tfo: false
+  server: 91.149.254.40
+  servername: a.fugang.dpdns.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: ele.jiahe.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点 7
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇬🇧 GB 3
   network: ws
   port: 443
-  server: 104.24.13.4
-  servername: ele.jiahe.eu.org
-  skip-cert-verify: true
-  tfo: false
+  server: 57.129.137.95
+  servername: a.fugang.dpdns.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: ele.jiahe.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点 8
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇦🇺 AU
+  network: ws
+  port: 8443
+  server: 150.230.14.79
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷 FR
+  network: ws
+  port: 2053
+  server: 188.130.207.162
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: FI 3
+  network: ws
+  port: 8443
+  server: 31.59.168.250
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇺🇸 US
   network: ws
   port: 443
-  server: 141.101.67.249
-  servername: ele.jiahe.eu.org
-  skip-cert-verify: true
-  tfo: false
+  server: 154.17.225.73
+  servername: a.fugang.dpdns.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: ele.jiahe.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点 9
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: FI 4
+  network: ws
+  port: 2053
+  server: 31.56.206.159
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇳🇱 NL 2
+  network: ws
+  port: 8443
+  server: 193.219.99.179
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷 FR 2
+  network: ws
+  port: 8443
+  server: 51.38.49.203
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇬🇧 GB 4
+  network: ws
+  port: 8443
+  server: 57.128.183.79
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷 FR 3
+  network: ws
+  port: 4433
+  server: 89.168.39.19
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇯🇵 JP
+  network: ws
+  port: 18836
+  server: 5.226.51.243
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇰🇷 KR
+  network: ws
+  port: 50001
+  server: 106.248.57.44
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇰🇷 KR 2
+  network: ws
+  port: 50001
+  server: 106.242.11.26
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇺🇸 US 2
+  network: ws
+  port: 80
+  server: 44.228.63.60
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪 DE
+  network: ws
+  port: 10000
+  server: 148.251.41.50
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇰🇷 KR 3
+  network: ws
+  port: 50001
+  server: 49.169.160.43
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇰🇷 KR 4
+  network: ws
+  port: 50001
+  server: 112.212.105.207
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: CF优选-电信
   network: ws
   port: 443
-  server: 172.64.83.211
-  servername: ele.jiahe.eu.org
-  skip-cert-verify: true
-  tfo: false
+  server: 173.245.59.166
+  servername: a.fugang.dpdns.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: ele.jiahe.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点 10
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: CF优选-电信 2
   network: ws
   port: 443
-  server: 188.114.103.178
-  servername: ele.jiahe.eu.org
-  skip-cert-verify: true
-  tfo: false
+  server: 198.41.223.230
+  servername: a.fugang.dpdns.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: ele.jiahe.eu.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: CF随机节点 11
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: CF优选-电信 3
   network: ws
   port: 443
-  server: 190.93.240.118
-  servername: ele.jiahe.eu.org
-  skip-cert-verify: true
-  tfo: false
+  server: 173.245.58.215
+  servername: a.fugang.dpdns.org
   tls: true
   type: vless
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
   ws-opts:
     headers:
-      Host: ele.jiahe.eu.org
-    path: /?ed=2560
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: CF优选-电信 4
+  network: ws
+  port: 443
+  server: 8.35.211.25
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: CF优选-联通
+  network: ws
+  port: 443
+  server: 172.67.68.10
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: CF优选-联通 2
+  network: ws
+  port: 443
+  server: 104.26.0.12
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: CF优选-联通 3
+  network: ws
+  port: 443
+  server: 104.26.11.231
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: CF优选-联通 4
+  network: ws
+  port: 443
+  server: 172.67.77.246
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: CF优选-移动
+  network: ws
+  port: 443
+  server: 104.19.50.21
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: CF优选-移动 2
+  network: ws
+  port: 443
+  server: 104.19.57.209
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: CF优选-移动 3
+  network: ws
+  port: 443
+  server: 162.159.152.113
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: CF优选-移动 4
+  network: ws
+  port: 443
+  server: 104.19.43.166
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
