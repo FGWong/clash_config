@@ -28,8 +28,8 @@ proxies:
 - client-fingerprint: chrome
   name: 🇭🇰 HK
   network: ws
-  port: 443
-  server: 159.138.138.87
+  port: 8443
+  server: 38.180.189.220
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -42,20 +42,7 @@ proxies:
   name: 🇭🇰 HK 2
   network: ws
   port: 443
-  server: 47.76.218.163
-  servername: a.fugang.dpdns.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: a.fugang.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: 🇬🇧 GB
-  network: ws
-  port: 443
-  server: 57.128.181.91
+  server: 103.219.194.43
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -68,7 +55,20 @@ proxies:
   name: FI
   network: ws
   port: 2053
-  server: 46.8.71.32
+  server: 94.131.100.225
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷 FR
+  network: ws
+  port: 8443
+  server: 141.94.222.42
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -81,150 +81,7 @@ proxies:
   name: 🇳🇱 NL
   network: ws
   port: 443
-  server: 194.87.82.149
-  servername: a.fugang.dpdns.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: a.fugang.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: LV
-  network: ws
-  port: 443
-  server: 5.34.211.103
-  servername: a.fugang.dpdns.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: a.fugang.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: AM
-  network: ws
-  port: 8443
-  server: 213.159.76.202
-  servername: a.fugang.dpdns.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: a.fugang.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: 🇬🇧 GB 2
-  network: ws
-  port: 8443
-  server: 57.129.137.239
-  servername: a.fugang.dpdns.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: a.fugang.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: FI 2
-  network: ws
-  port: 443
-  server: 91.149.254.40
-  servername: a.fugang.dpdns.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: a.fugang.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: 🇬🇧 GB 3
-  network: ws
-  port: 443
-  server: 57.129.137.95
-  servername: a.fugang.dpdns.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: a.fugang.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: 🇦🇺 AU
-  network: ws
-  port: 8443
-  server: 150.230.14.79
-  servername: a.fugang.dpdns.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: a.fugang.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: 🇫🇷 FR
-  network: ws
-  port: 2053
-  server: 188.130.207.162
-  servername: a.fugang.dpdns.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: a.fugang.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: FI 3
-  network: ws
-  port: 8443
-  server: 31.59.168.250
-  servername: a.fugang.dpdns.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: a.fugang.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: 🇺🇸 US
-  network: ws
-  port: 443
-  server: 154.17.225.73
-  servername: a.fugang.dpdns.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: a.fugang.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: FI 4
-  network: ws
-  port: 2053
-  server: 31.56.206.159
-  servername: a.fugang.dpdns.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: a.fugang.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: 🇳🇱 NL 2
-  network: ws
-  port: 8443
-  server: 193.219.99.179
+  server: 171.22.117.44
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -236,21 +93,8 @@ proxies:
 - client-fingerprint: chrome
   name: 🇫🇷 FR 2
   network: ws
-  port: 8443
-  server: 51.38.49.203
-  servername: a.fugang.dpdns.org
-  tls: true
-  type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: a.fugang.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: 🇬🇧 GB 4
-  network: ws
-  port: 8443
-  server: 57.128.183.79
+  port: 2053
+  server: 141.94.205.248
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -262,8 +106,8 @@ proxies:
 - client-fingerprint: chrome
   name: 🇫🇷 FR 3
   network: ws
-  port: 4433
-  server: 89.168.39.19
+  port: 2053
+  server: 146.59.228.27
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -273,10 +117,153 @@ proxies:
       Host: a.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
-  name: 🇯🇵 JP
+  name: 🇫🇷 FR 4
   network: ws
-  port: 18836
-  server: 5.226.51.243
+  port: 2053
+  server: 146.59.230.8
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪 DE
+  network: ws
+  port: 8443
+  server: 193.219.99.226
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷 FR 5
+  network: ws
+  port: 2053
+  server: 51.75.23.189
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇬🇧 GB
+  network: ws
+  port: 8443
+  server: 57.129.137.235
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 2
+  network: ws
+  port: 8443
+  server: 193.219.99.104
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇦🇺 AU
+  network: ws
+  port: 443
+  server: 209.38.84.245
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: SE
+  network: ws
+  port: 443
+  server: 89.22.238.128
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷 FR 6
+  network: ws
+  port: 2053
+  server: 87.98.173.47
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷 FR 7
+  network: ws
+  port: 8443
+  server: 141.94.207.153
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬 SG
+  network: ws
+  port: 443
+  server: 104.43.91.69
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷 FR 8
+  network: ws
+  port: 8443
+  server: 51.75.19.60
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇺🇸 US
+  network: ws
+  port: 27149
+  server: 107.173.30.154
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -289,7 +276,20 @@ proxies:
   name: 🇰🇷 KR
   network: ws
   port: 50001
-  server: 106.248.57.44
+  server: 106.252.226.110
+  servername: a.fugang.dpdns.org
+  tls: true
+  type: vless
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
+  ws-opts:
+    headers:
+      Host: a.fugang.dpdns.org
+    path: /
+- client-fingerprint: chrome
+  name: FI 2
+  network: ws
+  port: 4443
+  server: 37.27.186.177
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -314,8 +314,8 @@ proxies:
 - client-fingerprint: chrome
   name: 🇺🇸 US 2
   network: ws
-  port: 80
-  server: 44.228.63.60
+  port: 9443
+  server: 107.172.218.156
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -325,10 +325,10 @@ proxies:
       Host: a.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
-  name: 🇩🇪 DE
+  name: 🇺🇸 US 3
   network: ws
-  port: 10000
-  server: 148.251.41.50
+  port: 81
+  server: 82.117.252.189
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -338,10 +338,10 @@ proxies:
       Host: a.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
-  name: 🇰🇷 KR 3
+  name: 🇺🇸 US 4
   network: ws
-  port: 50001
-  server: 49.169.160.43
+  port: 54321
+  server: 154.12.53.125
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -351,10 +351,10 @@ proxies:
       Host: a.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
-  name: 🇰🇷 KR 4
+  name: 🇺🇸 US 5
   network: ws
-  port: 50001
-  server: 112.212.105.207
+  port: 35398
+  server: 107.173.147.41
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -367,7 +367,7 @@ proxies:
   name: CF优选-电信
   network: ws
   port: 443
-  server: 173.245.59.166
+  server: 173.245.58.187
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -380,7 +380,7 @@ proxies:
   name: CF优选-电信 2
   network: ws
   port: 443
-  server: 198.41.223.230
+  server: 8.35.211.58
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -393,7 +393,7 @@ proxies:
   name: CF优选-电信 3
   network: ws
   port: 443
-  server: 173.245.58.215
+  server: 162.159.44.120
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -406,7 +406,7 @@ proxies:
   name: CF优选-电信 4
   network: ws
   port: 443
-  server: 8.35.211.25
+  server: 173.245.59.55
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -419,7 +419,7 @@ proxies:
   name: CF优选-联通
   network: ws
   port: 443
-  server: 172.67.68.10
+  server: 104.26.14.126
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -432,7 +432,7 @@ proxies:
   name: CF优选-联通 2
   network: ws
   port: 443
-  server: 104.26.0.12
+  server: 172.67.68.151
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -445,7 +445,7 @@ proxies:
   name: CF优选-联通 3
   network: ws
   port: 443
-  server: 104.26.11.231
+  server: 172.67.67.51
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -458,7 +458,7 @@ proxies:
   name: CF优选-联通 4
   network: ws
   port: 443
-  server: 172.67.77.246
+  server: 172.67.65.240
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -471,7 +471,7 @@ proxies:
   name: CF优选-移动
   network: ws
   port: 443
-  server: 104.19.50.21
+  server: 104.19.61.111
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -484,7 +484,7 @@ proxies:
   name: CF优选-移动 2
   network: ws
   port: 443
-  server: 104.19.57.209
+  server: 162.159.152.228
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -497,7 +497,7 @@ proxies:
   name: CF优选-移动 3
   network: ws
   port: 443
-  server: 162.159.152.113
+  server: 162.159.152.36
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
@@ -510,7 +510,7 @@ proxies:
   name: CF优选-移动 4
   network: ws
   port: 443
-  server: 104.19.43.166
+  server: 104.19.46.147
   servername: a.fugang.dpdns.org
   tls: true
   type: vless
