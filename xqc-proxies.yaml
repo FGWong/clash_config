@@ -224,3 +224,10 @@ proxies:
     password: Tv9XEXlqH9
     auth: Tv9XEXlqH9
     skip-cert-verify: true
+  - name: 米粒-HY2
+    type: hysteria2
+    server: 8.211.161.44
+    port: 5134
+    password: emM91IvYI6L7yPoa7yFrSKUAII0
+    auth: emM91IvYI6L7yPoa7yFrSKUAII0
+    skip-cert-verify: true

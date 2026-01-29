@@ -19,6 +19,7 @@ dns:
   prefer-h3: true
   ipv6: true
   default-nameserver:
+    - 119.29.29.29
     - 114.114.114.114
     - 8.8.8.8
       #- system
@@ -563,7 +564,7 @@ cfw-bypass:
   - "*.zhuihd.com"
   - localhost
   - 127.*
-  - 10.*
+  - 10.0.0.0/8
   - 172.16.0.0/12
   - 192.168.0.0/16
   - 192.0.0.0/24
@@ -932,14 +933,14 @@ rule-providers:
     type: http
     behavior: classical
     #url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Download.yaml"
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Download.yaml"
+    url: "https://gh-proxy.com/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Download.yaml"
     path: ./ruleset/Download.yaml
     interval: 86400
   OneDrive:
     type: http
     behavior: classical
     #url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
+    url: "https://gh-proxy.com/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
     path: ./ruleset/OneDrive.yaml
     interval: 86400
   Twitter:
