@@ -1,79 +1,91 @@
 proxies:
-- name: CF_V8_usa.visa.com_443
-  network: ws
-  port: 443
-  server: usa.visa.com
-  servername: o.clayton.dpdns.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: o.clayton.dpdns.org
-    path: /?ed=2560
-- name: CF_V9_myanmar.visa.com_8443
-  network: ws
-  port: 8443
-  server: myanmar.visa.com
-  servername: o.clayton.dpdns.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: o.clayton.dpdns.org
-    path: /?ed=2560
-- name: CF_V10_www.visa.com.tw_2053
-  network: ws
-  port: 2053
-  server: www.visa.com.tw
-  servername: o.clayton.dpdns.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: o.clayton.dpdns.org
-    path: /?ed=2560
-- name: CF_V11_www.visaeurope.ch_2083
-  network: ws
-  port: 2083
-  server: www.visaeurope.ch
-  servername: o.clayton.dpdns.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: o.clayton.dpdns.org
-    path: /?ed=2560
-- name: CF_V12_www.visa.com.br_2087
-  network: ws
-  port: 2087
-  server: www.visa.com.br
-  servername: o.clayton.dpdns.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: o.clayton.dpdns.org
-    path: /?ed=2560
-- name: CF_V13_www.visasoutheasteurope.com_2096
-  network: ws
-  port: 2096
-  server: www.visasoutheasteurope.com
-  servername: o.clayton.dpdns.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b2
-  ws-opts:
-    headers:
-      Host: o.clayton.dpdns.org
-    path: /?ed=2560
+  - {"name":"🦥 懒人 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8091,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🦥 懒人 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38091,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🦥 懒人 02A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8092,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🦥 懒人 02B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38092,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8081,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38081,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 02A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8082,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 02B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38082,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 03A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8083,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 03B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38083,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 04A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8084,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 04B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38084,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 05A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8085,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 05B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38085,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 06A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8086,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 06B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38086,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 07A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8087,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 07B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38087,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 08A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8088,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 08B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38088,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 09A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8089,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇭🇰 香港 09B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38089,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇹🇼 台湾 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8071,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇹🇼 台湾 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38071,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇹🇼 台湾 02A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8072,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇹🇼 台湾 02B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38072,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇸🇬 狮城 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8061,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇸🇬 狮城 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38061,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇸🇬 狮城 02A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8062,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇸🇬 狮城 02B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38062,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇸🇬 狮城 03A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8063,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇸🇬 狮城 03B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38063,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇯🇵 日本 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8051,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇯🇵 日本 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38051,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇯🇵 日本 02A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8052,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇯🇵 日本 02B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38052,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇯🇵 日本 03A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8053,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇯🇵 日本 03B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38053,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇯🇵 日本 04A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8054,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇯🇵 日本 04B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38054,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇯🇵 日本 05A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8055,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇯🇵 日本 05B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38055,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇯🇵 日本 06A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8056,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇯🇵 日本 06B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38056,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇰🇷 韩国 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8059,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇰🇷 韩国 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38059,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇺🇸 美国 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8041,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇺🇸 美国 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38041,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇺🇸 美国 02A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8042,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇺🇸 美国 02B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38042,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇺🇸 美国 03A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8043,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇺🇸 美国 03B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38043,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇺🇸 美国 04A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8044,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇺🇸 美国 04B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38044,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇺🇸 美国 05A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8045,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇺🇸 美国 05B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38045,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇺🇸 美国 06A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":8046,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇺🇸 美国 06B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":38046,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇷🇺 俄罗斯 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":7080,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇷🇺 俄罗斯 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":37080,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇺🇦 乌克兰 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":7081,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇺🇦 乌克兰 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":37081,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇹🇷 土耳其 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":7082,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇹🇷 土耳其 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":37082,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇩🇪 德国 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":7083,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇩🇪 德国 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":37083,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇱🇺 卢森堡 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":7084,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇱🇺 卢森堡 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":37084,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇬🇧 英国 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":7085,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇬🇧 英国 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":37085,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇵🇭 菲律宾 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":7086,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇵🇭 菲律宾 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":37086,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇮🇳 印度 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":7087,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇮🇳 印度 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":37087,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇹🇭 泰国 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":7088,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇹🇭 泰国 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":37088,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇲🇾 马来西亚 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":7089,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇲🇾 马来西亚 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":37089,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇦🇪 阿联酋 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":7090,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇦🇪 阿联酋 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":37090,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇳🇬 尼日利亚 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":7091,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇳🇬 尼日利亚 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":37091,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇿🇦 南非 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":7092,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇿🇦 南非 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":37092,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇮🇶 伊拉克 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":7093,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇮🇶 伊拉克 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":37093,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇦🇷 阿根廷 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":7095,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇦🇷 阿根廷 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":37095,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇨🇦 加拿大 01A","type":"vmess","server":"fed37250-ca46-4f25-b30d-c92110bcc61e.su7.buzz","port":7098,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
+  - {"name":"🇨🇦 加拿大 01B","type":"vmess","server":"5a24d062-dd2a-4594-9a7c-cda6a8a7dcff.yu7.buzz","port":37098,"cipher":"aes-128-gcm","uuid":"c0e8bc67-2ac3-411d-8842-b6d8a5c9b786","alterId":0,"tls":false,"network":"http","http-opts":{"path":["/"],"headers":{"Host":["tms.dingtalk.com"]}}}
