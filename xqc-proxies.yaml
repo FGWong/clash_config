@@ -250,3 +250,54 @@ proxies:
     port: 443
     cipher: chacha20-ietf-poly1305
     password: 9tqhMdIrTkgQ46PvhyAtMH
+  - name: "\U0001F1FA\U0001F1F8_US_美国"
+    type: vless
+    server: 68.64.179.250
+    port: 443
+    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    tls: true
+    client-fingerprint: chrome
+    servername: ylnhh.cc.cd
+    network: ws
+    ws-opts:
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+      headers:
+        host: ylnhh.cc.cd
+    tfo: false
+    skip-cert-verify: false
+  - name: "\U0001F1FF\U0001F1E6_ZA_南非->\U0001F1FA\U0001F1F8_US_美国"
+    type: ss
+    server: 102.37.237.190
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: RoHaFyD4IpW8W2LC
+  - name: "\U0001F1F7\U0001F1FA_RU_俄罗斯->\U0001F1F8\U0001F1EC_SG_新加坡"
+    type: vless
+    server: 194.87.10.77
+    port: 443
+    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    tls: true
+    client-fingerprint: chrome
+    servername: ylnhh.cc.cd
+    network: ws
+    ws-opts:
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+      headers:
+        host: ylnhh.cc.cd
+    tfo: false
+    skip-cert-verify: false
+  - name: "\U0001F1FA\U0001F1F8_US_美国"
+    type: vless
+    server: 198.62.62.124
+    port: 443
+    uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+    tls: true
+    client-fingerprint: chrome
+    servername: war.connecticut-haloo.info
+    network: ws
+    ws-opts:
+      path: /love
+      headers:
+        host: war.connecticut-haloo.info
+    tfo: false
+    skip-cert-verify: false

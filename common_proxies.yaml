@@ -19,6 +19,23 @@ proxies:
   tfo: false
   type: trojan
   udp: true
+- name: NoMoreWalls|HK_speednode_0017
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: NoMoreWalls|US74｜机房｜低风险
+  network: tcp
+  port: '34114'
+  server: 103.181.164.237
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: forever|Vless_Websocket
   network: ws
   port: 8080
@@ -30,15 +47,48 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: airport|🇭🇰 香港5|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: airport|🇪🇸 西班牙 | ESP 3
   network: tcp
-  password: BxceQaOe
+  port: 22324
+  server: 85.90.217.42
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: chacha20-ietf-poly1305
+  name: airport|未知 SS-07 | free-nodes-001
+  password: aduB9HGxQHjA2SBMRjkHX6
   port: 443
-  server: 58.152.25.253
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+  server: 102.37.156.224
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: '0'
+  cipher: auto
+  name: ruk1ng|🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001_fdb7a8a0
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d95d95c5-8222-43a8-a7f9-ab2b1be317a6
+  ws-opts:
+    headers:
+      Host: 8f0265a9fe8497203bee1c343489f105.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- cipher: chacha20-ietf
+  name: ruk1ng|🔴🇭🇰[🎬📺]_github.com/Ruk1ng001_TAy4COsc
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
+  type: ss
 - cipher: aes-256-cfb
   name: ermaozi|🇷🇺_RU_俄罗斯
   password: SBM7R883jBmnqe6C
@@ -80,4 +130,10 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 91.132.94.200
+  type: ss
+- cipher: aes-256-cfb
+  name: mahdiblanda|🇨🇳TW-185.189.160.105-0310 | 6.127MB
+  password: qwerREWQ@@
+  port: 41632
+  server: 185.189.160.105
   type: ss
