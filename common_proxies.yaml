@@ -19,23 +19,14 @@ proxies:
   tfo: false
   type: trojan
   udp: true
-- name: NoMoreWalls|HK_speednode_0017
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: NoMoreWalls|US74｜机房｜低风险
+- name: NoMoreWalls|日本|@ripaojiedian
   network: tcp
-  port: '34114'
-  server: 103.181.164.237
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  password: BxceQaOe
+  port: 3022
+  server: 13.113.229.223
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: forever|Vless_Websocket
   network: ws
   port: 8080
@@ -47,45 +38,44 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇪🇸 西班牙 | ESP 3
-  network: tcp
-  port: 22324
-  server: 85.90.217.42
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: chacha20-ietf-poly1305
-  name: airport|未知 SS-07 | free-nodes-001
-  password: aduB9HGxQHjA2SBMRjkHX6
-  port: 443
-  server: 102.37.156.224
-  skip-cert-verify: false
+  name: ruk1ng|🔴🇭🇰[🎬📺]_github.com/Ruk1ng001_2e443e9d
+  password: K741Si1YD2wZ9HHyp5EpRs
+  port: 22573
+  server: 158.255.208.39
   type: ss
-  udp: false
+  udp: true
 - cipher: chacha20-ietf
-  name: ruk1ng|🟢🇭🇰_github.com/Ruk1ng001_b4962b18
+  name: ruk1ng|🔴🇭🇰_github.com/Ruk1ng001_TAy4COsc
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
+  type: ss
+- cipher: chacha20-ietf
+  name: ruk1ng|🔴🇭🇰_github.com/Ruk1ng001_AJrBnYnC
   password: asd123456
   port: 8388
   server: 103.149.182.105
   type: ss
   udp: true
-- cipher: chacha20-ietf
-  name: ruk1ng|🔴🇸🇬[📺🎪]_github.com/Ruk1ng001_7KBJLIuL
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
-- cipher: chacha20-ietf
-  name: ruk1ng|🟢🇭🇰[📺]_github.com/Ruk1ng001_dc08bbd1
-  password: asd123456
-  port: 8388
-  server: 103.149.183.80
-  type: ss
+- alterId: '0'
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - 51.68.240.35
+    path:
+    - /
+  name: ruk1ng|🔴🇫🇷[🎬🤖📺📦]_github.com/Ruk1ng001_9e8fd167
+  network: http
+  port: 443
+  server: 51.68.240.35
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 491ce522-7923-41ad-869f-df74539af6e0
+  xudp: true
 - cipher: aes-256-cfb
   name: ermaozi|🇷🇺_RU_俄罗斯
   password: SBM7R883jBmnqe6C
@@ -129,8 +119,14 @@ proxies:
   server: 91.132.94.200
   type: ss
 - cipher: aes-256-cfb
-  name: mahdiblanda|🇨🇳TW-185.189.160.105-0310 | 6.127MB
+  name: mahdiblanda|🇨🇳TW-185.189.160.105-0246 | 7.719MB
   password: qwerREWQ@@
   port: 41632
   server: 185.189.160.105
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: mahdiblanda|BG-89.44.197.181-0226 | 19.058MB
+  password: zDLmeWRsfcFdKT1Tpy02xodEToqCldTxvZcRoPIZZtBdnIEL
+  port: 31348
+  server: 89.44.197.181
   type: ss
