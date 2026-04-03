@@ -2,9 +2,9 @@ proxies:
 - client-fingerprint: chrome
   name: CF官方优选
   network: ws
-  port: 2087
-  server: 8.39.125.179
-  servername: a.fugang.dpdns.org
+  port: 2083
+  server: 8.39.125.98
+  servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -12,14 +12,14 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
   ws-opts:
     headers:
-      Host: a.fugang.dpdns.org
+      Host: e.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
   name: CF官方优选 2
   network: ws
   port: 2083
-  server: 104.19.50.21
-  servername: a.fugang.dpdns.org
+  server: 162.159.152.98
+  servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -27,14 +27,14 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
   ws-opts:
     headers:
-      Host: a.fugang.dpdns.org
+      Host: e.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
   name: CF官方优选 3
   network: ws
-  port: 2083
-  server: 8.39.125.246
-  servername: a.fugang.dpdns.org
+  port: 8443
+  server: 172.64.229.252
+  servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -42,14 +42,14 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
   ws-opts:
     headers:
-      Host: a.fugang.dpdns.org
+      Host: e.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
   name: CF官方优选 4
   network: ws
-  port: 2083
-  server: 108.162.198.218
-  servername: a.fugang.dpdns.org
+  port: 443
+  server: 173.245.59.254
+  servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -57,14 +57,14 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
   ws-opts:
     headers:
-      Host: a.fugang.dpdns.org
+      Host: e.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
   name: CF官方优选 5
   network: ws
-  port: 2096
-  server: 104.18.40.187
-  servername: a.fugang.dpdns.org
+  port: 8443
+  server: 198.41.223.61
+  servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -72,14 +72,14 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
   ws-opts:
     headers:
-      Host: a.fugang.dpdns.org
+      Host: e.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
   name: CF官方优选 6
   network: ws
-  port: 443
-  server: 104.19.61.246
-  servername: a.fugang.dpdns.org
+  port: 2096
+  server: 198.41.223.136
+  servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -87,14 +87,14 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
   ws-opts:
     headers:
-      Host: a.fugang.dpdns.org
+      Host: e.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
   name: CF官方优选 7
   network: ws
-  port: 2087
-  server: 172.67.67.162
-  servername: a.fugang.dpdns.org
+  port: 2053
+  server: 162.159.153.28
+  servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -102,14 +102,14 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
   ws-opts:
     headers:
-      Host: a.fugang.dpdns.org
+      Host: e.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
   name: CF官方优选 8
   network: ws
-  port: 2087
-  server: 104.19.47.38
-  servername: a.fugang.dpdns.org
+  port: 443
+  server: 104.26.6.147
+  servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -117,14 +117,14 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
   ws-opts:
     headers:
-      Host: a.fugang.dpdns.org
+      Host: e.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
   name: CF官方优选 9
   network: ws
-  port: 443
-  server: 104.18.33.241
-  servername: a.fugang.dpdns.org
+  port: 8443
+  server: 162.159.153.53
+  servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -132,14 +132,14 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
   ws-opts:
     headers:
-      Host: a.fugang.dpdns.org
+      Host: e.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
   name: CF官方优选 10
   network: ws
-  port: 443
-  server: 104.18.47.253
-  servername: a.fugang.dpdns.org
+  port: 8443
+  server: 172.67.76.0
+  servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -147,14 +147,14 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
   ws-opts:
     headers:
-      Host: a.fugang.dpdns.org
+      Host: e.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
   name: CF官方优选 11
   network: ws
   port: 2087
-  server: 8.39.125.8
-  servername: a.fugang.dpdns.org
+  server: 104.19.45.49
+  servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -162,14 +162,14 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
   ws-opts:
     headers:
-      Host: a.fugang.dpdns.org
+      Host: e.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
   name: CF官方优选 12
   network: ws
-  port: 2083
-  server: 104.18.35.31
-  servername: a.fugang.dpdns.org
+  port: 2096
+  server: 172.64.229.87
+  servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -177,14 +177,14 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
   ws-opts:
     headers:
-      Host: a.fugang.dpdns.org
+      Host: e.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
   name: CF官方优选 13
   network: ws
-  port: 2096
-  server: 104.19.35.19
-  servername: a.fugang.dpdns.org
+  port: 2087
+  server: 198.41.223.60
+  servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -192,14 +192,14 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
   ws-opts:
     headers:
-      Host: a.fugang.dpdns.org
+      Host: e.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
   name: CF官方优选 14
   network: ws
-  port: 2096
-  server: 162.159.153.75
-  servername: a.fugang.dpdns.org
+  port: 2053
+  server: 8.35.211.13
+  servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -207,14 +207,14 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
   ws-opts:
     headers:
-      Host: a.fugang.dpdns.org
+      Host: e.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
   name: CF官方优选 15
   network: ws
-  port: 2096
-  server: 162.159.35.227
-  servername: a.fugang.dpdns.org
+  port: 8443
+  server: 173.245.58.151
+  servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -222,14 +222,14 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
   ws-opts:
     headers:
-      Host: a.fugang.dpdns.org
+      Host: e.fugang.dpdns.org
     path: /
 - client-fingerprint: chrome
   name: CF官方优选 16
   network: ws
-  port: 2083
-  server: 172.64.145.38
-  servername: a.fugang.dpdns.org
+  port: 2096
+  server: 104.19.41.159
+  servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -237,5 +237,5 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
   ws-opts:
     headers:
-      Host: a.fugang.dpdns.org
+      Host: e.fugang.dpdns.org
     path: /
