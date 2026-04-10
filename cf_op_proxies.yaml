@@ -3,7 +3,7 @@ proxies:
   name: 0_eu
   network: ws
   port: 443
-  server: 108.162.198.189
+  server: 108.162.198.138
   servername: x.clayton.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -18,7 +18,7 @@ proxies:
   name: 1_kg
   network: ws
   port: 443
-  server: 162.159.44.223
+  server: 162.159.44.115
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -33,7 +33,7 @@ proxies:
   name: 2_eu
   network: ws
   port: 443
-  server: 162.159.45.188
+  server: 162.159.45.185
   servername: x.clayton.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -48,7 +48,7 @@ proxies:
   name: 3_kg
   network: ws
   port: 443
-  server: 162.159.58.3
+  server: 162.159.38.204
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -63,7 +63,7 @@ proxies:
   name: 4_eu
   network: ws
   port: 443
-  server: 104.18.47.169
+  server: 172.64.53.109
   servername: x.clayton.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -78,7 +78,7 @@ proxies:
   name: 5_kg
   network: ws
   port: 443
-  server: 172.64.53.162
+  server: 172.64.52.174
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -93,7 +93,7 @@ proxies:
   name: 6_eu
   network: ws
   port: 443
-  server: 104.18.46.159
+  server: 172.64.154.248
   servername: x.clayton.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -108,7 +108,7 @@ proxies:
   name: 7_kg
   network: ws
   port: 443
-  server: 162.159.39.48
+  server: 104.18.46.88
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -123,7 +123,7 @@ proxies:
   name: 8_eu
   network: ws
   port: 443
-  server: 162.159.38.222
+  server: 162.159.39.107
   servername: x.clayton.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -138,7 +138,7 @@ proxies:
   name: 9_kg
   network: ws
   port: 443
-  server: 172.64.52.253
+  server: 162.159.8.238
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false

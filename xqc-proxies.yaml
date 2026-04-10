@@ -155,3 +155,78 @@ proxies:
     port: 443
     cipher: chacha20-ietf-poly1305
     password: 9tqhMdIrTkgQ46PvhyAtMH
+  - name: vl-reality-233
+    type: vless
+    server: 216.238.53.30
+    port: 52207
+    uuid: a9bc8cf2-329b-4dd8-8c95-42821cd86d06
+    tls: true
+    client-fingerprint: chrome
+    servername: apple.com
+    network: tcp
+    reality-opts:
+      public-key: Wbv6uePPmuzCkLyLnupoelbPrk340w9S6qLmiI1VqyM
+      short-id: b96a305f
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: vm-ws-tls-233
+    type: vmess
+    server: www.visa.com.sg
+    port: 8443
+    uuid: a9bc8cf2-329b-4dd8-8c95-42821cd86d06
+    alterId: 0
+    cipher: auto
+    tls: true
+    servername: 3.a521.eu.org
+    network: ws
+    ws-opts:
+      path: a9bc8cf2-329b-4dd8-8c95-42821cd86d06-vm
+      headers:
+        Host: 3.a521.eu.org
+  - name: hy2-233
+    type: hysteria2
+    server: 3.a521.eu.org
+    port: 33311
+    password: a9bc8cf2-329b-4dd8-8c95-42821cd86d06
+    auth: a9bc8cf2-329b-4dd8-8c95-42821cd86d06
+    skip-cert-verify: true
+  - name: tu5-233
+    type: tuic
+    server: 3.a521.eu.org
+    port: 46635
+    uuid: a9bc8cf2-329b-4dd8-8c95-42821cd86d06
+    password: a9bc8cf2-329b-4dd8-8c95-42821cd86d06
+    skip-cert-verify: true
+    disable-sni: true
+    alpn:
+      - h3
+    sni: 3.a521.eu.org
+    udp-relay-mode: native
+  - {name: "LycheenJP REALITY", type: vless, server: 23.151.104.35, port: 8881, uuid: 397a03cd-17c0-4886-a51c-501d791954fb, network: tcp, udp: true, tls: true, flow: xtls-rprx-vision, servername: addons.mozilla.org, client-fingerprint: chrome, reality-opts: {public-key: cVRtmH7K0kQmnpWlqoqxYv0P_y3iTJ876nWKjC0wGR0, short-id: ""} }
+  - {name: "LycheenJP HY2", type: hysteria2, server: 23.151.104.35, port: 8882, password: 397a03cd-17c0-4886-a51c-501d791954fb, sni: mozilla.org, skip-cert-verify: true}
+  - {name: "LycheenJP TUIC", type: tuic, server: 23.151.104.35, port: 8883, uuid: 397a03cd-17c0-4886-a51c-501d791954fb, password: 397a03cd-17c0-4886-a51c-501d791954fb, alpn: [h3], reduce-rtt: true, request-timeout: 8000, udp-relay-mode: native, congestion-controller: bbr, sni: mozilla.org, skip-cert-verify: true}
+  - {name: "LycheenJP REALITY IPV6", type: vless, server: "2602:f92a:230:2200::a", port: 8881, uuid: 397a03cd-17c0-4886-a51c-501d791954fb, network: tcp, udp: true, tls: true, flow: xtls-rprx-vision, servername: addons.mozilla.org, client-fingerprint: chrome, reality-opts: {public-key: cVRtmH7K0kQmnpWlqoqxYv0P_y3iTJ876nWKjC0wGR0, short-id: ""} }
+  - {name: "LycheenJP HY2 IPV6", type: hysteria2, server: "2602:f92a:230:2200::a", port: 8882, password: 397a03cd-17c0-4886-a51c-501d791954fb, sni: mozilla.org, skip-cert-verify: true}
+  - {name: "LycheenJP TUIC IPV6", type: tuic, server: "2602:f92a:230:2200::a", port: 8883, uuid: 397a03cd-17c0-4886-a51c-501d791954fb, password: 397a03cd-17c0-4886-a51c-501d791954fb, alpn: [h3], reduce-rtt: true, request-timeout: 8000, udp-relay-mode: native, congestion-controller: bbr, sni: mozilla.org, skip-cert-verify: true}
+  - name: 河内直连
+    type: vless
+    server: 171.237.177.169
+    port: 21077
+    uuid: 40858773-2aaf-416b-b5e1-4a4f4e4a2024
+    tls: true
+    client-fingerprint: chrome
+    servername: addons.mozilla.org
+    network: tcp
+    reality-opts:
+      public-key: Gxx0-IYq7RtRrCy0a3XM_0g1QvNTaDXbCR9U89W2A0w
+      short-id: 84c0cc0ea50a5078
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: ss-TW hinet
+    type: ss
+    server: 36.234.134.87
+    port: 58397
+    cipher: 2022-blake3-aes-128-gcm
+    password: uuesYvvbJDvOhindLntjag==
