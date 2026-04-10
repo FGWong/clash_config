@@ -611,7 +611,7 @@ proxy-groups:
     use:
       - skr
     url: 'http://www.gstatic.com/generate_204'
-    interval: 1200
+    interval: 7200
   - name: Cflare
     type: url-test
     use:
@@ -635,7 +635,7 @@ proxy-groups:
     use:
       - tclashfile
     url: 'http://www.gstatic.com/generate_204'
-    interval: 1200
+    interval: 72000
     icon: https://g.csdnimg.cn/static/logo/favicon32.ico
   - name: XTwitter
     type: select
@@ -769,7 +769,7 @@ proxy-providers:
     #filter: "(?i)港|hk|hongkong|hong kong" #(?i) (?A) 等语法无效
     type: http
     #type: file
-    interval: 3600
+    interval: 7200
     path: local_data/common-proxies.yaml
     health-check:
       enable: true
@@ -809,7 +809,7 @@ proxy-providers:
     url: "https://pub.loc.cc:15443/clash_verge/skrapp.yaml"
     type: http
     #type: file
-    interval: 6622
+    interval: 36622
     path: local_data/skrapp.yaml
     health-check:
       enable: true
@@ -819,7 +819,7 @@ proxy-providers:
     url: "https://pub.loc.cc:15443/clash_verge/xqc-proxies.yaml"
     type: http
     #type: file
-    interval: 10807
+    interval: 20807
     path: local_data/xqc-proxies.yaml
     health-check:
       enable: true
@@ -839,7 +839,7 @@ proxy-providers:
     url: "https://pub.loc.cc:15443/clash_verge/Clash.yaml"
     type: http
     #type: file
-    interval: 933622
+    interval: 1933622
     path: local_data/Clash.yaml
     health-check:
       enable: true
