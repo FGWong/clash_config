@@ -30,75 +30,109 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- alterId: 0
+- name: airport|🏁 未知-0C4C0665
+  network: tcp
+  password: M08tvzYWtUEJNtbpHp
+  port: 443
+  server: 194.124.216.194
+  skip-cert-verify: true
+  sni: nl-4.tr202512.com
+  type: trojan
+- name: airport|🏁 未知-6D2B9E2B
+  network: tcp
+  password: M08tvzYWtUEJNtbpHp
+  port: 443
+  server: 194.124.216.180
+  skip-cert-verify: true
+  type: trojan
+- name: airport|🏁 未知-7FAADCAD
+  network: tcp
+  password: M08tvzYWtUEJNtbpHp
+  port: 443
+  server: 194.124.216.181
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: airport|🏁 未知-7ED00DF6
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-jp5-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 178.239.124.195
+  type: ss
+- alterId: '0'
   cipher: auto
-  name: airport|🇬🇧 英国-45B61D6C
+  client-fingerprint: chrome
+  name: airport|🇺🇸 美国-3B2D4C64
   network: tcp
   port: 180
   server: 82.198.246.250
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: airport|🇩🇪 德国-177A680E
-  network: tcp
-  port: 180
-  server: 82.198.246.46
   skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf
-  name: airport|🇭🇰 香港-67CB7594
-  password: asd123456
-  port: 8388
-  server: 103.149.183.80
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: airport|🇺🇸 美国-AA46A7C6
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-diy02-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 38.244.47.161
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: airport|🇳🇱 荷兰-E99F35D5
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.17.169
   skip-cert-verify: false
   type: ss
   udp: false
-- name: airport|🏁 未知-874A45F9
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.152.23
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- cipher: chacha20-ietf
-  name: ruk1ng|🟢🇭🇰_github.com/Ruk1ng001_f7b24f37
-  password: asd123456
-  port: 8388
-  server: 103.149.182.105
-  type: ss
-  udp: true
-- name: ruk1ng|🔴🇳🇱[🤖📺🎭🎪]_github.com/Ruk1ng001_88f0a775
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: '2'
+- alterId: 0
   cipher: auto
-  name: ruk1ng|🟢🇭🇰[🎬📺🎭🎪]_github.com/Ruk1ng001_bc0d8a59
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
+  client-fingerprint: ''
+  name: airport|🇬🇧 英国-D3379DF0
+  network: tcp
+  port: 180
+  server: 82.198.246.46
   tls: false
   type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: airport|🏁 未知-C44C8870
+  password: 4DrioHAbACj61Wq8yZ0wuq
+  port: 6354
+  server: 194.87.186.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  name: airport|🏁 未知-27BC0134
+  network: tcp
+  password: strong-secret-pass-777
+  port: 4443
+  server: 45.140.167.209
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf
+  name: ruk1ng|🔴🇭🇰_github.com/Ruk1ng001_rUAe0lyC
+  password: asd123456
+  port: 8388
+  server: 103.149.183.113
+  type: ss
+- cipher: chacha20-ietf
+  name: ruk1ng|🔴🇭🇰_github.com/Ruk1ng001_a777e2be
+  password: asd123456
+  port: 8388
+  server: 103.149.183.80
+  type: ss
   udp: true
-  uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-  xudp: true
 - cipher: aes-256-cfb
   name: ermaozi|🇷🇺_RU_俄罗斯
   password: SBM7R883jBmnqe6C
@@ -140,4 +174,16 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 91.132.94.200
+  type: ss
+- cipher: aes-256-cfb
+  name: mahdiblanda|🇷🇺RU-38.60.223.8-0351 | 0.136MB
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 38.60.223.8
+  type: ss
+- cipher: aes-256-cfb
+  name: mahdiblanda|🇳🇱NL-51.15.23.63-0265 | 1.147MB
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.23.63
   type: ss

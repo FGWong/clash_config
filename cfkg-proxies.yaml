@@ -2,8 +2,8 @@ proxies:
 - client-fingerprint: chrome
   name: CF官方优选
   network: ws
-  port: 2083
-  server: 104.18.44.84
+  port: 2087
+  server: 173.245.58.239
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -17,8 +17,8 @@ proxies:
 - client-fingerprint: chrome
   name: CF官方优选 2
   network: ws
-  port: 2096
-  server: 172.67.79.241
+  port: 2087
+  server: 104.19.48.74
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -32,8 +32,8 @@ proxies:
 - client-fingerprint: chrome
   name: CF官方优选 3
   network: ws
-  port: 2083
-  server: 162.159.37.222
+  port: 2053
+  server: 198.41.223.243
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -47,8 +47,8 @@ proxies:
 - client-fingerprint: chrome
   name: CF官方优选 4
   network: ws
-  port: 2083
-  server: 104.26.1.147
+  port: 2053
+  server: 104.19.54.246
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -62,8 +62,8 @@ proxies:
 - client-fingerprint: chrome
   name: CF官方优选 5
   network: ws
-  port: 8443
-  server: 198.41.223.85
+  port: 2083
+  server: 8.39.125.7
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -77,8 +77,8 @@ proxies:
 - client-fingerprint: chrome
   name: CF官方优选 6
   network: ws
-  port: 443
-  server: 104.18.42.80
+  port: 2083
+  server: 172.67.68.88
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -92,8 +92,8 @@ proxies:
 - client-fingerprint: chrome
   name: CF官方优选 7
   network: ws
-  port: 2096
-  server: 108.162.198.88
+  port: 443
+  server: 104.19.63.61
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -107,8 +107,8 @@ proxies:
 - client-fingerprint: chrome
   name: CF官方优选 8
   network: ws
-  port: 2096
-  server: 172.64.145.194
+  port: 443
+  server: 173.245.59.194
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -122,8 +122,8 @@ proxies:
 - client-fingerprint: chrome
   name: CF官方优选 9
   network: ws
-  port: 8443
-  server: 104.18.38.210
+  port: 2083
+  server: 172.64.146.167
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -137,8 +137,8 @@ proxies:
 - client-fingerprint: chrome
   name: CF官方优选 10
   network: ws
-  port: 2083
-  server: 108.162.198.15
+  port: 8443
+  server: 104.26.15.118
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -152,8 +152,8 @@ proxies:
 - client-fingerprint: chrome
   name: CF官方优选 11
   network: ws
-  port: 443
-  server: 172.64.146.132
+  port: 2096
+  server: 162.159.152.208
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -167,8 +167,8 @@ proxies:
 - client-fingerprint: chrome
   name: CF官方优选 12
   network: ws
-  port: 2053
-  server: 104.18.41.132
+  port: 443
+  server: 8.39.125.131
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -182,8 +182,8 @@ proxies:
 - client-fingerprint: chrome
   name: CF官方优选 13
   network: ws
-  port: 2083
-  server: 172.64.145.157
+  port: 2053
+  server: 172.67.70.139
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -197,8 +197,8 @@ proxies:
 - client-fingerprint: chrome
   name: CF官方优选 14
   network: ws
-  port: 2053
-  server: 8.39.125.223
+  port: 2083
+  server: 172.64.146.154
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -212,8 +212,8 @@ proxies:
 - client-fingerprint: chrome
   name: CF官方优选 15
   network: ws
-  port: 2087
-  server: 198.41.223.94
+  port: 2053
+  server: 104.19.62.160
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -228,7 +228,7 @@ proxies:
   name: CF官方优选 16
   network: ws
   port: 2053
-  server: 162.159.153.88
+  server: 104.19.54.38
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false

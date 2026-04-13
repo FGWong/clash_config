@@ -203,12 +203,6 @@ proxies:
       - h3
     sni: 3.a521.eu.org
     udp-relay-mode: native
-  - {name: "LycheenJP REALITY", type: vless, server: 23.151.104.35, port: 8881, uuid: 397a03cd-17c0-4886-a51c-501d791954fb, network: tcp, udp: true, tls: true, flow: xtls-rprx-vision, servername: addons.mozilla.org, client-fingerprint: chrome, reality-opts: {public-key: cVRtmH7K0kQmnpWlqoqxYv0P_y3iTJ876nWKjC0wGR0, short-id: ""} }
-  - {name: "LycheenJP HY2", type: hysteria2, server: 23.151.104.35, port: 8882, password: 397a03cd-17c0-4886-a51c-501d791954fb, sni: mozilla.org, skip-cert-verify: true}
-  - {name: "LycheenJP TUIC", type: tuic, server: 23.151.104.35, port: 8883, uuid: 397a03cd-17c0-4886-a51c-501d791954fb, password: 397a03cd-17c0-4886-a51c-501d791954fb, alpn: [h3], reduce-rtt: true, request-timeout: 8000, udp-relay-mode: native, congestion-controller: bbr, sni: mozilla.org, skip-cert-verify: true}
-  - {name: "LycheenJP REALITY IPV6", type: vless, server: "2602:f92a:230:2200::a", port: 8881, uuid: 397a03cd-17c0-4886-a51c-501d791954fb, network: tcp, udp: true, tls: true, flow: xtls-rprx-vision, servername: addons.mozilla.org, client-fingerprint: chrome, reality-opts: {public-key: cVRtmH7K0kQmnpWlqoqxYv0P_y3iTJ876nWKjC0wGR0, short-id: ""} }
-  - {name: "LycheenJP HY2 IPV6", type: hysteria2, server: "2602:f92a:230:2200::a", port: 8882, password: 397a03cd-17c0-4886-a51c-501d791954fb, sni: mozilla.org, skip-cert-verify: true}
-  - {name: "LycheenJP TUIC IPV6", type: tuic, server: "2602:f92a:230:2200::a", port: 8883, uuid: 397a03cd-17c0-4886-a51c-501d791954fb, password: 397a03cd-17c0-4886-a51c-501d791954fb, alpn: [h3], reduce-rtt: true, request-timeout: 8000, udp-relay-mode: native, congestion-controller: bbr, sni: mozilla.org, skip-cert-verify: true}
   - name: 河内直连
     type: vless
     server: 171.237.177.169
