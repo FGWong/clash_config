@@ -30,38 +30,25 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: airport|🏁 未知-0C4C0665
-  network: tcp
-  password: M08tvzYWtUEJNtbpHp
-  port: 443
-  server: 194.124.216.194
-  skip-cert-verify: true
-  sni: nl-4.tr202512.com
-  type: trojan
-- name: airport|🏁 未知-6D2B9E2B
-  network: tcp
-  password: M08tvzYWtUEJNtbpHp
-  port: 443
-  server: 194.124.216.180
-  skip-cert-verify: true
-  type: trojan
-- name: airport|🏁 未知-7FAADCAD
-  network: tcp
-  password: M08tvzYWtUEJNtbpHp
-  port: 443
-  server: 194.124.216.181
-  skip-cert-verify: true
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-7ED00DF6
+  name: airport|🏁 未知-C7A4485C
   password: somebody
   plugin: obfs
   plugin-opts:
-    host: 20xteamxa9-jp5-a7xr.update.microsoft.com
+    host: 20xteamxa9-hkg1-a7xr.update.microsoft.com
     mode: http
   port: 30011
-  server: 178.239.124.195
+  server: 103.102.4.218
   type: ss
+- cipher: aes-256-cfb
+  name: airport|🇰🇷 韩国-50A9D42B
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
@@ -75,35 +62,35 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇺🇸 美国-AA46A7C6
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-diy02-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 38.244.47.161
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: airport|🇳🇱 荷兰-E99F35D5
+  name: airport|🇷🇺 俄罗斯-A022D55A
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 51.15.17.169
+  server: 38.60.223.8
   skip-cert-verify: false
   type: ss
   udp: false
 - alterId: 0
   cipher: auto
-  client-fingerprint: ''
-  name: airport|🇬🇧 英国-D3379DF0
-  network: tcp
-  port: 180
-  server: 82.198.246.46
+  client-fingerprint: chrome
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: airport|🇺🇸 美国-E46B2453
+  network: http
+  port: 52914
+  server: 66.181.36.174
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 8ae1c2f0-3127-49ac-acad-def55b04c231
+- cipher: aes-256-cfb
+  name: airport|🇺🇸 美国-8FC88A46
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 104.192.226.106
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: airport|🏁 未知-C44C8870
   password: 4DrioHAbACj61Wq8yZ0wuq
@@ -112,27 +99,16 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- client-fingerprint: chrome
-  name: airport|🏁 未知-27BC0134
-  network: tcp
-  password: strong-secret-pass-777
-  port: 4443
-  server: 45.140.167.209
+- alterId: 0
+  cipher: auto
+  name: ruk1ng|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_4ccbbee6
+  port: 180
+  server: 82.198.246.46
   skip-cert-verify: true
-  type: trojan
-- cipher: chacha20-ietf
-  name: ruk1ng|🔴🇭🇰_github.com/Ruk1ng001_rUAe0lyC
-  password: asd123456
-  port: 8388
-  server: 103.149.183.113
-  type: ss
-- cipher: chacha20-ietf
-  name: ruk1ng|🔴🇭🇰_github.com/Ruk1ng001_a777e2be
-  password: asd123456
-  port: 8388
-  server: 103.149.183.80
-  type: ss
+  tls: false
+  type: vmess
   udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-256-cfb
   name: ermaozi|🇷🇺_RU_俄罗斯
   password: SBM7R883jBmnqe6C
@@ -174,16 +150,4 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 91.132.94.200
-  type: ss
-- cipher: aes-256-cfb
-  name: mahdiblanda|🇷🇺RU-38.60.223.8-0351 | 0.136MB
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.60.223.8
-  type: ss
-- cipher: aes-256-cfb
-  name: mahdiblanda|🇳🇱NL-51.15.23.63-0265 | 1.147MB
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.23.63
   type: ss

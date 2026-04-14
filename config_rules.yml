@@ -598,7 +598,7 @@ proxy-groups:
     use:
       - cldop
     url: 'http://www.gstatic.com/generate_204'
-    interval: 1200
+    interval: 2400
     icon: https://g.csdnimg.cn/static/logo/favicon32.ico
   - name: XQC
     type: url-test

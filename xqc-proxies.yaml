@@ -224,3 +224,18 @@ proxies:
     port: 58397
     cipher: 2022-blake3-aes-128-gcm
     password: uuesYvvbJDvOhindLntjag==
+  - name: "[IPv6]us_rn4_cf"
+    type: vless
+    server: cloudflare.182682.xyz
+    port: 443
+    uuid: ec45053e-8277-4fe1-8bdc-245bb9dfc5e1
+    tls: true
+    client-fingerprint: chrome
+    servername: d1.838889.xyz
+    network: ws
+    ws-opts:
+      path: /ec45053e
+      headers:
+        host: d2.838889.xyz
+    tfo: false
+    skip-cert-verify: false

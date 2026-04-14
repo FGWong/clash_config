@@ -30,24 +30,3 @@ proxies:
     port: 443
     cipher: chacha20-ietf-poly1305
     password: p78naCf2EfOlRSLTX0wFVx
-  - { name: '🇭🇰香港 Hytron 01', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 16460, cipher: 2022-blake3-aes-128-gcm, password: 'NmM2ODFlOTJhYjI0ZTg3OQ==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇭🇰香港 HGC', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 16472, cipher: 2022-blake3-aes-128-gcm, password: 'ZTQxZGM5ZThhOThkYzk2YQ==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇭🇰香港 Haruka IPv6 0.1x', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 16475, cipher: 2022-blake3-aes-128-gcm, password: 'NzgyYWM3ODllZTE3MDQyYw==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇭🇰香港 IEPL Eons 4x', type: ss, server: bqqeomrtecrfikvqu85gcjp2uninum4ebgtzeh3eih27v6oa57afg93gmh3vduj.yukiha.su, port: 16450, cipher: 2022-blake3-aes-128-gcm, password: 'NzgyYWM3ODllZTE3MDQyYw==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇯🇵日本 Akari 01', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 16490, cipher: 2022-blake3-aes-128-gcm, password: 'YzE1OWQ1NzVhYzdkNTQ0Mg==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇯🇵日本 Akari 02', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 16491, cipher: 2022-blake3-aes-128-gcm, password: 'OTk1MTk5NWNjZmEzMTM3NA==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇯🇵日本 直连 Leaseweb 0.1x', type: vmess, server: 162.159.38.192, port: 8080, uuid: dda5ca18-5124-4aad-b3a6-ccfb20381f17, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: '/speedtestdownload?ed=2560', headers: { Host: dda5ca18-5124-4aad-b3a6-ccfb20381f17.jp.424889.xyz } } }
-  - { name: '🇰🇷韩国 SK', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 16500, cipher: 2022-blake3-aes-128-gcm, password: 'MTgzN2VjYzVmZDliNmY3Mw==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇸🇬新加坡 Akari 01', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 16513, cipher: 2022-blake3-aes-128-gcm, password: 'ZmExZTk0M2VkNDE4MjQ0MA==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇸🇬新加坡 Akari 02', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 16511, cipher: 2022-blake3-aes-128-gcm, password: 'ZTQxZGM5ZThhOThkYzk2YQ==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇸🇬新加坡 直连 Leaseweb 0.1x', type: vmess, server: 104.18.46.192, port: 8880, uuid: dda5ca18-5124-4aad-b3a6-ccfb20381f17, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: '/speedtestdownload?ed=2560', headers: { Host: dda5ca18-5124-4aad-b3a6-ccfb20381f17.sg.424889.xyz } } }
-  - { name: '🇹🇭泰国 Siamdata', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 16525, cipher: 2022-blake3-aes-128-gcm, password: 'ZTQxZGM5ZThhOThkYzk2YQ==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇦🇺澳大利亚 Hypercore', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 16523, cipher: 2022-blake3-aes-128-gcm, password: 'OTk1MTk5NWNjZmEzMTM3NA==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇺🇸美国 Fiberstate 01', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 16530, cipher: 2022-blake3-aes-128-gcm, password: 'MzUxNDUyY2IzYTQ5ODQzMw==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇺🇸美国 Fiberstate 05', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 16534, cipher: 2022-blake3-aes-128-gcm, password: 'MzUxNDUyY2IzYTQ5ODQzMw==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇬🇧英国 Upstream', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 25803, cipher: 2022-blake3-aes-128-gcm, password: 'ZTQxZGM5ZThhOThkYzk2YQ==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇷🇺俄罗斯 Melbikomas', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 25802, cipher: 2022-blake3-aes-128-gcm, password: 'ZjkxYmJjMDUyMWNlYWNhYw==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇹🇷土耳其 BigCore', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 25801, cipher: 2022-blake3-aes-128-gcm, password: 'ZTQxZGM5ZThhOThkYzk2YQ==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇱🇺卢森堡 Frantech', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 25804, cipher: 2022-blake3-aes-128-gcm, password: 'ZmExZTk0M2VkNDE4MjQ0MA==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇰🇵朝鲜 WARP', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 25580, cipher: 2022-blake3-aes-128-gcm, password: 'ZmNmMjk4ODg3ZDM2OTYxYw==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }
-  - { name: '🇲🇴澳门 WARP', type: ss, server: dda5ca18-5124-4aad-b3a6-ccfb20381f17.awstrack.vip, port: 25581, cipher: 2022-blake3-aes-128-gcm, password: 'ZmNmMjk4ODg3ZDM2OTYxYw==:ZGRhNWNhMTgtNTEyNC00YQ==', udp: true }

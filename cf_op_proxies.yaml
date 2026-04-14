@@ -3,7 +3,7 @@ proxies:
   name: 0_eu
   network: ws
   port: 443
-  server: 108.162.198.138
+  server: 108.162.198.31
   servername: x.clayton.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -18,13 +18,13 @@ proxies:
   name: 1_kg
   network: ws
   port: 443
-  server: 162.159.44.115
+  server: 162.159.38.248
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105a2
   ws-opts:
     headers:
       Host: e.fugang.dpdns.org
@@ -33,7 +33,7 @@ proxies:
   name: 2_eu
   network: ws
   port: 443
-  server: 162.159.45.185
+  server: 162.159.39.209
   servername: x.clayton.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -48,13 +48,13 @@ proxies:
   name: 3_kg
   network: ws
   port: 443
-  server: 162.159.38.204
+  server: 162.159.44.61
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105a2
   ws-opts:
     headers:
       Host: e.fugang.dpdns.org
@@ -63,7 +63,7 @@ proxies:
   name: 4_eu
   network: ws
   port: 443
-  server: 172.64.53.109
+  server: 172.64.53.9
   servername: x.clayton.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -78,13 +78,13 @@ proxies:
   name: 5_kg
   network: ws
   port: 443
-  server: 172.64.52.174
+  server: 172.64.229.233
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105a2
   ws-opts:
     headers:
       Host: e.fugang.dpdns.org
@@ -93,7 +93,7 @@ proxies:
   name: 6_eu
   network: ws
   port: 443
-  server: 172.64.154.248
+  server: 162.159.45.51
   servername: x.clayton.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -108,13 +108,13 @@ proxies:
   name: 7_kg
   network: ws
   port: 443
-  server: 104.18.46.88
+  server: 172.64.52.84
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105a2
   ws-opts:
     headers:
       Host: e.fugang.dpdns.org
@@ -123,7 +123,7 @@ proxies:
   name: 8_eu
   network: ws
   port: 443
-  server: 162.159.39.107
+  server: 104.18.33.68
   servername: x.clayton.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -138,13 +138,13 @@ proxies:
   name: 9_kg
   network: ws
   port: 443
-  server: 162.159.8.238
+  server: 172.64.42.133
   servername: e.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
-  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b3
+  uuid: e4f949dd-4b1d-48e9-8e30-f90029e105a2
   ws-opts:
     headers:
       Host: e.fugang.dpdns.org
