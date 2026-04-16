@@ -15,6 +15,7 @@ payload:
   - DOMAIN-SUFFIX,hd-torrents.org
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,statsigapi.net
   - DOMAIN-KEYWORD,chatgpt.com

@@ -13,18 +13,6 @@ proxies:
     tls: true
     type: http
     username: 0cf1d872-aa2a-11ef-97e0-f23c9164ca5d
-  - name: GB英国1
-    type: vmess
-    server: '2001:bc8:32d7:302::10'
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
   - name: DE1
     type: vless
     server: '2603:c020:800e:62ee:471c:3b87:2081:48aa'
@@ -49,6 +37,12 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+  - name: 美国(yudou123.top 玉豆免费节点)
+    type: ss
+    server: switcher-nick-croquet.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: 9tqhMdIrTkgQ46PvhyAtMH
   - name: 法国(yudou6677.top 玉豆免费节点)
     type: vmess
     server: '2001:bc8:32d7:302::10'
@@ -61,7 +55,21 @@ proxies:
     ws-opts:
       path: /
       headers:
-  - name: 美国(yudou6677.top 玉豆免费节点)
+        Host: ""
+  - name: GB英国1
+    type: vmess
+    server: '2001:bc8:32d7:302::10'
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: ""
+  - name: 美国(yudou6677.top 玉豆免费节点10)
     type: vmess
     server: '2001:bc8:32d7:302::10'
     port: 44579
@@ -74,7 +82,7 @@ proxies:
       path: >-
         /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
       headers:
-  - name: 美国(yudou789.top 玉豆免费节点)
+  - name: 美国(yudou789.top 玉豆免费节点14)
     type: vmess
     server: '2001:bc8:32d7:302::14'
     port: 44579
@@ -87,7 +95,7 @@ proxies:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
       headers:
         Host: TABRIZ.NET
-  - name: 美国(yudou789.top 玉豆免费节点)
+  - name: 美国(yudou789.top 玉豆免费节点15)
     type: vmess
     server: '2001:bc8:32d7:302::15'
     port: 44579
@@ -100,7 +108,7 @@ proxies:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
       headers:
         Host: TURK.NET
-  - name: 美国(yudou789.top 玉豆免费节点)
+  - name: 美国(yudou789.top 玉豆免费节点16)
     type: vmess
     server: '2001:bc8:32d7:302::16'
     port: 44579
@@ -113,7 +121,7 @@ proxies:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
       headers:
         Host: AZERB.NET
-  - name: 美国(yudou789.top 玉豆免费节点)
+  - name: 美国(yudou789.top 玉豆免费节点17)
     type: vmess
     server: '2001:bc8:32d7:302::17'
     port: 44579

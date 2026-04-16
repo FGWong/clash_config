@@ -1,24 +1,5 @@
 proxies:
-  - name: 美国(yudou123.top 玉豆免费节点)
-    type: ss
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 9tqhMdIrTkgQ46PvhyAtMH
-  - type: vmess
-    name: 美国(yudou123.top 玉豆免费节点)_1
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    network: ws
-    cipher: auto
-    servername: ""
-    ws-opts:
-      path: ""
-      headers:
-        Host: ""
-  - name: "[IPv6]us_rn4_cf"
+  - name: "IPv6us_rn4_cf"
     type: vless
     server: cloudflare.182682.xyz
     port: 443
