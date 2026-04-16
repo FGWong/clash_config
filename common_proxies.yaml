@@ -31,24 +31,41 @@ proxies:
       Host: a.mifeng.us.kg
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-C7A4485C
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-hkg1-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 103.102.4.218
+  name: airport|🏁 未知-C44C8870
+  password: 4DrioHAbACj61Wq8yZ0wuq
+  port: 6354
+  server: 194.87.186.134
+  skip-cert-verify: false
   type: ss
-- cipher: aes-256-cfb
-  name: airport|🇰🇷 韩国-50A9D42B
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  skip-cert-verify: true
-  tfo: false
-  type: ss
-  udp: true
+  udp: false
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: airport|🇺🇸 美国-3EAE653B
+  network: http
+  port: 59621
+  server: 216.167.32.53
+  tls: false
+  type: vmess
+  uuid: 61b2a99c-5830-4158-839b-0892b5cdad30
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: airport|🇺🇸 美国-46E841BA
+  network: http
+  port: 57961
+  server: 66.181.36.174
+  tls: false
+  type: vmess
+  uuid: 891c3de4-69e8-4f60-a127-49b61af882a0
 - alterId: '0'
   cipher: auto
   client-fingerprint: chrome
@@ -62,6 +79,15 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
+- alterId: 0
+  cipher: auto
+  name: airport|🇺🇸 美国-A6D5F5C5
+  network: tcp
+  port: 180
+  server: 82.198.246.46
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-256-cfb
   name: airport|🇷🇺 俄罗斯-A022D55A
   password: f8f7aCzcPKbsF8p3
@@ -70,45 +96,68 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- name: airport|🏁 未知-DA3D8889
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: airport|🏁 未知-DFD5969C
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usa2-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 38.105.28.221
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: airport|🇺🇸 美国-E46B2453
-  network: http
-  port: 52914
-  server: 66.181.36.174
+  name: airport|🇺🇸 美国-406E18C5
+  network: ws
+  port: 3438
+  server: 216.167.32.53
   tls: false
   type: vmess
-  uuid: 8ae1c2f0-3127-49ac-acad-def55b04c231
-- cipher: aes-256-cfb
-  name: airport|🇺🇸 美国-8FC88A46
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-C44C8870
-  password: 4DrioHAbACj61Wq8yZ0wuq
-  port: 6354
-  server: 194.87.186.134
+  uuid: a77d8ea6-1e1b-4825-a71c-41262f19e3fd
+  ws-opts:
+    path: /
+- name: airport|🏁 未知-00B8B02E
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.12.149
   skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 0
-  cipher: auto
-  name: ruk1ng|🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_4ccbbee6
-  port: 180
-  server: 82.198.246.46
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- client-fingerprint: chrome
+  name: airport|🏁 未知-3507EC2C
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.32.37
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: /assignment
+- cipher: chacha20-ietf
+  name: ruk1ng|🔴🇭🇰[📺]_github.com/Ruk1ng001_8d11db13
+  password: asd123456
+  port: 8388
+  server: 103.141.221.124
+  type: ss
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-256-cfb
   name: ermaozi|🇷🇺_RU_俄罗斯
   password: SBM7R883jBmnqe6C
@@ -150,4 +199,10 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 91.132.94.200
+  type: ss
+- cipher: aes-256-cfb
+  name: mahdiblanda|🇺🇸US-104.192.226.106-0146 | 62.213MB
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 104.192.226.106
   type: ss

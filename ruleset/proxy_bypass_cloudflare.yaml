@@ -17,5 +17,4 @@ payload:
   - DOMAIN-SUFFIX,x.com
   - DOMAIN-KEYWORD,cloudflare
   - DOMAIN-KEYWORD,free.514claude.xyz
-  - DOMAIN-KEYWORD,hd-torrents
   - DOMAIN-KEYWORD,perplexity

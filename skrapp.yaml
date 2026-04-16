@@ -30,3 +30,57 @@ proxies:
     port: 443
     cipher: chacha20-ietf-poly1305
     password: p78naCf2EfOlRSLTX0wFVx
+  - name: 2026-4-11-202
+    type: vmess
+    server: 147.182.244.200
+    port: 10304
+    uuid: d8ae0318-95d6-438d-a623-12601a5a8434
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 2026-4-11-203
+    type: vmess
+    server: 147.182.244.200
+    port: 10305
+    uuid: 763bb282-c51a-4237-b58a-b711cdcf4486
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 2026-4-11-204
+    type: vmess
+    server: 147.182.244.200
+    port: 10306
+    uuid: 4e8b01bd-acb1-44b2-bf47-1872d92ab770
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 2026-4-11-205
+    type: vmess
+    server: 147.182.244.200
+    port: 10307
+    uuid: a038a94e-0959-4f78-b0d0-219a6d0567c9
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 2026-4-11-206
+    type: vmess
+    server: 147.182.244.200
+    port: 10308
+    uuid: 8619369e-0697-4bf0-b34e-f9d32f8b1ed9
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 2026-4-11-207
+    type: vmess
+    server: 147.182.244.200
+    port: 10309
+    uuid: d4525018-f071-466f-a6a0-9fe472fc6834
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp

@@ -637,6 +637,14 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 72000
     icon: https://g.csdnimg.cn/static/logo/favicon32.ico
+  - name: PureLess
+    type: select
+    proxies:
+      - SKR
+      - XQC
+      - UserC
+      - 🚀 节点选择
+      - 🎯 全球直连
   - name: XTwitter
     type: select
     proxies:
@@ -1046,7 +1054,13 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/classical_proxy.yaml"
     path: ./ruleset/classical_proxy.yaml
     interval: 86400
-
+  PureAI:
+    behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
+    type: http # file
+    format: 'yaml' # or 'text'
+    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/pure_home_node.yaml"
+    path: ./ruleset/pure_home_node.yaml
+    interval: 86400
   passby_proxy:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
@@ -1060,6 +1074,7 @@ rules:
   - RULE-SET,artificial_direct,🎯 全球直连
   - RULE-SET,cloudflare_ipcidr,🎯 全球直连
   - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,PureAI,PureLess
   - RULE-SET,passby_proxy,XTwitter
   - RULE-SET,Twitter,XTwitter
   - RULE-SET,classical_proxy,🚀 节点选择
