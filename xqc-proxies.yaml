@@ -40,30 +40,6 @@ proxies:
     grpc-opts:
       grpc-service-name: GunSffffervice
   - { name: NL1, server: '2001:bc8:1640:50eb:dc00:ff:fe57:dd6f', port: 58641, sni: Ab.ac, up: null, down: null, skip-cert-verify: true, ports: 50000-60000, type: hysteria2, password: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14, obfs: salamander, obfs-password: FnFgQIckcMRtKq7i }
-  - name: US美国(ProxyGo免费节点分享)
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: Vl-ws-tls-vps-6d898976bf-jkp8f
-    type: vless
-    server: bwaybdfwemsz.ap-northeast-1.clawcloudrun.com
-    port: 443
-    uuid: 66b80b60-7877-416b-af71-f1c38acd7bdd
-    tls: true
-    client-fingerprint: chrome
-    servername: bwaybdfwemsz.ap-northeast-1.clawcloudrun.com
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        host: bwaybdfwemsz.ap-northeast-1.clawcloudrun.com
-    tfo: false
-    skip-cert-verify: false
   - name: '【机场推荐：https://a0a.xyz/】17'
     type: vmess
     server: 82.198.246.97
@@ -149,12 +125,6 @@ proxies:
     ws-opts:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
       headers:
-  - name: US美国(mibei77.com 米贝节点分享)
-    type: ss
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 9tqhMdIrTkgQ46PvhyAtMH
   - name: vl-reality-233
     type: vless
     server: 216.238.53.30
@@ -224,18 +194,3 @@ proxies:
     port: 58397
     cipher: 2022-blake3-aes-128-gcm
     password: uuesYvvbJDvOhindLntjag==
-  - name: "[IPv6]us_rn4_cf"
-    type: vless
-    server: cloudflare.182682.xyz
-    port: 443
-    uuid: ec45053e-8277-4fe1-8bdc-245bb9dfc5e1
-    tls: true
-    client-fingerprint: chrome
-    servername: d1.838889.xyz
-    network: ws
-    ws-opts:
-      path: /ec45053e
-      headers:
-        host: d2.838889.xyz
-    tfo: false
-    skip-cert-verify: false
