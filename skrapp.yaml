@@ -1,4 +1,37 @@
 proxies:
+  - name: "\U0001F1FA\U0001F1F8 US 212 | ⬇️ 5MB/s"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: "\U0001F1FA\U0001F1F8_www.panlongid.com_US_美国_63"
+    type: ss
+    server: tinkered-pennies-puppies.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: hbGrpfvNrJsUmKmPbR3iY2
+  - name: "\U0001F1E9\U0001F1EA_www.panlongid.com_DE_德国_7"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: "\U0001F1E9\U0001F1EA_www.panlongid.com_DE_德国_5"
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: "IPv6us_rn4_cf"
     type: vless
     server: cloudflare.182682.xyz
@@ -44,3 +77,73 @@ proxies:
         host: bwaybdfwemsz.ap-northeast-1.clawcloudrun.com
     tfo: false
     skip-cert-verify: false
+  - name: "\U0001F1EB\U0001F1F7_www.panlongid.com_FR_法国_68"
+    type: vmess
+    server: '2001:bc8:32d7:302::14'
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      headers:
+        Host: TABRIZ.NET
+  - name: "\U0001F1F3\U0001F1F1_www.panlongid.com_NL_荷兰_24"
+    type: ss
+    server: switcher-nick-croquet.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: RFK38Cg7APneSB5cWDcpbm
+  - name: "\U0001F1EB\U0001F1F7_www.panlongid.com_FR_法国_62"
+    type: vmess
+    server: '2001:bc8:32d7:302::15'
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: TURK.NET
+  - name: "\U0001F1EB\U0001F1F7_www.panlongid.com_FR_法国_64"
+    type: vmess
+    server: '2001:bc8:32d7:302::11'
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      headers:
+        Host: Azerb.NET
+  - name: "\U0001F1EB\U0001F1F7_www.panlongid.com_FR_法国_66"
+    type: vmess
+    server: '2001:bc8:32d7:302::10'
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: TURK1.NET.NET
+  - name: 美国
+    type: vmess
+    server: '2001:bc8:32d7:302::10'
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:

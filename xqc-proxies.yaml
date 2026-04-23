@@ -133,72 +133,81 @@ proxies:
     ws-opts:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
       headers:
-  - name: vl-reality-233
-    type: vless
-    server: 216.238.53.30
-    port: 52207
-    uuid: a9bc8cf2-329b-4dd8-8c95-42821cd86d06
-    tls: true
-    client-fingerprint: chrome
-    servername: apple.com
-    network: tcp
-    reality-opts:
-      public-key: Wbv6uePPmuzCkLyLnupoelbPrk340w9S6qLmiI1VqyM
-      short-id: b96a305f
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: vm-ws-tls-233
+  - name: 美国
     type: vmess
-    server: www.visa.com.sg
-    port: 8443
-    uuid: a9bc8cf2-329b-4dd8-8c95-42821cd86d06
+    server: '2001:bc8:32d7:302::17'
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
     alterId: 0
     cipher: auto
-    tls: true
-    servername: 3.a521.eu.org
+    tls: false
     network: ws
     ws-opts:
-      path: a9bc8cf2-329b-4dd8-8c95-42821cd86d06-vm
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
       headers:
-        Host: 3.a521.eu.org
-  - name: hy2-233
-    type: hysteria2
-    server: 3.a521.eu.org
-    port: 33311
-    password: a9bc8cf2-329b-4dd8-8c95-42821cd86d06
-    auth: a9bc8cf2-329b-4dd8-8c95-42821cd86d06
-    skip-cert-verify: true
-  - name: tu5-233
-    type: tuic
-    server: 3.a521.eu.org
-    port: 46635
-    uuid: a9bc8cf2-329b-4dd8-8c95-42821cd86d06
-    password: a9bc8cf2-329b-4dd8-8c95-42821cd86d06
-    skip-cert-verify: true
-    disable-sni: true
-    alpn:
-      - h3
-    sni: 3.a521.eu.org
-    udp-relay-mode: native
-  - name: 河内直连
+        Host: AZERB.NET
+  - name: 法國
     type: vless
-    server: 171.237.177.169
-    port: 21077
-    uuid: 40858773-2aaf-416b-b5e1-4a4f4e4a2024
+    server: '2001:bc8:32d7:302::13'
+    port: 34324
+    uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
     tls: true
     client-fingerprint: chrome
-    servername: addons.mozilla.org
+    servername: dash.cloudflare.com
     network: tcp
     reality-opts:
-      public-key: Gxx0-IYq7RtRrCy0a3XM_0g1QvNTaDXbCR9U89W2A0w
-      short-id: 84c0cc0ea50a5078
+      public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
-  - name: ss-TW hinet
-    type: ss
-    server: 36.234.134.87
-    port: 58397
-    cipher: 2022-blake3-aes-128-gcm
-    password: uuesYvvbJDvOhindLntjag==
+  - name: 美国
+    type: vmess
+    server: '2001:bc8:32d7:302::16'
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: AZERB.NET
+  - name: 美国
+    type: vmess
+    server: '2001:bc8:32d7:302::15'
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: TURK.NET
+  - name: 美国
+    type: vmess
+    server: '2001:bc8:32d7:302::11'
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      headers:
+        Host: TABRIZ.NET
+  - name: 美国
+    type: vmess
+    server: '2001:bc8:32d7:302::10'
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
