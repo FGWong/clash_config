@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,intercomcdn.com
   - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,newpipe.net
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,statsigapi.net
   - DOMAIN-KEYWORD,chatgpt.com
