@@ -3,7 +3,7 @@ proxies:
   name: 0_eu
   network: ws
   port: 443
-  server: 162.159.38.234
+  server: 108.162.198.194
   servername: x.clayton.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -18,8 +18,8 @@ proxies:
   name: 1_kg
   network: ws
   port: 443
-  server: 162.159.39.253
-  servername: e.fugang.dpdns.org
+  server: 162.159.39.107
+  servername: f.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -27,13 +27,13 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105a2
   ws-opts:
     headers:
-      Host: e.fugang.dpdns.org
+      Host: f.fugang.dpdns.org
     path: /
 - client-fingerprint: random
   name: 2_eu
   network: ws
   port: 443
-  server: 172.64.53.127
+  server: 162.159.44.218
   servername: x.clayton.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -48,8 +48,8 @@ proxies:
   name: 3_kg
   network: ws
   port: 443
-  server: 108.162.198.0
-  servername: e.fugang.dpdns.org
+  server: 162.159.38.178
+  servername: f.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -57,13 +57,13 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105a2
   ws-opts:
     headers:
-      Host: e.fugang.dpdns.org
+      Host: f.fugang.dpdns.org
     path: /
 - client-fingerprint: random
   name: 4_eu
   network: ws
   port: 443
-  server: 162.159.48.191
+  server: 172.64.53.172
   servername: x.clayton.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -78,8 +78,8 @@ proxies:
   name: 5_kg
   network: ws
   port: 443
-  server: 162.159.45.238
-  servername: e.fugang.dpdns.org
+  server: 162.159.45.48
+  servername: f.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -87,13 +87,13 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105a2
   ws-opts:
     headers:
-      Host: e.fugang.dpdns.org
+      Host: f.fugang.dpdns.org
     path: /
 - client-fingerprint: random
   name: 6_eu
   network: ws
   port: 443
-  server: 172.64.155.180
+  server: 172.64.52.33
   servername: x.clayton.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -108,8 +108,8 @@ proxies:
   name: 7_kg
   network: ws
   port: 443
-  server: 162.159.33.231
-  servername: e.fugang.dpdns.org
+  server: 172.64.158.73
+  servername: f.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -117,13 +117,13 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105a2
   ws-opts:
     headers:
-      Host: e.fugang.dpdns.org
+      Host: f.fugang.dpdns.org
     path: /
 - client-fingerprint: random
   name: 8_eu
   network: ws
   port: 443
-  server: 162.159.44.63
+  server: 104.18.33.198
   servername: x.clayton.dpdns.org
   skip-cert-verify: false
   tfo: false
@@ -138,8 +138,8 @@ proxies:
   name: 9_kg
   network: ws
   port: 443
-  server: 172.64.52.76
-  servername: e.fugang.dpdns.org
+  server: 104.18.39.187
+  servername: f.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -147,5 +147,5 @@ proxies:
   uuid: e4f949dd-4b1d-48e9-8e30-f90029e105a2
   ws-opts:
     headers:
-      Host: e.fugang.dpdns.org
+      Host: f.fugang.dpdns.org
     path: /

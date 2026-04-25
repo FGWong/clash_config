@@ -211,3 +211,55 @@ proxies:
     ws-opts:
       path: /
       headers:
+  - name: CF官方优选1
+    type: vless
+    server: 198.41.223.253
+    port: 2083
+    uuid: e4f949dd-4b1d-48e9-8e30-f90029e105a2
+    tls: true
+    client-fingerprint: chrome
+    servername: f.fugang.dpdns.org
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        host: f.fugang.dpdns.org
+    tfo: false
+    skip-cert-verify: false
+  - name: "\U0001F1FA\U0001F1F8_US_美国"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: "\U0001F1F2\U0001F1FE_MY_马来西亚->\U0001F1F3\U0001F1F1_NL_荷兰"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: "\U0001F1EC\U0001F1E7_GB_英国"
+    type: vless
+    server: london1.ap221.com
+    port: 443
+    uuid: afee9d32-7699-46cc-875d-454dfb95557b
+    tls: true
+    client-fingerprint: chrome
+    servername: london.ap221.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: "\U0001F1F0\U0001F1F7_KR_韩国"
+    type: hysteria2
+    server: vpn-kr-001.fastervpn.world
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true

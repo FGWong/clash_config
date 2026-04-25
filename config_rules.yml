@@ -584,14 +584,14 @@ proxy-groups:
     proxies:
       - Optimize
       - XQC
+      - SKR
+      - UserC
       - 🎯 全球直连
       - ♻️ 自动选择
       - ⚡ 负载均衡
       - 🔰 manual
       - Cflare
       - Cfkg
-      - SKR
-      - UserC
       - Tclash
   - name: Optimize
     type: url-test
@@ -612,31 +612,12 @@ proxy-groups:
       - skr
     url: 'http://www.gstatic.com/generate_204'
     interval: 7200
-  - name: Cflare
-    type: url-test
-    use:
-      - cldflare
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 1200
-  - name: Cfkg
-    type: url-test
-    use:
-      - cldkg
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 1200
   - name: UserC
     type: select
     use:
       - ucust
     url: 'http://www.gstatic.com/generate_204'
     interval: 12000
-  - name: Tclash
-    type: url-test
-    use:
-      - tclashfile
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 72000
-    icon: https://g.csdnimg.cn/static/logo/favicon32.ico
   - name: PureLess
     type: select
     proxies:
@@ -649,11 +630,30 @@ proxy-groups:
     type: select
     proxies:
       - UserC
-      - 🚀 节点选择
-      - 🎯 全球直连
       - SKR
       - XQC
+      - 🚀 节点选择
+      - 🎯 全球直连
       - ACommon
+  - name: Cflare
+    type: url-test
+    use:
+      - cldflare
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1200
+  - name: Cfkg
+    type: url-test
+    use:
+      - cldkg
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1200
+  - name: Tclash
+    type: url-test
+    use:
+      - tclashfile
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 72000
+    icon: https://g.csdnimg.cn/static/logo/favicon32.ico
   - name: ♻️ 自动选择
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
@@ -1027,14 +1027,16 @@ rule-providers:
   artificial_direct:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config/ruleset/manual_direct.yaml"
+    #url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config/ruleset/manual_direct.yaml"
+    url: "https://raw.githubusercontent.com/FGWong/clash_config/refs/heads/main/ruleset/manual_direct.yaml"
     path: ./ruleset/manual_direct.yaml
     interval: 86400
 
   artificial_proxy:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/manual_proxy.yaml"
+    #url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/manual_proxy.yaml"
+    url: "https://raw.githubusercontent.com/FGWong/clash_config/refs/heads/main/ruleset/manual_proxy.yaml"
     path: ./ruleset/manual_proxy.yaml
     interval: 86400
 
@@ -1042,7 +1044,8 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/classical_direct.yaml"
+    #url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/classical_direct.yaml"
+    url: "https://raw.githubusercontent.com/FGWong/clash_config/refs/heads/main/ruleset/classical_direct.yaml"
     #url: "https://pub.loc.cc:15443/clash_verge/ruleset/classical_direct.yaml"
     path: ./ruleset/classical_direct.yaml
     interval: 86400
@@ -1051,7 +1054,8 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/classical_proxy.yaml"
+    #url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/classical_proxy.yaml"
+    url: "https://raw.githubusercontent.com/FGWong/clash_config/refs/heads/main/ruleset/classical_proxy.yaml"
     path: ./ruleset/classical_proxy.yaml
     interval: 86400
   PureAI:
@@ -1065,7 +1069,8 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (仅限 Clash Premium 内核)
     type: http # file
     format: 'yaml' # or 'text'
-    url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/proxy_bypass_cloudflare.yaml"
+    #url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/proxy_bypass_cloudflare.yaml"
+    url: "https://raw.githubusercontent.com/FGWong/clash_config/refs/heads/main/ruleset/proxy_bypass_cloudflare.yaml"
     path: ./ruleset/proxy_bypass_cloudflare.yaml
     interval: 86400
 

@@ -31,73 +31,79 @@ proxies:
       Host: a.mifeng.us.kg
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: airport|🇹🇼 中国台湾省-725038AA
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 111.248.87.208
+  name: airport|🇸🇬 新加坡-1094F5AB
+  password: 5puYaYba91Dy_nhjPnOlMQ
+  port: 51515
+  server: 172.236.150.119
   skip-cert-verify: false
   type: ss
   udp: false
 - cipher: chacha20-ietf-poly1305
-  name: airport|🇹🇼 中国台湾省-62266453
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 61.231.19.71
+  name: airport|🏁 未知-C1461645
+  password: IcHhucIWiJhfleKaB7n_aw
+  port: 65443
+  server: 141.98.17.63
   skip-cert-verify: false
   type: ss
   udp: false
 - cipher: chacha20-ietf-poly1305
-  name: airport|🇮🇳 印度-6BEA6AB0
-  password: be4a6fd2209f62a7
-  port: 11201
-  server: 185.67.125.109
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇩🇪 德国-7DA9EF51
-  password: 70c455c9f19aa3a5
-  port: 11206
-  server: 57.129.94.79
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇳🇱 荷兰-8DB26BF4
+  name: airport|🇬🇧 英国-7CEC4E6A
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 193.29.139.251
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇬🇧 英国-920EDAD3
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.202
+  server: 82.38.31.35
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-70100746
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.179
+- name: airport|🇰🇷 韩国-8B6F4762
+  network: ws
+  password: '1234567890'
+  port: 16922
+  server: 118.45.236.190
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /ed=2560&https://t.me/WangCai2🇨🇳
+- alterId: 0
+  cipher: auto
+  name: airport|🏁 未知-07F16A90
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-643F0AFE
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.16
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇳🇱 荷兰-F247F9E6
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.146
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: airport|🏁 未知-2AC9E17E
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.252
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: airport|🏁 未知-4FD611B0
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.215
+  type: ss
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-1EB647E0
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.213
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-2396834D
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.101
-  type: ss
 - alterId: 0
   cipher: auto
   name: airport|🇺🇸 美国-5CF67ADC
@@ -107,260 +113,50 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: airport|🇺🇸 美国-B221E8B6
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-3C1E7138
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.122
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇬🇧 英国-231F2C27
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.210
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇩🇪 德国-71233D3E
-  password: 33e1f4f6e369d673
-  port: 42681
-  server: 135.125.219.2
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇩🇪 德国-7B756F77
-  password: 9ab642148dabe978
-  port: 41237
-  server: 135.125.219.2
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-7F61804B
-  password: 94aae0510188e8c5
-  port: 11201
-  server: 141.95.106.127
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-CFA947EF
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.124
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-34FC4D51
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.217
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-D63FD255
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.66
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: airport|🇺🇸 美国-643A2D2C
-  password: jd9FR12wprKPNJHg
+- name: airport|🏁 未知-57E426CE
+  network: ws
+  password: '1234567890'
   port: 443
-  server: 62.146.171.57
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-54873D75
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.62
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-475C6688
-  password: a10bd25b21995e56
-  port: 40266
-  server: 135.125.219.2
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇦🇹 奥地利-A582639B
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 37.235.56.69
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇸🇨 塞舌尔-D0120E18
-  password: 71807718f593d3e6
-  port: 11201
-  server: 154.205.148.202
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-3CFBE718
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.208
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-4D85E605
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.61
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇳🇱 荷兰-97485A25
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.186
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇳🇱 荷兰-9A24712A
-  password: VpKABcOpNNA0l5G2AVOmw8
-  port: 62685
-  server: 213.109.147.242
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: airport|🇺🇸 美国-3B2D4C64
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-CEA218F0
-  password: cb4258dc1b53613c
-  port: 29461
-  server: 163.171.207.11
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  country: 🇭🇷HR
-  name: airport|🇭🇷 克罗地亚-309D1278
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 46.183.184.60
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-E188ADFB
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.134
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-80FFC2E2
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.153
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 1680
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: airport|🇯🇵 日本-5124AE6D
-  network: http
-  port: 53224
-  server: 103.127.243.49
-  type: vmess
-  uuid: 4f47e6cc-659d-4588-8155-21d2782f1b91
+  server: 195.245.239.124
+  skip-cert-verify: true
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /ed=2560&https://t.me/WangCai2🇨🇳
+- name: airport|🇩🇪 德国-46F8E961
+  network: ws
+  password: '1234567890'
+  port: 8443
+  server: 2.27.120.108
+  skip-cert-verify: true
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /ed=2560&https://t.me/WangCai2🇨🇳
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: airport|🏁 未知-9EC11671
+  name: airport|🏁 未知-C0029AF1
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.29
+  server: 103.186.155.222
   type: ss
 - cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-3D640A42
+  name: airport|🇻🇳 越南-63D928A1
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.58
+  server: 103.186.154.42
   skip-cert-verify: false
   type: ss
   udp: false
 - cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: airport|🏁 未知-AC9EA490
+  name: airport|🇻🇳 越南-BD948678
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.57
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: airport|🏁 未知-98272A0B
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.147
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-BEBFEBF0
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.75
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-1ACFA410
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.173
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-B3CBA8F9
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.3
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-D159FF1D
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.202
+  server: 103.186.155.31
   skip-cert-verify: false
   type: ss
   udp: false
@@ -371,92 +167,10 @@ proxies:
   server: 103.186.155.113
   type: ss
 - cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: airport|🏁 未知-663B13FF
+  name: airport|🇻🇳 越南-2EE6EEC0
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.37
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇦🇹 奥地利-C60785C8
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 37.235.56.69
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-02F63689
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.43
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: airport|🏁 未知-0D4D8BCE
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.229
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-DAA8A842
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.34
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: airport|🏁 未知-4BA38A84
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.4
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: airport|🏁 未知-83A59314
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.143
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-1950E774
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.18
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: airport|🇮🇶 伊拉克-8EDB1616
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 178.17.48.170
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  ws-opts:
-    path: /ed=2560&https://t.me/WangCai2🇨🇳
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-84BFDD0B
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.178
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-5141FF18
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.81
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-1B13AFDF
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.23
+  server: 103.186.154.56
   skip-cert-verify: false
   type: ss
   udp: false
@@ -475,201 +189,129 @@ proxies:
   type: vmess
   uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
 - cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-3CE38019
+  country: 🏁ZZ
+  name: airport|🏁 未知-598295BF
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.249
+  server: 103.186.154.28
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: airport|🇩🇪 德国-FEE229C3
-  network: http
-  port: 80
-  server: 77.90.11.178
-  tls: false
-  type: vmess
-  uuid: b3cdfe2d-5eac-4b0d-a8eb-d3f6a647e13f
+- name: airport|🇰🇷 韩国-DC946D50
+  network: ws
+  password: '1234567890'
+  port: 25448
+  server: 222.105.138.122
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /ed=2560&https://t.me/WangCai2🇨🇳
 - cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-4808846B
+  name: airport|🇻🇳 越南-9790C3CE
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.9
+  server: 103.186.155.115
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: airport|🏁 未知-355BDD16
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.36
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: airport|🏁 未知-32DD3AB4
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.179
+  type: ss
+  udp: true
+- name: airport|🇰🇷 韩国-0087C622
+  network: ws
+  password: '1234567890'
+  port: 14265
+  server: 222.113.18.213
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /ed=2560&https://t.me/WangCai2🇨🇳
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-9BDA0893
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.58
   skip-cert-verify: false
   type: ss
   udp: false
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: airport|🏁 未知-4334E73C
+  name: airport|🏁 未知-BE8CDB88
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.174
+  server: 103.186.155.202
   type: ss
 - cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-8198D076
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.125
+  name: airport|🇹🇼 中国台湾省-17CA1FCF
+  password: qwerREWQ@@
+  port: 41632
+  server: 185.189.160.105
   skip-cert-verify: false
   type: ss
   udp: false
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: airport|🏁 未知-95AF30A0
+  name: airport|🏁 未知-8EDDC26B
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.241
+  server: 103.186.155.234
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇺🇸 美国-7AFDFF8C
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 23.95.76.59
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-FF3154E0
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.112
   skip-cert-verify: false
   type: ss
   udp: false
 - cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-93A2180C
+  name: airport|🇻🇳 越南-5C935598
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.236
+  server: 103.186.154.39
   skip-cert-verify: false
   type: ss
   udp: false
 - cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: airport|🏁 未知-077B358A
+  name: airport|🏁 未知-6DA191C4
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.240
+  server: 103.186.155.126
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇩🇪 德国-D00F02E7
-  password: 1hhrqrokj3ag
-  port: 8388
-  server: 209.46.102.22
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🏁 未知-AE8E91AD
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.23.166
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-FCC09D68
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.111
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: airport|🏁 未知-F3DC47AB
+  name: airport|🏁 未知-4061660C
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.101
+  server: 103.186.155.70
   type: ss
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-4092358F
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.132
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - cipher: aes-256-gcm
   name: airport|🏁 未知-D3D29C53
   password: HGlzsKUqaTiC0PSLHn6jT83OZvGiLnpI
   port: 7918
   server: 185.39.204.196
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-144D3E99
-  password: vqg35FL6YqE7iC7Wea85VI
-  port: 443
-  server: 178.160.228.142
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-FE82A168
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.232
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: airport|🏁 未知-E90DD63A
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.221
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-BD948678
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.31
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-ECEA034A
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.11
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-0996A8CB
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.204
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇪🇸 西班牙-D74BEB64
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 45.154.206.192
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-B330B04A
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 154.205.150.157
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🏁 未知-616608BD
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.128
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-911B4423
-  password: 1d1bc54689ed4b75
-  port: 26737
-  server: 119.159.245.24
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-12EA7611
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.64
   skip-cert-verify: false
   type: ss
   udp: false
@@ -681,34 +323,171 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: rc4-md5
-  name: airport|🇨🇦 加拿大-093F7F75
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 137.184.174.93
+- alterId: '0'
+  cipher: auto
+  client-fingerprint: chrome
+  name: airport|🇺🇸 美国-3B2D4C64
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-1B13AFDF
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.23
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇦🇷 阿根廷-EDC5555E
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 190.103.176.32
+- name: airport|🇰🇷 韩国-0D2664B0
+  network: ws
+  password: '1234567890'
+  port: 10911
+  server: 222.112.168.62
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /ed=2560&https://t.me/WangCai2🇨🇳
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-DAA8A842
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.34
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-A8FC54BD
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.207
+  type: ss
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-FE82A168
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.232
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: airport|🇰🇷 韩国-BD6B7D22
+  network: ws
+  password: '1234567890'
+  port: 10332
+  server: 59.3.62.210
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /ed=2560&https://t.me/WangCai2🇨🇳
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-E188ADFB
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-4517A02D
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.26
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-F4920D93
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.52
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-35C6970A
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.226
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: airport|🇻🇳 越南-080CF4A0
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.196
+  type: ss
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-3D640A42
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.58
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-49602139
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.24
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: airport|🇺🇸 美国-7A0240C5
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 31.58.85.103
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /ed=2560&https://t.me/WangCai2🇨🇳
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-76E37696
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.41
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-51FA2411
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.118
   skip-cert-verify: false
   type: ss
   udp: false
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: airport|🏁 未知-8F6B8990
+  name: airport|🏁 未知-077B358A
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.141
+  server: 103.186.155.240
   type: ss
 - cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-D61368D6
+  country: 🏁ZZ
+  name: airport|🏁 未知-83A59314
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.40
+  server: 103.186.155.143
+  type: ss
+- cipher: aes-256-cfb
+  name: airport|🇻🇳 越南-6799A9F6
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.107
   skip-cert-verify: false
   type: ss
   udp: false
@@ -721,78 +500,36 @@ proxies:
   type: ss
   udp: false
 - cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-A8FC54BD
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.207
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-A00EDC35
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.234
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-153E9974
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.205
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-AE1D09D6
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.14
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇮🇹 意大利-91FB833C
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 176.126.83.158
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
   country: 🏁ZZ
-  name: airport|🏁 未知-9FDAF505
+  name: airport|🏁 未知-4BA38A84
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.17
+  server: 103.186.154.4
   type: ss
 - cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-1A614D1C
+  name: airport|🇻🇳 越南-89225D66
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.57
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇨🇱 智利-B769E118
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 154.205.153.107
+  server: 103.186.154.191
   skip-cert-verify: false
   type: ss
   udp: false
 - cipher: aes-256-cfb
-  name: airport|🇦🇷 阿根廷-BDD21522
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.54.45.129
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-5C935598
+  name: airport|🇻🇳 越南-7D8D9234
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.39
-  skip-cert-verify: false
+  server: 103.186.155.136
   type: ss
-  udp: false
+  udp: true
+- cipher: aes-256-cfb
+  name: airport|🇰🇷 韩国-50A9D42B
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  skip-cert-verify: true
+  tfo: false
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: airport|🏁 未知-871019FE
@@ -800,135 +537,6 @@ proxies:
   port: 38388
   server: 103.186.155.84
   type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: airport|🏁 未知-FBA0F18F
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.30
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇦🇷 阿根廷-2AD5BBE2
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 190.103.176.32
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-D6ED2388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.189
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-A78B498C
-  password: 1d1bc54689ed4b75
-  port: 26739
-  server: 119.159.245.24
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: airport|🏁 未知-BE8CDB88
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.202
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: airport|🏁 未知-7AA06CEF
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.175
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇵🇰 巴基斯坦-90DF9B27
-  password: fec4e6f9e954aead
-  port: 29700
-  server: 119.159.245.24
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-63D928A1
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.42
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: airport|🏁 未知-F3A7D329
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.181
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-CF334F3E
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.227
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇵🇰 巴基斯坦-C7946AB7
-  password: 1d1bc54689ed4b75
-  port: 26736
-  server: 119.159.245.24
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-E4A78B1E
-  password: 1d1bc54689ed4b75
-  port: 26738
-  server: 119.159.245.24
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-EE850E88
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.59
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-13A0A254
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.142
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-A9A757C4
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.47
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: airport|🏁 未知-4BED4965
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.199
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇺🇸 美国-D7E93E35
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 173.234.29.2
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-6799A9F6
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.107
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - cipher: aes-256-cfb
   name: airport|🇻🇳 越南-7C09649F
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -938,141 +546,57 @@ proxies:
   type: ss
   udp: false
 - cipher: aes-256-cfb
-  name: airport|🇨🇳 中国-56E3DB47
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 91.148.135.31
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-F3DF9F25
+  name: airport|🇻🇳 越南-9AD5647B
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.49
-  skip-cert-verify: false
+  server: 103.186.155.120
   type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-E1B7B2E8
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.102
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-2D2A16F2
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.212
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-C1D2F4AB
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.78
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇧🇷 巴西-03591846
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.54.57.90
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-874D2434
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.38
-  type: ss
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-86D91D69
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.32
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-F702DC6F
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.10
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: airport|🇸🇬 新加坡-F6CA2757
-  password: 7afa39016d5a409c
-  port: 48803
-  server: 194.233.73.51
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: airport|🇩🇪 德国-FB4576BA
-  network: ws
-  password: '1234567890'
-  port: 8443
-  server: 109.70.74.67
+- alterId: 0
+  cipher: auto
+  name: mfuu|🇩🇪DE-82.198.246.37-303
+  network: tcp
+  port: 180
+  server: 82.198.246.37
   skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /ed=2560&https://t.me/WangCai2🇨🇳
-- cipher: aes-256-cfb
-  name: airport|🏁 未知-D6AA6E2F
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.244.150
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-0AA742C9
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.144
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: airport|🏁 未知-40A35835
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 91.148.135.31
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: airport|🇻🇳 越南-4517A02D
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.26
-  skip-cert-verify: false
-  type: ss
-  udp: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.37
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: mfuu|🇩🇪DE-82.198.246.9-308
+  network: tcp
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: fra34.chasem2026sud.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: mfuu|🇭🇰HK-103.181.164.145-310
+  network: tcp
+  port: 51556
+  server: 103.181.164.145
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: fra33.chasem2026sud.com
+  ws-path: /
 - cipher: chacha20-ietf
-  name: ruk1ng|🔴🇭🇰_github.com/Ruk1ng001_TAy4COsc
+  name: ruk1ng|🔴🇭🇰[📺]_github.com/Ruk1ng001_8d11db13
   password: asd123456
   port: 8388
-  server: 103.149.182.79
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: ruk1ng|🔴🇦🇪[🎬🤖📺🔍]_github.com/Ruk1ng001_f7Z1w0je
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 147.78.0.182
+  server: 103.141.221.124
   type: ss
   udp: true
-- cipher: chacha20-ietf
-  name: ruk1ng|🔴🇭🇰_github.com/Ruk1ng001_deefc73a
-  password: asd123456
-  port: 8388
-  server: 103.149.183.12
-  type: ss
 - cipher: aes-256-cfb
   name: ermaozi|🇷🇺_RU_俄罗斯
   password: SBM7R883jBmnqe6C
@@ -1115,9 +639,15 @@ proxies:
   port: 989
   server: 91.132.94.200
   type: ss
+- cipher: chacha20-ietf
+  name: mahdiblanda|🇭🇰HK-103.149.182.105-4941 | 1.233MB
+  password: asd123456
+  port: 8388
+  server: 103.149.182.105
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: mahdiblanda|LV-46.183.217.204-0228 | 23.802MB
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 46.183.217.204
+  name: mahdiblanda|🇺🇸US-45.55.40.127-0158 | 44.898MB
+  password: elTuo73FsQwO90EbLo96Ve
+  port: 49726
+  server: 45.55.40.127
   type: ss
