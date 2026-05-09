@@ -43,123 +43,6 @@ proxies:
     port: 443
     cipher: chacha20-ietf-poly1305
     password: 9tqhMdIrTkgQ46PvhyAtMH
-  - name: 法国(yudou6677.top 玉豆免费节点)
-    type: vmess
-    server: '2001:bc8:32d7:302::10'
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ""
-  - name: GB英国1
-    type: vmess
-    server: '2001:bc8:32d7:302::10'
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: ""
-  - name: 美国(yudou6677.top 玉豆免费节点10)
-    type: vmess
-    server: '2001:bc8:32d7:302::10'
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: >-
-        /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-      headers:
-  - name: 美国(yudou789.top 玉豆免费节点14)
-    type: vmess
-    server: '2001:bc8:32d7:302::14'
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-      headers:
-        Host: TABRIZ.NET
-  - name: 美国(yudou789.top 玉豆免费节点15)
-    type: vmess
-    server: '2001:bc8:32d7:302::15'
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: TURK.NET
-  - name: 美国(yudou789.top 玉豆免费节点16)
-    type: vmess
-    server: '2001:bc8:32d7:302::16'
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: AZERB.NET
-  - name: 美国(yudou789.top 玉豆免费节点17)
-    type: vmess
-    server: '2001:bc8:32d7:302::17'
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-  - name: 美国
-    type: vmess
-    server: '2001:bc8:32d7:302::17'
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: AZERB.NET
-  - name: 法國
-    type: vless
-    server: '2001:bc8:32d7:302::13'
-    port: 34324
-    uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
-    tls: true
-    client-fingerprint: chrome
-    servername: dash.cloudflare.com
-    network: tcp
-    reality-opts:
-      public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
   - name: 美国
     type: vmess
     server: '2001:bc8:32d7:302::16'
@@ -244,22 +127,16 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: "\U0001F1EC\U0001F1E7_GB_英国"
-    type: vless
-    server: london1.ap221.com
+  - name: US SS-16 | free-nodes
+    type: ss
+    server: tinkered-pennies-puppies.freesocks.work
     port: 443
-    uuid: afee9d32-7699-46cc-875d-454dfb95557b
-    tls: true
-    client-fingerprint: chrome
-    servername: london.ap221.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: "\U0001F1F0\U0001F1F7_KR_韩国"
+    cipher: chacha20-ietf-poly1305
+    password: hbGrpfvNrJsUmKmPbR3iY2
+  - name: 喵哥自用美国绿云-Hysteria2
     type: hysteria2
-    server: vpn-kr-001.fastervpn.world
-    port: 443
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    server: 173.249.208.148
+    port: 21180
+    password: miaoge110
+    auth: miaoge110
     skip-cert-verify: true
