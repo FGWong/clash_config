@@ -58,27 +58,12 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 美國丨yoyapai.com
+  - name: US SS-16 | free-nodes
     type: ss
     server: tinkered-pennies-puppies.freesocks.work
     port: 443
     cipher: chacha20-ietf-poly1305
     password: hbGrpfvNrJsUmKmPbR3iY2
-  - name: TW SS-09 | free-nodes
-    type: ss
-    server: r3mrcg007147vhp.cybervena.com
-    port: 50099
-    cipher: chacha20-ietf-poly1305
-    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4�
-  - name: "\U0001F1EC\U0001F1E7 英国 CCZZUU.TOP 2"
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 美國
     type: vmess
     server: 82.198.246.233
@@ -88,55 +73,6 @@ proxies:
     cipher: aes-128-gcm
     tls: false
     network: tcp
-  - name: 德國
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: "\U0001F1FA\U0001F1F8_US_美国"
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: "\U0001F1E7\U0001F1F7_BR_巴西"
-    type: tuic
-    server: 45.82.245.37
-    port: 50043
-    uuid: e033ef6e-ab4b-47d4-a523-ff568d2c8dbb%3Astrong-secret-pass-777
-    skip-cert-verify: true
-    disable-sni: true
-    alpn:
-      - h3
-    udp-relay-mode: native
-  - name: "\U0001F1E9\U0001F1EA_DE_德国->\U0001F1F1\U0001F1FB_LV_拉脱维亚"
-    type: vless
-    server: 138.124.32.78
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    tls: true
-    client-fingerprint: chrome
-    servername: sni.latonyamadeline.ndjp.net
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        host: sni.latonyamadeline.ndjp.net
-    tfo: false
-    skip-cert-verify: false
-  - name: "\U0001F1F3\U0001F1F1_NL_荷兰"
-    type: ss
-    server: 82.38.31.186
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
   - name: "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1F1\U0001F1FB_LV_拉脱维亚"
     type: vless
     server: 151.242.69.201

@@ -1,18 +1,4 @@
 proxies:
-  - name: 🇭🇰香港精品2
-    password: <password>
-    port: 443
-    server: d0935e70-szpgg0-tcxn4m-12qba.hkt2.cdnhuawei.com
-    tls: true
-    type: socks5
-    username: 0cf1d872-aa2a-11ef-97e0-f23c9164ca5d
-  - name: 🇭🇰香港精品3
-    password: <password>
-    port: 8443
-    server: aec9c0f5-szpgg0-tcxn4m-12qba.hkt.cdnhuawei.com
-    tls: true
-    type: http
-    username: 0cf1d872-aa2a-11ef-97e0-f23c9164ca5d
   - name: DE1
     type: vless
     server: '2603:c020:800e:62ee:471c:3b87:2081:48aa'
@@ -28,15 +14,6 @@ proxies:
     grpc-opts:
       grpc-service-name: GunSffffervice
   - { name: NL1, server: '2001:bc8:1640:50eb:dc00:ff:fe57:dd6f', port: 58641, sni: Ab.ac, up: null, down: null, skip-cert-verify: true, ports: 50000-60000, type: hysteria2, password: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14, obfs: salamander, obfs-password: FnFgQIckcMRtKq7i }
-  - name: '【机场推荐：https://a0a.xyz/】17'
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 美国(yudou123.top 玉豆免费节点)
     type: ss
     server: switcher-nick-croquet.freesocks.work
@@ -82,19 +59,7 @@ proxies:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
       headers:
         Host: TABRIZ.NET
-  - name: 美国
-    type: vmess
-    server: '2001:bc8:32d7:302::10'
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-  - name: CF官方优选1
+  - name: CF官方优选
     type: vless
     server: 198.41.223.253
     port: 2083
@@ -109,24 +74,6 @@ proxies:
         host: f.fugang.dpdns.org
     tfo: false
     skip-cert-verify: false
-  - name: "\U0001F1FA\U0001F1F8_US_美国"
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: "\U0001F1F2\U0001F1FE_MY_马来西亚->\U0001F1F3\U0001F1F1_NL_荷兰"
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: US SS-16 | free-nodes
     type: ss
     server: tinkered-pennies-puppies.freesocks.work
@@ -140,3 +87,14 @@ proxies:
     password: miaoge110
     auth: miaoge110
     skip-cert-verify: true
+  - alterId: 0
+    cipher: auto
+    name: Flik6|[VMess] 🇬🇧 英国 V2CROSS.COM
+    port: 180
+    server: 82.198.246.97
+    skip-cert-verify: true
+    tfo: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
