@@ -29,6 +29,12 @@ proxies:
     port: 443
     cipher: chacha20-ietf-poly1305
     password: 9tqhMdIrTkgQ46PvhyAtMH
+  - name: "\U0001F1F3\U0001F1F1_www.panlongid.com_NL_荷兰_24"
+    type: ss
+    server: switcher-nick-croquet.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: RFK38Cg7APneSB5cWDcpbm
   - name: US美国(ProxyGo免费节点分享)
     type: vmess
     server: 82.198.246.97
@@ -38,9 +44,3 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: "\U0001F1F3\U0001F1F1_www.panlongid.com_NL_荷兰_24"
-    type: ss
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: RFK38Cg7APneSB5cWDcpbm
