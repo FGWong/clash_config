@@ -592,7 +592,6 @@ proxy-groups:
       - 🔰 manual
       - Cflare
       - Cfkg
-      - Tclash
   - name: Optimize
     type: url-test
     use:
@@ -647,13 +646,6 @@ proxy-groups:
       - cldkg
     url: 'http://www.gstatic.com/generate_204'
     interval: 1200
-  - name: Tclash
-    type: url-test
-    use:
-      - tclashfile
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 72000
-    icon: https://g.csdnimg.cn/static/logo/favicon32.ico
   - name: ♻️ 自动选择
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
@@ -839,16 +831,6 @@ proxy-providers:
     #type: file
     interval: 933622
     path: local_data/user_custom.yaml
-    health-check:
-      enable: true
-      interval: 186400
-      url: 'http://www.gstatic.com/generate_204'
-  tclashfile:
-    url: "https://pub.loc.cc:15443/clash_verge/Clash.yaml"
-    type: http
-    #type: file
-    interval: 1933622
-    path: local_data/Clash.yaml
     health-check:
       enable: true
       interval: 186400

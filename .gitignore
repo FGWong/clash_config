@@ -1,0 +1,11 @@
+#local
+Clash.yaml
+config_unionpay.yml
+v2rayshare.yaml
+
+#IDE
+*.swp
+*.swo
+
+#backup
+backup/

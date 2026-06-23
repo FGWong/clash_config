@@ -113,3 +113,48 @@ proxies:
         host: Koma-YT.PAGeS.Dev
     tfo: false
     skip-cert-verify: false
+  - name: "\U0001F1FA\U0001F1F8_www.panlongid.com_US_美国_22"
+    type: vless
+    server: 151.101.1.57
+    port: 80
+    uuid: 96eec36e-2c44-5b09-898e-6f0f0526e57f
+    tls: false
+    network: xhttp
+    tfo: false
+  - name: "\U0001F1F7\U0001F1FA_www.panlongid.com_RU_俄罗斯_3"
+    type: vless
+    server: r1.mizulina.top
+    port: 22231
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    tls: true
+    client-fingerprint: chrome
+    servername: r1.mizulina.top
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision-udp443
+  - name: "\U0001F1F7\U0001F1FA_www.panlongid.com_RU_俄罗斯_4"
+    type: vless
+    server: 85.234.114.53
+    port: 443
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    tls: true
+    client-fingerprint: chrome
+    servername: r1.mizulina.top
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: "\U0001F1F7\U0001F1FA_www.panlongid.com_RU_俄罗斯_7"
+    type: vless
+    server: 85.234.114.53
+    port: 22231
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    tls: true
+    client-fingerprint: chrome
+    servername: r1.mizulina.top
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - {name: "🇯🇵 日本26", type: vmess, server: cc26.goingside.site, port: 8998, uuid: 3d82c222-c34a-4522-b4ec-cdc90bcc0b84, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /, headers: {Host: cc26.goingside.site}}}
