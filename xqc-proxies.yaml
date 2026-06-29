@@ -203,3 +203,16 @@ proxies:
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
+  - name: "DOGEGG-XRAY-XTLS-REALITY"
+    type: vless
+    server: hostdzire.dogegg.online
+    port: 443
+    uuid: c9ddce25-8dc7-4d01-af0a-cca144c9e42c
+    network: tcp
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    servername: hostdzire.dogegg.online
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: N3WIzgOE8EsEnXcESY4zsXFm8jao91GcuraiqsKbNwo
