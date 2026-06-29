@@ -175,3 +175,31 @@ proxies:
     network: tcp
     tfo: false
     skip-cert-verify: false
+  - name: zouter jp
+    type: vless
+    server: 216.23.122.16
+    port: 59999
+    uuid: 31bd3fe2-cf27-4c2b-9864-2757e9ab9793
+    tls: true
+    client-fingerprint: chrome
+    servername: www.tesla.com
+    network: tcp
+    reality-opts:
+      public-key: Nfi773TPWFDja_uv7Y29hjJpd2e6rDnW_F0gWRi1PT0
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: zouteripv6
+    type: vless
+    server: 2a0e:97c0:3f4:1::e70
+    port: 59999
+    uuid: 31bd3fe2-cf27-4c2b-9864-2757e9ab9793
+    tls: true
+    client-fingerprint: chrome
+    servername: www.tesla.com
+    network: tcp
+    reality-opts:
+      public-key: Nfi773TPWFDja_uv7Y29hjJpd2e6rDnW_F0gWRi1PT0
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
