@@ -80,81 +80,98 @@ proxies:
     port: 443
     cipher: chacha20-ietf-poly1305
     password: hbGrpfvNrJsUmKmPbR3iY2
-  - name: 喵哥自用美国绿云-Hysteria2
-    type: hysteria2
-    server: 173.249.208.148
-    port: 21180
-    password: miaoge110
-    auth: miaoge110
-    skip-cert-verify: true
-  - alterId: 0
-    cipher: auto
-    name: Flik6|[VMess] 🇬🇧 英国 V2CROSS.COM
-    port: 180
-    server: 82.198.246.97
-    skip-cert-verify: true
-    tfo: false
-    tls: false
+  - name: "🇯🇵 日本26"
     type: vmess
+    server: cc26.goingside.site
+    port: 8998
+    uuid: 3d82c222-c34a-4522-b4ec-cdc90bcc0b84
+    alterId: 0
+    cipher: auto
     udp: true
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  - name: 美國丨yoyapai.com
-    type: trojan
-    server: 172.66.44.230
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    tls: true
-    client-fingerprint: chrome
-    sni: Koma-YT.PAGeS.Dev
     network: ws
     ws-opts:
-      path: /tro8sFW1S91B6sZrM1?ed=2560
+      path: /
       headers:
-        host: Koma-YT.PAGeS.Dev
-    tfo: false
-    skip-cert-verify: false
-  - name: "\U0001F1FA\U0001F1F8_www.panlongid.com_US_美国_22"
+        Host: cc26.goingside.site
+  - name: "美国-chao-8-14-251.99GB\U0001F4CA-9D,16H⏳"
     type: vless
-    server: 151.101.1.57
-    port: 80
-    uuid: 96eec36e-2c44-5b09-898e-6f0f0526e57f
-    tls: false
-    network: xhttp
-    tfo: false
-  - name: "\U0001F1F7\U0001F1FA_www.panlongid.com_RU_俄罗斯_3"
-    type: vless
-    server: r1.mizulina.top
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    server: 172.81.102.142
+    port: 29704
+    uuid: 714407f6-6864-4d97-abe8-eb611dea6fdc
     tls: true
     client-fingerprint: chrome
-    servername: r1.mizulina.top
+    servername: www.amazon.com
     network: tcp
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision-udp443
-  - name: "\U0001F1F7\U0001F1FA_www.panlongid.com_RU_俄罗斯_4"
-    type: vless
-    server: 85.234.114.53
-    port: 443
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    tls: true
-    client-fingerprint: chrome
-    servername: r1.mizulina.top
-    network: tcp
+    reality-opts:
+      public-key: bQWex8nRCRVvgOjtTskIBZmKJwGRcfWSM3btev9F_lE
+      short-id: '67'
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
-  - name: "\U0001F1F7\U0001F1FA_www.panlongid.com_RU_俄罗斯_7"
+  - name: "\U0001F1ED\U0001F1F0 香港-实验线路 BGP"
     type: vless
-    server: 85.234.114.53
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    server: a678ec47-de3b-4838-99c9-b67e2e6a8b4e.bnsepserv.com
+    port: 32510
+    uuid: 91bf632c-03d8-4214-99d6-702a70699035
     tls: true
     client-fingerprint: chrome
-    servername: r1.mizulina.top
+    servername: pull-flv-t96-admin.douyincdn.com
     network: tcp
+    reality-opts:
+      public-key: 0_2XKSqKLB9GEcmaMC0-dkccXJPAibO26GZBkRPyhEc
+      short-id: bc298780
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
-  - {name: "🇯🇵 日本26", type: vmess, server: cc26.goingside.site, port: 8998, uuid: 3d82c222-c34a-4522-b4ec-cdc90bcc0b84, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /, headers: {Host: cc26.goingside.site}}}
+  - name: "\U0001F1F9\U0001F1FC 台湾-实验线路 NeaRoute"
+    type: vless
+    server: a678ec47-de3b-4838-99c9-b67e2e6a8b4e.bnsepserv.com
+    port: 32512
+    uuid: 91bf632c-03d8-4214-99d6-702a70699035
+    tls: true
+    client-fingerprint: chrome
+    servername: pull-flv-t96-admin.douyincdn.com
+    network: tcp
+    reality-opts:
+      public-key: IExCXEh5z4u7BrF2SPe1_LmvbdT_-zhrmUtbu2Es9lU
+      short-id: 6410504c
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: "\U0001F1FA\U0001F1F8 美国-实验线路 BGP"
+    type: vless
+    server: a678ec47-de3b-4838-99c9-b67e2e6a8b4e.bnsepserv.com
+    port: 32511
+    uuid: 91bf632c-03d8-4214-99d6-702a70699035
+    tls: true
+    client-fingerprint: chrome
+    servername: pull-flv-t96-admin.douyincdn.com
+    network: tcp
+    reality-opts:
+      public-key: 47uiQ-e6rdp0_LkBPjqqoUHYJ6j2rQ1Sbk22ljlWmHw
+      short-id: f89d8073
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: "\U0001F1E8\U0001F1E6 加拿大-广东专线 BGP"
+    type: trojan
+    server: 11f8ca15-c3b1-4891-a2e2-7948c32224f5.bnsepserv.com
+    port: 32039
+    password: 91bf632c-03d8-4214-99d6-702a70699035
+    tls: true
+    client-fingerprint: chrome
+    sni: pull-flv-q1-admin.douyincdn.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: "\U0001F1EC\U0001F1E7 英国-广东专线 Scaleblade"
+    type: trojan
+    server: 11f8ca15-c3b1-4891-a2e2-7948c32224f5.bnsepserv.com
+    port: 32047
+    password: 91bf632c-03d8-4214-99d6-702a70699035
+    tls: true
+    client-fingerprint: chrome
+    sni: pull-flv-q1-admin.douyincdn.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
