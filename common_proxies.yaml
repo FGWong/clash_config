@@ -1,12 +1,4 @@
 proxies:
-- name: NoMoreWalls|香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 3941
-  server: 18.163.56.230
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: forever|Vless_Websocket
   network: ws
   port: 8080
@@ -41,18 +33,6 @@ proxies:
     headers:
       Host: www.calmloud.com
     path: /assignment
-- name: airport|🏁 未知-C3DCFC73
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.155
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
 - alterId: 0
   cipher: auto
   name: mfuu|🇩🇪DE-82.198.246.233-042
@@ -79,10 +59,3 @@ proxies:
   ws-headers:
     Host: 2001:bc8:32d7:302::10
   ws-path: ed=2048
-- cipher: aes-256-gcm
-  name: ruk1ng|🟢🇨🇳_github.com/Ruk1ng001_6607b0a2
-  password: '123'
-  port: 1001
-  server: 61.171.92.202
-  type: ss
-  udp: true

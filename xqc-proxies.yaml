@@ -216,3 +216,48 @@ proxies:
     client-fingerprint: chrome
     reality-opts:
       public-key: N3WIzgOE8EsEnXcESY4zsXFm8jao91GcuraiqsKbNwo
+  - name: 荷兰
+    type: vless
+    server: 199.47.242.244
+    port: 25822
+    uuid: 60e348b4-cda8-4f6a-81f0-d2979e0bf4a5
+    tls: true
+    client-fingerprint: chrome
+    servername: addons.mozilla.org
+    network: tcp
+    reality-opts:
+      public-key: fxq4uTTHq_kW4i9qMsdg1OvQbJd-57hCTZ_-taiGVXM
+      short-id: 6a52f37cbefcd43c
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: reality
+    type: vless
+    server: 23.148.204.9
+    port: 56966
+    uuid: 3f264771-4512-4e1b-a343-004b3e5e8e6b
+    tls: true
+    client-fingerprint: chrome
+    servername: addons.mozilla.org
+    network: tcp
+    reality-opts:
+      public-key: bqXoro5wdBZQZHGjux4yd3AV4oWXZ0GtHLrIPrRHDTI
+      short-id: 3df3d3b2aae617ce
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: sk kr
+    type: vless
+    server: 45.192.198.213
+    port: 25699
+    uuid: d355b57b-e5ec-44dc-95e6-d99c054f53e6
+    tls: true
+    client-fingerprint: chrome
+    servername: addons.mozilla.org
+    network: tcp
+    reality-opts:
+      public-key: JfLxX5BS0Y1Qt_BW_N2t-JaaUGZng_saZnkHrGztg0w
+      short-id: bd0e2de15ee402a0
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
