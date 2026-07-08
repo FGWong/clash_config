@@ -261,3 +261,40 @@ proxies:
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
+  - name: 节点日期：2026-07-08
+    type: vless
+    server: 82.158.229.125
+    port: 11126
+    uuid: 2166fcae-8e93-4f50-d3c4-94c7042767ac
+    tls: false
+    network: tcp
+    tfo: false
+  - name: 'CA【机场推荐：https://a9a.xyz】33'
+    type: vless
+    server: dex.mpzdev.ir
+    port: 16656
+    uuid: 4262c320-5080-4e93-904a-cb77d7fa1d70
+    tls: true
+    client-fingerprint: chrome
+    servername: icloud.com
+    network: tcp
+    reality-opts:
+      public-key: JU2RSU2sL-MAlzjOqLOYr-cDpg5ystXrF9Pdk2GWPhM
+      short-id: cfad2da14133
+    tfo: false
+    skip-cert-verify: false
+  - name: 'CN【机场推荐：https://a9a.xyz】34'
+    type: vless
+    server: 120.55.183.176
+    port: 443
+    uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+    tls: true
+    client-fingerprint: chrome
+    servername: support.zoom.us.yxls.eu.cc
+    network: ws
+    ws-opts:
+      path: /sg-melbi
+      headers:
+        host: support.zoom.us.yxls.eu.cc
+    tfo: false
+    skip-cert-verify: false
