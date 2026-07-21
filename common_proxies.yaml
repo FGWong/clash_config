@@ -1,4 +1,14 @@
 proxies:
+- client-fingerprint: chrome
+  name: NoMoreWalls|🇺🇸US_2|2.7MB/s
+  network: tcp
+  password: 0ebb269c9f2d4e8e46b0cd4105a55134
+  port: '49361'
+  server: 163.245.196.68
+  skip-cert-verify: false
+  sni: 163.245.196.68.sslip.io
+  type: trojan
+  udp: true
 - name: forever|Vless_Websocket
   network: ws
   port: 8080
@@ -19,20 +29,14 @@ proxies:
   type: trojan
   ws-opts:
     path: /api
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: airport|🏁 未知-A9B92D9C
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.193.213.11
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
+- cipher: aes-256-cfb
+  name: airport|🇰🇷 韩国-ADFE686B
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - alterId: 0
   cipher: auto
   name: mfuu|🇩🇪DE-82.198.246.233-042

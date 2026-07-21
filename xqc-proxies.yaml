@@ -1,26 +1,5 @@
 proxies:
-  - name: DE1
-    type: vless
-    server: '2603:c020:800e:62ee:471c:3b87:2081:48aa'
-    port: 46202
-    uuid: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14
-    alterId: 0
-    cipher: auto
-    udp: true
-    flow: null
-    tls: true
-    skip-cert-verify: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: GunSffffervice
-  - { name: NL1, server: '2001:bc8:1640:50eb:dc00:ff:fe57:dd6f', port: 58641, sni: Ab.ac, up: null, down: null, skip-cert-verify: true, ports: 50000-60000, type: hysteria2, password: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14, obfs: salamander, obfs-password: FnFgQIckcMRtKq7i }
-  - name: 美国(yudou123.top 玉豆免费节点)
-    type: ss
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 9tqhMdIrTkgQ46PvhyAtMH
-  - name: 美国
+  - name: 美国0
     type: vmess
     server: '2001:bc8:32d7:302::16'
     port: 44579
@@ -46,7 +25,7 @@ proxies:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
       headers:
         Host: TURK.NET
-  - name: 美国
+  - name: 美国i2
     type: vmess
     server: '2001:bc8:32d7:302::11'
     port: 44579
@@ -59,55 +38,12 @@ proxies:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
       headers:
         Host: TABRIZ.NET
-  - name: CF官方优选
-    type: vless
-    server: 198.41.223.253
-    port: 2083
-    uuid: e4f949dd-4b1d-48e9-8e30-f90029e105a2
-    tls: true
-    client-fingerprint: chrome
-    servername: f.fugang.dpdns.org
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        host: f.fugang.dpdns.org
-    tfo: false
-    skip-cert-verify: false
   - name: US SS-16 | free-nodes
     type: ss
     server: tinkered-pennies-puppies.freesocks.work
     port: 443
     cipher: chacha20-ietf-poly1305
     password: hbGrpfvNrJsUmKmPbR3iY2
-  - name: "🇯🇵 日本26"
-    type: vmess
-    server: cc26.goingside.site
-    port: 8998
-    uuid: 3d82c222-c34a-4522-b4ec-cdc90bcc0b84
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cc26.goingside.site
-  - name: "美国-chao-8-14-251.99GB\U0001F4CA-9D,16H⏳"
-    type: vless
-    server: 172.81.102.142
-    port: 29704
-    uuid: 714407f6-6864-4d97-abe8-eb611dea6fdc
-    tls: true
-    client-fingerprint: chrome
-    servername: www.amazon.com
-    network: tcp
-    reality-opts:
-      public-key: bQWex8nRCRVvgOjtTskIBZmKJwGRcfWSM3btev9F_lE
-      short-id: '67'
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
   - name: "\U0001F1ED\U0001F1F0 香港-实验线路 BGP"
     type: vless
     server: a678ec47-de3b-4838-99c9-b67e2e6a8b4e.bnsepserv.com
@@ -153,99 +89,7 @@ proxies:
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
-  - name: "\U0001F1E8\U0001F1E6 加拿大-广东专线 BGP"
-    type: trojan
-    server: 11f8ca15-c3b1-4891-a2e2-7948c32224f5.bnsepserv.com
-    port: 32039
-    password: 91bf632c-03d8-4214-99d6-702a70699035
-    tls: true
-    client-fingerprint: chrome
-    sni: pull-flv-q1-admin.douyincdn.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: "\U0001F1EC\U0001F1E7 英国-广东专线 Scaleblade"
-    type: trojan
-    server: 11f8ca15-c3b1-4891-a2e2-7948c32224f5.bnsepserv.com
-    port: 32047
-    password: 91bf632c-03d8-4214-99d6-702a70699035
-    tls: true
-    client-fingerprint: chrome
-    sni: pull-flv-q1-admin.douyincdn.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: zouter jp
-    type: vless
-    server: 216.23.122.16
-    port: 59999
-    uuid: 31bd3fe2-cf27-4c2b-9864-2757e9ab9793
-    tls: true
-    client-fingerprint: chrome
-    servername: www.tesla.com
-    network: tcp
-    reality-opts:
-      public-key: Nfi773TPWFDja_uv7Y29hjJpd2e6rDnW_F0gWRi1PT0
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: zouteripv6
-    type: vless
-    server: 2a0e:97c0:3f4:1::e70
-    port: 59999
-    uuid: 31bd3fe2-cf27-4c2b-9864-2757e9ab9793
-    tls: true
-    client-fingerprint: chrome
-    servername: www.tesla.com
-    network: tcp
-    reality-opts:
-      public-key: Nfi773TPWFDja_uv7Y29hjJpd2e6rDnW_F0gWRi1PT0
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: "DOGEGG-XRAY-XTLS-REALITY"
-    type: vless
-    server: hostdzire.dogegg.online
-    port: 443
-    uuid: c9ddce25-8dc7-4d01-af0a-cca144c9e42c
-    network: tcp
-    udp: true
-    tls: true
-    flow: xtls-rprx-vision
-    servername: hostdzire.dogegg.online
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: N3WIzgOE8EsEnXcESY4zsXFm8jao91GcuraiqsKbNwo
-  - name: 荷兰
-    type: vless
-    server: 199.47.242.244
-    port: 25822
-    uuid: 60e348b4-cda8-4f6a-81f0-d2979e0bf4a5
-    tls: true
-    client-fingerprint: chrome
-    servername: addons.mozilla.org
-    network: tcp
-    reality-opts:
-      public-key: fxq4uTTHq_kW4i9qMsdg1OvQbJd-57hCTZ_-taiGVXM
-      short-id: 6a52f37cbefcd43c
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: reality
-    type: vless
-    server: 23.148.204.9
-    port: 56966
-    uuid: 3f264771-4512-4e1b-a343-004b3e5e8e6b
-    tls: true
-    client-fingerprint: chrome
-    servername: addons.mozilla.org
-    network: tcp
-    reality-opts:
-      public-key: bqXoro5wdBZQZHGjux4yd3AV4oWXZ0GtHLrIPrRHDTI
-      short-id: 3df3d3b2aae617ce
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
+
   - name: sk kr
     type: vless
     server: 45.192.198.213
@@ -261,40 +105,24 @@ proxies:
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
-  - name: 节点日期：2026-07-08
+  - name: Do-NY-hy2
+    type: hysteria2
+    server: 157.230.233.194
+    port: 38588
+    password: 706d21c5-6c3e-4520-9f19-798f71b32f95
+    auth: 706d21c5-6c3e-4520-9f19-798f71b32f95
+    skip-cert-verify: true
+  - name: Do-NY-vless
     type: vless
-    server: 82.158.229.125
-    port: 11126
-    uuid: 2166fcae-8e93-4f50-d3c4-94c7042767ac
-    tls: false
-    network: tcp
-    tfo: false
-  - name: 'CA【机场推荐：https://a9a.xyz】33'
-    type: vless
-    server: dex.mpzdev.ir
-    port: 16656
-    uuid: 4262c320-5080-4e93-904a-cb77d7fa1d70
+    server: 157.230.233.194
+    port: 15177
+    uuid: 132fa220-169d-4a10-b19b-dd94af6dc7ab
     tls: true
     client-fingerprint: chrome
-    servername: icloud.com
+    servername: aws.amazon.com
     network: tcp
     reality-opts:
-      public-key: JU2RSU2sL-MAlzjOqLOYr-cDpg5ystXrF9Pdk2GWPhM
-      short-id: cfad2da14133
+      public-key: 0sXFg6tSy0EFY08lPNi259Gqo9HaJyul1zTpExtt3Dc
     tfo: false
     skip-cert-verify: false
-  - name: 'CN【机场推荐：https://a9a.xyz】34'
-    type: vless
-    server: 120.55.183.176
-    port: 443
-    uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-    tls: true
-    client-fingerprint: chrome
-    servername: support.zoom.us.yxls.eu.cc
-    network: ws
-    ws-opts:
-      path: /sg-melbi
-      headers:
-        host: support.zoom.us.yxls.eu.cc
-    tfo: false
-    skip-cert-verify: false
+    flow: xtls-rprx-vision
