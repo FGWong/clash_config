@@ -135,3 +135,24 @@ proxies:
     password: 0fe6c2e6-c242-476f-8b7d-068bc0e13e6e
     auth: 0fe6c2e6-c242-476f-8b7d-068bc0e13e6e
     skip-cert-verify: true
+  - name: Do-NY-hy2
+    type: hysteria2
+    server: 157.230.233.194
+    port: 38588
+    password: 706d21c5-6c3e-4520-9f19-798f71b32f95
+    auth: 706d21c5-6c3e-4520-9f19-798f71b32f95
+    skip-cert-verify: true
+  - name: Do-NY-vless
+    type: vless
+    server: 157.230.233.194
+    port: 15177
+    uuid: 132fa220-169d-4a10-b19b-dd94af6dc7ab
+    tls: true
+    client-fingerprint: chrome
+    servername: aws.amazon.com
+    network: tcp
+    reality-opts:
+      public-key: 0sXFg6tSy0EFY08lPNi259Gqo9HaJyul1zTpExtt3Dc
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
