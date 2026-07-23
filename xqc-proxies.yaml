@@ -156,3 +156,12 @@ proxies:
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
+  - name: hysteria2-19108
+    type: hysteria2
+    server: 178.128.65.195
+    port: 19108
+    obfs: salamander
+    obfs-password: vwrgaergG
+    password: nNS3WyiBOL
+    auth: nNS3WyiBOL
+    skip-cert-verify: true
