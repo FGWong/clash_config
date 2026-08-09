@@ -1,167 +1,76 @@
 proxies:
-  - name: 美国0
-    type: vmess
-    server: '2001:bc8:32d7:302::16'
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: AZERB.NET
-  - name: 美国
-    type: vmess
-    server: '2001:bc8:32d7:302::15'
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-      headers:
-        Host: TURK.NET
-  - name: 美国i2
-    type: vmess
-    server: '2001:bc8:32d7:302::11'
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-      headers:
-        Host: TABRIZ.NET
-  - name: US SS-16 | free-nodes
-    type: ss
-    server: tinkered-pennies-puppies.freesocks.work
+  - name: Do-NY-vless
+    type: vless
+    server: 157.230.233.194
+    port: 15177
+    uuid: 132fa220-169d-4a10-b19b-dd94af6dc7ab
+    tls: true
+    client-fingerprint: chrome
+    servername: aws.amazon.com
+    network: tcp
+    reality-opts:
+      public-key: 0sXFg6tSy0EFY08lPNi259Gqo9HaJyul1zTpExtt3Dc
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: "\U0001F1E9\U0001F1EA德国"
+    type: vless
+    server: 194.93.0.28
     port: 443
-    cipher: chacha20-ietf-poly1305
-    password: hbGrpfvNrJsUmKmPbR3iY2
-  - name: "\U0001F1ED\U0001F1F0 香港-实验线路 BGP"
-    type: vless
-    server: a678ec47-de3b-4838-99c9-b67e2e6a8b4e.bnsepserv.com
-    port: 32510
-    uuid: 91bf632c-03d8-4214-99d6-702a70699035
+    uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
     tls: true
     client-fingerprint: chrome
-    servername: pull-flv-t96-admin.douyincdn.com
+    servername: media2.tcpdoor.net
+    network: grpc
+    reality-opts:
+      public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+      short-id: 3303c7a5
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: grpc
+    tfo: false
+    skip-cert-verify: false
+  - name: "\U0001F1EB\U0001F1F7法国"
+    type: vless
+    server: 31.56.146.50
+    port: 443
+    uuid: 2d7c8eef-49c0-4d89-a74f-591ea805274d
+    tls: true
+    client-fingerprint: chrome
+    servername: yahoo.com
+    network: grpc
+    reality-opts:
+      public-key: dSKIQmSXKkmpXGcB9RCt320PmpuE92omqsVqdH351G8
+    grpc-opts:
+      grpc-mode: gun
+    tfo: false
+    skip-cert-verify: false
+  - name: KR-家宽KR
+    type: vless
+    server: 77.90.28.162
+    port: 56588
+    uuid: 7ec6cb5c-0137-4990-8ef8-1be69d051d19
+    tls: true
+    client-fingerprint: chrome
+    servername: www.nvidia.com
     network: tcp
     reality-opts:
-      public-key: 0_2XKSqKLB9GEcmaMC0-dkccXJPAibO26GZBkRPyhEc
-      short-id: bc298780
+      public-key: 22oSB96rDe9te1UxpOluYQB7poOJJpbHUWr0Ma_crwk
+      short-id: e6c049985e585baf
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
-  - name: "\U0001F1F9\U0001F1FC 台湾-实验线路 NeaRoute"
+  - name: 'DE'
     type: vless
-    server: a678ec47-de3b-4838-99c9-b67e2e6a8b4e.bnsepserv.com
-    port: 32512
-    uuid: 91bf632c-03d8-4214-99d6-702a70699035
+    server: 86.53.105.131
+    port: 443
+    uuid: 33f6feb0-3605-4b91-9d32-ef42e62260b2
     tls: true
     client-fingerprint: chrome
-    servername: pull-flv-t96-admin.douyincdn.com
+    servername: www.cloudflare.com
     network: tcp
     reality-opts:
-      public-key: IExCXEh5z4u7BrF2SPe1_LmvbdT_-zhrmUtbu2Es9lU
-      short-id: 6410504c
+      public-key: q4XKlMTBlOBRfpBtrc5fMCQbGch11r2Vm2CJhpp6N0Y
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
-  - name: "\U0001F1FA\U0001F1F8 美国-实验线路 BGP"
-    type: vless
-    server: a678ec47-de3b-4838-99c9-b67e2e6a8b4e.bnsepserv.com
-    port: 32511
-    uuid: 91bf632c-03d8-4214-99d6-702a70699035
-    tls: true
-    client-fingerprint: chrome
-    servername: pull-flv-t96-admin.douyincdn.com
-    network: tcp
-    reality-opts:
-      public-key: 47uiQ-e6rdp0_LkBPjqqoUHYJ6j2rQ1Sbk22ljlWmHw
-      short-id: f89d8073
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-
-  - name: sk kr
-    type: vless
-    server: 45.192.198.213
-    port: 25699
-    uuid: d355b57b-e5ec-44dc-95e6-d99c054f53e6
-    tls: true
-    client-fingerprint: chrome
-    servername: addons.mozilla.org
-    network: tcp
-    reality-opts:
-      public-key: JfLxX5BS0Y1Qt_BW_N2t-JaaUGZng_saZnkHrGztg0w
-      short-id: bd0e2de15ee402a0
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: Do-NY-hy2
-    type: hysteria2
-    server: 157.230.233.194
-    port: 38588
-    password: 706d21c5-6c3e-4520-9f19-798f71b32f95
-    auth: 706d21c5-6c3e-4520-9f19-798f71b32f95
-    skip-cert-verify: true
-  - name: Do-NY-vless
-    type: vless
-    server: 157.230.233.194
-    port: 15177
-    uuid: 132fa220-169d-4a10-b19b-dd94af6dc7ab
-    tls: true
-    client-fingerprint: chrome
-    servername: aws.amazon.com
-    network: tcp
-    reality-opts:
-      public-key: 0sXFg6tSy0EFY08lPNi259Gqo9HaJyul1zTpExtt3Dc
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: "美国|普通线路"
-    type: hysteria2
-    server: zz12343qq.265897.xyz
-    port: 65487
-    obfs: salamander
-    obfs-password: PZpio8Y2y22jywEO
-    password: 0fe6c2e6-c242-476f-8b7d-068bc0e13e6e
-    auth: 0fe6c2e6-c242-476f-8b7d-068bc0e13e6e
-    skip-cert-verify: true
-  - name: Do-NY-hy2
-    type: hysteria2
-    server: 157.230.233.194
-    port: 38588
-    password: 706d21c5-6c3e-4520-9f19-798f71b32f95
-    auth: 706d21c5-6c3e-4520-9f19-798f71b32f95
-    skip-cert-verify: true
-  - name: Do-NY-vless
-    type: vless
-    server: 157.230.233.194
-    port: 15177
-    uuid: 132fa220-169d-4a10-b19b-dd94af6dc7ab
-    tls: true
-    client-fingerprint: chrome
-    servername: aws.amazon.com
-    network: tcp
-    reality-opts:
-      public-key: 0sXFg6tSy0EFY08lPNi259Gqo9HaJyul1zTpExtt3Dc
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: hysteria2-19108
-    type: hysteria2
-    server: 178.128.65.195
-    port: 19108
-    obfs: salamander
-    obfs-password: vwrgaergG
-    password: nNS3WyiBOL
-    auth: nNS3WyiBOL
-    skip-cert-verify: true

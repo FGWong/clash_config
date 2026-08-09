@@ -829,11 +829,11 @@ proxy-providers:
     url: "https://pub.loc.cc:15443/clash_verge/user_custom.yaml"
     type: http
     #type: file
-    interval: 933622
+    interval: 33622
     path: local_data/user_custom.yaml
     health-check:
       enable: true
-      interval: 186400
+      interval: 16400
       url: 'http://www.gstatic.com/generate_204'
 
 rule-providers:
