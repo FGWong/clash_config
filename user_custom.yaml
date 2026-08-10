@@ -1,61 +1,35 @@
 proxies:
-  - name: "VLESS+Reality+XHTTP" # 代理名称，可根据需要自定义
-    type: vless
-    server: "meiguojiedian.464687.xyz" # 服务器域名
-    port: 80 # 服务器端口
-    uuid: "7711da80-feed-4ad2-8607-db79f0d73608" # UUID
-    encryption: none # 加密方式
-    network: xhttp # 传输协议
-    tls: false # 是否启用 TLS 加密，此处根据节点信息为 false
-    reality-opts:
-      public-key: "CxAZCNOE80T1zmWRVHekqBNKiNx7FMI9vw0FWrr51Ao" # Reality 公钥
-      short-id: "" # 短 ID，为空则留空
-      server-name: "microsoft.com" # 服务器名称
-      fingerprint: "chrome" # 指纹
-      show: false # 是否显示
-    xhttp-opts:
-      host: "" # 可为空
-      path: "/5a65a9" # 路径
-      mode: "auto" # 模式
-      headers:
-        User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" # 可选，自定义请求头
-    downloadSettings: # 下行设置
-      address: "2604:abc0:103:415:2::1a" # IPv6 地址
-      port: 443 # 端口
-      network: xhttp # 传输协议
-      security: reality # 安全类型
-      realitySettings:
-        serverName: "microsoft.com" # 服务器名称
-        fingerprint: "chrome" # 指纹
-        show: false # 是否显示
-        publicKey: "CxAZCNOE80T1zmWRVHekqBNKiNx7FMI9vw0FWrr51Ao" # 公钥
-        shortId: "" # 短 ID，为空则留空
-        spiderX: "/" # 其他参数
-      xhttpSettings:
-        host: "" # 可为空
-        path: "/5a65a9" # 路径
-        mode: "auto" # 模式
-        headers:
-          User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" # 可选，自定义请求头
     # 其他配置项可根据需要添加
+  - name: "\U0001F1EC\U0001F1E7 英国 CCZZUU.TOP"
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: "\U0001F1FA\U0001F1F8_US_美国 · proxy_check"
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: US SS-16 | free-nodes
     type: ss
     server: tinkered-pennies-puppies.freesocks.work
     port: 443
     cipher: chacha20-ietf-poly1305
     password: hbGrpfvNrJsUmKmPbR3iY2
-  - name: "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1F1\U0001F1FB_LV_拉脱维亚"
-    type: vless
-    server: 151.242.69.201
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    tls: true
-    client-fingerprint: chrome
-    servername: sni.111000.v6.army
-    network: ws
-    ws-opts:
-      path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      headers:
-        host: sni.111000.v6.army
-    tfo: false
-    skip-cert-verify: false
+  - name: 美國
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: aes-128-gcm
+    tls: false
+    network: tcp
