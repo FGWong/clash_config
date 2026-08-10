@@ -45,12 +45,17 @@ proxies:
   ws-headers:
     Host: 2001:bc8:32d7:302::10
   ws-path: ed=2048
-- name: ermaozi|🇭🇰_HK_中国香港->🇯🇵_JP_日本
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
+- client-fingerprint: chrome
+  name: ruk1ng|🟠🇫🇷_github.com/Ruk1ng001_af425c71
+  network: ws
+  password: humanity
+  port: 2000
+  server: 2.144.21.150
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /assignment

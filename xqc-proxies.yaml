@@ -1,4 +1,11 @@
 proxies:
+  - name: Do-NY-hy2
+    type: hysteria2
+    server: 157.230.233.194
+    port: 38588
+    password: 706d21c5-6c3e-4520-9f19-798f71b32f95
+    auth: 706d21c5-6c3e-4520-9f19-798f71b32f95
+    skip-cert-verify: true
   - name: Do-NY-vless
     type: vless
     server: 157.230.233.194

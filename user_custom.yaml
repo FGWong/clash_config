@@ -38,41 +38,12 @@ proxies:
         headers:
           User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" # 可选，自定义请求头
     # 其他配置项可根据需要添加
-
-  - {name: "🇯🇵 日本26", type: vmess, server: cc26.goingside.site, port: 8998, uuid: 3d82c222-c34a-4522-b4ec-cdc90bcc0b84, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /, headers: {Host: cc26.goingside.site}}}
-  - name: "\U0001F1EC\U0001F1E7 英国 CCZZUU.TOP"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: "\U0001F1FA\U0001F1F8_US_美国 · proxy_check"
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: US SS-16 | free-nodes
     type: ss
     server: tinkered-pennies-puppies.freesocks.work
     port: 443
     cipher: chacha20-ietf-poly1305
     password: hbGrpfvNrJsUmKmPbR3iY2
-  - name: 美國
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: aes-128-gcm
-    tls: false
-    network: tcp
   - name: "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1F1\U0001F1FB_LV_拉脱维亚"
     type: vless
     server: 151.242.69.201
@@ -88,80 +59,3 @@ proxies:
         host: sni.111000.v6.army
     tfo: false
     skip-cert-verify: false
-  - { name: '🇭🇰 香港-智能-中转', type: vless, server: joshtesogdet01.xxssplay.com, port: 46353, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.hkhs.com, reality-opts: { public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4, short-id: 089bdc8f } }
-  - { name: '🇨🇳 台湾-智能-中转', type: vless, server: joshtesogdet01.xxssplay.com, port: 41192, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.amazon.jobs, reality-opts: { public-key: Zptij4sd0uv7SrCLVz-m9q0oxciINMSy3PEPSIUKUGI, short-id: 3439f357 } }
-  - { name: '🇨🇳 台湾-家宽-IPv6', type: vless, server: '2001:b030:a81d:0a00:0000:0000:0092:3502', port: 443, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.amazon.com, reality-opts: { public-key: lIuuvcTtft7RyDo_tLqpvFDJ1sW5YPKGwBpiUw-IKUg, short-id: 00e4f3d1 } }
-  - { name: '🇯🇵 日本-智能-中转', type: vless, server: joshtesogdet01.xxssplay.com, port: 19461, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: one-piece.com, reality-opts: { public-key: _uyR5c5WNA96lhmIc5r6d9bEXvf589IybOhcAWp91Ac, short-id: c3766f2f } }
-  - { name: '🇺🇸 美国-智能-中转', type: vless, server: joshtesogdet01.xxssplay.com, port: 56383, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.mysql.com, reality-opts: { public-key: NiFdnPYC6kb-cV0s659IDc7nX9h1FRdIdjXWr7IanTk, short-id: f106165c } }
-  - { name: '🇸🇬 新加坡-智能-中转', type: vless, server: joshtesogdet01.xxssplay.com, port: 20111, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.propertyguru.com.sg, reality-opts: { public-key: gNs6Vgtmp22cNPFqA3JM0UzvULoyUBkNs-lWCJ-Dnng, short-id: 4ff64aae } }
-  - { name: '🇲🇾 马来西亚', type: vless, server: joshtesogdet01.xxssplay.com, port: 29004, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: my1.fun88linkvn.com }
-  - { name: '🇹🇭 泰国', type: vless, server: joshtesogdet01.xxssplay.com, port: 57009, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: th1.fun88linkvn.com }
-  - { name: '🇻🇳 越南', type: vless, server: joshtesogdet01.xxssplay.com, port: 52877, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: vn1.fun88linkvn.com }
-  - { name: '🇰🇷 韩国', type: vless, server: joshtesogdet01.xxssplay.com, port: 39618, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: kr1.fun88linkvn.com }
-  - { name: '🇦🇺 澳洲', type: vless, server: joshtesogdet01.xxssplay.com, port: 3414, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: au1.fun88linkvn.com }
-  - { name: '🇮🇳 印度', type: vless, server: joshtesogdet01.xxssplay.com, port: 60340, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: in1.fun88linkvn.com }
-  - { name: '🇩🇪 德国', type: vless, server: joshtesogdet01.xxssplay.com, port: 65192, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: de1.fun88linkvn.com }
-  - { name: '🇬🇧 英国', type: vless, server: joshtesogdet01.xxssplay.com, port: 23765, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: gb1.fun88linkvn.com }
-  - { name: '🇫🇷 法国', type: vless, server: joshtesogdet01.xxssplay.com, port: 60396, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: fr1.fun88linkvn.com }
-  - { name: '🇳🇱 荷兰', type: vless, server: joshtesogdet01.xxssplay.com, port: 3370, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: nl1.fun88linkvn.com }
-  - { name: '🇹🇷 土耳其', type: vless, server: joshtesogdet01.xxssplay.com, port: 43251, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: tr1.fun88linkvn.com }
-  - { name: '🇵🇱 波兰', type: vless, server: joshtesogdet01.xxssplay.com, port: 16490, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: pl1.fun88linkvn.com }
-  - { name: '🇪🇪 爱沙尼亚', type: vless, server: joshtesogdet01.xxssplay.com, port: 7271, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: ee1.fun88linkvn.com }
-  - { name: '🇦🇹 奥地利', type: vless, server: joshtesogdet01.xxssplay.com, port: 63836, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: at1.fun88linkvn.com }
-  - { name: '🇸🇪 瑞典', type: vless, server: joshtesogdet01.xxssplay.com, port: 36082, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: se1.fun88linkvn.com }
-  - { name: '🇨🇦 加拿大', type: vless, server: joshtesogdet01.xxssplay.com, port: 34237, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: ca1.fun88linkvn.com }
-  - { name: '🇭🇰 香港小鸡-01', type: vless, server: joshtesogdet01.xxssplay.com, port: 4926, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.hkhs.com, reality-opts: { public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4, short-id: 089bdc8f } }
-  - { name: '🇭🇰 香港小鸡-02', type: vless, server: joshtesogdet01.xxssplay.com, port: 19062, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.hkhs.com, reality-opts: { public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4, short-id: 089bdc8f } }
-  - { name: '🇭🇰 香港小鸡-03', type: vless, server: joshtesogdet01.xxssplay.com, port: 41694, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.hkhs.com, reality-opts: { public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4, short-id: 089bdc8f } }
-  - { name: '🇭🇰 香港小鸡-07', type: vless, server: joshtesogdet01.xxssplay.com, port: 8667, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.hkhs.com, reality-opts: { public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4, short-id: 089bdc8f } }
-  - { name: '🇭🇰 香港小鸡-08', type: vless, server: joshtesogdet01.xxssplay.com, port: 43148, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.hkhs.com, reality-opts: { public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4, short-id: 089bdc8f } }
-  - { name: '🇭🇰 香港小鸡-09', type: vless, server: joshtesogdet01.xxssplay.com, port: 55184, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.hkhs.com, reality-opts: { public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4, short-id: 089bdc8f } }
-  - { name: '🇭🇰 香港小鸡-14', type: vless, server: joshtesogdet01.xxssplay.com, port: 9448, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.hkhs.com, reality-opts: { public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4, short-id: 089bdc8f } }
-  - { name: '🇭🇰 香港小鸡-15', type: vless, server: joshtesogdet01.xxssplay.com, port: 16921, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.hkhs.com, reality-opts: { public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4, short-id: 089bdc8f } }
-  - { name: '🇭🇰 香港小鸡-16', type: vless, server: joshtesogdet01.xxssplay.com, port: 43556, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.hkhs.com, reality-opts: { public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4, short-id: 089bdc8f } }
-  - { name: '🇭🇰 香港小鸡-17', type: vless, server: joshtesogdet01.xxssplay.com, port: 35797, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.hkhs.com, reality-opts: { public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4, short-id: 089bdc8f } }
-  - { name: '🇭🇰 香港小鸡-18', type: vless, server: joshtesogdet01.xxssplay.com, port: 16534, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.hkhs.com, reality-opts: { public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4, short-id: 089bdc8f } }
-  - { name: '🇭🇰 香港小鸡-20', type: vless, server: joshtesogdet01.xxssplay.com, port: 2244, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.hkhs.com, reality-opts: { public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4, short-id: 089bdc8f } }
-  - { name: '🇭🇰 香港小鸡-21', type: vless, server: joshtesogdet01.xxssplay.com, port: 34419, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.hkhs.com, reality-opts: { public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4, short-id: 089bdc8f } }
-  - { name: '🇭🇰 香港小鸡-22', type: vless, server: joshtesogdet01.xxssplay.com, port: 4784, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.hkhs.com, reality-opts: { public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4, short-id: 089bdc8f } }
-  - { name: '🇭🇰 香港小鸡-23', type: vless, server: joshtesogdet01.xxssplay.com, port: 38748, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.hkhs.com, reality-opts: { public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4, short-id: 089bdc8f } }
-  - { name: '🇭🇰 香港小鸡-24', type: vless, server: joshtesogdet01.xxssplay.com, port: 12148, uuid: 575324da-63f6-448e-963f-4d67e9ea4cb4, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.hkhs.com, reality-opts: { public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4, short-id: 089bdc8f } }
-  - { name: '2.72 GB | 300 GB', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '601', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: 'Traffic Reset: 5 Days Left', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '601', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: 'Expire Date: 2026-08-03', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '601', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇭🇰 Hong Kong丨01', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '601', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇭🇰 Hong Kong丨02', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '602', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇭🇰 Hong Kong丨03', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '603', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇭🇰 Hong Kong丨04', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '604', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇭🇰 Hong Kong丨05', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '605', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇯🇵 Japan丨01', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '661', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇯🇵 Japan丨02', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '662', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇯🇵 Japan丨03', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '663', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇯🇵 Japan丨04', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '664', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇯🇵 Japan丨05', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '665', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇰🇷 South Korea丨01', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '681', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: emUCdFoC4M3oCW.oss-cn-shanghai.aliyuncs.com, skip-cert-verify: true }
-  - { name: '🇸🇬 Singapore丨01', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '641', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇸🇬 Singapore丨02', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '642', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇸🇬 Singapore丨03', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '643', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇸🇬 Singapore丨04', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '644', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇸🇬 Singapore丨05', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '645', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇨🇳 Taiwan丨01', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '621', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇨🇳 Taiwan丨02', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '622', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇨🇳 Taiwan丨03', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '623', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇨🇳 Taiwan丨04', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '624', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇨🇳 Taiwan丨05', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '625', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇬🇧 Great Britain丨01', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '721', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: emUCdFoC4M3oCW.oss-cn-shanghai.aliyuncs.com, skip-cert-verify: true }
-  - { name: '🇺🇸 United States丨01', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '701', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇺🇸 United States丨02', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '702', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇺🇸 United States丨03', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '703', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇺🇸 United States丨04', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '704', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇺🇸 United States丨05', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '705', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: down-30005.sz.gfp.tencent-cloud.com, skip-cert-verify: true }
-  - { name: '🇨🇦 Canada丨01', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '741', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: emUCdFoC4M3oCW.oss-cn-shanghai.aliyuncs.com, skip-cert-verify: true }
-  - { name: '🇫🇷 France | 01', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '751', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: emUCdFoC4M3oCW.oss-cn-shanghai.aliyuncs.com, skip-cert-verify: true }
-  - { name: '🇩🇪 Germany | 01', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '761', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: emUCdFoC4M3oCW.oss-cn-shanghai.aliyuncs.com, skip-cert-verify: true }
-  - { name: '🇵🇭 Philippines丨01', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '771', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: emUCdFoC4M3oCW.oss-cn-shanghai.aliyuncs.com, skip-cert-verify: true }
-  - { name: '🇳🇱 Netherlands丨01', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '781', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: emUCdFoC4M3oCW.oss-cn-shanghai.aliyuncs.com, skip-cert-verify: true }
-  - { name: '🇹🇷 Turkey丨01', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '791', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: emUCdFoC4M3oCW.oss-cn-shanghai.aliyuncs.com, skip-cert-verify: true }
-  - { name: '🇻🇳 Vietnam | 01', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '801', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: emUCdFoC4M3oCW.oss-cn-shanghai.aliyuncs.com, skip-cert-verify: true }
-  - { name: '🇲🇾 Malaysia丨01', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '811', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: emUCdFoC4M3oCW.oss-cn-shanghai.aliyuncs.com, skip-cert-verify: true }
-  - { name: '🇹🇭 Thailand丨01', type: anytls, server: qggvvbg31i.hss16lexbb.sbs, port: '821', password: 4ce8f9be-64e2-45f8-a4fb-c0c325d6e0d0, udp: true, client-fingerprint: chrome, sni: emUCdFoC4M3oCW.oss-cn-shanghai.aliyuncs.com, skip-cert-verify: true }
