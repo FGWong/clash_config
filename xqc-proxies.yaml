@@ -67,17 +67,374 @@ proxies:
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
-  - name: 'DE'
+
+  - name: "实验性Worker-3667033447-1488558984-3551814071-3350485714"
     type: vless
-    server: 86.53.105.131
+    server: cf.090227.xyz
     port: 443
-    uuid: 33f6feb0-3605-4b91-9d32-ef42e62260b2
+    uuid: 88888888-8888-8888-8888-888888888888
+    encryption: none
+    udp: true
+    tls: true
+    servername: cdnepub.ciallo0d000721.cc.cd
+    alpn: [h2]
+    client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: cloudflare-ech.com
+    network: xhttp
+    xhttp-opts:
+      path: "/?ip=ProxyIP.CMLiussss.net"
+      host: cdneppub.ciallo0d000721.cc.cd
+      mode: stream-one
+      x-padding-obfs-mode: true
+      x-padding-key: _tk
+      x-padding-header: X-Request-Signature
+      x-padding-placement: queryInHeader
+      x-padding-method: tokenish
+  - name: Worker-3
+    type: vless
+    server: cf.090227.xyz
+    port: 443
+    uuid: 88888888-8888-8888-8888-888888888888
+    tls: true
+    client-fingerprint: chrome
+    servername: cdnepub.ciallo0d000721.cc.cd
+    network: xhttp
+    tfo: false
+    skip-cert-verify: false
+
+  - name: VLESS-美国-加利福尼亚州-洛杉矶-—-搬瓦工-144.34.170.18
+    type: vless
+    server: 144.34.170.18
+    port: 50159
+    uuid: 07ada3a7-b17b-42fb-bb59-267f4c24f525
     tls: true
     client-fingerprint: chrome
     servername: www.cloudflare.com
     network: tcp
     reality-opts:
-      public-key: q4XKlMTBlOBRfpBtrc5fMCQbGch11r2Vm2CJhpp6N0Y
+      public-key: fA8KdkY7jCafUCTaenwYSg7KrrGwsg7jnq6niEj2qGs
+      short-id: 504d5cc3bd52e49e
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
+  - name: 搬瓦工-144.34.239.106-美国 -洛杉矶it7.net
+    type: vless
+    server: new.saoword.com
+    port: 7443
+    uuid: ae556a38-74fc-4a25-a4bc-4345f19ee429
+    tls: true
+    client-fingerprint: chrome
+    servername: new.saoword.com
+    network: xhttp
+    reality-opts:
+      public-key: w73ebI-m095hYIbaoh45m8Mzhqrm4LylPTjAjALKFHU
+    tfo: false
+    skip-cert-verify: false
+  - name: '[机房]-美国-美国 加利福尼亚州 洛杉矶 — 搬瓦工-89.208.244.252'
+    type: vless
+    server: 89.208.244.252
+    port: 13779
+    uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+    tls: true
+    client-fingerprint: chrome
+    servername: tesla.com
+    network: tcp
+    reality-opts:
+      public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+      short-id: af1bdd293097b664
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: HY2-韩国-江原道-春川市-—-甲骨文云-Oracle-150-230-252-217.liao.kdns.fr
+    type: hysteria2
+    server: 150-230-252-217.liao.kdns.fr
+    port: 50160
+    password: 9cfc9458e48c028ec03ff86ebc71c744
+    auth: 9cfc9458e48c028ec03ff86ebc71c744
+    skip-cert-verify: true
+  - name: HY2-韩国-江原道-春川市-—-甲骨文云-Oracle-152-69-231-175.liao.kdns.fr
+    type: hysteria2
+    server: 152-69-231-175.liao.kdns.fr
+    port: 50160
+    password: 1beb216e3f60aea9555dae60d219a5ca
+    auth: 1beb216e3f60aea9555dae60d219a5ca
+    skip-cert-verify: true
+  - name: HY2-美国-亚利桑那州-凤凰城-—-甲骨文云-Oracle-129-146-143-124.liao.kdns.fr
+    type: hysteria2
+    server: 129-146-143-124.liao.kdns.fr
+    port: 50160
+    password: 4fd8857a2c6af64470191e79500f42d7
+    auth: 4fd8857a2c6af64470191e79500f42d7
+    skip-cert-verify: true
+  - name: '[机房]-香港-中国 香港 香港-23.249.19.91'
+    type: vless
+    server: 23.249.19.91
+    port: 13779
+    uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+    tls: true
+    client-fingerprint: chrome
+    servername: tesla.com
+    network: tcp
+    reality-opts:
+      public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+      short-id: af1bdd293097b664
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: 跨境云-台湾-台北 II-5zg02
+    type: vmess
+    server: 117.27.228.29
+    port: 10000
+    uuid: 2c90af15-bac7-f850-4c7c-120c5a420636
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+  - name: VLESS-中国-台湾-台中-203.69.151.155
+    type: vless
+    server: 203.69.151.155
+    port: 50159
+    uuid: 93025051-0abd-4889-b702-987cb247a596
+    tls: true
+    client-fingerprint: chrome
+    servername: www.cloudflare.com
+    network: tcp
+    reality-opts:
+      public-key: odXlgxKTcj9KjOBT0FhPJ13uhgA2D0Fu32XqyUT-NR4
+      short-id: b843cb6d2e089840
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: VLESS-中国-台湾-台北-45.121.50.241
+    type: vless
+    server: 45.121.50.241
+    port: 50159
+    uuid: 47a97b7f-044d-43d6-86b0-8b256873d1b5
+    tls: true
+    client-fingerprint: chrome
+    servername: www.cloudflare.com
+    network: tcp
+    reality-opts:
+      public-key: E9gCs_C_mSDcHmlCZSMk1kSXpmua48DhgsT_aDpZ1WE
+      short-id: 4c3f80051030ba1b
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: VLESS-日本-东京都-东京-154.19.186.29
+    type: vless
+    server: 154.19.186.29
+    port: 50159
+    uuid: 74b1e547-1f8f-4546-a92d-dcf129e1d6f4
+    tls: true
+    client-fingerprint: chrome
+    servername: www.cloudflare.com
+    network: tcp
+    reality-opts:
+      public-key: Qwb_DNq9aSASS4xRTkqDh-f3oENGRdTrRTqW3_Gh9ks
+      short-id: 973d84cbeff7da46
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: HY2-日本-东京都-东京-162-141-131-59.liao.kdns.fr
+    type: hysteria2
+    server: 162-141-131-59.liao.kdns.fr
+    port: 50160
+    password: ad6bc66062dbd395a02061c842c0978c
+    auth: ad6bc66062dbd395a02061c842c0978c
+    skip-cert-verify: true
+  - name: 韩国-稳定-o9nlqwa6
+    type: vless
+    server: 72.155.88.78
+    port: 443
+    uuid: d3b1c033-9821-4817-b891-9120f1327174
+    tls: true
+    client-fingerprint: chrome
+    servername: www.tesla.com
+    network: tcp
+    reality-opts:
+      public-key: xwS4uD-7MdvZlkFRtN8g0Rm2ByLFM1njCtlz1yvxAik
+      short-id: 42daae485c964403
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: HY2-韩国-首尔特别市-江西区-—-甲骨文云-Oracle-193.122.104.200
+    type: hysteria2
+    server: 193.122.104.200
+    port: 50160
+    password: dfb54e674104158210fdfcac45e5679d
+    auth: dfb54e674104158210fdfcac45e5679d
+    skip-cert-verify: true
+  - name: HY2-韩国-江原道-春川市-—-甲骨文云-Oracle-152.67.200.82
+    type: hysteria2
+    server: 152.67.200.82
+    port: 50160
+    password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+    auth: 3d7634af8cb2c6cb4bac1c0efad8b43d
+    skip-cert-verify: true
+  - name: 家宽-HY2-美国-加利福尼亚州-洛杉矶-38.99.248.120
+    type: hysteria2
+    server: 38.99.248.120
+    port: 50160
+    password: 2c1611f83747dd3694e0e90cbf7d4e29
+    auth: 2c1611f83747dd3694e0e90cbf7d4e29
+    skip-cert-verify: true
+  - name: 印尼-路由器-家宽
+    type: vmess
+    server: 202.47.89.133
+    port: 53548
+    uuid: 3a03613b-bbac-4a22-bee6-2c9a751a2761
+    alterId: 0
+    cipher: none
+    tls: false
+    network: ws
+    ws-opts:
+      path: /dkfjh222
+      headers:
+  - name: VLESS-日本-大阪府-大阪市-—-搬瓦工-185.212.58.79
+    type: vless
+    server: 185.212.58.79
+    port: 50159
+    uuid: dc555618-e45e-457f-a3a2-2966be122bc7
+    tls: true
+    client-fingerprint: chrome
+    servername: www.cloudflare.com
+    network: tcp
+    reality-opts:
+      public-key: pjvP3PeYbN2nIS4JKqpidvPpy_FC_23WwkYBxQQpFHY
+      short-id: 6918699c49101a2b
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: HY2-新加坡-新加坡-新加坡-213-35-102-40.liao.kdns.fr
+    type: hysteria2
+    server: 213-35-102-40.liao.kdns.fr
+    port: 50160
+    password: ca0e6830aee0eb1c775734c4ab91b573
+    auth: ca0e6830aee0eb1c775734c4ab91b573
+    skip-cert-verify: true
+  - name: '[机房]-香港-中国 香港 香港-103.149.183.198'
+    type: vless
+    server: 103.149.183.198
+    port: 13779
+    uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+    tls: true
+    client-fingerprint: chrome
+    servername: tesla.com
+    network: tcp
+    reality-opts:
+      public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+      short-id: af1bdd293097b664
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: HY2-美国-纽约州-纽约-154-49-127-140.liao.kdns.fr
+    type: hysteria2
+    server: 154-49-127-140.liao.kdns.fr
+    port: 50160
+    password: 2630a66444286f47ce591752f28adf5e
+    auth: 2630a66444286f47ce591752f28adf5e
+    skip-cert-verify: true
+  - name: HY2-美国-加利福尼亚州-洛杉矶-166-0-16-52.liao.kdns.fr
+    type: hysteria2
+    server: 166-0-16-52.liao.kdns.fr
+    port: 50160
+    password: 6f65680b8d4de72e9f7c030e92e27a32
+    auth: 6f65680b8d4de72e9f7c030e92e27a32
+    skip-cert-verify: true
+  - name: HY2-伊拉克-巴格达省-巴格达-38-60-190-230.liao.kdns.fr
+    type: hysteria2
+    server: 38-60-190-230.liao.kdns.fr
+    port: 50160
+    password: d443f28ad235871da2ad6a031edba4f1
+    auth: d443f28ad235871da2ad6a031edba4f1
+    skip-cert-verify: true
+  - name: HY2-日本-东京都-东京-—-DMIT-154.31.115.179
+    type: hysteria2
+    server: 154.31.115.179
+    port: 50160
+    password: bc751c4c5c80f17dfbc05785c368b613
+    auth: bc751c4c5c80f17dfbc05785c368b613
+    skip-cert-verify: true
+  - name: VLESS-美国-加利福尼亚州-洛杉矶-—-DMIT-69.63.215.138
+    type: vless
+    server: 69.63.215.138
+    port: 50159
+    uuid: 382a883d-aff1-4850-9c54-bca118f59e5a
+    tls: true
+    client-fingerprint: chrome
+    servername: www.cloudflare.com
+    network: tcp
+    reality-opts:
+      public-key: FIfvMYBmBPgASKrykRrkVOld-45nTrKpY7T8ijiyuSE
+      short-id: eb281e128c41c864
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: HY2-美国-加利福尼亚州-洛杉矶-23-19-231-152.liao.kdns.fr
+    type: hysteria2
+    server: 23-19-231-152.liao.kdns.fr
+    port: 50160
+    password: 90af65ff00ef2ff089d28d6a11fc10de
+    auth: 90af65ff00ef2ff089d28d6a11fc10de
+    skip-cert-verify: true
+  - name: '[机房]-马来西亚-马来西亚 吉隆坡 吉隆坡-205.186.67.233'
+    type: vless
+    server: 205.186.67.233
+    port: 13779
+    uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+    tls: true
+    client-fingerprint: chrome
+    servername: tesla.com
+    network: tcp
+    reality-opts:
+      public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+      short-id: af1bdd293097b664
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: "\U0001F1FA\U0001F1F8 美国 CNServer 原生"
+    type: vless
+    server: yx-auto.pages.dev
+    port: 443
+    uuid: cf63446e-f6b7-4d34-b7ed-d8648eeed0f7
+    tls: true
+    client-fingerprint: chrome
+    servername: vps.181110.xyz
+    network: ws
+    ws-opts:
+      path: /cf63446e-vl
+      headers:
+        host: vps.181110.xyz
+    tfo: false
+    skip-cert-verify: false
+  - name: "\U0001F1FA\U0001F1F8 美国 CNServer 16"
+    type: vless
+    server: '2606:4700:ff00::6536:f4c'
+    port: 443
+    uuid: cf63446e-f6b7-4d34-b7ed-d8648eeed0f7
+    tls: true
+    client-fingerprint: chrome
+    servername: vps.181110.xyz
+    network: ws
+    ws-opts:
+      path: /cf63446e-vl
+      headers:
+        host: vps.181110.xyz
+    tfo: false
+    skip-cert-verify: false
+  - name: "\U0001F1FA\U0001F1F8 美国 CNServer AWS"
+    type: vless
+    server: yg1.ygkkk.dpdns.org
+    port: 443
+    uuid: d9d25305-b90a-4268-93ee-153b60acc4b7
+    tls: true
+    client-fingerprint: chrome
+    servername: cf.azhengnb.qzz.io
+    network: xhttp
+    tfo: false
+    skip-cert-verify: false

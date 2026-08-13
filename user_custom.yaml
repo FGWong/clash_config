@@ -1,35 +1,51 @@
 proxies:
-    # 其他配置项可根据需要添加
-  - name: "\U0001F1EC\U0001F1E7 英国 CCZZUU.TOP"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: "\U0001F1FA\U0001F1F8_US_美国 · proxy_check"
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: US SS-16 | free-nodes
-    type: ss
-    server: tinkered-pennies-puppies.freesocks.work
+  # 其他配置项可根据需要添加
+  - name: "\U0001F1E9\U0001F1EA德国 "
+    type: vless
+    server: 194.93.0.28
     port: 443
-    cipher: chacha20-ietf-poly1305
-    password: hbGrpfvNrJsUmKmPbR3iY2
-  - name: 美國
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: aes-128-gcm
-    tls: false
+    uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+    tls: true
+    client-fingerprint: chrome
+    servername: media2.tcpdoor.net
+    network: grpc
+    reality-opts:
+      public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+      short-id: 3303c7a5
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: grpc
+    tfo: false
+    skip-cert-verify: false
+
+  # ====================== 日本节点 ======================
+
+  - name: 未知 TROJAN-187 | free-nodes
+    type: trojan
+    server: oplosgru-c.catcat321.com
+    port: 20004
+    password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+    tls: true
+    client-fingerprint: chrome
+    sni: hk.catxstar.com
     network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: 通用 43
+    type: trojan
+    server: oplosgru-c.catcat321.com
+    port: 20004
+    password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+    tls: true
+    client-fingerprint: chrome
+    sni: hk.catxstar.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: 阿塞拜疆 01
+    type: hysteria2
+    server: 94.20.88.13
+    port: 8443
+    password: ew9_M93_6a31Qd45_hUX3984F_jNZ83x_Nz1l_f
+    auth: ew9_M93_6a31Qd45_hUX3984F_jNZ83x_Nz1l_f
+    skip-cert-verify: true
