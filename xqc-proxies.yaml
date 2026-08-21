@@ -107,109 +107,45 @@ proxies:
         host: d1yxsk0zprgivr.cloudfront.net
     tfo: false
     skip-cert-verify: false
-  - name: HY2-韩国-江原道-春川市-—-甲骨文云-Oracle-150-230-252-217.liao.kdns.fr
-    type: hysteria2
-    server: 150-230-252-217.liao.kdns.fr
-    port: 50160
-    password: 9cfc9458e48c028ec03ff86ebc71c744
-    auth: 9cfc9458e48c028ec03ff86ebc71c744
-    skip-cert-verify: true
-  - name: HY2-韩国-江原道-春川市-—-甲骨文云-Oracle-152-69-231-175.liao.kdns.fr
-    type: hysteria2
-    server: 152-69-231-175.liao.kdns.fr
-    port: 50160
-    password: 1beb216e3f60aea9555dae60d219a5ca
-    auth: 1beb216e3f60aea9555dae60d219a5ca
-    skip-cert-verify: true
-  - name: HY2-美国-亚利桑那州-凤凰城-—-甲骨文云-Oracle-129-146-143-124.liao.kdns.fr
-    type: hysteria2
-    server: 129-146-143-124.liao.kdns.fr
-    port: 50160
-    password: 4fd8857a2c6af64470191e79500f42d7
-    auth: 4fd8857a2c6af64470191e79500f42d7
-    skip-cert-verify: true
-  - name: VLESS-中国-台湾-台北-45.121.50.241
+  - name: "美国 甲骨文"
+    type: vmess
+    server: 154.26.187.252
+    port: 443
+    uuid: 69914418-d1e3-4648-ad3b-e9b3e015ce39
+    alterId: 0
+    cipher: auto
+    tls: true
+    servername: usaz.wahaha1314.cc.cd
+    network: ws
+    ws-opts:
+      path: /69914418-d1e3-4648-ad3b-e9b3e015ce39-vm
+      headers:
+        Host: usaz.wahaha1314.cc.cd
+  - name: "美国 CCS"
+    type: vmess
+    server: 154.26.187.252
+    port: 443
+    uuid: 5978eea2-315b-44dd-97fa-3a8836962147
+    alterId: 0
+    cipher: auto
+    tls: true
+    servername: fengus.wahaha2026.cc.cd
+    network: ws
+    ws-opts:
+      path: /5978eea2-315b-44dd-97fa-3a8836962147-vm
+      headers:
+        Host: fengus.wahaha2026.cc.cd
+  - name: personal-reality-公开
     type: vless
-    server: 45.121.50.241
-    port: 50159
-    uuid: 47a97b7f-044d-43d6-86b0-8b256873d1b5
+    server: 38.64.62.238
+    port: 443
+    uuid: 89323a6b-edf6-402b-a72f-e1a7863794ad
     tls: true
     client-fingerprint: chrome
-    servername: www.cloudflare.com
+    servername: speed.cloudflare.com
     network: tcp
     reality-opts:
-      public-key: E9gCs_C_mSDcHmlCZSMk1kSXpmua48DhgsT_aDpZ1WE
-      short-id: 4c3f80051030ba1b
+      public-key: yS0gQc7yJKYrbltuoBzOSxFH1eJmQPghTVgGXyka6Rw
+      short-id: df9ee61607c20c0f
     tfo: false
     skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: HY2-日本-东京都-东京-162-141-131-59.liao.kdns.fr
-    type: hysteria2
-    server: 162-141-131-59.liao.kdns.fr
-    port: 50160
-    password: ad6bc66062dbd395a02061c842c0978c
-    auth: ad6bc66062dbd395a02061c842c0978c
-    skip-cert-verify: true
-  - name: HY2-韩国-首尔特别市-江西区-—-甲骨文云-Oracle-193.122.104.200
-    type: hysteria2
-    server: 193.122.104.200
-    port: 50160
-    password: dfb54e674104158210fdfcac45e5679d
-    auth: dfb54e674104158210fdfcac45e5679d
-    skip-cert-verify: true
-  - name: HY2-韩国-江原道-春川市-—-甲骨文云-Oracle-152.67.200.82
-    type: hysteria2
-    server: 152.67.200.82
-    port: 50160
-    password: 3d7634af8cb2c6cb4bac1c0efad8b43d
-    auth: 3d7634af8cb2c6cb4bac1c0efad8b43d
-    skip-cert-verify: true
-  - name: 家宽-HY2-美国-加利福尼亚州-洛杉矶-38.99.248.120
-    type: hysteria2
-    server: 38.99.248.120
-    port: 50160
-    password: 2c1611f83747dd3694e0e90cbf7d4e29
-    auth: 2c1611f83747dd3694e0e90cbf7d4e29
-    skip-cert-verify: true
-  - name: HY2-新加坡-213-35-102-40.liao.kdns.fr
-    type: hysteria2
-    server: 213-35-102-40.liao.kdns.fr
-    port: 50160
-    password: ca0e6830aee0eb1c775734c4ab91b573
-    auth: ca0e6830aee0eb1c775734c4ab91b573
-    skip-cert-verify: true
-  - name: HY2-美国-纽约州-纽约-154-49-127-140.liao.kdns.fr
-    type: hysteria2
-    server: 154-49-127-140.liao.kdns.fr
-    port: 50160
-    password: 2630a66444286f47ce591752f28adf5e
-    auth: 2630a66444286f47ce591752f28adf5e
-    skip-cert-verify: true
-  - name: HY2-美国-加利福尼亚州-洛杉矶-166-0-16-52.liao.kdns.fr
-    type: hysteria2
-    server: 166-0-16-52.liao.kdns.fr
-    port: 50160
-    password: 6f65680b8d4de72e9f7c030e92e27a32
-    auth: 6f65680b8d4de72e9f7c030e92e27a32
-    skip-cert-verify: true
-  - name: HY2-伊拉克-巴格达省-巴格达-38-60-190-230.liao.kdns.fr
-    type: hysteria2
-    server: 38-60-190-230.liao.kdns.fr
-    port: 50160
-    password: d443f28ad235871da2ad6a031edba4f1
-    auth: d443f28ad235871da2ad6a031edba4f1
-    skip-cert-verify: true
-  - name: HY2-日本-东京都-东京-—-DMIT-154.31.115.179
-    type: hysteria2
-    server: 154.31.115.179
-    port: 50160
-    password: bc751c4c5c80f17dfbc05785c368b613
-    auth: bc751c4c5c80f17dfbc05785c368b613
-    skip-cert-verify: true
-  - name: HY2-美国-加利福尼亚州-洛杉矶-23-19-231-152.liao.kdns.fr
-    type: hysteria2
-    server: 23-19-231-152.liao.kdns.fr
-    port: 50160
-    password: 90af65ff00ef2ff089d28d6a11fc10de
-    auth: 90af65ff00ef2ff089d28d6a11fc10de
-    skip-cert-verify: true
