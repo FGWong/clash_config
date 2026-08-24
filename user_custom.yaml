@@ -18,34 +18,3 @@ proxies:
     tfo: false
     skip-cert-verify: false
 
-  # ====================== 日本节点 ======================
-
-  - name: 未知 TROJAN-187 | free-nodes
-    type: trojan
-    server: oplosgru-c.catcat321.com
-    port: 20004
-    password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-    tls: true
-    client-fingerprint: chrome
-    sni: hk.catxstar.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: 通用 43
-    type: trojan
-    server: oplosgru-c.catcat321.com
-    port: 20004
-    password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-    tls: true
-    client-fingerprint: chrome
-    sni: hk.catxstar.com
-    network: tcp
-    tfo: false
-    skip-cert-verify: false
-  - name: 阿塞拜疆 01
-    type: hysteria2
-    server: 94.20.88.13
-    port: 8443
-    password: ew9_M93_6a31Qd45_hUX3984F_jNZ83x_Nz1l_f
-    auth: ew9_M93_6a31Qd45_hUX3984F_jNZ83x_Nz1l_f
-    skip-cert-verify: true

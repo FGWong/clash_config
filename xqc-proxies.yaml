@@ -20,38 +20,6 @@ proxies:
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
-  - name: "\U0001F1E9\U0001F1EA德国"
-    type: vless
-    server: 194.93.0.28
-    port: 443
-    uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-    tls: true
-    client-fingerprint: chrome
-    servername: media2.tcpdoor.net
-    network: grpc
-    reality-opts:
-      public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-      short-id: 3303c7a5
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: grpc
-    tfo: false
-    skip-cert-verify: false
-  - name: "\U0001F1EB\U0001F1F7法国"
-    type: vless
-    server: 31.56.146.50
-    port: 443
-    uuid: 2d7c8eef-49c0-4d89-a74f-591ea805274d
-    tls: true
-    client-fingerprint: chrome
-    servername: yahoo.com
-    network: grpc
-    reality-opts:
-      public-key: dSKIQmSXKkmpXGcB9RCt320PmpuE92omqsVqdH351G8
-    grpc-opts:
-      grpc-mode: gun
-    tfo: false
-    skip-cert-verify: false
   - name: KR-家宽KR
     type: vless
     server: 77.90.28.162
@@ -92,49 +60,7 @@ proxies:
       x-padding-header: X-Request-Signature
       x-padding-placement: queryInHeader
       x-padding-method: tokenish
-  - name: 'UN49'
-    type: vless
-    server: www.true.th
-    port: 443
-    uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-    tls: true
-    client-fingerprint: chrome
-    servername: d1yxsk0zprgivr.cloudfront.net
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        host: d1yxsk0zprgivr.cloudfront.net
-    tfo: false
-    skip-cert-verify: false
-  - name: "美国 甲骨文"
-    type: vmess
-    server: 154.26.187.252
-    port: 443
-    uuid: 69914418-d1e3-4648-ad3b-e9b3e015ce39
-    alterId: 0
-    cipher: auto
-    tls: true
-    servername: usaz.wahaha1314.cc.cd
-    network: ws
-    ws-opts:
-      path: /69914418-d1e3-4648-ad3b-e9b3e015ce39-vm
-      headers:
-        Host: usaz.wahaha1314.cc.cd
-  - name: "美国 CCS"
-    type: vmess
-    server: 154.26.187.252
-    port: 443
-    uuid: 5978eea2-315b-44dd-97fa-3a8836962147
-    alterId: 0
-    cipher: auto
-    tls: true
-    servername: fengus.wahaha2026.cc.cd
-    network: ws
-    ws-opts:
-      path: /5978eea2-315b-44dd-97fa-3a8836962147-vm
-      headers:
-        Host: fengus.wahaha2026.cc.cd
+
   - name: personal-reality-公开
     type: vless
     server: 38.64.62.238
@@ -149,3 +75,75 @@ proxies:
       short-id: df9ee61607c20c0f
     tfo: false
     skip-cert-verify: false
+  - name: 'JMS-25345@c10s1.portablesubmarines.com:21107'
+    type: ss
+    server: c10s1.portablesubmarines.com
+    port: 21107
+    cipher: aes-256-gcm
+    password: k4nudYtD2M
+  - name: 'JMS-25345@c10s2.portablesubmarines.com:21107'
+    type: ss
+    server: c10s2.portablesubmarines.com
+    port: 21107
+    cipher: aes-256-gcm
+    password: k4nudYtD2M
+  - name: 'JMS-25345@c10s3.portablesubmarines.com:443'
+    type: vless
+    server: c10s3.portablesubmarines.com
+    port: 443
+    uuid: 026d768b-11cc-4219-8724-3ac7f6c62b7b
+    tls: true
+    client-fingerprint: chrome
+    servername: portal.citygrainla.com
+    network: tcp
+    reality-opts:
+      public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+      short-id: 051f20c2344a2dfd
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: 'JMS-25345@c10s4.portablesubmarines.com:443'
+    type: vless
+    server: c10s4.portablesubmarines.com
+    port: 443
+    uuid: 026d768b-11cc-4219-8724-3ac7f6c62b7b
+    tls: true
+    client-fingerprint: chrome
+    servername: portal.citygrainla.com
+    network: tcp
+    reality-opts:
+      public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+      short-id: 051f20c2344a2dfd
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: 'JMS-25345@c10s5.portablesubmarines.com:443'
+    type: vless
+    server: c10s5.portablesubmarines.com
+    port: 443
+    uuid: 026d768b-11cc-4219-8724-3ac7f6c62b7b
+    tls: true
+    client-fingerprint: chrome
+    servername: portal.citygrainla.com
+    network: tcp
+    reality-opts:
+      public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+      short-id: 051f20c2344a2dfd
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: 'JMS-25345@c10s801.portablesubmarines.com:443'
+    type: vless
+    server: c10s801.portablesubmarines.com
+    port: 443
+    uuid: 026d768b-11cc-4219-8724-3ac7f6c62b7b
+    tls: true
+    client-fingerprint: chrome
+    servername: portal.citygrainla.com
+    network: tcp
+    reality-opts:
+      public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+      short-id: 051f20c2344a2dfd
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
