@@ -1,54 +1,17 @@
 proxies:
-- cipher: chacha20-ietf
-  name: NoMoreWalls|🇵🇭PH_2|5.0MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8231
-  server: cn06.somethingstranges.com
-  type: ss
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: NoMoreWalls|🇭🇰HK_3|2.5MB/s
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0c657913-e593-4893-9555-f88478c33a4b
-  ws-opts:
-    headers:
-      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
-    path: /
-- cipher: chacha20-ietf
-  name: NoMoreWalls|🇭🇰HK_13|3.4MB/s
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8105
-  server: cn02.somethingstranges.com
-  type: ss
 - client-fingerprint: chrome
-  name: NoMoreWalls|🇫🇷FR_1|1.3MB/s
+  name: NoMoreWalls|🇫🇷FR_5|1013KB/s
   network: ws
   password: humanity
   port: '443'
-  server: 104.16.174.109
+  server: 8.6.112.0
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
     path: /assignment
 - name: forever|Vless_Websocket
   network: ws
@@ -96,54 +59,96 @@ proxies:
   ws-headers:
     Host: 2001:bc8:32d7:302::10
   ws-path: ed=2048
-- cipher: chacha20-ietf
-  name: ruk1ng|🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1ng001_ba06641f
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8103
-  server: cn01.somethingstranges.com
-  type: ss
-- cipher: chacha20-ietf
-  name: ruk1ng|🟢🇵🇭[🎬🤖📺🎭]_github.com/Ruk1ng001_72da4d7c
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8232
-  server: cn06.somethingstranges.com
-  type: ss
-- cipher: chacha20-ietf
-  name: ruk1ng|🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1ng001_1f2cbd07
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8104
-  server: cn02.somethingstranges.com
-  type: ss
-- cipher: aes-256-cfb
-  name: ruk1ng|🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1ng001_1af82e4f
-  password: amazonskr05
-  port: 443
-  server: 15.237.189.197
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: ruk1ng|🔴🇫🇷[🤖📺🎪📦]_github.com/Ruk1ng001_076b7e94
+  name: ruk1ng|D🔴🇫🇷[🤖📺🎭🎪]_dokng.com_1935be73
   network: ws
   password: humanity
-  port: 40443
-  server: 2.144.21.112
+  port: 443
+  server: 88.198.82.150
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /assignment
+- client-fingerprint: chrome
+  name: ruk1ng|C🟠🇫🇷_dokng.com_2457ab68
+  network: ws
+  password: humanity
+  port: 443
+  server: 176.97.66.175
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /assignment
+- alterId: 64
+  cipher: auto
+  name: ruk1ng|A🟢🇨🇳[🎞️📦]_dokng.com_0da15920
+  network: tcp
+  port: 50002
+  server: 112.132.215.108
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: ermaozi|🇺🇸_US_美国
+  port: 443
+  server: 165.140.217.142
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
+  name: ermaozi|🇺🇸_US_美国_3
+  port: 443
+  server: 165.140.217.30
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
+  name: ermaozi|🇺🇸_US_美国_4
+  port: 443
+  server: 165.140.217.139
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
+  name: ermaozi|🇺🇸_US_美国_1
+  port: 443
+  server: 165.140.217.56
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- cipher: aes-256-cfb
+  name: ermaozi|🇰🇷KR_2|1.8MB/s
+  password: 1234!@#$
+  port: '1774'
+  server: 49.254.204.134
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: mahdiblanda|🇳🇱NL-158.173.221.214-0189 | 2.737MB
+  password: c58d16e593d44f42
+  port: 11001
+  server: 158.173.221.214
+  type: ss
