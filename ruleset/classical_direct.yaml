@@ -24,6 +24,7 @@ payload:
   - SRC-IP-CIDR,192.168.0.1/32
   - SRC-IP-CIDR,192.168.1.1/32
   - IP-CIDR,127.0.0.0/8
+  - IP-CIDR,192.168.0.1/16
   - IP-CIDR6,::1/128
   - IP-CIDR6,fd00::/8
     #- GEOIP,CN

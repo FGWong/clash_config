@@ -1,36 +1,4 @@
 proxies:
-  - name: Do-NY-hy2
-    type: hysteria2
-    server: 157.230.233.194
-    port: 38588
-    password: 706d21c5-6c3e-4520-9f19-798f71b32f95
-    auth: 706d21c5-6c3e-4520-9f19-798f71b32f95
-    skip-cert-verify: true
-  - name: Do-NY-vless
-    type: vless
-    server: 157.230.233.194
-    port: 15177
-    uuid: 132fa220-169d-4a10-b19b-dd94af6dc7ab
-    tls: true
-    client-fingerprint: chrome
-    servername: aws.amazon.com
-    network: tcp
-    reality-opts:
-      public-key: 0sXFg6tSy0EFY08lPNi259Gqo9HaJyul1zTpExtt3Dc
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: "美国 CNServer AWS"
-    type: vless
-    server: yg1.ygkkk.dpdns.org
-    port: 443
-    uuid: d9d25305-b90a-4268-93ee-153b60acc4b7
-    tls: true
-    client-fingerprint: chrome
-    servername: cf.azhengnb.qzz.io
-    network: xhttp
-    tfo: false
-    skip-cert-verify: false
   - name: KR-家宽KR
     type: vless
     server: 77.90.28.162
@@ -71,25 +39,6 @@ proxies:
       x-padding-header: X-Request-Signature
       x-padding-placement: queryInHeader
       x-padding-method: tokenish
-  - name: "TH-泰国1"
-    type: vless
-    server: 18.239.134.69
-    port: 80
-    uuid: de27291c-15a9-4256-9ba7-ad517569877e
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        host: 'd2e1v87ko56lyw.cloudfront.net:assets.opensignal.com'
-    tfo: false
-  - name: 法国-youtube@资源分享师 10
-    type: hysteria2
-    server: 62.210.7.139
-    port: 60111
-    password: github.com%2FAlvin9999-newpac%2Ffanqiang
-    auth: github.com%2FAlvin9999-newpac%2Ffanqiang
-    skip-cert-verify: true
   - name: VPS-REALITY
     type: vless
     server: 66.154.101.217
@@ -105,171 +54,6 @@ proxies:
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
-  - name: real-dmit
-    type: vless
-    server: 174.136.206.37
-    port: 55365
-    uuid: b7ba9133-325b-46cd-82fb-d1016d76e8ef
-    tls: true
-    client-fingerprint: chrome
-    servername: portoflosangeles.org
-    network: tcp
-    reality-opts:
-      public-key: VyyzdNMJ-AoSxFRgupjbkOi4IxED9jE6iGpQ50rZgFA
-      short-id: 85f672
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: JP
-    type: vless
-    server: 106.75.143.18
-    port: 5010
-    uuid: bcb85012-dc9a-457e-bd41-a4bd93105bad
-    tls: true
-    client-fingerprint: chrome
-    servername: buylite.tv.apple.com
-    network: tcp
-    reality-opts:
-      public-key: jW2ybiAJXOlwel1NPLI6Kmzj7rjSiAyvqiatDlUq6So
-      short-id: cde516c9
-    tfo: false
-    skip-cert-verify: false
-  - name: TW
-    type: vless
-    server: 106.75.143.18
-    port: 5016
-    uuid: bcb85012-dc9a-457e-bd41-a4bd93105bad
-    tls: true
-    client-fingerprint: chrome
-    servername: buylite.tv.apple.com
-    network: tcp
-    reality-opts:
-      public-key: QY6okwYg8SY6gW41QKg6poorjUP9y2YwoCW_Rp05IBI
-      short-id: 170b54d7
-    tfo: false
-    skip-cert-verify: false
-  - name: US
-    type: vless
-    server: 106.75.143.18
-    port: 5007
-    uuid: bcb85012-dc9a-457e-bd41-a4bd93105bad
-    tls: true
-    client-fingerprint: chrome
-    servername: buylite.tv.apple.com
-    network: tcp
-    reality-opts:
-      public-key: W1tIXK5sUUU0Zrj2OENNl-Zc5QijpG52JKTPvqSvNX8
-      short-id: 7d3decd6
-    tfo: false
-    skip-cert-verify: false
-  - name: GB
-    type: vless
-    server: 106.75.143.18
-    port: 5002
-    uuid: bcb85012-dc9a-457e-bd41-a4bd93105bad
-    tls: true
-    client-fingerprint: chrome
-    servername: buylite.tv.apple.com
-    network: tcp
-    reality-opts:
-      public-key: CavI6KaZ1wEJkxRWhiProUaMjjdVYMhCJScYoXZqrxU
-      short-id: a2362ad4
-    tfo: false
-    skip-cert-verify: false
-  - name: HK
-    type: vless
-    server: 106.75.143.18
-    port: 5020
-    uuid: bcb85012-dc9a-457e-bd41-a4bd93105bad
-    tls: true
-    client-fingerprint: chrome
-    servername: buylite.tv.apple.com
-    network: tcp
-    reality-opts:
-      public-key: dROhuswwq-4NajAw8xbf3WDKw33fGDtXr1JdrdSCp0M
-      short-id: 269707f8
-    tfo: false
-    skip-cert-verify: false
-  - name: MD
-    type: vless
-    server: 31.59.150.174
-    port: 9443
-    uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
-    tls: true
-    client-fingerprint: chrome
-    servername: hotcoals.aeternavpn.space
-    network: tcp
-    reality-opts:
-      public-key: RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI
-      short-id: a1b2c3d4
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: JP1
-    type: vless
-    server: 130.12.102.26
-    port: 443
-    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    tls: true
-    client-fingerprint: chrome
-    servername: localhost
-    network: tcp
-    reality-opts:
-      public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    tfo: false
-    skip-cert-verify: false
-  - name: US2
-    type: hysteria2
-    server: 155.117.19.17
-    port: 443
-    obfs: salamander
-    obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-    password: 5fa748137b6d822308eea4611f474ad5
-    auth: 5fa748137b6d822308eea4611f474ad5
-    skip-cert-verify: true
-  - name: BR3
-    type: vless
-    server: ct.877774.xyz
-    port: 443
-    uuid: a90b111a-3a58-49d2-aa7a-edd13d830926
-    tls: true
-    client-fingerprint: chrome
-    servername: br-gru.xhs152.shop
-    network: ws
-    ws-opts:
-      path: /announcement
-      headers:
-        host: br-gru.xhs152.shop
-    tfo: false
-    skip-cert-verify: false
-  - name: FI4
-    type: vless
-    server: brightharbor.download
-    port: 443
-    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    tls: true
-    client-fingerprint: chrome
-    servername: localhost
-    network: tcp
-    reality-opts:
-      public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: KR5
-    type: vless
-    server: 119.28.161.143
-    port: 443
-    uuid: 1ebb0858-218a-4dee-8746-36a67bc64462
-    tls: true
-    client-fingerprint: chrome
-    servername: apple.com
-    network: tcp
-    reality-opts:
-      public-key: pR7MPTAA4cZsW9AO-twMzuogiWGMKPiheTg70fcWWWs
-      short-id: 0a427bc3
-    tfo: false
-    skip-cert-verify: false
   - name: 233boy-reality-208.76.154.102
     type: vless
     server: 208.76.154.102
@@ -284,17 +68,33 @@ proxies:
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
-  - name: 土耳其
+  - name: "zhuhai.uk \U0001F1F8\U0001F1EC 新加坡 02"
     type: vless
-    server: 31.40.205.42
-    port: 35000
-    uuid: 9f96ad44-7aba-4ecc-b665-42943230d13d
+    server: 8.35.211.236
+    port: 443
+    uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
     tls: true
     client-fingerprint: chrome
-    servername: www.paypal.com
+    servername: kkkk-83j.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: kkkk-83j.pages.dev
+    tfo: false
+    skip-cert-verify: false
+  - name: "zhuhai.uk 英国 01 每天更新"
+    type: vless
+    server: 13.143.137.164
+    port: 9443
+    uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+    tls: true
+    client-fingerprint: chrome
+    servername: plaincanvas.videoclothing.xyz
     network: tcp
     reality-opts:
-      public-key: 2sZfG2IkEXymfXyRqskJ8kDYIRlILP4dYmjzD8GNG18
+      public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
+      short-id: e336c9a786fae301
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
