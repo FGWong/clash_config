@@ -68,33 +68,202 @@ proxies:
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
-  - name: "zhuhai.uk \U0001F1F8\U0001F1EC 新加坡 02"
+  - name: "美国 CNServer AWS"
     type: vless
-    server: 8.35.211.236
+    server: yg1.ygkkk.dpdns.org
     port: 443
-    uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+    uuid: d9d25305-b90a-4268-93ee-153b60acc4b7
     tls: true
     client-fingerprint: chrome
-    servername: kkkk-83j.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: kkkk-83j.pages.dev
+    servername: cf.azhengnb.qzz.io
+    network: xhttp
     tfo: false
     skip-cert-verify: false
-  - name: "zhuhai.uk 英国 01 每天更新"
+
+  - name: JP|解锁-JP|日本712ms
+    type: vmess
+    server: 64.176.34.102
+    port: 46130
+    cipher: auto
+    alterId: "0"
+    network: tcp
+    uuid: 477350b2-7536-4f38-ee21-020efdde2d1d
+  - name: JP|解锁-JP|日本1074ms
+    type: vmess
+    server: 206.190.237.167
+    port: 17577
+    cipher: auto
+    alterId: "0"
+    network: ws
+    ws-opts:
+      path: /3ceb8486
+    uuid: 3ceb8486-fb82-462c-e989-89182fe660a5
+  - name: JP|解锁-JP|日本976ms
+    type: vmess
+    server: 64.176.51.214
+    port: 35429
+    cipher: auto
+    alterId: "0"
+    network: ws
+    ws-opts:
+      path: /a15205
+    uuid: 23253e2b-416a-489d-a761-9e3b42474cda
+  - name: JP|解锁-JP|日本949ms
+    type: vmess
+    server: 64.176.51.214
+    port: 23462
+    cipher: auto
+    alterId: "0"
+    network: ws
+    ws-opts:
+      path: /a15206
+    uuid: 95c5abc1-018d-4628-89a7-25ab9c62ab74
+  - name: JP|解锁-JP|日本940ms
+    type: vmess
+    server: 147.78.242.19
+    port: 81
+    cipher: auto
+    alterId: "0"
+    network: ws
+    ws-opts:
+      path: /
+    uuid: 357b37cc-d0d2-47ef-aa1a-0a668447999e
+  - name: JP|解锁-JP|日本716ms
+    type: vmess
+    server: 123.108.70.249
+    port: 42957
+    cipher: auto
+    alterId: "0"
+    network: tcp
+    uuid: 6a57ad66-07ae-4c95-e472-db7f4436013f
+  - name: JP|解锁-JP|日本718ms
+    type: vmess
+    server: 14.137.249.24
+    port: 19851
+    cipher: auto
+    alterId: "0"
+    network: tcp
+    uuid: 46b884ad-9354-4a86-a5f5-1c5a24096074
+  - name: JP|解锁-JP|日本738ms
     type: vless
-    server: 13.143.137.164
-    port: 9443
-    uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+    server: 152.69.192.144
+    port: 20802
+    network: tcp
+    uuid: ac76a374-7447-4dab-bfa9-b7f83a7a7946
+    encryption: none
+  - name: JP|部分-JP|日本724ms
+    type: vless
+    server: 103.85.27.30
+    port: 49467
+    network: tcp
+    uuid: 44059c36-91ab-47f4-d8ca-a43dafd788b2
+    encryption: none
+  - name: JP|部分-JP|日本731ms
+    type: vless
+    server: 103.85.27.30
+    port: 45087
+    network: tcp
+    uuid: 5d0f8977-ca64-46b8-d8a4-12cafa375de8
+    encryption: none
+  - name: 'PL 25'
+    type: vless
+    server: 194.93.63.246
+    port: 443
+    uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
     tls: true
     client-fingerprint: chrome
-    servername: plaincanvas.videoclothing.xyz
+    servername: pl.bubahero.com
     network: tcp
     reality-opts:
-      public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
-      short-id: e336c9a786fae301
+      public-key: GmZv3anSeAeHr_cMFKr-6MPLli-nyKNatnY6P3AFK00
+      short-id: 9c2378562188c3cb
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
+  - name: 'US a9a.xyz'
+    type: vless
+    server: 179.254.94.102
+    port: 44444
+    uuid: ae2368cc-0fbe-4a06-a23e-fb73a4ac025a
+    tls: true
+    client-fingerprint: chrome
+    servername: www.iij.ad.jp
+    network: tcp
+    reality-opts:
+      public-key: LZnkyLxA8cYoDAsmxGh0lOr1-auyZI5t_LSU-FNBkSs
+    tfo: false
+    skip-cert-verify: false
+    flow: xtls-rprx-vision
+  - name: 'UN 92'
+    type: trojan
+    server: 167.82.76.7
+    port: 443
+    password: MITIVpN
+    tls: true
+    client-fingerprint: chrome
+    sni: ssl.fastly.com
+    network: ws
+    ws-opts:
+      path: >-
+        /---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/NLSs---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1
+      headers:
+        host: mitivpn---ss--s---mitivpn-33e.global.ssl.fastly.net
+    tfo: false
+    skip-cert-verify: false
+  - name: 美国-13
+    type: vless
+    server: 141.193.27.4
+    port: 80
+    uuid: e403856e-4e50-49e6-9edc-d9536a803a6a
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram\U0001F1E8\U0001F1F3+@WangCai2"
+      headers:
+        host: proud-cloud-5c50.113-8dc.workers.dev
+    tfo: false
+  - name: 美国 yudou_dey
+    type: vless
+    server: dey.lnmarketplace.net
+    port: 443
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    tls: true
+    client-fingerprint: chrome
+    servername: dey.lnmarketplace.net
+    network: xhttp
+    tfo: false
+    skip-cert-verify: false
+  - name: 美国 yudou
+    type: vless
+    server: '2a14:3f87:f001:46::a'
+    port: 443
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    tls: true
+    client-fingerprint: chrome
+    servername: dey.lnmarketplace.net
+    network: xhttp
+    tfo: false
+    skip-cert-verify: false
+  - name: "\U0001F1E9\U0001F1EA 德国 | DEU"
+    type: trojan
+    server: 45.32.157.84
+    port: 443
+    password: Tg3RnK7Xp8B1
+    tls: true
+    client-fingerprint: chrome
+    sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
+    network: tcp
+    tfo: false
+    skip-cert-verify: false
+  - name: "\U0001F1F7\U0001F1FA_RU_俄罗斯"
+    type: vless
+    server: tr3.wba-pn.ru
+    port: 443
+    uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
+    tls: true
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /
+    tfo: false
+    skip-cert-verify: false
