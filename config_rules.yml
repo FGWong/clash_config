@@ -104,7 +104,7 @@ dns:
     #"geosite:cn,geolocation-cn": ["udp://223.5.5.5", https://doh.pub/dns-query]  # 国内域名直连
     #"geosite:category-ads-all": rcode://success
     '+.baidu.com': '114.114.114.114'
-    "rule-set:gfw,+.gu.vy": https://dns.google/dns-query
+    "rule-set:gfw": https://dns.google/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
