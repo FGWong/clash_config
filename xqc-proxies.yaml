@@ -267,3 +267,37 @@ proxies:
       path: /
     tfo: false
     skip-cert-verify: false
+  - name: CN-50M-移动动态入口-每周一更新
+    type: ss
+    server: 111.15.84.100
+    port: 7175
+    cipher: 2022-blake3-aes-256-gcm
+    password: >-
+      eVgEdD2UJXoP1O7qbSOz6A0FoSCYrwhV9hnPv6OQu9Q=:bvQihPJIpX+XX4PvARLDfGiPuZzQoiasvb0khfnKN4I=�
+  - name: hysteria2-722298473
+    type: hysteria2
+    server: 62.210.7.139
+    port: 60111
+    password: github.com%2FAlvin9999-newpac%2Ffanqiang
+    auth: github.com%2FAlvin9999-newpac%2Ffanqiang
+    skip-cert-verify: true
+  - name: 日本-旧机(Skyline)
+    type: hysteria2
+    server: hy2.lefamn.top
+    port: 30194
+    password: '123456'
+    auth: '123456'
+    skip-cert-verify: true
+  - name: hy2-speed
+    type: hysteria2
+    server: 185.174.137.172
+    port: 8446
+    password: e9dc02d400b67c727aca1620
+    auth: e9dc02d400b67c727aca1620
+    skip-cert-verify: true
+  - name: 英国√
+    type: ss
+    server: 2.26.20.18
+    port: 55455
+    cipher: chacha20-ietf-poly1305
+    password: i8zrpTPFTWyPxKpuChxncs
