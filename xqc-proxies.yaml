@@ -80,77 +80,6 @@ proxies:
     tfo: false
     skip-cert-verify: false
 
-  - name: JP|解锁-JP|日本712ms
-    type: vmess
-    server: 64.176.34.102
-    port: 46130
-    cipher: auto
-    alterId: "0"
-    network: tcp
-    uuid: 477350b2-7536-4f38-ee21-020efdde2d1d
-  - name: JP|解锁-JP|日本1074ms
-    type: vmess
-    server: 206.190.237.167
-    port: 17577
-    cipher: auto
-    alterId: "0"
-    network: ws
-    ws-opts:
-      path: /3ceb8486
-    uuid: 3ceb8486-fb82-462c-e989-89182fe660a5
-  - name: JP|解锁-JP|日本976ms
-    type: vmess
-    server: 64.176.51.214
-    port: 35429
-    cipher: auto
-    alterId: "0"
-    network: ws
-    ws-opts:
-      path: /a15205
-    uuid: 23253e2b-416a-489d-a761-9e3b42474cda
-  - name: JP|解锁-JP|日本949ms
-    type: vmess
-    server: 64.176.51.214
-    port: 23462
-    cipher: auto
-    alterId: "0"
-    network: ws
-    ws-opts:
-      path: /a15206
-    uuid: 95c5abc1-018d-4628-89a7-25ab9c62ab74
-  - name: JP|解锁-JP|日本940ms
-    type: vmess
-    server: 147.78.242.19
-    port: 81
-    cipher: auto
-    alterId: "0"
-    network: ws
-    ws-opts:
-      path: /
-    uuid: 357b37cc-d0d2-47ef-aa1a-0a668447999e
-  - name: JP|解锁-JP|日本716ms
-    type: vmess
-    server: 123.108.70.249
-    port: 42957
-    cipher: auto
-    alterId: "0"
-    network: tcp
-    uuid: 6a57ad66-07ae-4c95-e472-db7f4436013f
-  - name: JP|解锁-JP|日本718ms
-    type: vmess
-    server: 14.137.249.24
-    port: 19851
-    cipher: auto
-    alterId: "0"
-    network: tcp
-    uuid: 46b884ad-9354-4a86-a5f5-1c5a24096074
-  - name: JP|解锁-JP|日本738ms
-    type: vless
-    server: 152.69.192.144
-    port: 20802
-    network: tcp
-    uuid: ac76a374-7447-4dab-bfa9-b7f83a7a7946
-    encryption: none
   - name: JP|部分-JP|日本724ms
     type: vless
     server: 103.85.27.30
@@ -204,8 +133,7 @@ proxies:
     sni: ssl.fastly.com
     network: ws
     ws-opts:
-      path: >-
-        /---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/NLSs---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1
+      path: /---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/NLSs---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1
       headers:
         host: mitivpn---ss--s---mitivpn-33e.global.ssl.fastly.net
     tfo: false
@@ -272,8 +200,7 @@ proxies:
     server: 111.15.84.100
     port: 7175
     cipher: 2022-blake3-aes-256-gcm
-    password: >-
-      eVgEdD2UJXoP1O7qbSOz6A0FoSCYrwhV9hnPv6OQu9Q=:bvQihPJIpX+XX4PvARLDfGiPuZzQoiasvb0khfnKN4I=�
+    password: eVgEdD2UJXoP1O7qbSOz6A0FoSCYrwhV9hnPv6OQu9Q=:bvQihPJIpX+XX4PvARLDfGiPuZzQoiasvb0khfnKN4I=
   - name: hysteria2-722298473
     type: hysteria2
     server: 62.210.7.139

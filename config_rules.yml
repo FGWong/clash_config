@@ -612,7 +612,7 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 7200
   - name: UserC
-    type: select
+    type: url-test
     use:
       - ucust
     url: 'http://www.gstatic.com/generate_204'
