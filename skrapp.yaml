@@ -735,42 +735,6 @@ proxies:
     port: 443
     tls: true
     skip-cert-verify: true
-  - name: "1极限白嫖ss🏳️未知"
-    type: "ss"
-    server: "130.61.130.123"
-    port: 59924
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "voBpHj13hYhxuYrdo90FlJgEfSz1bM3rhmZ0UQ9zqI4="
-    udp: true
-  - name: "1极限白嫖vmess🏳️未知"
-    type: "vmess"
-    server: "yg1.ygkkk.dpdns.org"
-    port: 443
-    uuid: "b2ba4a73-3123-479e-aa96-5973a9ecd0c0"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "jmp1.907737.xyz"
-    ws-opts:
-      path: "/b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm"
-      headers:
-        Host: "jmp1.907737.xyz"
-  - name: "2极限白嫖ss🏳️未知"
-    type: "ss"
-    server: "141.148.243.141"
-    port: 45819
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "4acZ7DHPes2C5ckBK/PngYuYD4fbCXyXF9ahUUcJ4qs="
-    udp: true
-  - name: "3极限白嫖ss🏳️未知"
-    type: "ss"
-    server: "168.107.88.238"
-    port: 56927
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "QYtvxQOIkEwTQip+UgO3xOoB0+bygHjHku84F9QYGEo="
-    udp: true
   - name: "29极限白嫖https🏳️未知"
     type: "http"
     server: "51.158.194.16"
@@ -779,23 +743,29 @@ proxies:
     skip-cert-verify: true
   - name: "30极限白嫖https🏳️未知"
     type: "http"
-    server: "158.173.154.1"
-    port: 9002
+    server: "83.172.143.53"
+    port: 4443
     tls: true
     skip-cert-verify: true
   - name: "31极限白嫖https🏳️未知"
     type: "http"
-    server: "158.173.154.5"
+    server: "158.173.154.1"
     port: 9002
     tls: true
     skip-cert-verify: true
-  - name: "极限白嫖anytls🏳️未知"
-    type: "anytls"
-    server: "ip5.934618.xyz"
-    port: 30099
-    password: "github.com/Alvin9999-newpac/fanqiang"
-    udp: true
-    sni: "ip5.934618.xyz"
+  - name: "18极限白嫖https🇷🇴罗马尼亚"
+    type: "http"
+    server: "193.176.84.25"
+    port: 9002
+    tls: true
+    sni: "www.bing.com"
+    skip-cert-verify: true
+  - name: "32极限白嫖https🏳️未知"
+    type: "http"
+    server: "159.13.44.228"
+    port: 443
+    tls: true
+    skip-cert-verify: true
   - name: "极限白嫖vless🏳️未知"
     type: "vless"
     server: "35.233.94.80"
@@ -809,199 +779,32 @@ proxies:
       short-id: "b4f2c0e3d8668c2f"
     servername: "www.cloudflare.com"
     client-fingerprint: "chrome"
-  - name: "4极限白嫖ss🏳️未知"
-    type: "ss"
-    server: "130.61.113.153"
-    port: 59924
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "IXSiuovyuuMAU9QVJZmOgzpGo8be2spJLnsQcNVWAGA="
-    udp: true
-  - name: "1极限白嫖anytls🏳️未知"
-    type: "anytls"
-    server: "ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn"
-    port: 443
-    password: "9sK2mP8xQ7vL3nZ6"
-    udp: true
-    sni: "ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn"
-    skip-cert-verify: true
-  - name: "32极限白嫖https🏳️未知"
-    type: "http"
-    server: "82.65.162.76"
-    port: 443
-    tls: true
-    skip-cert-verify: true
   - name: "33极限白嫖https🏳️未知"
-    type: "http"
-    server: "158.173.154.3"
-    port: 9002
-    tls: true
-    skip-cert-verify: true
-  - name: "34极限白嫖https🏳️未知"
-    type: "http"
-    server: "webdrone.club"
-    port: 443
-    tls: true
-    sni: "webdrone.club"
-  - name: "35极限白嫖https🏳️未知"
-    type: "http"
-    server: "purecambogiasl.live"
-    port: 443
-    tls: true
-    skip-cert-verify: true
-  - name: "36极限白嫖https🏳️未知"
-    type: "http"
-    server: "purposebydesig.club"
-    port: 443
-    tls: true
-  - name: "37极限白嫖https🏳️未知"
-    type: "http"
-    server: "berniesbodybla.fun"
-    port: 443
-    tls: true
-    username: "null"
-    password: "null"
-  - name: "38极限白嫖https🏳️未知"
-    type: "http"
-    server: "cr1-id.freeconnect.link"
-    port: 9251
-    tls: true
-    username: "freeuser1"
-    password: "freeuser1"
-  - name: "1极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "35.233.43.229"
-    port: 443
-    uuid: "e3fb56fe-bdbc-4f0e-b1ed-de2f7c85f254"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "i_UbRo65YEpOFuKkNVa0GEMl7xLDx9B1nmeyeNWyJQs"
-      short-id: "68e97022627fa882"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-  - name: "39极限白嫖https🏳️未知"
-    type: "http"
-    server: "nl207.freeconnect.link"
-    port: 9251
-    tls: true
-    username: "freeuser1"
-    password: "freeuser1"
-  - name: "40极限白嫖https🏳️未知"
-    type: "http"
-    server: "34.124.244.22"
-    port: 443
-    tls: true
-  - name: "1极限白嫖hysteria2🏳️未知"
-    type: "hysteria2"
-    server: "s3.huhiuh.space"
-    port: 18642
-    password: "user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2"
-    sni: "www.bing.com"
-    skip-cert-verify: true
-  - name: "41极限白嫖https🏳️未知"
-    type: "http"
-    server: "172.64.68.89"
-    port: 443
-    tls: true
-  - name: "18极限白嫖https🇷🇴罗马尼亚"
-    type: "http"
-    server: "193.176.84.25"
-    port: 9002
-    tls: true
-    sni: "www.bing.com"
-    skip-cert-verify: true
-  - name: "42极限白嫖https🏳️未知"
-    type: "http"
-    server: "cr2-id.freeconnect.link"
-    port: 9251
-    tls: true
-    username: "freeuser1"
-    password: "freeuser1"
-  - name: "43极限白嫖https🏳️未知"
-    type: "http"
-    server: "159.13.44.228"
-    port: 443
-    tls: true
-    skip-cert-verify: true
-  - name: "44极限白嫖https🏳️未知"
-    type: "http"
-    server: "103.82.101.44"
-    port: 443
-    tls: true
-    sni: "f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com"
-    skip-cert-verify: true
-  - name: "45极限白嫖https🏳️未知"
-    type: "http"
-    server: "kimberlymilano.icu"
-    port: 443
-    tls: true
-    sni: "kimberlymilano.icu"
-  - name: "46极限白嫖https🏳️未知"
-    type: "http"
-    server: "178.248.73.58"
-    port: 443
-    tls: true
-    skip-cert-verify: true
-  - name: "2极限白嫖hysteria2🏳️未知"
-    type: "hysteria2"
-    server: "mz.hkychina.com"
-    port: 8443
-    password: "HysTeria2026!Proxy"
-    sni: "mz.hkychina.com"
-    skip-cert-verify: true
-  - name: "47极限白嫖https🏳️未知"
     type: "http"
     server: "172.64.69.89"
     port: 443
     tls: true
-  - name: "48极限白嫖https🏳️未知"
+  - name: "34极限白嫖https🏳️未知"
     type: "http"
-    server: "83.172.143.53"
-    port: 4443
-    tls: true
-    skip-cert-verify: true
-  - name: "2极限白嫖anytls🏳️未知"
-    type: "anytls"
-    server: "ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn"
+    server: "purecambogiasl.live"
     port: 443
-    password: "9sK2mP8xQ7vL3nZ6"
-    udp: true
-    sni: "ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn"
-    skip-cert-verify: true
-  - name: "2极限白嫖vless🏳️未知"
+    tls: true
+    username: "null"
+    password: "null"
+  - name: "1极限白嫖vless🏳️未知"
     type: "vless"
-    server: "jp-1.gsafevpnapi.com"
-    port: 20270
-    uuid: "d6fc32ed-05de-430b-99ca-3edc9185e79b"
+    server: "34.154.251.151"
+    port: 443
+    uuid: "4d4bfd21-88fc-4de7-87bd-c2ddaedc4078"
     udp: true
     network: "tcp"
     tls: true
     reality-opts:
-      public-key: "gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI"
-      short-id: "89fecfdaf45cd76d"
-    servername: "www.yahoo.com"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "49极限白嫖https🏳️未知"
-    type: "http"
-    server: "94.177.163.156"
-    port: 443
-    tls: true
-  - name: "3极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "34.51.187.118"
-    port: 443
-    uuid: "e4be912f-68e8-4d51-80a4-1342b646f8e0"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "fV003yDr_sb_Wkgz6MxnIUJMgD15osWhzU-HZ5fLPFg"
-      short-id: "79ff7d51e3c56323"
+      public-key: "jGfJxbIyf2aLRFQyT9NsJBu1CzJmrAa2sF19GNw46z8"
+      short-id: "29615707650b941d"
     servername: "www.cloudflare.com"
     client-fingerprint: "chrome"
-  - name: "4极限白嫖vless🏳️未知"
+  - name: "2极限白嫖vless🏳️未知"
     type: "vless"
     server: "35.240.62.249"
     port: 443
@@ -1014,7 +817,20 @@ proxies:
       short-id: "31f187650d9530bb"
     servername: "www.cloudflare.com"
     client-fingerprint: "chrome"
-  - name: "5极限白嫖vless🏳️未知"
+  - name: "3极限白嫖vless🏳️未知"
+    type: "vless"
+    server: "34.51.119.243"
+    port: 443
+    uuid: "79bc7b01-6e4e-4365-a120-fefac8182bd9"
+    udp: true
+    network: "tcp"
+    tls: true
+    reality-opts:
+      public-key: "vFcM44RcbcO5jcrSWHLd_0exXAnnJLhpCNnMrWCwlzI"
+      short-id: "65f01b4b99e52015"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+  - name: "4极限白嫖vless🏳️未知"
     type: "vless"
     server: "123.111.169.70"
     port: 2083
@@ -1038,84 +854,46 @@ proxies:
     tls: true
     servername: "th1.zestapp778.com"
     skip-cert-verify: true
-  - name: "6极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "bgroup.us2.ilovegairport.com"
-    port: 443
-    uuid: "8079ccd4-4b4b-44e2-92f0-8f0367ad9c24"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "s8KrYQFpXXkbCvW6ORmVrm4yC5GpVxCHfIoV9Z_FiUY"
-      short-id: "afe73effea"
-    servername: "us-west-2.console.aws.amazon.com"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "50极限白嫖https🏳️未知"
-    type: "http"
-    server: "193.176.84.26"
-    port: 9002
-    tls: true
-    username: "null"
-    password: "null"
-  - name: "51极限白嫖https🏳️未知"
-    type: "http"
-    server: "193.176.84.23"
-    port: 9002
-    tls: true
-    sni: "www.bing.com"
-  - name: "52极限白嫖https🏳️未知"
+  - name: "35极限白嫖https🏳️未知"
     type: "http"
     server: "137.175.22.29"
     port: 443
     tls: true
-  - name: "53极限白嫖https🏳️未知"
+  - name: "5极限白嫖vless🏳️未知"
+    type: "vless"
+    server: "35.228.61.63"
+    port: 443
+    uuid: "06e58eed-afc8-4cbf-a0bf-1b7b42e1a87f"
+    udp: true
+    network: "tcp"
+    tls: true
+    reality-opts:
+      public-key: "wJwb5WExAnmGiq9mmjtMvoA8E-k10u5VvPegm9RomWU"
+      short-id: "d4b34bc6b3d2b5ab"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+  - name: "6极限白嫖vless🏳️未知"
+    type: "vless"
+    server: "jp-1.gsafevpnapi.com"
+    port: 20270
+    uuid: "d6fc32ed-05de-430b-99ca-3edc9185e79b"
+    udp: true
+    network: "tcp"
+    tls: true
+    reality-opts:
+      public-key: "gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI"
+      short-id: "89fecfdaf45cd76d"
+    servername: "www.yahoo.com"
+    client-fingerprint: "chrome"
+    skip-cert-verify: true
+    flow: "xtls-rprx-vision"
+  - name: "36极限白嫖https🏳️未知"
     type: "http"
-    server: "193.176.84.18"
+    server: "138.199.35.199"
     port: 9002
     tls: true
+    sni: "138.199.35.199"
   - name: "7极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "34.155.146.201"
-    port: 443
-    uuid: "069a2bbd-3fc9-470f-a251-c836a96ed04a"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "SVT2WeXMIrumlh5VG1lbHN6YbqL7-u2iRkv1js8XEU4"
-      short-id: "3f95392a418ec8fd"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-  - name: "3极限白嫖hysteria2🏳️未知"
-    type: "hysteria2"
-    server: "129.159.156.109"
-    port: 50160
-    password: "f25f19f29ce3fb53a35bf1b35b452a43"
-    sni: "www.bing.com"
-    skip-cert-verify: true
-  - name: "8极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "34.175.19.8"
-    port: 443
-    uuid: "0b4b1548-c7ca-45a5-9096-6c3cc4b1c43b"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "iI9J--AfPKCXbVle3Om-WMn_g-3bO3SsVzUCNtwUkU0"
-      short-id: "fe85cb6a5c84e64c"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-  - name: "54极限白嫖https🏳️未知"
-    type: "http"
-    server: "fullmanfirm.icu"
-    port: 443
-    tls: true
-    username: "null"
-    password: "null"
-  - name: "9极限白嫖vless🏳️未知"
     type: "vless"
     server: "au1.gsafevpnapi.com"
     port: 20270
@@ -1129,105 +907,17 @@ proxies:
     servername: "www.yahoo.com"
     client-fingerprint: "chrome"
     flow: "xtls-rprx-vision"
-  - name: "10极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "62.77.158.1"
-    port: 443
-    uuid: "2eceaf2b-a775-5a9c-9990-dad2b3660fb6"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "sVhkyiMXvpofflCdSszxQmsqOXV1kg1Ldxq1a9mOPjs"
-      short-id: "6a"
-    servername: "online.1c.ru"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "55极限白嫖https🏳️未知"
+  - name: "37极限白嫖https🏳️未知"
     type: "http"
-    server: "77.221.136.60"
-    port: 8443
-    tls: true
-  - name: "11极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "185.80.234.87"
-    port: 8443
-    uuid: "4abdfe42-aec7-4b66-974d-3f891e2e8184"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng"
-      short-id: "b415b8d7a6106ace"
-    servername: "nlll.gaz-service.shop"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "12极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "47.83.143.75"
-    port: 443
-    uuid: "1658f804-41bf-4b7c-a0be-ba01097e0f41"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "Y9TEgB_8YVWzv8-wblXBjeX2t7IAtQhtQ3pE08gfNWw"
-      short-id: "862266ae05b7a62f"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "56极限白嫖https🏳️未知"
-    type: "http"
-    server: "91.243.118.217"
+    server: "fan.596189.xyz"
     port: 443
     tls: true
-  - name: "57极限白嫖https🏳️未知"
+    sni: "fan.596189.xyz"
+  - name: "38极限白嫖https🏳️未知"
     type: "http"
-    server: "fan.240104.xyz"
-    port: 443
-    tls: true
-    username: "null"
-    password: "null"
-    sni: "fan.240104.xyz"
-  - name: "58极限白嫖https🏳️未知"
-    type: "http"
-    server: "193.176.84.35"
+    server: "193.176.84.19"
     port: 9002
     tls: true
-  - name: "2极限白嫖vmess🏳️未知"
-    type: "vmess"
-    server: "2001:bc8:32d7:1a9::2"
-    port: 18901
-    uuid: "3a966d20-7b9d-48cc-ba2c-8d38161b6d3a"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/github.com/Alvin9999-newpac/fanqiang"
-  - name: "59极限白嫖https🏳️未知"
-    type: "http"
-    server: "185.221.132.226"
-    port: 9443
-    tls: true
-  - name: "60极限白嫖https🏳️未知"
-    type: "http"
-    server: "146.70.221.18"
-    port: 443
-    tls: true
-  - name: "13极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "35.199.19.90"
-    port: 443
-    uuid: "d6d58f01-b5ce-4d47-bce0-b8a806155852"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "L1S0DpFtHPBeyENZUvJPcrFZIct6kcHUPxuzNaGXIFY"
-      short-id: "4c69c4b51c580d60"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
   - name: "1极限白嫖trojan🏳️未知"
     type: "trojan"
     server: "199.232.78.170"
@@ -1238,282 +928,42 @@ proxies:
     tls: true
     servername: "ssl.fastly.com"
     ws-opts:
-      path: "/@mehrosabiran"
       headers:
         Host: "mitivpn---de--s---mitivpn-11.global.ssl.fastly.net"
-  - name: "61极限白嫖https🏳️未知"
-    type: "http"
-    server: "198.44.138.27"
-    port: 9443
-    tls: true
-  - name: "3极限白嫖anytls🏳️未知"
+  - name: "极限白嫖anytls🏳️未知"
     type: "anytls"
-    server: "awefd2313fefarg23fr24.pnuqcnp.cn"
+    server: "ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn"
     port: 443
     password: "9sK2mP8xQ7vL3nZ6"
     udp: true
-    sni: "images.ctfassets.net"
+    sni: "ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn"
     client-fingerprint: "chrome"
     skip-cert-verify: true
-  - name: "4极限白嫖hysteria2🏳️未知"
-    type: "hysteria2"
-    server: "91.240.86.70"
-    port: 22443
-    password: "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5"
-    sni: "itsallproxy.quattro-tech.ru"
-    skip-cert-verify: true
-  - name: "62极限白嫖https🏳️未知"
+  - name: "39极限白嫖https🏳️未知"
     type: "http"
-    server: "31.186.220.204"
-    port: 443
+    server: "193.176.84.21"
+    port: 9002
     tls: true
-  - name: "5极限白嫖hysteria2🏳️未知"
-    type: "hysteria2"
-    server: "starlink-ft.251313.xyz"
-    port: 443
-    password: "https://xship.2fa.cat"
-    sni: "xship.top"
-    skip-cert-verify: true
-  - name: "14极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "35.228.61.63"
-    port: 443
-    uuid: "06e58eed-afc8-4cbf-a0bf-1b7b42e1a87f"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "wJwb5WExAnmGiq9mmjtMvoA8E-k10u5VvPegm9RomWU"
-      short-id: "d4b34bc6b3d2b5ab"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-  - name: "63极限白嫖https🏳️未知"
+    username: "null"
+    password: "null"
+  - name: "40极限白嫖https🏳️未知"
     type: "http"
-    server: "109.248.149.34"
-    port: 443
-    tls: true
-  - name: "15极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "34.18.161.225"
-    port: 443
-    uuid: "b6f775c2-70fd-4247-8d12-82cac46fdd50"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "tT6wEOh8ASizQYNRb51QdDlxAksSJbEaBnbQBajc6SQ"
-      short-id: "c5426331173ca15c"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-  - name: "5极限白嫖ss🏳️未知"
-    type: "ss"
-    server: "129.146.63.176"
-    port: 50356
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "51+j0f1sGG8aVSYp0xZndUB2C/cmrUeGq7BYOKpcI/o="
-    udp: true
-  - name: "64极限白嫖https🏳️未知"
-    type: "http"
-    server: "jewelscollecti.icu"
+    server: "fan.571589.xyz"
     port: 443
     tls: true
     username: "null"
     password: "null"
-  - name: "65极限白嫖https🏳️未知"
+  - name: "41极限白嫖https🏳️未知"
     type: "http"
-    server: "138.199.35.208"
-    port: 9002
-    tls: true
-    sni: "138.199.35.208"
-  - name: "66极限白嫖https🏳️未知"
-    type: "http"
-    server: "137.175.22.74"
-    port: 443
-    tls: true
-  - name: "4极限白嫖anytls🏳️未知"
-    type: "anytls"
-    server: "134.195.101.162"
-    port: 21333
-    password: "d7340868-b74c-455a-8ce0-17a52afa43b7"
-    udp: true
-    sni: "apple.com"
-    skip-cert-verify: true
-  - name: "2极限白嫖trojan🏳️未知"
-    type: "trojan"
-    server: "199.232.78.160"
-    port: 443
-    password: "mitivpn"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "ssl.fastly.com"
-    ws-opts:
-      path: "@bored_vpn"
-      headers:
-        Host: "mitivpn---us--s---mitivpn-11.global.ssl.fastly.net"
-  - name: "67极限白嫖https🏳️未知"
-    type: "http"
-    server: "193.176.84.31"
+    server: "193.176.84.32"
     port: 9002
     tls: true
     sni: "www.bing.com"
-  - name: "68极限白嫖https🏳️未知"
+  - name: "42极限白嫖https🏳️未知"
     type: "http"
-    server: "209.148.53.153"
-    port: 8090
+    server: "84.17.47.147"
+    port: 9002
     tls: true
     username: "null"
     password: "null"
-  - name: "16极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "34.3.101.206"
-    port: 443
-    uuid: "c64a5cfa-0fd6-4978-b062-6e89da013260"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "C4ky4RduL1cfjZ3okHXDkpD2Ns4DViMkB-mDlisBrzc"
-      short-id: "8a17287288cf25e5"
-    servername: "gateway.icloud.com"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    flow: "xtls-rprx-vision"
-  - name: "17极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "104.26.0.138"
-    port: 443
-    uuid: "37665857-8b6e-4daa-8231-3e2927221558"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "spjd.cbc.qzz.io"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/proxyip=ProxyIP.US.CMLiussss.net"
-      headers:
-        Host: "spjd.cbc.qzz.io"
-  - name: "18极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "45.146.90.85"
-    port: 443
-    uuid: "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "bPbAdn6ogLbiv5cRe5d12EL7FhooAIVrC3-fg90P-Bw"
-      short-id: "72104d27a0f5f62e"
-    servername: "www.amazon.com"
-    client-fingerprint: "random"
-    skip-cert-verify: true
-    flow: "xtls-rprx-vision"
-  - name: "19极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "34.154.18.129"
-    port: 443
-    uuid: "fffe33b6-5735-4a71-adb1-1c154def9024"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "-Tb9KKp870JxcZ3Ka7Rx5ez3QBYryX4e8_jdyNZu2wE"
-      short-id: "ed278463058a6dc9"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-  - name: "20极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "34.175.107.233"
-    port: 443
-    uuid: "c55c9880-2f9c-4ad6-bfc2-5054516bf613"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "lM9EQ1rZH9inQjrZesuqgldsXYN_yfT5-tqhPfbyen4"
-      short-id: "1c9e101e99bf86bb"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-  - name: "21极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "34.176.187.219"
-    port: 443
-    uuid: "ad5325f8-f0b3-41c4-a561-113529b60e70"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc"
-      short-id: "2c2d919f5183d0b7"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-  - name: "1极限白嫖socks5🏳️未知"
-    type: "socks5"
-    server: "101.36.104.239"
-    port: 10808
-    udp: true
-  - name: "22极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "211.229.56.86"
-    port: 30021
-    uuid: "88ee0e1e-a2a2-477e-88ce-4875c058aeba"
-    udp: true
-    network: "ws"
-    tls: true
-    servername: "123.714541.xyz"
-    client-fingerprint: "random"
-    ws-opts:
-      path: "/Ra-vl"
-      headers:
-        Host: "123.714541.xyz"
-  - name: "23极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "34.118.43.106"
-    port: 443
-    uuid: "16e310b7-659e-45ee-a4b0-10e0289b8621"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "-bjPqNKxxGTKCmH6dwsdGRTUzuatAowBWxyOPW4BiVQ"
-      short-id: "7e7623474d41f032"
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-  - name: "3极限白嫖vmess🏳️未知"
-    type: "vmess"
-    server: "112.132.215.108"
-    port: 50002
-    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "tcp"
-    servername: "112.132.215.108"
-  - name: "24极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "217.149.26.11"
-    port: 8443
-    uuid: "4abdfe42-aec7-4b66-974d-3f891e2e8184"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng"
-      short-id: "b415b8d7a6106ace"
-    servername: "nlll.gaz-service.shop"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "25极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "us-1.gsafevpnapi.com"
-    port: 20270
-    uuid: "d6fc32ed-05de-430b-99ca-3edc9185e79b"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "eadapatOPUV75uDTLPqrRHD1vAAmu_Y-SyQCbp9wgwM"
-      short-id: "f7a0cd272f3f20a7"
-    servername: "www.yahoo.com"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
+    sni: "84.17.47.147"
