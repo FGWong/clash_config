@@ -78,7 +78,7 @@ proxies:
   name: 5_kg
   network: ws
   port: 443
-  server: 104.18.47.26
+  server: 172.64.147.162
   servername: ef.fugang.dpdns.org
   skip-cert-verify: false
   tfo: false

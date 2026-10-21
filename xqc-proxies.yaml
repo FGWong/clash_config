@@ -68,100 +68,8 @@ proxies:
     tfo: false
     skip-cert-verify: false
     flow: xtls-rprx-vision
-  - name: "美国 CNServer AWS"
-    type: vless
-    server: yg1.ygkkk.dpdns.org
-    port: 443
-    uuid: d9d25305-b90a-4268-93ee-153b60acc4b7
-    tls: true
-    client-fingerprint: chrome
-    servername: cf.azhengnb.qzz.io
-    network: xhttp
-    tfo: false
-    skip-cert-verify: false
 
-  - name: JP|部分-JP|日本724ms
-    type: vless
-    server: 103.85.27.30
-    port: 49467
-    network: tcp
-    uuid: 44059c36-91ab-47f4-d8ca-a43dafd788b2
-    encryption: none
-  - name: JP|部分-JP|日本731ms
-    type: vless
-    server: 103.85.27.30
-    port: 45087
-    network: tcp
-    uuid: 5d0f8977-ca64-46b8-d8a4-12cafa375de8
-    encryption: none
-  - name: 'PL 25'
-    type: vless
-    server: 194.93.63.246
-    port: 443
-    uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-    tls: true
-    client-fingerprint: chrome
-    servername: pl.bubahero.com
-    network: tcp
-    reality-opts:
-      public-key: GmZv3anSeAeHr_cMFKr-6MPLli-nyKNatnY6P3AFK00
-      short-id: 9c2378562188c3cb
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: 'US a9a.xyz'
-    type: vless
-    server: 179.254.94.102
-    port: 44444
-    uuid: ae2368cc-0fbe-4a06-a23e-fb73a4ac025a
-    tls: true
-    client-fingerprint: chrome
-    servername: www.iij.ad.jp
-    network: tcp
-    reality-opts:
-      public-key: LZnkyLxA8cYoDAsmxGh0lOr1-auyZI5t_LSU-FNBkSs
-    tfo: false
-    skip-cert-verify: false
-    flow: xtls-rprx-vision
-  - name: 'UN 92'
-    type: trojan
-    server: 167.82.76.7
-    port: 443
-    password: MITIVpN
-    tls: true
-    client-fingerprint: chrome
-    sni: ssl.fastly.com
-    network: ws
-    ws-opts:
-      path: /---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/NLSs---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1
-      headers:
-        host: mitivpn---ss--s---mitivpn-33e.global.ssl.fastly.net
-    tfo: false
-    skip-cert-verify: false
-  - name: 美国-13
-    type: vless
-    server: 141.193.27.4
-    port: 80
-    uuid: e403856e-4e50-49e6-9edc-d9536a803a6a
-    tls: false
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram\U0001F1E8\U0001F1F3+@WangCai2"
-      headers:
-        host: proud-cloud-5c50.113-8dc.workers.dev
-    tfo: false
-  - name: 美国 yudou_dey
-    type: vless
-    server: dey.lnmarketplace.net
-    port: 443
-    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-    tls: true
-    client-fingerprint: chrome
-    servername: dey.lnmarketplace.net
-    network: xhttp
-    tfo: false
-    skip-cert-verify: false
-  - name: 美国 yudou
+  - name: US美国(mibei77.com 米贝节点分享)
     type: vless
     server: '2a14:3f87:f001:46::a'
     port: 443
@@ -172,59 +80,191 @@ proxies:
     network: xhttp
     tfo: false
     skip-cert-verify: false
-  - name: "\U0001F1E9\U0001F1EA 德国 | DEU"
-    type: trojan
-    server: 45.32.157.84
+  - name: NL荷兰(mibei77.com 米贝节点分享)
+    type: vless
+    server: dey.lnmarketplace.net
     port: 443
-    password: Tg3RnK7Xp8B1
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
     tls: true
     client-fingerprint: chrome
-    sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
-    network: tcp
+    servername: dey.lnmarketplace.net
+    network: xhttp
     tfo: false
     skip-cert-verify: false
-  - name: "\U0001F1F7\U0001F1FA_RU_俄罗斯"
-    type: vless
-    server: tr3.wba-pn.ru
+
+  - name: 🇺🇸US_502|189KB/s|P002-260618
+    password: 'null'
+    port: 9002
+    server: 138.199.35.195
+    skip-cert-verify: true
+    sub_tag: P002-260618
+    tls: true
+    type: http
+    username: 'null'
+    udp: true
+
+  - name: 🇺🇸US_320|717KB/s|K001-260618
+    password: 'null'
     port: 443
-    uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
+    server: jewelscollecti.icu
+    skip-cert-verify: true
+    sub_tag: K001-260618
+    tls: true
+    type: http
+    username: 'null'
+    udp: true
+    sni: jewelscollecti.icu
+
+  - name: 🇺🇸US_68|123KB/s|R002-260618
+    port: 443
+    server: fan.596189.xyz
+    skip-cert-verify: true
+    sni: fan.596189.xyz
+    sub_tag: R002-260618
+    tls: true
+    type: http
+    udp: true
+
+  - name: 美国02
+    type: vless
+    server: 2a14:3f87:f001:46::a
+    port: 443
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    udp: true
+    tls: true
+    servername: dey.lnmarketplace.net
+    client-fingerprint: firefox
+    alpn:
+    - h2
+    network: xhttp
+    xhttp-opts:
+      path: /kavir
+      host: dey.lnmarketplace.net
+      mode: stream-one
+      no-grpc-header: true
+      headers:
+        User-Agent: Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/101.0.4951.67Safari/537.36
+      reuse-settings:
+        max-concurrency: '6'
+        h-keep-alive-period: 12
+  - name: 美国06
+    type: vless
+    server: dey.lnmarketplace.net
+    port: 443
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    udp: true
+    tls: true
+    servername: dey.lnmarketplace.net
+    client-fingerprint: firefox
+    alpn:
+    - h2
+    network: xhttp
+    xhttp-opts:
+      path: /kavir
+      host: dey.lnmarketplace.net
+      mode: stream-one
+  - name: 美国01
+    type: vless
+    server: dey.lnmarketplace.net
+    port: 443
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    udp: true
+    tls: true
+    servername: dey.lnmarketplace.net
+    alpn:
+    - h2
+    network: xhttp
+    xhttp-opts:
+      path: /kavir
+      host: dey.lnmarketplace.net
+      mode: stream-one
+      no-grpc-header: true
+      headers:
+        User-Agent: Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/101.0.4951.67Safari/537.36
+      reuse-settings:
+        max-concurrency: '6'
+        h-keep-alive-period: 12
+  - name: 美国07
+    type: vless
+    server: dey.lnmarketplace.net
+    port: 443
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    udp: true
+    tls: true
+    servername: dey.lnmarketplace.net
+    client-fingerprint: firefox
+    skip-cert-verify: true
+    alpn:
+    - h2
+    network: xhttp
+    xhttp-opts:
+      path: /kavir
+      host: dey.lnmarketplace.net
+      mode: stream-one
+  - name: 荷兰02
+    type: vless
+    server: dey.lnmarketplace.net
+    port: 443
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    udp: true
+    tls: true
+    servername: dey.lnmarketplace.net
+    client-fingerprint: chrome
+    alpn:
+    - h2
+    network: xhttp
+    xhttp-opts:
+      path: /kavir
+      host: dey.lnmarketplace.net
+      mode: stream-one
+  - name: 荷兰01
+    type: vless
+    server: dey.lnmarketplace.net
+    port: 443
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    udp: true
+    tls: true
+    servername: dey.lnmarketplace.net
+    client-fingerprint: firefox
+    alpn:
+    - h2
+    network: xhttp
+    xhttp-opts:
+      path: /kavir
+      host: dey.lnmarketplace.net
+      mode: stream-one
+      no-grpc-header: true
+      reuse-settings:
+        max-concurrency: '6'
+        h-keep-alive-period: 12
+
+  - name: US-East Los Angeles-4281672-kpyb
+    type: vless
+    server: support.zoom.us.vltj.qzz.io
+    port: 443
+    uuid: 506e4a91-1d05-5683-b84c-2113f673cb19
     tls: true
     client-fingerprint: chrome
+    servername: support.zoom.us.vltj.qzz.io
     network: ws
     ws-opts:
-      path: /
+      path: /id-pusat
+      headers:
+        host: support.zoom.us.vltj.qzz.io
     tfo: false
     skip-cert-verify: false
-  - name: CN-50M-移动动态入口-每周一更新
-    type: ss
-    server: 111.15.84.100
-    port: 7175
-    cipher: 2022-blake3-aes-256-gcm
-    password: eVgEdD2UJXoP1O7qbSOz6A0FoSCYrwhV9hnPv6OQu9Q=:bvQihPJIpX+XX4PvARLDfGiPuZzQoiasvb0khfnKN4I=
-  - name: hysteria2-722298473
-    type: hysteria2
-    server: 62.210.7.139
-    port: 60111
-    password: github.com%2FAlvin9999-newpac%2Ffanqiang
-    auth: github.com%2FAlvin9999-newpac%2Ffanqiang
-    skip-cert-verify: true
-  - name: 日本-旧机(Skyline)
-    type: hysteria2
-    server: hy2.lefamn.top
-    port: 30194
-    password: '123456'
-    auth: '123456'
-    skip-cert-verify: true
-  - name: hy2-speed
-    type: hysteria2
-    server: 185.174.137.172
-    port: 8446
-    password: e9dc02d400b67c727aca1620
-    auth: e9dc02d400b67c727aca1620
-    skip-cert-verify: true
-  - name: 英国√
-    type: ss
-    server: 2.26.20.18
-    port: 55455
-    cipher: chacha20-ietf-poly1305
-    password: i8zrpTPFTWyPxKpuChxncs
+  - name: US-East Los Angeles-4281672-kpyb
+    type: vless
+    server: support.zoom.us.vltj.qzz.io
+    port: 443
+    uuid: 506e4a91-1d05-5683-b84c-2113f673cb19
+    tls: true
+    client-fingerprint: chrome
+    servername: support.zoom.us.vltj.qzz.io
+    network: ws
+    ws-opts:
+      path: /id-pusat
+      headers:
+        host: support.zoom.us.vltj.qzz.io
+    tfo: false
+    skip-cert-verify: false
