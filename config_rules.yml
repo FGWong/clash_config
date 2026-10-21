@@ -148,6 +148,20 @@ dns:
     - 'vip.freemyip.com'
     - 'mm.freemyip.com'
     - 'login.freemyip.com'
+    - 'ai.xmiaom.com'
+    - 'anyrouter.top'
+    - 'api.ai-router.dev'
+    - 'api.bxacc.xy'
+    - 'api.facai.cloudns.org'
+    - 'api.fengwind.com'
+    - 'api.llm.pm'
+    - 'elysia.h-e.top'
+    - 'muyuan.do'
+    - 'new-api.abrdns.com'
+    - 'newapi.noahxu.site'
+    - 'gpt.qt.cool'
+    - 'share.hkai25.top'
+    - 'windhub.cc'
 
   use-hosts: true
 
