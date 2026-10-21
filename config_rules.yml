@@ -832,7 +832,7 @@ proxy-groups:
 
 proxy-providers:
   common:
-    url: "https://pub.loc.cc:15443/clash_verge/common_proxies.yaml"
+    url: "https://wfg.de5.net:15443/clash_verge/common_proxies.yaml"
     #exclude-type: "Shadowsocks|Http"
     #exclude-filter: "(?i)港|hk|hongkong|hong kong"
     #filter: "(?i)港|hk|hongkong|hong kong" #(?i) (?A) 等语法无效
@@ -845,7 +845,7 @@ proxy-providers:
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
   cldflare:
-    url: "https://pub.loc.cc:15443/clash_verge/cloudflare-proxies.yaml"
+    url: "https://wfg.de5.net:15443/clash_verge/cloudflare-proxies.yaml"
     type: http
     #type: file
     interval: 10807
@@ -855,7 +855,7 @@ proxy-providers:
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
   cldkg:
-    url: "https://pub.loc.cc:15443/clash_verge/cfkg-proxies.yaml"
+    url: "https://wfg.de5.net:15443/clash_verge/cfkg-proxies.yaml"
     type: http
     #type: file
     interval: 10807
@@ -865,7 +865,7 @@ proxy-providers:
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
   cldop:
-    url: "https://pub.loc.cc:15443/clash_verge/cf_op_proxies.yaml"
+    url: "https://wfg.de5.net:15443/clash_verge/cf_op_proxies.yaml"
     type: http
     #type: file
     interval: 5612
@@ -875,7 +875,7 @@ proxy-providers:
       interval: 960
       url: 'http://www.gstatic.com/generate_204'
   skr:
-    url: "https://pub.loc.cc:15443/clash_verge/skrapp.yaml"
+    url: "https://wfg.de5.net:15443/clash_verge/skrapp.yaml"
     type: http
     #type: file
     interval: 36622
@@ -885,7 +885,7 @@ proxy-providers:
       interval: 960
       url: 'http://www.gstatic.com/generate_204'
   xqc:
-    url: "https://pub.loc.cc:15443/clash_verge/xqc-proxies.yaml"
+    url: "https://wfg.de5.net:15443/clash_verge/xqc-proxies.yaml"
     type: http
     #type: file
     interval: 20807
@@ -895,7 +895,7 @@ proxy-providers:
       interval: 12000
       url: 'http://www.gstatic.com/generate_204'
   ucust:
-    url: "https://pub.loc.cc:15443/clash_verge/user_custom.yaml"
+    url: "https://wfg.de5.net:15443/clash_verge/user_custom.yaml"
     type: http
     #type: file
     interval: 33622
@@ -1097,7 +1097,7 @@ rule-providers:
     format: 'yaml' # or 'text'
     #url: "https://cdn.jsdelivr.net/gh/FGWong/clash_config@main/ruleset/classical_direct.yaml"
     url: "https://raw.githubusercontent.com/FGWong/clash_config/refs/heads/main/ruleset/classical_direct.yaml"
-    #url: "https://pub.loc.cc:15443/clash_verge/ruleset/classical_direct.yaml"
+    #url: "https://wfg.de5.net:15443/clash_verge/ruleset/classical_direct.yaml"
     path: ./ruleset/classical_direct.yaml
     interval: 86400
 
