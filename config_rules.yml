@@ -718,7 +718,10 @@ proxy-groups:
     proxies:
       - Optimize
       - XQC
+      - CombKR
+      - SSKR
       - SKR
+      - MKR
       - UserC
       - 🎯 全球直连
       - ♻️ 自动选择
@@ -743,6 +746,25 @@ proxy-groups:
     type: url-test
     use:
       - skr
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 7200
+  - name: SSKR
+    type: url-test
+    use:
+      - sskr
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 7200
+  - name: MKR
+    type: url-test
+    use:
+      - mkr
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 7200
+  - name: CombKR
+    type: select
+    use:
+      - mkr
+      - sskr
     url: 'http://www.gstatic.com/generate_204'
     interval: 7200
   - name: UserC
@@ -945,6 +967,26 @@ proxy-providers:
     #type: file
     interval: 36622
     path: local_data/skrapp.yaml
+    health-check:
+      enable: true
+      interval: 960
+      url: 'http://www.gstatic.com/generate_204'
+  sskr:
+    url: "https://wfg.de5.net:15443/clash_verge/small_skr.yaml"
+    type: http
+    #type: file
+    interval: 36622
+    path: local_data/sskrapp.yaml
+    health-check:
+      enable: true
+      interval: 960
+      url: 'http://www.gstatic.com/generate_204'
+  mkr:
+    url: "https://wfg.de5.net:15443/clash_verge/medium_skr.yaml"
+    type: http
+    #type: file
+    interval: 36622
+    path: local_data/mkrapp.yaml
     health-check:
       enable: true
       interval: 960
@@ -1200,6 +1242,8 @@ rules:
   - RULE-SET,Twitter,XTwitter
   - RULE-SET,classical_proxy,🚀 节点选择
   - RULE-SET,artificial_proxy,🚀 节点选择
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
 
   - DOMAIN,clash.razord.top,🎯 全球直连
   - DOMAIN,yacd.haishan.me,🎯 全球直连
@@ -1224,7 +1268,6 @@ rules:
   - RULE-SET,cncidr,🎯 全球直连
   - GEOIP,LAN,🎯 全球直连
   - GEOIP,CN,🎯 全球直连,no-resolve
-  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
 
   #- DOMAIN-KEYWORD,limetorrents.,🚀 节点选择
   #- DOMAIN-SUFFIX,,🚀 节点选择
