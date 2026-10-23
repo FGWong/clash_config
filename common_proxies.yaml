@@ -1,14 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: free18|🇨🇳_中国_47
-  port: 50002
-  server: 112.132.215.108
+- name: free18|🇯🇵_日本_8
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  port: 8886
+  server: 45.32.52.173
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: 45.32.52.173
+  type: trojan
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: forever|Vless_Websocket
   network: ws
   port: 8080

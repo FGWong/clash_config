@@ -1,18 +1,5 @@
 proxies:
   # 其他配置项可根据需要添加
-    -   alpn:
-            - h3
-        auth_str: dongtaiwang.com
-        down: "1000"
-        name: "\U0001F1E9\U0001F1EADE_1|365KB/s|GPT⁺|YT-CN|NF|D+|40%"
-        obfs: ""
-        port: "20088"
-        protocol: udp
-        server: 5.83.129.153
-        skip-cert-verify: true
-        sni: apple.com
-        type: hysteria
-        up: "500"
     -   name: "\U0001F1F3\U0001F1F1NL_1|320KB/s|GPT⁺-NL|YT-NL|NF|GM-NL|0%|R002-260618"
         port: 443
         server: 5.255.118.82
@@ -33,14 +20,6 @@ proxies:
     -   name: "\U0001F1FA\U0001F1F8US_1|309KB/s|GPT⁺-US|YT-CN|NF|0%|R002-260618"
         port: 443
         server: 137.175.22.72
-        skip-cert-verify: true
-        sub_tag: R002-260618
-        tls: true
-        type: http
-        udp: true
-    -   name: "\U0001F1FA\U0001F1F8US_2|310KB/s|GPT⁺-US|YT-US|NF|GM-US|0%|R002-260618"
-        port: 443
-        server: 107.149.232.90
         skip-cert-verify: true
         sub_tag: R002-260618
         tls: true
@@ -187,14 +166,6 @@ proxies:
     -   name: "\U0001F1FA\U0001F1F8US_24|364KB/s|GPT⁺-US|YT-US|NF|GM-US|29%|R002-260618"
         port: 9002
         server: 138.199.35.212
-        skip-cert-verify: true
-        sub_tag: R002-260618
-        tls: true
-        type: http
-        udp: true
-    -   name: "\U0001F1EE\U0001F1F9IT_1|178KB/s|GPT⁺-IT|YT-IT|NF|D+|GM-IT|2%|R002-260618"
-        port: 443
-        server: 109.116.41.154
         skip-cert-verify: true
         sub_tag: R002-260618
         tls: true
@@ -375,14 +346,6 @@ proxies:
         tls: true
         type: http
         udp: true
-    -   name: "\U0001F1FA\U0001F1F8US_68|336KB/s|GPT⁺-US|YT-US|NF|GM-US|0%|R002-260618"
-        port: 443
-        server: 104.233.178.179
-        skip-cert-verify: true
-        sub_tag: R002-260618
-        tls: true
-        type: http
-        udp: true
     -   alpn:
             - h3
             - h2
@@ -420,14 +383,6 @@ proxies:
         tls: true
         type: http
         username: ""
-    -   name: "\U0001F1F8\U0001F1ECSG_2|261KB/s|GPT⁺-SG|YT-SG|GM-SG|0%"
-        password: e4b72b531a2d10900519
-        port: 443
-        server: 146.70.29.45
-        sni: 92461d2d.acsnet.co
-        tls: true
-        type: http
-        username: testuser1
     -   name: "\U0001F1EE\U0001F1F9IT_2|442KB/s|GPT⁺-IT|2%"
         port: 8090
         server: 93.71.245.84
@@ -486,25 +441,6 @@ proxies:
         sni: apple.com
         type: hysteria
         up: "500"
-    -   name: "\U0001F1FA\U0001F1F8US_2|151KB/s|GPT⁺-US|YT-CN|NF"
-        port: 443
-        server: fan.596189.xyz
-        skip-cert-verify: true
-        sni: fan.596189.xyz
-        tls: true
-        type: http
-    -   alpn:
-            - h3
-        auth-str: github.com/Alvin9999-newpac/fanqiang
-        down: 55 Mbps
-        name: "\U0001F1EB\U0001F1F7FR_2|148KB/s|GPT⁺-FR|NF|D+"
-        port: 23556
-        protocol: udp
-        server: 62.210.70.191
-        skip-cert-verify: true
-        sni: bing.com
-        type: hysteria
-        up: 11 Mbps
     -   name: "\U0001F1F3\U0001F1F1NL_4|326KB/s|GPT⁺-NL|YT-NL|NF|GM-NL"
         port: 9002
         server: 84.17.47.125
@@ -576,25 +512,6 @@ proxies:
         tls: true
         type: http
         udp: true
-    -   encryption: none
-        name: "\U0001F1FA\U0001F1F8US_64|281KB/s|GPT|NF|D+|GM-US|B007-260618"
-        network: ws
-        packet-encoding: xudp
-        port: 2052
-        server: 104.21.25.108
-        sub_tag: B007-260618
-        type: vless
-        udp: true
-        uuid: f1e5d738-2e83-4e2f-b6d6-a9013b3e7e48
-        ws-opts:
-            early-data-header-name: Sec-WebSocket-Protocol
-            headers:
-                Host: a6o58qfpwvgrwmz0crtha0r24uyiu2l.x7-f5jb95s0ocjt-0.workers.dev
-                User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-                    (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-            max-early-data: 2560
-            path: /vl/uNyziIUlXKFT0XpfK7u96FmE0
-        xudp: true
     -   name: "\U0001F1F8\U0001F1ECSG_3|559KB/s|NF-SG|R002-260618"
         port: 9090
         server: 104.248.151.93
