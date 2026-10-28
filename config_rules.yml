@@ -719,6 +719,8 @@ proxy-groups:
       - Optimize
       - XQC
       - CombKR
+      - AmdHome
+      - Tclash
       - SSKR
       - SKR
       - MKR
@@ -740,8 +742,31 @@ proxy-groups:
     type: url-test
     use:
       - xqc
+      - tclashfile
+      - amdhome
     url: 'http://www.gstatic.com/generate_204'
     interval: 12000
+  - name: AmdHome
+    type: url-test
+    use:
+      - amdhome
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1200
+    icon: https://g.csdnimg.cn/static/logo/favicon32.ico
+  - name: Tclash
+    type: url-test
+    use:
+      - tclashfile
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 1200
+    icon: https://g.csdnimg.cn/static/logo/favicon32.ico
+  - name: CombKR
+    type: select
+    use:
+      - mkr
+      - sskr
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 7200
   - name: SKR
     type: url-test
     use:
@@ -760,13 +785,6 @@ proxy-groups:
       - mkr
     url: 'http://www.gstatic.com/generate_204'
     interval: 7200
-  - name: CombKR
-    type: select
-    use:
-      - mkr
-      - sskr
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 7200
   - name: UserC
     type: url-test
     use:
@@ -776,6 +794,8 @@ proxy-groups:
   - name: PureLess
     type: select
     proxies:
+      - Tclash
+      - AmdHome
       - SKR
       - XQC
       - UserC
@@ -1010,6 +1030,26 @@ proxy-providers:
     health-check:
       enable: true
       interval: 16400
+      url: 'http://www.gstatic.com/generate_204'
+  tclashfile:
+    url: "https://wfg.de5.net:15443/clash_verge/Clash.yaml"
+    type: http
+    #type: file
+    interval: 33622
+    path: local_data/Clash.yaml
+    health-check:
+      enable: true
+      interval: 186400
+      url: 'http://www.gstatic.com/generate_204'
+  amdhome:
+    url: "https://wfg.de5.net:15443/clash_verge/amd_home.yaml"
+    type: http
+    #type: file
+    interval: 33622
+    path: local_data/amd_home.yaml
+    health-check:
+      enable: true
+      interval: 186400
       url: 'http://www.gstatic.com/generate_204'
 
 rule-providers:
