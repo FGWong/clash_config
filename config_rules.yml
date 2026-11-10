@@ -76,6 +76,9 @@ dns:
     - time.apple.com
     - time.android.com
     - time.nist.gov
+    - '*.yunaq.com'
+    - '*.jiasule.com'
+    - '*.52pojie.cn'
     - 'time.*'
     - 'ntp.*'
     - time.*.com

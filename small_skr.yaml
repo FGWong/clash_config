@@ -560,35 +560,6 @@ proxies:
       path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530"
       headers:
         Host: "ty986gfazs.cainiaohub.xyz"
-  - name: "61108 21 🇷🇺 俄罗斯 1.02MB/s"
-    type: "vless"
-    server: "prvtch.titun.su"
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-    servername: "perevodchiki.su"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    flow: "xtls-rprx-vision"
-  - name: "61108 37 🇷🇺 俄罗斯 1.06MB/s"
-    type: "vless"
-    server: "46.19.138.214"
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-    servername: "perevodchiki.su"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
   - name: "61108 21 🇩🇪 德国 0.11MB/s"
     type: "vless"
     server: "cdn.kavosiprotocol.shop"
@@ -610,13 +581,6 @@ proxies:
     port: 43111
     password: "65ec84f5-0dd4-4582-8b4f-592e50b22116"
     udp: true
-    skip-cert-verify: true
-  - name: "61109 33 🇩🇪 德国 1.34MB/s"
-    type: "hysteria2"
-    server: "194.48.250.233"
-    port: 443
-    password: "a2c74ce7-5daa-4bee-a1eb-52863873b3c3"
-    sni: "mol.ultimagamest.com"
     skip-cert-verify: true
   - name: "61109 35 🇺🇸 美国 0.93MB/s"
     type: "vless"
@@ -646,23 +610,6 @@ proxies:
       path: "/hls/cctv5phd.m3u8"
       headers:
         Host: "guanwang.awsno.com"
-  - name: "61109 181 🇺🇸 美国 0.12MB/s"
-    type: "vless"
-    server: "jp.sofast.live"
-    port: 52683
-    uuid: "5aaa5259-f924-4682-a4a3-149d472a9dcc"
-    udp: true
-    network: "tcp"
-  - name: "61109 114 🇺🇸 美国 0.23MB/s"
-    type: "trojan"
-    server: "176.122.173.224"
-    port: 443
-    password: "a75243d0f5c2e31bd6c8c118b4f6442f81ad"
-    udp: true
-    network: "tcp"
-    tls: true
-    servername: "www.cloudflare.com"
-    skip-cert-verify: true
   - name: "61109 115 🇺🇸 美国 0.99MB/s"
     type: "vless"
     server: "154.23.242.142"
@@ -729,28 +676,6 @@ proxies:
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     udp: true
-  - name: "61110 34 🇷🇺 俄罗斯 0.48MB/s"
-    type: "vless"
-    server: "179.43.166.190"
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-    servername: "perevodchiki.su"
-    client-fingerprint: "firefox"
-    skip-cert-verify: true
-    flow: "xtls-rprx-vision"
-  - name: "61110 228 🇨🇳 台湾 0.35MB/s"
-    type: "anytls"
-    server: "forwarded.frnhk.xyz"
-    port: 2095
-    password: "98922052-34e7-42f0-a0c9-cbe6ddef6fdb"
-    udp: true
-    sni: "jp.gosthk.site"
   - name: "61110 63 🇳🇱 荷兰 0.45MB/s"
     type: "vless"
     server: "94.241.172.107"
@@ -762,21 +687,6 @@ proxies:
     servername: "94.241.172.107"
     client-fingerprint: "chrome"
     skip-cert-verify: true
-  - name: "61110 65 🇹🇷 土耳其 0.15MB/s"
-    type: "vless"
-    server: "185.246.155.91"
-    port: 10103
-    uuid: "dbf3f074-3b18-43f3-b82a-debd8c879c69"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "obQkp5VlQpnlt1hRLQ3VfHISYiiISZJyJZAMaIdjCko"
-      short-id: "6859f5b59e55aa30"
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    flow: "xtls-rprx-vision"
   - name: "61110 72 🇺🇸 美国 0.95MB/s"
     type: "vless"
     server: "panel.apexkey.store"
@@ -878,10 +788,3 @@ proxies:
       path: "/"
       headers:
         Host: "free.sahanwickramasinghe.com"
-  - name: "61110 708 🇺🇸 美国 0.03MB/s"
-    type: "hysteria2"
-    server: "8.209.247.109"
-    port: 443
-    password: "usqmqUKJFIlCmvkCNSY64L3k"
-    sni: "8.209.247.109"
-    skip-cert-verify: true

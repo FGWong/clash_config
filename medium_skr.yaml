@@ -551,20 +551,6 @@ proxies:
     udp: true
     network: "tcp"
     skip-cert-verify: true
-  - name: "61109 1极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "prvtch.titun.su"
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-    servername: "perevodchiki.su"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
   - name: "61109 2极限白嫖vless🏳️未知"
     type: "vless"
     server: "cdn.kavosiprotocol.shop"
@@ -580,20 +566,6 @@ proxies:
       path: "/@KVPROTOCOlVPN--@KVPROTOCOlVPN--@KVPROTOCOlVPN--@KVPROTOCOlVPN--ws/s_48738e13cc"
       headers:
         Host: "cdn.kavosiprotocol.shop"
-  - name: "61109 3极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "46.19.138.214"
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-    servername: "perevodchiki.su"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
   - name: "61109 4极限白嫖vless🏳️未知"
     type: "vless"
     server: "saas.sin.fan"
@@ -609,20 +581,6 @@ proxies:
       path: "/documents/zh-tw/video/TkZDG0RVE1kPREsSEQ8YEEBHSEpZUwhIFF4WRBIIFUkVRQQQRhNYEFASC0FbR1ZETQ9cXUZAQ1laV0cXFBJEXFZeBVAHBFNUA0pYElFeVhQDWV0SQwEWQlpGWRoNA1cVBBk="
       headers:
         Host: "v2n4.11676767.xyz"
-  - name: "61109 6极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "179.43.166.190"
-    port: 443
-    uuid: "90157e25-cee1-4217-921e-91f300bc1a24"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs"
-      short-id: "428ef87fd47a3a32"
-    servername: "perevodchiki.su"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
   - name: "61109 极限白嫖trojan🏳️未知"
     type: "trojan"
     server: "jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net"
@@ -651,21 +609,6 @@ proxies:
     servername: "94.241.172.107"
     client-fingerprint: "chrome"
     skip-cert-verify: true
-  - name: "61110 4极限白嫖vless🏳️未知"
-    type: "vless"
-    server: "185.246.155.91"
-    port: 10103
-    uuid: "dbf3f074-3b18-43f3-b82a-debd8c879c69"
-    udp: true
-    network: "tcp"
-    tls: true
-    reality-opts:
-      public-key: "obQkp5VlQpnlt1hRLQ3VfHISYiiISZJyJZAMaIdjCko"
-      short-id: "6859f5b59e55aa30"
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
-    skip-cert-verify: true
-    flow: "xtls-rprx-vision"
   - name: "61110 1极限白嫖trojan🏳️未知"
     type: "trojan"
     server: "176.122.173.224"
@@ -675,20 +618,6 @@ proxies:
     network: "tcp"
     tls: true
     servername: "www.cloudflare.com"
-  - name: "61110 极限白嫖anytls🏳️未知"
-    type: "anytls"
-    server: "dddz-1-x.473221.xyz"
-    port: 43111
-    password: "65ec84f5-0dd4-4582-8b4f-592e50b22116"
-    udp: true
-    skip-cert-verify: true
-  - name: "61110 1极限白嫖anytls🏳️未知"
-    type: "anytls"
-    server: "forwarded.frnhk.xyz"
-    port: 2095
-    password: "98922052-34e7-42f0-a0c9-cbe6ddef6fdb"
-    udp: true
-    sni: "jp.gosthk.site"
   - name: "61110 7极限白嫖vless🏳️未知"
     type: "vless"
     server: "panel.apexkey.store"
