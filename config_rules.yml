@@ -52,6 +52,10 @@ dns:
     - '*.local'
     - '*.home.arpa'
     - '*.localdomain'
+    - '*.example'
+    - '*.invalid'
+    - '*.localhost'
+    - '*.test'
     - '*.intranet'
     - '*.internal'
     - localhost
@@ -62,6 +66,8 @@ dns:
     - www.msftconnecttest.com
     - '*.msftconnecttest.com'
     - '*.msftncsi.com'
+    - msftconnecttest.com
+    - msftncsi.com
     - connectivitycheck.gstatic.com
     - connectivitycheck.android.com
     - clients3.google.com
@@ -72,9 +78,30 @@ dns:
     - time.nist.gov
     - 'time.*'
     - 'ntp.*'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
     - '*.ntp.org'
     - pool.ntp.org
     - '*.pool.ntp.org'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
     - "connect.rom.miui.com"  # 小米设备检测
     - "*.msn.com"             # Windows更新检测
     - stun.*.*.*
@@ -84,6 +111,8 @@ dns:
     - music.163.com
     - '*.music.163.com'
     - '*.126.net'
+    - '*.music.126.net'
+    - music.126.net
     - api-jooxtt.sanook.com
     - api.joox.com
     - joox.com
@@ -110,8 +139,18 @@ dns:
     - tplinkrepeater.net
     - '*.tpddns.cn'
     - '*.ntp.org.cn'
+    - '*.time.edu.cn'
     - '*.openwrt.pool.ntp.org'
     - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - +.xboxlive.com
+    - +.battlenet.com.cn
+    - +.wotgame.cn
+    - +.wowsgame.cn
+    - +.warthunder.cn
     - '*.*.*.srv.nintendo.net'
     - '*.*.stun.playstation.net'
     - xbox.*.*.microsoft.com
