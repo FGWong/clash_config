@@ -268,3 +268,33 @@ proxies:
         host: support.zoom.us.vltj.qzz.io
     tfo: false
     skip-cert-verify: false
+  - name: "[CF-随机-06] 移动-HKG-443-WS-TLS (ggg)"
+    type: vless
+    server: 172.66.194.100
+    port: 443
+    uuid: 1c046259-8137-4d89-9700-0a3d28eb296b
+    network: ws
+    tls: true
+    udp: true
+    servername: ggg.weidy.de5.net
+    ws-opts:
+      path: "/1c046259-8137-4d89-9700-0a3d28eb296b?ed=2560"
+      headers:
+        Host: ggg.weidy.de5.net
+    client-fingerprint: chrome
+    ech: true
+  - name: "[CF-随机-12] vvHan优选 | 联通 | HKG | 104.17.214.8 (ggg)"
+    type: vless
+    server: 104.17.214.8
+    port: 443
+    uuid: 1c046259-8137-4d89-9700-0a3d28eb296b
+    network: ws
+    tls: true
+    udp: true
+    servername: ggg.weidy.de5.net
+    ws-opts:
+      path: "/1c046259-8137-4d89-9700-0a3d28eb296b?ed=2560"
+      headers:
+        Host: ggg.weidy.de5.net
+    client-fingerprint: chrome
+    ech: true

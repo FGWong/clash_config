@@ -1,28 +1,4 @@
 proxies:
-  - name: "61028 Residential & Quality"
-    type: "vless"
-    server: "x.toe.qd.je"
-    port: 443
-    uuid: "cf68b35d-7f43-4331-bab0-b453e9b91014"
-    tls: true
-    servername: "fiber-89-67.toc.dpdns.org"
-    network: "ws"
-    ws-opts:
-      path: "/vplaetshs"
-      headers:
-        Host: "fiber-89-67.toc.dpdns.org"
-  - name: "61028 Cellular Test"
-    type: "vless"
-    server: "y.toe.qd.je"
-    port: 443
-    uuid: "cf68b35d-7f43-4331-bab0-b453e9b91014"
-    tls: true
-    servername: "fiber-89-67.toc.dpdns.org"
-    network: "ws"
-    ws-opts:
-      path: "/vplaetshs"
-      headers:
-        Host: "fiber-89-67.toc.dpdns.org"
   - name: "61028 SG-auto"
     type: "vless"
     server: "v.toe.qd.je"
@@ -59,11 +35,23 @@ proxies:
       path: "/vplaetshs"
       headers:
         Host: "fiber-05-ax.toc.dpdns.org"
-  - name: "61028 RU-slow"
+  - name: "61029 Residential & Quality"
+    type: "vless"
+    server: "x.toe.qd.je"
+    port: 443
+    uuid: "cf68b35d-7f43-4331-bab0-b453e9b91014"
+    tls: true
+    servername: "fiber-89-67.toc.dpdns.org"
+    network: "ws"
+    ws-opts:
+      path: "/vplaetshs"
+      headers:
+        Host: "fiber-89-67.toc.dpdns.org"
+  - name: "61031 RU-slow"
     type: "vless"
     server: "z.toe.qd.je"
     port: 443
-    uuid: "46e6dab3-22db-4f92-b3ab-bd274d1115f4"
+    uuid: "d756af44-dbc4-42b3-83b2-67b2fccb84b1"
     tls: true
     servername: "fiber-13-zx.toc.dpdns.org"
     network: "ws"
@@ -71,11 +59,11 @@ proxies:
       path: "/vplaetshs"
       headers:
         Host: "fiber-13-zx.toc.dpdns.org"
-  - name: "61028 TH-F01"
+  - name: "61031 TH-F01"
     type: "vless"
     server: "e.toe.qd.je"
     port: 443
-    uuid: "5b0d6a6a-4f4b-45b8-a28c-64e5bed857fe"
+    uuid: "c6e83a03-953b-4666-8ec7-c0eda97a23aa"
     tls: true
     servername: "fiber-5p-mk.toc.dpdns.org"
     network: "ws"
@@ -83,15 +71,27 @@ proxies:
       path: "/vplaetshs"
       headers:
         Host: "fiber-5p-mk.toc.dpdns.org"
-  - name: "61028 JP-Unlimited"
+  - name: "61031 KR-Unlimited"
     type: "vless"
     server: "t.toe.qd.je"
     port: 443
-    uuid: "3949ae64-75b8-45a5-a621-147672e45e4a"
+    uuid: "36ed9ff2-7c9b-4d37-a38c-a7ab1eec19d4"
     tls: true
-    servername: "fiber-zn-pq.toc.dpdns.org"
+    servername: "fiber-ha-nj.toc.dpdns.org"
     network: "ws"
     ws-opts:
       path: "/vplaetshs"
       headers:
-        Host: "fiber-zn-pq.toc.dpdns.org"
+        Host: "fiber-ha-nj.toc.dpdns.org"
+  - name: "61101 Cellular Test"
+    type: "vless"
+    server: "y.toe.qd.je"
+    port: 443
+    uuid: "90473c4a-a6cf-4c51-9a70-00d55943f8f0"
+    tls: true
+    servername: "fiber-89-67.toc.dpdns.org"
+    network: "ws"
+    ws-opts:
+      path: "/vplaetshs"
+      headers:
+        Host: "fiber-89-67.toc.dpdns.org"
